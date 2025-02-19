@@ -3600,17 +3600,15 @@ do
                 GroupTransparency = 1,
                 Visible = false
             }, {
-                c('UICorner', {
-                    CornerRadius = UDim.new(0, 9)
                 }),
                 c('ImageLabel', {
                     Size = UDim2.new(0, j.IconSize, 0, j.IconSize),
                     Position = UDim2.new(0, ab.Padding, 0.5, 0),
                     AnchorPoint = Vector2.new(0, 0.5),
                     BackgroundTransparency = 1,
-                    Image = b.Icon'search'[1],
-                    ImageRectOffset = b.Icon'search'[2].ImageRectPosition,
-                    ImageRectSize = b.Icon'search'[2].ImageRectSize,
+                    Image = b.Icon''[1],
+                    ImageRectOffset = b.Icon''[2].ImageRectPosition,
+                    ImageRectSize = b.Icon''[2].ImageRectSize,
                     ThemeTag = {
                         ImageColor3 = 'PlaceholderText'
                     }
@@ -3633,7 +3631,7 @@ do
                 }),
                 n,
                 k
-            })
+            
             function j.Open(p)
                 o.Visible = true
                 d(o, 0.35, {
@@ -4250,14 +4248,13 @@ do
                         end)
                         if not J then
                             I:Destroy()
-                            warn("[ WindUI ]  '" .. identifyexecutor() .. "' doesnt support the URL Images. Error: " .. K)
+                            warn("[ X ]  '" .. identifyexecutor() .. "' doesnt support the URL Images. Error: " .. K)
                         end
                     else
                         if b.Icon(tostring(g.Icon))[1] then
                             I.Image = b.Icon(g.Icon)[1]
                             I.ImageRectOffset = b.Icon(g.Icon)[2].ImageRectPosition
                             I.ImageRectSize = b.Icon(g.Icon)[2].ImageRectSize
-                            B.Image = b.Icon(g.Icon)[1]
                             B.ImageRectOffset = b.Icon(g.Icon)[2].ImageRectPosition
                             B.ImageRectSize = b.Icon(g.Icon)[2].ImageRectSize
                         end

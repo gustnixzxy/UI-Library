@@ -13,7 +13,6 @@ local LocalizationService = game:GetService("LocalizationService");
 local http = game:GetService("HttpService");
 local LocalPlayer = game:GetService("Players").LocalPlayer;
 local NameID = LocalPlayer.Name;
-local GameName = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name;
 
 local utility = {};
 local Objects = {};
@@ -125,44 +124,11 @@ function Library:CreateWindow(hubname)
     MInimize_Button.Size = UDim2.new(0, 30, 0, 30)
     MInimize_Button.AutoButtonColor = false
     MInimize_Button.Font = Enum.Font.SourceSans
-    MInimize_Button.Text = "+"
+    MInimize_Button.Text = "-"
     MInimize_Button.TextColor3 = Color3.fromRGB(255, 255, 255)
     MInimize_Button.TextSize = 40.000
     MInimize_Button.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
 
-    Server_Time.Name = "Server_Time"
-    Server_Time.Parent = Body
-    Server_Time.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    Server_Time.BackgroundTransparency = 1.000
-    Server_Time.BorderColor3 = Color3.fromRGB(0, 0, 0)
-    Server_Time.BorderSizePixel = 0
-    Server_Time.Position = UDim2.new(0, 100, 0, 320)
-    Server_Time.Size = UDim2.new(0, 120, 0, 25)
-    Server_Time.Font = Enum.Font.SourceSansSemibold
-    Server_Time.Text = ""
-    Server_Time.TextColor3 = Color3.fromRGB(255, 255, 255)
-    Server_Time.TextSize = 14.000
-    Server_Time.TextXAlignment = Enum.TextXAlignment.Left
-
-    local ServerTimeFunc = {};
-    function ServerTimeFunc:Refresh(textadd)
-        Server_Time.Text = textadd;
-    end;
-
-    function UpdateTime()
-        local GameTime = math.floor(workspace.DistributedGameTime+0.5)
-        local Hour = math.floor(GameTime/(60^2))%24
-        local Minute = math.floor(GameTime/(60^1))%60
-        local Second = math.floor(GameTime/(60^0))%60
-        local FormatTime = string.format("%02d.%02d.%02d", Hour, Minute, Second)
-        ServerTimeFunc:Refresh("Game Time : " .. FormatTime)
-    end
-
-    spawn(function()
-        while game:GetService('RunService').Heartbeat:Wait() do
-            UpdateTime()
-        end
-    end)
 
     List_Tile.Name = "List_Tile"
     List_Tile.Parent = Body

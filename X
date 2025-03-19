@@ -1077,52 +1077,61 @@ function NeverZen.new(config)
 		LineColor = {},
 	};
 
-	local Content = Instance.new("ScreenGui")
-	local WindowFrame = Instance.new("Frame")
-	local UICorner = Instance.new("UICorner")
-	local UIStroke = Instance.new("UIStroke")
-	local Header = Instance.new("Frame")
-	local HeaderText = Instance.new("TextLabel")
-	local Line = Instance.new("Frame")
-	local Frame = Instance.new("Frame")
-	local UIListLayout = Instance.new("UIListLayout")
-	local UIStroke_2 = Instance.new("UIStroke")
-	local UICorner_2 = Instance.new("UICorner")
-	local TextBox = Instance.new("TextBox")
-	local SettingsButton = Instance.new("ImageButton")
-	local MinButton = Instance.new("ImageButton")
-	local Line_2 = Instance.new("Frame")
-	local BthFrames = Instance.new("Frame")
-	local InformationFrame = Instance.new("Frame")
-	local ProfileIcon = Instance.new("ImageLabel")
-	local UICorner_3 = Instance.new("UICorner")
-	local UIStroke_3 = Instance.new("UIStroke")
-	local UsernameText = Instance.new("TextLabel")
-	local UIGradient = Instance.new("UIGradient")
-	local TabButtons = Instance.new("Frame")
-	local TBSFrame = Instance.new("ScrollingFrame")
-	local UIListLayout_2 = Instance.new("UIListLayout")
-	local Line_3 = Instance.new("Frame")
-	local TabWin = Instance.new("Frame")
+-- Verifica se já existe um ScreenGui com o mesmo nome e o remove
+local existingGui = Services.CoreGui:FindFirstChild("ExcusyzUI")
+if existingGui then
+    existingGui:Destroy()
+end
 
-	Content.Name = NeverZen:RandomString()
-	Content.Parent = Services.CoreGui;
-	Content.ResetOnSpawn = false
-	Content.IgnoreGuiInset = true
-	Content.ZIndexBehavior = Enum.ZIndexBehavior.Global;
+-- Criação da nova interface
+local Content = Instance.new("ScreenGui")
+Content.Name = "ExcusyzUI" -- Nome fixo para evitar múltiplas execuções
+Content.Parent = Services.CoreGui
+Content.ResetOnSpawn = false
+Content.IgnoreGuiInset = true
+Content.ZIndexBehavior = Enum.ZIndexBehavior.Global
 
-	NeverZen.ProtectGui(Content);
+NeverZen.ProtectGui(Content)
 
-	WindowFrame.Name = NeverZen:RandomString()
-	WindowFrame.Parent = Content
-	WindowFrame.BackgroundColor3 = NeverZen.Theme.WindowBackgroundColor
-	WindowFrame.BackgroundTransparency = 0.1
-	WindowFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
-	WindowFrame.BorderSizePixel = 0
-	WindowFrame.ClipsDescendants = true
-	WindowFrame.Position = UDim2.new(0, 177, 0, 177)
-	WindowFrame.Size = UDim2.new(0,0,0,0)
-	WindowFrame.Active = true
+local WindowFrame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local UIStroke = Instance.new("UIStroke")
+local Header = Instance.new("Frame")
+local HeaderText = Instance.new("TextLabel")
+local Line = Instance.new("Frame")
+local Frame = Instance.new("Frame")
+local UIListLayout = Instance.new("UIListLayout")
+local SearchFrame = Instance.new("Frame")
+local SearchButton = Instance.new("ImageButton")
+local UIStroke_2 = Instance.new("UIStroke")
+local UICorner_2 = Instance.new("UICorner")
+local TextBox = Instance.new("TextBox")
+local SettingsButton = Instance.new("ImageButton")
+local MinButton = Instance.new("TextButton") -- Alterado para botão de texto
+local Line_2 = Instance.new("Frame")
+local BthFrames = Instance.new("Frame")
+local InformationFrame = Instance.new("Frame")
+local ProfileIcon = Instance.new("ImageLabel")
+local UICorner_3 = Instance.new("UICorner")
+local UIStroke_3 = Instance.new("UIStroke")
+local UsernameText = Instance.new("TextLabel")
+local UIGradient = Instance.new("UIGradient")
+local TabButtons = Instance.new("Frame")
+local TBSFrame = Instance.new("ScrollingFrame")
+local UIListLayout_2 = Instance.new("UIListLayout")
+local Line_3 = Instance.new("Frame")
+local TabWin = Instance.new("Frame")
+
+WindowFrame.Name = NeverZen:RandomString()
+WindowFrame.Parent = Content
+WindowFrame.BackgroundColor3 = NeverZen.Theme.WindowBackgroundColor
+WindowFrame.BackgroundTransparency = 0.1
+WindowFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+WindowFrame.BorderSizePixel = 0
+WindowFrame.ClipsDescendants = true
+WindowFrame.Position = UDim2.new(0, 177, 0, 177)
+WindowFrame.Size = UDim2.new(0, 0, 0, 0)
+WindowFrame.Active = true
 
 	table.insert(WindowSignal.FrameMemory.WindowBackgroundColor , WindowFrame)
 
@@ -1251,23 +1260,83 @@ function NeverZen.new(config)
 	UIListLayout.VerticalAlignment = Enum.VerticalAlignment.Center
 	UIListLayout.Padding = UDim.new(0, 5)
 
+	SearchFrame.Name = NeverZen:RandomString()
+	SearchFrame.Parent = Frame
+	SearchFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	SearchFrame.BackgroundTransparency = 1.000
+	SearchFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	SearchFrame.BorderSizePixel = 0
+	SearchFrame.ClipsDescendants = true
+	SearchFrame.Size = UDim2.new(0, 140, 0, 22)
 
-	local MinButton = Instance.new("TextButton")
+	SearchButton.Name = NeverZen:RandomString()
+	SearchButton.Parent = SearchFrame
+	SearchButton.AnchorPoint = Vector2.new(1, 0.5)
+	SearchButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	SearchButton.BackgroundTransparency = 1.000
+	SearchButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	SearchButton.BorderSizePixel = 0
+	SearchButton.Position = UDim2.new(1, -2, 0.5, 0)
+	SearchButton.Size = UDim2.new(0.800000012, 0, 0.800000012, 0)
+	SearchButton.SizeConstraint = Enum.SizeConstraint.RelativeYY
+	SearchButton.Image = "rbxassetid://10734943674"
+	SearchButton.ImageTransparency = 0.200
 
-MinButton.Name = NeverZen:RandomString()
-MinButton.Parent = Frame
-MinButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-MinButton.BackgroundTransparency = 1.000
-MinButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
-MinButton.BorderSizePixel = 0
-MinButton.Size = UDim2.new(1, 0, 1, 0)
-MinButton.SizeConstraint = Enum.SizeConstraint.RelativeYY
-MinButton.Font = Enum.Font.GothamBold
-MinButton.Text = "─"
-MinButton.TextSize = 20
-MinButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-MinButton.TextTransparency = 0.2
+	UIStroke_2.Color = Color3.fromRGB(24, 24, 24)
+	UIStroke_2.Parent = SearchFrame
 
+	UICorner_2.CornerRadius = UDim.new(0, 4)
+	UICorner_2.Parent = SearchFrame
+
+	TextBox.Parent = SearchFrame
+	TextBox.AnchorPoint = Vector2.new(0, 0.5)
+	TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextBox.BackgroundTransparency = 1.000
+	TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	TextBox.BorderSizePixel = 0
+	TextBox.Position = UDim2.new(0, 5, 0.5, 0)
+	TextBox.Size = UDim2.new(1, -27, 0.649999976, 0)
+	TextBox.ClearTextOnFocus = false
+	TextBox.Font = Enum.Font.GothamMedium
+	TextBox.PlaceholderText = "Search"
+	TextBox.Text = ""
+	TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextBox.TextSize = 14.000
+	TextBox.TextTransparency = 0.200
+	TextBox.TextXAlignment = Enum.TextXAlignment.Left
+
+	TextBox:GetPropertyChangedSignal('Text'):Connect(function()
+
+		if WindowSignal.SelectedTab then
+			if TextBox.Text:byte() then
+				WindowSignal.SelectedTab.Search(TextBox.Text);
+			else
+				WindowSignal.SelectedTab.Search(nil);
+			end
+		end;
+	end)
+
+	SettingsButton.Name = NeverZen:RandomString()
+	SettingsButton.Parent = Frame
+	SettingsButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	SettingsButton.BackgroundTransparency = 1.000
+	SettingsButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	SettingsButton.BorderSizePixel = 0
+	SettingsButton.Size = UDim2.new(0.899999976, 0, 0.899999976, 0)
+	SettingsButton.SizeConstraint = Enum.SizeConstraint.RelativeYY
+	SettingsButton.Image = "rbxassetid://10734950309"
+	SettingsButton.ImageTransparency = 0.200
+
+	MinButton.Name = NeverZen:RandomString()
+	MinButton.Parent = Frame
+	MinButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	MinButton.BackgroundTransparency = 1.000
+	MinButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	MinButton.BorderSizePixel = 0
+	MinButton.Size = UDim2.new(1, 0, 1, 0)
+	MinButton.SizeConstraint = Enum.SizeConstraint.RelativeYY
+	MinButton.Image = "rbxassetid://9886659001"
+	MinButton.ImageTransparency = 0.200
 
 	Line_2.Name = NeverZen:RandomString()
 	Line_2.Parent = WindowFrame
@@ -1506,12 +1575,14 @@ MinButton.TextTransparency = 0.2
     TBSTitle.ZIndex = 5
     TBSTitle.Font = Enum.Font.GothamBold
     TBSTitle.Text = name
-    TBSTitle.TextColor3 = color or Color3.fromRGB(255, 255, 255) -- Usa a cor passada ou branco por padrão
+    TBSTitle.TextColor3 = color or Color3.fromRGB(255, 255, 255) -- Aplica a cor corretamente
     TBSTitle.TextSize = 14.000
     TBSTitle.TextTransparency = 1
     TBSTitle.TextXAlignment = Enum.TextXAlignment.Left
 
-    task.delay(#WindowSignal.Tabs / 5, function()
+    -- Garante que a cor seja aplicada antes do Tween
+    task.spawn(function()
+        task.wait(#WindowSignal.Tabs / 5)
         TweenService:Create(TBSTitle, TweenInfo.new(0.45), {
             TextTransparency = 0.75
         }):Play()
@@ -3187,3 +3258,5 @@ function NeverZen:CreateNotifier()
 end;
 
 return NeverZen;
+
+-- ggs

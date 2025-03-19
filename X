@@ -1,3 +1,11 @@
+--[[
+    		NEVERZEN INTERFACE
+
+    Author: 4lpaca
+    License: MIT
+    GitHub: https://github.com/3345-c-a-t-s-u-s/NeverZen
+--]]
+
 cloneref = cloneref or function(...) return ... end;
 cloenfunction = cloenfunction or function(...) return ... end;
 hookfunction = hookfunction or function(a,b) return a end;
@@ -1077,15 +1085,13 @@ function NeverZen.new(config)
 		LineColor = {},
 	};
 
--- Verifica se já existe um ScreenGui com o mesmo nome e o remove
 local existingGui = Services.CoreGui:FindFirstChild("ExcusyzUI")
 if existingGui then
     existingGui:Destroy()
 end
 
--- Criação da nova interface
 local Content = Instance.new("ScreenGui")
-Content.Name = "ExcusyzUI" -- Nome fixo para evitar múltiplas execuções
+Content.Name = "ExcusyzUI"
 Content.Parent = Services.CoreGui
 Content.ResetOnSpawn = false
 Content.IgnoreGuiInset = true
@@ -1562,36 +1568,32 @@ WindowFrame.Active = true
 		};
 	end;
 
-	function WindowSignal:AddLabel(name, color)
-    local TBSTitle = Instance.new("TextLabel")
+	function WindowSignal:AddLabel(name)
+		local TBSTitle = Instance.new("TextLabel")
 
-    TBSTitle.Name = NeverZen:RandomString()
-    TBSTitle.Parent = TBSFrame
-    TBSTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    TBSTitle.BackgroundTransparency = 1.000
-    TBSTitle.BorderColor3 = Color3.fromRGB(0, 0, 0)
-    TBSTitle.BorderSizePixel = 0
-    TBSTitle.Size = UDim2.new(1, -17, 0, 15)
-    TBSTitle.ZIndex = 5
-    TBSTitle.Font = Enum.Font.GothamBold
-    TBSTitle.Text = name
-    TBSTitle.TextColor3 = color or Color3.fromRGB(255, 255, 255) -- Aplica a cor corretamente
-    TBSTitle.TextSize = 14.000
-    TBSTitle.TextTransparency = 1
-    TBSTitle.TextXAlignment = Enum.TextXAlignment.Left
+		TBSTitle.Name = NeverZen:RandomString()
+		TBSTitle.Parent = TBSFrame
+		TBSTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		TBSTitle.BackgroundTransparency = 1.000
+		TBSTitle.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		TBSTitle.BorderSizePixel = 0
+		TBSTitle.Size = UDim2.new(1, -17, 0, 15)
+		TBSTitle.ZIndex = 5
+		TBSTitle.Font = Enum.Font.GothamBold
+		TBSTitle.Text = name
+		TBSTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+		TBSTitle.TextSize = 14.000
+		TBSTitle.TextTransparency = 1
+		TBSTitle.TextXAlignment = Enum.TextXAlignment.Left
 
-    -- Garante que a cor seja aplicada antes do Tween
-    task.spawn(function()
-        task.wait(#WindowSignal.Tabs / 5)
-        TweenService:Create(TBSTitle, TweenInfo.new(0.45), {
-            TextTransparency = 0.75
-        }):Play()
-    end)
+		task.delay(#WindowSignal.Tabs / 5,function()
+			TweenService:Create(TBSTitle,TweenInfo.new(0.45),{
+				TextTransparency = 0.75
+			}):Play()
+		end)
 
-    table.insert(WindowSignal.Tabs, TBSTitle)
-    
-    return TBSTitle
-end
+		table.insert(WindowSignal.Tabs,{TBSTitle});
+	end;
 
 	function WindowSignal:AddTab(config)
 		config = config or {};
@@ -3259,4 +3261,4 @@ end;
 
 return NeverZen;
 
--- ggs
+-- finish

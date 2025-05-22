@@ -1,14 +1,3 @@
---[[
-    		NEVERZEN INTERFACE
-
-    Author: 4lpaca
-    License: MIT
-    GitHub: https://github.com/3345-c-a-t-s-u-s/NeverZen
---]]
-
-cloneref = cloneref or function(...) return ... end;
-cloenfunction = cloenfunction or function(...) return ... end;
-hookfunction = hookfunction or function(a,b) return a end;
 
 export type Services = {
 	UserInputService : UserInputService,
@@ -1186,7 +1175,6 @@ function NeverZen.new(config)
 	local UIStroke_2 = Instance.new("UIStroke")
 	local UICorner_2 = Instance.new("UICorner")
 	local TextBox = Instance.new("TextBox")
-	local SettingsButton = Instance.new("ImageButton")
 	local MinButton = Instance.new("ImageButton")
 	local Line_2 = Instance.new("Frame")
 	local BthFrames = Instance.new("Frame")
@@ -1348,17 +1336,6 @@ function NeverZen.new(config)
 	UIListLayout.VerticalAlignment = Enum.VerticalAlignment.Center
 	UIListLayout.Padding = UDim.new(0, 5)
 
-	SettingsButton.Name = NeverZen:RandomString()
-	SettingsButton.Parent = Frame
-	SettingsButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	SettingsButton.BackgroundTransparency = 1.000
-	SettingsButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
-	SettingsButton.BorderSizePixel = 0
-	SettingsButton.Size = UDim2.new(0.899999976, 0, 0.899999976, 0)
-	SettingsButton.SizeConstraint = Enum.SizeConstraint.RelativeYY
-	SettingsButton.Image = "rbxassetid://10734950309"
-	SettingsButton.ImageTransparency = 0.200
-
 	MinButton.Name = NeverZen:RandomString()
 	MinButton.Parent = Frame
 	MinButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -1367,8 +1344,12 @@ function NeverZen.new(config)
 	MinButton.BorderSizePixel = 0
 	MinButton.Size = UDim2.new(1, 0, 1, 0)
 	MinButton.SizeConstraint = Enum.SizeConstraint.RelativeYY
-	MinButton.Image = "rbxassetid://9886659001"
+	MinButton.Image = "rbxassetid://18328658828"
 	MinButton.ImageTransparency = 0.200
+
+    MinButton.MouseButton1Click:Connect(function()
+	NeverZen:Destroy()
+end)
 
 	Line_2.Name = NeverZen:RandomString()
 	Line_2.Parent = WindowFrame

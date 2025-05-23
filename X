@@ -1,4 +1,4 @@
--- By Normal Hub TEAM c4
+-- By Normal Hub TEAM
 
 local a
 a = {
@@ -283,6 +283,7 @@ do
                 end)
                 if not t then
                     r:Destroy()
+                    warn("[ WindUI.Creator ]  '" .. identifyexecutor() .. "' doesnt support the URL Images. Error: " .. u)
                 end
             elseif string.find(j, 'rbxassetid') then
                 r.ImageLabel.Image = j
@@ -4518,8 +4519,56 @@ do
                 end
                 return n
             end
-            
-            
+            function c.Search(n, o)
+                o = o or ''
+                local p = k(o)
+                f.Visible = true
+                g.Frame.Results.Frame.Visible = true
+                for q, r in next, f:GetChildren() do
+                    if r.ClassName ~= 'UIListLayout' and r.ClassName ~= 'UIPadding' then
+                        r:Destroy()
+                    end
+                end
+                if p and next(p) ~= nil then
+                    for s, t in next, p do
+                        local u = c.Icons.Tab
+                        local v = i(t.Title, nil, u, f, true, function()
+                            c:Close()
+                            af:SelectTab(s)
+                        end)
+                        if t.Elements and next(t.Elements) ~= nil then
+                            for w, x in next, t.Elements do
+                                local y = c.Icons[x.__type]
+                                i(x.Title, x.Desc, y, v:FindFirstChild'ParentContainer' and v.ParentContainer.Frame or nil, false, function()
+                                    c:Close()
+                                    af:SelectTab(s)
+                                end)
+                            end
+                        end
+                    end
+                elseif o ~= '' then
+                    ad('TextLabel', {
+                        Size = UDim2.new(1, 0, 0, 70),
+                        BackgroundTransparency = 1,
+                        Text = 'No results found',
+                        TextSize = 16,
+                        ThemeTag = {
+                            TextColor3 = 'Text'
+                        },
+                        TextTransparency = 0.2,
+                        BackgroundTransparency = 1,
+                        FontFace = Font.new(ac.Font, Enum.FontWeight.Medium),
+                        Parent = f,
+                        Name = 'NotFound'
+                    })
+                else
+                    f.Visible = false
+                    g.Frame.Results.Frame.Visible = false
+                end
+            end
+            d:GetPropertyChangedSignal'Text':Connect(function()
+                c:Search(d.Text)
+            end)
             f.UIListLayout:GetPropertyChangedSignal'AbsoluteContentSize':Connect(function()
                 ae(f, 0.06, {
                     Size = UDim2.new(1, 0, 0, math.clamp(f.UIListLayout.AbsoluteContentSize.Y + (c.Padding * 2), 0, c.MaxHeight))
@@ -5164,7 +5213,20 @@ do
                     }
                 })
             end
-            
+            task.spawn(function()
+                if b.Icon then
+                    local x = ac.Image(b.Icon, b.Title, b.UICorner - 4, b.Folder, 'Window')
+                    x.Parent = b.UIElements.Main.Main.Topbar.Left
+                    x.Size = UDim2.new(0, 22, 0, 22)
+                    if ac.Icon(tostring(b.Icon))[1] then
+                        o.Image = ac.Icon(b.Icon)[1]
+                        o.ImageRectOffset = ac.Icon(b.Icon)[2].ImageRectPosition
+                        o.ImageRectSize = ac.Icon(b.Icon)[2].ImageRectSize
+                    end
+                else
+                    o.Visible = false
+                end
+            end)
             function b.SetToggleKey(x, y)
                 b.ToggleKey = y
             end
@@ -5196,7 +5258,28 @@ do
                 }, Enum.EasingStyle.Quint, Enum.EasingDirection.Out):Play()
                 b.IsFullscreen = not C
             end, 998)
-           
+            b:CreateTopbarButton('minus', function()
+                b:Close()
+                task.spawn(function()
+                    task.wait(0.3)
+                    if not j and b.IsOpenButtonEnabled then
+                        k.Visible = true
+                    end
+                end)
+                local C = j and 'Press ' .. b.ToggleKey.Name .. ' to open the Window' or 'Click the Button to open the Window'
+                if not b.IsOpenButtonEnabled then
+                    af = true
+                end
+                if not af then
+                    af = not af
+                    ag.WindUI:Notify{
+                        Title = 'Minimize',
+                        Content = "You've closed the Window. " .. C,
+                        Icon = 'eye-off',
+                        Duration = 5
+                    }
+                end
+            end, 997)
             function b.Open(C)
                 task.spawn(function()
                     b.Closed = false
@@ -5240,7 +5323,11 @@ do
                 ae(i, 0.25, {
                     ImageTransparency = 1
                 }, Enum.EasingStyle.Quint, Enum.EasingDirection.Out):Play()
-                
+                if h then
+                    ae(h, 0.25, {
+                        Transparency = 1
+                    }, Enum.EasingStyle.Quint, Enum.EasingDirection.Out):Play()
+                end
                 task.spawn(function()
                     task.wait(0.25)
                     b.UIElements.Main.Visible = false
@@ -5561,7 +5648,11 @@ do
                     end
                 end
             end)
-            
+            local G, H = a.load't', false
+            SearchButton = b:CreateTopbarButton('search', function()
+                if H then
+                    return
+                end
                 G.new(b.TabModule, b.UIElements.Main, function()
                     H = false
                     b.CanResize = true
@@ -5576,6 +5667,7 @@ do
                 f.Active = true
                 H = true
                 b.CanResize = false
+            end, 996)
             return b
         end
     end

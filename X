@@ -1,4 +1,4 @@
--- By Normal Hub TEAM 12
+-- By Normal Hub TEAM 877
 
 local a
 a = {
@@ -4204,47 +4204,62 @@ do
                     Colorpicker = 'palette'
                 }
             }
-            local e, f = ad('ImageLabel', {
-    Image = ac.Icon'x'[1],
-    ImageRectSize = ac.Icon'x'[2].ImageRectSize,
-    ImageRectOffset = ac.Icon'x'[2].ImageRectPosition,
-    BackgroundTransparency = 1,
-    ThemeTag = {
-        ImageColor3 = 'Text'
-    },
-    ImageTransparency = 0.2,
-    Size = UDim2.new(0, c.IconSize, 0, c.IconSize)
-}, {
-    ad('TextButton', {
-        Size = UDim2.new(1, 8, 1, 8),
-        BackgroundTransparency = 1,
-        Active = true,
-        ZIndex = 999999999,
-        AnchorPoint = Vector2.new(0.5, 0.5),
-        Position = UDim2.new(0.5, 0, 0.5, 0),
-        Text = ''
-    })
-}), ad('ScrollingFrame', {
-    Size = UDim2.new(1, 0, 0, 0),
-    AutomaticCanvasSize = 'Y',
-    ScrollingDirection = 'Y',
-    ElasticBehavior = 'Never',
-    ScrollBarThickness = 0,
-    CanvasSize = UDim2.new(0, 0, 0, 0),
-    BackgroundTransparency = 1,
-    Visible = false
-}, {
-    ad('UIListLayout', {
-        Padding = UDim.new(0, 0),
-        FillDirection = 'Vertical'
-    }),
-    ad('UIPadding', {
-        PaddingTop = UDim.new(0, c.Padding),
-        PaddingLeft = UDim.new(0, c.Padding),
-        PaddingRight = UDim.new(0, c.Padding),
-        PaddingBottom = UDim.new(0, c.Padding)
-    })
-})
+            local d, e, f = ad('ImageLabel', {
+                Text = '',
+                PlaceholderText = 'Search...',
+                ThemeTag = {
+                    PlaceholderColor3 = 'Placeholder',
+                    TextColor3 = 'Text'
+                },
+                Size = UDim2.new(1, - ((c.IconSize * 2) + (c.Padding * 2)), 0, 0),
+                AutomaticSize = 'Y',
+                ClipsDescendants = true,
+                ClearTextOnFocus = false,
+                BackgroundTransparency = 1,
+                TextXAlignment = 'Left',
+                FontFace = Font.new(ac.Font, Enum.FontWeight.Regular),
+                TextSize = 17
+            }), ad('ImageLabel', {
+                Image = ac.Icon'x'[1],
+                ImageRectSize = ac.Icon'x'[2].ImageRectSize,
+                ImageRectOffset = ac.Icon'x'[2].ImageRectPosition,
+                BackgroundTransparency = 1,
+                ThemeTag = {
+                    ImageColor3 = 'Text'
+                },
+                ImageTransparency = 0.2,
+                Size = UDim2.new(0, c.IconSize, 0, c.IconSize)
+            }, {
+                ad('TextButton', {
+                    Size = UDim2.new(1, 8, 1, 8),
+                    BackgroundTransparency = 1,
+                    Active = true,
+                    ZIndex = 999999999,
+                    AnchorPoint = Vector2.new(0.5, 0.5),
+                    Position = UDim2.new(0.5, 0, 0.5, 0),
+                    Text = ''
+                })
+            }), ad('ScrollingFrame', {
+                Size = UDim2.new(1, 0, 0, 0),
+                AutomaticCanvasSize = 'Y',
+                ScrollingDirection = 'Y',
+                ElasticBehavior = 'Never',
+                ScrollBarThickness = 0,
+                CanvasSize = UDim2.new(0, 0, 0, 0),
+                BackgroundTransparency = 1,
+                Visible = false
+            }, {
+                ad('UIListLayout', {
+                    Padding = UDim.new(0, 0),
+                    FillDirection = 'Vertical'
+                }),
+                ad('UIPadding', {
+                    PaddingTop = UDim.new(0, c.Padding),
+                    PaddingLeft = UDim.new(0, c.Padding),
+                    PaddingRight = UDim.new(0, c.Padding),
+                    PaddingBottom = UDim.new(0, c.Padding)
+                })
+            })
             local g = ac.NewRoundFrame(c.Radius, 'Squircle', {
                 Size = UDim2.new(1, 0, 1, 0),
                 ThemeTag = {
@@ -4503,56 +4518,8 @@ do
                 end
                 return n
             end
-            function c.Search(n, o)
-                o = o or ''
-                local p = k(o)
-                f.Visible = true
-                g.Frame.Results.Frame.Visible = true
-                for q, r in next, f:GetChildren() do
-                    if r.ClassName ~= 'UIListLayout' and r.ClassName ~= 'UIPadding' then
-                        r:Destroy()
-                    end
-                end
-                if p and next(p) ~= nil then
-                    for s, t in next, p do
-                        local u = c.Icons.Tab
-                        local v = i(t.Title, nil, u, f, true, function()
-                            c:Close()
-                            af:SelectTab(s)
-                        end)
-                        if t.Elements and next(t.Elements) ~= nil then
-                            for w, x in next, t.Elements do
-                                local y = c.Icons[x.__type]
-                                i(x.Title, x.Desc, y, v:FindFirstChild'ParentContainer' and v.ParentContainer.Frame or nil, false, function()
-                                    c:Close()
-                                    af:SelectTab(s)
-                                end)
-                            end
-                        end
-                    end
-                elseif o ~= '' then
-                    ad('TextLabel', {
-                        Size = UDim2.new(1, 0, 0, 70),
-                        BackgroundTransparency = 1,
-                        Text = 'No results found',
-                        TextSize = 16,
-                        ThemeTag = {
-                            TextColor3 = 'Text'
-                        },
-                        TextTransparency = 0.2,
-                        BackgroundTransparency = 1,
-                        FontFace = Font.new(ac.Font, Enum.FontWeight.Medium),
-                        Parent = f,
-                        Name = 'NotFound'
-                    })
-                else
-                    f.Visible = false
-                    g.Frame.Results.Frame.Visible = false
-                end
-            end
-            d:GetPropertyChangedSignal'Text':Connect(function()
-                c:Search(d.Text)
-            end)
+            
+            
             f.UIListLayout:GetPropertyChangedSignal'AbsoluteContentSize':Connect(function()
                 ae(f, 0.06, {
                     Size = UDim2.new(1, 0, 0, math.clamp(f.UIListLayout.AbsoluteContentSize.Y + (c.Padding * 2), 0, c.MaxHeight))
@@ -5594,11 +5561,7 @@ do
                     end
                 end
             end)
-            local G, H = a.load't', false
-            SearchButton = b:CreateTopbarButton('search', function()
-                if H then
-                    return
-                end
+            
                 G.new(b.TabModule, b.UIElements.Main, function()
                     H = false
                     b.CanResize = true
@@ -5613,7 +5576,6 @@ do
                 f.Active = true
                 H = true
                 b.CanResize = false
-            end, 996)
             return b
         end
     end

@@ -1,4 +1,4 @@
--- By Normal Hub TEAM6666
+-- ByHenrqrz
 
 local a
 a = {
@@ -5535,7 +5535,7 @@ do
                 end
             end)
             local G, H = a.load't', false
-            SearchButton = b:CreateTopbarButton('', function()
+            SearchButton = b:CreateTopbarButton('TextButton', function()
                 if H then
                     return
                 end

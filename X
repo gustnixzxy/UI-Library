@@ -1,4 +1,4 @@
--- By Normal Hub TEAM 7666
+-- By Normal Hub TEAM c4
 
 local a
 a = {
@@ -5244,23 +5244,7 @@ do
                 }, Enum.EasingStyle.Quint, Enum.EasingDirection.Out):Play()
                 b.IsFullscreen = not C
             end, 998)
-            b:CreateTopbarButton('minus', function()
-                b:Close()
-                task.spawn(function()
-                    task.wait(0.3)
-                    if not j and b.IsOpenButtonEnabled then
-                        k.Visible = true
-                    end
-                end)
-                local C = j and 'Press ' .. b.ToggleKey.Name .. ' to open the Window' or 'Click the Button to open the Window'
-                if not b.IsOpenButtonEnabled then
-                    af = true
-                end
-                if not af then
-                    af = not af
-                    
-                end
-            end, 997)
+           
             function b.Open(C)
                 task.spawn(function()
                     b.Closed = false
@@ -5304,11 +5288,7 @@ do
                 ae(i, 0.25, {
                     ImageTransparency = 1
                 }, Enum.EasingStyle.Quint, Enum.EasingDirection.Out):Play()
-                if h then
-                    ae(h, 0.25, {
-                        Transparency = 1
-                    }, Enum.EasingStyle.Quint, Enum.EasingDirection.Out):Play()
-                end
+                
                 task.spawn(function()
                     task.wait(0.25)
                     b.UIElements.Main.Visible = false

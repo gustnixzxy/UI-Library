@@ -1,4 +1,4 @@
--- By Normal Hub TEAM c4
+-- By Normal Hub TEAM 7666
 
 local a
 a = {
@@ -5258,12 +5258,7 @@ do
                 end
                 if not af then
                     af = not af
-                    ag.WindUI:Notify{
-                        Title = 'Minimize',
-                        Content = "You've closed the Window. " .. C,
-                        Icon = 'eye-off',
-                        Duration = 5
-                    }
+                    
                 end
             end, 997)
             function b.Open(C)

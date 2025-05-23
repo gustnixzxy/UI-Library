@@ -1,4 +1,4 @@
--- By Normal Hub TEAM 877
+-- By Normal Hub TEAM c4
 
 local a
 a = {
@@ -4204,7 +4204,7 @@ do
                     Colorpicker = 'palette'
                 }
             }
-            local d, e, f = ad('ImageLabel', {
+            local d, e, f = ad('TextBox', {
                 Text = '',
                 PlaceholderText = 'Search...',
                 ThemeTag = {

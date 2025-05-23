@@ -1,4 +1,4 @@
--- By henqrz
+-- By henqrzzzz pae
 
 local a
 a = {
@@ -5483,26 +5483,8 @@ do
                     end
                 end
             end)
-            local G, H = a.load't', false
-            SearchButton = b:CreateTopbarButton('TextButton', function()
-                if H then
-                    return
-                end
-                G.new(b.TabModule, b.UIElements.Main, function()
-                    H = false
-                    b.CanResize = true
-                    ae(f, 0.1, {
-                        ImageTransparency = 1
-                    }):Play()
-                    f.Active = false
-                end)
-                ae(f, 0.1, {
-                    ImageTransparency = 0.65
-                }):Play()
-                f.Active = true
-                H = true
-                b.CanResize = false
-            end, 996)
+           local G, H = nil, false -- Removido uso de a.load't'               
+                
             return b
         end
     end

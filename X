@@ -1,4 +1,4 @@
--- By Normal Hub TEAM c4
+-- By Normal Hub TEAM 12
 
 local a
 a = {
@@ -4204,62 +4204,47 @@ do
                     Colorpicker = 'palette'
                 }
             }
-            local d, e, f = ad('TextBox', {
-                Text = '',
-                PlaceholderText = 'Search...',
-                ThemeTag = {
-                    PlaceholderColor3 = 'Placeholder',
-                    TextColor3 = 'Text'
-                },
-                Size = UDim2.new(1, - ((c.IconSize * 2) + (c.Padding * 2)), 0, 0),
-                AutomaticSize = 'Y',
-                ClipsDescendants = true,
-                ClearTextOnFocus = false,
-                BackgroundTransparency = 1,
-                TextXAlignment = 'Left',
-                FontFace = Font.new(ac.Font, Enum.FontWeight.Regular),
-                TextSize = 17
-            }), ad('ImageLabel', {
-                Image = ac.Icon'x'[1],
-                ImageRectSize = ac.Icon'x'[2].ImageRectSize,
-                ImageRectOffset = ac.Icon'x'[2].ImageRectPosition,
-                BackgroundTransparency = 1,
-                ThemeTag = {
-                    ImageColor3 = 'Text'
-                },
-                ImageTransparency = 0.2,
-                Size = UDim2.new(0, c.IconSize, 0, c.IconSize)
-            }, {
-                ad('TextButton', {
-                    Size = UDim2.new(1, 8, 1, 8),
-                    BackgroundTransparency = 1,
-                    Active = true,
-                    ZIndex = 999999999,
-                    AnchorPoint = Vector2.new(0.5, 0.5),
-                    Position = UDim2.new(0.5, 0, 0.5, 0),
-                    Text = ''
-                })
-            }), ad('ScrollingFrame', {
-                Size = UDim2.new(1, 0, 0, 0),
-                AutomaticCanvasSize = 'Y',
-                ScrollingDirection = 'Y',
-                ElasticBehavior = 'Never',
-                ScrollBarThickness = 0,
-                CanvasSize = UDim2.new(0, 0, 0, 0),
-                BackgroundTransparency = 1,
-                Visible = false
-            }, {
-                ad('UIListLayout', {
-                    Padding = UDim.new(0, 0),
-                    FillDirection = 'Vertical'
-                }),
-                ad('UIPadding', {
-                    PaddingTop = UDim.new(0, c.Padding),
-                    PaddingLeft = UDim.new(0, c.Padding),
-                    PaddingRight = UDim.new(0, c.Padding),
-                    PaddingBottom = UDim.new(0, c.Padding)
-                })
-            })
+            local e, f = ad('ImageLabel', {
+    Image = ac.Icon'x'[1],
+    ImageRectSize = ac.Icon'x'[2].ImageRectSize,
+    ImageRectOffset = ac.Icon'x'[2].ImageRectPosition,
+    BackgroundTransparency = 1,
+    ThemeTag = {
+        ImageColor3 = 'Text'
+    },
+    ImageTransparency = 0.2,
+    Size = UDim2.new(0, c.IconSize, 0, c.IconSize)
+}, {
+    ad('TextButton', {
+        Size = UDim2.new(1, 8, 1, 8),
+        BackgroundTransparency = 1,
+        Active = true,
+        ZIndex = 999999999,
+        AnchorPoint = Vector2.new(0.5, 0.5),
+        Position = UDim2.new(0.5, 0, 0.5, 0),
+        Text = ''
+    })
+}), ad('ScrollingFrame', {
+    Size = UDim2.new(1, 0, 0, 0),
+    AutomaticCanvasSize = 'Y',
+    ScrollingDirection = 'Y',
+    ElasticBehavior = 'Never',
+    ScrollBarThickness = 0,
+    CanvasSize = UDim2.new(0, 0, 0, 0),
+    BackgroundTransparency = 1,
+    Visible = false
+}, {
+    ad('UIListLayout', {
+        Padding = UDim.new(0, 0),
+        FillDirection = 'Vertical'
+    }),
+    ad('UIPadding', {
+        PaddingTop = UDim.new(0, c.Padding),
+        PaddingLeft = UDim.new(0, c.Padding),
+        PaddingRight = UDim.new(0, c.Padding),
+        PaddingBottom = UDim.new(0, c.Padding)
+    })
+})
             local g = ac.NewRoundFrame(c.Radius, 'Squircle', {
                 Size = UDim2.new(1, 0, 1, 0),
                 ThemeTag = {

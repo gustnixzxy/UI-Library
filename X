@@ -1,4 +1,7 @@
--- ByHenrqrz
+-- ts file was generated at discord.gg/25ms
+
+
+
 
 local a
 a = {

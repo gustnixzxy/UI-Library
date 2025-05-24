@@ -4565,14 +4565,7 @@ do
                     g.Frame.Results.Frame.Visible = false
                 end
             end
-            d:GetPropertyChangedSignal'Text':Connect(function()
-                c:Search(d.Text)
-            end)
-            f.UIListLayout:GetPropertyChangedSignal'AbsoluteContentSize':Connect(function()
-                ae(f, 0.06, {
-                    Size = UDim2.new(1, 0, 0, math.clamp(f.UIListLayout.AbsoluteContentSize.Y + (c.Padding * 2), 0, c.MaxHeight))
-                }, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut):Play()
-            end)
+            
             function c.Open(n)
                 task.spawn(function()
                     g.Frame.Visible = true
@@ -5606,25 +5599,28 @@ B.Visible = false
             end)
             local G, H = a.load't', false
             SearchButton = b:CreateTopbarButton('search', function()
-                if H then
-                    return
-                end
-                G.new(b.TabModule, b.UIElements.Main, function()
-                    H = false
-                    b.CanResize = true
-                    ae(f, 0.1, {
-                        ImageTransparency = 1
-                    }):Play()
-                    f.Active = false
-                end)
-                ae(f, 0.1, {
-                    ImageTransparency = 0.65
-                }):Play()
-                f.Active = true
-                H = true
-                b.CanResize = false
-            end, 996)
-            return b
+    if H then
+        return
+    end
+    G.new(b.TabModule, b.UIElements.Main, function()
+        H = false
+        b.CanResize = true
+        ae(f, 0.1, {
+            ImageTransparency = 1
+        }):Play()
+        f.Active = false
+    end)
+    ae(f, 0.1, {
+        ImageTransparency = 0.65
+    }):Play()
+    f.Active = true
+    H = true
+    b.CanResize = false
+end, 996)
+
+SearchButton.Visible = false
+
+return b
         end
     end
 end

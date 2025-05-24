@@ -1,3 +1,5 @@
+-- Made by henrqz
+
 local a
 a = {
     cache = {},
@@ -5232,29 +5234,8 @@ do
                 b.UIElements.Main.Background.ImageLabel.Image = y
             end
             B = b:CreateTopbarButton('maximize', function()
-                local C = b.IsFullscreen
-                v:Set(C)
-                if not C then
-                    z = b.UIElements.Main.Position
-                    A = b.UIElements.Main.Size
-                    B.ImageLabel.Image = x[1]
-                    B.ImageLabel.ImageRectOffset = x[2].ImageRectPosition
-                    B.ImageLabel.ImageRectSize = x[2].ImageRectSize
-                    b.CanResize = false
-                else
-                    B.ImageLabel.Image = y[1]
-                    B.ImageLabel.ImageRectOffset = y[2].ImageRectPosition
-                    B.ImageLabel.ImageRectSize = y[2].ImageRectSize
-                    b.CanResize = true
-                end
-                ae(b.UIElements.Main, 0.45, {
-                    Size = C and A or UDim2.new(1, - 20, 1, - 72)
-                }, Enum.EasingStyle.Quint, Enum.EasingDirection.Out):Play()
-                ae(b.UIElements.Main, 0.45, {
-                    Position = C and z or UDim2.new(0.5, 0, 0.5, 26)
-                }, Enum.EasingStyle.Quint, Enum.EasingDirection.Out):Play()
-                b.IsFullscreen = not C
-            end, 998)
+			
+end, 998)
             
             function b.Open(C)
                 task.spawn(function()

@@ -1,5 +1,3 @@
--- By henqrzzzz pae
-
 local a
 a = {
     cache = {},
@@ -1545,6 +1543,7 @@ do
                     end)
                     if not u then
                         s:Destroy()
+                        warn("[ WindUI ]  '" .. identifyexecutor() .. "' doesnt support the URL Images. Error: " .. v)
                     end
                 else
                     if c.Icon(tostring(i.Icon))[1] then
@@ -4205,7 +4204,62 @@ do
                     Colorpicker = 'palette'
                 }
             }
-            
+            local d, e, f = ad('TextBox', {
+                Text = '',
+                PlaceholderText = 'Search...',
+                ThemeTag = {
+                    PlaceholderColor3 = 'Placeholder',
+                    TextColor3 = 'Text'
+                },
+                Size = UDim2.new(1, - ((c.IconSize * 2) + (c.Padding * 2)), 0, 0),
+                AutomaticSize = 'Y',
+                ClipsDescendants = true,
+                ClearTextOnFocus = false,
+                BackgroundTransparency = 1,
+                TextXAlignment = 'Left',
+                FontFace = Font.new(ac.Font, Enum.FontWeight.Regular),
+                TextSize = 17
+            }), ad('ImageLabel', {
+                Image = ac.Icon'x'[1],
+                ImageRectSize = ac.Icon'x'[2].ImageRectSize,
+                ImageRectOffset = ac.Icon'x'[2].ImageRectPosition,
+                BackgroundTransparency = 1,
+                ThemeTag = {
+                    ImageColor3 = 'Text'
+                },
+                ImageTransparency = 0.2,
+                Size = UDim2.new(0, c.IconSize, 0, c.IconSize)
+            }, {
+                ad('TextButton', {
+                    Size = UDim2.new(1, 8, 1, 8),
+                    BackgroundTransparency = 1,
+                    Active = true,
+                    ZIndex = 999999999,
+                    AnchorPoint = Vector2.new(0.5, 0.5),
+                    Position = UDim2.new(0.5, 0, 0.5, 0),
+                    Text = ''
+                })
+            }), ad('ScrollingFrame', {
+                Size = UDim2.new(1, 0, 0, 0),
+                AutomaticCanvasSize = 'Y',
+                ScrollingDirection = 'Y',
+                ElasticBehavior = 'Never',
+                ScrollBarThickness = 0,
+                CanvasSize = UDim2.new(0, 0, 0, 0),
+                BackgroundTransparency = 1,
+                Visible = false
+            }, {
+                ad('UIListLayout', {
+                    Padding = UDim.new(0, 0),
+                    FillDirection = 'Vertical'
+                }),
+                ad('UIPadding', {
+                    PaddingTop = UDim.new(0, c.Padding),
+                    PaddingLeft = UDim.new(0, c.Padding),
+                    PaddingRight = UDim.new(0, c.Padding),
+                    PaddingBottom = UDim.new(0, c.Padding)
+                })
+            })
             local g = ac.NewRoundFrame(c.Radius, 'Squircle', {
                 Size = UDim2.new(1, 0, 1, 0),
                 ThemeTag = {
@@ -4568,6 +4622,7 @@ do
                 UIElements = {},
                 CanDropdown = true,
                 Closed = false,
+                HasOutline = ag.HasOutline or false,
                 SuperParent = ag.Parent,
                 Destroyed = false,
                 IsFullscreen = false,
@@ -5073,7 +5128,58 @@ do
                     })
                 })
             })
-            
+            function b.CreateTopbarButton(v, w, x, y)
+                local z = ad('TextButton', {
+                    Size = UDim2.new(0, 36, 0, 36),
+                    BackgroundTransparency = 1,
+                    LayoutOrder = y or 999,
+                    Parent = b.UIElements.Main.Main.Topbar.Right,
+                    ZIndex = 9999,
+                    ThemeTag = {
+                        BackgroundColor3 = 'Text'
+                    },
+                    BackgroundTransparency = 1
+                }, {
+                    ad('UICorner', {
+                        CornerRadius = UDim.new(0, 9)
+                    }),
+                    ad('ImageLabel', {
+                        Image = ac.Icon(w)[1],
+                        ImageRectOffset = ac.Icon(w)[2].ImageRectPosition,
+                        ImageRectSize = ac.Icon(w)[2].ImageRectSize,
+                        BackgroundTransparency = 1,
+                        Size = UDim2.new(0, 16, 0, 16),
+                        ThemeTag = {
+                            ImageColor3 = 'Text'
+                        },
+                        AnchorPoint = Vector2.new(0.5, 0.5),
+                        Position = UDim2.new(0.5, 0, 0.5, 0),
+                        Active = false,
+                        ImageTransparency = 0.2
+                    })
+                })
+                b.TopBarButtons[100 - y] = z
+                z.MouseButton1Click:Connect(function()
+                    x()
+                end)
+                z.MouseEnter:Connect(function()
+                    ae(z, 0.15, {
+                        BackgroundTransparency = 0.93
+                    }):Play()
+                    ae(z.ImageLabel, 0.15, {
+                        ImageTransparency = 0
+                    }):Play()
+                end)
+                z.MouseLeave:Connect(function()
+                    ae(z, 0.1, {
+                        BackgroundTransparency = 1
+                    }):Play()
+                    ae(z.ImageLabel, 0.1, {
+                        ImageTransparency = 0.2
+                    }):Play()
+                end)
+                return z
+            end
             local v, w = (ac.Drag(b.UIElements.Main, {
                 b.UIElements.Main.Main.Topbar,
                 r.Frame
@@ -5107,14 +5213,29 @@ do
                     }
                 })
             end
-    
+            task.spawn(function()
+                if b.Icon then
+                    local x = ac.Image(b.Icon, b.Title, b.UICorner - 4, b.Folder, 'Window')
+                    x.Parent = b.UIElements.Main.Main.Topbar.Left
+                    x.Size = UDim2.new(0, 22, 0, 22)
+                    if ac.Icon(tostring(b.Icon))[1] then
+                        o.Image = ac.Icon(b.Icon)[1]
+                        o.ImageRectOffset = ac.Icon(b.Icon)[2].ImageRectPosition
+                        o.ImageRectSize = ac.Icon(b.Icon)[2].ImageRectSize
+                    end
+                else
+                    o.Visible = false
+                end
+            end)
             function b.SetToggleKey(x, y)
                 b.ToggleKey = y
             end
             function b.SetBackgroundImage(x, y)
                 b.UIElements.Main.Background.ImageLabel.Image = y
             end
-           
+            local x, y, z, A, B = ac.Icon'minimize', (ac.Icon'maximize')
+            B = 
+            
             function b.Open(C)
                 task.spawn(function()
                     b.Closed = false
@@ -5483,8 +5604,8 @@ do
                     end
                 end
             end)
-           local G, H = nil, false -- Removido uso de a.load't'               
-                
+            local G, H = a.load't', false
+            SearchButton = 
             return b
         end
     end

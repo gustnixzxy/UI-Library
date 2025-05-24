@@ -1,5 +1,3 @@
--- Made by henrqz
-
 local a
 a = {
     cache = {},
@@ -5234,8 +5232,9 @@ do
                 b.UIElements.Main.Background.ImageLabel.Image = y
             end
             B = b:CreateTopbarButton('maximize', function()
-			
 end, 998)
+
+B.Visible = false
             
             function b.Open(C)
                 task.spawn(function()

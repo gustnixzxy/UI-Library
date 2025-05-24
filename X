@@ -1,3 +1,8 @@
+-- ts file was generated at discord.gg/25ms
+
+
+
+
 local a
 a = {
     cache = {},
@@ -5233,7 +5238,57 @@ do
             function b.SetBackgroundImage(x, y)
                 b.UIElements.Main.Background.ImageLabel.Image = y
             end
-
+            B = b:CreateTopbarButton('maximize', function()
+                local C = b.IsFullscreen
+                v:Set(C)
+                if not C then
+                    z = b.UIElements.Main.Position
+                    A = b.UIElements.Main.Size
+                    B.ImageLabel.Image = x[1]
+                    B.ImageLabel.ImageRectOffset = x[2].ImageRectPosition
+                    B.ImageLabel.ImageRectSize = x[2].ImageRectSize
+                    b.CanResize = false
+                else
+                    B.ImageLabel.Image = y[1]
+                    B.ImageLabel.ImageRectOffset = y[2].ImageRectPosition
+                    B.ImageLabel.ImageRectSize = y[2].ImageRectSize
+                    b.CanResize = true
+                end
+                ae(b.UIElements.Main, 0.45, {
+                    Size = C and A or UDim2.new(1, - 20, 1, - 72)
+                }, Enum.EasingStyle.Quint, Enum.EasingDirection.Out):Play()
+                ae(b.UIElements.Main, 0.45, {
+                    Position = C and z or UDim2.new(0.5, 0, 0.5, 26)
+                }, Enum.EasingStyle.Quint, Enum.EasingDirection.Out):Play()
+                b.IsFullscreen = not C
+            end, 998)
+            
+            function b.Open(C)
+                task.spawn(function()
+                    b.Closed = false
+                    ae(b.UIElements.Main.Background, 0.25, {
+                        ImageTransparency = ag.Transparent and ag.WindUI.TransparencyValue or 0
+                    }, Enum.EasingStyle.Quint, Enum.EasingDirection.Out):Play()
+                    ae(b.UIElements.Main.Background.ImageLabel, 0.2, {
+                        ImageTransparency = 0
+                    }, Enum.EasingStyle.Quint, Enum.EasingDirection.Out):Play()
+                    ae(b.UIElements.Main.Background.UIScale, 0.2, {
+                        Scale = 1
+                    }, Enum.EasingStyle.Back, Enum.EasingDirection.Out):Play()
+                    ae(i, 0.25, {
+                        ImageTransparency = 0.7
+                    }, Enum.EasingStyle.Quint, Enum.EasingDirection.Out):Play()
+                    if h then
+                        ae(h, 0.25, {
+                            Transparency = 0.8
+                        }, Enum.EasingStyle.Quint, Enum.EasingDirection.Out):Play()
+                    end
+                    b.CanDropdown = true
+                    b.UIElements.Main.Visible = true
+                    task.wait(0.1)
+                    b.UIElements.Main.Main.Visible = true
+                end)
+            end
             function b.Close(C)
                 local D = {}
                 b.UIElements.Main.Main.Visible = false

@@ -1,8 +1,3 @@
--- ts file was generated at discord.gg/25ms
-
-
-
-
 local a
 a = {
     cache = {},
@@ -5238,35 +5233,7 @@ do
             function b.SetBackgroundImage(x, y)
                 b.UIElements.Main.Background.ImageLabel.Image = y
             end
-            local x, y, z, A, B = ac.Icon'minimize', (ac.Icon'maximize')
-            B = 
-            
-            function b.Open(C)
-                task.spawn(function()
-                    b.Closed = false
-                    ae(b.UIElements.Main.Background, 0.25, {
-                        ImageTransparency = ag.Transparent and ag.WindUI.TransparencyValue or 0
-                    }, Enum.EasingStyle.Quint, Enum.EasingDirection.Out):Play()
-                    ae(b.UIElements.Main.Background.ImageLabel, 0.2, {
-                        ImageTransparency = 0
-                    }, Enum.EasingStyle.Quint, Enum.EasingDirection.Out):Play()
-                    ae(b.UIElements.Main.Background.UIScale, 0.2, {
-                        Scale = 1
-                    }, Enum.EasingStyle.Back, Enum.EasingDirection.Out):Play()
-                    ae(i, 0.25, {
-                        ImageTransparency = 0.7
-                    }, Enum.EasingStyle.Quint, Enum.EasingDirection.Out):Play()
-                    if h then
-                        ae(h, 0.25, {
-                            Transparency = 0.8
-                        }, Enum.EasingStyle.Quint, Enum.EasingDirection.Out):Play()
-                    end
-                    b.CanDropdown = true
-                    b.UIElements.Main.Visible = true
-                    task.wait(0.1)
-                    b.UIElements.Main.Main.Visible = true
-                end)
-            end
+
             function b.Close(C)
                 local D = {}
                 b.UIElements.Main.Main.Visible = false
@@ -5610,7 +5577,25 @@ do
                 end
             end)
             local G, H = a.load't', false
-            SearchButton = 
+            SearchButton = b:CreateTopbarButton('search', function()
+                if H then
+                    return
+                end
+                G.new(b.TabModule, b.UIElements.Main, function()
+                    H = false
+                    b.CanResize = true
+                    ae(f, 0.1, {
+                        ImageTransparency = 1
+                    }):Play()
+                    f.Active = false
+                end)
+                ae(f, 0.1, {
+                    ImageTransparency = 0.65
+                }):Play()
+                f.Active = true
+                H = true
+                b.CanResize = false
+            end, 996)
             return b
         end
     end

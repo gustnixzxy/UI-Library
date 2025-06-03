@@ -533,7 +533,7 @@ do
 		ImageLabel_1.BorderSizePixel = 0
 		ImageLabel_1.Position = UDim2.new(1, 0,0.5, 0)
 		ImageLabel_1.Size = UDim2.new(0, 20,0, 20)
-		ImageLabel_1.Image = "rbxassetid://14937709869"
+		ImageLabel_1.Image = "rbxassetid://83327911115481"
 		ImageLabel_1.ImageTransparency = 0.3
 
 		addToTheme('Text & Icon', ImageLabel_1)
@@ -972,7 +972,7 @@ function Library:Window(p)
 	local Title = p.Title or 'null'
 	local Desc = p.Desc or ''
 	local Icon = p.Icon or 'door-open'
-	local Theme = p.Theme or 'Dark'
+	local Theme = p.Theme or 'Darker'
 	local Keybind = p.Config.Keybind or Enum.KeyCode.LeftControl
 	local Size = p.Config.Size or UDim2.new(0, 530,0, 400)
 

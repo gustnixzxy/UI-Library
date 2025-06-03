@@ -2,7 +2,83 @@ Library = {}
 SaveTheme = {}
 
 local themes = {
-	index = {'Dark'},
+	index = {'Dark', 'Amethyst'},
+	Amethyst = {
+		['Shadow'] = Color3.fromRGB(24, 24, 31),
+		['Background'] = Color3.fromRGB(29, 28, 38),
+		['Page'] = Color3.fromRGB(24, 24, 31),
+		['Main'] = Color3.fromRGB(91, 68, 209),
+		['Text & Icon'] = Color3.fromRGB(255, 255, 255),
+		['Function'] = {
+			['Toggle'] = {
+				['Background'] = Color3.fromRGB(29, 28, 38),
+				['True'] = {
+					['Toggle Background'] = Color3.fromRGB(44, 34, 103),
+					['Toggle Value'] = Color3.fromRGB(91, 68, 209),
+				},
+				['False'] = {
+					['Toggle Background'] = Color3.fromRGB(36, 35, 48),
+					['Toggle Value'] = Color3.fromRGB(44, 42, 62),
+				}
+			},
+			['Label'] = {
+				['Background'] = Color3.fromRGB(29, 28, 38),
+			},
+			['Dropdown'] = {
+				['Background'] = Color3.fromRGB(29, 28, 38),
+				['Value Background'] = Color3.fromRGB(24, 24, 31),
+				['Value Stroke'] = Color3.fromRGB(255, 255, 255),
+				['Dropdown Select'] = {
+					['Background'] = Color3.fromRGB(24, 24, 31),
+					['Search'] = Color3.fromRGB(35, 35, 42),
+					['Item Background'] = Color3.fromRGB(45, 45, 52),
+				}
+			},
+			['Slider'] = {
+				['Background'] = Color3.fromRGB(29, 28, 38),
+				['Value Background'] = Color3.fromRGB(24, 24, 31),
+				['Value Stroke'] = Color3.fromRGB(255, 255, 255),
+				['Slider Bar'] = Color3.fromRGB(44, 34, 103),
+				['Slider Bar Value'] = Color3.fromRGB(91, 68, 209),
+				['Circle Value'] = Color3.fromRGB(255, 255, 255)
+			},
+			['Code'] = {
+				['Background'] = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(29, 28, 38)), ColorSequenceKeypoint.new(1, Color3.fromRGB(29, 28, 38))},
+				['Background Code'] = Color3.fromRGB(51, 62, 68),
+				['Background Code Value'] = Color3.fromRGB(38, 50, 56),
+				['ScrollingFrame Code'] = Color3.fromRGB(216, 150, 179)
+			},
+			['Button'] = {
+				['Background'] = Color3.fromRGB(29, 28, 38),
+				['Click'] = Color3.fromRGB(255, 255, 255)
+			},
+			['Textbox'] = {
+				['Background'] = Color3.fromRGB(29, 28, 38),
+				['Value Background'] = Color3.fromRGB(24, 24, 31),
+				['Value Stroke'] = Color3.fromRGB(255, 255, 255),
+			},
+			['Keybind'] = {
+				['Background'] = Color3.fromRGB(29, 28, 38),
+				['Value Background'] = Color3.fromRGB(24, 24, 31),
+				['Value Stroke'] = Color3.fromRGB(255, 255, 255),
+				['True'] = {
+					['Toggle Background'] = Color3.fromRGB(44, 34, 103),
+					['Toggle Value'] = Color3.fromRGB(91, 68, 209),
+				},
+				['False'] = {
+					['Toggle Background'] = Color3.fromRGB(36, 35, 48),
+					['Toggle Value'] = Color3.fromRGB(44, 42, 62),
+				}
+			},
+			['Color Picker'] = {
+				['Background'] = Color3.fromRGB(29, 28, 38),
+				['Color Select'] = {
+					['Background'] = Color3.fromRGB(24, 24, 31),
+					['UIStroke'] = Color3.fromRGB(255, 255, 255),
+				}
+			}
+		}
+	},
 	Dark = {
 		['Shadow'] = Color3.fromRGB(15, 15, 15),
 		['Background'] = Color3.fromRGB(20, 20, 20),
@@ -30,6 +106,7 @@ local themes = {
 				['Value Stroke'] = Color3.fromRGB(230, 230, 230),
 				['Dropdown Select'] = {
 					['Background'] = Color3.fromRGB(20, 20, 20),
+					['Search'] = Color3.fromRGB(30, 30, 30),
 					['Item Background'] = Color3.fromRGB(30, 30, 30),
 				}
 			},
@@ -541,17 +618,6 @@ do
 		local UICorner_1 = Instance.new("UICorner")
 		local UIStrokeDropdown_1 = Instance.new("UIStroke")
 		local UIPadding_1 = Instance.new("UIPadding")
-		local UICorner_2 = Instance.new("UICorner")
-		local TextBox_1 = Instance.new("TextBox")
-		local Frame_1 = Instance.new("Frame")
-		local Frame_2 = Instance.new("Frame")
-		local Frame_3 = Instance.new("Frame")
-		local UICorner_3 = Instance.new("UICorner")
-		local ScrollingFrame_1 = Instance.new("ScrollingFrame")
-		local UIListLayout_1 = Instance.new("UIListLayout")
-		local UIPadding_2 = Instance.new("UIPadding")
-		local UIPadding_3 = Instance.new("UIPadding")
-		local UIPadding_4 = Instance.new("UIPadding")
 
 		DropdownSelect.Parent = ScreenGui
 		DropdownSelect.BackgroundColor3 = Color3.fromRGB(24,24,31)
@@ -577,76 +643,7 @@ do
 		UIPadding_1.PaddingLeft = UDim.new(0,5)
 		UIPadding_1.PaddingRight = UDim.new(0,5)
 		UIPadding_1.PaddingTop = UDim.new(0,5)
-		local Click = click(p2)
 
-		local isopen = false
-
-		local function updateDropdownSize()
-			if not isopen then return end
-
-			local visibleCount = 0
-			for i, v in pairs(ScrollingFrame_1:GetChildren()) do
-				if v:IsA("Frame") and v.Visible then
-					visibleCount = visibleCount + 1
-				end
-			end
-
-			local contentHeight = (UIListLayout_1.AbsoluteContentSize.Y + 54)
-			if contentHeight > 200 then
-				contentHeight = 200
-			end
-
-			tw({v = DropdownSelect, t = 0.15, s = Enum.EasingStyle.Exponential, d = "Out", g = {Size = UDim2.new(0, 150, 0, contentHeight)}}):Play()
-		end
-
-		
-
-		local function open()
-			if isopen then
-				return
-			end
-			DropdownSelect.Visible = true
-			local targetX = DropdownValue.AbsolutePosition.X - DropdownSelect.Parent.AbsolutePosition.X + DropdownValue.Size.X.Offset - 119
-			local targetY = DropdownValue.AbsolutePosition.Y - DropdownSelect.Parent.AbsolutePosition.Y + DropdownValue.Size.Y.Offset - 25
-			local contentHeight = UIListLayout_1.AbsoluteContentSize.Y + 54
-			if contentHeight <= 200 then
-				tw({v = DropdownSelect, t = 0.15, s = Enum.EasingStyle.Linear, d = "Out", g = {Size = UDim2.new(0, 150, 0, contentHeight), Position = UDim2.new(0, targetX, 0, targetY)}}):Play()
-			else
-				tw({v = DropdownSelect, t = 0.15, s = Enum.EasingStyle.Linear, d = "Out", g = {Size = UDim2.new(0, 150, 0, 200), Position = UDim2.new(0, targetX, 0, targetY)}}):Play()
-			end
-			tw({v = UIStrokeDropdown_1, t = 0.15, s = Enum.EasingStyle.Linear, d = "Out", g = {Transparency = 0.95}}):Play()
-			isopen = true
-		end
-
-		local function close()
-			if not isopen then
-				return
-			end
-			tw({v = UIStrokeDropdown_1, t = 0.15, s = Enum.EasingStyle.Linear, d = "Out", g = {Transparency = 1}}):Play()
-			local gf = tw({v = DropdownSelect, t = 0.15, s = Enum.EasingStyle.Linear, d = "Out", g = {Size = UDim2.new(0, 150,0, 0)}})
-			gf:Play()
-			gf.Completed:Connect(function()
-				DropdownSelect.Visible = false
-				isopen = false
-			end)
-		end
-
-		U.InputBegan:Connect(function(A)
-			if A.UserInputType == Enum.UserInputType.MouseButton1 or A.UserInputType == Enum.UserInputType.Touch then
-				local B, C = DropdownSelect.AbsolutePosition, DropdownSelect.AbsoluteSize
-				if game:GetService "Players".LocalPlayer:GetMouse().X < B.X or game:GetService "Players".LocalPlayer:GetMouse().X > B.X + C.X or game:GetService "Players".LocalPlayer:GetMouse().Y < (B.Y - 20 - 1) or game:GetService "Players".LocalPlayer:GetMouse().Y > B.Y + C.Y then
-					close()
-				end
-			end
-		end)
-
-		Click.MouseButton1Click:Connect(function()
-			if not isopen then
-				open()
-			else
-				close()
-			end
-		end)
 
 		local itemslist = {}
 		local selectedValues = {}
@@ -864,7 +861,59 @@ function Library:Window(p)
 	local HasChangeTheme = p.Theme
 	local IsTheme = p.Theme
 
-	
+	local Shadow_1 = Instance.new("ImageLabel")
+	local UIPadding_1 = Instance.new("UIPadding")
+	local Background_1 = Instance.new("CanvasGroup")
+	local UICorner_1 = Instance.new("UICorner")
+	local Page_1 = Instance.new("Frame")
+	local UIPadding_2 = Instance.new("UIPadding")
+
+	Shadow_1.Name = "Shadow"
+	Shadow_1.Parent = ScreenGui
+	Shadow_1.AnchorPoint = Vector2.new(0.5, 0.5)
+	Shadow_1.BackgroundColor3 = Color3.fromRGB(163,162,165)
+	Shadow_1.BackgroundTransparency = 1
+	Shadow_1.Position = UDim2.new(0.5, 0,0.5, 0)
+	Shadow_1.Size = Size
+	Shadow_1.Image = "rbxassetid://1316045217"
+	Shadow_1.ImageColor3 = Color3.fromRGB(24, 24, 31)
+	Shadow_1.ImageTransparency = 0.8
+	Shadow_1.ScaleType = Enum.ScaleType.Slice
+	Shadow_1.SliceCenter = Rect.new(10, 10, 118, 118)
+	Shadow_1.Visible = false
+
+	addToTheme('Shadow', Shadow_1)
+
+	UIPadding_1.Parent = Shadow_1
+	UIPadding_1.PaddingBottom = UDim.new(0,8)
+	UIPadding_1.PaddingLeft = UDim.new(0,8)
+	UIPadding_1.PaddingRight = UDim.new(0,8)
+	UIPadding_1.PaddingTop = UDim.new(0,8)
+
+	Background_1.Name = "Background"
+	Background_1.Parent = Shadow_1
+	Background_1.AnchorPoint = Vector2.new(0.5, 0.5)
+	Background_1.BackgroundColor3 = Color3.fromRGB(29, 28, 38)
+	Background_1.BorderColor3 = Color3.fromRGB(0,0,0)
+	Background_1.BorderSizePixel = 0
+	Background_1.Position = UDim2.new(0.5, 0,0.5, 0)
+	Background_1.Size = UDim2.new(1, 0,1, 0)
+	Background_1.ClipsDescendants = true
+	Background_1.GroupTransparency = 1
+
+	Shadow_1.Visible = true  
+	local org = Background_1.Size
+	Background_1.Size = org - UDim2.fromOffset(5, 5)
+	tw({
+		v = Background_1,
+		t = 0.15,
+		s = Enum.EasingStyle.Linear,
+		d = "InOut",
+		g = {
+			GroupTransparency = 0,
+			Size = org
+		}
+	}):Play()
 
 	addToTheme('Background', Background_1)
 
@@ -950,7 +999,7 @@ function Library:Window(p)
 	Close_1.BorderSizePixel = 0
 	Close_1.LayoutOrder = 3
 	Close_1.Size = UDim2.new(0, 16,0, 16)
-	Close_1.Image = "rbxassetid://15082305656"
+	Close_1.Image = "rbxassetid://18328658828"
 
 	ChSize_1.Name = "Size"
 	ChSize_1.Parent = Ct_1
@@ -4163,10 +4212,6 @@ function Library:Window(p)
 			R = true
 		end)
 
-		local isZ = false
-		local originalSize, originalPosition
-
-		
 
 		if not HAA then
 			local AP, PAZ = Shadow_1.AbsolutePosition, Shadow_1.Parent.AbsoluteSize
@@ -4244,8 +4289,8 @@ function Library:Window(p)
 			if not firsttime then
 				firsttime = true
 				Tabs:Notify({
-					Title = 'Minimized UI',
-					Desc = 'Press the <font color="#FF77A5" size="12">('..tostring(Keybind):gsub("Enum.KeyCode.", "")..')</font> button to hide and show the UI',
+					Title = 'Dummy Kawaii',
+					Desc = 'Press the <font color="#FF77A5" size="14">('..tostring(Keybind):gsub("Enum.KeyCode.", "")..')</font> button to hide and show the UI',
 					Time = 10
 				})
 			end
@@ -4262,10 +4307,103 @@ function Library:Window(p)
 			end
 		end)
 
+		local CallTheme = function(v)
+			IsTheme = v
+			local t = themes[v]
+			Library:setTheme({
+				['Shadow'] = t.Shadow,
+				['Background'] = t.Background,
+				['Page'] = t.Page,
+				['Main'] = t.Main,
+				['Text & Icon'] = t['Text & Icon'],
+				['Function'] = {
+					['Toggle'] = {
+						['Background'] = t.Function.Toggle.Background,
+						['True'] = {
+							['Toggle Background'] = t.Function.Toggle.True['Toggle Background'],
+							['Toggle Value'] = t.Function.Toggle.True['Toggle Value'],
+						},
+						['False'] = {
+							['Toggle Background'] = t.Function.Toggle.False['Toggle Background'],
+							['Toggle Value'] = t.Function.Toggle.False['Toggle Value'],
+						}
+					},
+					['Label'] = {
+						['Background'] = t.Function.Label.Background,
+					},
+					['Dropdown'] = {
+						['Background'] = t.Function.Dropdown.Background,
+						['Value Background'] = t.Function.Dropdown['Value Background'],
+						['Value Stroke'] = t.Function.Dropdown['Value Stroke'],
+						['Dropdown Select'] = {
+							['Background'] = t.Function.Dropdown['Dropdown Select'].Background,
+							['Search'] = t.Function.Dropdown['Dropdown Select'].Search,
+							['Item Background'] = t.Function.Dropdown['Dropdown Select']['Item Background'],
+						}
+					},
+					['Slider'] = {
+						['Background'] = t.Function.Slider.Background,
+						['Value Background'] = t.Function.Slider['Value Background'],
+						['Value Stroke'] = t.Function.Slider['Value Stroke'],
+						['Slider Bar'] = t.Function.Slider['Slider Bar'],
+						['Slider Bar Value'] = t.Function.Slider['Slider Bar Value'],
+						['Circle Value'] = t.Function.Slider['Circle Value'],
+					},
+					['Code'] = {
+						['Background'] = t.Function.Code.Background,
+						['Background Code'] = t.Function.Code['Background Code'],
+						['Background Code Value'] = t.Function.Code['Background Code Value'],
+						['ScrollingFrame Code'] = t.Function.Code['ScrollingFrame Code'],
+					},
+					['Button'] = {
+						['Background'] = t.Function.Button.Background,
+						['Click'] = t.Function.Button.Click,
+					},
+					['Textbox'] = {
+						['Background'] = t.Function.Textbox.Background,
+						['Value Background'] = t.Function.Textbox['Value Background'],
+						['Value Stroke'] = t.Function.Textbox['Value Stroke'],
+					},
+					['Keybind'] = {
+						['Background'] = t.Function.Keybind.Background,
+						['Value Background'] = t.Function.Keybind['Value Background'],
+						['Value Stroke'] = t.Function.Keybind['Value Stroke'],
+						['True'] = {
+							['Toggle Background'] = t.Function.Keybind.True['Toggle Background'],
+							['Toggle Value'] = t.Function.Keybind.True['Toggle Value'],
+						},
+						['False'] = {
+							['Toggle Background'] = t.Function.Keybind.False['Toggle Background'],
+							['Toggle Value'] = t.Function.Keybind.False['Toggle Value'],
+						}
+					},
+					['Color Picker'] = {
+						['Background'] = t.Function['Color Picker'].Background,
+						['Color Select'] = {
+							['Background'] = t.Function['Color Picker']['Color Select'].Background,
+							['UIStroke'] = t.Function['Color Picker']['Color Select'].UIStroke,
+						}
+					}
+				}
+			})
+		end
 		local ThemeDrop = addDropdownSelect(DropdownValue_1, DropdownValue_1, false, CallTheme, Theme, themes.index)
 
 		Close_1.MouseButton1Click:Connect(function()
-			ScreenGui:Destroy()
+			Tabs:Dialog({
+				Title = "Do you want to <font color='#FF0000'>close</font> the ui?",
+				Button1 = {
+					Title = 'Confirm',
+					Color = Color3.fromRGB(0, 188, 0),
+					Callback = function()
+						ScreenGui:Destroy()
+					end,
+				},
+				Button2 = {
+					Title = 'Cancel',
+					Color = Color3.fromRGB(226, 39, 6),
+				}
+			})
 		end)
 
 		do
@@ -4283,7 +4421,7 @@ function Library:Window(p)
 			CloseUIShadow.BackgroundTransparency = 1
 			CloseUIShadow.Position = UDim2.new(0, 0,0.200000003, 0)
 			CloseUIShadow.Size = UDim2.new(0, 70,0, 40)
-			CloseUIShadow.Image = "rbxassetid://18328658828"
+			CloseUIShadow.Image = "rbxassetid://1316045217"
 			CloseUIShadow.ImageColor3 = Color3.fromRGB(24,24,31)
 			CloseUIShadow.ImageTransparency = 0.5
 			CloseUIShadow.ScaleType = Enum.ScaleType.Slice

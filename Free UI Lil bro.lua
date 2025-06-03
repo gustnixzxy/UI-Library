@@ -2,8 +2,8 @@ Library = {}
 SaveTheme = {}
 
 local themes = {
-	index = {'Dark', 'Amethyst'},
-	Amethyst = {
+	index = {'Dark', 'W'},
+	W = {
 		['Shadow'] = Color3.fromRGB(24, 24, 31),
 		['Background'] = Color3.fromRGB(29, 28, 38),
 		['Page'] = Color3.fromRGB(24, 24, 31),
@@ -158,52 +158,13 @@ local themes = {
 }
 
 local ScreenGui = Instance.new("ScreenGui")
-ScreenGui.Name = "Dummy Kawaii"
+ScreenGui.Name = "lil bro"
 ScreenGui.Parent = not game:GetService("RunService"):IsStudio() and game:GetService("CoreGui") or game:GetService("Players").LocalPlayer.PlayerGui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 local U, Tw = game:GetService("UserInputService"), game:GetService("TweenService")
 
 do
-	function addToTheme(name, obj)
-		if not SaveTheme[name] then
-			SaveTheme[name] = {}
-		end
-		table.insert(SaveTheme[name], obj)
-	end
-	function getColorFromPath(tbl, path)
-		local result = tbl
-		for _, part in ipairs(string.split(path, ".")) do
-			result = result and result[part]
-		end
-		return result
-	end
-	function Library:setTheme(st)
-		for name, objs in pairs(SaveTheme) do
-			local color = getColorFromPath(st, name)
-			if color then
-				for _, obj in pairs(objs) do
-					if SaveTheme[name] then
-						for _, obj in pairs(SaveTheme[name]) do
-							if obj:IsA("Frame") or obj:IsA("CanvasGroup") then
-								obj.BackgroundColor3 = color
-							elseif obj:IsA("TextLabel") or obj:IsA("TextButton") or obj:IsA("TextBox") then
-								obj.TextColor3 = color
-							elseif obj:IsA("ImageLabel") or obj:IsA("ImageButton") then
-								obj.ImageColor3 = color
-							elseif obj:IsA("ScrollingFrame") then
-								obj.ScrollBarImageColor3 = color
-							elseif obj:IsA("UIStroke") then
-								obj.Color = color
-							elseif obj:IsA("UIGradient") then
-								obj.Color = color
-							end
-						end
-					end
-				end
-			end
-		end
-	end
 
 	local IconList = loadstring(game:HttpGet('https://raw.githubusercontent.com/Dummyrme/Library/refs/heads/main/Icon.lua'))()
 	function gl(i)
@@ -601,18 +562,6 @@ do
 		UIPadding_2.PaddingLeft = UDim.new(0,5)
 		UIPadding_2.PaddingRight = UDim.new(0,5)
 
-		ImageLabel_1.Parent = DropdownValue
-		ImageLabel_1.AnchorPoint = Vector2.new(1, 0.5)
-		ImageLabel_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		ImageLabel_1.BackgroundTransparency = 1
-		ImageLabel_1.BorderColor3 = Color3.fromRGB(0,0,0)
-		ImageLabel_1.BorderSizePixel = 0
-		ImageLabel_1.Position = UDim2.new(1, 0,0.5, 0)
-		ImageLabel_1.Size = UDim2.new(0, 20,0, 20)
-		ImageLabel_1.Image = "rbxassetid://14937709869"
-		ImageLabel_1.ImageTransparency = 0.3
-
-		addToTheme('Text & Icon', ImageLabel_1)
 
 		local DropdownSelect = Instance.new("Frame")
 		local UICorner_1 = Instance.new("UICorner")

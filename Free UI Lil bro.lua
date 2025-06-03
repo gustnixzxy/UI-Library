@@ -4381,28 +4381,6 @@ function Library:Window(p)
 		local ImageLabel_1 = Instance.new("ImageLabel")
 		local UICorner_1 = Instance.new("UICorner")
 
-		SizeFrame.Name = "SizeFrame"
-		SizeFrame.Parent = Background_1
-		SizeFrame.BackgroundColor3 = Color3.fromRGB(0,0,0)
-		SizeFrame.BackgroundTransparency = 1
-		SizeFrame.BorderColor3 = Color3.fromRGB(0,0,0)
-		SizeFrame.BorderSizePixel = 0
-		SizeFrame.Size = UDim2.new(1, 0,1, 0)
-
-		ImageLabel_1.Parent = SizeFrame
-		ImageLabel_1.AnchorPoint = Vector2.new(0.5, 0.5)
-		ImageLabel_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
-		ImageLabel_1.BackgroundTransparency = 1
-		ImageLabel_1.BorderColor3 = Color3.fromRGB(0,0,0)
-		ImageLabel_1.BorderSizePixel = 0
-		ImageLabel_1.Position = UDim2.new(0.5, 0,0.5, 0)
-		ImageLabel_1.Size = UDim2.new(0, 100,0, 100)
-		ImageLabel_1.Image = "rbxassetid://13857987062"
-		ImageLabel_1.ImageTransparency = 1
-
-		UICorner_1.Parent = SizeFrame
-		UICorner_1.CornerRadius = UDim.new(0,17)
-
 		Size_1.MouseButton1Down:Connect(function()
 			R = true
 		end)
@@ -4425,22 +4403,6 @@ function Library:Window(p)
 				R = false
 				tw({v = SizeFrame, t = 0.15, s = Enum.EasingStyle.Linear, d = "Out", g = {BackgroundTransparency = 1}}):Play()
 				tw({v = ImageLabel_1, t = 0.15, s = Enum.EasingStyle.Linear, d = "Out", g = {ImageTransparency = 1}}):Play()
-			end
-		end)
-
-		U.InputChanged:Connect(function(i)
-			if not isZ and R and (i.UserInputType == Enum.UserInputType.MouseMovement or i.UserInputType == Enum.UserInputType.Touch) then
-				local nW = math.max(450, i.Position.X - Shadow_1.AbsolutePosition.X)
-				local nH = math.max(220, i.Position.Y - Shadow_1.AbsolutePosition.Y)
-				local nZ = UDim2.new(0, nW, 0, nH)
-				tw({v = Shadow_1, t = 0.05, s = Enum.EasingStyle.Exponential, d = "Out", g = {Size = nZ}}):Play()
-				tw({v = SizeFrame, t = 0.15, s = Enum.EasingStyle.Linear, d = "Out", g = {BackgroundTransparency = 0.6}}):Play()
-				tw({v = ImageLabel_1, t = 0.15, s = Enum.EasingStyle.Linear, d = "Out", g = {ImageTransparency = 0}}):Play()
-				ImageLabel_1.Image = 'rbxassetid://13857987062'	
-			elseif isZ and R and (i.UserInputType == Enum.UserInputType.MouseMovement or i.UserInputType == Enum.UserInputType.Touch) then
-				tw({v = SizeFrame, t = 0.15, s = Enum.EasingStyle.Linear, d = "Out", g = {BackgroundTransparency = 0.6}}):Play()
-				tw({v = ImageLabel_1, t = 0.15, s = Enum.EasingStyle.Linear, d = "Out", g = {ImageTransparency = 0}}):Play()
-				ImageLabel_1.Image = 'rbxassetid://14906268026'
 			end
 		end)
 
@@ -4484,8 +4446,8 @@ function Library:Window(p)
 			if not firsttime then
 				firsttime = true
 				Tabs:Notify({
-					Title = 'Dummy Kawaii',
-					Desc = 'Press the <font color="#FF77A5" size="14">('..tostring(Keybind):gsub("Enum.KeyCode.", "")..')</font> button to hide and show the UI',
+					Title = 'Minimized UI',
+					Desc = 'Press the <font color="#FF77A5" size="10">('..tostring(Keybind):gsub("Enum.KeyCode.", "")..')</font> button to hide and show the UI',
 					Time = 10
 				})
 			end

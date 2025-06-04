@@ -1,3 +1,5 @@
+-- wc
+
 Library = {}
 SaveTheme = {}
 
@@ -303,7 +305,7 @@ do
 		Background.Size = UDim2.new(1, 0,1, 0)
 		Background.ClipsDescendants = true
 
-		addToTheme('Function.'..ty..'.Background', Background)
+       addToTheme('Darker.Function.' .. ty .. '.Background', Background)
 
 		UICorner_1.Parent = Background
 

@@ -1,1 +1,4638 @@
-([[This file was protected with MoonSec V3]]):gsub('.+', (function(a) _YSbeELwkzVOG = a; end)); return(function(r,...)local t;local o;local l;local b;local f;local h;local e=24915;local n=0;local d={};while n<364 do n=n+1;while n<0x12b and e%0xf0e<0x787 do n=n+1 e=(e-149)%34519 local s=n+e if(e%0x41be)<=0x20df then e=(e*0x2f2)%0xbc79 while n<0x30e and e%0x4dc6<0x26e3 do n=n+1 e=(e+955)%47305 local t=n+e if(e%0x23f6)<0x11fb then e=(e-0x34)%0x66bb local e=5253 if not d[e]then d[e]=0x1 o={};end elseif e%2~=0 then e=(e-0x329)%0x3ff2 local e=71023 if not d[e]then d[e]=0x1 f=string;end else e=(e*0x1cb)%0x5a00 n=n+1 local e=8838 if not d[e]then d[e]=0x1 end end end elseif e%2~=0 then e=(e+0x326)%0x5ea8 while n<0x2df and e%0x3fa6<0x1fd3 do n=n+1 e=(e+486)%8142 local s=n+e if(e%0x1d92)>0xec9 then e=(e+0x30a)%0x3a23 local e=95342 if not d[e]then d[e]=0x1 l=function(d)local e=0x01 local function n(n)e=e+n return d:sub(e-n,e-0x01)end while true do local d=n(0x01)if(d=="\5")then break end local e=f.byte(n(0x01))local e=n(e)if d=="\2"then e=o.LhCySLxE(e)elseif d=="\3"then e=e~="\0"elseif d=="\6"then t[e]=function(e,n)return r(8,nil,r,n,e)end elseif d=="\4"then e=t[e]elseif d=="\0"then e=t[e][n(f.byte(n(0x01)))];end local n=n(0x08)o[n]=e end end end elseif e%2~=0 then e=(e+0x3b5)%0xb929 local e=91458 if not d[e]then d[e]=0x1 b=tonumber;end else e=(e-0xf1)%0x9226 n=n+1 local e=28824 if not d[e]then d[e]=0x1 h="\4\8\116\111\110\117\109\98\101\114\76\104\67\121\83\76\120\69\0\6\115\116\114\105\110\103\4\99\104\97\114\68\113\103\104\87\99\122\77\0\6\115\116\114\105\110\103\3\115\117\98\80\79\85\112\122\88\110\69\0\6\115\116\114\105\110\103\4\98\121\116\101\110\113\83\98\89\109\83\111\0\5\116\97\98\108\101\6\99\111\110\99\97\116\100\104\113\122\69\90\89\70\0\5\116\97\98\108\101\6\105\110\115\101\114\116\97\83\121\95\82\120\115\73\5";end end end else e=(e+0x2ee)%0x11d8 n=n+1 while n<0x12f and e%0x44da<0x226d do n=n+1 e=(e-523)%41064 local l=n+e if(e%0x42fe)>0x217f then e=(e-0x202)%0x4e88 local e=51881 if not d[e]then d[e]=0x1 end elseif e%2~=0 then e=(e*0x2b9)%0x3044 local e=72097 if not d[e]then d[e]=0x1 t=getfenv and getfenv();end else e=(e*0xcb)%0xb79e n=n+1 local e=53576 if not d[e]then d[e]=0x1 t=(not t)and _ENV or t;end end end end end e=(e+303)%40686 end l(h);local e={};for n=0x0,0xff do local d=o.DqghWczM(n);e[n]=d;e[d]=n;end local function s(n)return e[n];end local f=(function(h,f)local r,d=0x01,0x10 local n={{},{},{}}local t=-0x01 local e=0x01 local l=h while true do n[0x03][o.POUpzXnE(f,e,(function()e=r+e return e-0x01 end)())]=(function()t=t+0x01 return t end)()if t==(0x0f)then t=""d=0x000 break end end local t=#f while e<t+0x01 do n[0x02][d]=o.POUpzXnE(f,e,(function()e=r+e return e-0x01 end)())d=d+0x01 if d%0x02==0x00 then d=0x00 o.aSy_RxsI(n[0x01],(s((((n[0x03][n[0x02][0x00]]or 0x00)*0x10)+(n[0x03][n[0x02][0x01]]or 0x00)+l)%0x100)));l=h+l;end end return o.dhqzEZYF(n[0x01])end);l(f(196,"753LRlJ(}KYyv.6wL6(.6J3RJRK6.lRyJvvyr}RYlJ}y.Rv3w.J}y(qllR}3vwPwR.(5lJK5w.Rw}66L56JL}J6L5J6Y3(KR.LPvJ(YJ#53y(5Yyv(3LwJLLYl6&5}}KvOC}5YJ(yL.wd}+3R5YY6J3(JLK6w6L3K3. j(5RlKv3}JvR3.(&YR6XJJKcYJ6LRvlKKl,Rv62y(.yV6vJ5}y6}5yJ5K}vwj}.Y5(}5y6w.Rl}5.35wJv(..KwR6J3lK#.5CyRR}5.K5}J(yLv55wRl}5JYY(5RRvKGwwRYlJvz.YslJK}3(JyL56lyK.65RJ(VY(.v55lwK*}3v53YJKY5655K(.yR6LRw}KyLvw3C;JRRY.6}3RJ3.5w0RK(wY(6YR(JYR6}ywKLjJ.6J5wLRJw.(5NRR}YlYKK%3R5(}yywiR((.vvw(l}}Kvv6J.65y}}vKMRlyY}vlLRlKYY6Kw(6Y3(K5.L55}vv(*R5(JwYw.LLVwJLlKw6V5ll}K5w3L}(KYaw}3}Ry(6(Yy}35JGK6.v3.}YY5wvRYlJ}66Kv3wwJwY(6R36}3.R6JLRKev.#5v6Py(Jy(w3Rl}Ky553L3}yY5.w.Y5(}lv5w6RwYw65_ylv(JyRwy6J3l}6v6klRz(v..LYJyYy.(3(L5YlJYY}55Rw}.vv5YlKY6wlTLR5}.yKy36wl6Ky.K3y}lyJT3L,l3KY.5y6wKJJy3w5R3(d.K65RY(yl3}.wyRKYK6ywKJv}5.RU66J35K{55Rv(JYlvvL(liY((Yyl3l(wY6swl3J3Y.6}LK06RKyY5LJRKtyYw3lAJ6yvY3.wRY}KvJ3w}%YK.J3}JRY3.LY66YlJKk-(3Yl(yL6y5(lRYy(6yY3(J3y(w13K}}y56i36llR6}YwJL5(w6R3LLL(lY6wl3J56lYv(P5l(Y36yLJJ(YR.YCl663vKJ.859RwYK.Rj6(lKLwLL3J5LJ(R..5}lJKLw.3K(YyJv.Llly}K(6yY3KJ3ylwyRYK3v8e.36lvR6}YwlLJyLv(^(R_}5Y6awRJ56lKvyL.ly}ywl5}J!}v.Yy366lyKveK3l}}v.6}3rJ6yl}3y63YJy63w6R3JY.KwL3R}vl3}6wvLl}3vlw6RR(5.Rw3Ly33l6vK .((YR..t(Jy}y6J)Kw336K6.(llK3YL6r5K(yK(v}v3w6JKYK:}l3JY.L5pL3(Kv(K3v6Lv(R65ENLYKKy.w.lJK(J3K6MvRJK..}3yJJY66Gx5L6L3Jw.K5.lJY36l5YJ(vL6.3}JKL6(y6J3KlwyY5.R5Jv.Pw(Lw(KR."));l(f(126,"VXIB30lpEv6SNjz_EIr6_vpN_Np0_NppvlpEJSE0f6EXX3pX_6vpz_vEX0B{SB6RX0v0II63BISXBRSIXNE0XvvINS0XBzNIBSNI36SN0B6vIzNXBESv3jlE_Pj_lIzI0SzI0jpjlpjjpIzBl6Np0pjzpNjSEpjBpNv3X6.0pSXmEl60Ez}EESIZv6X0EEI6EE_Nv6Il6NNw36BB6pBESBIjSzIjNIBXS33qSS0X6zIjSB3pS00lS6zNpIlnjjlBzlllj_llzXl0jpp0zXpz_Ipp_6xNvBE3_BpliIpj6HvXrNvr5BEpXXl_tS6B1l6pXX6B1/BNNCSXINSkIB6pBXSCXlSEIjN33v6pIS0Nj_NN0GNv0UjEIzSjl=j00SzEB6jp_NE9lzzSpX_3p3zjp3z_3Njv0XzXpS+plpzNIH6XEzXIESXIv6^NvvX6vvX06S>KE0SN3TI_6BIN6pIpS6INvN3B6XBENEB_6IjE0z3vS_03N6zvNN03jv0Sz-BIz63{N6lzzl3NN_d0"));pp_pGiveXiEGWhd=function(e)e((-o.kPstzJCP+(function()local t,n=o.CUhZkoqY,o.GJcbkRsj;(function(n,e)e(n(e,e),e(e,n))end)(function(d,e)if t>o.SVucmkKk then return e end t=t+o.GJcbkRsj n=(n-o.idpFWgWD)%o.ZRvxsDMz if(n%o.zhBCpAAt)>=o.iWxoytol then n=(n+o.AAVgxMmL)%o.QTgwIkUU return e else return d(e(d and e,e),d(d,e))end return e(d(d,e and d),e(e,e))end,function(d,e)if t>o.kzJxVEmJ then return e end t=t+o.GJcbkRsj n=(n-o.AjXSLEWL)%o.YTGwucCX if(n%o.eHe_KRsZ)<=o.nkDColdn then return e else return d(d(d,d and e),e(e and e,d))end return e(e(d,e and e),e(e,e))end)return n;end)()))end;dhWGEiXeviGp_pp={o.iYu_zlop,o.HUvimxHc};local e=(-o.KEXGlahF+(function()local t,n=o.CUhZkoqY,o.GJcbkRsj;(function(e,n)n(e(n,e),n(e,e))end)(function(d,e)if t>o.SdExavyK then return d end t=t+o.GJcbkRsj n=(n+o.xwxOkoWx)%o.ZdiTpdKB if(n%o.MnIhzJFe)>o.BZpFXxyq then return e(d(e and e,d),e(e,d and d))else return e end return d end,function(e,d)if t>o.MUAfJgAC then return d end t=t+o.GJcbkRsj n=(n-o.KoeShFHS)%o.Uvko_sAy if(n%o.JMfqCEUE)<o.OmbrdJVQ then return e(d(e,d),d(e and e,e)and e(d,e and e))else return d end return d end)return n;end)())local a=o.hLl_twSU or o.GawXw_oJ;local fe=(getfenv)or(function()return _ENV end);local t=o.BEZLyErg;local ee=o.GJcbkRsj;local l=o.EioAxQhf;local h=o.yxfYDsPk;local function le(u,...)local k=f(e,"CQ:iM,xGW80Y-*)Fj)i-*0GWQ8YF,:FSW):0FMYQ,QFG8Qi0*,G8Qq0MFx8Mi:*Ix).-00Wx:xWG:8-%,)F-8Wxi:*-Wx810x8)F8V:W-xxMLXFW8W:**tGMYx,MF:8s:)--x0vW0xMM):W2Q)Y-,0FW-0GM*,G8!)0-M0)x)QGQQ)8-M))8WF:,G8Q8Y:,}))W0,xQQ-2,G0,Mi*)G-Q0Yx0,MW8,iW-)x-b00xWQi,--GM%FY:M88YMG*MG:Q^0-W0ii*-WiQQx0:0)GWG:*-GG(pY0FMx*0:--0xW6x0MM:x.-F,-Y*,)Fx8Mi:-)88x5FY8ii8WG:,-m,)F-8WWGiQGGQ8YUM))-WW,::i-T,)FG8M*FWQQWYx,MF&--W,QYY8,-FiMGF:W>Q)Y-,W:MFLWY:0Y-x,/Y0EF_-QGQQx0*M8FWi0*WGxQMY:,50)))x0-YG,DM0:M+*-00xYo)0:::)iW0:8-Wi,FW8GiW-):i-x,-F08WiM5GYFGQFW8*M6*M:8-8x:e_8)i0XG-)Gij8,,FGW):--0xxMQFQWYi0-8x-Y0,WFx8Mi:*%x)MW)0MY)0WM::-O-7G,H)8**8-:Q:YdM))0*0WM::Y-,*-:,,Fi*MxQQ,x0MQ)QW0Q--G,:ui8F:F*0x8QiYE,M)iW0:)Wx,8?i8FFF*xGQQWY8,WF),QQ,0G:8)x0QiW)xGi::-GQYF-W*:-*GiQVW0ii**)WY),-Q,iF88-FYYixYQ,Y:,,0)W0iQYYQiYYM-)0WW:M)FYi,0)88Z:GWO,MF*0xM**Y:F*ixW3x0MMPQQ*8,GQxY,M:),W8*rx)E-00MW)xWM::UhxQIG80iW*xG:M*=M8FiW*GW:-)W)MYF0i)*-G0QWYx,MF:WSx*-FGqsW0xMM)}-YG:X*0,MY88MM*:G.e)008xiW-,,i)FYQi))88W:80,x-F80WMxWF:F-Wxx7M0+xYi,-WxGYY,-FM8:isMQ)NG-QQYMMYW,:8Y),-F08xx::)-8xWF00iM8*):8--x:Dq8)i0L)-8x%r)8YM0)F:--0xWIx0MM:0s)0,-Y*x,Fx8Mi:-)Y8,-Fi8)i,*Qx*{8YM,0)i8i*8WQQ:YeM))0-xGFQ,Yi,x)*MxQ0-ix-Qi0QF,8*:)--x0Hx*Q8Yix*GGW-M8,M,)0WQQ*--QQY*M0)WWx::F*YMMF)WWGi:G)i)FY00Fx-0GiQ--i,Q0,,Q*)G-Q0Yx8iMF*FW0FF-:x:E,0:QF-FG0Q-0*M,),ix*MG:Q&0)M-:0)Wxx-Gxxe+8)i-*W-)xiQi,,FGW):--0xxMQFW8i:--YGxY*,FFx8Mi:-)0x,,uM8,i-)3:,-W,)F-80ix5x*Sx)?WG*i8)x:Y-)xMP:0+i-QM-)xQQG0QM-)YiQ*ix0SW0xM::Q*QGM=WYQ,G88M:*:G4r)008Q:8-Qx)EFW*i:FYW*i0YMMY)Q,iF8W-:0-WxM,WF8W8:0*GGxQ:0GM0)Qii*xx-A00WMMQb-FGYQ0Yx,QF8i8)iG:QA0)M0:-Y8G-Qy0Fxq-WW8:0-QGMX,08M08QiW-0xWvx0:G):**)GW-:xxF)-,G*:G-M.F0)MW)xWM:3QM0GMF8*MG*xGMQ::bY)MYF0xF:F*0xGFW0G:Q-QxFQ)YWF,88:)--x0Rx*M0QiW-YG0_*YQM)88i8*:G <)00GFiQ*GG0-:xeF)8-i0*WGxM*F:,iFWW-:0-WxMiF)*80:Y-8Gc)GYiM,8,Mx-)x-a00xGQiY*xGGQW8GMGFQ8i:Q-W,YFYGFiG)8G)QYYi,xF0iF):GWQxYM,ki))WWiQF0:i,-)M,)iG)Q-Y0-YxYFxi:*rx)h-00MW)xY:x:-ixMF-80iW*M-,xWF-8YM-W*iy-xxM7:8)G::*-):R)>0)M886:)--x0EW0xMM:Y-3:Q-W,0FW8xi:+x-G,8F,8):>*0x*:i0*,W8FMG*WGxQMY W)iG)kWGQ,x)iFF)80i,-FxGYYx-FM8:iU--8x,iFi88ii*-GGQYY:Mx0AxQ:YY),*YxW0ii*-WiQQx,QV8)i-*0GxM_F*8*Mi**Wx:Q-,,-F>M0lY*,xW.G,YTQ8Mi:*^x-iYFG0M:Q*QG-Q)0FMG)GiY)xGMQ:YbM-Q*)xG,QYx-:-)8W8:F-8G:t*YQMW*-:)--x0!W0xMM-:)F,)YFGMFW8xiM*^0,x,Pi0d:i*ixFS88Y,0FxWY:)-,xF):0Qi0*WGGQ)WFx%F)80)QGFQ0YW,xF:))WF*QGGc00WMx):--x8c80FM8F:W*iQ-W,-0)M-)0WW:x-Mx:i:*)iF)iGWQxYM,k:*YFxG:x-:,*FGWF)iWxQ-Y0,WFM*JGFi_-0,x=Q0W)8W8::-k,)F0*:WQ:,-QQ,YWM))-W0:xFQYY,-)*x*i8-YQYY0,MF:8L:-Q)Y,,x08MY):W<Q)::-8x0FY8,i,*WQQYQM0)WWx::F)Y0,Y)8i**FGxQMY:M):8*-GiQMY*xi0,M8*)G-Q0YxWGM0)*W-QG-:,,F,M8FQW::NY),0:,)FW0:Y--QW)x8*i,*YGiQ)x,9M8)i-*0)-WF:MYGFi8Q:--0xWAMFxW*)AG)Q-Y0,WFx8MGxQHGQQQ00MW)xW:GQ28YiM88*iF*xGMQ:0)G0i,)MGYQiY)3,-Wi)*-G0QxF:0MMi)YixQ0YY,-FiM-MQ-8G8-MY:,:)*8rQFYYx0F88xF.),G,Q)Y7hx*Q8Q:F--MFFF8YFx-0M,-YGW5M0:Mo*-YWGQwG0,MW*FiWFWY,,,FY8,i)*8G*QM0WF*8*ix*MG:WMcF0),x)*:8-)x:^z8)i0Q,-QGM_QW)M2*YWQQGxYf-0MM:)VG-M0zi0-,Q)Qi,)Qx)?-00Mxi,*QG))YY,,&FQ8:oM-)x8c,Wxi,)xGW-xxMP:0_i)*-F0,8Fx,GF*8Z:)--xW,QF:8SQ)*G,0^-0GM*)iiG*FGng)0-MW:M),GQ FYxi8)88Mix-G,FFF,iF-W-:0-WxM:FF88Mi,*x,,O,0F,Q*FWxQ8Y8=*YQMx)MW:Q)Q0Yi,,FM8/:,-W,F0)M-)0WW:x-M):xx*)iF*FGWQxYM,w:x*GWQQGxYQQ0MM:)%G-,xQG0)iQ)QW-:)YF,GFGMYFrWM::-N,-iM))WQiG-Qx-*F0Yi*W*:)-xxMD:8)G::,-Mx,J0,Glx8s:)--xWMiFQ8)i8*MG:_*YtMG-MW)QY-,,YYMG,iF*:GQ-,G:F)8-i0*xYFxlF)G-MW)iW:QMY*xiFWGY:Y*=xG&iY:FG8xiT-)x-x*Q;0G,xWi::Y),-l-8pix*MG:MW0)M-)0W)xM-Mx:kd0:i-*YGWQGYM,xM:W):--0x-ax0,M:)M*/Q-Y0,W:x8Mii*bx)0:00MW)xWM::-u,)F-0FiW*GGMQ:YRM))-W0x)-xxMg:0Ti)**G0iWF*,MF:8d:)--WWgWYW,G)iWQQ)-Q,0FW8xMx-0G=Q?0-W:)WWx:M-Wp,F)8Fi0*FGxQ,Y:,Q))W-xW-8xxJM0iMO*)G-Q000,xFx8:i:-)x*>0Y0M0)MWM:lQG,-F08WMW),G:Qi0)x))0WW:x)MG5=J0Qi-**GW,,YMxMFGW)i5-0-W+x0MM:TEW0Q-Y),WF08MWx*RWoQ)00M*)x0x::-h,)Q-0FiW*YGMQGY_Y))-8-:F-xx0/:-:i)*-G0iW-x,MFW8wiM--W:%W0x*0):WGQ)Y-,0FW8xMx),GQQx0-MF)WWx:M*MGiFF0,i0::GxQMY:x:yQW*iM-WWM6M0:M_)::-Q0-u,xQ,8:iQ-)x-xW0W,:)MWG:TY),-F0Fxix)QG:QY0)M-)0WWM*-Mx) N0Ji-*-GWQx-0,:FGW)iG-0GMXx0M,W)bW,Q--x,WqQ8MixW0x)QM00xi)xW,::-l:)F-0:iW*)GMQ:Y<,M8QW0iT-xxW :0Qi)):G0QWFM,,F:8<iA--x0fW0xW:)iW_Q)-l,0FW8xiMQ{GQc)0-,:)WWx:M-:8)FF8-i0*YGxQMY:,S:-W*:0-Wx*yM0:MP*)Y0QYYW,xF,8:i=-)x-8Q08MF)MW0:aY),-F00<ix*)G:Q 0)M-)0WWi*-MxYtb0Ai-*-GWQx-M,:FyW)i,-0xWUx0MMx)ZG)Q-Y-,WFx8Mi:*,x)X-00MW)xWM::-MGQF-80iW*xGxQiYUxc)MW0:W-xWM4:0>i)F--QQWYx,MF:8OM---G-W:0xMM):)WQ)Y-,0R0W)iM*:Gt:)0-M0)W0xxY-:xtF)8-i0FMGx:x:-,>))W-:)-WxxOM0:MW*)G-Q0Y8,xFM8:M:MWx-P00W8Q)MW::;*T,MF08WixkxG:QS0)G:-QWW:x-M8)P.8Fi-iWGWQ0}x,:F}W)xW-0x8%x0W8M)nG)Q-FG,WFG8Mi::ixFO-00M8)xWM::-AFMF-80iW*xGMQ:YDxSG-W0:W-xWW!:0Hi)*-WFQWYx,MF:8T:)--G-:M0xMM):)QQ)Y-,0FW0GiM*:G R)0-M-)WWxix-:xQF)8*i0*WGx:xY*,4FnW-WG-Wxx&M0:,:*)G*Q0Y0,xF,8:Mg:-x*m00WWG)MWi:kY)F:F088ix*MG:Qx0),)*WWW:W-Mx,j<8)i-F08,QxYx,:F:W)x0-0G0QM0MM,)BY)Q-Y0,WnW0,i:*Mx)M-00MW)x8xix-uxiF-*0iW*xGMQ:-YM)))W0:*-xxxE:YliF*-GYQW1-,MFM8gMcY0x0m00xMG):WNQ)*-xYFW8WiM*MGPM-0-,-F0Wx:G-:xxF)8-i0)0G0QMYx,_FMW-:0-WGWQ80:M,*)W:Q0YW,xFM8WiV*gx-HF0WMW)M8::YY),*F088ix*xG:::8-M-)-WW:8-Mx:=pY)MG*0G0QxYx,::)W)i)*xxW.80M8_)bG)Q---xQFx8Wi:Q)x)g-00,0!_WM:G-X0-F-80iW*x8tQ:Y:M)FQW0:0-xGMQi0EiF*--YQWYW,MRMG):)-)x09Y0xMM):0riMY-,-FW8WiMQtG&:zYWM0)YWxxG-:xjF)0)Mx*WG0QMF,,2))W-i-*Mxxt80:Wi*)G-Q0YWxGFM8Mim*ix-J-0W,xF:W::QY)8xF080ix)xx;QhYAM-)*WW:x-MW:g08)i)*0G0QxF:,:p:88:--*xW:Y0MM:)f8_Q)Y0,-FxY8i:*<x)Q)-,MW)YWMMG-q,)F-80,,*xGxQ:Y,M)))W0iW-)xM^i0?GM*-G-QWYx)0F:8::)--x0QQ0xMMGWW&:QY-,0FW88iM)M,)<)Y6M0)YWx:M-:WRQ08-i)*WG0QMFI,=S<0::0-*xxiF0:ML*)W):*YW,-FM-*iI-)x-Q--iMx)YW:,YY),-F08WMQ*MGxQhY,M-)-WWix*Wx:^i8)i**0G-QxYM)WFI8::--0xWuW0M,M-)G):QY0,YFx8Mi:FoGQk-0FMW)YWMx}-rGHX-80i)*x-FQ:YqM)F)8F:W-*xM,*0ri)*-W-Q)Yx,-F:)Y:)--x0jWYQMM)GWl:xY-,-FW0xi)*:GMX)7YM0)*WxixY9x5mi8-i**WGxQM*:x ))8Q:0-*xxM:0:,:)GG-:_YWx:FM8:i4)VW:_00FMxjFW::oY)x)9G8Wi)*M*YQs0)M-)0W8:x-8x:(W8)i)*0WWQWYM,xFbY,:--FxWQxz:Mi)iG)GQY0,-Fx8M-W*pG:_-00MW)WWMiM0),)5Q80iY*xGMQ:*V,Q)-WF:W-YxMMU0w,9)QG0Q)Yx,xF:82:)*)G:4W0*MM)MW;Q)Y-x-^:8xi-*:G:I)0-M0)W8G:M-Gx7Sx8-i-*WWxQxY:,M)))Y:0-*xxQx8ZMZ)iG-Q*YW,xFMY:iW-)GQ&00*Mx::W:i:-Q,-%n8W8Q*MG:Q?-Lxi)0WF:xQFx:UL8)M))QGWQ)YM0*F+W):--0x-px08M:)WG)Q)Y0xWFG8Mix*78,+-0FMWFx)::i-i,),)80i-*xWMG#YQ,1)-80:W-8xMe:ixi)*FG0QWYx,,F:0:Q---x)PW08MM):Wfi)*t,0F-8xiW*:0)h)Y),))WWY:MF*x}F)8-M-FMGxQ0Y:WY))W-:0*0GWjM08MuQ8G-Q0YW,xLF8:iM-)Gir000MxFM8*:.-Q,-FY8Wi0*MW:x)0FM))0F,:x-Gx: 4iMi-**GWQxYM,xFc02Q0-0x-.x0GM:)OG)i-*i,WF08Mix*J0-9-Y-,-)xW8::FY,)F-80M0**GMQWYDW8)-W0:W*WxYP:0Gi)QGG0QWYx,MFx8hi:--GQOW0WMMF:W)Q)YF,0F88xiW*:W:F-0-M))WW8:M-:xbQ)8Fi0*-GxQWY:W)))8)iM-WxYZM0WM&*)G-:--G,xF08:ix-)x-N0Y0x:)MW8:g-M,-F08Wix*0G:QM0),i)0W0:x*MGYjm0Qi-),GWQ0YMxM*)W)iv-0xYdx0MM:y1WFQ-Y),WF08MG}*nWEQG00M*)x08::-d,)+)0YiW*-GMiGY_M))-8-Mz-xxYm:-,i)*-G0QW-W,MFx8li,--x-SWYx,-):WiQ)RQ,0F-8xiMxWG?Q:0-M0)WW8:M*MM)F)0Qi0*YGxQMY:GUF-W-:F-WxYqM)PM/FB8WQ0Y),xF08:iU-)G):x0WM*)MWW:VY),-g-8Fix*-G:Qx0)M-)0WWiE-MxG=10xi-*-GW:x*},:FMW):*-0x*IxYxiR)rWiQ-Y*,WFx8M,:):x)QQ00M*)x-:::*:G,F-0.iW*WGMQ:Y>x9?,W0:F-xxxD:0%i)))G)QWY),MFM84:)--x0T*0xM8):WWQ)Y),0JW0GiM*xGT:M0-MF)W8WQ:-:x,F)8Fi0*WGxiM-Q,yFiW-:F-W0M+MYMM:*)W:Q0Y0,xFM8:M:*:x-QQ0WMW)MW::a*px8F007ix*xG:Q30)M-F-WW:Y-Mx0}<0{i-)0W,QxYW,:i8W)iQ-0GWxM0,M,)gWFQ-Y),WHxF:ii*:x):F00MY)xWMYW-!xQF-80iW*-GM:M8)M)FnW0:Y-xxM?:-{,M*-G)QWY0,MiA8}MO*Mx03*0xGF):WbQ)-)xiFW8-iML*G&g)0-,-LiWx:Y-:8YF)8-i0*WGYQMYx,vF,W-:--WGxQM0:Mi*)G*Q0Y-,xIxWei_*:x-=*0WMx)M0::8Y)x>F08-ixQ:G:::Y0M-)FWW:--Mx:EDY.,i*0G)QxY0,:FdW)i)*ixWU*0MMW)BG)Q-Y0,YFx8Wi:*Gx)f)00,WF*WM:,-5x8F-8)iW)Wx:Q:YMM))FW0:W-xWMQW0zM:*-G)QWFM,M&M8W:)*Qx0:*0xMM):8:iYY-xqFWYYiM*:G<:H-MM0)FWxM8-:xtF)8-M0*WG0QMY8,LFuW-i0)MxxTG0:W,*)WaQ0-0MMFM8xi(*Qx-.00WxxFMW::MY)x#F0*xix)xWxQUYiM-M,WW:x-MGMQ88)M:*0*iQxYM,:E:8r:-*QxWxQ0MM:)#G):MY0,-Fx8Yi:*:x)Q-Y*MW)8WMiF-zx:F-0-:x*xGWQ:YiM))-W0MW-FxMRx0+M:*-YWQW-Wx:F:8,:)*Wx0/W0x,x))WK:MY-W,FW8xiM)MGQ})YiM0,QWx:M-:x1608-i)*WG*QMYM,;F)0/:0-Yxx:*0:MM*)W) WYW,0FM8,i+-)x-:0Y-Mx)WW::MY)80F000M0*MGGQ9FWM-)0WWiW-)x:px8)Wx*0GWQx-x,WFu8,:-QMxWdx0MM:)-G):&Y0,FFx8xi:)rWMo-0*MWhDWM:x-ux),08Yi0*x0QQ:YiM))-:w:W-8xM1:0uM:*-W-Q2Yx,WF:FG:)--x0:WQ+MM)xW3::Y-WxFW8xiF*:G,{)0*M0)WWxix-Mx2.M8-GG*WGxQM*:xW))8::0-)xxir0:,:)QG-:QYW,YFM8:i+)vWMw0YoMx)GW::IY)G-QM8Wi)*MG0Qp)-M-F-**:x-*x:iY8)i-*0W0i+YM,-F#-8:--0xWQWY*M:)YG),GY0,WFx8MiF*9Gx=-Y,MW)xWM::-F,)S:80iW*xGxQ:-:M-)-8Q:WsixMK:0v,)FMG0QFYx,YF:Y-:)*)x)cW0)MMqAWDQ)Y-x-708xi**:Gid)0-M0pWWW:M-Yx=gG8-GW*WWW::Y:,0))-G:0-WxxQxYGMr)8G-,,YW,xFM0MMi-FGWs0)iMx)MW::+Di,-Pi8WM:*MG:Q90))G)0WF:x-Mx:;t8)i-:<GWQYYM,:F=WF:--0WF/x0WM:):G)Q)Y0xW0 8Mi,*VxF9-0)MWFW8x::-M,)FF80iW*x8MQFY;,:)-W):W%MxMQMY8i))QG0G-Yx,MF:0:MW--GJaWh0MM):Wyi!*G,0FF8x8W*:GK^)0-M-)WW0:M-8xb+S8-M0W:GxQGY:8G))8Z:0*0WQcM0xMj)QG-Q0YWGx#D8:iM-)G##0)xMxFxW0:9-i,-QQ8Wix*MWM:M0),:)08F:x-Mx:Q:0Qi-)QGW:*YM,:F;W)iF-0x-_x0YM:):G):-xM,WF88MGW*NG:H-Y-,8)xWW::-i,)F-80,W)0GMQxYl,:)--W:W*WGG%:0,i)))G0QWYxxxFx8wiM--G-XW0xMMFMWxQ)-i,0X08xiM*:GRQ:0-M))WW*:M-Mx?b)F0iY*YGxW:Y:,M))8-WW-8xWVM-iM2)QG-Q0M),xFG8:iZ-)x)%0Y0iM)MWx:T-Q,-F08W,x)xG:QM0),.)0-x:x*xxi<X0ii-Q,GWQxYMxMP*W)i:-00iKx0MM:F:W-Q--Q,WiQ8Mi:*Lx):i00M-)xWY::-:,)a-0MiW*8GMQiY/,:)-8-Qx-xxW#:0ii)*-G0iW-m,MFx8Ki:--0W{WYW,Y):W,Q))Q,0FW8xMx))G2QM0-xF)WWx:M*MGYF)0ii0F*GxQMY:,l{YW-:)-Wx*5M0MMJ))W-Q0YY,xqQ8:iM-)G-xW08MW)M8Q:7-Q,-F0:)ix*GG:Q60)MF)080QM-Mxx q0Qi-*0GWixY-,:FMW)iT-00x5xYx,6){WiQ-F,,WFx8MMM*8x)Q:00Wi)xWM::*:x-F-0QiWQQGMQ:YgM)XQW0:--xxYa:0:i))-WMQWY8,MFi8>i:--G-Fx0xMW):WiQ)Y-,0QW00iM*xGAQ:0-WW)W8WiM-:x,F)0:i0*WGx:xY),NFMW-iE-WxxbMYM,,*)WiQ0Y),xFM8:iZ*,x-;)0WM*)MWM:l-)xFF08Yix*FG:QM0),)*WWW:0-Mx,Lc8)i-F0WxQxYW,:FMW)x0-0G0:i0MMG)f0iQ-Y0,WaW0Fi:*xx)iQ00MW)x8x:Y-!x,F-YFiW*xGMQ:-QM)FfW0:F-xxxa:YPiF*-G*QWFY,MFx8^i):0xYA00x8M):WiQ)Y-FpFW88iM*:G/Qi0-,-*xWx:W-:xiF)8-i0FWW:QMYx,sF:W-xW-WGWQ)0:M,*)YGQ0YW,x9x8)i}*Mx-M,0WMx)M8M:,Y)xiF0*iix*MG:QK-iM-))WW:*-MxMNU0)MY*0GYQxY,,:FMW)i)YWxW/00MM,)mG)Q-*0x0Fx8Wi:*Mx)M000,0)FWM:G-DxMF-80iW)WW0Q:YxM)F:W0:W-xGxEx0XM,*-WkQWYx,MF:8M:)*Vx0EF0xMx):8;:+Y-,*FW0QiM*xG(:n80M0)-Wx:G-:xJF)Y-MK*WG0QMYx,>:-W-i-*:xx&80:x,*)G-Q0-0x0FM8Wi3Fix-_00W,WFiW::GY)WQF08Wix*MW0Q^Y:M-FQWW:W-MG:Qx8)iF*0Y*QxYW,:FN:M:--)xWox0MMM)%8qU0Y0,*Fx8Gi:*gx):-YWMW)YWM:G-l8-F-0-M8*xG0Q:6YM))-W0i0**xM(80288*-G0QW-WxMF:8W:):Gx0/W0xMMFGW?:iY-x:FW8WiM):GWe)Y_M0MGWx:8-:G:)-8-iF*WG8QMY:,#&)0i:0-*xxI80:G)*)W)Q-YW,-FM8)iS-)x-Q-YYMx)YW:MYY),-F000M:*MG0Q9QGM-)0WW:x*ix:N,8)MM*0G0Qx-M,,F48::-FQxWXY0M,:i)GFQFY00*Fx8Wi:*gdML-0)MW)xWM:M-BGd)080i**xGGQ:Y4M)A-8-:W-YxM}G0OG-*-W-iiYx,0F:8::)--x0Q00FMM)8W5:rY-,0FW0Wi,*:GW+)0)M0)WWx:M*0x1hi8-M:*WGWQM-:x8))83:0:Gxxf80:,:--G-QFYW,8FM8:iq))Gie00*Mx)8W:,)Y)x)n)8Wi-*M-*Qt0)M-F-88:x-Yx:,Y8)i-*0W0Q8YM,0F/)8:--0xWmxYxM:),G):MY0,0Fx0MM**eG:4-*QMW)YWMi:Q),FFF8080*xGWQ:-B0-)*W-:W*0xMV,0Xi)G:G0QYYx,MF:8::)*),W?W00MM),WbQ)Y-G0t-8xiW*:GM>))0M0F0W):M-Gx1i88-i0*WWW:YY:,x))-G:0-WxxQxY8MN),G-,,YW,xFM8:i8-)G4{00FMx)xW:iE-L,-F*8WiG*MGxQ+0)):)0W-:x-Mx:;:8)M)-WGWQYYM,,FyW):-)0G:bx08M:),G),0Y0x0<W8MiW*TGM!-00MWFW8x::-G,)J:80iW*xWx:FYs,x)-8_:W-xxMD:0Wi))QG0:^Yx,xF:0yMi--x)IW0GMM)GW<ij00,0F*8xiG*:G=/)--,:)WWY:M-Gx=i-8-M-*YGxQ0Y:G,))W-:0*0G-yM08MI iG-Q0YWxWSG8:iW-)8Qz00WMx)M8F:}-i,-R:8WiW*MW:QF0),s)0*G:x-8x:QwF-i***GWi)YM,xFe8)W0-Yx05xF-M:)iG):-QW,8FG8MxY*<GzK-Y00x)GWM::-W,)F*80M0-)GMQiY!00)-W0:W)xYWf:0Qi)**G0xtYxxxl,8QiQ--*,!W0xMM):)-Q)Y*,0FY8xix*:8_x:0-MY)WWG:M**x<F)-ii0*8GxQxY:,:))8:xW-WxGzM,QMQ*FG-QYYW,0Mx8:im-)QYsY08MxFxG0:.YF,-,x8Wix*M8:xM0)M*)0W8:x5-x:Q:YQi***GWxWYM,:F;W)8W-0x8px0GM:):G)::FW,WFG8M)G*QxFZ-0YMW)0*x::-;,)YQ8Yi8*xWx_0Y(MF)-)x:W-xxM::FMi)**G0Q8Yx8-F:0:MQ-*x*uW*xMM):W4Q):W,0F88xiG*:G:j)--8Q)WWG:M-ix4M:8-,0QFGxQ,Y:,Q))FW:0)WY0%M0MMd*FG-:*YWxW%G8iiM-)0)I00WMx)M)):R-w,-F)8WiW*MGWM)0)M))0Mi:G-,x:SQ8)Mm:-GWQxYMj*FQWF:--)Y0^x0MM:8*GFQ*Y0GWM08Mi,*pGub-*)MW)xWM:i-i,)F)80i8*xWxu0Y^,Q)-)Q:W-xxM::*3iF*FG0QYYxW9F:0:i---x).W):MM):W{Q)-M,0FY8xix*:G:%)*-x:)WW8:M:-x5MS8-M0FMGxQGY:G)))W*:0*0xGZM0xMgFiG-Q0YWGx#l8:iM-)GXe0**MxbMW-:o-:,-F)8WM_*MW:Q:0)MF)0Y*:x-Wx:Q:YWi-*)GWG:YM,:Fd0)Wg-0x-Nx0WM::WG):)-*,8F-8M,-*Ux)/-00YM)xWW::-x,)F)80M0-)GMQGYn00)-W0:W)xYWl:0,i))QG0xcYxxx&,8Qi,--*?1W0xMM):)-Q)-Q,0FF8xix*:G:8Q0-,6)WWW:M-:xtQ&Qxi0*)GxG8Y:,!))W)0*-Wx-%M0FME*)G-:-i:,xF08:8i-)x-u0Y0i))MWW:V):,-F08WiW,GG:QG0),W)0WW:x*M-?lQ0Mi-)QGWQ*YMxM)WW)i:-08Ywx0MM:F:GxQ--Q,W,:8Mi:*EW)x;00MF)xWY::)F,)r)0*i8*FGM:YYZM))-W0x*-xxYU:08i)*-G0QWiY,MFW8J:)--x-pW0xYG)iWxQ)Y*,0F08xi0GGGmQ,0-,,)WWG:M-ixRF)*0iY*WGxQ0Y:,2))8)0M-Wx*5M0YM4*)G-:{,*,xFY8:i)-)x*{008Mx)M-B:QY),-FF8Wix*MWMW00),i)0*M:x-Mx:V::Qi-)QGWQ-YM,:F<0H0x-0xF=x-0M:)LG)Q)i*,WF*8Mi:*7x)4-Y--:)xWY::-),)F-80i0,8GMQ8Y4,Q)-W0:W*W*)L:0Gi)ixG0QWYx,xG,8Ti,--GiTW0xMMFMF0Q)-i,0MY8xiM*:GxYi0-,Q)WW):M-ixrFF8-i0QxGGQMY:,M))W-:0*0)noM08M<Q,G-Q0YW,WGG8:iG-)GYN00WMxFxF-:E-,,-Q88Wix*MGM8i0),i)08::x-Mx:Q:QWi-)QGWxiYM,:FR8M*Q-0xFyx0,M:)QG)Q)Y0,WiM8,i:*/GQ_-00MW)x-::i-s,)r>80iW*xWxW-YA,,)-F8:W-xxMr:Y)i)):G0QWYx,MF:0::x--GajW-0MM):W;:MxQ,0FF8xi8*:GQ1)0FM0)W-M:,-:xw{Q8-i0*WGx,:Yi,=))W-:0-Wxx7M)^MQ*)G-Q)YW,xFM0:W)-FG:l0*8Mx)YW:i:Yx,-6}8W,0*MG:QV0)-8)0W):x-xx:4b8)i-FWGWQxYM,:F#W):--0YYJG0MM:)QG)Q-Y0,Wtx8Mi:*1GGn-00MW)xWM::-+,)F-80:WQ,GGQWYpM))-WWG-Q*-iMFF0MQ),G0QWYx,:M))GW8:W-M,8F-8i),W,Q)Y-,0Fx)0WQ:I--QQYiM0)WWx::Q*Y-,W)*8g:GGxQMY:,J))W-:0-W0xLG0MMN*)G-QW5-,8F08:i;-)x0xMF88,iM*):i-d,-F08WiM:)W)Q+0)M-FX-x:x-Mx:oi8)i**0G8QxYW0MFvW):--*xWNG0MM:,*G)Q*Y0,0Fx8Mi:):xx^-0*MW)YWM::-6G)Q,80iY*xGGQ:Y:M)F)W-:W-0xML,0si)*-G0::Yx,8F:8K:)--x0hWYQMM)xWs:iY-,0FW8xiG*:Gin)0-M0)0WxM0-ixBSQ8-Mx*WGGQMYY,KF:*):0-WxxQ^0:MQ*)Wwx-YW,xFM0:ib-Fx-i%-iMx)GW:i?Y),*F00;ix*W-MQ#0)M-F0WW:G-MWW*G8)i-*0W0QxY,,:FxW)iuQ-xWax0M,M)wGFQ-Y0*,Fx8xi:*:x)?-00M-iWWM::-XG8F-8YiWF-WFQ:YiM)vMW0:8-xxYK:0M8y*-G0QW-),MFi8+,M)Gx09Y0x,-):WQQ)-n,0F-)WiM*:GE:x0-MY)W0-FY-:xvF)Yxi0*8GxQ,Y:,MMXW-:0-WWhfM0iMS*)F8Q0Y8,xFx8:i(-)G3,-0WMx)M8*:/YF,-F0Q,ix*,G:Q:0)M-)0WWG8-,x:be8Fi-*0GWQ8YM,:FmW)YW-0xW+x0G,,)&G)Q-YW8iMQ))W8:M-:ixFi0:::*MGiZYYQ,:)G8iiQGMQ:Y2M))-W0:W*x0M^,0Yi)*-G0QxF:0Q,:)-,8:iY),FKA,F):Q0YG,,Fi8Q:FQ*QQGiQx0-M0)WWMMFQ:08,M)YWG:MG8Q8Y:,t))W0xxQ,-xxJ0,,Q*)G-Q0YxW%i***WiQ*-xxQ?,8-i10*GGQ:Yi,MYiix*MG:Q30)M-)0WW:x-GxMJ38)i-*WYWQ8Y0,:FvW):0Fi-MiiF0W))iW0Q-Y0,WFM*eGFi^-0QMYW,cQG-FG8Qx,)F-80iW*xGMQ:-MW))F0M:W-xxMTp*)WYix*xx81Q8*Mx-YG8:x-Q,-F0x):Y*0,xQiY,M8F:W,:8-xQQY*M0)WWx::)*YMMFFM8,pM-ixFF*8*MM*WGiQ)-:,F0,,:*)G-Q0YxW)MW*YGYQYY-xQF-8:iQ*-MYQ,Yp,QF:,Q*GGxQ{0)M-)WYQG:QTx,%F8)i-*0Gx,QFF0-MG):W+FMYQx<*,8WiY-YGWY*xBFx8Mi:-)00,8w00MQU*YW:-ix,F-80iW*M0ix85-8)i,*F:Y-FxM{:0di-QW-GGWQ:WFMiF:GY-FGQ#W0xMM)1YGx-c0Y,M,F:iM*:G+H)0-M0)WW)xM-,xxF)8-i0*x0Mx)FY0,iYWFi:-WxxeM0>xYi,*:G(A,0Q,Z8,i8-)x-Z00xGGi0**G-lGY:M,),i8)_G:QH0)M0QM*FW::mY8,,-F8Q:i-GxiYG,WF_W):--W8i,0FQWYi0WQQ-Y0,WFx8Mi:*5x)3-00WWM--M:,*G,)F-80ixQM-Qx-A-8FiG*iG-oQ0F,-FG8:i+0MxQQKW,MW)YGY:Wx*:i0xMM):G),8nGYMMF)0WWF-Y8xW**8FiQ*,GQF)Y0MGF:8,iqYFx)FF0xi8)*:0-WxxhM0:M^*)x-,8YW,xFM8:i(-)x-xW)WM8)*W::oY),0ix)FW)_,-G,8F*88)*8,:x-Mx:F)-W8iiM-MxiZ)G*MG):Wi:MWil8YWM:)<G)Q0)iY,,:)YWGQ8-0,*F,Gi:F*0Wwk8Y8iG)Y80:iGMQ:Y9M))-W0:WQF0Mc,0xi)*-G0Qx)G08iY*FGY-FGi!W0xMM);Y*MF)GYQ,:)-WQ:-GiQF0-M0)WWMx^sF-h,0*W8M:Q--xFr088MW*8WKQi-GLM0:Mp*)*-WpQ)MMii8,M6-)x-y00xGiiW-YGYQ00*M,-:Wi:MYYx)FF0iMMWYiF-Mx:U&8-8x:M*W,F6F0*i*)0G*QxW0Q*YY,YF-8FiG*8GGR)Y,,:))WFbFY,MW)xWM:VFQYiM,)8W,P0Y*,-F*0:)F8G:W-xxMdK*YWY:,*Mxikx,-UW8WMM*MW/hWYG::)-:NYG,,MiiG88iW*:G.;)000vi,),:G-)xNF)8-iWq-YFG,R80*M0-iWMQMYi,)0,x**)G-Q0YxYTi)F:G8:8-G,G5MxWFY88G-qYY-,xF,87:Q-*:GlY8*gQ-iGQQ)Y8,MF:,ii,-iG#SY0xMM0iWW:Q-1Q-F-8W:FWQM-Y0,WFx8:W-Q0-),,=,0iii)_MM*GG,,W)G8Wi:*Qx-F*084i)GG8**8FM*F08,iV-):FQQ8FM-)GW::ZGF,*FG8N:)*MxY*:Y:M)),iMiW*xGMQ:Y4M)GMxi-,x*F)8-i0*x-QxMFY0xi**8G,QQY-x:)Y8Y)QW8Q0YW,xF:-FxQJ:Y*x,^MG0:*)iGGQYYWF*0Wix*MG:O))x0nii*iGiQMY8,M)0W8iMYMxiQM0)Fi8i:--0xWBM*:88ix*0QF-,,WFx8Mi!%WYG,WFx88i-*i,)QGYxFF0iiW*xGMQU)*GF:G)xW:Q*YGMF0iM,*-G0QWYMW-iY)0GY::-xEW0xMM):W>Q)Y-8:iW88iY*:G4K)00Giii):G,:y0*JQ0:i0*WGxQ:F*0MiF*GG*-YGYrM0:MI*-YGx,Q:0*MW)x,0QG-xiYF*WFii-FMYQ,Yq,QF:,Q*GWYQJ0)M-)WYWG*Q)Yix:F,8:ix-Qx0)F8*M0),WVQ)8:MFF)Giix*8x8Qx,Ynx8Mi:*Bx-ix Q0:i:*QG-FY0F,))GGo:G*M,F9M,Q))W0:W-xx:i!0i,**-G0QWYMW:MF)xG8:WYY,FF-,0{)*0G,QM0xMFF,W0)W0),GdN0Gi,W),FQ)Y0,,)FWG*YGFQMY:,z)--QGYQM8G,8)YWF:YGF:8YW,xFM8E,YQG-:xWFQ0QQ-*8GYwFYWMY)FW-*GG0QD0)M-)W-xGi1FY),GFW,x*00YM8)GW,:i-QFF#8xYc*0MM:)SG-,GyG0Q,X*FW:*QxF!FY)MW)xWM:_FkY,,x)Y80:*-0x)F80:Q,*)G8Q,Y0,G)*8MiWG*:,Yx,MF:W)x0:xYi,)DQ8-:Y*0xYQ:0,,88xiM*:GDg)0-M0i*-x:G)YxkF)8-iWsx*ix0F*0-iF)iWm*)8:,)F88W:0*iG8v)x-:B)-WG:xYWxQaG8-)-Y*x*Q:08M,FMM->FYF,87W8Gi0WW:x-Mx:;j8)F-iGYWQ8Y-,:FdW):0QW-:,*F8G-JF0WQ-Y0,WFx8Mi:YP**M-0*,Q)xWM::Y)8WM*),WWQ:-QG:b-,QFQW0:W-xx::FFx8YiQG*:iYx,MF:W)GGQWYxMMF*WXi:-*Gi%8,*bM8xiM*:x)iG6:8,iW**G)F0YGMFF:8x*WGxQMY:,q))M-W-1Wx8+)0:Mb*)G0,xK,Yx,j-xG8QWY8,)0YGi)MW::uY-W0,G))WQiI-ixGfMx:Qx):G*Q-0),GF*8:Fn0MG/<Y00i-),WY:tG7MQFQ8x:*-8GW*aW:iF*FW,QF-Wxi{G8)i:WGiQ-(,)F-8WGG:x-QxW)Y88Mx)QG-Q00*M-FMWY*FW*QWYx,MFb-YG8:x-Q,-F08,iW-FM0E*YMM,)Q8>:i-GxM0F,i)WWx:M-28W,,FGWYiM-GxY2W,iF0W-:0-WxMi-)YW-:0-*GI3GW0MQ)AW-*QG)N00WMx):YiG,KG0YMG*M8+Q*-WxY6x8,MM*,G-!F-i1i0,i-*0GWQM.,00i8*FWx:,xYQg0MM:)tG-,8)Y8UiF)DG):Q-M,Y00MW)xWM::-U,)::*0iY/xGMQ:Y^M-Mx*MWWrFYF,*)*80F)8Q:FQ:0Q,:)-WY:xYGxiY*0Qii8G,8uGYMMF)0WW)8-Y,8tx0Qi-*0i83-YG,0FW8Q:*W-x-UW8F))W-:0-WxxkM0:x)Q)GFQ*YW,xFM82G9lFxFp-0WMx)MWSxQ-Qx8F08Wix*:00,8F08WiY*)G,F)YiMF))8W**WLQxYM,:))-xG,QxYM,GF08Q)iWMQ-Y0,WFM-)WiQFY)xW00MW)xWM::-l,)id*0iY)WGMQ:YTM-:0*GW:::Y,M*)88:5,-)x87,00MG**WM:Wx*Qi0xMM):G)M*QiYxMW*FW8F--Gx:FWM*FGWx:M-:,)i0)880iMYxi*Tx0Qi*):GFQ,Y-x!0,MY*)G-Q0YxWxMY)-WQi^-ix(VMWFiWW,:FY),-F08xxQiQ--xYv,0x::*FWQQ,Y),QF,8:**W:QxYM,:))-8Wi:M-Mi*F)W):**WQF-n,WFx8MiLFY-,xn_Q0:)8W)::-A,)F0*xWW:GYFx,1x8YMG),:Y-*xMJ:0?i-vG*Qx-1*0)A*8iii--x0hW0MG0i8*xxYYFxWFW8xiM*_88xY/W0Qi*-FW;Qi0Yi8)*8-:,GxQMY:,2))W-:0^Q0xDM0:MD*)i-)xWMM:ii8,MQ-)x-d00xxF:)**GGQ:Y8,x),x):Y-*xQL08*MQ*):x-Mx:mu8)i-*0xW*,YM,:F?W):--0xWDx)MM,),G)Q-Y0,xii-&Wi:,GQQQ00MW)xW:,x9*0-,W80iW*xGMQ:YvM)---8:W-xxMw:0?i)*-0M,WY8,0F:85:)-00GiMFG88F-Wii#Y-,0FW8Mx8:8-*x8F8GMM,):WRQ8YxQG-GW):8-QxGY:,+))W-:0-Wxx:W):Mi)*G-Q0YW,M:F**W0:,-?,)F88-iiYRG05GYQMG8YM**MG:Qc0-Gxii*iG8QiY-,GFY8::xYMGzF*0WMY)xG,:MY,,-)F0i)iWYQ-Y0,WFMYFW8:0-M,87MW::F*AGiQ*Y8FF8FiW*xGMQR)x8GMQ*G:Y*MxMp:0Pi-QM-ixMH:0,MW*F,W:i-xxMF*88),W)Q)Y-,0Fx-MW,:x-Mi0F*0Mi,*QW3QiYG,M8Fi**WGxQMY?x,piWFii-WxxqM0EGY:Y*W,W;Q00,Q*Fii*ix-e00WMMQF*iW:pY,FaG8Wix*MG/M-FY0-Mx-MW :QYWMY)G8W:GGWQxYM,:FaW):-V80Wl80YM:)/G)Q0),0,M-F}GF:0GQQG00MW)xW:,iQxYx,8Fxx::i-i,YyxM))-W0:W-xxM-:F0G)*F8*QWYx,MFDY)WY::Y,xMFG8YiW8xM0QxYQ,A):WYiQ-x:M)08ii-)iGQ-0W0MG)GW*:G*<xYNF0xi0-i:*-WxxQx)FM&)MG-iiYW,xFMY:MM-)G:>00)MxQiW:i:-),-6Q8WM**MG:QT0)x8)0W):x-xx:<:8)M))MGWQ*YMxYFzW):-)0Wilx0YM:)GG)MYY0x0IX8Mi0*70iu-00MW)x0Y::-G,)F)80i0*xWx,FYA,x)-0i:W-xxM::Yii))MG0:wYxWiF:0:MW--GiKW5iMM):W_Q)--,0jZ8xix*:G:^)Y),{)WWF:M*YxVF)8-,0*YGxQ*Y:,8))YY:0*0Gx9M0-M.F,G-Q0YW,xQY8:i8-)x)!000MxFx-F:q-W,-Qi8Wix*M8:Q:0),x)08::xFix:Q:Y:i-),GWi*YM,:FzW)M:-0G:wx0xM:):G):)-P,WuQ8MMY*Ex)=--0xi)xWF::-Y,):Y80M0*GGMQ)YJWG)-W0:W-xWYH:0Yi)*)G0Q0YxxxiF8}i0--WioW0xMM&:WWQ)-W,0eM8xxi*:W:::0-,G)W*Y:M-:xDF)0)i0)MGxQxY:,:))8)MG-WGiIMYYMJ*)G-i0-*,x{Q8:i*-)8YB0Y0,F)M8V:?QY,-F08WixFYG:Q*0)M))0W0:x*x,0^B0-i-FiGWQxYMG:iGW)i0-0GxPx*iM:F:8QQ*-8,W::8Mi:*Zx)ii00,x)xWx::-:,):-)-i8*-GM8iY!WF)-80Wx-Gx02:*0i)*-G0:0:0,,{Q8<Gi--x0_W-xMW):WFQ)-Y,0:G8xMx)-G3Q)0-x0)WWx:M*MxiF)0*i0,QGxQMY:,3BxW-i8-WGG;M0MMf))WiQ0Y),xMG8:iF-)G)Q:0W,,)MFQ:zY),-Q0iGix)iG:QF0)80)080iW-MG:Ll)*i-*0GW:W-:,:VQW)GY-0xWfxYxM0)u8pQ-H8,WFx8Mi:*Mx)QY00,0)xWx::*3xGF-0liW**GM:QYaG)FMW0:)-x)ip:-Ni)))xWQW-,,MxQ8Z:)--W0e-0x,i):WFQ)t0,010YiiM):G;Qx0-M0)W8WiM-:GQF)0Mi0*WGx:x--,vo;W-i:-WxxvM0:Mx*)WYQ0-0,xFx8:M/)Mx-QR0Wx8)M8Q:^))M*F08)ixQMG:QW0),))-WWi,-M**yL8)i-F0W*Qx-i,:FFW),Y-0G0Q{0M,:)N8)Q-Y0,WLWYQi:)Qx)QM00MW)x8xi:-(GUF-QiiW*xGM:M-xM)FFW0i(-xxM/:0lF8*-W8QW-8,MFM8<i))xx0s)0x8*):WFQ)-)xxFW0,iMM*Guc)0-x0FiWxii-:xFF)-Yi0)0G*QM-:,TFxW-:0-WGWQ:0:,Q*)8*Q0YW,xIx0tiX)gx-iW0WMx)M8Mi-Y)xFF00gix*MG:QI0FM-F8WWi8-MxMhl0)M8*0G)Qxi0,:FFW)i-*xxW%*0MG-)BWMQ---G:Fx0ii:MGx)3-00xW)FWMiQ-5x*F--8iW)WWYQ:-hM)FMW0:W-xGxQ,0QMF*-*0QWYx,MF:F-:)*Yx0Q80xMx):8?Q*Y-xQFWF0iM)QGd:.Y:M0FGWxG,-:x_F)Y-MW*WW,QM-Q,!GQW-M0-YxxQi0:MF*))xQ0-WxWFM88i#,Qx-Q80W,WF0W::FY)0*F08WixFMGiQqY*M-F8WWxF-MW:MG8)MY*0WGQxQ8,:SfW*:-*QxWMF0M,Q)}8EicY0xGFx),i:*(x):-0-MWF,WMiQ-c-0F-Y0iY*xWiQ:YFM)Q-W0iW*,xM_80v00*-W8QW-W,WF:8F:)Q*x0yW0xxM)iW&:*Y-x8FWF*iMF:M8+)YYM0FGWx0*-:GKQW8-MQ*W**QM-Q,#F)0Q:0*Bxxi)0:Mx*)W)iiYWx,FM%8i_-)x-:0-MMxFiW::FY)WYF000MF*MW:QIYxM-)0WWiW)tx:QQ8)Yx*0GWQxYM,GFl8*:-*YxW}W0M,:FGG):MY0YYFx0ii:)gWx7-YiMW:2WM:W-OG+Qu80MG*x)iQ:Y7M)T-80:W*,xMQQ0jW-*-W-Q)YxxMF:-Y:)--x0Q0,FMMFiWo,8Y-,0FW0WiG*:W:K)iMM0)WWx:M**xhk*8-M-*WGWQM-:xY))8,:0-FxxQi0:,:FxG-:8YW-,FM8:i())Wiy0YGMxFiW:x)Y)x)j-8WMx*MG0Qu0)M-F-*,:G*,x:{W8)i-*0W0:xYMxMFm8x:--0xWwx08M:)FG):)Y0,0Fx0Mii*bGG/--*MWF,WM,:*Y,)D,80GW*xG-Q:-:xY)-88:WMQxM_:0l,))WG0:GYxxiF:YF:)*)8*R8YxMM)0WzQ)Y-x-4O8xM,*:8,p)0-M0F0W*:M*MxuJx8-i0*WWWQFY:xi))F::0-WxxXMY0Mp)*G-:*YW,WFM0:M,-)G,d0:)MxFiW:i:-x,-p88WWW*MG:Q_->GQ)08W:x,Hx:Sg8)i-F,GW:GYM,YFzW):--0x)qxYiM:FQG)Q*Y0xWF)8Mi-*;0Wp-YiMWFW80::-F,)Gi80iW*x8M:WYU,*)-88:WF,xMQMYGi))-G0:gYx,MF:0:M0--GY6W0WMM):WUQ)-x,0IG8xM,*:G:I)Y-,:)W8D:MM:xN9*8-M0)*GxQFY:W0))8,:0*0GQRMYQMEM*G-Q0YWGxR:8:iF-)GYw0FxMxFx8h:f-),-M88Wix*MWMQ-0F,*)0*G:x-Mx:Q:Y:i-)-GWx,YM,:F/W)i*-0GG3xYxM:):G):--Q,W.Q8M8F*4G*1-*0,F)xWF:::),)Q-80xW)GGMQ*Y 8W)-Y*:W*WG0H:0Fi):)G0QWYxxx3,8Qi)--0-IW0xMM):*)Q)-*,0.i8xiM*:GcQF0-,8)W8G:M-ixjh)Mxi0)MGxM)Y:,8))8)i0-WG,%MQQM/*)G-i0Y*,x3i8:iF-)Y0N0Y0,*)M8::AS*,-F08WMWF_G::Q0)8Y)0WW:x*xxFrgYOi-:8GWQxYM,:F:W)iY-0G01x0xM:FBFxQ*-x,WF*8MMQ*J8):G00,M)x=i::)L,)?)8*iW),GMWQY=M))-00i8-xGi?:0Fi):0G0:0YY,M_:8Six--x0hWYW,G):8QQ)-M,0FW8xMx*8G%:k0-,:)WWx:M-:xMFF0Yi0)0GxQxY:xbF)W-ix-WW85MYQM.l)W0Q0-M,xiM8:iW-)G):i0W,,)MF*:}Y),-Q0Yjix)iG:QF0)GY)080MQ-MG:PP0:i-*0GW:W-i,:wQW)iM-0xWlxYxW-)Q8fQ-*0,WFx8MMM)Mx)QF00,#)xWM::-jxMF-08iW)8GMQMYm,)F0W0iM-x)0?:0Fi)))WMQW-,,MMi8/:)--W0U-0x,i):WFQ)Fi,0QW8*iM)QGPQ*0-Y:)W8xW:-ix-F)*ii0)GGxMMeM,QF0W-G0-W0)OM*:T,*)WWQ0Y),xGW8:M:)<x-Q80WY,)MW::s*)GMF00Gix)iG:,)0),))FWWix-MYQbq8)i-)-WMQx-,,:iFW):--0G0Q80M,M)4-*Q-Y0,WFx00i:*Fx)Q)00M0)x8MWj-Qx0F-8*iW),GMM:Z:MFFWW0i--x)Qu:*A0)**WxQW*),MiW8SM1-Fx0QG0x8,):W1Q)*-xYFW0,iM)QGLGG0-x0HQWxii-:xFF)QMi0)WGFQMY),A,GW-i8-WGWXY0:MF*)-*Q0YW,xQM8Miz**x-Q80W-*)M0:W*YFxYF00Gix*)G::(Y8M-FxWW0*-MGQ_?Y ,M*0WGQx_x,:FEW)i)*,xWQx0MM*)kG)Q-Y0GMFx0,i:*-x)<-00MW)8WMiQ-jxFF-8YiW)xWMQ:Y*M):xW0iQ-xGxGx0QM**-FQQWYx,MQ:8x:)*Yx0QG0xGi):8:::Y-x0FW8)iM*:Gg:9YiM0F8Wxi#-:xpF)8-,:*WW,QM-i,6FwW-i0*kxxQQ0:80*)WYQ0-0GiFM0Qi!M,x-R00Wxx:YW::FY)xYF0-Gix)xW,QQY)M-F:WW:x-MGMQ-8)M**0WMQxYM,:FN8::-*8xWQG0MMM)PW):GY0x,FxFGi:*Fx)Q--GMWFMWM,--wxGF-0-MY*xWiQ:F,M))-W0MW-*xMQQ0/M**-08QW-W,)F:0 :))-x0}W0x,xxQWs:FY-*iFW8xiM*:W-R)YYM0F8Wx:x-:GHfW8-MW*W-8QM-Q,{N/8F:0*GxxGi0:M7*)8-:iYWx,FM0QieQ-x-Q--qMxFMW:xFY),-F000iF*MWiQBF*M-)0WWiW*GxiQ:8)WY*0GWQxYM,xFQ8*:-*-xWkW0M,:)8G):0Y0,FFx0ii:+UGY6-YWMWx,WMM:-_GeQ:80MG*x)iQ:YrM)^-0G:W*,xMQQ0.W-*-W-:xYxxMF:8W:)--x0Q00YMMFiWP:xY-,0FW0WMG*iW:j)YMM0)WWx:M-xxQb*8-M-*WGWQM-:x0))80:0)YxxQi0:GP*FG-:WYW8xFM80i=)_GY+0YGMx,FW::wY)G->)8WM,*MWQQw**M-F-8x:x*Mx::l8)i-*0W0:QYMxiF18x:--0xWQW,*M:F:G)8,Y0,WFx0xi,*}WQ=-Y:MW)xWM::-G,)SY80MY*xGxQ:-v,*)-8W:WQFxMQQ0=,<FxG0:GYx-FF:84:))-G:LWY,MMFQWRM*Y-x-1*8xMM*:GW!)0-M0F088:,*ixqxM8-i0*WWW:zYix:))8M:0-WxxQx0FM_FQG-WRYW,xFM8:ix-)GYk0YYMx)xW:ic*M,-/W8WY-*MWQQc*),8)08x:x)0x::Y8)x-)xGW:MYM0*F.*M:-*-W:5xYiM:i:G)Q-Y0x0288,M:*dG85-00MW)x):::*Q,)4080iW*xGM:iY4,*)-8Y:W-GxMQM)*i))YG0iQYx,MF:Ymi,--G8rWY,MMQQW#iB-i,0rW8xMY*:G2=)0-xG)W8,:M-MxVz>8-M-),Gx:MY:x8))W-:0)WG-=MY:MZ))G-M8YWxWFG8:MQ-)8i200WMx)M08:u-),-F-8WiW*MWM,*0),*)00Q:x-Mx::qYii-)YGW:GYMWQFo0Ti0-0G0Px**M:)UG)Q-*:,WgG8MiM*tG k-Y-,F)x8x::*8,)F-80,W)FGM:MYOx_)-Y8:W*WG87:Yii)i8G0QWYx,MQ88_Mj--x-<W0WMMFM-*Q)-F,0QQ8xiM*:8=Q80-,*)W88:MFQxIQK00i0)-Gx:YY:,s))W-MG-WG8%M0MMT)_G-:--),xSW8:M8-)x-^0-Wx:)M8x:/*:,-:88WMW)?G::,0)Gi)0WW:x-MW8lVY:i-*-GWQWYMxMi*W)MQ-0WQTx0MM:PcW:Q--F,W_Y8MxQ*%WtQ(00,))x8x::-(,)F-0GiW)YGMQMYO,+)-8-iW-xG0P:Y8i)*-G0iW-W,M?W8_MM--88EWYW,*):8GQ)*i,0FW8xiMF8G{:M0-M-)WWW:M*M0*F)Yii0FQGxQMY:GcF,W-MQ-WG*.M*QM5FjG*Q0*J,x?Y8:iI-)x-QY0W,*)MWM:v-h,-f-80ix)-G::80)M-)00W:F-MG0oNYxi-l8GW:WY),:K8W)Mi-0xWNx0Mx8)B8xQ-Y-,WFW8MMMQ*x):,00xQ)xWM::)!GxF-YiiW)FGMMQY5xTFYW0M:-xWYT:0Ni)*-W:QW-F,MFM8wi1--G-Q*0x,)):88Q)Y-,0QW8FiM)-Gh:W0-G8)W8Wi,-:GYF)Q0i0*WGxQM*8,PnWW-:--WxW7MYMW**)8GQ0*Q,xFM8:,f),x-:,0WxQ)MYQ:_*2GQF0YMixH8G:Q>0)M-)*WWMQ-MxM2.0pi-)-WMQx*%,:!8W):--0WW:i0M,))E80Q-)8,WAW8-i:)*x)x800MW)xWMM8->G0F-8-iW*WGM:MF*M);8W0MQ-xxMw:-9,M*-8GQW*i,M:Q8bMJ)ix0:x0x0Q):WEQ)Y-x)FWYiiM*MGHQk0-,-FxWxM:-:G8F)8-i0FWWMQM*&,6+-W-,8-WGWVY0:,F*)*8Q0YW,xFMY8ic)-x-.-0WMW)MW:GxY)GYF08Wix*MG::y,WM-F8WWxl-MWQ.^Y_iF*08GQx:i,:FrW)M-*YxW:,0MxQ)A--Q---GiFxYMi:yYx)X-00,0)YWMMi-k88F-80iW)WGYQ:*:M)GMW0:W-xxMNM0j,**-8-QWYW,MV:i0:)*Yx0jF0xxi):8::YY-G8FWd,iM*:G{:)YiM0>GWxMi-:0)F)0)MF*W8xQMY0,h))W-i-*8xx:,0:MW*)G-Q0-0x:FMYMiv*xx-P00WMxFxW:iFY)G)F080ix)M)0QQY*M-I*WWM,-M8:Q-8)MY*0YWQxY-,:K:0M:-)8xWWQ0MM:)38)Q)Y0GGFxYii:FFx)Q)Y)MWJxWM:0-V,)F-0-,7*x8,Q:&MM))-W0i0*xxM:M0&Mx*-G0QW-WxGFiYi:)*Mx0UW0xMMM)WAi*Y-G*FW8WiM):-)pFYYM0x)WxMi-:8{,P8*M8*WWMQMF0,5^ WM:0)Gxx,x0:M(*)W):*Y8GxFM)Wi -)x-_0TxMxh,W::FY),-F08WMG*M8QQ^-FM-)YWWiWY-x:QF8)YG*0GWQx*M88FE0*:-)8xWi,0M,MFiGFi-Y0x/Fx8Mi:FVY,g--YMW)FWM8x-!G)Mi80,8*x8,Q:Y8M)d-*Q:W)WxMQQ0>GW*-80,FYxGxF:Y::)M{x0:W)*MMwMWTMjY-xiFW8x/8*:8Qn)-*M0D0WxMMo8xa:68-Mi*WF-QM*:8G))0):0)0xxS*0:xd:,G-i-YWGWFM0Gi&-))0VY-8Mx2,W:M:Y)G-:38W,G*M8iQ%FYM-F-8Y:G)xx:NW8)i-*08W,*YMG,FS8G:-i)xW:x)YM:UiG)iFY0Y0FxYMG8*s8:5-Y8MW:<WMM:LG,):{80,-*x)WQ:*k8,)-0):W)0xMxM0?i)YQG0iYYxGGF:YM:))-YQqW-0MM)YWy0MY-G0iF8x,W*:8M})c)M0fW-*:M)xxT::8-MF*WGx8:YiGi))0F:0)-xx:M-WM}JQG-i*YW-WFM8:,:-FWYU0-YMx)xW:i_-Y,-D88WWF*M8QQBY),x)08W:xF)x:DF8)M)*)GWi,YM-8FrW):-)0GY!x-iM:FFG)MYY0x0RW8M,:*{Gx7-00MWFW80::)Q,)F)80iW*xGMiMYQx*)-0Y:W-WxMQ:0Wi))-G08WYxGiF:0rM8--GYEW)7MMFQWni%-),0QG8x0i*:G}K)--x:)W0,:M)QxwM-8-M-*-GxiMY:8F))W-:0*0G,&M-iMK:*G-Q0YWxW(G8i,:-)YYy00WMx)M)):#**,-Q-8WiW*MW:x)0F,*)0F,:x)ix:izYxi*)YGWWMYMG:FKY)MW-0G8Vx))M:T2G):--,,WRW8Mx-*VG*f-Y-,8)x0i::iG,)F-80,W*8GMiQY/x*)-Y8:W*WGM#:-7i))MG0QWYxxxI-8hMF--GxtW0xMM):-QQ)*Y,0Q88xix*:W2Q-0-,-)W1W:M)QxsQK0Gi0FGGxWYY:,K))0-Mi-WW,4M-QME?*G-:--0,xQM8:iW-)x-+0Y0,8)M0i:A-0,-F08Wix)MG::F0)x*)0W0:x*M-XcQY i-iMGWi,YMxMxMWFMY-0*F%x0MM:tZWfQ-*8,WQ,8MxQ*?WfQF00xW)xW-::-&,)l)YQiWFGGMQ)YwM))-W0i--xWi>:-Qi)*)G0:W-Y,MZM8_8Q--W81WYW,Y):8FQ)ii,0FW8x,MQ8Go:*0-x8)WY,:M*MWFF)Y-i0)^GxQMY:x:F,W-MY-WG:fM0:MO*)8iQ0*G,xQ,8:i:-)G-Q00W,W)MY0: **,-:000ix)GG:8Q0)8i)08W:F-MG,#I*Wi-)8GW:W*Q,:NFW)8Y-0xWLx-M)Q)w8*Q-*8,WMM8MMM*0x):-008G)xWM::*:x:F-YYiW:,GMQ:YRx1j:W0M0-xYiw:0mi)*-W:QW*,,MQM8Di+--G03Y0x,G):WGQ)*Y,0:W0FiM),G%W*0-Gi)W8WQ:-:GFF)SYi0*WGxiMY),R_*W-M8-WYMwMYMM)*)8-Q0-r,xFM8:M:*Fx-:Y0WM))MW::H*sxMF0Y0ix*-G:Qy0)M-F*WWM,-MWMR#0_i-)08,Qx-G,:QiW)MY-08WFG0M,,)5Y)Q--:,WXWY/i:)Fx)WG00MW)x0M:Y-KG*F-Y8iW/,GM:MYQM)V-W0MW-xxMb:Y:,0*-8YQWY),MF:8kMZ*ix0:00xM-):W!Q)-)xFFWY8iMiWG=j)0-M0,MWxMi-:WiF)8)i0)W*MQ,-,,pGMW-M8-WGW,30i,F*)-)Q0YW,xyx08if))x-,x0WMx)MW:i8Y)G*F00Yix*MG:QE-iM-t8WWMG-MxiaD0),i*0W-Qx)),:siW)i)-:xW:,0MY8){G)Q-*08FFxYii:)Fx)iY00,0F8W,M:-(xxF-80iW)WWGQi*QM)))W0:W-xxMx)07,**-8YQWYW,MI:)):F)dx0WW0xxi):8A8xY*xFFW*riM),G#i)Y,M0F*WxxA-:0WF)0),:*W8,QM:Q,N))W-M0--xx:i0:,F*)-0Q0-0x:FMY:i4Q*x-+00W,WF0W:MQY)0YF08Wix)xGMQX*6M-i8WW:x-Mx:+M8F,Y*080QxYx,:rB8F:-*FxWg*0MxQ)!0)Q)Y0x*FxQii:Fux)Q)YWMWO,WM8Q-z,)F-Y0iF*x8iQ:-FM)i0W0i0)QxM::04Mx*-G0QW-W,8F:YQ:)*Mx0!W0x,xF,WQMyY-x:FW8xiM*:*-A)-YM070Wx:x-:G;,-8*MF*W88QM*Q,hQ)*):Y**xxMM0:MW*)0-_YYWxYFMF*i1Mix-Q-Y9MxhiW:8YY),-F0YWi0*M8QQO-*M-Q8WWiW-)x::r8),-*0GWQx-xxiF/0F:-*:xW_x0M,MF,G)i)Y0GWFx8Mi:):Wx4--*MW))WM::-U,)xW80,G*x8GQ:Y:M)F-W8:W*YxMWW04,**-W-Q*YxGiF:)Q:)--x0:W0*MMkQWdi*Y-8QFWYxM1*:WF3)-YM0FYWxiM-,x&Qi8-GQ*W8,QM-MxG))0Y:0iGxxTM0:xLFiG-i8YWG,FM).ic)eGF!Y-WMx=QW::HY)x)bx88,G*MWFQ&0)M-F-8G:x)xx:Q*8)i-*0GW:,YMGQFOY+:---xWQxYGM:F,G):YY0GGFx-Mi,*fWif-)VMWQiWM,:-W,)QQ80i)*x8PQ:-:xY)-08:Wi,xMt:0D,)GYG0iGYxGiF:*):)*)Gi!W-xMMiQWNQ)Y-x->Y8x,,*:YFT)0-M0F00w:M)Mx#M*8-i0*WGxQFY:xF))0):0-0xxQMY0M.FiG-Q*YWG,FM-:iW-)WQb0Y-MxM:W:i::Q,-Q88WWW*MG:QA-%xW)00W:x-Fx:B>8)i-**GWiGYMx,FyW):--0Wiax-iM:1QG)Q*Y0x0<x8M,Q*B-7w-00MWFW0Q::)J,)eG80iW*xGM:*YqxF)-8F:W-xxMw:Y:i)FYG0i8Yx,,F:0UMY--W_NW)DMMF,W3iviN,YQG8xG8*:G&U)--,G)W0,:M)Qx6:*8-M-*-GxiMY:,W))W-:0*0xWBM-iMlF)G-Q0YW,xf08:MF-)W*}000MxFM8Y: *M,-M*8W,,*MWM:80)xY)0FG:x-Mx::bi*i-F8GWi,YM04Fn0_i:-0WW9xFiM:)5G):)-F,WQG8MWQ*}x)R-Y-,M)x0x::DF,)F-80iW)xGMiQYtG+)-W-:W*xGFz:Yxi))iG0iGYxWMD:8JMM--)8bWQ8MMFMx)Q)*Y,0xG8xiM*:8J:R0-x8)W0,:MQAxKQnYQi0FWGxQ-Y:,D))8)iM-WWGbM00Mh*)G-:-*M,xQx8:iW-)x-#00W,Q)M0Q:1)#,-F-8WMx):G::x0)xF)00G:xFM,i uYMi-Q0GWQ)YMxM(QW)MY-0)iTx0MM:9X8xQ-*8,WQ,8MxQ*4WBQQ00xW)xW-::-Z,)7)0*iWFGGMQ0YeM))-8-:*-xWxv:-1i)*-G0:0Y8,MQ,86ix--x0HW0xFF):8FQ)*F,0F08xMM)cG9:M0-0i)W0,:M*Mx)F)YYi0,iGxQMY:GmFMW-M8-WW,lM*QM3F98xQ0*W,xQM8:io-)G)Q00WxG)MW0:6Y),-T-Y:ixFxG:QW0)M-)080M:-MW,oHQMi-*0GWQxYG,:?FW)MF-0x0ExYMM*)z8MQ-M ,WQ,8MM:*Yx):i00W:)x8i::*:G8F-Y8iWM,GMQ:Y?x)U,W0MG-xWi_:))i)))WYQW*x,MMQ8t:)--G-,,0Gx,):-FQ)Y-,0500*iMFMGX,*0-M0)WWx:--:GFF)Y)i0*0Gx:M-:,Dq,W-iQ-WW,5M*:MY*)8iQ0iG,xQM8:M:*-x-:80WY,)MW::q*)GxF0YGixFiG:,)0),)d{W8Mx-Mx0>d8)i-)-8iQx*,,:FWW):--0G0Qx0MxM)nWxQ-Y0,WFx0Qi:)Fx):)00M0)x8M:F-6G,F-Y*iWF,GMM:-GM)AiW0xW-xx-T:Y:,i*-88QWiQ,MF:8&M):)x0:G0xxi):0FQ)-)xiFWYxiMF:Gog)0-,-/:WxM,-:xWF)8-i0)0G8QM*M,X;)W-:0-WGWQ80:xi*)WMQ0YW,xFM0Wi&)*x-:*0WMW)M8:i,Y)GiF0Q)ixFiG::^,WM-q:WWxa-MG8kUY#MM*08GQx:i,:FJW)M-*fxW:,0MxQ)Z--Q---xYFxYMi:QFx)d-00,0FQWMMi-A0*F-80iW)WWWQ:*:M)iYW0:W-xxMX)0&,**-8-QWYW,M1:>W:F)Mx0!F0xxi):Y;:8Y-G:FWQ,iMFYGc:q-8M0VGWx8i-:xyF)Y-iY*W8,QM*Q,ji-W-i-*Gxx:M0:MW*)G-Q0-0GQFMYii?*xx-400W,WFYW:M:Y)xMF08Wix*MGxQQ-*M-e-WW:W-MG:QQ8),M*08YQx*i,::<0l:-):xWMx0MM0)A8r:MY0GGFxVFi:*{x):-Y)MW/,WMMQ-?W*F-0-i)*x8MQ:*aM))-W0i0-FxM:i0hMx*-G0QW-WxGFiY::))-x0LW0x,xF)WkMQY-x:FW8xiM*:WY=)-YM0PYWx:x-:GyQ,8-,:*WF-QM*Q,?F)80:0)Qxxi)0:,W*)W)iQYWG,FMJ8ik-)x-:00)Mx iW:iFY)WYF000,+*M8:QcYxM-)0WWiW*Gxi:Q8)i)*0GWQxYMY)F&0*:-)YxWTW0M,:i)GFi,Y0*WFxYii:_E-dm*-MMWxGWM0P-jx)GM8Y,:*x0)Q:-WM)Q-8W:W)SxMi)0TWx*-W-:zYxGiF:FF:)--x0:W0*MMfQWqi*Y-0WFW0WiW*:8PX)FYM0)WWxix*Yx>QF8-W8*WGxQM-Mx:))0):0QGxxrM0:M;):G*i8YWGWFM8Mib*)x)&0-:Mx)YW:iFY)W-Q,8W,#*MFQQm-)M-F-0,:x)ix:xF8)i-*08W:)YMGQFN0*:-QWxWQWYiM:zUG):MY0,WFx0xiG*qWF/-Y:MW)xWMiM*i,FQ)80M>*xGMQ:Y<,:)*08:W)WxMHM02M))*G0i:YxGGF:0F:)F-GG?W-lMM::W?:xY-x-QM8x,i*:)Yw)0-M0!W8F:M)Qx!Q*8-x8*WWW:FY:GB))0-:0-WxxQx0MMaFFG-::YW,xFM0MG*-FW)m0-WMx)MW:i:-G,-Q*8Wi)*MG:Qj0)x,)00G:x)Gx:R:8)M-*-GWi_YM*WF+0*:-F0GWtxY)M:))G)xMY0x0<i8M,Q*_YF1-00MWUxWW::*F,)QY8008*x8M,8Y%x*)-08:WixxMQ:F)iFFxG0i-YxGiF:-nWj-*WMKW-;MMMQWRiai!,YQG8xG8*:GU<)--,G)W0,:M)Qxu:*8-M-*)GxiMY:,W))W-:0*0GWDM-iMH)xG-Q0YW,xd:8:MF-)W*2000MxFM8Q:E*W,-i)8W,,*MWM:,0)xY)0*8:x-Mx::D)*i*F8GWi,YMG-F50)MQ-0WGzx-iM:iGG):-*:,WQb8M,-*{W*t-Y-,i)x0i::QQ,)F-80,W*8GMiQYmx*)-8Y:W)xx0D:YFi)FYG0WWYxxMFY8.MW--08OW-,MMQ:M,Q)*x,0iY8xxx*:W::i0-x8)WF,:M-:xmQ)0,i0FGGxiiY:8)))8)Mi-WWxNM:*M>*)G-:--*,xQ,8:GY-)x-y0Y0M0)M0M:Lc*,-F08Wix*,G::F0)x))0W0:x*M-/nQYWi-QWGWi,YMW:M:WFMx-0WGwx0-M:Qt*?Q**M,WFG8M0W*tWjkM00xG)x*,::-!,)Q-)QiWF,GMiQY10x)-00xF-xWil:YFi)i*G0:WQM,,?-8eWx--W8/W*xYM)i80Q)*),0:88xMx**GZ:*0-8Y)WWx:M):xFF)YYi0FGGx:,Y:GeB8W-M8-WW,fMQ:ML))WMQ0*:,xQ:8:MF-)G):i0Wx,)M*i:_Y),-Q080ixFiG::F0),8)00Wx*-MWQsKY*i-iFGW:xQ:,iH0W)i8-0WGSxYMMQ);88Q-FM,WQA8MMM**x):Y0088)xWM::)HxiF-Y8iWF,GMG)Ynx)F*W0MG-xWi3:*Ai))-WGQW*Q,M,)8&M*--G-QG0xxi):FGQ)Y-,0QW8YiMFQGf:*0-G8)W8WiG-iWcF)0Mi0*WGx:x-),&+FW-Mt-WxxyM0:,,*)8YQ0*8,xFx8:M(*0x-:,0W00)M0Q:N-)xxF0YMixn)G::00),)^GWWM,-M*89Z8)i-F0WxQx*i,:{FW),Y-0G0Q00Mx:)#WxQ-Y0,WBWYRi:FQx)QW00MW)xWMi,-wG*F-YYiW*WGM::-QM)=WW0WY-xWih:Y2,,*-8GQWFH,MD08XM3):x0:G0xYY):WlQ)*-GQFWY,iMFQG&i*0-,-FUWxMM-:xWF)8-i0)0F,QM*i,yF0W-:0-WxxQM0:,F*)8*Q0Y0,x7M8WiK)Yx-W-0Wx,)M8MiWY)GYF0/Fix*MG:ipYGM-98WWM,-M8Qt#YsiF*08WQxY-,:FdW)i)-YxW:G0MM))4G)Q-Y088FxYii:FQx)T)00,WFYWMiF-<YWF-Y8iW)WWWQ:-FM)xiW0:W-xWM(80J,**-88QW),,MwM0M:))-x0Q90xMM):8:iQY-GYFW0-iM*:Gp#)-QM0VGWxM,-:x:F)0-8W*88iQMQ,,Bj*W-i--txx:i0:YG*)G-Q0*W8*FMYQiE)*x-i80W,WFGWiMKY)xMF08Wix)xW)Q_-FM-FxWW:x-Mx:Qi8),Y*088QxYx,:Do0,:-)GxWi)0MxQ)BW)iNY0GxFx-)i:)Gx)Q)Y)MW^,WM88-O,)F-Y0i-*x8iQ:-FM)QYW0i0*FxM::0sMx*-G0QW-WxGFiYQ:)i)x0VW0xMM,FWQi*Y-GYFW8WiM):WYA)-0M0:SWxMi-:G:()8-,8*WYiQMY:,>))0::0)Wxx_,0:MP*)G-:)YWG,FM8MiN* x-s0YiMxeMW::7Y),-F08)*Y*M8iQzY:M-)YWW:0-Mx:i)8Fi-*08WQxYM,:Fd--:*-0xW:r0MM:)1G),0YY,WFx0Fi:*Rx)L-)WM8)xWMiQ-+,)F-Y0GF*x8xQ:-,M)FQW0MWQ0xM:M0dxq*-8:QWY-F8F:YM:)-*x0+80xMG):W#,-Y*,0FW0YiM*:G#9))0MY)WWxi)-:xkF)8-GW*8GxQM*i,T))W-:0*8xx:x0:xM*)G*Q0Y)FYFMYMiT*Qx-.Y0WMY)MW:,)YF,-F0YWix*MG:Qo)-M*)0WWi,-Mx:SP8)G0*YGWQxY*,:FUW):-wWx8kx0M,*)uG)Q-Y08xFG8Mi:)Qx).-00M)WYWMM,-hxiF-8YiW*8GMQ:))MF)-W0MW-xxMr:0aG-**G0QW-G,MF:8a:);0xYBW0x,i):W#Q)Y-Y3FWY0iM*iGzy)0-x0:FWxMW-:WMF):xi0FW-0QM*x,cQ:W-M:-Wx-080:xx*)G-Q0Y8,xFx8:iEu-x*o00W,,)MW::eY)80FY8WixFGG:Q;0)M-FYWWM0-MWWyo8Fi-F0YFQx*W,:}FW)0W-0WW,00Mxx)N0:Q-*:,WF-i8i:Fxx)Qi00M8)xWG::-B8-F*80iWFxGMQ:Y_M):0WY:W-xWxX:0ci)*-YWQ8Yx,MQ,85:)--x0Q80xxW):0xQ)Y*,0FW:-iMFxG!^)0-M0)WWxY0-:W,F)8-i0*WGxQMW:,NQMW-,J-WxxKM0W),*)0iQ0-p,xF,8:iG-)x-MW08Mx)MWM:6Y),-F0*xiG*MG:i,0)M-)0WWxM-,x:<300i-*0GWQxF:,iFyW):F-0xWvx0MWn)QG)Q-*M,WFx8Mi:.)xFe-00x))xWM::-68-F*80iW*0GMQ:Y ,)M0WYM--xGF_:-Gi)):QFQW**,MFW8_:F--G57W0xW:)iW2Q)*x,0FW8xiMQ?GQ )0-M-)WWx:M-:8)FF8-i0F*GxQMY:,R:-W*:0-WG:LM0:Mg*)Y0QYYW,xFG8:i{-)x-MW08Mx)MWx:aY),-R0FxiGFWG::k0)Gi)0W)-Y-MW8PT0.i-*YGWQ-YM,::)WF:--0x0gx0MM:)uY-Q*Y0,WQY8Mi:*>x)M00YMW)x8u::-n,)F-*Wi8*xGM:-Y%M))-W0xx-GxM.:0ii)*-G0QWFM,,F:8fi:--x0UWYx0:)i0MQ)MQ,0QF8xMx-0Gri,0-0x)WWx:M-:Y)F)-Mi0**GxQMY:,3-WW-,Q-WxW?M-YMP):-)Q0YW,x::8,iQ-)W-,)0WG:)M0x:p-),-F0Fxix6:G:iY0)M-)0WWWM-M8Q&N-Wi-*0GWQx-,,:Q-W),Y-0x8&x00WM)10,Q-)M,YFG8MiM*HG:,)00MW)x0):,-Q,)h)8:iWF*GMMxY4M))-W0Wx-xW-2:Y0i)*-G0QWQM,MQY8+M8--x0lWYW,G)i00Q)-W,0FW8xiM)iG3i,0-GM)WWG:M-:**F)-ki0*0GxQMY:,fMQW*:0-WxGBM0:MR)MW,Q0YW,x^i8:iS-)xFQ,0WMx)MW#MFEYYWi,),8Zi:-i,YFYMFFGWW:x-Mx<:8)W8GiQ--GiQe8F:Y*FW)QGxY+-0MM:)mG-,WQQY,MQ)Mi,*8x)#-00MxQ,*QG)F,Y,,8F,W,*8W,Q:Y9M))0YiG::QYY,xF*80:8Y:xFQQ0,M))QW,::x*Qx0xMM):G),YQG0G,:-GW0:0-*x0)W0YM^*i:G-GxUF)8-iWJ,--GQ<G,N))W-:0-Wxx2M8:GF)QWMQ0YW,xF:-0WMQG-*,G6:0Q)GWG:/Y),-FW)GGF:8YFQiYPM-)0WW:M?Mx,n:8)i-*0Gx,GYM,:FPW):--0xWi0)MM,)-G)Q-Y0,x:0)YG*Q8-:MMF)8QMG*QG--ixYF-80iW*M08x8_*08i8YMW,::-X,8Fx,G:,G0QWYxGM8)8k:F--x0yW0-MMFMWWQ)Y),0FF8xiM*:8w:Q0-M-)WWW:M-Wx.Q)Yii0*0GxQxY:,F))8:i,-WxGvM08MP*FG-Q-YW,0Mx8:iS-)GiD008Mx)W*M:3Y),-cG8WiG*M8:,G0)M*)0WW:x-0x:Q:8xi-*-GWQ*YM,:Fc0)Gi-0x0/x0xM:)xG)i-6Q,WFW8MiM*KGQq-YXW-)GW,::>W,)F*80i0*xGWxMYzM))-*::W-GxM6:Fxi)**G0QWYx,MF:YUG,--xYIW0GMM)GWOQ)Q:,0F08xiM*:Gn/)--8Q)WWW:M-MxI1t8-M-*TGxQGY:,0))W-:0)W*Qe,0,M_)QG-QYYWxWsx8:i,-)G,700WMx)M8x:3-Q,-FF8WiW*M8::+0)MF)0WY:x*:x::c0ii-**GWQ8YM,xF?W),i-0xY1x0xM:):G)i-/Q,WF88Mi,*4G8z--0WF)xWW::-Q,)RG80i),0G,Q,Ye8M)-WY:W-0xMRxF:i)*-G0,)Yx,,F:0::x--x*uWYLMM):W}i):G,YFY8xiG*:GQ<)Y),x)WWY:M-YxUF)8-i0*0GxQGY:,,))W):0)Wx-BM0,M_)QG-:WYWGxFF8:ii-)xF%00-Mx)M:*:5-Q,-F-8WiW*M8:Q*0)MF)0WY:x-Fx::RYYi-*)GWQGYM,*Fz0)i*-0x*rx0xM:)YG)Q-Y*,WF08Mix*NGi!-YhM))xWW::)0,)F*80iY*xGWxMYnM))-YM:W-GxMcxF:i)*-G0,)Yx,,F:0::x--x*aWYwMM):WEi):G,YFY8xiG*:GQg)Y)M-)WWY:M-Yx3F)8-i0)YGxQGY:,,))W):0)WGigM0,M+)QG-:WYWGxF,8:ii-)xFj00-Mx)MWG:Q-Q,-F-8WiW*M8::G0)MF)0WY:x*tx::a0Fi-*)GWQGYM,)FZ0)MW-0x-9x0WM:)*G)i-*,,WF08Mix*fGxV-Y3,i)xWG::FW,)F*80i-*xGWxMYaM))--::W-GxM5xF:i)*-G0,)Yx,,F:0::x--x*pWYjMM):WSi):G,YFY8xiG*:GQ5)Y)M-)WWY:M-YxZF)8-i0FMGxQGY:,,))W):0)WG*^M0,Mj)QG-:WYWGx#)8:ii-)xFh00-Mx)MFW:Q-Q,-F-8WiW*M8:QQ0)MF)0WY:x*Dx::Z0,i-*)GWQGYM,)FS0)Mi-0x*Zx0xM:)-G)Q--W,WF08Mix* GiN-YvMY)xWW::Zx,)F*80iY*xGWxMY1M))-*d:W-GxMVxF:i)*-G0xtYx,,F:8rWM--x*lW0GMM):W9Q)-,,YFY8xi,*:GQZ)0-8*)8Wx:M-ixdF)8-iY*WGxQMY:,)))W-:0-8xGdG0-Mo*)G-QWFM0i,M))xMQGYx,GF-M8)0W::BY),0M))F8,:Q--QiYMM-)0WW:MF:Y-M8FiW8**GFQxYM,:)))8WW:MY8,-FiM,)_G)Q-Y0,YFY8Mi:*^x-,0FY8)i:WG:0-s,)F-8WGx:G-FxiF00:i8W*:*-xxM+:8)G0:8*0GMY8xiF:8Z:)-08W,8F-8OQ2*QGWQGYx:i)xW,:xY-QQYWM0)WWx::FQ0*,0-GW0:8-0x%f-8*MMWFiV-WxxaM0t8W:G-*GMQi,8FW8:ic-)x0iY?ixF),W:M*Y),-F000MM*,G:QXYiM-)0WWMx--x:qA8)i-*0GYQxYM,WFUWF:--0xWzx0Mx:F<G)Q*Y0,8Fx8*i:*BWYZ-00MW)WWM:M-XGVX)80i8*xW}Q:Y5M))-8*:W-WxM2i0Oi)*-80QYYx,xF:8::)*Gx0cWYGMM)MWd:QY-,0FW8xM0*:GQn)0-M0)YWx:WQMx5F)8-x:*WGGQM*:0M))8::0-*xxQQ0:,:FQG*::YW,0FM8:iu-)*WP00)Mx)-W:::Y)x:FY88i-*M80Q(0FM-)0WW:0Qxx:f/8)xM*0G8Qx*0:8F1W):-**xWEG0MMW)VW:x)Y0,WFx0Gi:*Qx)QJF-MW)xWMM8-d,FF-Y0W-*xG0Q:Y,M)FxW0i0*8x,f00.MU*-G0QWYx-^F:8x:)*Mx0v00xM0)iWQ:MY-WQFW8GiM*:GLQ:F)M0)WWxMY-:xQF)0)i:*WG-QMYG,;))W-M01Fxx/00:Mx*)WiQ0-0M)FM88i.*ix-k00Wxx:YW::GY)xiF08YixFMY8Q1YxM-)FWW:W-MW:MG8)MM*0W6QxY*,:F7Y,:-*QxWAW0MMM)qG)G0Y0x^Fx8Mi:*Ex) -QxMW)-WM:0-jx#F-0ai8*GG0Q:*,M))*W0:W-xxW,M0#i)*-8FQWYG,M::)::F*Qx0Qq0xM,):WMGyY-,0FWY)iM*iGyi)F)MY)*Wx:--:x)F)0/W-*WGxQM*0,+)FW-,0Q0xG&80:MW*)G*Q0Y)8WFM8iiT*8x-#Y0WMW)MWxG:Y),-F00iix*,G:Ql9MM-)YWW:W-Mx:fa8)M,*YG8QxY,,:FQW):-Q*x8_x0MMi)tG)Q-Y0,WFx8Mi:)Wx)9-00MY)0WM::-A,-iiFG8M*8GYQ:YmM))0*YWPcFY,,-FYMQ)xG0QWYx,::)**W):W8),QFU8QixWi:EY-,0FW8MWi*,GF+)0-M0)xYMG,QW0-:-)*8Mii*:iFy:0QM:*W:*-0xxRM0:i)i-GFQ-YW,xFM8?WY*QGQX00WMx):Y)x*Q)YWF0i:-Fx*NY08MGi,:8WYi:-Mx:o 8-x8i0*Bx*f08FMx)0G*QiY-vG0,M,)xG)Q-Y0,x:M))GY:,YY<F0)MW)xWM:3FQY8:,8*iY*xGMQ:0)00MYW*:0-xxMc:8)W0*FG-QWYx,MFJ)-iQ*Wx0oW0xM:_F-8G8y*YyMG*Q8dii-M,Y0F,4)WWx:M-2YWM8),W):-GxQMY:,{))W-:0-Wxx?G0GMN*)G-QW),0-,Q)Gii*Fx-{00WMM:<-FWXQ08W,M)QW-:F-0,8%W88MO*iWG-GxG_O8)i-*WY=x0F*YiFi80:--0xWEM*iWFi-08x-fY0-M:))GF:xx)0xMi)QGFQ*YYx88*WM80iW*xGMxWY ,N)-W0:W-xxM7W0QiF*)G0,FYx,,F:8q:)*7Y-jW0xMM:8W#QFY-,0W)8xix*:GO^)0-M0)WM-:M-Mx{FF8-i0*WGxx0Y:,:))W*:0-Wxx:MWFMv)VG-QYYWxQFM8:x*-)x)^000Mx)MW:iU-0,-F-8Wi)*MGiQn-NM))0W0:x-xx:sy8)i-)FGWQ8YM,,FrW):-)0W:bx0GM:)iG)iiY0,WFG8Mi,*!G:j-00MW)xWW::-:,)F-80i-*xGW::YNM))--0:W-GxM::FMi))iG0Q)YxxQF:0:MQ-*Gi2WY:MM):W!Q):W,0FF8xi**:G:^)Y:WW)WW*:M*GxPFF8-iY*WG0xxY:,t))0Q:0-8xxrWFMMJ*)G-,0YW,GFMY:WM-)Gi_00)Mx)8W:i:*Q,*7i8Wi8*MG:QK0)YW)0WF:x-*x:5:8)M:QWGWQ*YMx*FHWF:--YxWT0FxM:)SG)iGY0,8Fx8WWM*6x)9-)0MW)GWMM:4G,)qi80i)*xGGQ:*R8,)-8Q:W-*xMw00/MM:fGYQFYxWMF:8Q:)-*x0o-FWMM):WrM)Y-,YFW0W:-*:GGr)Y0M0)WWx:M0ixz&x8-i0*WGYQM*:x8))8,:0-)xxzG0:,d)GG-::YW,-FM8YiVF)Wi30YPMxFMW:iWY)x)Q:8WiF*MWxQB0)M-108*:x-*x:588)M**08W:FYM,YFs8G:-*MxWQxYiM:)WG):iY0xQFx-MMf*NGx_-Y8MW)GWM::-:,)z,80iW*xG,Q:)tMF)-8i:W*YxMQ,03M))-G0:fYx,WF:88:)--GQ9W0*MM)MWN:{Y-G0<88xiY*:GG6)-:M0)WWx:,-8xj798-iY*WG0xxY:,h))--:0-8xxQx80Mh),G-:WYW,xFM8:QQ-)GMe00WMx)8W:M_-F,-Bi8Wi-*MG,QPY),8)08D:x-0x:z88)x-)*GWQ)YMx:F%0x:-*-xFsx0*M:FMG)Q-Y0GWFG8MiY*oGGO-YYMWcxW8::-8,)P,80M:*xWM:QYU,x)-8Q:W-FxMi:Yxi))MG0:GYx,,F:8}ii--GiTW0xMM)iWKM)-x,0NQ8xM8*:G8^)Y-,i)WW):M-xxdcG8-i0)YGxQYY:,:))W):0)WG*9M08M.),G-i+YW,xFM8iiG-)x) 008Mx)0-M:9-n,-k88WiG*MGMQnY:8))0WW:x*ix:_Q8)M)*:GWQWYMxMF9W):--0Y)lx0GM:)MG)Q-Y0,WM-8Mix*KxF?-00MW)x8,::-:,)kL80i8*xGWxMYqM))-QQ:W-GxMs:xxi)**G0Q*Yx,MF:8%xY--x-VW0WMM):Ws:)-W,0F08xi-*:GQ>)Y),*)WWW:M-Mx2F)8-i0)0GxQGY:,i))W-:0)WxG<M0,MU)QG-iQYW,x#:8:ii-)GLo00WMx)M8F:2-m,-F08Wi0*MGx:M0)M-)0T8:x-,x::PF:i-)QGWQ-YM,FFg0^iF-YGQ{xYtM:)yG)Q-:x,WF*8MiY*6GNn-YyM8)GWY::MQ,)F*80iW*xGWxMYqM))-zY:W-GxM::FMi))iG0Q)Yx,8F:0:MQ-*GiDW08MM):WqQ):W,0FF8xi**:G:j)Y:WW)WW*:MQ*x&FF8-iY*WG0xxY:,+)))G:0-8xxpWFMMf*)G-8YYW,GFMY:GG-)Gia00)Mx)GW:Mo#,,-7Q8Wi**MG0Q;YMxF)0WF:x:Mx:mQ8)i**0G-xWYM,:F7)):--YxW10FxM:)hG)W*Y0,8Fx0x:0*6G,O-YWMW)xWM::0Q,)oM80iW*xG8Q:*p,:)-8i:W--xM;,0pM)FMG0:PYx,0F:88:)F-G8>W0)MMF:W%ixY-x-/x8xi**:WM7)0-M0zWWY:M-Yx3SG8-MY*W8xQ-Y:,8))8,:0*:xxQMYQMa)xG-:QYW,FFM-:i8-)GMU0YGMx),W::o-0,-Li8Wix*MGiQv*),8)08Q:x*8x:Qi8)M-)GGWQ)YM,xF/8G:--0WMox0YM:):G)Q)Y0GWF)8Mi8*9G,!--;MW)xWM:i-G,)F)80i8*xGWxMYVM))-6Y:W-GxMQM8Wi))iG0:xYx,MF:8jDF--G:oW0xMM)GW+i)*8,0mQ8xi0*:Gi6)Y-M))WW):M-Wxy+G8-x0F,GxQ-Y:xA))0M:0*0WQ}M0YM.F:G-Q0YWGxFx8:i8-)G,}0Y8MxcM8M:z-G,-Li8WMs*MW:QF0),M)0WF:x-*x:i10Mi-):GW:,YM,iF.W)ix-0GQex0MM:)QG)M-Y),WFF8MMG*<GGd-Y0xi)xW-::-M,)J,80iW)xGMQ8YL,K)-W-:W)xGG!:0Gi))iG0:)Yx,MF:8Qi,--x-_W0GMM)W-:Q)Y),0MW8xi,*:G:V)Yr8-)WWx:MQ:x5FF8-M-*.GxQxY:x:))W-:0-WY-^M0,Ml):G-Q0YW,x,:8:iM-)x*O00WMx)M8i:{-.,-F)8WiG*MG:xi0FM-)0W8:x-Mx:>:8)i-*0GWixYM,:FN8QiW-0xW1x0:xF:8*8x*Qc0GiQF18i:MYYyF0-MW)xWM:l QxQEi80iW*xG:M0F80Wi8)OWM-8xGd:0ti)*0*xGGY8,YF:82:)-00Q,xFM8F:F*-:Q-k,0FW8xi:_8-*x00F,Y)WWx:M-7W8MWFG8Q:-*iG%FFWWM,)GGY:MYG,YFWMi)/G-Q0YW,M,?8:xi?Q8Fi**YG80G-Q:XY),-F08Wix*M0Y,4YQM))0WW:x-:Y*S3LM0:Mc*)G-Q0M2:FW):--0xWNx0MM:M8Y)QFY-,WFx8MiXQ-GQ:q00MW)xW:MYN0Y8,i))8,i:-Qi*sG0MMW*GG)::8F,iT:WY*FW:QWYx,MFb-)GF:GYY,:F08Q):WSQ)Y-,0FW,x8QQ:GiQ:0-M0)WWMG0SFYF1Q0Qi0*WGxQ:*F0xMY)Q:0-WxxKM0:Mw*)G-Q0YY,YFM8:i!--0G,Y608i)MW::JY),-F08WWQQMG,Q:0)M-)0Wxxx-GxW738)i-*WY,M:n,0GB0WF:*-*x0Zx0MM:*)-*QFY-,WFx8Mi{:)GQQ800MW)xW:,)Q00G,:F,8tQF-),F=x88M*W*iQ-xxM.:8)Gxii*,x8Q:0,M8)xiQ*ix0bW0xM:Qx*QGM+80i,:88i8*:Gej)00W:i--FW,-:x_F)8-i0*WixGxF:--))W-:0-WY-6M0:M;*)G-Q0YW,-i:8:i&-)GDr008Mx),W::MQI,-F08Wi0*MGiQfY:8))0WW:x-8x:dQ8)i-:*G8QxYM,iF&W):--0Y);x0MM:)QG)Q-Y0WWMW8,i:*VG)H--iMW)xMx::-S,)F)80iW*x8M:-YlM))-W0:W-*xM::Y-i)*-G0QWYxxYF:87M,--xYpW0GMM):WVi)- ,0F88xi,*:GiZ)--,x)WWG:M-ix6.,8-,0*-GxQ,Y:,Q))0i:0-WiYJM0:MJ*)G-QYYW,xM08:iQ-)x)=00WMxNMYi:qYF,-FY8WMY*M8:QQ0)M*)0W8:x*Yx::PYii-*YGWQGYM,GF%W)ir-0xWgx0MM:)QG)i--i,WFx8Mi:*LGFd-00xw)xW,::-:,)F-80,WFiGMQiY?MF)-8Q:W)x0YP:0Qi)**G0Q0Yx,MMW83i?--xYUW0xMMJ:-GQ)Y),0F08xiG*:8L,,0-M-)WWW:M-8xjQ))ii0*0GxQxY:,:))W-FF-WxG!M0iMo)mG-Q02),xFx8:i:-)x-50-WGG)MWM:k->,-^F8W,xFQG:Q:0)M))0W0:x)MG0NN0+i-*-GWQYYM,:FMW):*-0x8Rx0xM:u#WRQ-YY,WFG8Mi-*zx)QF00M0)xWG::-<,)Q-0xiW*WGMQMY{,*)-00xF-xxx4:0:i)*)G0iWY8,,FM8;iU--WtUW--0Y)iW:Q))x,0F88xMQ*:GMxv0-M0)WYs:M-ixR_:))i0*WGx,)Y:,Q))8)::-Wx8VM0xM4*)G-Q0M),xFW8:iR-)GQt00W8-)MWG:cYF,-F08WMxi:GiQM0)xG)0W*:xFMYM9Q0:i-):GWQFYMxMY0W)iQ-0GY+x0MM:yz8QQ-YF,WFY8Mii*wW):/00M*)xW8::*),)A-8*iW*0GMQ*Y(,i)-Y0iY-xxWH:0)i)):G0QW--,MFG82:)--x-nWYW,,):WxQ)*M,0FW8x,MQ8GJQM0-,!)W8W:M*MGiFF0ii0)-GxQMY:x:(QW*i:-WWx#M0:M/F6WFQY-Q,xZW8:i+-)x-xW0W,H)MWM:OY),-F00KiG*0G:Q00)M))08Wi*-MxG^KYii-)BGW:W-M,:FxW)MM-0xW4x-M,x)XWMQ--J,WcW8MMM)ix)Qi00,-)xWM::-pGGF-0:iW*xGMQ:Y_xp)FW0iQ-xGWO:0vi)*-*WQW-z,MFi8v:)--x0*G0xM0):W0Q)Y),0NW8GiM*GG7:Y0-,p)W8xMQ-:xMF)Yxi0**GxQMYM,qFQW-:--WxWlM-:M)*)GFQ0YY,xQi8:iu)Wx-a*0WMW)MWi:R-:0)F08Wixi*G:QQ0),)):WW:8-Mxx_#8)i-*0A)QxYW,:FTW)iQ-0xW,-0MMG)PGFQ-Y0,W3xF:ii*Mx):G00M*)xYMGM-Qx:F-0:iW*FGM:MG0M)FQW0iY-xxMD:-c,:*-GFQWYY,MFi8XM)-*x0L*0xM8):8)Q)--x0FW80iM**G(Qi0-G0FQWx:W-:x)F)0:i0*WGGQMYG,O))W-:--WGW2-0:Mx*)8MQ0YW,xQMFMiD*Mx-QZ0W,W)M8M:xY)xiF00-ix*MG:::Y0M-F:WWMx-Mx:7rY5M8*0WQQx-W,:FmW)i))ixWQz0MMF)hG)Q-Y0xMFx80i:*0x)y)00,W4QWM:G-aGiF-0RiW)Wx-Q:YxM)IMW0:W-xWMM80qMM*-W;QW-W,MbM0i:F*ix0Q-0xMM):WXG-Y-x:FW8xiM*:Ga:dYFMYFQWxiW-:xuF)8-8W*WWhQMYi,/))W-:08Gxx+00:M0*)G)Q0-WGiFM8Giv)Yx-Qt0W,xFGW::MY)GxF08*ix*MG0Q4YQM-)-WW:W-MW:QW8)iF*0GYQx*i,:Fs8i:--*xWDW0MMi)d8LQMY0,YFx8Wi:*;x)P-M/MW)0WM::-cxiF-80W)*xG8Q:YMM))-W0iW:Mx,7x0b,8*-GFQW)x0xFi8M:)*Mx0QQ0x,x*0Ww:iY-x*FW8xiMF:YG.)YQM0)*Wx:,-:WyM,8-iF*WGYQM*?, F)8Y:0--xxyF0:M,*)0-Q)YW,0FM0Pi_*Mx-j008Mx)8W::1Y),*F0-WM,*MGGQ3-0M-FxWWix*#x:SM8),x*0G*QxYM,FF.8Q:---xW1W0Mx:)QG)QFY0,YFxYii:*ux)I*0*MW)WWM:i-f,)NM80iY*xG,Q:Y^M))-,_:W-8xMV:0;i)*-G0xYYG,MF:8Q:)--x02W0xMM):W9i8Y-,0FW88i8*:G?.)00W:i--FW,-,xiF)8-i0*x*:GiY,,W))W-:0-x0M,,F*8Q:W*SxGYY,0FM8:i6---:,G&GM8)0W::SY),0:WF:GF:8YFQiYqM-)0WW:M2,x,QM8)i-*0GxiFF)0*MG):W8:xY,iQFY8Wi--YG:Qx8iMGFxGF*iGMP-00MW)M*-xYQQYW,G80iW*xGMQ:YhM)iG-0:Y-0xMN:0ti-J**,MQY8,8F:8u:)-08G,)9i88),W:Q)Y-,0Fx),iM*:Gh{)0-M00W)WxM-,x-F)8-i0*x0,xQq)GYi)**G)QM-r,QFWMi):G-Q0YW,M:Y)FW--)8Fi**YG8QGY,)iF*,-F08Wix*MG:Q10)M-)*W0:x-Mx:F)F8iF)xGWQxYM,nQ*))WM:QY),iF08)iQ-GG;Y*,0Fx8Mi:-)--a-00MW)xWM::-PM)iY8*i)*xGMQ:0)WYQW*YG*)^xG2)0Ii)*-GWM,FF0FMi)xG*ZG-xx8F08Q),W:Q)Y-,0FxF:iG*GGfP)0-MW:i*GWxnFxi;t8-i0*WGMxSY:,p))W-:0-Wxxx*):GG*)G-Q0YW0-FM8:ip-)x-{00WM-),Wi:%Y)xEF088ix*MG:QMa{M-)0WW:0-Mxi}70:W)*0GWQxY8,:FQW):-Q*x8Xx0MMi)jG)Q---xYFG8Mi:)Qx)2-00,0*)WM:i->xxF-80iW*xW)QiY:M))*W0:W-xWMQQ09MD*-G-QW-M,MF:8i:)-)x0RY0xMM):W;:YY-,YFW8xiM*,GKQ:Y:M0)WWxi0-:xQF)Y-W)*WG-QMYG,%FWW-i-*YxG1-0:M,*)G-Q0YW-:FM8WiX*xx-^-0WM-::W::xY)x)F088ix*,G:QMJ6M-)0WWiW-Mxig+0:W)*0GWQx-0,:FQW)M-QQxWq-0MMG)EWQQ--B,8FG80i:)xx)1*00MW)xWWGM-(,)F-Y?iW*GGMi:YiMF)-W0:W-xG81:0xW<*-GYQW-:,MFi8.i=--x),00xMM):W-Q)Y*,0FW)-iM*iGzQ90-M0)W0xxY-:xQF)8*i0*FGxiMF8,Z)FW-:Y-Wx-+M-:Mi*FG*Q0Y8,xF*8:i),:x-:,0Wx,)MWi:9YF,-F))0ix*MG::F0)M*)080i8-,xiO_Y8i-*0GW:W0-,:F:W):)-0xWVx0M*W)kWQQ-Y0,WFY8Mi::xx)Q?00MY)xWM::*7Y-F*8*iW)0GMQxYvG)i)WY:Y-xG-3:Y/i)))MMQWY0,MF*8L:)--W0Q)0xMW):WMQ)*i,0QWYQiM*xG=Q:0-,*)W8x:8-:xiF)0)i0*-GxMM-:,rFQW-MM-WG,rM0:M:*)W.Q0YW,xF,8:M:)xx-EF0W,-)MW::S*)0iF08*ix*8G:QM0),)F*W8:--MGi&U8)i-)-WYQGYY,:F*W):--0G0Q80,M0)ZWFQ-Y0,WFxF:i:*8x)l*00MW)xWMFQ-mxiF-0iiW*WGM::YWM)FyW0MQ-xx87:Y/,M*-G*QW-:,MFx8O:))ix0100xMx):W:Q)*-xiFW8WiM*MG wF0-M0F0Wx:x-:x:F)8*i0*W-8Q,Y:,?)FW-:0-Wxx9M0:M=*)8QQ0YW,xFG8)i{-)x-2W*,WFiF*iGx}*8G,xF8W0:QG:Qe0)M-)0WW:x-Mx:}i0Qi-*0GWQMQ{YQFi8::--0xW%MF0WFiFG)Q-Y0,WFx8MF:i:0)PFYVMW)xWM:NF*W0M*)F,:*8G8Q:YbM))0-,G8:WYQ=,0Wi)*-G0Qx)Q0YMW)xGYQG-xnY00MM):W;Q-FiYG,M88ix*:GK/)000W)YWW:M-:x;F-)Wi0UY08MG),Wi:QMFx8-YxYoM0:MP*-08GHQ,0YFM8:i1-)x-P00Wix:iW,:0Y),-F08xxQ:Y-GxWA:88Mx*,G:-GxMd+8)i-*W*MQ8YY,:F(W):0F)Y8,-FQWYi0WQ:QY0,WFx8:x0:MYGx*0*M0)xWM::Y)Y8FF8-iW*xGMQ_FF,QF8W0:W-xx:i)F0WGi:*,G_FF0)iF)xG8:*8*9W0xMM):*xQ)Y-,0FW8xiM*:GxkF0*M0)WW0:M-ixhF)8-i):0GxQMY:,M))W*:0--YW_M0:MB)iG-QYYW,xMG8ii.-)x*e00WMxFxG0:jY),-F*8Wix*MG:0x0)M*)0WW:x-8x:&LFMi-*-GWQGYM,:F_8)W0-Yx82x0)M:):G)M-<-,8FG8MM:*;G0O-Y-M3)xWx::-*,)F-80,WQ*GMQMYd,A)-WY:W)x0Y(:0:i)*)G0:8YxxM<Q8t:F--G*1W0WMMQ:W8Q)Y*,0Si8xi**:GI::0-M-)WWx:M-ixP:)0Yi0*0Gx:8Y:,)))8-i)-WxGkMYxM{)EG-Q0-8,xFM8:i:-)x)l0-WM))MW::%Y),-9-8Wix*MGiQ40)M))0W8:x*x0,6%8)i-**GWQxYM,:F,W):*-0xWKx08M:)mW-Q-Y-,WFW8Mi:*wG):w00M8)xW)::-:,):-YGiW*GGM::Y_,0)-8-M:-xxx2:0*i)*-G0iWY0,MFM8niL--xYeW-xWY):W:Q)Y),0<88xMMiTGQOF0-,*)WWW:MF:YWF)8*i0)iGxQ*Y:,A3,W-:--Wxx2M0iMDF W*Q0YY,xF08:ie-)W-:Q0WM8)MW,:1-:,-^-0Yix*WG:Q:0)M-)080:0-MxGL90ii-*0GW:W-x,:FxW):)-0xWSxYxYW)!W,Q-Y-,WFx8Mi:*Wx)yF00MF)xWx::*mGGF-8-iW**GMQ,Y4,)X:W0:8-xGW2:0:i)*-8xQWYx,MFM81im--W0Q)0xM,):WVQ)-),0FW0FiM*iG>Qw0-MY)W0xxY-:xQF)8-i0)GGxiMcx,6)FW-:Y-Wx){M0W),*)GFQ0YW,xF,8:i:-)x-,:0WMx)MWM:uY),-F0)#ix*MG:Q&0)M-)0WWiG-MxiIH0Qi-*YGWQx(G,iFXW):*-0xW3x0MMi)1G)Q-Y-,WFx8Mii*HGQQM00MW)xW:x_QQY8M*)MW-:iG8Q:YnM))-)S:W-xxM&:0.i)*-00x0YG,MF:8::)-*x03W0)MM):WgQ)Y-,0FW8xF0*:GlR)0*M0)WWx:MQ,xQF)8-iY*WGxQMY:,&))W-:0F,xxaM0:M>*)G-Q0YW,xFMY0Gj-)x-.00WMx)MW:i?F),FOe8Wix*MGTi)%W8,iF*,:8--x:HI8)i0S,-Fx-<08FiY)0:F*GxWBx0MM+o0*,Gxtx0,,lYFW8:M-,xx-,MYFGWM::-<,-iW)G8Wi:Ylx-F80MMG):GQ:<YQ,W)Y8F*FWYQWYx,MFNY0GGQGY*,Gy(8YiF*xx0)GYQM-)*W))*GiQ00-M0)WWM,-tY0-M0)*8p:G00xQcy0-FQ8):0-WxxT:*G8GiY*GxG):Yi,A))WG:MW,i,F-8G:F*,:i-x,-F08WiM::--xGDiWxQ8Y::8-*x:_{8)i0lY-)GQQO8YMx*8G8-0k:8Fi**YG8QGS,F8,YFY8Mi:*=x-i0^Q8)M:WG:8-5,)F-8Wxi:*-Wx8B0x8)F80:W-xxMyp-08,ix-xx,QcWFMiF:GY6MYYxWFi8W),W*Q)Y-,0Fx-QWY:--x,YpxWMiQ*:G,QFYYTQ0ii0*WGxQ:)088MW*8W#:Mx8280:M_*)G0MG=)YiM88:8xiM*:G5g)0-*:-Q:i-G,-F08WiMQQ0iiYp,0xM_*,WA-Gx)?n8)i-*WYMxiQM0)FW8-iMFYYi,*F0M,)YG)Q-Y0,x:,)YW):+YGxQ*M8Fi0*U:,F:,)F-80ixeM*QxWFY00i*)QG)*-8<,-FG8x:W*QGG -x0Q))0W,:MYx,Fe,80)0YYxYQ 0GMiF:M0Si--,Y_Q,:Q:-FxFQ,0F,WFi8G:)-:QGYG,V))W-:WF-Yi,:F)Mi)WG-Q0YW,MiQ-ixWQGYW,xF88-iiW,:0Y),-F08xG::Q*:x-):8,iM*,G0-GG8tO8)i-*W0:,FFF0,iF)WWi:GY),:)K8-:8*MGGQ:0Q,f)QWWQY-FRF0FMW)xWM:_Fx0G,Q)GiY)QGMQ:YPM-:W*GWW::WF,8FM8,ix8,QWYx,MF:8?:)--,0MG08M8):WRQ)Y0WY,M)iW8*,Gx+)0-M0)x*QGWQi0Y,Q8FM,*WGxQMY!88i0*WxxQF0:,M)F8,:YG-Q0YW,xFM8:i>?R0-r*0-Mx)MW:Q)QM08,88Wix*MG:Q!0)M-)0WW:x-Mx:^L8)i-*0W-,xYG,GFKW):--W0i,GXxWF)iWiQ-Y0,WFM*zGFi}-0UFYuMW)xWM:5k-0Y,#)i88*8G8Q:Y?M))0-G,MQGY8y,0xi)*-G0QxFiW6Mi),MW--x0vW0xMM):xmW*F-,*UG8xiM*:x)M0F800MM-xM*QxYQM*F:WF:,--G%Y,,8))W-:0-x0:,Q?:8-Q8-*G-T,)MFM8:ie)OY8K000Mx)FW::bY)G-Q:8WiW*MGMQV*QM-F-8,:x-Gx:qi8)i-*0GW:QYM,MFr8.:---xWQWYQM:)iG):GY0,WFxYMMW*XGQ(-0*MW!8WMiM*G,)X^80,:*xGMQ:YpG,)-W*:W-WxMaM0bx):)GYQ0YxG4F:0F:)---5fW00MM):WhQ)Y-x00:8xix*:WQ3)YzM0F08i:M-xxlo-8-i0*W8x:-Y:,M))8.:0*:xxQx0MM+)iG-M,YW,xFM0MiQ-)G:L0*iMx)MW:i:*i,-vQ8WxQ*MG:Qz0),,)0W-:x-Yx:g:8)M-,:G8QWYM,8Fn8::-F0G-<x0xM:FYG):FY0x0Nx8Mix*XG-H-00MWlx8G::-M,);r80M:*xWxQYY ,i)-0):W-xxMQM0)i)):G0i-Yx,MF:0:iF--GQlW-0MM):WNQ)-O,YF-8xiY*:G:I)Y-xx)WWW:M-GxoU:8-x0FMGxQxY:,F))Yl:0*0G:.M0xM.BWG-Q0YWGx;M8:iM-)Gvn0-YMxFxWG:R-i,-QW8Wix*MWMQx0),:)00-:x-Mx:Q:YQi*)QGWi0YM,:FE0EMW-0G!hx-xM:)aG)Q-*M,WF08Mi0*EG}L-Y0,M)xWx::)x,)!K80MW*FGMQ,Yz,F)-W-:W*WG)v:0Mi))0G0QWYxGM&*8<i:--x)9WYSMMFM88Q)-Q,0:i8xiM*:W:,Y0*,q)WYQ:M-:xnQ}0Qi0*FGxiFY:,6))W-iM-Wx05M08ML)TG-:0YY,xFG8:iG-)G=30*W,i)MW,:B*8,-QW8WMW)QG:QM0),0)0WW:x)MxxB&0:i-*)GW:HYMxMVxWFiQ-0W-vx0MM:F:W8Q--{,WQ08Mi:*1WEQx00MF)x0W::-k,)F-0MiW*0GMQ8Yo,/)-80ii-xxG<:0,i))DG0MW-V,MF,87i*--W)VWYW,i):WMQ))x,0FW8x,MiMG<Q:0-M))W08:M*MxxF)0Qi0FxGxQMY:x:F0W-i.-WW0eM0:M%FX8hQ0YF,xQ:8:i=-)G)Qi0WM))M0x:dY),-F00Qix*WG:QW0)M))08Wi8-Mx,KP-Mi-*)GW:Wii,iFMW)i)-0xWUx-M,a)bW:Q-Y),W}i8M,:)-x)Q;00M-)x80::*{G8F-8*iW)iGMQxYl,)F)W0:Y-xWYA:0Qi)))WYQWY0,M?58.:)--W06)0xMW):WMQ)-x,0t00-i,*GGRi80-M0)W8Wiv-:xxF)-Gi0*WGx:x-W,sF,W-,,-WxxVM0:M,*)W}Q0YF,xFx8:M+),x-t*0Wxi)MWx:&))x8F08YixyQG:QQ0),)))WW:0-MGM;z8)i-F0YFQxYW,:FMW),W-0WWF00MMx)HW:Q-*:,WIx8,i:*ix)iW00M-)xYMi8-NxQF-0oiW):GM:MY*M)F3W0M8-xxMb:Y:M-*-GFQW-*,MF:8.:))Gx0j)0xMx):W9Q)Y-x)FW80iM*WG(cF0-,-)SWx:W-:WQF)8-i0)0W8Q,YG,4aiW-:0-Wxxx:0:Mx*)GFQ0YW,xFMF8ip*:x-Q>0WMG)M8MiMY)xBF00iix*MG:i.-WM-))WW:0-MW,<2YNMM*0G*Qx-W,:F_W):-*ixW^-0MMM)ZG)Q-Y0x:Fx8Wi:*xx)v)00,0,0W,:G-dWGF-80iWFxGYQ:Y,M)FQW0MY-xGxQ:0HMM*-8)QWYx,M.M00:)*ix0O00xMM):WvQFY-,FFW8*iM*MG_Q)Y0M0)-WxiM-:x,F)0)MQ*WG0QMY*,f))W-M0zFxx3W0:MM*)8FQ0-0x8F,8Gih)Gx-m00WMxM:W::xY),)F08Wix*M*)QyY:M-F3WW:W-MGMGM8FMQ*00QQxYM,:QD0Q:--FxWdY0Mx,)98VQFY0,)FxYWi:*;x)Q)YfMW)*WMMG-6,)F-80,^*xG8Q:YGM)))W0iW*YxMgx0fMx*-GFQW-WxYF:8M:))-x0AW0xMMM=WE:iY-,-FW8xiM*:8G()YpM0)0Wx:x-:xx0i8-iF*WGWQMYi,.)FW-:0AxxG_M0:Mi*)G-Q0Y)FYFM8Wi?*:x-4Y0WMG)MW:,)YF,-F08Yix*MG:i%F,M-FQWW:0-MxYV%Y)8 *0GFQxYY,:FMW)i:xFxW_F0MMi)VGFQ--i,WFx*-i:*qx)5*00MW)xWMx0-l,)F-8-iW*xGMQ:))MF)-W0:8-xxM1:06G-**G0QWYY,MF:8+:)_0xYZW0xM0):WsQ)Y-0:FW8xiM*,GH{)0-M0i3Wx:M-:xMF)8-i0*WY)QMY:,{))W-:0-WxxM-0:ME*)WQQ0YW,xFM0iiJ*,x-Qi0WMG)MWM0iY)xiF08Wix*MG:::0xM-F:WWM)-Mx:S2YjMF*YWQQx*W,:FfW)i:xFxWQZ0MM,)<GFQ--:,WFx*-i:*}x)6*00MW)xWMxb-Q,)F-0QiW*xGMQ:))MF)-W0:8-xxMz:0PWx*-G0QWYY,MF:8V:)w0xYoW0xM0):W#Q)Y-0:FW8xiM*MGI9)0-M0i<Wx:M-:xiF)8-i0*WY)QMY:,jF:W-:0-WxxQ,0:MW*)WxQ0Y8,xFM),iQ-)x-uY0WMx)MWM:,Y),-F08Yix*MG:QiYiM-)0WW:M:1-i,W)YiF)IGWQxYM,hMW*GG*:M-il800M:)(G)Q0Qx0QMq)WGF),x)%-00,0*)WM:M-T,FF-80iW*x*:Q:YiM))*W0:W-xxM:80SM4*-G-QWYW,MQWxG:)-)x0D)0xM,):WiQ)-/0-FW8xiM*WGhEF0-M)i0Wx:M-:xWF)8*i0*WG)QMYM,t))W-:0-WxxWQ0:M:*)G)Q0YW,xXxW0iO*Xx-5-0WMx)MW:G)Y),FF088ix*MG:Q?WWM-)-WW:W-Mxxp 0:W)*0GWQx-M,:FQW)i:/)x8D-0M,:)IGFQ-Y0,WF0)xi:*7x)Q-00M8)xWM:0-Hx,F-8YiW*xGMQ::*M)FiW0:0-xxMm:0xWn*-G-QW-:,MFi87i%--x),00xMM):W-Q)Y*,0FW8)iM*MG6D)0-M0)WWx0Q-:x:F)8)i0*WGxQMl,,Q))W-:Y-WxxKM0MM9*)G-Q0*,,xFM8:ii*Mx-N00WMMi--*x8Q:Y2F*8*ix*MG:E))x0Pii)8:G-,x,w08)i-*0Gx,:cQY:M--:G,QMY,,00GM,)mG)Q-YWx*aY8Gi8*!x)N-0W8ii**0x*v8Y0FF8FiW*xGMQX)-8YM-)x:Y--xM4:0li-iW-ix:;00QF,8,:)--x0nx*i80iF*,:Q-i,0FW8xi::i-xx8F80MMMW8:0-:x}F)808::Q-Gx)O*,iF;W-:0-WxM,i0,MM*)G-Q0YxW*,Q))ii*,x-200WMMQW*iGxVY0,,M8YiW*MG:QX0-8W)*W0:x-Mx:F)F0iF)YGWQxYM,N:-*YW-:x0Mx?)*8WiY*xx,QM0,M-*F8i*iGIa-00MW)M)::,-i,)F-80ixi:*iQ:Y5M))-W0:W-xxMO:0iMM*-G0QWYMW:M-*8WiQ8x0iY*8GGQ,Yi,QGF88FY0:iM*:GlO-*88iMi*GG0QQ8Y,0F*W):,G8QxY:,u))W0W,-Yx03M0:M_*-0*G,)Q,85<8:iI-)x0i8F,0:uF*:GQQ:0W,M),W-*xG:00MG),Wi:QYF0*0QIi0Qi-*0GWQM-W,0M-W):--0xW,-0MM:)HG)Q-Y0,WF-8,ii*/x)i)00M8)xWM::-MYOF-80iWEWGMQiY=M)M:W0:W-xx,%:0Vi)*-*#QWYG,MFM8c:)--x0-Y0xMM):WtQ)Y*,0F)8Gi,*:G9Q-0-MY)WWx:M-xY:F)8-i0)xGxQ,Y:,zMMW-:0-WxGyM0:M6*)*:Q0Y8,xFx8:ij-)W-FG0WMx)MWi:L*8,-F0))ix*MG:Qi0)M-)0WW:F-,x:b48Fi-*YGWQ0hx,:FBW)iF-0x83x0M8W)^G)Q-YY,WFx8Mi::xx)f*00M0)xWM::)#MYF-80iW*GGMQ,YqM)M:W0:W-xxWo:0Ui)*-WiQ8Yx,MFi8z:F--x08)0xMM):W+Q)Y-,0;0W)iM*iGhQ80-M0)WWxG0-:x:F)8*i0*WGxQMW-,E)FW-:--Wx8oM0x8:*)G-Q0*,,xF,8:M:-xx-Qa0WM))MW::>*)0iF08)ix*0G:Q00)M-MWWW:*-Mx:wR8)i-*0*xQxY-,:FMW):--0xWQG0MMW)oWxQ-YY,WF-*xi:*Qx):M00M8)xWx::-MY%F-80iW))GMQiY#M)iFW0:8-xxM5:0Ji))00WQW-0,MQ,8.:F--xY_W008x):WbQ)*F,0F88xiW:MG_s)0-G,)WWG:M-:YxF)8*i0**GxQMY:x:)xW-:--Wx)wM0:M?F)-iQ0Y0,xFx8:ix-)x-xW0WM8)MW::fY),-S-0YiG*WG::*0)M-)0WW8:-MxM}o0:i-*-GW:xQ:,iFQW)ii-0x0Tx0W8M)TG)Q-)G,WFG8Mi::xx)&*00M*)xWM::FIYDF*8YiW**GMQGYsxS)MW0:8-xx,h:0gi)*-*wQWYW,MFW8b:)--x0xx0xMG):W}Q)Y-,0FW0GiM*iGAQQ0-MY)WW0Gx-:xeF)FGi0*8Gx:x00,&))W-i,-WxxeM0:,0*FG*Q0YF,xFM8:,e*-x-6Y0WMG)M8-:uY)GxF088ix*xG:Qp0)M-ziWW:x-Mx:An0&i-*)G)QxYM,:i*W):*-0WW,00MMG)mW:Q-*i,WTW0Gii*Gx):Q00MW)xWMW)-lxiF-0QiW*WGMQWYQMFFQW0G,-xx,_:0zi))D--QWYx,MiF8R:F--G-dv0xM8):8iQ)Y-,0FWGGiM*WGlN)0-MF)W0xi*-:xGF)0_i0*-Gx:M-G,9FMW-i--Wx*HM*:,G*)W:Q0-W,x(08:M:)Gx-QQ0WMF)MW::=*)xWF08Fix*YG::G0)x-tiWW:*-Mx8S?0-i-)0WGQxY0,:EWW)ii-08WO00MMW) W*Q--G,WFx0,i:*Gx)^-00M8)xYM:G-Nx,F-0YiWF:GM::YGM)F:W0iM-xxYI:0;Mi*-GFQWYW,MFM8HM))Mx0p*0xM8):W:Q)Y-,0F88YiM*MGnAF0-,(:0Wx:M-:8WF)8*i0*0GxQW(M,4))W-x:-WxG1M0:8x*)G-Q0Y-,xFM8:i6,ix*w00WMG)MWi:9Y)xGF08Wix*xG:Q?0)M-)-WW:x-Mx0{V8)i-*0G*QxYM,:F,W):--0xWQ,0MMi)AW7Q-Y0,WRx88i:*cx)Qi00M8)x8xiM-n,)F-8YiW*xGMQ:<xM))*W0:)-xxM4:0O8M*-G-QWYY,MF:8oM)Qix0d00xMx):WGQ)Y-xYFW8xiM*MG5_F0-M0iYWG:M-:xQF)8-i0*WGxQMY:,}F-W-:0-Wx8;W0:Mj*)G0,QQ,Y:FG88im-)x-NW*-8Gi0-Fx8QW,FF-8Wix*MGI,-YQM))0WW:x-:-sc1*QxFp*0YM8)GQ,:F8Q:)-0xW{x0:8*)iWFQ-Y0,WFM*?GFiv-0MW=M8Qi-*FG0&8YWM8F7WiiGGGQ,YOM))-WWWM:,xM8-i8*GG,QiYQ8F8iF,8-:)--x0Nx*iW*i**QGM!Y8,,MFGWWQFGiQb0-M0)WWMGi-,x:F)8-i0*x*:QGYG,N))W-:W5%Y0M*miMi)iG-Q0YW,M:Q)WW*:iG*U00WMxFx-,:zY),-h:8Wix*MG::*0)M*)0WW:x-8x:K>YQi-*-GWQxYM,:F58)i*-0x82x0WM:):G)M---,WFG8Mi)*7GiJ-Y-MF)xWx::-),)F-80,WFiGMQMY9,.)-8M:W)x0Y5:0:i)*)G0Q0YxxMNQ8D:F--GbKW0WMMQ:W-Q)Y*,0FY8xi,*:GvQM0-M-)WWx:M-ixU:)Y,i0*0GxQYY:,8))8-MM-WxGXM0*Mv)yG-Q0*M,xFM8:i:-)x)_0-WM8)MW:: Y),-LG8Wix*MGiQq0)M))0W8:x-MY,<Q8)i-*YGWQxYM,:F W):--0G:Ux0MM:)iWQQ-Y0,WFM0Wi0*iGMK-00MW)M*-x*S8Y:,28*iY*xGMQ:0)xi&QW*:F-xxMr:8)WFi:*,x,Q/Y>Fi8QiQ*:x0dW0xM:i)-8xWQp0GFW8xiM*:G!E)0-M0)WW8:Y-:x<F)80W,:F--,FFY0-FQ8::0-Wxxo:F0W8:F*xG,YY,YFM8:i%--0W,GeW0:::W::hY),-,{8Wix*MG:Q?0)M-FaW8:G-Mx::-8)i**0GWQxYW0MF#W):-FxxWgG0MM:ixG)Q-Y0,8Fx8Mi:*y-M2-0YMW)WWM::-u,),:80i0*xGGQ:YcM))-Fx:W-xxMcM0kM^*-WzQ8YG,MF:-*:)-*x0_W0xMWiMWEQ)Y-8GFW8GiM*:-x;)0-M0)-Wx:M-:x6UG8*i0*WGGQMYi,I)))::0-Wxx.80:M7*)G-GwYW,GFM8Mi{-)x-:08,Mx)MW::QY)xQF08W--*MG:Q}0)M-)0WWiWY-x:VQ8)M,*0GWQxYM0WF68d:--FxWSx0MM:Y0G)Q*Y0,0Fx8Gi:*M-4_-00MWF)WM:i-yGzFM80i)*xG0Q:YKM)V-*Q:W--xMAW0aM:*-G0GxYx,YF:8J:)--x06WyMMM)0Wc::Y-,0FW8xM,*:GxH)YMM0)8Wx:0%MxnFF8-M**WGGQMYM,^F:*):0-WxxQG0:MQ*)G-x*YW,GFM8:iK-)x-QW:-Mx)YW:M,Y),*F088ix*W-MQe0)M-<FWW:G-Mx:,x8)i**0G)QxYM,:U:Wx:---xWh-0MM:)T8)xiY0,0Fx8xi:*Wx)_-BWMW)8WM::-h,)F-0-MY*GGWQ:YQM))-W0:Wi:xMyM0uM:*-G-QW-xY:Fi8Q:)*xx0!00xMWiMW(Q)Y-WQFW8GiM*:-xR)0*M0))Wx:M-:8o,o8*iY*WW(QMY,,zrAWM:0-8xxux0:M_*)G-GuYW,WFM88iV-)x-609xMx)GW::cY),-F08WMG*MGiQ YQM-)YWW:0Qxx:fq8)G8*0G8QxYM0WFsW):---xWjx0MM:ixG)Q*Y0,YFx8Mi:*x8QB-00MWQGWM:i-q,FF-8)W0*xGMQ:)QM))*W0:-QWxMf:0OGY*-GYQWYx00F:8w:)*/x0sW0xMMxGWQQ)Y-,YFW8GiM*:WYL)0-M0)0Wx:M-:x=QR8-i0*WG8QMY:,7))0W:0-Wxxc00:MT*)G-:MYW,GFM8Mi_-)x-Q0-MMx)MW::0Y),*F000MY*MG:QUY9M-)0WW:xQ0x:=Q8)Mi*0GWQxYM0WF;8P:-*pxWAx0Mx::GG)Q)Y0,0Fx8)i:*^GFL-00MW)WWM:i-V,)MF8YiW*xG,Q:Y<M))-W0:W-xxMQk0ni)*-G0QWYx,MF:8t:)--x07YYGMM):W_Q-FW0G,WF:Gc:-Y8xMrG0:iQ)/GQQW0Y,F8Fi-*WGxQMY>0-FQW):0-Wxx5:F*Mi)iG-Q0YW,M:Q)WW*:ixFQQ0WMx)MW_,MeFY:MG)Q8X*GG)Q60)M-)WY,xFQFYi,x)*GGix*8x01Q,,F:W):--0xx,,0GMG)3G)Q-YW8HM0**8i*iG+_-00MW)M*^:,-M,)F-80ix&**Qx)YyWQQFY*,YF88G-,*FMQ*)G0QWYx,:,y8iiQ--x0HW0M0jMQ8QQ)Y-,0w0*8iM*:GdQ-0-M0)WWxi,-:xQF)8-i0**GxQMYG,KFqW-:0-WxxSMY:,Q*)G*Q0-,,xFx8:x#)Wx-LY0WM8)MW):D*JxGF080ix*8G:Q_0)x-viWW:W-MxMrE0,i-F0YFQxYx,:F:W)i:-0GWQ,0MMi);W:Q-Y-,W:x0*i:*Qx)Qx00,i)xWMi0-6x>F-80iW*GGMM:Y8M)))W0:0-xx,P:YL,G*-GYQWY),MFM8&:)*8x0^W0xMx):W:Q)*-x:FW8xiM*:G.QG0-M0)WWG:M-:x:F)8*i0*W-8Q,Y:,t)FW-:0-Wxx}M0:MO*)G-Q0YW,xF*8:iu-)x-x30WMx)MW:: Y),-&{*xix*MG:Qx0)M*)0W8:x-WYMw58)i-)pGWQGYM,:MxW):--0x8Kx0MM:)%WGQ*Y0,WFG8Mii*?G:,)00MW)xW-::-Q,)F-F4iW*xGMQMYKM))-W0iQ-GxMN:0Qi)**G0QWh8,,F:8e:F--x0rW0xMM):WIQ)-G,0FW8xiG*8G7u)0-MWi8*)x*QiY0,88Fi)*WGxQMYHWQM8Y,:**Gxx=M0:i)w--*G%ZMWMM,)-WY:08G,0F880i(W,:xY),-F08xxM:)YYx,FYMFFkWW:x-MxS,W)8W,:)--Q8Y-,:FzW):0FxY,xQ/f8-iG*FQFY*,WFx8Mi<),Wim)0*,M)xWM::Y)W*M8Fxxi:x-,xxF-0Wi8)4:Y-YxM#:0Ji-QW-GGWQ:,GF-8>:)--xWMMFi0Mi)YMxG_x0GM-)xiM*:GNQM,QM0)0Wx:M-:xQF)8*i0*WYMQ,Y:,m)FW-:0-Wxx,00:Mi*)G-Q0YW,xF0*%ir*Qx-QK0WMG)MWi:A-:0)F08Wix*0G:QQ0),pi-WW:x-MG2s&8Fi-*0k)QxYG,:FZW):--0xW--0MM,)HGFQ-Y0,WFx)0i:*ix)n)00MW)xYMGM-QxQF-0MiW**GM:M0WM))FW0:*-xxM7:0X8M*-G)QWY8,MF:8#:)::x0d*0xM,):W{Q)Y-xYFW88iM*GGtrF0-,-)5Wx:G-:xQF)8-i0*W8=Q,Yx,nF:W-:0-WWxQ00:MM*)W=Q0-Q,xFM8*i?*:x-TF0WMx)MW::8Y),FF08Wix*8G:QM-MM-)0WWx+-MxiHOY)8%*0WBQxYY,:F:W)i)**x8Qo0MMx)bG)Q-Y0-MFx8-i:*0x)%)00M):MWM:0-SGWF-8YiW*GGMQxv:M))-W0M:-xx,m:0M8h*-G0QWFT,MFi8L:):0x0QS0xMx):WTQ)Y-YWFW8FiM*8Gma)0-M0BFWx:--:x:F)8)i0*)YMQMY0,o})W-:Y-WxG=M0x8:*)G-Q0*W,xF,8:iM:^x-q00WWJ)MWi:VY)Y:F00?ix*8G:QK0),:)YW8:)-M80ZJ8Fi-*0GWQ0zx,:FhW)xM-0x8/x-M8x)rWxQ--Q,WF88MMM)ixFQx00,i)xWM::-m-0F-0:iW)bGMQMY&,M:0W0i2-xW*L:0Qi)**G0Q-mW,MF:8y,G--xYDW008x):WEQ)FM,0F88x,MQ8GjQx0-,Q)W8Q:M):0GF)0Mi0)RGxQ)Y:,3MMW-ii-WxYvM0:MH)M8FQ0-O,x:i8:iQ-)G,L00-8W)MW::b)*,-FY8Wi0:xG:Q50)WM)0W8:x-Mi:rI0xi-):GWQxYM,:YxW)iM-0x*Hx0MM:)#*MQ--:,WFW8Mi:*/8),)0Y,v)xW)::-G,)o)8:iW*)GMQGY2M))-W0G)-xx*E:0ii)*-G0QW(-,MF-8ei4--x02W-xWY):W0Q)-x,0e:8xiM)iGmQx0-,M)WWG:M):YMF)0Mi0*FGxQ0Y:,d))W*i:-WxWqM0iMu)MY)Q0YY,xZW8:iQ-)x)b00-8W)MW::%*:,-FY8Wix:0G:Qi0),Q)0WW:x-0W,l30Qi-Q*GWQGYM,iFk8:G)-0xWvx)GM:)QG)Q-QT,WF88MiM*Ax)P--0WF)xWG::-i,)jx80i)Q0G,Q,Yw8,)-WY:W-GxM4xF:i)*-G0,FYx,,F:87F)--x*rW08MM):WfQ)W:,0FY8xi8*:Gwg)0-0P)WW8:M-MxIF)8-x0:0GGQGY:,0))8i:0))i*JM0iMb:YG-QYYW,)FM8xW:-)x-%0F,Mx),W::OW),-F*8Wi8*MG:Q;0)Q:)0WY:x-8x:dR8)i-ibGWQ8YM,MFlW):-F0Y0dG0GM:)0G):iY0,W-x8Mi,*JGQ6-00MW)xM0::-i,)T:80iW*xGMx,YQM))-WY:W-xxMfM0Qi)*-G0:}Yx,MF:8ii,--x0 W0M8Fi)*0xFQ:08FY8YiM*:Gl#-TW0YMd*i:G-GxIF)8-iWQM-iGMd),iF*W-:0-WxMi:Fi8x:000xYQ:YQ,!Y*WZQF-_,x0YM-)MW::fY-YWMi):W0:QG,QG0)M-)0WxGGQ-0Y,QFW8G*-GY:%YM,:F4W-xWQG-Wx:*WWY:0-YG_FQ,WFx8Mi::xx)B*00MW)xWM::)xG8F-8YiW*0GMQiY2,,)-W)G0-xxMe:0Mi)**G0Q-^W,MF:8Ji,--xYDW0xM-):WQQ)Y*,0FW8xiMMFGlDF0-M-)WWx:M-xY:F)8-i0k-GxQ,Y:x:)xW-:Y-WxWkM0:MV*)*:Q0Y0,xFM8:i^-)x-iQ0WMG)MWM: -l,-:fYiix*,G:Q*0)M*)0W8:x-WYM.y8)i-)GGWQGYM,xM:W):--0WMAx0,M:Nu*:Q-YY,WFx8Mix*rW5QF0YMY)xW-::-o,)F-%xiW*GGMQ,Yo,1)-8k:8-Gx,Z:Y0i)**G0QWYx,WMM8w:)--WM%W0GMMA:-GQ)Y*,0FW8xi-*:8O,,0-MY)WWG:M-,xnF)F:i0*0GxQMY:,O))8:x)-8xGOMY0Mg*FG-Q-YW,0Mx8:in-)WMg008Mx)W*M:{Y),-Qi8WiG*MG:8-0)M*)0WW:x-Mx:VA0xi-*YGWQGYM,:FzW)08-0x8;x0xM:)AG):%L-,WFx8Mxx*OxF6-Y-Mn)xW,::-:,)F-80iW:-GMQMYBM))-W0:W-xWYO:0Qi)*)G0Q0YxG0X*86:F--W-(W0GMM)GWB::S),0FW8x,x*:GQ%)Yd8-)WWx:MFxxLFF8-M-*KGxQ,Y:,x))W-:0-WY-aM0MMK*)G-Q0YW,x-)8:iQ-)x)T00YMx)W*M:EY),-:-8WiG*M8:xM0),:)0WW:x-Wx:Q:YQi*):GWQ)YM,:FHW)8W-0x)ex0-M:):G)::FW,WF-8M,)*dxFm-0YMW)0*x::-B,):W80i8*xGWxMY1M))-Y-:W-GxM::)Gi)):G0QWYx,-F:YIG,--G}?W0-MM),W3:MP+,YF)8xxx*:GQ7)YQM0)-*W:M-:xLi18-iY*WGxQ-Y:,x))W*:0-WxxAMQFMR)MG-Q-YW,xFM8WG:-)x*t0-)Mx),W:::Y)xoM-8Wix*M8WQb0FM-)08k:x-,x:;E8)i-*0GW8iYM,iFJ8&:--0xW{xFGMi)UG)Q*Y0,WFx8,i:*7x)?-0*MW)xWM:,-x,)F-80ixi:Y*,-fM8Y)F8M:W-xxMd6*YWGi0-G,M}x0QMG**iQ*ix0UW0xM:ii*xG848YM,M0,iM*:GZ:o0MM0)0Wx:x-:x6F)8-F**WGWQMYM,z))W-in-8xGyx0:M,*)G*Q0YW,xFW)MiA-)x->F0WMG)MWxG:Y),-F004ix*,G:::0xM-)-WW:W-Mx:h{8)*:*0GYQxYM,:FOW):-)pxWdW0MM:){WQQ---,9Fx8xi:*Qx)y-00xW,YWM:M-sx5F-8*iW)WG)Q:YiM)))W0:W-xxMQi0uMQ*-G*QWYx,MF:0x:)*Dx0V80xMM):W?:iY-,-FW80iM*iGD%)YxM0)WWx:,-:xTF)8)i0*WGxQM*F,b))W-:**wxxnM0:i)V8*iGR{)0iiF))ii*Fx-K00WMMI*--GYQ,Yd,GFMWin--8xYFF0WiY*FG--GxGc%8)i-*WY^x0F*YiFi8::--0xWpMF0WFiFG)Q-Y0,WFx8Mi:FM0)HFY:MW)xWM:4FWY:M,FYW,ib-FQ:YgM))-W0:W-x,MMQ0iM0*-G0QWYMG*MW*YG):i-MM{F*8,iW*-:Q-Q,0FW8xi:a*-QGjF8M*)0Wx:M-:,)i)8FMx*WGxQMY?WMM,*GGiQ-8),W)Y0Q:Y*xQ*-F,xFM8::)FWY,,,FY8,i)*8G*QM0WixF:GF:0-*xWFG0xiG*)GQ:,x:/u8)i-*0GWQxYM,:Fi8G:--0xWeM*-88iY-FGWNY0FM-8GiG*&x)g-0WW,Q:*,GG-ixiF-80iW*M0*xFF880)-W0:W-xxMb:0;ixQYG*:,Yx,MF:W),8:i-M,)Fi8)Q--8x0E*YG,i88iF*:GEK)00G8i,):,F<FY0,-)*W,:,G8:MY:,!))W0,MQF-U,T)F80Q8-*G-s,W)M,F:G*::xFQi0WMx)MW%,*)FWG,QF:W-:Q--Q10)M-)0WW:x0M*QM.0QMi*0GWQxY:G*MG):Wi:MWiN80YM:) G)Q0F:0Q,R)QWW:-x)N-00MW)xWM::0z8*FF0xiW*xGMQL**8GMG*YG)Q,8F,)/Q8::8G*::Yx,MF:W),8:iYFxJF08Qi)-*x0YFxMFW8xiM*K0-x*F88Gi)YGG0QkYGmQ08i0*WGxQ:))0FiY*8WBniYi,)oZ8Q:8-8Q*Y),xFM8::)hY8W,YF*xp)GWF:PY),-FW-QW!:F-8xM7Y0WiG-iGG:x0Fki0)i-*0GWQM)Q8YMY*FW:Q88M,GF)WF:Y*0x*QQ0)F88-i:*9x)a0FW0:i**8,-)FWWFF8FiW*xGMQ.**0MM8*F:Y-)xM>:0pi-Q0-GxiQ:0YM-00iQ*:x0/W0xM:QE*0xGQQ0GFY8FiM*:G9P-*Y8GMMYYGYQFYYMY8FMQ*WGxQMY58:QF):GxQ,-xTG0xM{*)G-QW)FYi,v8,i:-)x-P00xWG)G8i:!Y),-FW-:GFQF-,,FaW0iMG*)G:)FY8,MF,8xF,GYQFYM,:FRW-,*:!-ix:)*8W:Y-YQFYF,WFx8MieQFYGxQFGMWM-)0WW:x-Mx:W;GG*8GYQ:YNM))0Y,W:Qi0*,))*Y:*-G0QW-W:xF:8::)FGx0/W0xxMF8WB:2Y-,-FW8-iMF:W0?)0)M0)0Wx:F-:WwQQ8-i-*WGWQM*G,N))8i:0-0xx7x0:M:*)8-Q-YW,8FM8Miu*Wx-:0-iMx)WW::kY),)F0YWG)*,GxQ+Y:M-FMWW:x-*x:4i8)iF*0G-Qx*M,FF{8::---xW:)0Mx:F8G):QY0,WFx8xi:FVWGD-0FMW)YWMM0-D,)Q:80i-*xGWQ:Y,M)Q:0,:W-8xMQ-0IiF*-WGQWY00xF:8^:))xx0e80xx0_FWQ::Y-GMFW8GiM*FGzQ:F)M0)WWxi)-:xQF)Y-WQ*WGYQMY:,R3*W-M0uFxx.80:M,*)WxQ0Y)WGF,8Gi%)Mx-3Y0WM8)MWxG:Y),-F00)ix*,G:QMZ{M-)0WWM>-Mxi?+Y)Wi*0G*QxYM,:DFW)M-QQxW9Y0MMG)O0xQ--kW8FG88i:)Yx)Z*00M-)xWWGM->,)F-Y,iW*GGMQ:yiMF)-W0:8-xxM7:Y:ix*-GFQW)q,MF:8aM)Qix0}*0xM8):WMQ)-)x*F88-iMFxGjj)0-M0mFWx:8-:x:F)8)i0)W: QMYG,B>xW-:Y-WGWw*0:Mx*)8iQ0YW,xQM0Gi(*Mx-QV0WxG)M8M:QY)xiF00)ix*MG:::YFM-F:WWi--Mx:HbYHMQ*0WQQx-0,:FpW):-*QxW%-0MMY)UW5Q--0YxFG88i:F8x)Q:00GWiWW,:G-<x0F--xiW9x-xQiY,M)4tW0i,-xGxGx0QMM*-8*QWYx,MQ:0Q:)*:x0j)0xMW):8:ixY-xQFW0FiM*:GI:1Y0M0FbWxi*-:x+F)8-M-*WG-QMY0,eFsW-i0*Mxx.80:MW*)W:Q0-0x0FM8WiK)-x-J00Wxx:YW::xY)x:F08-ix)xW,QQY,M-FGWW:x-Mx:,)8)MM*0GYQxYM,:4:0Q:**ixWQi0MM:)HG)::YYx:Fx8Wi:*1x)J--MMW)-WM:--?x#F-00MQ*xG8Q:Y)M)F:W0i0*-xMIW0%,-*-G0QW*xxQF:8x:)*:x0f-0x,x)GW_:,Y-xGFW8xiM)MWM^)YMM0F,Wx:M-:G:MY8*Mi*WWiQMY:,74t8W:0*:xxQQ0:Mu*)G-QFYW,-FM8-iU*gx-Q0-QMx)8W::8Y)x:F0-W,E*MGGQr*MM-)FWWiW-Gx:_x8)xx*0GWQx*MxWFp8M:-* xW500M,MWGG):iY0x*Fx8Mi:*tG-D-Y?MW)WWM:M-jG2yW80iF*xWiQ:YPM)K-8*:W-*xMt80kM:*-W-Q)Yx,-F:8G:)--x0Q0-:MM)YW9:YY-,0FW8xiY*:GGP)Y,M0)0WxiM-xx%JM8-M-*WG*QM-:,*))8::0)Axx580:,:F8G-:QYWG:FM8:iK))G)P00FMx)YW::MY)x)wM8Wi)*MG8Q^0)M-F-W::x-*x:::8)i-*08WiQYM,YFf8G:-)MxW:xYFM:)8G):,Y0xWFx0xMF*vGWy---MW)xWMM:*8,)Rx80M:*x8MQ:*&x:)-8M:W*oxM:80hi))iG0QFYx,)F:8::)--G)(W0)MM):W}:+Y-x-B)8xi**:W)a)0-M05W8F:M-YxP&G8-i)*WWW:GYi,0))88:0-Wxx:M)8M;)8G-Q0YWG,FMY:GG-)GG 0YiMx))W:MA-Y,*T,8WMQ*MWiQH-!,F)Y8M:x*Qx:eH8),-:QGW:iYM,:F&0*:-)00F<xYQM:)*G):xY0GWDi8,iF*cGY#-YYMW)xFA::-8,)v880i0*xWMGJYQ,x)-8i:W-FxMi:F:iF)MG0:MYx,YF:0::x--GidW*QMM):W7i)Qu,0_Q8xi**:Wi^)Y),*)88Q:M*FxbF)8-i0MMGxQ*Y:,Y))W):0)WY0jM0YMm)GG-MGYW,x,:8:iY-)GQ+00WMx)M){:B-0,-VQ8Wix*MG:x)0),8)08z:x-Mx:L_R0i-)iGW:iYM,MFk0)Gi-0G:!x0*M:FYG)i-X),W5#8Mi-*4xFO-Y2)*)x8t::-+,)F*80i8*xGM,zYQM))-WF:W-xxMO:YQi))xG0:MYx,,F:YyW:--GM&W0FMM),WaQ)Y-,Yu:8xix*:GQT)0-8*)8Wx:M-ixyF)8-i-*8GxQMY:,Q))W-:0-Yx)zM0:Mk*-0WxGQiY:M))88Q*:x-=00WMxi0W::%Y),-F08WixFM-xQ40)M-)0WW:G-Mx:PN8Fi-*0G0QxY,,:Fy)Q:*-0xWBG0MM:)BG)Q-Y0,WFx8Yi:*5x)E-00MW)xWM::-o-)i-8*iW*xGMQ:Yi,M)-W0:Wi8*WGMl80-MiG*Q*Yx,MF:uMWF:)*xx*08M,):WwQ)Y0,0FW8xiM*:Gwr)8-W8)WWx:M-:x.F)8-i0QW08QMY:,d)))::0-8xxZM0:Mj*)G-GWYW,WFM8:iL-)x-t0-FMx),W:::Y),)F0Y)L**MGiQ;Y0M-)YWW:0-Mxx,:8)i-*0WMQxY,,:F4)M:--YxW?G0MM:)kG)G0Y0,0Fx8Mi:*;x)Q:MFMW)8WM::-O,FF-8-iW*xY:QiYUM))-W0:W-xxMM00yi)*-G-QWYx,MF:0Q:)-*x0tY0xM,):WMGyY-,0FW-GiM*iGRD)m:M0)8Wx:M-:xBF)8-8W*WGWQMY:,w))W-:0)Fxxs,0:M:*)G)Q0*)GQFM8iiN)sx-&Y0WM8)MWxG:Y),-F000ix*,G:QM.NM-)0WW,G-MxiLq8)WF*0G8QxYM,:FdW)i0M)xW4-0MGi)XGFQ-YY,WF0)xi:*ux)i*00M8)xWMGW-p,FF-8*iW*xGMQ:r)M)))W0:W-xxMI:Y:,Q**G*QWY-,MF:87MB*FxYX-0xM0):WlQ)Y--xFW8GiM*xG6QT0-G.YFWx:,-:8QF)8*i0**GxQW>M,N))W-,Y-WxGrMYM,i*FG*Q0Y0,xFM8:M:)Qx*P-0WM*)MW::kY)0FF08Yix*MG:Q30),)F*W8:0-MxW5_8)i-*):WQxYx,::IW):*-0xWxM0MMW)XGFQ-Y0,WFxm*ii*Gx)Q/00MW)xWM:x-;xxF-8)iW*xGMQ:-iM)F,W0:Y-xxM<:0>MQ*-WMQWYx,MF:8_:)*Yx0Qi0xM8):WoQ)Y-xiFW0:iM*GG(v)0-M0F,Wx:*-:x-F)8)i0*W8:QMY0,>FxW-ii-WxxQ)0:M8*)WQQ0YW,xFM08iv*xx-Q:0WMF)M0:iFYFxMF00uix*,G:QhGQM-FQWW:*-Mx0dk8)*i*0G8QxY0,:FGW)i3WMxWZW0Mxi)7GFQ-Y0*,Fx8,i:*:x)^-00MWxiWM::->xuF-80iW*x-GQiYSM))*W0:W-xx,Ai0zi)*-G0QWYx,MFW8^:)--x0,)0xMx):WDQ)Y-,0FW)-iM*,GZvF0-M0)WWxW:-:xMF)8*i0*WGxQM*8,mFQW-:--WxWOM0:,x*)G)Q0YW,xFG8:i4:Qx*J00WMG)MW::O-1,-F08Wix0xG:Q!0)MF)FWW:x-MxviY)F8):GGYQYYM,:FtW-xKQY-ix:0GM*)rG)Q-YWW8M-)-WF:-8Yx:Fx8,i:WG:G-.,)F-8WxMQF-)x,YEM))-W0:W-xxMQx)cMQ)8G0QWYx,:Q-)GWWQWYGx:*Q8Yix*GGW*G,*F)8xiM*:x)MWF*88iW)::M*ii)ZWi-*iGQiF,iY,,W))W-:0-x8)M*))W-:F*:x8YY,FFM8:iP--8*xL_i0::**WxYnY,F/j8Wix*MGpM-FF0Wi)*,:8-8x:z;8)i0Q:-Qx,<Q,,FWW):--0xxiQFY8Wix-YxGQx,YJR8Mi:*%x-MGyQ0:M:YYG-H-0Y,x8*i**xGMQ:0)G0i8),Gi-8x8r:0gi)*00)x86-0QF,8G:)--x0&x*Q8QiW*-xYQx,0FW8xiM*:Gv-)_:W0)YW):M-:x}F-*0WG:i*:xY%-x0FQ8*:0-WxxZ:--W8:8-Fx8Q:0*,Q)WG-F8-i,)FF0hFFW::LY),-F08WixF)Y:QiY*M-)0WW:M)F0Y,xF-W,i,Y=x*(F0iM-*FWi:6xYQM0MM:)>G-M,QGYMM*)8GY:-YF,G),88MW*Q:,-),)F-80ix%G-8,YFF8Y:x*GGi::8F,iR:WY*F8iQWYx,MF%-;W,:xYYx0F*80i)-8G:FG0,,:)*WW:x80,G7xGYi))QGQQ)xi&Q8-i0*WGM,4F),y))W-:0-Wxx/M-)Wq)QWGQ0YW,xF:-0G8Q0YW,YF)8,:u*8GWY),-F08Wix*MG:MW))MFFQWW:x-MxeiG)-W0i,-,G:YG,8F6W):--W8Q,QA<8ii)-YQFY),WFx8MiO:xYYxY0*M))xWM::Y)8Y:W)YW*F<GGQ0YuM))-WW,,Q-0*M-FMWY:WG0QWYx,MF:8K:)F)00bY08MM):W(Q-)GYxFY0,iM*:G}S-)G8,M:**GWQxYQ,M)YxWi:YFx8FF,iF0W-:0-WxMi,FGW8:*-8MMQ,Y:, )8Wx*QG*^00WMx):YF,QFx0,Mx)MWG:0-QiYZ:0iM,*,xiF,x,?G8)i-*0Gx,Q5Q0xi**8WW-0xWex0MM:)kG)G0F0,WFx8Mi:*bx)c-Y:WW)88i::-h,)F0*8WW:i-0M*FY0WMi*)G-3F0),x)*i)*-G0QWYx,MF:-ex)--x09W0xMM):WZxiF-,*/i8xiM*:x)iF7Q8iiG*i,W^Y00MYFqi*)QGxQMY:M):i**GxF8YYM*FQW*)QWWQ0YW,xF:-iW,QGYY,G*i8*iW*8G0*8,FFF8Wix*MGqMxFG0QiGWY:)-Mx:pB8-G0:Y*ixGF)0xi*8QiG-0xWyx0:G*iG*YGx_,0,iQ**WW:YGQ:%00MW)xW:MYQ*Y0,i)FWQi:-,,**Y8GM:)WGQ:Q8F,ir:WY*FWQQWYx,MFN-MGF::YG,Q!HMM0FM-)0WW:x-MW:Gi*,GWA)0-M0)x-:x*j-8MMFFG8x*YWiQMY:,Z)--8,YF-YG,FF)GM:G**GQQ,Y:FG8Wi6-)x-#W)i80i,-*x*-Qx8F08Wix*:00,8F08WiY*)G,F)YiMF))8W**GFQxYM,:))-xG,:MY,,-(&M,)-G)Q-Y0,x:0**8i:G-YxW)Q0:i:*QG--y,)F-80iW*xGMMFFnM))-W0:W-xxM6:-WG)*FW,QWYx,MF;*)WW:iYFiFFM8:i*-*G0YFW0FW8xiM*3-0,WL-8iMi)QGQQ)W:Q,Yi8x:,*xGB&F00iY)GMQ:,YGQY**WYiW*ix)(-x*MF**W0:,-3,)Y*8UiY*)G-Q,YQQ/F_W-:iG,QY0)M-)0Wx,,QYY),q)G8QqM-Fx0+h,,F,W):--0xxiMFY8Wi-WQM-Y0,WFx8:W-Q0-),,N,0iii)AMM*GG,,W)G8Wi:*Qx-F*08>i)GG8**8FM*F08,i+-):FQQ8FM-)GW::4GF,*FG8=:)*MxY*:Y:M)),iG*GGKs)0-MWQ,*-WQQGxicF8-i0*WGMiFAx0QMx)G,xQ,-QMF)F8x:0-,G!QMYQFM8:i9-)x-S00W,x:MW::<Y),-F08WixoWY:QiYWM-)0WW:MkQ8iiW)GWW:x-8x-/i,iFS8Q,8-0xWZx0:8-:0*)x,Q,YiMiFB,M)GW,xWFG0WM:)QG-e*Y8QiFGW8)*0F,*600,MZ*)iF:Q0F,-FG8:i1WFGMz*0-_W)WWMQYx0!W0xMM):WZQ)*M80FY8*iM*:G_}-*W8YiQ*0GYQQxiTQ8-i0*WGMxiOx,iFiW-:0-WxMi,)*8GiMG-M*)YW8:G-,xi8Q0YT*YMMx)MW:Q)F8YaMY)iWiFFYFxxa088MMWW:x-Mx:k{8)G-i)YWQ8-Q,:F2W):0wKYFx:F,8UiQ-8x,Qx08M*)0i:*Dx)A-x0QMY:G#xQ->,)F-80iW*xGM,xFB,Q))W0:W-xx:,)0iMM*-G0QWYM8:iY)MWYQ8x0uW0xMM):W7Q)Y-,0FY8*iM*:GjL-)W0QM3*Rx*Q-xiEF8-i0*WGMi*F-0YM,)6WG:MYii-F88Y:F*WxYeF0-FM8:iS-)x-;00W8F:MW,:YY),-F08xG::Q*:x-*W0iMG*)G:QFx,#-8)i-*0GxiFv08*Mr),Wx7:YF,GF08))iWWQ-Y0,WFM){W8:G-W:QEQ0Uii*0:,*:,)F-80ixr,-)x8o*0x:W)MGQQ-YF,0)88W:8*DxiQG,GkQ8J:)--xWMMFi0Mi)-.MGQs0YMG)-W8QF-xx00-M0)WWx:M-:x&:F*-i*):GxQMY:M):0*-GYQiY8,0)F8Yi8GF:-YW,xFM8Tx,:,-8x,F,G7MQ*)G-Q,Y:Qi-iW0:,Y*xiYQ,Q)0WW:x-:80,M)G8***WMQxYM,:))-xG,QxYM,GF08QQM-Yx0Qx,YF-8Mi:*ux-MWF08,iY*Q:,-8,)F-80ixQi0,i*IG0WM:*GW:-8xFn:0?i)*00Yx)5)YQM)Y0GYQYYi,)08,W):WXQ)Y0W0MFFZW,iM-GxMXW8ii-0FGWQi0F,MFQWG:)*:QGY-,c))W-:WfMYixMF)GM:G-xxG(-,8FF8:i1-)x0,iFM8::6*8,-v)08MF),i8*0G:Qo0)M0Q,*-G*QF0FNiYji-*0GWQM*)8YiY)QGY:MYFxiF0W) Y*:GiQ,0,ii-,i,*Mx)H-00Mxi0-*G,-iG;F-80iW*M0,xGF88*i8-MG,QQ-Ri0FG88:**xx8J*00F,0G:)--x0rx*eW*:**ix*QxYQ,,)-W!B)-0,G7:0,M<-FG)TFYxM8F*i0*WGxQMY:,fo)Fxx0-YxWuM0:M;*-Y*Q*-x,xFM8::)F8-axQ_i8i:QYi,YS)0,Mx)F8,*GWuQp0)M-)WYxGGQWYx:-)F8x:G-iG:=,08Mx8Qix-0xW_x0:G*:**:x8T,YMi:**G-*iG,v-00MW)M0)G8Q-Y0,i)FiY)xGMQ:YIM-:8YY,iQ*Y),W)*8WeG-)xFQQ0Q:F-QiQ*Mx0AW0xM:Q,-*GFex0YM)):iG)YGeu)0-MWM:*4WM_YYY,8)88x:8-:ix-8xGXG0-M,):Wx::YFxaF)8xi0YW,xFM8:iu-)--x))WMx)MW::IY),-G0F,Gx*GG-QH0)M-)W-iGQH*YxM**08*i:-,Q8-x,:FsW):0FYY*MFFiWFQ-*Wx,QjYiM)**W-Q*-M,G YMYFQWM::-s,-iW)G8Wi:8Fx8JM0,Mx0,:W-xxMN:0yi),--5,WY8xxF:87:)-00W,,A20Bii-YxGQIWiM-)GWi:W-,,YK:0x)YWY:M-:xUF-*QWi:8--QG-8,4))W-:WqxYi,)F)8Q:8-,x)Fi0QM))8WM::8x,i=:GGi0**x*Q0,FRi8Wix*MG6M-6,0MQY**xFQi0F1i00i-*0GWQM)W8Fi))0,G:QY)x:F)88iMG)Q-Y0,WFx8Mi:FM0)UF0FMW)xWM:HFxY,,:)GiY)iGMQ:YLM-Q,*MWiQ*YW,FF-WYQG-YG0_i,GF,8}:)--xWMW)GMGFiWHQ)Y-,W:*)*8Q:*Y*iWS80xMM**G0*YW-,,FY8(*YW:QMY:, )-Y8Gi:iYG,0FQGYi0**x)m,,8F88:i!-)x0xjj,80iWW,:xY),-F08xxQ:Y-xxG>WMF)FWW:x-Mxli-)GWxQ:GY:MYM,:FUW-xMQiYM,:F,8W:F0WGiQxYMM*)8i,)ex)^-00MxQo*YG-m-0Y,x*,W8iW-QM04Q0)i8*):Y-*xM :0qi-mG*Qx-V*0)R*8iia--x0SW0M0:),W,Q)Y-,0Fx*:WQi:--QQYWM0)WWx::)*08,MF0Wiii0,x)p80*MxWFi--WxxdM04W8:0-WMxQ:0*M-*)WG:*-:M,F,80iQ-*G--QxOF08Wix*:0),8FWMF)*WW:x-MxO,-F*iF)sGWQxYM,^Q))WG,QFY,zx0MM:)+G)Q-Y0*Qix8Gi**Bx)&-0WG::F-FG,KFYW,iFGW)::GG:QYnM))-WWxiQQY),8FM8:px-iG:)G00M***W0-FGWAW0xMM)L0YG:QiY,M,*ix,F--*x0<W0Qi)W8iQ-:xlF)80xWi:YFx8FFGYM:)iW,Q,0ii,0:Mh*)G-Q0YW,x*M*Qii*Mx-K00WMMQ,*W,GQYYWF*0*ix*MG:+))88GMM*FG0QWW-M8FWx*:F-Qx,HQG*MG):Wi:MWiN8YGM:)VG)Q0F,0i,()YWx:M8W,,DMWMix*,x*QiYMM8F,8i*8GxQ:Y.M))0*8:Y-WxMU:0Ti-:WG0QWYx,MF:89:)tW00bW0xMM):WlQ)Y-,0iW88M1*:GDZ)00GMiF):WvQ8Y,:FFQWi:G-iQMY:,o))W-:0MW-QMM0:M_*)G-Q0YWFx,W*:i>-)x-e00WMx-MFQx_Y),-F08Wix*MG:xQ))M-)0WW:x-Mx:Nn)QG-**G0QxYM,:))-):F*,xW<x0MMSQ--YG-QxW:,iF2W):G-M%FYsMW)xWM:PQQYMMW)G8W*8G-Q:YUM))0Y*G,:GWF,8)-WY*FWQQWYx,MFmYYW,::YW,8F,MG)0WtQ)Y-,WMxF+WY:G00i**xM*FQWx:M-:,)i0)880iMYQx,QM8*FQ0,:0-Wxx/:F-W0i)-,G,Qi0i,D)iG-FDWi:Q-QxiF-0:i0*WG,Q:Y,,aFQG,:00)M-)0WxxMQQY-,-)FWG:i--,QFF0-MG):WXFMYQx{*-88iY-FGWzY0FM-8Mi:*kx)_-00MWXx-M:,-),)F-80ixI:-)x8cW80Mi)8G)dM0*,xF*WY*FWbQWYx,MFD-QWiQ,Y8,,08M8):W Q)Y08G:M)GW8*,GGr)0-M0)x-QGMNY0-,,FYi*)QGxQMY:M):x)iW,Q8-:,,F88x*)G-Q0YW,xFM::YUa)xFQG0WMx)MWbM-#Y00MiF,W0i}0ixxF088M0WYii-Mx:j_8-GWiM-Qx-oF00i8)WG8:HYixG0GM8)eG)Q-YWW)M*FeWiQ)-F>FY0MW)xWM:H)*Y:M,F,8M:GYFi-F*8)i,)WG8Q*Y)_,0Yi)*-G0Qx)x0YM-)Q8l:i-mxM)F8W),W-Q)Y-,0Fx*:WQi:--QxY0,:Q8*QGYQWxiQ88-i0*WGMMFF*00M,)rG)F:0F,)*i8,:G-YxGFMY i*)WWY:xY,xMF,8-:F)i:i-i,-F08WiM3WYF,)30MFFiWW:x-MxPi*-FGGix*:x*/G8FFiW):--0xWPx0MM:)_G)Q-Y08xix8Mi:* x)4-00-WiG-M:,-*,)F-80ix:Q-M,Y#x8*i8*,GQQ--:MYFYMQ)8G0QWYx,:Q*)GWW::YGx:)PW*:)*QGYQG,*Qg8xiM*:x)xWFx00iQ)QGFJFY-MF)W,-)FW*:*-*x8y-0MMx),WaQ*-QMiFQG-Q0YW,M:F**W0:,-z,)F88-ii0)GQQW08M,FMWG:Y-WQiYiM-)0WW:MF)0FMYF0i-*0GWQxYM,:F+G)xY-*G8>x0MM:*)Y0x8Q0YMi:))GY:x-8xMFi0:ii*0x*:QxQF)80iW*xG:x*Yi,M)-W0:W-M0F,xFQW8:FGYQ8Y8xMF:8%:)-08Y,*)F8i:FY0xYaGYx:F)MW::*Y*x00-)MWQQFY*,YF8)G*Yi0*WGxQMY:,#))-Yx0MMx-_M0:xs:,G-Q-YW,GFM8*iD*M00E000Mx)WW::QY),*F08-WW*MG:QhY:M-)YWWiW*Gxip:8)-x*0GWQx*M88Fq8Q:--YxWQ,0MMW)QGFQFY0x<Fx8,i:*6x)Q+F-MW)xWM:0-e,FF-8)W0*xGMQ:Y8M))*W0i0*8x,_,0lSQ*-G0QW*x8YF:8M:)-*x0,x0xM0)iWQ::Y-xGFW8GiM*:G<Q:F)M0)WWxiQ-:xQF)0wW-*WGxQM-t,Z)FW-i-*YxG%W0:8**)G-Q0*W8*FM8GiO-Fx-xF0WM-::W::,Y)x)F088ix*,G:QM#(M-)0WWiW-MxiayY{MF*YG*QxYW,:F1W)M-QQxW.-0MMi)+:-Q-*08FFx80i:*xx)Wi00M):MWM:W-PGGF-8YiW*GGMQx&:M))-W0MQ-xx,+:Y:ix*-WnQWF0,MF:87M)Qix0l)0xM0)::*Q)*-0QFW8-iM*WGk8Q0-x0:FWx:Y-:xQF)M0i0FWY*QMY8,VF,W-:Y-Wx-b,0iMG*)80Q0Y8,xFM8:iM:6x-O00WxM)MWi:f-:0)F08WixF8G:QQ0),)):WW:*-MWi!48)i-F0YFQxYY,:FGW)M--0G0Q80,M0).*,Q-Y0,WwW0Gii*8x)-,00MW)x8xi,-QxWF-FQiW*xGM:M-iMFFGW0YF-xxMv:0b00*-WQQW-Q,MFM8s:)*Mx0QP0xMM):WvQ)Y-x:FW8FiM*:GlD)0-x0:FWx:)-:xQF)jQi0FWY*QMY*,1)FW-WF-WGW,Q0:M-*)WxQ0YW,xQM8Gi&*0x-Qx0Wxx)M8M:*Y)x8F0-xix*MG:Q Y)M-FxWW:W-MxM} Yni)*0W,QxY),:FPW)M---xWQi0MMF)j8)Q---xYFx0:i:QWx)j-00MWd*WM:F-cxkF-8-iW)W-QQ:Y)M)FxW0:W-xWM 00BM-*-WWQW*x,M+M8F:)*Yx0800xMM):W :zY-xWFW8WiM*MGk:B0FM0FGWx:)-:x7F)Y-Mi*WW,QM-Q,wT)W-i--*xxQM0:0x*)G-Q0YWG*FM0Qi^*_x-_-0W,WiQW:ioY)xxF08WixFMGiQ^Y)M-F0WWMx-MGMRG8)M**0Z)QxYM,:Fv0x:-*0xWzW0MMM)g8yQ)Y0x8Fx8)i:*Ix):--,MWFGWMii-nG)F-0-MY*xWxQ:FWM))-W0:W)*xMQi0kMk*-G-QW)x0xFi8-:)F*x0YF0xMMiWWaiBY-,0FW8xiM):-);FYWM0:iWxix-:G:G:8*M-*WW8QMY:,Il)W):0*0xxQx0:x4*)W):MYWx8FM:)in-)x-Q-YiMxFWW:Y-Y),-F08WMW*MWMQA-:M-)-WWix-8x:B-8)8W*0W0Qx-xxiFw0V:-,8xWSx0Mx:GFG):)Y0x0FxMii:):G*s-Y*MW,FWM::-tGeOW80M-*x-,Q:YIM)F)8Y:W*YxM0W0ei)*-G0:0YxxxF:0,:)-)x0QWY8MM))WUi:Y-x-FW-xi0*:G-4)QYM0YiWxixY0x9Q18-,Y*WGxQM*:Y:))8):0*0xx:M0:,:F0G-:*YWF:FM8:i!)AWG60Y-MxiYW::DY)x)=,8WMY*M<)Q60)M-F-0i:x*0x:,G8)i-*0GW:WYMxMF50M:---xWQxYMM:)-G)*MY0x0Fx0M00*QG0E-0YMW)*WM,:*:,)jW80)**xi-Q:-:x0)-8-:W,,xMO:0_,)FMG0:0YxxxF:iF:)*)WQ1WY8MMFFWPQ)Y-x-N,8xMW*:W*L)0-M0F0WW:M*Gx_*m8-i0*WGxMFYix:))0Q:0-0xxQM0xMd)0G-M0YWxWFM-:i8-)GWo0:MMxY,W:i:*G,-t-8WG0*MG:Q6-),))080:x*xx:GY8),-*YGW:WYMxMF7-G:-*0GQ(xYfM:,YG):)Y0x0))8MMM*piWo-00MW!x)x::*:,)Z)80,W*xWxQ,YzxQ)-#):W-xxMQM0,i)FuG08-Yx,MF:0:i---GFeW:sMM):W<id*x,0m)8x0)*:GSt)0-M*)W8W:M*WxRKS8-M0)MGx:XY:0b))8):0FWYW7,0)MHQrG-xiYWxWMJ8iM:-)*x%00WMxFx8::.*Q,-YQ8Wix*MG:Q00)xk)08M:x-Mx:5NY,i-)-GW:0YM,iF_8)Mi-0G,/x*FM:)-G):):),8XW8M)W*Lx)o--0M-)x8x::*:,)Q-80M0)MGM:,Yg0,)-W0:W*WG:S:YMi)WFG0QWYx,MN,8gMc--G)6W0WMMF:8*Q)-8,0W,8xMx*:W:Qi0-,-)Wi-:M-:xsQ)00i0)0Gx:xY:Gf))8)ii-WG8JMF8MA*)G-:--x,xHW8:)i-)x-c00WMY)M8M:9*:,-F-8WMx*)G:Q*0)Yp)080:x*xx,k(YAi-8OGWQxYMG:FQW)i)-0G0vx-MM:F:iGQ--*,WM*8Mi:*ZW?QG00,-)xiG::-B,)F-00iW)WGM:xY5,S)-80MQ-xGQ.:*0i)))G0:0-Y,MBM89)M--x0=W-x,M):8:Q)-),0QW8xMx)8GT:Q0-0Q)WWx:M*MxxF)Yki0WYGxQMY:,IjWW-i--WG0!M0MMo))8dQ0-,,xQP8:M:-)8-Q:0W,M)MYi:!,x,-k00Gix):G:MY0),W)08080-,GMlJYQi-*0GWixYW,:6:W)i)-0WW^xYx,W)28QQ-,x,WFx8MMM)*x):I00)M)xWM::-;GQF-0-iW)0GMQMYb,)(xW0ix-x-3%:Y:i)))G-QW-W,MWQ8=:)--W0Mo0G,x):8:Q)xY,0g00-iM),GkMY0-M0)W8Wi)-:GMF)i)i0*WGx:xYi,{RiW-*i-WxxHM0:,L*)W)Q0-*,xFx8:M7*:x-QW0W,0)M8M:s*VG8F000ixxiG:Q.0)x-W8WWiW-MGMT/M*i-)-WGQx-G,:MGW):--0G0Qf0M,x)w*,Q-Y0,WdW8Wi:),x)xi00MW)xWMiS-}G{F-0FiW*WGM::-YM)F0W0:)-xGxN:*7MQ*-WWQWMM,MM88cMh-Mx0Q00xx,):W%Q)*-Y-FW0WiM)MGJ:)0-,-;QWxiG-:F-F)8-i0)0W0QM-x,XM,W-:0-WGWP*0:,,*)QWQ0YW,xAx0*iO)Mx-xQ0WMx)MW::8Y)x)F00)ix*xG::(-:M-FWWW*)-MGM65YSiM*0W0Qx*,,:F3W)M-:-xWQW0M,M)o8)Q---x0Fx0Gi:8Yx)1-00,0F8WMix-=Y,F-80iW)WG8Q:-,M)YGW0:W-xGxQi0?,M*-*QQWYx,MF:0::)*)x0Q)0xMx):8N:8Y-xWFW8GiM)MG;i)F)MYFxWxx8-::FF)--Q-*WWMQMQZ,{Y8W-,0**xxQL0:G:*)MYQ0*Wx,FM0MiS*-x-KY0W,W),W:iiY)G*F08WixFMG,Q>-QM-F*WWx,-MGMBM8),z*0G*QxYM,:A:8,:-*FxW+Y0MM:).G)WWY0xYFx08i:*:x)q-GFMWF8WMiM-6GQF-008x*GW:Q:YQM)FFW0i0Y)xMQ,0!*i*-G0QWYx)0F:0M:)--x0/*0x,MM2WQi:Y-)0FW0MiME:-:gF-UM0i*WxGi-:G:Fx8-MF*WY0QMY:,#2)*i:0**xxQ80:-8*)8-WiY8xYFM0Gin%ix-Q0Y8MxFWW:)*Y)GQF0-WiY*MWxQ/MFM-WGWW:x*-x:Q,8)i-*0G0Qx)Mx)F}0i:-:WxW,*0M,:):G)iQY0,8Fx0xi:)nW0u-Y)MWWxWMiG-j,):i80MY*xGxQ:Y:M)#-*):W*8xMQ,0d0Q*-G0QWYGxGF:8::)-*x0Q0F:M,F,W!WWY-,0FW0WM0*:WMw)MMM0)WWx:M**xtQi8-MW*WGxQMY:x,))8F:0**xx_,0:,bFYG-:8YW8QFM0TiN)txM10YYMx80W::3Y)G-MQ8WM8*MW,Q.-)M-F-YG:x*Wx:,G8)i-*0W0Q*YMxGFr)):--0xW1xY0M:FiG)iQY0,0Fx0Mi0*?G*_-GQMWF8WM,:*:,).-80x8*xW;Q:-=xi)-80:WuQxMQy0P,P)*G0:YYx)iF:8p:))-+8<WY8MMF,Wp-*Y-x-F08xMW*:QG7)0-M0F080:M*GxN0,8-i0*WWW:0Y:xx))ii:0-Wxx?MYMMeFQG-i_YW,WFM0:iY-)G-n0Y-MxFGW:,E-:,-f08W0,*Mi*Q2-&i0)08Y:x,ix:>s8),-)QGW:8YMx,Fsi*:-*-WQdxYWM:iGG)Q-Y0x0Q:8MMG*h-,j-00MWFW8M::*x,),i80iW*xGM:MYgxQ)-0E:W-WxMQ:0Fi))-G0Q)YxxGF:-.QF--G0=WiMMMi8Wni5*,,0<Y8x,,*:G#m)--M*)W88:M*,xdQ)8-M-)MGx:WY:QY))W-:0*0G)5MYGMNi,G-Q0YWxW+)8:Mx-)iGo00WMxFxW0:{*,,-,Q8Wix*MG:i:0F,F)08F:x-xx:Qz0)i-)0GWQGYMx,F^8)iY-0G8yx*FM:FvG):)*x,W188M)W*nx)(--0MF)x8G::*i,)Q-80M0)YGM:xYg0,)-W0:W*WG*O:Y,i))QG0QWYx,Mii8VMQ--GFVW0WMMF:8YQ)-*,0W,8xMG*:W::80-,*)Wi-:M-:x_Q)YWi0)YGx:GY:G5))8)MM-WG02MF8MD*)G-:-*I,x_88:,8-)x-{00W,Y)M8,:k*i,-F-8WMxi:Gi:Q0)Yl)08Y:x*x*x^QYQi-8/GWQxYMG:6WW)iF-0GY%x-MM:F:WGQ--),WM*8Mi:*3W^Q000,*)xW8::-&,)F-YViW)8GM:GYc,a)-80:Y-xG,?:*0i))FG0:0-:,MI,8+)M--x0#W-x,:):8iQ)-F,0QW8xMx*-GL::0-0Q)WWx:M*MG8F)YQi0,xGxQMY:,LFYW-i*-WGYeM0MM>))W8Q0-8,xQh8:Mi-)G)QW0W,8)MW-:(Y),-Q08Yix)GG::i0)x-)080-8-MGxmeiMi-*0GWQx-G,:biW):)-0x0txYx,Y)_8:Q--M,WFx8M,:)Wx):f00,-)x0M::*:GGF-0FiWx-GMQ:Y}M)F,W0i--xxx{:0:i)))GYQW-Y,MF-8&:)--W0&*0x,8):8,Q)*-,0y08-iM)WG&0M0-M0)WWxiY-:G,F)8)i0*0Gx:xY),I.MW-iM-WxxqM-:,i*)8:Q0-),xQM8:M:*Gx-:Q0WW))MW::OY)G:F00)ix*xG:Q:0),)iGWWi*-Mx-Vc8)i-F08iQx-Y,:aGW)M--0G0oG0M,0)DYxQ-Y0,WFx0Gi:)Gx)r)00M0)x8xi0-#GxF-0MiW*xGMi:-GM)rMW0M<-xWMr:Y:M:*-8iQW*-,MF:8>:)Fix0:w0xMx):W:Q)-)0GFW0FiM*-Gm5)0-x0a>Wxi*-:G8F)Y-i0)08:QM--,HWMW-:0-Wxxbx0:,8*)G)Q0Y0,x%x08iD)Wx-QM0WMx)M0:i0Y)GxF0Y:ixFMG:::-8M-b,WWY--Mx:{58)xi*08:QxYx,:F:W)i)QGxW:Q0MM-)BG)Q-*0x-Fx0Fi:)Yx):-00,0F,WMi)-_0xF-80iW*xW-Q:-YM)))W0:0-xGx{00=,0*-WMQWYx,MQ:0x:))Wx0:M0xxM):8:QFY-GGFW-)iM*:GKt)*iM0#MWx:x-:x:F)0)WG*W8iQMY-,1))W-M0-Yxx:Q0:,**)8-Q0-0,YFMY&i%F-x-200WMx)xW:i*Y),)F080ix)xWQQ=--M-FMWW:x-MW:Q,8),0*08xQx*M,:!:8::-)8xW8-0MM:)LG)MiY0GxFx8xi:*:x)Q)FGMW5,WM:--o,)F-Y0MG*x8iQ:-FM)j-W0i0-8xM::0p0G*-G0QWYx,GF:0F:)-)x0l00x,xF0Wpi)Y-xMFW8xiMF:WiK)--M0zWWxMM-:G:FF8-,Y*W0)QMY:,!))Yi:0)Wxxmx0:M:*)W)xGYWGGFM8-i!-)x-:0-mMxl,W:MQY)G-F000M)*M8MQuQGM-)0WW:x*Gx::Q8)i)*0G0Qx-xxGF9Yr:-*MxWTx0Mx:F*G)i)Y0G0FxYMi:):GWq--*MW+-WM::-f,):i80,0*xGxQ:Y:M)Q-0,:8*8xMii0Z8x*-W0i:YxxGF:-Y:)*0x0Q0Y-MMd,WB0*Y-,0FWYxiG*:8ih)-FM08GWxix-Fxs::8-)Q*WGxQM-M,i))YQ:0xFxx M0:,:)WG-M2YWF*FM8:ie-)GqfY-YMxn0W:::Y)x-u:8WM8*MWxQH*QM-Q088:x*Gx:xF8)zG*0W0::YMG,FPQ*:--0xW:xYMM:yiG)iFY0IGFx0xMG*c8:r-XQMW)xWMiM-:,):Q80WF*xGMQ:-:xQ)*YT:WQ*xMd:0qi))mGYiYYxG0F:8::)*-WM9WY8MM)WWqMQY-W0#88xMG*:F)N){iM0F0WF:M),xZQF8-i0*W8xQxY:Gi))0F:0)WxxQxYFMg}:G-),YW,xFM0Mi--)8Q60FFMx)MW:i:*Q,*:n8WW**MG:Q{-NxW)00F:xFQx:U 8)i-FiGWi8YMG8F}8k:-*0W,uxYGM:)QG)iFY0xWQi8MMx*b08k-Y*MWFWWY::)i,)nF80iW*x8M:*Y2GQ)-0*:W)xxMQMYWi)P(G0xFYx,MF:0:0*--WF_WGQMM):WZQ)*Q,0QY8x,8*:G:{)Y-MF)W80:MQ)xA:Q8-M-)WGxiGY:*F))W-:0)WG*9M-,M.9QG--8YWxW/88:,M-)W8f00WMxFx8o:k)i,-QG8Wix*MWMWF0)G:)0,0:x-Mx:to00i-F*GWi-YM,MF58)M8-0G-hxYWM:liG):)Y*,WQ88M-Q*Ex)2--0,0)x0G::)i,)0Y80M0))GMixYO0,)-W0:W*WxGw:-,i)iiG0QWYxxxr,8Q,M---QEW0xMM):WMQF*F,0Q)8xix*:W&Q*0-,))WW-:M),xX:)YIi0)-Gx0:Y:0G))8)i:-WW8UM-iM}*)G-i0*i,xQG8:,i-)W-E0Y0xi)M0x:5Q,,-F08WMW)xG:i,0)0i)0WW:x*xQY6X-Mi-0,GWQxYMxMFGW),i-0YFbx0MM:)PWWQ-**,WQ*8MiM*kG)QF00,-)xi-::)i,)4)YGiWF8GMiiY5M))-00Mi-xWG :-ii)F-G0:0-x,MQx81F8--x0uWYW,G)i0,Q)Qi,0FW8xMx),GQiM0-0Q)WWx:M*MF,F)-ii0GYGxQMY:,#.MW-M*-WW*HM0MMK))GFQ0--,xF,8:,i-)G)QU0Wx8)M)-:lY),-%-8)ixFWG:Q-0)M-)0WWix-MWGZuY:i-*0GWQx-W,:QiW),Q-0x8#x*M,*)Q8iQ-)Y,WQ08MM:*-x):Q00Wi)x8G::*:GWF-Y*iWx,GMQ:Yrx)%iW0MY-xWGb:MFi)))GYQW*0,M888R:)--G-Q00xx8)::GQ)Y-,0b00WiMFWGVY,0-M0)WWx:W-iWiF)-:i0*0Gx:M-M,v/iW-i)-WW8pM*:Mx*)8QQ0:G,xYF8:M:*Yx-:*0W*,)MW::w*)x:F0YYixFGG:YF0),)FMWWM0-MY8H68)i-)-G0Qx*8,:MGW):--0G0Q80,xW)A*,Q-Y0,WFx8WiiFix)i:00M0)x8M:Y-^GiF-0liWF8GMM:-,M)OQW0Yx-xYY/:Y:MG*-8*QW*G,MF:8SM))Wx0:Y0xxG):0<Q)-)xQFWY0iM8*G1p)0-,-kiWxM8-:YGF)8-i0)0W8Q,*W,mY8W-:0-WGW:&0:xG*)*iQ0YW,xFM0YiHFQx-iQ0WMW)M8:i0Y)GQF088ixFGG::r-,M-P}WWxQ-MGGfnYB,i*08YQxx0,:F(W)M-),xW:80Mx,)X8)Q---,*FxYWi::Gx)P-00,0x,WMMG-{xiF-80iW*xW)Q:*iM)QQW0:0-xGMQ-0j,M*-kGQW*8,M>M8*:))Fx0Y)0xMM):0q:xY-G*FWY8iMF:GK:AY8M0o-WxGY-:x?F)0)M)*W8YQMix,_))W-:0H8xx:G0:x,*)G)Q0-Wx)FM0Wi(i:x-:*0W,WFiW:MiY)Q:F08WixFMW*Qg*QM-/*WWMx-MGMdY8)x.*0-FQxYM,:v:0Y:-)FxWW00MM:)tG):0Y0GYFxY8i:*:x)Q-BWM8F-WM,--yWQF-0-iV*x8GQ:xxM))-W0MW}*xM:,0sxQ*-80QW-WxGFiYM:):ix0HW0x,xF)W_MiY-,FFW8xiM*:GMl)-FM0w*Wx:x-:GII,8-,%*W8:QM*,,bF)0M:0*FxxiF0:,,*)W):-YWG8FMMWi!-)x-:0YGMxcGW:MiY)G-F000M0*M8xQ9=,M-)0WWiW*Gxi:,8)-.*0GWQxYMY)FkYQ:-)FxW{W0M,:*FG)iiY0xQFxYGi:):G0U--*MW:0WM::-zG)Qx80,Y*x8GQ::iM)a-8Q:W)8xM:,01F-*-W0::YxxYF:Ui:))Fx0Q0Y*MMK,Wox:Y-,0FWYxiG*:8i!)-FM0,(WxMMN8xP:Q8-,**WG*QM-:MF))0i:0isxx:G0:,:FYG-i*YW80FM8:i2))x*O0-YMxwGW::)Y)G-T:8W,8*M8,Q()0M-F08-:x*Yx:1)8),F*0W0:MYMG,F>*::--0xW:xY-M:ZiG)iFY0*GFxYMG8*58Q_--*MWFGWMi:Q),FQi80YG*x8GQ:)m0q)*0::WFGxMx*0BM),MGYi<YxWFF:0,:)F-GMEWY)MM/QWE)*Y-x-Q,8x,G*:FFu)0-M0.W0Q:M),xa:Q8-)8*WWW:)Y:GM))ii:0-WxxQx0*MBUiG--QYW,xFM0MiW-)8:X0MFMx)MW::f-:,*Q*8W,-*MGMQ/Y),i)00X:x*Wx::i8)x-)xGW:)YM-QFz,8:-*-G8!x-GM:xFG)Q-Y0GWF)8M,,*c8Qq-,8MWFW8Q::)M,),i80iW*xWx:YYcGi)-)Q:W-xxMQMYiiFv:G0xFYx,MF:8.80--W*tW--MM)MW^:)Q0,YQ}8xi0*:8iD)*-8-)88):M,{xl,,8-x0-8Gx:-Y:W-))Yx:0*0G0=M-,M3FFG-Q0YWGxQH8:,i-)WF/0-WMxFxWW:S):,-,Q8Wix*MWMQ*0)GQ)0YM:x-Mx:Q:0*i->pGWx*YM,:Fg0Li:-0WFqx*zM:)hG)Q-:x,WQ88M,8*AG!t-Y00x)G8-::-Q,)QF80xW:WG,:0YAIi)-(::WFxYx%i-:i)A*G0Q8YxxMx08Q,t--0,DWYYMMQ:WQQ)*),0QG8xri*:W:Q,0-x*)WQ,:M-:xjQ)YWi0FYGxiGY:FF))8)i)-WW0<MM8MR*)G-:--0,xQ88:*G-)x-30Y0,,)M0W:rx,,-F08Wix*WGiii0)G:)0W0:x*MGQOt-Li-))GWi8YMW:oMW)M)-0*GPxxFM:F:8iQ-**,WW,8Mi:*.W)Q-00xY)x0G::xF,)7)0)iWF0GMx8YdM))-8-M:-xW87:FGi)*-G0:0-8,,QW8ZW,--x04W0xYc):0iQ)):,0F08xMMiJGQiz0-,&)W08:MF:Y:FFY)i0xxGxxYY:WA*FW-M--W0:1Mx*M&F?WiQ0*Y,xQ,8:iA-)W-:M0Wx8)M0,:+*),-O-0*ixFWG:xG0)M-)080:0-MWGl3-0i-*0GW:W-%,:QxW)Wi-0xWlxYx,))60,Q-)x,WFx8Mi:i-x):F00xF)xWx::*lY-F*Y-iW*GGMi,Y_G)i)WYM0-xQ8f:,Qi)_-8:Q8*W,Mx)8e-0--80Qx0x,*):YQQ)G{,06W00iM)YG^M80-,F)W8W:G-:WiF)0Fi0*WGxiMY-,cQQW-M*-WWxPMYMMG*)0eQ0Wi,xFM8:M:)Wx-:F0W):)MW::?Y)QGF0YYixF8G:Q:0),-)-WWiF-MY)XZ-Qi-)-GYQx*G,:GFW):--0WW()0Mx,)P0QQ-x8,W(WY%i:FMx):800MW)x8xiM-bWiF-YGiW*xGM:MYWM)Q:W0F0-xxM4:0+F8*-8*QW*-,MFM8+i))ix0:Q0x,W):0iQ)-)GGFWY8iMxQGUk)0-x0)FWxMG-:WiF)MYi0)0W*QM*x,wM,W-:0-WGWQ00:x,*)*iQ0YW,xNx0,izFMx-xQ0WMx)MW::MYFGFF0Y)ix*xG::a-MM-1iWW:--MW,#I-),x*08QQxM:,:MGW)i))bxW:80Mxi)hG)Q-*0xFFxYGi:Fix):-00,0}iWMMx-(:8F-80iW)WW)Q:*,M)MiW0:W-xGxYY0mxM*-QxQWYx,M^M8::)Fix0,F0xMM):W^:-Y-G*FWY*iM*MG}Q)YxM0TQWx*--:WiF)0)i**W88QM*i,I))W-M0*Hxx:G0:xi*)8-Q0-0,FFMYxin:,x-900W,WFGWiM,Y)W,F08Wix)xW,QQ*MM-MQWW:x-MGMQi8Fxi*0YFQxYM,:F=F0:-)*xW:*0MMM)5W)G0YYGQFx8,i:Fix)i--:M8FFWM**-6:8F--0M8*xW)Q:)QM) xW0iW)>xMQ-0;G8*-W*QW-W,)F:Yi:),Yx0cW0xxM)*WpMQY-G*FWM,iM)MWic)*yM0WFWx:M-:G:h)8-,F*WQ*QMY:,mz58F:Y))xx0Y0:M?*)G-Q)Y8G8FMYWin*Ix-Q0Y8MxF)W:iMY)GFF0-WMM*MW-QBQ*M-Y,WWiW*,x::i8)-Y*0GWQx*M,MF!YQ:-)*xWY,0M,MFiG)MEY00FFx8Mi:):G)2--FMWi*WM::-NGm+F8Y,)*x-YQ:Y%M))-W):8)8xM:W0vM^*-W0iiYxx)F:8x:))Fx0iWY,MMF-W60-Y-YQFW0Wi)*:8i{)-*M0)WWxMM*xx#:Q8-,**W8xQM-M,8))YO:08ixxtM0:,:)-G-iFYW0*FM8:ia)vGFvY-)Mx0FW::5Y)x)Qx8W,**M-8QA0)M-)08F:x)Gx::G8)i)*0WW:QYMx-FzWF:-)*xWQxY,M:FYG),GY0G:Fx0xi0*n8Q2-xIMW)xWMM:-Q,)QF80,Y*x8MQ:-:xG)-0):WQ*xMh:03,7,YG0i*Yx,8F:8H:)--G-vW-8MM5GWN:3Y-x0QM8xMF*:F*E)-FM0F00.:M),x%YM8-i0*W8xQFY:Gi))0F:0)WxxQxY)M/.:G-GQYW,xFM0MMG-)8Q60:-Mx)MW::wFF,-Q*8W,Y*MGMQDY)MF)00i:x:Wx::i8)M)F,GWi8YMjWFtW):-)0G,Ox-GM:uiG)i-Y0x0F08M,x*f-,d-00MWFWWG::),,)WE80iW*xGMQ0YZGQ)-0F:W-WxMQ:F)iFFGG0,:YxGGF:0::x--W*9W,-MM):W6i);i,0QY8x,G*:8ZX)Y),*)800:MQ8x^F)8-M-FMGxi8Y:,,))W-:0-WG:eM-,Mk?iG-Q-YWxxF88:MY-)WW<0-YMxFM8G:_*0,-i,8W,V*MWMQY0)xF)0i):x-Mx::s08i-F*GWi8YMG:Fy0v:*-0W-dxFYM:)4G):)-*,8QY8M),*3x)m-00YM)x0G::),,)F)80MW*,GM:)Y.,G)-0*:W*WWNd:-ii):vG0QWYxGMfF8k,Q--W*mWQ8MMa:W*Q)*F,0QY8xF:*:Wu:00-xx)WF8:M),x{Q%YMi0FYGx,WY:,y))0-M:-WW8.M-,ML)-G-i0iW,GQG8:,i-)0Wn0YW,,)M8):T--,-Q*8WMW)MG:ii0)8f)0WW:x)Mx875-Qi-F*GW8,YMG:s0W)MF-0WYXxY,M:F&8:Q-*x,WG,8M,,*O8):G0Yx,)xY,::7),)2-00iWFiGMM*YsxW)-8-i)-xWGn::Fi)*-G0iWY8,MQ,8k,Q--Q87WYW,x):0MQ)xi,0FW8xMx)GG^ii0-FQ)WWx:M*Mx)F)-:i0GFGxQMY:,yF:W*M*-WW-eM0MMj))W-Q0*,,x_W8:,i-)8-Q)0Wxi)MFQ:UW8,->-0-ixFGG:8F0)M-)00Wi0-MW,!X-Qi-W8GW:W-0,:QMW)Wi-0xWAxYxM8)c0iQ-QQ,WFx8MMM)ixFi:008F)xWM::-px:F*Y*iWF-GMQMYb,)F)W0M,-xx0>:-ii)a-8,QW*i,MW>8?W,--G-QW0xxG):0QQ)Y-,0QW8*iMF,G^iQ0-x0)W8W:Y-:WMF)Fii0*WGx:x-i,qQiW-))-Wxx#MYM,i*F0:Q0VF,xFM8:M:)Qx*iQ0W60)MW::pY)-WF0YYixFYG:Q:0),-MWW8Mi-Mxi V-Qi-)-GQQx*G,:i*W):--0xW^00Mxx)wW:Q-Y0,WFx0Yi:Fix)t)00M0)x0M:Y-lWQF-Y*iWWYGM::-YM)z8W0**-xWG;:Y:MY*-8*QW&i,MF:8y:)*,x0:-0xMW):WjQ)Y-x-FWY8iM*MGbQB0-x0)0WxMG-:WiF)YMi0)WWFQM-F,Z#xW-M*-WGWF-0:xi*)-8Q0YW,xFMF6i5F:x-U)0WMx)MW:MGY)GFF080ix*xG:i_F,M-A*WWM8-M*mZ90)80*Y8,QxWM,:QiW)i)Fkx8:80M0-)_G)Q---,)FxYWi:WFx)t-00MWejWMMG-KGYF-80iW*xWFQ:*iM)QQW0:8-x8MQx0f,-*-0YQW-Q,Ms:08:))0x0Mi0x,)):8:iGY-G*FW:,iM*:Gc:)MYM0BYWxMG-:<FF)0),x*W80QM,8,e))W-i-*xxx:80:)G*)G-Q0-0xiFMYWiJG,x-900WMx)8W:MiY)W:F080ix)MWFQa--M-F)WWM8-M8:?)8),0*0)GQxF0,:U:G-:-)*xW8,0MM:)h8):QY0GYFxYGi:GFx)Q)YMMWX0WMG8-L,)F-0-MG*x88Q:3GM))-W0i0*:xM:W0w8,*-G0QWYxx-F:Yi:)F:x0I00x,M)WWZi-Y-xjFWY8iM/:-:VF-0M0GxWxGY-:85)F8-,W*WY:QMG*,b.b8Y:0)Yxx:,0:M+*)8-QYYWG8FMY,id))x-Q-Y-MxKWW:GGY),-F000MW*M8GQIkWM-)0WWiW*Yx::x8)1G*0GWQx-x,-F9Y,:-:QxW9x0MM:M-G)iFY0GFFx8xi:)v--U*-WMW)GWMM,-(W)QG8Y,G*x0,Q:YFM)F-W-:W),xMi*0_,-*-W-i:YxGGF:QF:)--x0:WY-MMN,W?MQY-U8FW0WMx*:8Mf),iM0)WWxix-0x;:i8-)Q*WGxQM-M,-))Y::0xFxxBM0:M?):G*i*YWG-FM8Mio*)Wxs0-GMxFWW:MiY)W-^78W,,*M)QQ6G8M-F-0M:x)Gx:WF8)i-*08WiqYMG,FaYQ:-G8xWQWYxM:IMG)GiY0,WFx0xiY*=8im-_QMW)xWMiM*i,F::80WF*xGMQ:YlY0)-0*:W)-xM>M0nM)i0GYiGYx,0F:Yi:)F-Y-j8-,MMGrW&G,Y-W0)88x,i*:0-1)GGM0F0W*:M),xKQF8-i0*W8xQ-Y:Gi))0F:0)WxxQxY:M9?:G-),YW,xFM0MMG-)8Qc0FFMx)MW:i:*,,-:y8WW**MG:Qk-5,i)00F:x*8x:yl8)i-MxGWi8YMG8F%8{:-*0,*^x-iM:)QG)iFY0x0UW8M,,*BY:s-00MWZxW,::)i,)QF80G0*x8M:YY_GQ)-0*:W6GxMQ:0*i)FYG0,0YxGGF:02i8--W8pWiGMM),WUic-Y,0QY8x-i*:G}T)--)8)W08:M),xl0*8-M-FQGxiWY:FG))W-:0*0x*ZM-GMIW,G-Q0YWxWFG8:,x-)Qil00WMx)MWM:#)Q,-:m8WiW*MW::n0)xY)0J,:x)Gx:iV0Gi-F8GW-xYM*xFfY)G)-YWGcxGJM:G-G):)Y-,8Q88MGx* x)&--0,Q)x0G::)i,),Y80,W)8GMi,YrGQ)-MY:W*xx-U:YFi)iYG0iYYxWM3)8_M*--8-=W)FMMFMGWQ)*F,0x:8xiM*:W::Q0*x))WM,:M-:xPF)F0i0F*GxiiY:,H))W-iY-WW86M-GM>*FG-:tY8,GFG8:i,*Qx*{00WMx)W*M:kY),-FF8YiG*M8W)G0)MF)0W-:8-,x:-i8)MV:-GWQxYM,xFiWF:--)Y0ux0MM:),WQQ*Y0WWMW8,,Q*w0KT-G8MWFx)::i)y,)iG80,x*xWxu0YkGQ)--):W-xxM::)FiFFFG0iYYxx:F:YeiF--W*IW-8MMQ)W_:)*Q,0QW8xM:*:8i%)Y),0)W08:Mjxx%F)8-,0))GxiGY:Gi))aY:0)Wx8fM-,M7tQG-:YYWxxF-8:,g-))Y?0-YMxQM8*:Q*F,-:Y8WMQ*MW:QM0)x*)0-i:x):x:Q:0Fi-F*GW0,YM,:FX0)i--0WY#x-GM:WFG):)-#,WQ08M*8*Ix)u-Y-xi)x08::xG,)F-80M0)SGMiWYIF,)-W0:W-xxWsi-ii)_:G0Q0YxxMr88NMF--G)sW-8MMQ:W,Q)**,0xG8xFF*:W::G0-x*)WQ,:M-:xsQ)8*i0FYGxiGY:FF))8):*-WW0ZMF8M?*)G-:-*M,xQ88:WG-)x-p0Y0,8),0W:mQ,,-F08Wix*WGiii0)G:)0W0:x*MGY9&YFi-)uGWi8YMW:cYW)M*-0Fx_xFYM:F:WMQ-**,WQG8Mi:*XW):x00xY)x0G::)S,)!)YMiWF0GM**YpM))-8-iY-xW8H:FGi)*-G0:05y,,QW8hW,--x0 WYWxQ):0GQ)*Q,0FW8xiM)YG?iQ0-GQ)WWW:M*:GWF)Y*i0*8GxiGY:x:FQW-M*-W00=M0:MeF)G*Q0*Y,xQG8:G:-)W-Q*0Wx8)M0,:KFF,-^0*WixF,G:,:0)xF)08WiG-MWihD:Fi-*-GW:W*Q,:QiW)YY-0xWzx-MMi)=0QQ-**,W0,8MMM)Mx)iZ00)F)xWM::*:GYF-YFiWG*GMQ:Y=xzF;W0M)-x%Yc:0mi)*-Y,Q8*8,MQW8Di4--G0Q,0xx,):F*Q)*F,0:W8FiMFiGwY)0-WW)W8W:Y-:WiF))=i0*WGxiM- ,sQQW-M*-W-,7M-:M,*)8FQ0*Y,xY,8:Ma*Yx-:Y0W0,)M0,:>*p,MF0YYixi)G:Qj0),)F*W8M0-M:Q?;8)i-*0*xQx*8,:QQW):--0xWQG0Mx,)30iQ-YY,WEW)Qi:Fix)Qx00MW)x0M:M-eWQF-Y*iWFxGM:MYGM)QJW0Y)-xxMt:0.MT*-8*QWYW,MFM8uM6*8x0:-0xM)):W;Q)*-xMFWY0iMFxG<:)0-,-FxWxM8-:FxF)8-i0*W8*QM*x,&F_W-:--WGW,Q0:x,*)WxQ0YW,xQM00i.Fix-:F0Wxx)M8M:YY)W:F0Y*ix*MG:QP-GM-IFWW:W-MxMaVY/M:*08)QxY),:FzW)M-*-xW:-0MxW)^8)Q---x;FxYYi:xxx)2-00MW4*WMMW-bx1F-8-iW)W-QQ:*GM)FxW0:W-xWMQG0cx,*-0QQW*x,M!M0,:)FMx08)0xMM):W^:QY-WQFW8WiM*MGA:O-xM0Q1Wx:)-:x_F)Y-M)*W8)QM*0,v/)W-i-*Yxx:*0:0x*)G-Q0YWG*FMY0iu*Bx-^-0W,WiQW:M8Y)xxF08WixFMGWQ+*GM-QiWWMx-MGMQW8)xx*0i0QxYM,:F/8W:-FixW{W0MMM)l8PQFY0W:Fx8)i:*5x):--:MWQyWMM--3G)F-0-,,*x8FQ:FWM))-W0:W)*xM:-0lMc*-G-QW-W0QF:YY:)*xx0PW0xxMFMW/M8Y-W,FWYxiM)MW-K)*WM0iPWx:M-:xmzY8-x,*WGWQMYM,y4n0Q:0FMxx9)0:Mt*)8-:tYWW:FMY)iL))x-Q--MMxQQW:,WY),-F08W,**M8)QNYbM-)-WW,x*Fxi:i8)x**0bMQx-Mx,FnYQ:->,xWQM0M,MFGG)M8Y0)GFx8Mi:F<WQf-*GMWQiWM*Q-wGsQ&80xx*xQYQ:YKM)F)8{:WF,xM080 i)*-W-iiYxWMF:iG:)--x0RW00M,IFWnM)Y-,-FW0xMx*:8i<)-=M0Q,Wx,M-Wxz:Q8-08*WMQQM-M,F))Y8:0,Gxx?M0:x1)8G-MGYWWiFMMQio)<Wx50*xMxiYW:: Y)x)Pi8Wx,*M-8QU0)M-F-8Y:GFMx:,G8)i-*0GWQ0Y,GFFuY):---xWQxYxM:^iG)::Y0W,Fx-MiG*!8QH-iWMWi*WMiM*Q,):880,8*xGMQ:*H,*)-YG:WFixM::0H,kFMG0MxYxQFF:8t:)*)WM/W*,MMi8WqQ)Y-x-SY8GxM*:iYl)0-M0F00::MFix7,,8-i0*WGx:QY:G*))Y*:0-0xxQMYGM>kQG-QYYWWiFM0:iY-)8y10)iMx1GW:i:-),-:G8W-,*MG:QS-),0)0Y,:xFQx:0F8)M))MGWMMYMF8FmW):-*-Y,}G*iM:WGG)Q-Y0x0Zi8Mx:*DQ,T-00MW)x8p::)*,):-80i0*xWM:+YnG:)-8):WFixMi:0-i)LUG0WGYxQFF:0:iG--8GRWi,MM):Wai)-M,0:,8xxQ*:QFm)Y)xc)8YM:MQ8xmF)8-M-FMGxMiY:0G))W-:0*0GMqM*:Msi,G-Q0YW,xF08:,*-)8-K000MxFM8o:.):,-h_8Wxi*M0::,0)Gh)0Qx:xQYx:Q:0Yi-VGGWiGYM,:Ff0)W)-08,fx*QM:DhG):)--,W:M8MW8*&x)_-Y-xQ)xYi::x,,)F-80M0)-GMM:Y2Q8)-W0:W*WGF>:*Qi)iiG0QWYx,M5x8s,Y--8Y7W0WMMF:8MQ))H,0F88xxQ*:0Oxr0*xF)WYG:M)Gxja)QMiYF*GxMFY:GM))Y-M:-WWY&M-QMt0*G-:-*:,x:Q8:YF-)x-V0-WM*)M0F:X)Y,-088WMW)aG:i)0)Fi)0WW:x*xx,?t-*i-WQGWQxYMxMF:W),--0=FAx0MM:)&W:Q*)G,W:x8MiM*{G)D)00x*)x8W::)*,):-0iiWFYGMWQY+Q8)-8-:*-x8Q3::Fi)*-G0iW-Y,MQF8s,Y--Q8NWYW,x):0)Q)Qi,0FW8xMx):GHi*0-0Q)WWx:M*MGiFF--i0:FGxQMY:,;F:W*,G-W8xhM0MMr))8MQ0**,xF08:,*-)8-DY0WxY)MQU:DQ,,-&-YMixRQG:iQ0)M-)00WiW-MWFOh-Yi-F0GW:WYx,:Q)W)FG-0xW7xYx,,)h0*Q-QQ,WFx8MMMQ*xFi-00Qi)xWM::*:G:F--YiW:*GMQ:Y(M)FGW0,,-x8,K:0:i))-GYQW*Y,MFi8y,Y--80gY0xx8):-,Q)WY,0(00MiMFFGe,:0-M0)W0x:*-:W*F)-8i0)FGxiMF8,9QYW-,G-W)Y3MY:8)*F0QQ0)-,x:Q8:xH:dx*:F0W)0)M-::L*w*?FY-,ix)GG:QS0)x- iWW,i-MWF/vY)i-)-W0Qx):,:MGW):--0G0QW0MGQ)w*,Q-Y0,WFx0Yi:F*x)iY00M0)x8Mi,-3WiF-Y iWziGM:MYGM)Q8W0x--xxM :-LW***0GQW)i,M0F8=M)*-x0i,0xGQ):0YQ)--x:FWYYiMWFG9iY0-,-)8Wx,Q-:0MF)8-i0FWG*QM*F,?QYW--i-WWxgY0:x**)08Q0i*,xLM0-i=Fix-:i0WGi)MY:),Y)WQF0-GixQGG:::YiM-QGWWY,-Mx:y&Y)i)*00,Qx)Q,:8FW)i))ExWiM0M,M)7G)Q---,-Fx-ii:GWx)K-00,0+lWM,:-N-)F-80iW*xGFQ:**M)Q-W0:0-xGMxg0Qxi*-QWQW)i,M::)::FFQx0-W0x8Y):Y<G_Y*GFFWi,iMG,Gl:X0MM0Q,WxxW-:x F)Y-WQ*W0iQM*F,SYGW-M0NFxxiQ0:x**)3iQ0-WYMF,YGi=8Gx-iG0WGx,MWiM,Y)*)F0):ix)xW0Q=*YM-:)WW:x-MW:QG8)x8*00,QxM*,:QD8W:-FGxWii0M-G) W):FY0G*FxQ,i:F*x)Q)0-MWQiWMxx-6,)F-Y0Mi*x0QQ:**M)8)W0MWc*xM:F0kxY*-WQQW-xY:FiY,:)G)x0i,0x,x9WWQMYY--MFW8xiM)MGF{)*0M0xWWx:M-:x(1M8-x8*W8YQMY:,f))8x:0F,xxii0:MQ*)0-:*YWG-FM-iiu9,x-Q0Y)Mx(0W:,YY)WQF000M:*M8FQPi*M-)0WWMxxix::*8)x8*0:GQx-xxxFrY-:-GQxWbx0M,MFQG)MYY0FFFx8Mi:):W0I-*0MWW*WM::-9,)QW80x,*x0MQ:Y:M)F-8M:W)-xMQx04xY*-00:0YxG0F:FF:)8Gx0Q08MMMtFW(0*Y-,0FWYxMY*:8*?)*8M08GWxix*)x9:-8-8Q*WGxQM-M,-))YY:0QFxx7M0:,:FGG-M0YW0*FM8:iy-)W:e0*,MxQMW:::Y)x-Q?8W,-*MGWQV*YM-Q0G8:x)0x:W)8)8i*0W0: YMGFF>0F:--0xW:x0*M:e*G)M8Y0GWFx0xM)*68-_-G,MW)xWMiM*Q,):Y80WF*xGMQ:-:x8)-Y0:W8QxMn:0>,_F8G0M8Yx0YF:8q:)--*xbW*iMMQiWy: Y-x0,x8G,0*:GQZ)*8M0FWW,:M))x<i88-xp*WWW:*Y:G*))*v:0-Wxx:M00M9/YG-MGYWxMFMY:iM-)8830*,Mx:VW:iU-F,-:x8WMM*M8FQK-qx,)0Y,:xDWx:;V8),-)8GWMiYMGFF2Fx:-)00F=x*QM:_*G):*Y0xW,M8,,)* *xu-*GMWQx8F:i)G,):*80xq*xWMQMYsG,)--,:W)YxMQMY,i)u8G00GYx,MF:Y(iF--8G6W*iMM8QWtiw-0,0:x8xMx*:Gpv)Y),W)WY,:Mx0xDF)8-M-)-GxMMY:-h))W-:0-W:QhM-FM7{)G-Q-YWxx5:8:,G-)WI}0*,MxFx80:I)Y,-W88Wix*M8:Qx0)G8)0Y,:xGix:Q:0)i-BWGWx*YM,:F;0sMi-08G9xFYM:)5G):)-0,W:x8MW8*yx)b-00M-)GYQ::F%,)F)80MW))GMi8YI,M)-YG:WFxW7y:-Gi)x0G0xFYxxxb085,Y--WY W0xMMq:W8Q))8,0:,8x,M*:W::o0-GW)W**:M-:x5QS0)i0mGGxxYY:,7))8))i-W8xrMF8Mp*)G-:-*i,x:,8:i,-)x-;00W,Q)M0F:H)F,-F-8WMx*xG:iG0)SM)0Y,:x*xG06u-Yi-FYGWQxYMG:F-W),8-08,jx-MM:F:WiQ-)W,WM*8Mi:*2WBQF0YGG)x0)::-#,)r)0*i8qxGMx8YsM))-8-Y*-x8,t:-ii)*-G0QWYF,MQF81,F--x-(WYx,-):0GQ)Y*,0:,8xMx*)G2iY0-YM)WWx:M*Mx)F)-0i0,WGxQMY:,jF:W-,8-WW*2M0:Mn*)WMQ0),,x:i8:iQ-)G-xW08x))MY*:k),,-A-83ix3QG:-x0)M-)00Wx*-MWF P-Yi-F0GW:W-G,iQ)W)FG-0xWgxYx,))r0*Q-QQ,WFx8Mi:*Wx)i800GG)xWx::*_GxF--:iW8*GMiFY/,)FWW0,Q-x8Fb:-Gi)))WiQW)i,MWQ85:)--W0%Y0xGQ):0*Q)xY,0a08GiMR1G?:Y0-M0)W8WiG-iWFF)Y8i0*WGx:x-,,QQ)W-F--WxxRM0:0-*)08Q0)W,xFx8:M :-x*ii0W*Q)M0F:;))GMFY-Qixi,G:*Y0)G-FWWWMF-MQ*w+*Mi-)0WFQx*),::YW),Q-0G0&G0MxF)riMQ-Y0,WQx88i:F*x)i800xW)x8xi2-hW-F-FQiW*xGM:MYQM)QYW0Fi-xxMN:0&GF*-0GQW),,MFM8qi)*xx0i:0x*Q):0*Q)-)xMFW-iiMWWGa4)0-x0FsWx,Q-:W*F)Y-i0)0G)QM)n,AM,W-:0-WGWQ)0:xF*)MGQ0YW,xFM0-i}FYx-i80WMW)M8:G)YFWxF0F-ixKQG:::::M*QGWW*--Mx:>LY)Mx*00,Qx)Q,:QSW)i)*0xWiM0M88)IG)Q---xYFx-ii:8Yx){-00MW)WWMMF-9W*F-8-iW)xWMQ:*0M):xW0,,-xGxQx0wxY*-i=QWYx,MQ:*G:)F8x0i,0xxM):8:iQY*WWFW)*iM*:GT:9-WM0QGWx)F-:xfF)8-iY*W0iQM)Q, FBW-i0*Fxx:)0:,-*)08Q0-W,8FMY*i198x-:*0W,WFWW:M*Y)Q:F08WixFMG0QP*YM-QGWWMx-MGMh88)x0*0-FQxYM,:3:g*:-F8xWEY0MM:)/G):_Y0W,Fx-ii:*:x)Q-YGMWQQWM0F-2WYF-0-i8*x0QQ:xxM))-W0MW*xxM:F0BxY*-80QW-Wx,F:Y):):ix0/W0x,x)YWRM*Y-WMFW8xiM*:YQ4)*8M0QGWx:x-:GIQ+8-x,*W*0QM*F,5SeW):0F,xxY00:ME*)8-:)YWWiFMYFi}))x-Q--MMxQ:W:GGY),-F000i0*M0QQ5:-M-)0WW:x*-x::*8)xY*0G0Qx-MYtFQY8:-)xxWii0M,M*WG)M8Y0Q)Fx8Mi:*/--E-*WMW5YWM::-2,),080xG*x0AQ:Y<M)F)8*:8FxxMZG0#i)*-G0:8YxWQF:-;:)-*x0NWi-MMqFWqQ)Y-,*FW-xWx*i8*k)U:M0iQWx:M,Wx5:-8-i0*WGxQM-:0))FY8:0-0xxi:0:GcisG*MGYWQnFM,*i?*MQQ50*xMx),W::QY),*F08WGM*,G:QP*YM-)0WWix::xi:*8)Y>*00xQxY0FGFVY-:-*QxWnG0MMi)5G),0YY,WFxY0i:*Dx)Q-6WM8QiWMi:-bW-F-0R***x0:Q:Y0M))*W0:F-xxMMr0Qi)*-0OQWYx,MF:-):F--x0QW0xMM):W%,-Y*,0FWY*iM*:G>>)FMM0)WWx:,-:xBF)8-GW*8GxQMY*,&))W-:0Q;xxhM0:M:*)G-Q0YW8)FM8:i&-)x-_00W,xM:WiM*Y)FuF0-xix)xYFQ7*-M-FMWW:x-MW:N)8)x0*00xQx*M,:9:8::-F8xW8-0MM:)aG):iY0WxFx8xi:*:x)Q)YQMWQ,WM:--#,)F-Y0MM*x0iQ:*FM)l-W0i0*GxMi:0jWx*-G0QWYx0)F:YF:)-)x0100x,x),WpM)Y-xMFW8xiMF:G*%)*-M0QWWxMM-:G:2x8-xY*W0)QMY:,w))8-:0FWxx x0:M:*)0-:,YWWMFM-iiD:}x-^0Y,MxQ,W::SY),-F00W8M*,0<Q2)8M-QYWWiWiWxiiQ8)MF*0GWQx*M,YF_YF:-FYxW:x0M,MFxG)M)Y0:iFx8Mi:):G,p-**MWYQWM::-m,)%-80x8*x0GQ:Y:M)F-8,:WFMxM,)0yxF*-W-:*YxW,F:QF:)--x0:WM,MMQiWgMFY-t8FW0W,Q*:0:d),iM0)WWxix*)x%iQ8-)Q*WGxQM-M,F))-p:0xFxxvM0:M5)MG-MYYWW0FM8MiH*)W:=0*xMxFWW:,QY)W-=G8WxM*M)QQEG8M-F-Gx:xF,x:WF8)i-*08WiQYMWiFuYF:-G8xWQW0YM:Q:G)GiY0,WFx0xMW*K0Q5-wQMW)xWMiM-0,)ia80WF*xGMQ:Y+xb)-YY:WF0xMpM0aM)FQG0MxYx,0F:-Q:)F-,YUW*MMMGZW>G,Y-x-gG8xx,*:8Q%)0-M04W0i:MFixs:F8-,0*WWWQWY:W:)),G:0-WxxQx0)MdQQG-GQYW,xFM0MM8-)0+10GiMx)MW:i:-M,-:F8WW**MG:Q.0)AG)0Y8:xF8x:#:8)M-))GWMMYM#0F4YF:-*-W:_x*,M:#QG)Q-Y0GWRi8Mxi*!8F/--0MWFW8)::F:,),i80iW*xWx:GY?WQ)-)M:W-xxMQMYii)QbG0xFYx,MF:0:M0--8FjWwrMM):WXQ)*y,0:88xx8*:G:L)Y-x:)WYM:M-ix&:F8-M0F,GxMiY:WY))Y0:0*0x-ZM*iM68MG-Q0YWGx&,8:xQ-)8*u0-WMxFx8F:mFX,-,Q8Wix*MWMWF0)GF)0-F:x-Mx:Sl0Qi-2YGWM8YM,MF 8)iQ-08GyxiQM:QQG):)*5,W:G8M)W*Nx)&--0,M)xY,::FQ,)Q-80M0)QGMMMY=0,)-W0:W*WG0{:*ii))QG0QWYx,M,)8%,F--8*hW0WMMF:*)QF)Y,0i:8xx,*:WZ1*0-G0)W-Q:MFcxnQfYxi0A8Gx,WY:,v))0-iW-W8GDM*iM7MxG-i0*i,x:,8:xQ-)Gic0YW,*)MY::%:x,-:Y8WMW))G:MQ0)8e)0WW:x)MxWq(-Fi-^YGW:MYMG:GIWF,*-088wx)>M:FwW-Q-)0,WnM8Mxi*RWpQW00G8)x-W::-b,)Q-0*iWTGGMMiY{-*)-00iF-x8,R:*Qi),QG0:W-:,M::8L0*--8Y!W0-)8):YQQ)-G,0F88xiG*:G2M-0*M0)WYM:M-:xJF))Mi0*WGxQ,Y:,v))W-xW-8xxpM0*Ms*)G-:0Qx,G:Q8:)--)8*c00))Y)MYi:O-G,-FY8WiG*MG:M)0FM-)08M:x-Mx:QPGQi-bGGWx:YMWiFo0?ir-088%x0)M:)/G)i--8,W:G8Mxi*JW)p-Y-MF)xYx::xY,)F-80iW*0GMMiYm,=)-W-:WFxWQ=:*Qi)s*G0Q8YxxMF*8h,F--0,uWYMMMQ:W-Q))*,0QG8xVi*:W:W:0*G-)W88:M-:x>Q)Yii0!0GxMxY:Ga))8):)-W88&Mx*Mn*)G-:-Y*,x:W8:FY-)x-J00W,,)MYM:}F:,-F-8WMx)MG:MQ0)0W)0Y0:x*xG)O/*6i-x8GWQxYMG:WFW),)-080Sx,iM:F:WQQ-)*,W8*8Mi:*JWT )00G-)x:Y::-K,)%)0iiW_YGMY8YgM))-W0:8-x8xo:*,i)*)G0:W-),M:i87M:--8-#W*xMF):YQQ):Y,0-i8xMx-tG;MS0-*8)WWx:M):x*F)-)i0S0Gx-iY:x:SMW-,*-WY*tM0:M4F4WDQ0)-,xMY8:io-)G)RY0WGY)M*8:%Y),-F00*ix{xG:M,0)M))08W:0-M8iRE0Mi-;-GWMx0,,::QW)Y0-0YFLxYx,0)7Y.Q-*Y,WFx8M,:*Yx)i)00G0)x0M::*:GYF--*iW0QGMQ:YIxVFYW0,--xYY{:06i)))WGQW)Y,MY*8r:)--G-:M0xG0):*GQ)Y-,0FW,QiMpMG7MM0-M-)W8xil-:8QF),Mi0_0Gx:x-:,5:wW-MY-Wxx3M-:MM*)0)Q0)0,xQM8:M:)xx-i*0W8*)MW::5*9x0F0--ixQYG:Q!0),))-WW,Y-MY8?+8)i-)--QQG)0,:iGW):--0xWQ,0MGM)_YMQ-Y-,Wtx0)i:+Qx)v*00G0)x8x:F-(8RF-*)iW*xGMi:-QM)Q)W0,0-x0xo:-=Mr*-0-QW)W,M:,8+i)*:x0i80xWx):Y:Q))-x*FW-GiMxiGJ*Q0-G0i0WG,,-:QUF)YGi0)0-iQM)M,9FWW-:0-WWxQW0:G:*)0)Q0*W,x&x00iruQx-0k0WMx)MW:i,Y)W)F080ix*xG:::YKM-Q*WWio-Mx:k}Y)i)*00YQx)G,:QEW)i)*ixWi00MGv)OG)Q-Y0WMFG-Gi:*:x)>)00,0FiWM,x-txWF-80iWFxG-Q:)MM): W0MW-xGxQT0tGi*-)vQWYx,MF:8::)Vwx0_00xMx):0XiQY-WFFW-GiM,0Gl:)Y8M0Q*Wx,8-:x*F)0:*F*W0*QMYM,c)FW-:Y-WxxM:0iMg*)WMQ0YW,xFM0iiPXix-MQ0WMG)MWW:QYFx,F0YxiY*,G:Qu0),Vi-WW:x-MWu ,8Fi-*)-0QxYM,::W8i:*-0WWM*0MGG)mW0Q-Qi,WQx-Mi:Uxx)QW00Wi)x0MiF-_8MF-*!iW,-GM:MY0M):iW0M8-xxMl:-.MW*-YQQW)*,MQ:8/M)-*x0M+0xG8)::0Q)*-GOFW-FiMOWGRYW0-M0FQWx,--:8WF)*,i0FW8}QM)Y,jF0W-):-WWx!*0:G8*)Y,Q0x:,xQM0,ilRGx-Mi0WxM)M0:xGY)8xF0-*ixM,G:iZF,M-:,WW,--M*iT_8)F**0Y:Qx)),::YW)M-QQxWMQ0MM))XixQ-*08FFx-Fi:!Yx)G*00xW:*WM,*-788F-YWiW*x)mQ:)GM):GW0:0-xGxF00^Gx*-W*QWYx,MQ:*G:)bMx0MK0xxM):8:iQY*8iFW)*iM*:G^:{YFMY::WxGY-:xBF)8-0x*W0)QM)-,}F2W-i0:xxGQK0:8-*)YMQ0-WYMF,8)iVWxx-MQ0WMx)-W::8Y),*F08Wix*M-WQE)iM-)-WW:x-MW:MG8)GQ*00*QxYG,:Q.)::-FFxWiY0MMF)3WM-QY0WFFx88i:*Qx)yF00MW:MW,::-vxxF-80iW*xY:QiY?M)Q)W0:W-xxMMI0Qi)*-0*QWYx,MF:0Q:)sQx0iF0xM,):8:QxY-WFFWHiiM*:GeJ)l0M0Q)WxiG-:x+F)8-8W*W0*QMY),.))W-:0*8xxi80:GG*)G*Q0YW,)FM-GiD-)x-400WMx)-W:,xY),-F08Wix*MM:Q6),M-:QWW:x-MxW0,8)GM*0G)QxY,,:FGW):-1Wx8Bx0MGG)<G)Q-Y08xFG8Mi:OGx)p-00MW:MW,::-ax-F-80iW*xY:QiY5M)FWW0:W-xxMM.0Qi)*-YsQWYx,MF:-):F--x0i,0xMM):WZ,-Y*,0FW8-iM*:Gy:)FiM0:QWxMx-:-:F)Y-W)*W0FQM)Y,#FYW-:0:xxxiF0:GW*)G-Q0YWxGFM-Yi7A8x-IY0WMxi0W:,8Y),)F08WixFMY8Q})GM-:iWWW*-MW:,M8)G,*0YQQx-Q,:Fxii:-y,xW&00MMi)%WQQ-Y08xFG8Mi:*xx)o-00MW:)WM::-jxlF-80iW*xY:QiY?M):MW0:W-xxMQi0uGG*-Y,QWYG,MFWi,:)d,x0eY0xM,):W:Q)Y-8WF88xiM**G>()0-M0iIWx:M-:xQF)8-i0)0x)QM)-,SWQW-:0-Wxxx:0:GY*)8,Q0YW,xFMFHie=0x-:i0WMx)MW::WY)88F08Wix*MG:QD}-M-:WWW,F-Mx:gS8)80*0YGQxY8,:FrW):-:oxWMx0MMi)HG)Q-*08FFx*Mi:Q.x)YW00MW,:WM,--o8)F-8-iWFxYYQ:)YM)5MW0W0-xWM,x06G8*-Y,QW-i,MFWi,:)d8x0nW0xM,):WQQ)Y-0:FW8xiM*:GIU)0-M0F8Wx,F-:8*F)8*i0FWY*QM)*,6)FW--M-WGW,Q0:G-*)WxQ0YW,xQM8xisJ0x-Mx0Wxx)M8M:*Y)88F0-xix*MG:QeY0M-:xWW:W-MxM%&Y%M**0Y,QxY),:F!W)M-*xxWMi0MGF).8)Q---xiFx*:i:QWx)_-00MWy*WM,F-7xbF-8-iW)W-QQ:))M)FxW0:W-xWMQG0uG-*-YWQW*x,MnM0W:)NYx08)0xMM):W5iMY-8WFW8WiM*MG3:5YQM0:GWx:)-:xEF)Y-i**WY,QMFQ,?o)W-i-*MxxMM0:0x*)G-Q0YWG*FM*Qik*3x-J-0W,WiQW:xuY)xxF08WixFMWWQk))M-:0WWMx-MGM4,8)G**0t)QxYM,:FXWF:-_0xW{W0MMM)D8bQFY088Fx8)i:*^x):--GMW:GWMxi-rG)F-0-MW*xYxQ:Q8M))-W0:W)*xMMi03ME*-G-QW)x0xFi--:)F*x0G00xMMiWWdx3Y-,0FW8xiM):Q0&))WM0:iWxxx-:G:q)8-G-*Ws,QMY:,}.)8::0q0xxMx0:)F*)W):tYW88FM?Yi+-)x-Q-YiMx:WW:GQY),-F000Ms*MYGQ1,MM-)0WW:x-)x:M:8)WQ*0G0Qx-M-0FQ-0:-*)xWMW0MG:FYG),WY0-GFx,Fi:):G0h-)-MWaGWM::-5G)Q880G0*xYxQ:*?M)F)8):W(8xM,807i)*-W-iQYx8WF:)G:)--x0Q0Y:MM:GWP:xY-,0FW0WYi*:YxP)HiM0)WWx:M*)xLM?8-WK*WGWQM-:x:))-W:0WjxxMx0:,:F0G-,-YWGGFM8:i())x)h0)0Mx:xW:MEY)x)1Y8WG8*M-8Qn0)M-F-8::xkWx:-,8)i-*0W0xiY,8GFX),:--0xWQWY0M::xG)GJY0,WFx8Mi**VY2S-FSMW)WWMi:*M,)iW80i8*xYxQ:)_,8)--x:WGYxM-00z,6)FG0,0Yx)iF:8E:))-W,2W)WMM:MWU-*Y-x-k)8GGG*:W*&)0-M0F080:MZxxJQY8-i0*WWW:8Y:8,)),):0-WxxOMY)ML:ZG-,FYW,WFM0:i:-)0W#0*WMx:xW:,6*M,-ix8WY:*MR)Q#-_,,)0-0:xRWx:5P8),-:QGW,WYM8MF538:-)0YiZx)xM:::G),,Y0xWF*8Mx)*Z)8t-)-MWFWW0::f:,)-x80iW*x8MQ8YI8X)---:W)xxMQM0:i)QFG08-Yx,MF:0:ib--0)HW:0MM):Wsib*q,0i*8x0)*:G;N)Y),*)8--:Mi-xRF)8-i0MMGx,xY:8x))W):0*W-M6,*)MJ:)G-,-YWGxiY8:G:-)0G40-0MxFM)T:QF0,-:-8WGW*MWMix0FW))0F::x-Mx:Q:00i-Q*GW-*YM,:F?W)M:-00-Dx)kM:)!G)Q--W,WiW8MGx*{xFd-*0MF)x-Q::FQ,):i80MWFiGMMFYIW8)--x:W*Wx*y:):i)8:G0QWYxGMyX8.GO--0-KW-xMMFM8QQ)FF,0MF8xiM*:W:Q60-W))WWY:M-:x%F)8)i0Q0Gx,WY:,:))8-iG-W0idM:FMb:%G-:-Y),xix8:)x-)x-/0-WMG)M-M:y?e,-Q08WMWW*G:,i0)0i)0WW:x*xGYl ):i-*FGWQxYM,:teW)x)-00-Ox0xM:F>8YQ-FG,W,08MGM*aW1:/00W0)xi0::-e,)Q-0xiWQWGM,MYnx))-8-MK-x0G+:FGi)*-G0:0i,,Mix8nii--x0!W0x,8):-:Q)}?,0F08xMM*MG(MY0-WM)W-W:M*MGiF)*)i0W)GxQMY:G+F:W-x--W0WdM-:MRF_GFQ0FY,xMY8:iS-)G)%)0WW0)MWG:(Y),-F04MixQxG:,M0)M))08WWM-,8FtzY0i-Q-GWMx5x,i:)W),*-0*MkxYM0?)QY-Q-F,,Wi:8MMMMMxFM)00,Y)xWM::)=x0F-*-iWQWGMi:Y?xHz:W0xY-xjK?:0+i)))GYQWF0,MW)8K:)--x0QW0xWx):-MQ)Y),0&W00iMQyG(x00-W-)W8Wi)-:0:F):Yi0*WGxiM)0,Qi%W-x--WQ,9MYM,:*)YFQ0F,,xFM8:M:*Mx-M)0W)W)MW:: *jxQF0**ixG*G:Qz0)M-F*WWxW-M0GLI04i-)0WYQxF:,: MW)x)-0G0cY0MWM)bZ*Q-Y0,WQxiii:Q:x)M)00FG)x8xi,-U0QF-FQiW*xGM:M-0M)isW0GF-xxMz:Y:,Q*-YFQWg*,MF:8T:)*-x0M00xW8):W:Q)--x:FW*MiM*WG!, 0-G0FFWxx:-:))F)Fii0)0x)QMFM,<LFW-:0-WWxxx0:W:*)Y)Q0*W,xvx0xiLQQx-0x0WMx)M8M:GY)0/F0)Fix*MG:::Y8M-:FWW-:-Mx:y5YTMF*0Y)QxfY,:F1W):-)MxWMW0MWW)4WoQ--0xWFx*:i:WWx)M)00,0*)WMxM-UGFF-80iWFx*xQ:F:M):)W0MW-xGxQG0hWQ*-M,QWYx,M}M08:)Q/x0,F0xMM):8:::Y-8FFWxQiM*:GV:(-GM0:)WxGY-:x!F)8-iF*WYWQMFW,+F%W-i0-YxxM:0:MQ*)Y)Q0)W0WF,*PioQix-*80W,W?0Wix:Y)-xF08Wix)xG-QEFQM-W:WW:x-Mx:f:8)W>*0YxQxYM,:F=0W:->-xWM00MMi)u0):-Y08GFx-,i:Mxx)Q-0FMW:,WM,*-m8-F-0-Mx*xYxQ:xxM))-W0MWg*xMMM0&W/*-80QW-WWiF:*i:):ix0pW0x,x)-Wjx:Y-0,FW8xiM*:WWv)))M0:-Wx:x-:GOe68-G8*Wi*QMFM,gQ)0i:06Wxxi,0:*Y*)W-:*YW8xFM-*iy4-x-Q-0)Mx:xW:iiY),-F0YWMM*MYMQ<FtM-{0WWiW-8x:Mi8)8i*0GWQx-x,iFz*::-8,xWDx0MM:FQG),)Y08-Fx8xi:)IWxX-)0MWM:WMxM-mGN.G80G0*xtiQ:YvM)s-8M:WZWxMMM09)**-W-:)YG8GF:iG:)--x0Q0Y,MM:xWU-,Y-,0FW0WMG*:Y,k),iM0)WWx:M*-xyML8-GF*WGWQM-:xG))--:0*-xxMx0:G9)8G-,0YW-,FM),iP)?WcX0)0MxGiW::4Y)G-888WGW*MYMQH,*M-F-8i:xbGx:,G8)i-*0W0QWYM8xFe),:--0xWQWY0M::,G)GiY0,WFx8MMV*XYT_-)FMW)WWMi:-:,)i-80i)*xYxQ:)sx8)--0:W,MxM,80r,+*MG0,0YxG,F:8h:))---bW)WMM:MWPi)Y-x-QQ8xGG*:-Gl)0-M0F08-:MvxxO,,8-i0*WWWQ,Y:8,)),G:0-WxxQx0xM :MG-GQYW,xFM8:i8-)0)K0))Mx)xW:i(-i,-i08W))*MYMQA-/MM)0-0:x),x:>?8),-i-GW,WYM8MFn0):-*-G,Ax)GM:0YG)Q-Y0x0&q8MGx*U-,7-00MWFW8)::T,,),i80iW*xWxQ8Yy8M)-*^:W-xxMo:00i)Q)G0,)Yx,xF:0fM2--007W0GMM:MWIM)?),Yi88xx,*:GY3)Y-M8)W-G:MF*xRi-8-M-FnGx,xY:8M))W-:0)WGx5M)MMt:=G-iQYWGxFG8:G:-)0)&0Q8MxFM80:7FF,-QQ8WGW*MWM:G0)W))0QG:x-Mx::B0-i-Q-GW,WYM<QFe0KM:-Y0YPxMYM:)tG):)-x,Wi08M*8*Ox)2-Y-x,)x-8::xG,)F-80iW)*GM,MYo8i)-W-:W*xG-X:)Qi)FXG0,0YxWMN084xF--*8=WGQMMFMW0Q)F),0WG8xiM*:8z0*0-W-)W-W:MGQxoQlYii0QYGxxYY:,Z))8)ii-W00HMF8MU*)G-:--Q,xi88:WG-)x-y00W,W)M-M:ppi,-F-8WMx**G:,Q0),:)0-0:xFMG8f1*Fi-xWGWx*YMxM)WW)x)-0W8px0MM:Oz)oQ-F-,WiW8M,:*^W?Q,00WY)xMF::-},)D)0YiWQ0GMx8YLM))-8-i*-x08q:xYi)*-G0:0YW,MiW8rW,--x0aW0xM8):-:Q)I:,0F08xMM**G<MF0-MY)W-W:M*M,WF)*)i0Q-GxQMY:G2i,W-x--W0WpM)MMuF)-iQ0F0,xix8:GQ-)G-xW08WG)M-M:9db,-Q0)iixQxG:MY0)**)08Wi%-M0iBt:Fi-Q-GW:WY,,:i:W)YY-0xW9x-M,:)u-%Q-F-,W0,8MMM*Qx)MF00)F)xWM::*:xIF-*)iWG*GMQ:YlxgFWW0x*-x}YR:0Ni)*-)xQWFW,MiG8/iL--G0xx0GW,):F*Q)F),0:W)Wi,QiGgY)0-WW)W8WQ--:0:F)Axi0*WGx:x-,,QiQW-)8-WxxrM0:8)*)-%Q0F8,xFM8:in*Fx-M-0WW0)MWi:#*^,MF0*0ixF,G:Q90)x-iQWWxW-M0MT?Y)i-)-WYQGFG,:MGW):--0WWM*0MWx)uYFQ-Q,,WQx*Yi:QMx),=00F:)x0M:,-Q0:F-*)iW:0GM:M-iMFiQW0GF-xxM_:Y:,Q**-NQWJ0,MF:8k:)iWx0M00xW0):W:Q)--YWF8*:iM*iG ,q0-,-)}Wxxx-::)F)8-i0*W*MQMF,,}:0W-:0-Wxx:Y0:W:*)G)Q0Y0,xuxW0iOQQx-GG0WMx)MW:G)Y)0sF0*0ix*MG:Qj1-M-:FWWx:-Mx:;p8)M**0YYQxF8,:FQW)M-QQxWM80MWM)S)fQ-*00-Fx*Gi:Qix)Q800M)WYWMxG-ZxxF-8YiW*WGMQ:))MF)-W0x8-xxMS:0mG-**G0QW)),MF:8O:)**x0MY0xW8):WQQ)Y-GWFW*QiM*:G<S)0-M0zxWx,,-:x6F)8-i0*WFiQM*F,cFXW-:0-Wxx,G0iMb*)G*Q0YW,xFx8)iS-)x-BY0WMx)MW,:WY),-F08xx::Q-*x-uW0iMYW-:x-Mx:n}FMi-*0GWQxYM,:Fs0)W6-0xW+x0MM:)QG)Q-Y0,8Fx8MiM*ZxF3-008Y)GWM::-Q,)F-80iW*xGMQ:Y},s)-W0:W-xxM/:0>i)*-G0sWF,,GFF8!:)--xWiMFi8::Y**G:QWWYM)):WQi:Gxh)0-M0)W*-:M-Mx_F)8-i0*WG-GWY:,i))8%:0-8xxE,0:MMiXG-Q0YW,0FM8iie)^GF/Y0YMx),W::9Y)x-,W88iW*MGMQ!YQM-)0*Y:G-Mx:dQ8)i-*0G0QxYM,:F^W):--0xW780MM:)oG):MY0,WFx8,i:*yx)J-GmMW)xWM::-E,)F-80WY*GGMQ:YQM))-W0:W-xxMl:0UxQ*-G0QWY8,8F:8d:)-08,,FF:8Q),8QQ)Y-,0Fx*QWW:iY-,Y#x,:Q:-FG)-08)MGFz8G:,G8:MY:,A))W0,Y:MYi,800x0:G-Gx*}GYmMY)FWxQ0xF:.0WMx)MWjM0!G0GM*)G8j:Y-FxxF0,MQ,*FG:QQx0i))G8HiG-,Q8Y0,:FJW):0F)YQ,JFQ8x)iWYQ-Y0,WFMYFW8:M-,xxY:W=iG-FG,6*YWFF0:iW*xGMQy)i8YM**MG8Q-YJu,0Wi)*-G0Qx)00,i-)0GG:x-Y?Y0FMM):WTQ-)WYMMF))W#:8-FxM0F,Q)WWx:M-z8YMY),8M:i-xQGYF,f))W-:Wwx0F,WFFW*)xYGGxQ:0*MG*Fii*ix-200WMMQ--YxFhY,FB,8Wix*MGmi0FG8Gi**GW/QYYF,x)0iF)iGWQxYM,gQ))YW:Q,-M,GFY8W)iWGQ-Y0,WFM)FGF:-00,-FG8*iiWG:F-{,)F-8Wxi:*-Wx8a0,x:G*GG-Qi0F,)0iM,*-G0QWYMWFMx)QG0Q8-MXYYWMM):W(Q-FWYQMG),WWQFGWiWF,8,iY*,G)Q8Y*,M)Wi*)WGxQMY:M)QW*,G,QYY,,)F88*iM-W::)i0*Mn*Fii*Fx-z00WMM::-YGMQY08T:-:GFQF-,,FeW0iMG*)G:-GxGLp8)i-*W0*,Ft,0WFi0::--0xWUM*FW*i0*,G5&)08M-)ixe:0YGxQFG,_QQ*Yx)t*xQo:80iW*xG:i*wM8FiG**:Y-FxM :0 i-Q80Y,iQ:0)M8)iGY-FGQpW0xMM)NYYx)!,0xMFF,iG*FGJ.)0-MWQi*GG)J*YMMY0MGW:Q-0GQFF,iFYW-:0-WxMMlF8WF:**SxG-H8Mi*)xW*QYxFQQ0WMx)MW_,-Q,0YM8)-Wi*GGWQI0)M-)WYxxFQWY*M*0QMW*0GWQxY:W)i*))WW*:Gxn)*,W*iG*MQFYF,WFx8MiEz--Wx8FGMYFQWM::-l,-iG))W8::-Qx-YWGWi,)M:Y*xxM{:0?i-nW*MxFB)0VM8)FWM*M0,,,F08Q:**-:Q-i,0FW8xi:F--*x0mW0Qi)W8:--:xAF)80Gx:,*xGUF-0GM),F:0-WxxgM)GMQ*)G-Q0YW,xFM8:iW-)x*v008Mx)MW::g-i,-FY8WiG*MG:QU-;,i)0W0:x--x:j98),-FGGWQWYM,MFR8*:--0x)fx0WM:)(G)::Y0GWg-8MiG*XxFA--iMWFxW,::-M,)Q,80i**x8MQGY#,i)-WY:W*ixMQ:0*i))lG0:,Yx,8F:YEG,--xF^W0GMM))Wl:)Q0,YF-8xMI*:G,<)--8Q)WWY:M-ixTQi8-M0ixGGQWY:x,))8Q:0)W0*ZM0GM5*FG-iWYWxx,:8iiM-)W0J00*Mx)MQW:m-i,-F08WiF*MG:0x0),:)0WW:x-Gx::{),i-)QGWQGYMx&Fn0)Gi-0xF+x0YM:F-G)i-nQ,WF*8Mi8*hGYP-Y0,:)GW0::-*,)Ji80iWFQGMQ8YuM))-W-:W)xx-m:0Wi)**G0:xYxGMF)8tix--G:AW-:MM7:WGQ)-M,0ks8x,i*:8TQY0-,:)WW):M*Mxku)8*i0*FGx:xY:,W))0-:Y-Wx)JM0iMe)-G-i0Y-,xF-8:iW-)WWB0-W,-)MW0:J-x,-Q88W,xQYG:QW0),M)00i:x*M-F T0,i-F,GWQ)YMx:.GW)i:-0WG#x0YM:)m8xQ--Q,WFx8MiM*>W)Qx00,V)xW,::-),)Q-YQiW*)GMQ0Y2x0)-00iG-xx-A:0Wi)F8G0iWYF,MF08dix--G-NWYxM*):WGQ)-),0468x,M)FGEQx0-MY)W8M:M):x-F)0Mi0)XGxiVY:G_i,W-i:-Wx)PMYFM!F)-iQ0-7,xF-8:MY-)G-xW08M*)M8*:m-x,-E0FxiG*0G::*0),i)08WWM-,xG6&Y0i-)VGWQxM0,:FxW):--0x8 x-MW8)rW,Q-YY,WEM8M,:QGx)Qi00MF)xW8::)p0,F-0QiW**GMQFYE,)M0WY:)-xGQR:0Gi))-*WQ8YY,MFG8niM--x08)0xM0):W?Q)-g,0QW**iM*8G/>F0-,W)W0xiW-:xGF)0ii0)QGxiM-8,&F,W-iQ-WGiUMY:,x*)W:Q0-,,xFY8:,()Wx-QQ0WMG)M8D:}*)x-F08Fix*YG:Q80)x-FiWW:*-Mx8y%Y:i-)0WFQxY0,:/MW)ii-0WW>-0MM8)3GFQ--W,WQxYQi:*Gx)Qi00,Q)x0Mi0-tx,F-0QiW)QGM::Y0MFF:W0ii-xxY}:0&,i*-WQQWYx,MF,8LM)*-x0Qf0xM,):W)Q)*-G:FW8)iM*0G3QG0-x0FxWx:--:xWF)Y*i0FWW-QMY0,cFxW-iG-WGxQ)0:MG*)W8Q0-H,xQM0Fie*xx-OY0W,M)M0::MY)xMF00bix**G:ie-,M-F:WW:)-MWipEY)Wi*0W!QxY-,:F0W)i-:Wx8p*0MM-)^WxQ-*0iYFx8-i:*Qx)Q000xW)-WM:0-yxxF-0iiWFxWWQ:YWM)FMW0M8-xWM=Y0jMx*-W:QWY8,Mg:0,:)*ix0^Y0xM-):8DiMY-x_FWYGiM*8G=Q)Y8M0)*Wx:*-:xxF)8-,i*WG-QMY:,zFMW-M0*xxxBY0:MQ*)W0Q0*Wx,FM88ie*,x-QY0Wxx:YW::GY)xiF00,ix)M*yQQYMM-FGWW:*-MW:MG8)Mi*0G8Qx-:,:Qk0::-*QxWZ*0M,i)p8):0Y0,FFx8Yi:)Mx)Q-0YMW)-WMix-_x,F-Y0M)*xGYQ:YQM)F0W0MW*:xMA80%M,*-WYQW*x,8F:8G:)*ix0Qi0x,M)WWj:MY-x,FW8*iMF:G-S)YiM0)8Wxi:-:WZQG8-MQ*WG*QM-i,wm)0G:0-Fxx4Y0:xw*)W-GWY8,-FMY:ir*,x-:0)FMx)YW::QY)x0F0YWG**MG8QgY,M-FYWWMxUYx:XG8)Mi*0G0Qx-MWGFk8M:---xWc*0Mx:FQG):iY0,8Fx0:i:F=WiZ-YQMW)*WMii-vG)Q,80iF*xGYQ:-0M)F-8i:W--xMQ-0HM,*-W0:xYx,8F:0Q:)*:x0;W-:MM)WWZQ)Y-,)FWYxGY*:GGN)0*M0FxWxMM*xxvk,8-MQ*WGGQM*:x8))8i:0-FxxQQ0:,6*FG-:BYWxiFM88i>))Gxf00FMx),W::)Y)G-lY8Wi**MG8Qb0FM-}08M:x-Yx:=G8)MF*0WWQ)YM,WFy0Q:-*QxW:x0,M:)GG)Q*Y0xxFxYMMY*kG,J-YQMW)GWMM:-Q,)Ai80iF*xGWQ:-RWi)-8J:W-0xM9804,))xG0QFYx,,F:8):))-GQbW0*MM)8WoQFY-G0ti8xiY*:GGD)-:M0FWWY:M-WxfQM8-MQ*WWxQYY:,,))W*:0-)xxoM0-My)MG-Q0YW,WFMY:GG-)Gi9008MxF:W:Mfh,,-IQ8Wi**M8MQ(-)8i)0WF:x-Yx:4*8)M-lFGWQ-YM,FFo8,:-)0GG#x0YM:)QG):0Y0GWF*8Mi8*cG,2---MWLx80::-G,).i80MF*xWMQ8Yu,M)-0Q:W-*xMQ:Yxi))QG0i0Yx,0F:8qMx--G%BW0xMM),Wki)ni,0FF8xi,*:G)f)--8Q)WW*:M-8xv:Q8-,0QFGxQYY:,G))88:0*W-MX,0WM_)YG-:QYWGxiY8:iG-)x*z0YxMx6M-8:h-,,-LQ8W,8*M8:,G0),i)0WF:x*Wx:QL*ii-)nGW:0YM,8FP0)M,-0xF+x0,M:))G)i--W,WF*8Mi8*>8Q(--0,:)xWY::-G,)UG80MW)GGMQWY&,8)-8Q:W*xx01:0,i)FFG0Q)Yx,MFW8<iM--x0{W0YMM3:-GQ)-i,0F88xM:*:8%::0-,Q)WW*:M-8x>Q)0,i0*FGxQYY:,*))8-:F-Wx-4M0FMZ),G-i0Y),xFY8:iQ-)G0l0-Wxi)MW8:E-,,-3Q8W,x)*G:QG0),i)08-:x*Mxxe(0Mi-))GWQ*YMG:F)W)ii-0x8hxY:M:bEWiQ--Q,WF*8Mi8*sW):i00MF)xWY::-Y,)}-0Mi8*-GMQ*Y{,,)-W0MM-xxY+:0ni)*)G0iW-Y,MF08J:F--GW{W-x,:):WWQ)-M,0FF8x,M)-GmQx0-,:)W0,:M):GxF)0Mi0)LGx:xY:xTV:W-iQ-WGW+M00MzF)8iQ0-H,xF,8:i)-)W-QG0WM))MW0:6-,,-Q00Qix*-G:QW0)xY)00Wx*-Mx0Bm0xi-F,GW:x:Q,:FGW)MG-0GzqxYM,Q)(WMQ-*8,WF*8Mi:*,x)Qi00MW)xWx::)%x,F-0:iW*GGM:pYDx)FQW0ic-xx-a:0Gi)F-WYQWY),MF082MY--W0R*0xM-):WWQ)-),0#W03iM*8Ge:N0-,:)W0xi8-:xWF)8*i0)xGxiMY-,kFxW-i:-Wx*2M-:WG*)WMQ0-6,xQQ8:,mQ,x-Q:0WM))M8*:4-)Y0FY8Fix)FG:QW0),-MWW8:--MGF<N0,i-)0*xQGY8,:FGW)i:-0xW8-0MMW)cG)Q-Y-,WQx*Yi:*Gx)v*00,x)x0Mx8-4x,F-0QiW*-GMi:FGM)FiW0:F-xGQm:YRMW**WfQW-i,MF88p:)*8x0lF0xMM):W:Q)*-GGFW8)iM*iGhQ-0-x0FxWx:--:xWF)0:i0FW8AQMY0,zFxW-i0-WWxQG0:MW*)WMQ0-,,xfM8YiV*,x-QG0WM))M0:i8Y)xMF088ix):G:iE-MM-F:WW:)-MxWtLY)M-*0WZQxY-,:qkW)M-QQxWI)0MM0)b8xQ--0YxFG8Yi:)Wx)QM00,WMMW,:W-vx)F-0QiW)x*:QiY,M)F:W0:)-xGMx90QM:*-WWQWYY,MF:0Q:)-)x0;-0xM,):WvGQY*,0FW8GiM*:Gb^F0-M0)WWx:x-:xnF)8FM-*WGxQMY^GFiY)W,WQFYQxQF*W*:0YWxGQWY:Q))88h*QGMr00WMx):Y,x*QFWG,Q)MWi):G:Q30)x-iQWW:G-Mx:!_0;i-*0-)QxYx,:FBW):--0x):80MMi)%WiQ-YY,WFW8Mix::x)s-00M*)xW,::-MY?F-80iW)iGMQiYgM)M:W0:8-xx,e:09i)F--)QWYG,MFi8_:F--x0:F0xM,):W:Q)Y),0F)8Gi,*iG/Q80-MY)WWx:M-xY:F)8-i0)iGxQ,Y:,MMPW-:0-WGiNM0iMm*)*:Q0Y0,xFx8:il-)x-Qi08MW)MWi:7YF,-F0)YiG*MG:QQ0)M-)0W8:x-Mx:mbYfi-*0GWQ8Yx,:F^W):0:,xYnY0MM:)hG-M8Q Y,MY8GMM*gx)5-0WG8iY-*GQ4*80,x)iW)iQ--,Y408YM:*,W8-8xxO:0%i)*0*xQYY8,MF:8R:-:W-8 YYMMM):WRQ-F8Y,M,Fdx,:W-WxYLWWxM8*)GQ-,xxF)8-i0*xY:xY.F8Yi)WF:)-WxxTM0EGGiY*WQ0)YW8:G-,xi!Q:FM80YMW)MW::gY-Y0F*8*ix*MG:a))x0.ii)8:8-xx:af8)i0:xGY::YM,:FXW-,8Qi-i,GF08QQY*0G*j)0,F88xi:*nx)V0F8MYFiWM::-.,-iQFQ8,iQ-Qi-O*00MW)QG)*FxGQ80di)*-GWM:FF8FM,*FWW:i-G,)F:Wfi--8GMQGY:MQF_WQ:WYYxF0F,Q)WWx:M-/8MMFF:WG:Q*kQMY:,d))W-:0-W,xMi*:Mn*)G-i0xM,xF,8:i -)G:v0Y0,Y)MWM:_-g,-F08W,x)GG:Q:0)M))0W):x)MG8B!0si-*-GW:,YM,WDxW):*-0xF_x0,M:):G):so-,WFx8Mi8*rxFT-0)80)xWM::-*,)F*80,WQ*GMQiY?M))-8D:W*W,-V:0:i)*)G0QWYxGMi889i.--x-%W0-MM5:-GQ)Y),0F08xiY*:Gx,:0*MY)WY,:M-ix;g28-i):0GxQMY:GF))W*:0-Wx)SM0iMa*)G-Q0YW,xY08:iQ-)x-700WMxFx-,:1YF,-FF8Wix*MG::i0)M))0WW:x-8x:EeYGi-**GWQGYM,:Fq8)i)-0x0Ax0)M:)iG)M-*:,WFW8Mix*5GGp-Y-,F)xWG::-:,)F-80,W)*GMQ,YI,Q)-8G:W)x0YT:0ii)*FG0:8YxxM4Q83i1--xYZW08MMQ:8-Q)Y),0uM8xi-*:G2QM0-M*)WWx:M-ixB:)YWi0*YGx:MY:x:))8-ii-WxW<MY>Mu)QG-Q0--,xF,8:i:-)x)I0-W,W)MWi:EYF,-^,8Wix*MGiQQ0)M))0W8:x*x0,NS8Fi-*FGWQxYM,:!_W):)-0xWEx08M:)kWFQ-Y*,WFW8Mi:*EG)X*00M0)xW)::-i,):-YQiW*WGMQxYc,G)-8-iG-xxG7:0:i)*-G0iWYF,MF,8>iQ--GGHW-xWY):WiQ)YF,0?88xMM)QG_QE0-MY)WW8:MF:x0F)8)i0)MGxQ-Y:,HF)W-:*-WxxBM0iMr#)WWQ0YY,xFG8:M:-)G-QG0WMW)M8.:l-Q,-F00Yix*,G:Q:0)M))00Wix-MxiLA8Fi-),GWQxYM,iFQW):)-0x89x0M8,)QG)Q-YY,WFx8Mii*gx)J-00x-)xWM::-ix4F-80iW*M-FQ:YkM))-W0:W-xGWM:0iM0*-G0QWYMWQiY)YGF::Y8Mia:0,ix-*:Q-Q,0FW8xi::Q-YxYFxM*)0Wx:M-:,),-8FMW*WGxQMY7G*MM)8GF*)88,QbixYi,-WxG-),8FY8:i/-)x0i)F88-iQ-YG0-QxQF08Wix*:YQ,8FF0W)*YD:x-Mx:F)0FxpFQ-xx*?00)Qx8xGx:G-Mx:FY8W)W*0Gi-:0WMG)IGF*WYGx:Fx,aMQ*MG8QFxx,W)0W,*)YQMiYi,Y)-W0:W-M88,iFxWFiQ-YG0!i0JF0-*,F-FG-.W0xMM)50FGWQiYG,&*:W)QY-xx8ZM8iM:*iG0>*-QF)8-i0*WGxQMY:M5:*W*:0-Yx-4M0:ME*-0*Gw)FYi,p8,i0-)x-d00xGQiY*GGWQ:08,x),W:*GGYQp0)M-)W)MG*QFY),0)F8::8GYQWYM,:F4W-GY-*GHUx0MM:*)Y-x*Q,08MI)WGF*iGie-00MW)MY-Gx;8YFFF8FiW*xGMQZ)Y8FM)*G:Y--xMK:0=i-QW-YGMu00QF,8,:)--x0yx*i80iF*,:QY-,0FW8xiG*MGfh)0-MWMMW8,X-:x9F)80G:i:-ixF *,WM0*-GG*IW0,:F88xi0WMx,wF00MY)-,,*WGGiW*xx,<i0Yi*-WxM,,)88W:Q8GQ0-GxMFM0)ix-GxGl>8)i-*WYMxGL88FFi8i:--0xW<M*{WFiY-8QF-,,WFx8MinQ)-WxiFFGFiM*:G*{*Y0F*8YiW*xGMQ:YNM))-W0:W-xxM3:0li)*-G0i-Fx,GFW8w:)--xWM,*:8,iG80:QYF,0FW8xi::)-FQQYiM0)WWx::FWYG,0)*WWi8G8QxY:,{))W0Gx-W88iG*,GiQQ0F**FG00FM8:i3-)-:300WMx)MW::=Y),-xW88ix*MG:Qa0)M-)0M):x-Mx:pq8)i-*0GWx-YM,:FBW):--0xWJ-):M:)OG):iY0,8Fx8,i:*M-Vy-00MW)*WM:i-_x:M)80iW*x8-Q:YQM))-)!:W-xxM_M0Ti)*-80,FYx,MF:8a:))lx0.Wx-MM):W4QFY-,0FW0WGG*:G<1)-*M0)WWx:M-MxhFF8-i0*WGYQMY:x,))W):0-0xx6M0:,hFiG-QYYW,YFM8MiTF)G-A008MxF-W:MMY)x)JG8WiW*MWWQ60)M-l00::x-xx:k:8)iF*08W,*YM,MFS8f:-*QxWQx_:Mi)QG)Q*Y0,0Fx-MWM*QxFg--*MWFMWM::,x,)F)80iW*xGxQ:)e0h)*W-:W*QxMn)0gi)i:G0QYYx,,F:8=:)*)x:=W00MM%:WOQ)Y-G0xv8xiW*:GML)-WM0F00Q:M-Gx?/y8-i0*WWW:8Y:,x))W):0-Wxx3MY:M<):G-:OYW,WFM8:i*-)xFE00YMx)WW:i5*8,-F-8WM0*MG,QyY)MF)0W8:x*,x:t:8)i-}QGWQxYM,MF?8<:-)0Y-Lx0,M:)_G):FY0,WFx8,ii*JGID-0YMWsx-Y::-Q,)F-80MG*x8MxxYjMF)-WY:W-)xM5:0=iF**G0Q0Yx,,F:8 WM--xYmW08MM):WNM)y),YF88xMx*:G*>)Y<8-)WWx:MF)x7FF8-i0:)GxQMY:,i))W-:0FWYWy,0:MwFRG-iGYWxWiG8:i_-)W*U00WMx)M8M:OYF,-F08WiY*MG:QY0)M))0W0:x-Mx:QZ0Wi-*YGWQYYM,MFmY)ML-0x8wxY-M:BMG):)*x,WFW8MMW*+x)L--0M))xWx::-:,)FF80,WQ*GMQMYq,P)-8Q:W*x-:vi0Qi)**G0Q0YxWMMM8Q:F--W*vWYMMM):QxQ)Y),0FW8xix*:0sx=0*M-)W8Q:M)nxjF)F:i0*YGxQ,Y:,s))8-Yi-WxWtMYxMt)QG-:0-),xF,8:MQ-)x)w00W,0)MW::T-},-F-8W,x*YG:QQ0)M-)08Y:x-Mx*/?8Fi-*-GWQGYM,:MxW):--0x-fx0MM:)xGFQ*Y0,Wix8Mii*!x)H-0)80)xWM::I;,)F*80i-:WGMQ:Y10Q)-WY:W-xx-4:0bi)**G0QWYx,M*G8_:)--x)nW0xMM):WMQ)Y-,0F*8xiM*:82Q00-M0)WWx:M)MxuF)0xi0*0GxQMY:,i))Y-iQ-WxWeMYGM.)WG-:--,,xFG8:M8-)x-T0Y0M-)MWx:S-),-F08Wix)YG:Q,0),:)0WW:x-MxiTU0:i-*-GWQWYMG:_WW)in-0x-3x0WM:F:8QQ*-g,WF-8Mi:*(W5QF0YMF)x8Y::-I,)F-&xiW*0GMQ8Y/,.)-8-iY-Gx8h:08i)*-G0QWM*,MF,8?iQ--xF2WYx0:)iW:Q)*G,0FY8xxM:MGQQA0-xM)W0,:M-:GQF)8-i0*0GxQ,Y:,&MQW*:0-WxGVM0:Ml*)G-Q0YW,xz-8:i9-)xFQQ0WMx)MWk,WKGYxMG))8:*MG:Q90)M-)0WWi0UMx, W8)i-*0Gx,MOQ8*M-),Wx)MxY{Y0MM:)/G-,GoYY0Mi8GiW*wx)z-0WGxMX-*GGP*xQS:80iW*xG:MF*-8FMQ0M:W-xxM :0ei)*-G0QWYx,MF:8c:)--M0GG)xMG))WBQ)Y-,W:Q)-GF::-GxW)M0Qi8*-W1-,xWF)8-i0*x-Mx){80,:WYY,M-YGxPM0:M1*-0xGQQ:0:MQ)-xYQF-),G)r8GMM-FGM-Qx*F08Wix*:8-,8F88Fi8):G*:QYWM--88i:)-FGr-F,:F6W):--0xWqxWMWQ)iW:Q-Y0,WFM)0GF:FGQQ,00MW)xW:,0QGY8M*FxW8:*-0Q,Y,M))-W0:xF0Y,,W)*i)*-G0QWYx,MF:Wqx*-FxFbW0xMM)zYxxGQQ0GFY0iiM*:Gcm-*x0QM:*:GQQ-WY,,FB8Qi:8QQMGFQ-Y0,WFx8M,:Mi0,,G*)G-Q0YxWqi***WiQ*-xxQI,8-ioY)G0#GY:,,FDGF:)YFxxF80*)0YY,8FG8,ii*Q:GQ8GYQFYM,:F>W-,*:3-ix:)*8W:Y-YQF-Q,WFx8Mi^FY-,x<oQ0:gQ*X::-E,)h))GiW*GGM:8Y?M))-00iG-xx,9:0Qi))0G0:0-8,MFM82ii--x0UW0x,W):WQQ)Y),0F08xMx*0GbQ 0-xQ)WWx:M):x*F)8)i0*0Gx::Y:x:F-W-:*-WxYpM0:ME*)0iQ0Y0,xFx8:i:-)x-xL0WM8)MW::kY),-b0M:ix*,G:QQ0)MF)080i--Mx,<nYxi-*0GWixYY,:FiW):F-0G:_xYxMY)vW:Q--:,WFx8MMM*Fx)QQ00,R)xWM::*:GGF-0EiW*)GMQ:Y&M)FxW0:Y-xx0X:0:i))-F:Q8YG,MF)8ZiQ--80P80xM,):8,Q)-*,0200WiM*,Gb:x0-M0)W0xiG-:xiF)8Fi0):Gx:xYM,5F:W-iQ-WxxIMYM,W*)WQQ0YF,xFM8:M:*Mx-QE0WM*)MW::ZY)xpFY8Yix*0G:Q:0),-.GWW:G-MG,fB0Qi-R0WMQxY,,:FYW)ii-0G0Q-0MM,)BWMQ-Y0,WQx0xi:*ix)+F00,x)x8x:,-ax:F-0YiW*xGM:M-xM)FQW0:F-xxM2:Y:,Q**WcQWY*,MF:8=M.*FxYEF0xMx):WRQ)Y--xFW88iM*8GZQ.0-,0MxWG:,-:xMF)8Fi0.WW)Q,Yi,UXUW-i0-W8x:Q0:M:*)W)Q0-W,xrM88ia*Ex-?Y0WMG)M8MiWY),FF08Yix*MG:iR-MM-)*WW:8-MG1+_Y_,G*0G-Qx-Q,:FXW)i)*WxW<Y0MMF);G)Q-Y0QiFx8Gi:*,x).)00,WF8WM:M-fxGF-8*iW)WWxQ:YiM)1MW0:W-xWMT-0pMQ*-G*QW-L,M<M08:)*px0QS0xMM):8::GY-,FFW8)iM*:GU:z-xM0))Wx:--:x6F)8-i)*8G8QMYW,HF=W-i0*:xxox0:M-*)GFQ0)Wx:FM8Miy)ix-Q)0W,WF,W::iY)GMF08WixFMG-Q}YQM-)*WWi4-MGME:8)ML*0GFQxYM,:/:8Y:--FxW.*0MM:)U8_:FYY,)Fx8Yi:*Tx)K-0)M8)8WM:W-oxRF-00M,*xGxQ:-iM))FW0,W)QxM#M04M8*-WQQW-WGSF:8i:)*:x0dW0xxM)0Wm:QY-,*FW0MiM)MGx_)Y1M0F,Wx:M-:G:QY8-iF*WG*QMY:,eErM,:0-)xxQQ0:MN*)W)::YW,*FM88ic-)x-L0-iMx)GW::GY),)F00WM8*MGMQmY*M-)*WWiW-)x:=i8)M:*0GWQx*MxGFA8Q:--*xWQM0M,M)-G):;Y0x)Fx8Mi:):WQz*0FMW)*WM::-eGH+F8Yi)*xGYQ:YJM)F)8*:8-*xMQi0(i)*-G0WMYx,GF:8G:)-)x0QWXMM,)MWo::Y-,*FW8xWG*iGcw)0*M0)WWx:,-:x F)8-MY*WGxQMY,,,))W-:0-x8%M*)*8i)QWQQ0YW,xF:YFWx:Y-Qw*0YMx)MW:Q)Q0YYF0,1,M,8,*xQxxF0:8WW:x-Mx:Zd8)i-*0YWQ8Yx,:FEW):0:xxYg00MM:)KG-,iQGYMFx-Gx,_i0QiF**4Y:,WG:M-S,)F-8W8i*8G0Q:YNM))0):Gi=FYW,x0iMG*-G0QWYM85iFF_W0NGYYx0FiMG)MWdQ)Y-,WMM88i0*:G51)008xi,*0x*:ixic08-i0*WGMMQFY0YiF):G89i-:x,FxW*)QG)Q0YW,xF:)Qii*ix-(00WMMQ-*xx8QF,FF-8Wix*MG}x)-0M-)0WWiW9Gx:nD8)iF*0GWQxYM,WFXWF:--0xWfY0MM:):G)Q)Y0,WFx8Mi:)uWM.-0YMWFGWM:M-qW)Q580i8*xG0Q:YWM)F)8M:W-WxM_M02i)*-80:xYx,xF:8::)*0x0:W)*MM)MWd:dY-,YFW0x8:*iGQr)Y,M0)0Wx,MQMxQFF8-Mx*WG*QMY:)x))W):0-Wxx5,0:M5iMG-Q*YW,xFM8:i7))Yiw00YMx)GW::YY)G-:j8Wi8*MG,Q^YiM-F0QQ:x-xx:>Y8)iF*0WW:YYM,iF?8*:---xWbx0YM:)?G)Q)Y0,0FxYMi,*Nx)=-00MWFxWM::-:,)F-80i0*xG,Q:-:Mx)-W0:W*ixMq:0s,r)FGYQ8Yx,WF:8z:)*:?F_W0WMM):W<QFY-,YFW8xG-*:Gp})0-M0)WWx:M*ixpF)8-i-*WGGQM-MMW))W-:0*:xxNM0:M+iMG-QYYW,GFM8:i -)x-zY0WMx)xW::QY),-M*88ix*MGiQ{0)M-)0W8:x-Mx:>)8)i-*0GWM8)GW,:i-Q,FW*0GK808M:);G)Q0)M0QMQ)Gi,*:x)(-00MxM:WG:x-_,)F-8WxFii*cQ,Y:M))-W0:xQ:xML:0ki)*-G0QW*)8MF,8::)--x01x#QMG)YWkQ)Y-,WiM)i8M:)0Y,F/)8G)YWW:M-:x6F-)Yi***GxQMY:M)QY):WGQ*x8Q.0:Ma*)G0MG1QYQM,)WGF_8-WxYF-8i)GWG:.Y),-FW*EW0Q**iQiYQM-)0WW:M:7-QDi0<i-*0GWQMQ:xiFXW):-*-0Y x0MM:)*G)Q-Y0,WQi8Mii*wx)z-0FMW)x8*::-:,)F-80iW*xWMQ0Y7MF)-8W:W-WxMi:Y*i)**G0QYYx,,F:0:M8--x-kWY/MM):Wsi)*x,0F08xix*:GYg)--8Q)WWW:M-Mxe{=8-M0)GGxQ,Y:,G))W):0FWGM1M0iMt)iG-Q)YW,xF88:i:-)x-n008MxQMWY:}-;,-E:8Wi-*MW::,0)M*)08Q:x-xx:P6Y,i-*0GWQWYM,MFr0):)-0xWmx0MM:)-G)Q-Y0,8Fx8MiM*TxF4-008Y)GWM::-Q,)F-80iW*xGMQ:Y_00)-W0:W-8x*j:0Ii)*0Y:xFQQ0,M))QW,::x*QQ0xMM):G),WQiYxMQF:W,:8-xQQYMM0)WWx::)-Y*,0FW8Q:)WFQG-:,o))W-:WF:Y*,)))W*iWYGxYQ00i:-)i8/QY-&I00WMx)MW::jY)YYi08Wix*MG:Qh0)M-;)-W:8*Qx:} 8)i0QG08M0N,0*M--:G,:YYFxisgM:)hG)Q-Y0,WFx8Mi:*iGMn-00MW)M-FGxQQ08MF8*MQ*xGMQ:0)G8i,*)G-QA0*M*FiMQ))G0QWYx,::G)GWY:GYGi:Di09i)*GGM*,W,M-)GGF:,GiQM0-M0)WWMxQ))YQ,iYxi*):GxQMY:M):0*-GYQiY8,0)F8Yi8G-Q0YW,xFM8:i#-)0-u*YiMx)MW:Q)F008,0FMxQ:Y-xxG.WxG)*88:x-Mx:F)-WW,:,-Yx,y)08M*)MGWF,YF,0FY8-FYG)Q-Y0,WFx8Mi:0K0*;-00MW)xWM::-;-Gi-8*i**xGMQ:0)WxM *iW8-xxMO:0Pi)*-F0,YFx,GF88+:)--xWiMFGW*ix*Gx*YFxiFW8xiM*p0*iF)G0xM:**GGUFx6F)8-i0*WGxQM-08TFQW):0-Wxx&:_HMU*)G-Q0YW,xFM-:GR-)x-D00WMx)MD:WGF),-:*-Yx8KG0,MiWQWY)*WY:x-Mx:F)F08Y**W:QxYM,:))-8Wi:M-Mi*F)W):**WQ-Y0,WFx8Mi:*2M)MY0*,j)xWM::Y)WW,8Fx8M:*-0:-Yi,i)-W0:W-M8:,8Fx80*FW)QWYx,MFn-tW,:xYYx0F*80i)-8G:),0)M8),W0:GY*xMSWM*FiWx:M-:,)iY-*x8i:YFxrli8*MM)W:*-FxxSM0:i)U8-8G&QM0iM)8:iz-)x-q00W-xM0-::XY),-F08Wix*MYx,gYQ,:)0WW:x-:8d,0)G8Q:GGYQ)YM,:FAW-G0:MYF,Y*)GQ=0WQ:YY0,WFx8:x/:Q-M,W*W88MO*FG))Y0)M*))WM*8G-Q:Y_M))0Y,GFQ-Y0MF)Y80*FWxQWYx,MF?YYGG::-W,QyQGii-*GGYQM,*Z,8xiM*:x)M0Tx8ii))QG-SYY0MYF:W,i8G8:QY:,=))W0,,QF-R,0)F80QW-,xxP8YiMF8:i/-)x-e00WMx::-::i-i,-F08WiMeF-iG:FYMFF:WW:x-MxTiW)GWW:x-8x-gi,,F)W):--0xxiMF,8xiM00x*QM0,MQFDWi:G-M>F0-MW)xWM:{Q-xQwi80iW*xG:Mx+Q0Mi8*iW:-8xxs:0/i)*0-8QY-Q,MF:8j:-FY-QxMFxW*iG00G,Q{0xFY0iiM*:Ghv-*x0QM:*:GQQ-WY,,Fq8Qi:8QQGYG,<))W-:WF,Y-xQFGMi),G-Q0YW,M:-*YW0QY-:xx0WMx)MW::&Y),-Mi*Wi8**G:QU0)M0:M*8GQQM8)M*F)8W**W)QxYM,:))Y8WiQ)YFxv*FWFi8*Yx8Q<0iMi-GGFiQ-xxiFY8)M:W,:i-iGSF-80iW*MY:,FS000i**,GQQ0W*,xFQW*i:-Fx,7-Y_F,8,:)--x0&x)iG/ii*,:Q-,,0FW8xi:H)Y*x)<WW,i8)WGQ-,xYF)8-i0*x0xxYP-0Q,^)iWX:M0F,W0,M,*)G-Q0Yx0-,Q)xWM-)x-B00WMx)M-:W-F),-F08Wix*MG:Q+):W-)*WF:x-Mx:F)-88i:)-FGs-F,:FXW):--0xWMx}MW:)iWiQ-Y0,WFM-0GY:,YY&F0)MW)xWM:4Qx0Y,Y8*i-*xGMQ:0)W,M8)x:W-xxMz:0bi)*-0Y,WYxY0,WFx8Mi:*IFx),MGF6WTQ)Y-,W:i)*WW:8-0M8F80iM,*iG0B*0*F)8-i0*WGxQM8:YF:)WFix-WxxmM0/x8iM-Gx0}FYk:-)8WQ:M-Wa*Y:Mx)MW:Q)F008,0FMx0Q*Y-,*X:MFF:WW:x-Mx4i))YWGix-FG;-),,F8W):--0xxMi*,x*iG*WG:eGY:F88*i:*_x)I0Ux8FMQ)cG-QQYMMY8*i)*xGMQ:0)W0i*)xG-QixGb)0+i)*-GWM,FF0FMi)xG*9G-xx8F08Q):WgQ)Y-,0FW8xW*Q:Gi:t0-M0)WWM,iQ-YG,YFMGxi:YFx0p*0WiG)xGGQ)YQx,0,M:*)G-Q0Yx0:FG08iK-)x-eW*:WF:F*,xFQWYi,G))W:QK--,8qM0GM:*QW>QQYWMYFFi-*0GWQxYM,:FNG)xY-*x0px0MM:*)*8QFYF,WFx8Miw!-YYx-wxMY)-WM::-;,-:GFQW-:*-)Q,Y8M))-W0:xFGY0,*F-WGi:-,x,Y8xnF:8P:)-08),QeG8YiF*-,,Qx0xM,Fc8Y*MGb )0-0>)WWW:M-:xsF)8-,0:-GxQxY:,:))YM:0*0G8K,0xM_FiG-Q0YW,xx_8:i:-)GBP000Mx)0Wi:Q-#,-/Q8WiG*MG:QtY:8))0WW:x-Yx:TQ8)i-:*G8QxYM,iFcW):-)00Flx0xM:)QG)QFY0GWi*8MiM*jGqd-YMMW)-W,:i-:,)(W80i8*xGMQ:YM0#)-W0:W*:xMPi0_M::)G0QWYxxQF:8Q:)-))*NW0WMM)iW.Q)Y-G0iF8xiG*:GQO)-YM0wW-*:M-,xOjQ8-MM*WG-Q,Yi,i))8):0-8xx/M0:MMirG-Q0YWxWFM8iin*:Y).00WMxFGW::QY),)G*8Wi8*MG,Qa0)M-10-F:x-Wx: Q8)W**0G),MYM,xF%0,:--YxWrG0MMxi:G)Q-Y0xFFx8,i:):WQ<*0)MW:xWM::-HG)Mi80i**xG,Q:YiM)a-*Q:W-YxM(G0nWF*-W3Q8YG,8F:0-:)-*x0uW0xMWiMW9Q)Y-GxFW8GiM*x-:O)0-M0_,Wx:,-:G:QQ8*iF*WYxQMY:,_U)*i:0-)xx=,0:,F*)8-xQYW,-FM8Wi=QFx-Q908MG)0W:M:Y),*F08Wix*W-MQB0)M-p-WW:G-Mxx,:8)i-*08YQxY,,:/:0Q:**PxWMx0MM:)j8)xiY0,FFx8,i:*ix):-FQMW)*WM:8-;YWF-0%Gx*xGYQ:**M))*W0:8-xxW,M0ni)*-0GQWYG,MdMWW:)*ix0MY0xMM):0mFYY-xQFW8*iMF8G=:zY:M0FRWx:--:x=F)0),G*WGFQM--,&))W-i-*-xxT)0:MW*)G-Q0YWxvFM88im*Wx-9-0Wxx:YW::WY),*F0YGixFMY8QtYxM-F:WWW_-MxWi)8)MM*00FQxY,,:FQW)iRQ-xW6x0MG8)qGFQ---,/Fx8-i:Qix)I-00xW-iWM:0-=xxF--QiW)WGYQ:Y8M):*W0:W-xGxQx0 MW*-W)QWYx,MvM08:)*Gx0QF0xMM):W%iMY-x:FW0QiM*MG^:;0MM0FQWxGF-:xgF)Y-iF*WGFQMYY,diMW-i-),xxl)0:x0*)G-Q0YWxqFM8Yir*mx-O-0W,W)YW::0Y)YGF08WixFMWYQyYWM-FMWWx--MGMQx8)MG*0-GQxYM,:Fw8):-*MxWrW0MMM)38cx8Y0xiFx)Fi:*Lx):-YGMWFQWM:*-A0MF-0-MY*xWNQ:*xM))-W0:W*:xMp*0NMp*-G-QW-Wx)F:8-:):Gx0dW0xxM)8W5:0Y-xxFW*-iM)MW-?)Y8M0i,Wx:M-:xX:,8-Mx*WGWQMYM,ape*8:0*,xx,F0:MB*)8-QYYWxiFM8FiNQMx-Q--MMxF:W::GY),-F08WM:*MGFQ!Y9M-)-WWiW-0x:%)8)8G*0GWQx*MxQF38-:-*WxWM-0M,M)-G):YY0G)Fx8Mi:*O8,X-YWMW)WWM:M-}G6M880MG*x-FQ:YwM)H-8x:W*,xMQQ0VWM*-W-:*YxxMF:Yx:)--x0fWY:MMFQW.:#Y-,-FW0W,Q*:W{3)LGM0)WWxMM*8xmX)8-M0*WY-QM-MxW))8*:0QGxxLM0:Mt+,G-:0YW,WFM8MiS)jY8r0Y8MxiFW::EY)G-NY8WMG*MWiQoFMM-F-8Y:x*xx:::8)i-*0GWQ8YMxiFD8.:---xWQWYxM:F:G)GGY0,WFxYMiY*2W.m-Y-MW:-WMiM-8,)NF80M)*xGMQ:Y!G,)-8-:W-WxM7M0f,w:8G0:YYx0FF:8U:))-G-NWY8MMF,WXxMY-x-K-8xMW*:8:K)0-M0)WWW:M*,xD3{8-i-*WWW:)Y:xM)))G:0-Wxx:MYYMzF:G-:)YW8-FM0MMx-)WQe0F,Mx)MW::/),,-A)8WiW*MGMQ%-^88)08*:xQFx:Re8),-)8GW:YYMxGFO*M:-*-G*.xY0M:FxG)Q-Y0,WQR8MMG*OG=5-0-MWFW0<::*x,),G80iW*x8MQMYZxM)-0m:Wt-xMQM08i)FiG0QFYx,MF:8J,,--WN_W0WMM)MWpie&8,0NF8xWF*:Gn<)--MF)W8*:M*8x<MM8-M-F_Gx:-Y:Gx))W-:0-WG,HMY8Mu)2G-Q-YWxWFF8:MW-)-Gl00WMxlMW-:6*x,-Q:8WG-*MWMQG0)x,)0*G:x-Mx:Kc-,i-F:GWQWYM,MF;0rG8-0WQlxFFM:)TG)i---,WhF8MMY*yYM+-Y-xH)x8)::):,)F-80iW)FGM:YY^,k)-W-:W*WWQn:Y0i)iGG0QWYxGM!G81MW--WMwW)-MMFMW0Q)*G,0v)8xiM*:G3i,0-xM)WWW:M-MxgQ3)8i0FiGxxFY:,e))0-MG-WWQ MY*M1:MG-:--:,xQ#8:,:-)x-a00WM))M8*:/-I,-F-8WMW)FG::-0)0G)0WW:x)MGxk>Y0i-FxGW,-YMxMFWW)M8-0Y,!x0MM:)m*WQ-*x,WFW8MiM*hWDQ800x,)x*F::-;,)Q-0,iWFiGM:FYz8M)-8-:Y-xW:j:Yxi)*-G0QW*E,M1F8dip--x-KW*x,-):W8Q)3Q,0s*8xiM*,Go:-0-M0)WWx:M*:>0F)0,i0tFGxi:Y:x:FxW-MW-W08UM0:MtF)WGQ0*x,xQ:8:,G-)G)Qi0Wx,)MW0:_Y),-E-0-ixFMG:QW0)M-)080i8-MWi% 0xi-*0GWQx-M,:>)W)M*-0x0uxYMY0)QWGQ--0,WQM8Mx:)*x)Q,008))x8F::*:x)F-YWiWQ8GMQ:Y>x))*W0Mx-xW:K:-Gi)))8zQW*,,MF084:)--G-QW0xxM):WWQ)Y-,0%00biMFiG.Qx0-M0)WWx:W-iG)F)Y*i0*0Gx:M-Y,2FGW-,F-WWMkM*:,Q*)W,Q0Y-,xF-8:M:*xx-:W0W,:)MW::3*)G8F0YxixF:G:,x0),))-WWM,-MY8eT8)i-)-WWQx*M,:FWW):--0G0i,0Mxi)A*,Q-Y0,WEW0*i:F:x)QM00MW)xWM:8-zG-F-Y-iW*WGM::-YM)F,W0,x-xW:_:*ZM:*-WiQWc0,MM88Vi)*Wx0Q:0xGY):W8Q)-)xFFWYMiM6FGEq)0-x0:FWxM:-:G)F)):i0)0W8Q,*Q,AFxW-:0-WGW:+0:x *)-MQ0YW,xFM8*it)-x-:00WMW)M8:i:Y)xxF0-MixF:G::fYsM-F,WW,*-MxYcEY<MW*08xQxE:,:FsW)M---xW:M0Mxv)4-MQ---GiFxYii:))x)%-00,0x,WMM:-{G-F-80iW*xW:Q:-)M)v-W0:0-xGMuW0#M8*--xQW*M,MkM0M:))0x0MY0xMM):0Pi:Y-GWFWYMiMF8G^:g-5M0nGWxxF-:xOF)0)MF*W8xQMF*,4))W-i-*YxG:,0:WY*)G-Q0YW,0F,Y+ie)Fx-+-0W,x)*W::YY)x-F0YxixvMW0QhY8M-M=WWG*-MGM_W8),0*0YYQxYM,:Q&8i:-)WxW:M0Mx8)>8KQ*Y0GGFx8-i:*5x)Q)YWMWDxWM:0-7,)F-0-MY*G8,Q:YWM))-W0:W-0x,:D0S,F*-G-QW-xx0F:8Y:)+Qx0:x0xGM)iW6:8Y-,)FW8)iM)MW-V)-0M0FMWx:M-:WeQl8-,W*W8MQMFW,vK/0Q:0)Gxx::0:Ml*)W):xYWGxFM80iy-)x-Q-xQMx!,W:i)Y),-F000i0*M8MQ%YxM-)0WW:x*#x:Q)8),)*0G0Qx-Mx:Fd88:--YxW:M0M,M)WG)i0Y0xMFx8Mi:FdWG_--WMWPMWMxW-AGjPG80,G*xG-Q:YlM)F)G8:W)xxM,,0Zi)*-W-iiYxG,F:8W:)--x0Q0-iMMPMWtGQY-,0FW8xiF*:W)T)-)M0)0WxiM*QxZo88-xW*W8MQM-:,-))8W:0FFxx=F0:,:))G-iWYW88FM8:if))sYK0-xMx/:W:MGY)x)A,8W,,*MY*Q{0)M-F-88:x)Mx:MY8)i-*0W0QFYMGiF;*8:--0xWox0FM:F)G)i*Y0,0Fx0MMY*aG0h-Y0MWjMWM,:-Y,)SW80W)*x-YQ:-:i-)-0W:Wo8xMf:0P,))WG0ixYxG:F:YG:)*)G*uW-,MM)0WOQ)Y-x-Q,8x,M*:GW4)0-M0F08::M)ix&Rx8-i0*WGxQYY:x)))0*:0-0xxQM0*MH)0G-MFYWGMFM-::Q-)GW/00-Mx)-W:i:*U,-QW8WM:*MG:Q.-)MF)00x:x):x:Mx8)M)FQGWi,YM,0F%W):-*-G:6x-MM:F:G)Q-Y0x0z,8M,i*wGxO-00MWFW8:::):,):880iW*xGMG)YUx-)-0-:W-WxMQ:F)iF)WG0MxYxG:F:0:i)--WWAW*-MM):WKi)*,,0Qx8x,:*:8tB)--,:)W0M:M)Ux{i:8-M0FMGx:HY:G>))00:0FWG0rM0)M1QGG-,,YWxWa*8:M)-)Y-900WMx)M8Y:a**,-F)8Wix*MG:QY0)x0)0W0:x-xx:QkMWi-)xGWxFYMGaFS0fMM-0Wx>x)GM:)qG)i-YF,WQM8M,s*A8,m-Y-,,)x0i::(Y,)F-80M0)FGMi:Y?88)-W0:W*Wx)k:-Qi):GG0QWYx,MFi8RM---WY(W0WMMF:*)QF-W,0DG8x,:*:02xL0*,x)W-M:MIMx(V)8Yi0),GxMYY:,Y))8)M:-WWM=M*WMS*)G-i0*i,xQ:8:M)-)W*B0-W,8)M0m:U*-,-Q*8WMx)xG:Q*0)x*)00x:x*xG*%SY-i-QJGWQxYMG:JWW)M0-0Wx_x-QM:%9-,Q-*W,WQM8MW)*TG)RQ00,,)x0Q::*),)p)0GiWFMGMMWYJM))-00i--xW:t:Y)i)QWG0iWY*,MQ?8mM---W*1WYx,)):W*Q)FW,0Qx8xMM*MGyQ-0-WQ)W8Q:M*MG0F)Y0i0QYGxQMY:G=W*W-MW-WWMuM-8M_Fn8:Q0*G,xiF8:im-)G)QY0Wxx)M-*:2Y),-5-Y:ixF,G:,Y0)M-)0WWiW-MW {JYFi-*-GW:xY,,:F)W)i--0WxTx*MMi)IW-Q-Qv,WM*8MMMY)x):000WY)xWM::)UG8F-YWiWFMGMi8YSxZF*W0MG-xx-t:0%i)))WqQW*x,MF08R:)--G-:i0xx,):WWQ)Y-,0FW88iMF?G4:F0-M-)W8x:,-:x)F)*Qi0FxGxMMKM,QF-W-:)-Wx)3M*:iQ*)W0Q0QM,xMY8:M:*Yx-:W0W,:)MW::S*)G,F0YxixF:G:,x0),)F0WWM,-Mx0!18)i-)-WWQx*M,:MiW):--0G0QQ0Mxi)HWxQ-Y0,W2W88i:F:x)MM00MW)xWMW)-(G-F-Y-iW*WGM::&)MFF0W0,x-xW:6:*/,8**W8QWFY,MF,8Ui)):x0QG0xGY):W)Q)-)xMFWYMiMQ,G n)0-x0FFWxM:-:G)F)-ii0)0GFQM*Q,.i8W-:0-WGWQM0:x2*)-GQ0YW,x5x88i+)Fx-,,0WMx)MW:*YY)G0F0Y8ix*xG::KY0M-F8WWix-MWJVjYfM**08xQxFG,:FJW)M-*WxW:M0Mx7).0,Q---xxFxYii:*Wx)H-00,0FGWMM:-#xxF-80iW)WWxQ:*QM)FMW0:W-xxM x0Q,-*-8YQWYW,M>:0Q:)*Yx0i*0xx:):Yd:FY-x8FW80iM*0GI:nYMM0&xWxiS-:xBF)Y-Mi*W8MQM*+,XiMW-i-),xx:i0:MW*)G-Q0-0,WFMY:i1Q:x-m00W,WFGWiMQY)xMF08Wix)xW)Q.*5M-^FWW:x-Mx:bY8),0*080QxYx,:V{8-:-*8xWiM0MxU)yW)iQY0xWFx-Yi:*Fx)Q)-iMWBMWM,F-r,)F-Y0MF*x8:Q:-)M)i:W0i0*)xM:Q0?8,*-G0QW-W,MF:Yd:)*Mx0{W0xMMFYWei-Y-G0FW8WiM):Gis)Y-M0QMWxM:-:GhNF8-MY*W0*QM-Q,4X40x:0)xxxM)0:M *)8-WMYWGMFMY9i(QMx-_0-QMx_iW::QY),-F000MY*M8:Qg)WM-)0WWMx-)x::58),-*0Y)Qx-xxxFt0F:-*:xW+x0M,MF,G)i)Y08YFx8Mi:FkGip---MWcWWMM8-^Gq,Q80,Y*xYFQ:YSM)F)0M:W)0xMM*0Di)*-W-:-YxG8F:*Y:)--x0TWY0MM{MW}MiY-,0FW8x,Q*:8tm)0-M0)0Wxix-vxoQF8-GM*WGxQM*:,G))0*:0)8xxM00:,:)QG-i-YW0*FM8:i/)yG, 0-YMx:GW::DY)G-jW8W,8*M8,QE*,M-F-8F:x)Wx:d,8)i-*0W0Q-YMGGF;8i:--0xWQWYGMi_xG):QY0,WFx8MGG* 8Q.-*EMW)xWM::,Y,)Q*80iW*xGMQ:Y=8M)-08:W-xxMoi0{i)XiG0ixYx,xF:8::)*-00zWYGMMi-W/i-Y-x0Q,8xMx*:0Gd)YYM0F08Y:M)vxnMQ8-i0*W8x:QY:x)))00:0)FxxQxYQM>F*G-x,YW,xFM0Mi*-)W-a0FiMx)MW:i:-*,-QY8WWQ*MG:QL0)WG)00x:x),x:^:8)M-)iGW:WYM0-FI0-:-F0G_+xYxM:)*G):0Y0xWF*8MM,*&0,e-Y-MWFWWF::*),)Mx80iW*x8MQxYUx-)-0W:WJ-xMK:YMi)FYG0Q8Yx,MF:0::---W0_W)1MM):WVi)*,,0QW8x,M*:Yx?)Y)M*)W0G:M-0xVF)8-M-)xGxixY:8i))W-:0)WG*^M-MMBEjG-MQYWxWTc8:,i-)YG%00WMxFxWx:Z):,-M,8Wix*MWM:i0FGQ)0*i:x-Mx:!v)ii-F-GWiYYM,:FJW)YQ-0WWox0MM:):G):)YW,WQG8Mx-*Ix)s--0x:)x0,::)Q,)M:80M0*0GMiMY90,)-W0:W*WGY1:-ii)QFG0QWYxGM^-8{,Q--W*/W-*MMFMW)Q))n,0F*8xiM*:W:Q/0-xF)WWY:M-:x!Q_0FiYF)GxQ8Y:,O))W-xF-WW8rM-WMJ*)G-Q0,i,xQ,8:iT-)x-a00WW-)M0Q:_Y),-FY8WixFYG::)0)M))0W0:x*M-;uQYQi-iMGWiMYMW:oYWFiF-0x0>x-WM:FVW-Q--),W:*8MMQ*4WD:W00xx)x-G::-<,)Q-Y:iWFMGMieYnG,)-8-:F-xWi.:)Yi)*-G0:0-F,MQ:8?G8--x09WYW,?):0QQ)fG,0FW8xiM*xGQ:-0-xY)WWW:M*:GxF)Yui0)WGxi:Y:WJFxW-i)-WY-SMF8MrFTWxQ0*x,xiG8:iK-)W-Q,0WxM)M07:9),,-(-0:ixFiG:QW0)M-)080:Y-MW:g(0xi-*0GW:W-G,iQQW)iM-0xW2x0MMx)Q8-Q-*Y,WFW8MM:**x):;00G*)x0:::F#x:F-0)iW*0GMQ0Yqx{F,W0Mx-xG{n:0+i)F-WYQW*M,MQ^8uGM--G-Qx0xxi):*GQ)Y-,0z008iMF:GhQx0-M0)W8Wx)-iWQF)Fii0*WGx:xYi,&QhW-i:-WxxTM0:,8*)80Q0*0,xFx8:M5)ix-Q)0WGM)M0S:E*_xGF0YxixX0G:QN0)x-)-WWMM-MW1bdY)i-F08MQx*:,:K)W)x<-0GW,G0M,x)d8)Q-*W,W_x0*i:)Mx)x,00M*)x8Mix-hG:F-08iW**GMM:-:M)}7W0xx-xG*a:YD,G*-WFQW)*,M(x82,))MxYQ*0x,Q):*GQ))-x-FW0YiMF*GA,G0-,0F-Wxi0-:8GF)00i0)0W8QM*2,3:YW-:0-WWx:O0:,)*)80Q0F),x4x0gif)*x-Q:0WMx)M8M:FY)G-F08)ix*MG:Q;Q0M-9WWWMx-MxM/h0)iY*0W)Qx)i,:%)W)i)*ixW:M0MGW)=G)Q-*0xMFxY:i:))x)i-00xW)YWMM -UG-F-*8iW)xG*Q:-xM)Q-W0Mx-xGxEY0S,-*-Y;QWYx,MQ:8Q:))0x0:x0xx,):0Sx,Y-GWFWYMiMF,GqQ)0YM0F)WxM,-:G)F)0),:*W8MQM)W,2))W-M0--xx::0:,)*)88Q0*WxiFMYLiJ)-x-xx0W,x)GW:ixY)G8F0Yxix)xWFQP--M-:<WW:x-MW:KQ8),0*08xQxFL,:QT*,:-)WxW:M0Mx,)}W)G0YYx)Fx*qi:))x)i--,M8F*WMxG-1G*F-00,,*xWYQ:)GM)F0W0i0*MxM:X0;WQ*-G0QW*x,*F:0):))0x0:F0x,x)iWki*Y-0,FW8xiM)MG-/)--M0iiWx:M-:G:Q08-,Y*W-QQMY:,3))MG:0)xxx:,0:M:*)W-Q)YWx*FM0:iH)-x-Q-0-Mx>:W:xiY),-F0YWMF*M8&Qa--M-QQWWiW*Yx:QF8)MM*0GWQx-xxvF30):-*:xWgx0M,M)WG)i*Y0xTFx8Mi:*jG:w*-WMWEGWM:M-_x)^)80MF*x08Q:-)M)Q-8F:W**xMbx0mMx*-W-:,YxG:F:8-:)--x0:W-cMM;NW1i-Y-06FW0WMW*:WFn)YMM0)WWxix*GxRQ)8-G)*WGxQM-Mxi)F0*:0*JxxRM0:,:F0G-i-YWGYFM8:i?-)W:&0-xMx6xW:::Y)x-FF8WM**M0 Q/--M-F08Q:x*-x:iG8),i*0W0Q-YMGDF/-Y:--0xW:xYxM:F)G)i0Y08)Fx0xiY*HW*r-RQMW)xWMiM-=,)Q-80MB*xGMQ:Yr,,)-0W:W)xxMkM0NM)F8G0i;YxWkF:0):)*-G*7WYFMMQ8Wji,Y-x-%x8x,:*:Y09)0-M0XWFB:M)ExZQ-8-WD*WGx:8Y:xF))W*:0-WxxQx0YMVF)G-,MYW,xFMY:i8-)W-l0-WMx:0W:i:-Q,-QY8Wi)*MG:Ql-!xG)000:xHGx:qs8),-))GWiWYMGMFdY,:-*-Y*Hx-GM::YG)Q-Y0x0Q:8M,x*KY8<-00MWFW8:::),,)MG80iW*xGM:8YfGZ)-0F:W-xxMA:0Yi)F-G0QWYx,xF:0::---WYhW)=MM):WNi)-:,0Q88x,,*:Yxg)Y),M)W0W:MQ8xLF)8-M-FiGxiGY:8i))W-:0)WxW?M-,MoNQG-MQYWxW1,8:,M-)GQ300WMxFxW):&)i,-FF8Wix*MWM:i0FG:)0W*:x-Mx:du)ii-F*GWi-YM,:F^W)-G-0W8zx0MM:)6G)Q-9D,WQ,8Mi:*fxFo-00xF)x0:::-:,)F)80MWQxGM:YY>0W)-0W:W*xx-K:Y0i)QiG0:FYxxxF-8sM---0*vW0xMM=:WFQ)*0,0Qx8x,Y*:W::G0-x8)W*Q:M-:x_QaYii0FWGx,FY:,&))8)Mx-WWGZM)*Mw*)G-Q0Fi,xQ:8:,Q-)x)20YW,i)M8-:>QW,-QW8Wxx*,G::00),8)08x:x*Mx8nDY8i-QQGWiUYMxMF8W)M0-0Y:px0MM:<cWWQ-*W,WQM8MGW*{x)Qx00xG)xW,::-#,)c)8WiWFxGMM-Y;M))-00i:-xWMl:-oi)::G0:0YG,MQi8>ix--x0kWYW,*):0:Q)FF,0FW8x,M)0G{iL0-x-)W0*:M*MGiF)YFi0:iGxQMY:x:FxW-M)-WYQ<M0:MOFRWFQY**,xiF8:id-)x-MF0WxW)M0G: Y),-F0Q*ixFMG:Qm0)M))080:M-MWiNB*Wi-*0GWix-*,:QQW)M*-00)IxYx,:)f0nQ-QQ,WFx8MMM),x):F00WY)xWM::)&x)F-Y*iWF8GMi8YzxvF*W0M--xx84:0=i)))W0QW*Y,MFG81:)--G-QY0Gx0):W,Q)Y-,0FW*YiMF,G_iM0-M0)WWxYF-:WQF)8-i0*WGxQMFW,{J*W-:0-WxGkM0:xG*)80Q0Y0,xFx8:Mw:-x*:,0W0q)M0B:B))GGFYYiix*xG:iM0),-F,WWM:-M88v&Y,i-)-WGQx*:,:iiW):--0WWQ)0Mx<)d8-Q-)Q,WwW8Wi:)Fx),G00MW)x8x:--EG)F-),iW*xGM:M--M)H*W0Gi-xxM&:0+M:**8WQW*G,MFM8=i)),x0:M0x,M):8)Q))-G:FWY:iM:WGwx,0-,-FiWxM:-:0iF)8-i0FWWFQM*Z,X<-W-,Q-WGW F0:,F*)WMQ0YW,x}x0)i+))x-Q:0WMx)M8MiiYFG*F00Nix*MG:QSY:M*<WWWMG-MxM6O0)MM*08MQx)8,: )W),--*xW::0MMx)#WxQ---xFFxY:i:*-x)z-00xWFWWMMu-4G-F-)aiW)WGFQ:-FM)MiW0:W-xGxf-0g,)*-W:QWYx,M&M*0:F)*x0,F0xMM):8::WY-G-FW8)iM*:Gv!)0FM0DxWxMx-:x:F)0-M:*W8:QM)J,D!-W-i-)ixx::0:Gx*)G-Q0*W,0FMYziz)-x-:00WxxFYW:i)Y)G0F0--ix)M-iQ(-0M-/0WWMM-MG:Q*8),W*0*QQxY0,: J8::-)xxWQ,0MM0)O0)i#Y0GMFx*:i:)8x)Q--iMWuiWM,8-fG0F--0W0*G8QQ:Y*M)MiW0,WQWx,QF0>x8*--iQW-WM-F:0):))Wx0{W0xMMGWWVi*Y-,0FW8YiM):-)EF-YM0bTWx:*-:8?,S8*,8*W0GQM-i,=/3WM:0)Wxxi00:M<*)8-xQYWGxFMY:i#:vx-:0)FMxlMW:MUY)W)F00WM,*M8QQR4xM-N0WW,x*Yx:QF8)8Q*0YFQxYMx8F{0):--0xW5G0MG:)8G)i-Y00-Fx8-i:)sG,a--8MWQ8WMM:-q,)bW80,x*xGxQ:Y:M)d-0i:W)MxM:^0q,Q*-G0MiYxG:F:8::)-*x0Q00WMM6<WE:GY-,0FW8xM8*:WF )YYM0)WWx:M-FxtQ-8-i-*WGWQM-Mxi))0Y:0*Qxx}M0:MqF:G-i0YWx*FM8:im-)G)S0-GMx)xW:::Y)G-(c8W,x*M8#Q1Y8M- 00Q:x)Mx::N8)x,*0G)YYYMGMF+8_:--YxWb80MM:Q)GFQ-Y0,0Fx8Mi:*E0-n*00MWF0WM::-K,)i08YiW*xG*Q:YTM))-8Y:W)xxM:M09iF*-80,FYxGMF:0F:)*Gx0:WF0MMR:Wui)Y-WiFW8-*8*:8:h)0-M0)8Wx:G-:xki-8*i0*WG8QMY:,K))-0:Y-Wxx:O0:MK*)G-,WY8,xFM8Yi3-)x-60Y8MxBMW:M:Y),*F08WW8*,G:QS0FM-)0WW:W-Wx:P{8),M*0GWQxYG,WFzW):--WYM,iFWWYMQWQQ)Y0,WFx8:W)*iG4!-00MW)M*F::Fi8Q:F-*xY38iG,QYi,h)-W0:W-MYi%,08i)*-G0QxF:0Q,:)-x8Q*--,,0xMM):W_Q)Y-,0)W*,iMW0W)8i8G8Y0SiMxi-,x:F)8-i0*x*MQMY:,Z))W-:0-WxxMM0,M,*)G-Q0YxW)MW*Y8Q*QGW+00WMx):0Fx8Q80*,})GGQi5*ixMFYMFFSWW:x-MxK,W)8W,:)--Q8Y8,:FcW):0FMYQ,QFGM,)iG)Q-Y0,x,:Fii,*,x) -00MxQi*0GFQ,xQ=M80iW*xG:i)F*08MW)MGF:GxGdG0Oi)*-GW,GFF0,M)8iiK--x0(W0M8;),WGQ)Y-,0Fx-0W,:WY*,G+xM*F0Wx:M-:,):*Fx8Qi,-),_D-88MM)GW:QQ-O,QFWWYiFGFQ)YW,xFM8{xG:Y-W400WMx)MW::%Y):-i88YMg*MG:Qo0-GGMQ**G)QW0F,-)YWWz-GWQxYMxM)WW):--0G,nx0MM:)%*MQ-YY,WFx8Mi:*vx)V-0YMW)xWx::-Q,)A)**iW*xGM:QYnM))-W0i0-xx,w:0^i))QG0QWYF,MFM8D:F--x0EWYx,x):WQQ)-,,0F08xxM)YG&vF0-M-)WW0:M*MG:F)8)i0)WGxQMY:GvyGW-:--WxW<M0)M<F)-iQ0Y0,xFx8:i)-)G-xW08MG)MW,:t-4,-:0)0iG*,G::i0)x:)0WWY--MxMoa8)i-*YGWQx70,:FiW):*-0xW;x-MW8)5WQQ-Y*,WF-8M,:Fxx)cF00MY)xW)::*l)GF-8-iW*-GMQ,Y},)vWW0:8-xx8!:0:i)*-WGQWYx,MFM8}i&--W0:,0xMM):W&Q)-G,0FWYiiM*:GsQK0-MY)W8WQ--:xIF)8*i0*WGx:x-,,Q)FW-i:-WxxSM0W),*)G)Q0YW,xF,8:iQ-)x-,:0WMx)MWi:&Y),-F008ix*MG:Q:0)M*)080x8-Mx:tB0*i-*0GWQx-),:FQW):--0x*dx0MM-)nWyQ-Y-,WFx8MM:)*x)!*00,Q)xWx::F.xMF-8YiW*WGM:8YzxrFGW0:0-xGMz:0Ri)F-G-QWYW,MFM8bi0--W0MF0xMx):W:Q)*J,0<W0,iM*iG_QQ0-M-)WYxi--:xQF)0Fi0))GxQM-F,!F7W-:0-WxG(M*:,G*)G)Q0-*,xFY8:Mh*Mx-EY0WMY)MWM:?Y)GiF08Wix*xG:Q:0)x-FGWW:G-Mx:2n08i-*0F:QGY,,:F:W):*-0WWQi0MMi)!G)Q-*:,WQx8)i:*Qx)2*00,0)xWM:--z,FF-8-iW*GGMQ:YxM))*W0:0-xxM_:-%,Y*-GYQWYG,MAi8E:))Mx0&80xMx):WQQ)Y-0*F88xiM*iG}L)0-M0)8Wx:M-:x)F)8-i0*YGYQMY:,w)--MG)QQ-G^M*,GiQQ0FM*)YQ8ii8,i:-)x-R00x0:)MW::BY),-F08WxxQMG,Q:0)M-)0WxG,-GxM^r8)i-*W*xQ8Y*,:FfW):01xY,xxXoG*iQ)_x8Y*,-Fx8Mi:-)0,x8vxMYF:WM::-;,-:8)i8i:G-0xQ)Y00M**)G,-8xxt:0<i)*0*,QYYY,MF:8>:-FxYi,iF8MG)GW4Q)Y-,W:,)-8Q:GGiQQ0-M0)WWMWk:Qxi_o8-i0*WGMxr-i,5))W-i-eYxxkM0:M**)G-Q0YWxLFM8iiv-)x-&F0WMx))W:::Y),-F08Wix)MG8Q_0FM-FeWW:W-M8:QM8)i**0GYQxYx,:_:8Q:---xWQ:0MM:)B8)iGY0,0Fx8xi:*8x):-FQMW)WWM:M-Px8F-00MG*xG,Q:Y0M)))W0,W-FxMJi0(M-*-W:QWYxxxF:8::)--x0E80xGM)*Wr:cY-xQFW80iM):WQ5)0*M0)*Wx:x-:xfX,8-i0*WGWQMYM,.m)0::0-Wxx5M0:MQ*)G-Q0Y8,xFM8Mi+-Fx-P0FYMG)MW::QY),-F08Wix*MG:Qs0)M-)0WW:G-Mx:4u8)WF*YGWQxY,,:F>W):--0xW=x0M,0)JG)Q-Y*,0Fx8Mi:-)Y*uF0-MW)xWM:7QYxQZQ80iW*xG:,QF88FMWW*i0-xxMv:8)x*ix*QG,5)8SM-*8WM:G-:,Quw8QiW-YGFYFxaFW8xiM*sY-,Yn=8iM8W8:8-:x<F)80xM:Q-QxGY:,I))W-:0-WxxFM)QMi)fG-Q0YW,M,:8,iM-)x-&00xG*MQ*):i-,,-F08WiMqW-ixxFY8,MMWY:W-Mx:N^8-WW**G)QxYM,:)))xGGQiY-,00GM-)PG)Q-YWWiM*)8W0:MYYxWFG8M)8W8::- ,)F0*:W-QF*,Q:xWx-GQG,G8G)Q:MQ0iMG*-G0QWYM8>iFF4W0kGYYx0FiMG))WNQ)Y-,W:,*FWF:i-x,*)G0xM8*0GQ-:x1F)8-i0*WGxQMF:,iFQW-:0-WxMxaBQMi)xG-Q0YW,M:u*FWY:0-xxQa8M8)8W::HY),0:G))8i:8G:Q<0)M-)0WW:x8M0Qji0wi-*0GWQMQT,::i-Q,FF*8Yi8xGWQQ:G)Q-Y0x0))8Mi:*mG0>-00MW)x*0::-Q,)F-80iW*xGMQ:YQM))-W-:W-GxMQM)ii)*-G0:YYx,MF:8mi*--xYcW0xMM)GWOQ)-W,0F08xi,*:Gt#)Y-,<)WWG:M-0xdIK8-x0F,GxQ,Y:xG))0M:0*0GQ9M0MMkFiG-Q0YWGxo-8:i:-)x)O0Y8Mx#M-8:T-r,-F-8Wi-*MW:x)0FM*)0W0:x-xx:ifFJi**YGW:QYM,YFkW)-:-0x04x0MM:)QG)Q-Qc,WF88Mii*Vx)5--0WF)xWG::-i,)k-80,WF-GMQ,YT,Q)-8-:W*x)*#:0:i))-G0QYYxxM :8_:F--xYTW0WMM):8GQ)Y-,0F08xix*:8K:i0-M0)WWx:M*%x2F)8Fi0*WGxQxY:,Q))8)::-Wxx_M0GM}*)G-:--Y,GF,8:iF-)x-Z00))Y)MWM:fY),-FY8WiG*MG:,W0)M-)0W8:x-Mx:pa0Fi-*0GWQWYM,iF50 xF-0xWBxYGM:)_G)Q--w,WFG8Mi:*}Gi7-00,G)xWx::-:,)F-80MWFiGMQiYR,x)-W-:WFxx*X:0Qi)FiG0:)YxxxFY8miq--GF^W0xMM<:W,Q)Y),0F08xM,*:8P,,0-M-)WWW:M--xpc)0Yi0*8GxQxY:,:))Y-iW-WxGOM0*M!)GG-Q0*i,xFx8:id-)x*j0*Wx:)MWM:X-:,-1Q8WMx*YG:QQ0)M*)0W0:x-Mx8<J8)i-*-GWQWYMG:FFW):*-0xW3xY:M:) FWQ*YY,WFW8Mii*gW)QW00M8)xWM::-*,)Q-0YiW*GGMQiYl,Q)-W0:F-xx,s:0:i)**G0QWY-,MFi8Ail--x0tW-xM0):WQQ)Y*,0>-8xiM*MG.IF0-M-)WWG:M-:YiFF8-i0*8GxQMY:,k)FW-:0-WGMsM0:MZ)QG)Q0YW,xF:)*ii*Px-t00WMMitW,:,Y),-F08xxi:0-Fx,YQ,1)0WW:x-:88,*F0iF)xGWQxYM,lQ**GWGQYY),,*F8)MQ*:x8Y*,0Fx8Mi:-)-0PF0FMW)xWM:DFWY:M,FYiY*WGMQ:YNM-M0W0,YF88Gi,*iGQ8FY8QYY8,MF:8S:-:W-8kY0YMM):W+Q-)x0iMi)8iM*:GRa)0-M0)WYxxM-,x8F)8-i0*xY:xQQ:0-:8**W-Q,x8{x0:M *)G0x8-8,xFM8:M:QQx-<00W,X)MW::5Y),*F088ix*MG:Q,0)M-)-WW:W-Mx:498)i-)0WYQxY,,:FWW):)-08W::0MMi)BWMQ--i,WwW8Wi:*:x)JF00MW)x0M:G-(xwF-8-iW*YGMi:FGM)))W0:0-xxF3:YuM**-GYQWYG,MFM8>,))/x0 80xMx):WMQ)Y-x-FW8WiM*:G2.F0-G0F0Wx:x-:x*F)0Wi0)W8iQMYi,4F-W-:--WxxQM0:M=*)G)Q0Y0,xQM8)iu-)x-e00WM*)MW::7YF,-F080ix*,G:QZ!QM*)0WW:G-Mx:v.8)i-*0GWQxYM,:FgW):*-0xWax0M8,)QG)Q-YY,WFx8Mi:*3x)E-00-x)xWM::-ix0F-80iW*M8Fx8=M0,Mx-:G8QQYGMFF0MQ)QG0QWYx,::x)QW8:Wx*Q,0xMM):G),0Qx0iM)FQW-QY-0,Yj:8,M8W8i)-:xsF)80GW:,*tG;ji8YiG)mx,Qi-o,YFx8MpW-,GMF.0*MF)iW-QF-ixb0Y,Q)MW::JY-WY,QFMWxQ*-Gi0d,0_ixWW:x-Mx:us8)i-Y0YGQ8YY,:FXW):0FM-,x:_S88ixG)Q-Y0,WFx8Mi:p)0)&FY,MW)xWM:nFW0GMW)xW8:--iM)TG0x)F8i:W-xxMV/*-WYi-*x,i=GYxiF8iii--x01W0MG:i8*xG0YFxMFW8xiM*g0Yx,Sx0xQF)wGc!FY0PQ0Fi0*WGxQ:)*8YMW)iG)Q-8cM*F-G-:)-*x,kY0-MQ)*WY*QGG?00WMx):Y:GGQW0*,-)FW-i=YYxMYQ,i)0WW:x-:8i,x*xW,:8-,Q8Y8,:F!W):0=,Y8xWFQMi)QWQ:MY0,WFx8:GBQ*Y8xWLQ0:_&WG:F-{,)F-8WG,+G0WxiLY00:!*iW8Q*-Q,)0iM**-G0QWYM8+iFFPW05-8i,-FG8iiW*,xYQ:YxFY8YiM*:Ghn-*00Gi)*Q:G-)x_F)8-iWQM-iGM+)WFMW*,W::SYi,n0,M,*)G-Q0YxW-MY)WG**QG+A00WMx):*Wx*Q*,Fs88Wix*MGqMFF)88Mj-iGQQ)Y8,MF:W,:M--xiYM)-W8:G-,xieQYF)iM,)GG)Q-Y0,x:Q)YWx:G-W:G0*,M)xWM::Y)WG,:),WW:*-)M0KG8FM:)x:Y--xM7:0Li-:W-Gx-FFY,F,88:)--x0Zx):8Yi0YQGi3,08M,88Mi*:G<H)00W,ii)EGYQxYM:W),8MR8--xFFF0-FQ8Q:0-Wxx#:*iWYi,*:Q*YF,xFM8::)28->,YFM8ii)W:Wx:M-:xXF)8-Y0YQQiY:M-)0WW:M6D0YM00QM:*0GWQxY:W-MQ**G-:xxYJ-0MM:)}G-GWki0:M0)Qi,*-x)7-00MxQu*YG)Q-Y,,Q-YW*QF-i,FYi,0)-W0:W-M8-MY)-W0:**?xG)00QMK)-iQ*ix0(W0xM:Q)*Gx*.Y0)M,88MM*:G3!)00GGi--FGFQ)YQM8-xWG:WYFG:?i0GMWWFiG-Wxx/M0.x0i,*xxxu,YvQF)8WM:,-x:,08Mx)GW0:_Y),-FW*xWG:F-i,0n:88)*8M:x-Mx:F)*:W,iY-FGiQbW8M0*0G8:MxYQi0MM:)eG-xGN00QM-)iGFQYYGx:dW8QMQWGiM-w,)F-8WGx:i-)x)OQ88i,*),QQ0Y,,QFx8i:8*&GMY8x:F:8t:)-08ix,7:8YiG-8G0K*0,ii)G8xQFGab)0-M0)WWx:MFM0%qQ0Gi0*WGxQ:FY8-i0-WWQPMYx,QFGW*)QW,Q0YW,xF:))WG:8-WxMF88-iiW,,&Y),-F08x8yQ)*:,8!80GiG)MMW*YG8,-)Y8-ix*,G62Q0*5G)YG*)Q0i,QF)88iM*:iiQ,0i,c)YWx:MWixQFY8Mi:*WxF*xYx,:)8iY*-GMQ:Y1M-Q**FGQQ,YQp,00i)*-G0QxFiW,:0*8G0QWYY,)F,MG)YWHQ)Y-,Wi,-G,F:8-0xMF80M)YW-:M-:xSF-*jWi::-ixWY,,)))W-:0-x8G,8)YWF:YYxxGyiY::F)i8:QYx-^00WMx)MW::U*:8-F08Wix*MG:Qj0)WY:0WY:--Mx:Uj8-GW:Y*Mx0UQ,:FlW):--0xW#x0MM:)i0)Q-Y0,WFM))G-i}YGxGl,8,M:0xi8*GY0M8F08Mii-),F!Yx,M8*YiF_Q0F,-FG8:ij8QGi3Q0)M8)MW:)QYM,FZ:01i8*,iMQMYTMG88iF*:GOp)00Wxi,)xWS)*YG,:Fi8MFiG8Q)Y:,y))W0xxQ,-xx1*xW8:W-8x)YY,-FM8:i!--8GxQF-8*i)W,:xY),-F08xWx:Y-FxYFYMFFiWW:x-MxmiQFM8Gix-Qx-FF8FFi8F:--0xWdM-)WY:Y*QxYQM0F,i)0G)FY-,xNaQ0:2QWG:G-e,)F-8Wx-:i-:x)Yi,x)-W0:W-M8GMFTQWW:**NxMY8,*F:8T:)-08xx:F*8-:)*GG*Q:,*lx8xiM*:x)i-F*8)i-Y:G,Q-0*M8FWWY:F--QGYW,D))W-:WFx-vM*FGW*)QGFQ0YW,xF:)QWM*QG8K00WMx):Y0x8h00WMY))W,()-i,FF)0W)*8Q:x-Mx:F)*Yx*Q,*MGehY0,i*8QiQ-0xW=x0:G):**)GWY*xWFx8Mi:-)8FxQFi8GiiY)xFDYY0ii)WWxiQ-Qx)Yi,,)-W0:W-M8-MYF0WYi:*xQY-W,MF:8>:-F*YF,QF,8QQ)*0xGQ:Y,,<*FW)QF-x,8 *M0)WWx:M-:xdF)-*G0*YWMQMY:,?)--MGiQMY:,,FWWF3W*iGxQM0*M88,i,-)x-N00xWiQ *iG,-QxMF08Wix*:-?x05,0Q:MYG,c-GG:S 8)i-*W0:x*!)8)i*)WxGQY-0,i*-8iM?-YG/Y*xFFx8Mi:-)0-,8tM0MiG-FxYQM88MGFMWF:0-Wi-F80WQ*)LWiQi-wp,0,i)*-G0Qx)-8*MG**iQ*Qx0^W0xM:cF*xGYQQ,*I88xiM*:x)i8kT8YMA)Q,D7FYYM8)88N:MYFx0A)0YFQ0,:0-Wxxc:*:8GiW-*G->F0-,!*YWML8YGxMFF80iW0-x8QWW*,6FiWii&G:QE0)M-)0WW:x)00: i0Gi-*0GWQM)-08MY*FWWQYYF,-0GM0).G)Q-YW8iMi*FW):Q-,x:00MW)xWM::-d,)iM*0iY*YGMQ:YhM-:M*iGGQixGrG0?i)*-GWx)Qi0WMx8iiW--x0ZW0MW9i:*Qx8HFYDM,FQWF*:*xGMQ:YSM))-Q:/QxiEx8-i0*WGM,ZFFYKM0*xWQ:Wx8QW0:Mr*)G0MiQ,Y:MY)GG8:0Y*,,*iWFi0)Sx8Q88GMYF0Wi*GGGQ(0)M-)WYiG*QO0Fbi0,i-*0GWQM*F8FMx)0G8:MxYN80MM:)(G-,-FY,YF*8Mi:*7x-i,F,0MiG):xF-ix8F-80iW*M0,xGF88*i8Y)GQQvYQ,x0ixY*-G0QWYM0)i-FSGG:G-,,,j:xxF88GG098Y0,MFiW)QF-Y:,Z88YFF-QxFQ-YG,:FE,Qii-Qx)=80MM:0QWxQFY)Q0F08x:*GF::YW,xFM8n,Y:,-:xXF,8QM>W::zY),-F08WixFMY:Qi-tM-)0WW:MF,YGM8)*W8QM-,xQQJW0MG)8G*:xY8,*F0M:)%G)Q-Y0,WFxWMGQ*iGF>-00MW)M-HxF:AY0iWFMWQ:--Fx0F80Wi8)=Gi:GxGr)0_i)*-GW,M3iYMM)8Wi-*M8Y,iF*80),WFQ)Y-,0Fx-QG*:W-),G;GW:iF)QG,Q)YQ,,F:i*)lGxQMY:M):x*,GxQMYG,0FQMi)YG-Q0YW,MQF)8W0:MY8xM):WFik*iG*Q8,FQQ8Wix*MG;i0FG8Gi**GW&QYYF,x)0GWiM-Qx-!F00i8)WG8:wYixG0GMW)BG)Q-YW0iM0),G*:iGQQ:00MW)xW:,F)-0F,QYMiY)8GMQ:YPM-:G*,W:Q*YW,xFQ8M:Y0xx8Qc0Qi*)-GF:i-_eW0xMM):W_Q)8--8iW8xiM*:G#Z)0-M0}--x:G*MxAF)8-iW *-*GQS*8*QW)8Wx:MY*,0YYxYi:-*x,_Y,8F*8:iy-)x0iFF88:Q,*Gx8.*08F*0Gix*MG:{))88GMM*FG0QWYi,x)*x0iM-QxY6Q,,RYW):--0xxMQ)F8-iG*:G )M0Q,a-,WGQ8Y*,8)x0::F*0G*QW0G,x)GW):Q*,Q,YGM))-W0:xQGY0,*)*8WiW,8Q8Yx,MQ:*G:)-)x0B80xWl):Wx,-Y-,-FW80iM*iG_PF0-M)i0Wx:M-:xMF)8*i0)0W8Q,YM,PM)W-:0-WWxMY0:Mi*)G*Q0*W,xF08iiQ*Qx-Q:0WMG)MW::.-:0)F08Wix*-G:QQ0),5i-WW:x-MxYnc8Fi-)-WYQGYG,:i:W):--0G0F)0MMx)2-QQ-Y0,WQx88i:*Mx)Qq00x()x8x:i-VxiF-)iiW*xGMQ:YFM)F_W0:0-xxxN:Y:,M*-GFQWF8,MF:8wM))Gx0O*0xM8):8WQ)-)GMFW8-iMQ:GS3)0-M0FMWx:8-:x:F)8)i0)0-iQMYW,NiQW-:0-WWx:Q0:Mx*)W:Q0*_,xkx8YiN*,x-Q*0WMx)MW::xY)x:F080ix*xG:::Y*M-FQWWx8-Mx:1_Y)Mx*0GFQxYY,:OWW)i)-YxWw)0M0Y)(G)Q-Y0GFFx8Yi:*:x)2)00,0iiWM:0-d0QF-80iWFx8QQ:YWM)FMW0Mt-xGxTW0&MG*-YvQWYx,MF:88:)*Mx0n00xMx):8::EY-xiFW*8iM*:GZ:)YxM0FQWx:*-:GWF)0),Q*WW/QMF),y))W-:0::xxt*0:M:*)G)Q0-0,-FM8-i%QQx-T00Wxxj=W::0Y)xxF0YIix)xG*QwY8M-iiWW:x-Mx:Q>8)Mx*0G0QxYx,::18M:--)xW,*0Mx,)EG):FY0xiFx8Mi:*&x)Q-,MMW)0WMGQ-zx8F-0-M:*xGFQ:-YM))-W0MW*FxMm*0mM8*--)QW-WxiF:8-:)MMx0kW0x,xFWWR:YY-*:FW8xiM)MG)n)Y0M0xIWx:M-:x=QM8-M,*WWMQMYM,XF)2M:Y--xxMW0:MY*)0-:)YW,0FM/xioi-x-Q-Y*Mx)FW:iYY),-F0YWMx*MG*QvY8M-i)WWiW*,x:4-8)G8*0GWQx-xx/FS8Y:-2GxWhx0M,MFGG):0Y08,Fx8Mi:*hG:k*Y,MWFMWM:M-Rx)Qx80i-*x8)Q:YYM)Q-0::W-0xM,G0VGY*-W-:,Yx,FF:mx:)--x0:W0YMM)*W(:8Y-G:FW0Wi,*:G-{)Q0M0)WWxix**xc Y8-GG*WGxQM-MGF))80:0(,xxTM0:,:FQG-:8YW,)FM8:i_-)W:H0YiMxFiW:::Y)x-Qw8Wi0*MW:QzY8M-Q00::x-)x:,G8),Q*0WWiiYM,-Fu**:--)xWQWY)M:)YG)iGY0,WFxYM*Q*.G8_-Y,MWi0WMiM*x,)3W80YL*xGMQ:-:,8)-8G:Wi)xM>:01,>)MG0:xYx--F:8+:)--GxrWYQMMFrWs:JY-x06Y8xi)*:YMo)YGM0QWW-:M--x2G:8-0W*WWW_:Y:,Y))0G:0-Wxx:MYxM9)8G-:,YW00FM0MiW-)GWA0),Mx)MW:i:-M,-BG8WGi*MG:Qu-s,8)08x:xXQx: J8)i-))GW:QYMxsF68n:-*0x8Xx0)M:z0G):GY0WW)G8Mi-*>-iv-)GMWFW8x::-Y,)G:80iW*x8M:xYB,8)-8,:W*)xMQMY-i))WG0WxYx,MF:0:MG--GG/W)iMM):Wui6-i,09x8x0:*:GJE)Y),M)W8,:MFFxsF)8-i0MMGxQFY:,F))W):0*W-Mh,0-Mf))G-:,YWWxXF8ii,-)-iO0)MMxFMW):j-i,-M88WMU*MWM:80),G)00i:x-Mx::gY8i-),GW:QYM0xFg0^i,-0GM&xQ-M:)DG):)*i,WSi8M00*<x)b-Y-M-)x8:::iW,)F-80iW*0G,Q*Yr,-)-W-:W*xxG=:0,i):hG0:iYxWM?W8mii--*)uWQMMMFM88Q)-G,0Qi8xiM*:8(Q-0-,,)W8Q:MQxxLQkY,i0)MGx,QY:,b))8):)-WGioM*FM!*)G-:--Y,GA:8:x*-)x-!00WY:)MW*:_--,-F-8WMxi:GiQ,0)Gx)08i:xFMYMeQ0ii-:FGW,iYMW:)QW)iQ-08,#xQ:M:F:WWQ--,,Wx-8Mi:*jW)QM00,i)xWF::*W,)A)0hiW):GMWvY}M))-8-MQ-xGQZ:**i)*-G0:0-W,MeB868---x04WYW,G):WFQ)F8,0FW8xiMi)G^Q80-,8)WWW:M*:Y)FF0Qi0)WGxQFY:x:)xW-i,-WY)ZM0:M(F)-iQ0-i,xFF8:iY-)W-,Q0W,Q)MW*:!-i,-g0FxiG*8G:QY0),G)080Q)-Mx*mj*Qi-*0GWQxQ:,:F-W):)-0xWZx0Mx8)dW8Q-Y-,WFW8MM:G0x)QQ008,)xWF::*:x)F-0,iWFQGMQ:Y+x)FMW0ii-xxFa:FMi)))8eQW-:,Mx08l:)--G-Qi0x,Q):FWQ)Y-,0T0YQiM)_G5Wx0-M0)WWx:8-:xYF)00i0*0Gx:MQk,QFiW-x8-WGQgM*:0,*FWQQ0-:,xMF8:xI*Fx-=F0WY,)M0M:P)),*F08*ix)0G::Q0),)FYWWiQ-MY0bD8)i-F0WWQxYF,:FYW)M{-0WWQ)0MM*)dW8Q-FF,W;xYZi:*,x):100,i)x8xx)-Qx8F---iW*xGM:MYGM)FWW08W-xxMj:0y,,*-WGQWYY,MF:8e:))Qx0Qi0x,Q):WQQ)--GGFW8-iM:QG3QW0-,-,-WG:F-:YiF)8-i0FWG8QMY*,aF8W-M:-WGWQ-0:M-*)Y8Q0YW,xrx8ii6*Yx-Gx0WMx)MW:iGY)xGF00,ix*xG::}YFM-FbWW8W-Mx*A{YgM:*0WiQxa-,:F7W)M-Q8x8QQ0MM*)O-xQ-*0xWFx8Fi:*Yx)Q000,WFQWM:W-s0xF-0,iW)WGGQ:YYM)MMW0:W-xWMQ80PM8*-W,QW-:,MQ:8::)*Gx0Qi0xGQ):8wiYY-xcFW0:iM**G%:X:YMYFiWxG--:x/F)Y-M0*WWQQMY*,vQ*W-M0*:xx/F0:MY*)):Q0-WG:FM8WitF*x-Q,0W,xF-W::GY)0YF00:ix)xW*QoY8M-T,WW:x-MW:sY8)MG*0WiQx3W,:>:0M:**xxWG)0MM:)n8f:8Y0x,Fx+-i:*kx)Q)-cMWFMWM80-e,)F-80i8*xGFQ:Y)M)))W0iW*8xMA80dW:*-W,QW)xxWF:8G:)M+x0Gx0x,xFYW7:8Y-G,FW8xiMF:vF/)YGM0FiWxGW-:G:QS8-Mx*WYiQMY:,Hco8Q:0*,xxMQ0:MT*)W)ixYWxMFM-FiE-)x-}0-MMx)FW::)Y),)F00W,i*MG8Qj*WM-F,WW,x*Wx:sG8)8Q*0Y,Qx-xM0Fu88:-MJxW(x0Mx:M:G):GY0xiFx0-i:):W0d-YxMW:iWM::-mG+Q,80M,*x0,Q:YgM)F)8F:W*MxMiF0(i)*-W-:eYxxiF:-Q:)--x0XW-:MM)*W_:*Y-,-FW0xMx*:GG=)Y-M0FiWxixY0xRo88-WM*WGxQMY:0)))8W:0-YxxJM0:MU9,G-:,YW,WFM8MiV))Yic0YiMx)FW:,,Y)x-)08Wi**M0GQBY8M-Q08::x-Yx:,o8),)*0W0:QYM,*Fd*W:--0xWgxYYM:)-G)QFY0,WFx8MMG*cG8/-0-MW)WWMM:yG,)+G80Mi*x0*Q:-n0-)*8Q:WFFxM.*0N,3*MG0:iYx8)F:8m:)---W!WY:MM),WJQ)Y-,0QF8xiF*:G:o)0)M0_WFi:,-*x>#88-0G*WWxQ-Y:,G))*0:0*ixxQxY8M<)8G-M-YW,xFM0MMM-)GWs0QWMx)MW::d-W,-RG8Wi**MG:QS0),F)08i:x*Qx:vQ8)M-):GWQ)YM0QFZ8W:-*-x;rx0FM:iiG)Q-Y0GWi*8Mi**zG8%--:MWFW8G:i--,)i880iW*xWx:)YB,Y)-Fx:W-xxMc:Y0i))GG0:,Yx,xF:0!i:--G:TW-*MM)*WL:)Y),0wQ8xWi*:G,=)Y),0)W8Q:M**xjF)8-,0)-GxQFY:,Y)))E:0*0G0TM0)Mki-G-Q0YWxW _8ii*-)-0_00WMxFx8):n--,-i,8Wix*MG::G0),G)08x:x-xx:QS0)i-)iGW,GYM,*FhY):*-0GQ7x},M:M)G)M-*:,WFF8Mi,*1*(K-Y-,))xWF::ti,)F-80,W*YGMQ*Y?,8)-0::W*Wxx3:0-i):,G0QWYx,MzF8_i8--x-BW0WMMFMWMQ)-W,0iY8xiM*:8}:80-,x)W8::M*0x_Q=0xi0),GxMYY:,2))W-i8-WG:bM0MMD)kG-:-f,,xjQ8:Gi-)x-<0-WM-)MWF:u-Y,-Q:8WMW*WG:Q)0)-W)0WW:x-MG0ma0Yi-*-GWQWYMxMF:W)i0-00YEx0MM:RnWGQ--W,WVM8MM0*sWmQ*00,G)x8G::-J,)F-FMiW)MGMQMYu,^)-8-i8-xGiz:)ii)*-G0iW-),M_Q8ji*--W:zWYW,8):8.Q)F:,0FW8xiM)-GwQ*0-M-)WWW:MF:xWF)0Gi0:FGx:iY:,oFxW-i0-WxG1M0:Mm))*0QY-i,xMi8:Mt-)G)G)08,x)M8M:cY),-Q00xix)MG::r0)xM)080:)-MGizN0Mi-*0GW:W-M,:D:W)i:-0xWpx0M,))KW)Q---,WFW8MM:)xx)QG00xM)x8M::*:x-F-00iWFQGMQ:Ylx):MWYiW-xGMD:FMi)))W*QW-G,M,98a:)--G-:M0x,x):*)Q)Y-,0d080iM),G}M80-M0)WWxMQ-:GnF)0Fi0*0Gx:MYW,SF8W-x)-WGxcMYM,0*)W-Q0*i,xFM8:,7x*x-Q00W,x)M*x:?*5xWF008ixQQG:QV0),)FxWWiW-M8F#w8)i-)-8MQx-G,::*W):--0xWT-0M,:)q8QQ-Y-,Wsx0Fi:*Yx)ix00,W)xYM:*- x8F-)FiWQiGM:M0WM)F-W08)-xxM_:-40Z*-W0QW-x,Mw089Mk)xx0Q80xY:):WUQ)-)xYFW0WiM2FG4u)0-,-FiWxiG-:-)F)8-i0)0WWQM-x,6:YW-:0-Wxx?G0:,%*)8mQ0Y0,x^M0-iu*8x-Q00W,x)M8MQWY)x-F0;)ix*MG:i9QvM-F0WWix-MG04;Y/,8*0W8QxY0,:F_W)i)*QxWQW0MGF)KG)Q---xxFx0Gi:*xx)3-00,0F:WMix-R8YF-80iW*xGGQ:-<M)!lW0:0-xGMl)0XM8*-*xQW-x,M::)::F*Gx0iM0xxF):8:x0Y*x0FW-WiM*:Gk:aYiM0F8WxWi-:xSF)8-M**WWWQMY*,T))W-:0*8xxQM0:,:*)G*Q0-WxMFM8)iOQ*x-Q,0W,W*-W:iKY)0FF08WixFMY8QRY)M-F0WWi)-MGMQi8FM**0Y,QxYM,:1:0Q:**-xW,G0MM:)9G)WWY0xWFx0xi:*:x)Q-/WM8F:WM8,-_x)F--0W0*GWQQ:zGM)xWW0iWi)x,nF0gW**-W,QW)xxMF:8*:)iMx0Q80x,x)iWs:)Y-G,FW8xiMF:G:>)Y-M0FWWxGW-:G:H{8-MY*W))QMY:,Nrc8,:0*0xxG-0:MB*)W)Q)YWx8FMg0i1-)x-}00-MGFMW:iiY),)F00WiG*MGFQgF:M-F0WW,x-,x:7*8)Y9*0)xQx-xx)FS8):-),xWfx0Mx:)MG):-Y0xWFx)Wi:):WQ_-YYMW:iWM::-!G+O,80M0*xYQQ:Y%M)F)8*:8*8xMiF0zi)*-G0Q-YGxMF:0i:)-)x0QWY-MM)FWrMWY-x0FW-xM)*:G*.)lQM0:,Wxix*-xDT)8-Y7*WGxQM*:,Y))8-:0*WxxQ-0:,:)MG-:YYW-MFM8:ig)uW:90Y0Mx:QW::EY)x)MG88M8*M)gQk0)M-F-8*:x*Wx:i*8)i-*0GWQ-YMx:FX0::---xWQx0)M:)*G):-Y0xWFx-MM,*OGYd-=iMWFGWMiM*:,)O-8087*xGMQ:*jxx)-80:W*xxMi:0P,):iG0:WYxxMF:0G:)*--W48YiMMMxWD:)Y-W0M08GMQ*:8xJ))0M0F0F0:,*:xoQT8-i0*W8x:8Y:xz))8-:0)axxQxY,M^)FG-,GYW,xFM0MM:-)G)70),Mx)MW::9-Q,-J08WMW*MGMQ{Y),0)08,:xi,x:QT8)M)).GW:xYM00F!W):-)0YGAGYMM:FZG)M,Y0GW9:8MM:*ZG)h--iMWFx8F::-*,):,80MW*xWxQxYv,))-)::W-xxM::Yii))-G0:WYxGiF:Y9i,--G0}WYxMMF8Wn:)-0,01,8xW)*:W/b)*-0F)88i:Mi*x9i:8-x0FQGx:QY:-*))-8:0FWGG M0FM=)YG-,GYWxWF88:Mp-)-MB00WMxlMW*:k-),-f08W0**M8:QQ0),-)08W:x:Yx:QOY,i-)GGWW*YMx:FaY)8--YG,2x-:M:M0G):)-0,Wqx8MW0*qx)N--0,,)x8M::*I,)QY80,W),GM::Y9,))-0Q:W*xG:1:0*i)i:G0:WYxxx_M8ci)---:!W0xMMB:80Q)--,0!W8xiW*:8X,,0-,0)W8x:M)xxyb)F0iY),GxQWY:xn))8-WW-8GM MFQMe)YG-:-:-,G<M8:Wi-)x-_0-W,Q)M8::e-),-Q:8WMW)xG::Q0)W8)0WW:x*xxioZY.i-QMGWQxYM,:kYW)i--0G0+x0xM:Fp8:Q--W,WxW8MM:*=W_:x00,W)x*-::-Z,)Q-)QiW)xGM::Yp,0)-00xF-xGMA:Yoi)h8G0:WQM,,A;8Pi0--G0LWYx0:)iWFQ)_Y,0 i8xMxMxGQQ)0-8*)WWx:M):GWF)0-i0)WGx:-Y:x:}iW-iY-W0iLM0:MHF5WWQ0-0,xx*8:iB-)x-Q)0W,x)M8M:d-g,-Z00Qix)iG:x:0),-)080i--MG:%kFQi-*0GWix-:,:k9W)i--0Wa%xYxM))uWFQ-FG,WFx8MMM*0x)Q)00-Q)xWM::-+,FF-00iW)WGMQMYE,)FQW0iG-xWYr:Ymi)))G*QW-x,MM,8N:)--W0:M0x,M):8_Q)*M,0w0MFiM)iG MY0-M0)W8WM_-:G:F)Q,i0*WGxQM-W,IF)W-i--WxW5MY:,,*)WYQ0Oi,xzM8:M:)Yx-Q00W88)MW::P*)x,F00Wix)MG::W0),)mQWWiG-M8F}b8)i-)-iGQx-x,:x8W):--0xWQW0M,:)k8.Q-Y-,W(x0Fi:*Fx)Q,00,W)x8xi*-Kx)F-HFiW*xGMQ:Y0M)F*W0:--xxMJ:0lM)*-W0QWYW,MFM8>MR*8x0Q80xx8):WLQ)*-x:FW0GiM)iG5W-0-x0)8Wxix-:xHF)8)i0*WGFQM-,,v))W-:--WGxx:0i,i*)*YQ0-i,xqMFjiQ)Qx-QQ0WM0)MW:iQY)x*F00Yix*,G:ibF,M-FYWW:x-MxM6(8)WF*0W8Qx-,,:FIW)i:xFxWQW0MM:)zGFQ-Y-,WFx*-i:*9x)e)00MW)xWMx9-Q,)F-8)iW*xGMQW,,M)FFW0:F-xx,?:0Wi)*-YWQ8Yx,MF:8K:)--x0Mx0GMM):W*Q)Y-,0FW*Mi,*:G_Q80-M0)WWxx--:xPF)8-i0*WGxQMFS,Q))W-:F-Wxx%M0:G)*FG-Q0YF,xFM8:i#Qxx-q00WMG)MW::aY)80FY8Wix)xG:Qz0)x-iQWWi0-MG:/(QWi-F0--Qx-W,:cMW)8G-0xWxM0M,W).8QQ-Y0,WFx0,i:)Mx)::00M8)x8xQ0-DG:F--WiW*xGMQ:t)M)=QW0i,-xxM{:0I8-*-8pQW-M,MF:8fM6*FxYQF0xG)):WzQ)Y-xYFW00iM)8GfcF0-,-)+WxiW-:G*F)8-i0)0W8Q,-G,qgWW-:0-Wx-080:,x*)WxQ0Y8,xFG8:iB>-x*U00WMx)MW::gY)80FY8Wix),G:Q90)M-:WW8:x-MG,=78)i-*0W8Qx-W,:1xW):*-0xW8-0M,x)NG)Q-Y0,WF-i8i:),x)Q:00M8)xW,::-48-F*80iW)iGMQ:YH,)M0WYi--x-Qq:Y,i)):QFQW-Y,MFY8P:F--x*nW0xW:)iWVQ)-8,0FW8xiMQ0GoL)0-M*)WWx:M-:0WF)8-i0*-GxQMY:xjM-W*i)-WW)_MYGMm)M:QQ0-*,xFW8:iQ-)x*m00WWM),W::Z-Y,-F08WMxi:Gi:M0)WM)08*:x-0AGEJYii-*YGWQGYM,iF#W)x0-YxW^xYQM:)XG):-QW,8u08Mi8*PWie-Y()*)x88::--,)F*80i0*xGM,VYQM))-8G:W-xxMD:)Wi)*-G0Q*Yx,MF:0bW--*G)nW-GMMFGW_:MxQ,0O*8xiG*:GQ_)0*M0)W-M:,-:xO=Y8-i0*WWxG:YixM))FQ:0**xxD0MGMEFiG-::YW,GFM8ii&-)00gY0WMxFQW::vY)x-,W88M0*MY8QX-iM-F}:*:x*8x:zY8)i**0G-QxYM8eFQW):-*GxW!x0MM::WG)Q-Y0,YFx8Mi:*qYx{-00MW)0WM::-Z,)MM80iW*xG8Q:Y(M)F-)W:8*0xMMW03,i*-WjY*Yxx8F:8,:)-*x03Y0xMM:NWQQ)Y-xGFW8xiM*:YWy)0-M0))Wx:M-:x7Mx8-i0*WGYQMY:,bF))0:Y*-xx+,0:,,*)W:YFYWxYFM8Mir-Fx-{Y0WMx::Wi:?Y)x8F08Wix)M*nQQ-:M-M*WWiY-MxW0,8),Q*0W,QxY,,:FQW):->Wx82x0MMF)kG)Q--0YxFG0Wi:s,x):Q00MWxiWMix-3xPF-80iW*x-GQiYsM))*W0:W-xxxQK0/i)*-8QQWYx,MF,8::)--x0ux)xMG))W/Q)Y-,W:,FxW-:8-x,Yr:0xi8-FGW-,x:F)8-i0*x*QQGY8,t))W-:WFFYM,:F*W*i0GFQ-YW,xFM8pGQ*QxF}00WMx):*)GF-QxWF08Wix*:8F,8h88*M4*GxQ:+-i,M)YiF*FGWQxYM,3Q*)MW8QFxY<-0MM:)2G-,8)x08MY0)i,)Qx)^-00MxzF-)G*QGY:,8FxW,e)-Yx*(Q00i*)QG)-8xx%:0Oi)*0-8QYYW,MF:8m:-QWx*QQ0xMM):G),xQiY,M8F:W,:8-xQQYmM0)WWx::QW0*,*8Fi)*WGxQMY&WGMY)W:0-WxxhM0:M{*)G-,0YY,YFM8:iP--0M,)FQ0G)GWM:.Y),-FWFMi8)QG:Q?0)M0Qi*:WQQYYx,*F0W8Q,-8GW=Q,,F:W):--0xxxM0MM:)9G)Q-Y0,WFx8Mi:*%x)_-00MW)xxMxQ-ix,F-80iW*M0-,YL08YM:)x,F-xxML:068M*-G0QWYx,MF:82M)Qix0&W0xMM):8GQ)Y-YnFW8GiM*iG=O)0-x0:FWx:,-:xQF)Yii0*W--QMYM,.)FW-:0-WWxMY0:M:*)G)Q0-:,xQM*8iy*wx-?-0WMY)MW:GxY),FF088ix*MG:izF,M-)*WW:8-MG,=%Y)Wi*0GYQxYG,:F,W)M-,,xWb80MM,)eW)Q-Y0*xFG8xi:*:x)SF00MWi-WM:,-q,)F-80iWFxYYQ:YiM))FW0iY-xWMM80UMQ*-G*QWYY,MQ:QY:)-Fx0oY0x,M):01x,Y-,)FW8GiM*-G}:)FiM0)-Wx:W-:x,F)8-wF*WG0QMYM,1F:W-M0#Fxx#80:MD*)WxQ0*W8*FM8Gio*ix-RF0WMxi0W::xY),-F08WixFMY8Q2YMM-FtWWi*-MW:MG8)M:*0G)QxY),:Ql*,:-*5xWE-0MMG)zG)FQY0,*Fx88i:*xx)>-:WM8)-WM:x-!xiF-80P**xG0Q:YxM))FW0i0Y)xMB80;MG*-G0QW*x8YF:8G:)*ix0Qx0x,xF,WQ:xY-xFFW8xiM*:-xk)Y,M0)WWx:M-:WKM,8-Mi*WGFQMYF,lf))Q:Y*Qxx6*0:MQ*)8-iGYW,FFM8Yi{*:x-Q-Y8Mx))W:i,Y),-F08W,Q*MG*Q3YMM-)0WW:x*Yx:_G8)MG*0G0Qx-x8,FP8x:-*HxWox0MM:FxG):,Y0,WFx88i:* WGh-YMMW)xWM::-Ux)L:80MQ*xWWQ:Y0M)Q-0G:W-FxMQM0X,M*-W-iMYx,)F:8W:)--x0:WYiMM)-W<:WY-xQFWYxGY*:G01)YxM0)0WxiM:{xQIG8-i**WWlQM):0:)F8,:0*MxxQi0:MfGMG-:MYW,xFM8iiT*)F,r0Y:MxFQW::GY)x-QG8WiF*MG*Q<YWM-)0W8:x--x:T:8)i)*08WQ)YM,0Ff8x:-*YxWvxYQM:)WG)Q)Y0,8Fx8MW,*Qx)n-0YMW)xWM::-R,)F-80Gi*xGMQ:YzM))-W0:W-xxMix)7MQ)QG0QWYx,:Q)**W8QGx*QQ0xMM):G),8v8Yxii)G8xQF0-QQY,M0)WWx::FiYx,8FWWi:)-QxQY,,,))W-:0-xY-xQFx8M)QW,Q0YW,xF:Y*G8::-I,MFQ8QiGW,iQY),-F08xx<Q*Y*xiF*0xMQ),G-QnW*,GF:8iiM8iQ8-x,:FSW):0FYY*MFFiWFQ-*Wx,Q%YiM)**W-Q*-M,G#YMY)*WM::-1,-iM)i8::i-0x)Yi,})-W0:W-M8:_,0Zi)*-G0QY-:,MF:8_:-%yYix8F*0Qi)YGGW<W0G,:88MY*:GL})00GMiQ*QGGQQY0,,F88B:MY:x)FY0xM8)MGi::Yi,0)*0Q)Q8;Q0YW,xF:-:WG:WY*x-FF8-M?-YGM)GYAMY)GW-:8YFxxy0MFFNWW:x-Mx<i*-0W*:F8:Q8YY,:F7W):0F,YF,0FY8-FYWQi,Y0,WFx8:x*Q*-0MWFG0WM:-7G-z8YM,GF:WQiJ-QxWFY0F:W*YWMQ0YQJ,Y:i)*-G0Qx)Y0YMF)YGYFx-GxMS:8YiW88M8Qg0YMi)8iG*GG6o)0-MWQ)-FG8wFxiJM8-i0*WGMM,^G88i**8:**ixxPM0:i)wF*Qxi3G0i:W*YG0QY-w70Y8:M))::Y8,GM,i88Yi)*MG:Q}0-W0iG*iW:QYY-Q00QM:*0GWQxY:8*MM*FGGQ*xYD-0MM:)zG-,xAY0GMxFDi,*Wx)a-00MxQ)-*x)?-0F,:)8iY)QGMQ:YOM-Q-)QW:QG-x,8Fx80:,-)QYYF,MF:8!:-UM-QxiFG0_ii*GGMY-,0FW8xiM*:,TG*)-M0)WWx:M-:xDF)W-G8*YWiQMY:,n)-YxWQ::Y:,QF-xYi,*uGQQ:GQFG8-i%-)x-1W)i8*i)*),GQW0WMGF:i8*FG:Qd0)M0iM*QGQQGYQ,0F,88iP-MQ8YY,:FnW):0F,Y,,-dbWFi0G)MF)*WY:8-Gx,0i0*lF0)MW)xWM:KQx0Y,Y80iW*xGMQ:YJM)i,-0:Y*GxMA:0Zi-JG-)x8t)0FQ)**W8QGYG,)F:W*iW*-G8Y-,0FW8xiM*:G1)))YM0)WWx:M-:x!F)Y-G0*YG)QMY:,Z)-*0WMQFYYi)*Qx0)Q8,Q0YW,xF:)-G0:)Y,x,(i8iMZ*ix-)?GiQQYQ,:F,W-:Y-*xWL00,iF)ix,s-8)i-*0GxiFh08*ME),WxN:YF,GF08))QGFQF-Q,WFx8MiDF0-YxW4x8Fi-WG:W-/,)F-8WxxiqY*xGF*,QFQW0:W-xx::FFx8YiQG*Q)Yx,MF:W)x0Q*-x,-FiMG)GWLQ)Y-,Wi,-:W,:GGKJ)0-M0)WWx:M)-0VzQ08i0*WGxQ:)088i0*WGYQ)Y,i)FiWF:)*WQ*-,,xFM8::);Y8*i)F80QMOYxx8QFYi,GFMi8*)G:Q+0)M0:GY8,)T*0)M-)F8::8GYQ)YM,:FVW-,G:QY),-FQW*i-WQ:)Y0,WFx8:G?Q*-WxWFY8i:F*WMYQM0FMYFRW*:i-0x)YzM))-W0:W-xxM+:04MQ)0G0QWYx,::.)QW::V8x,8ea8Q:**-xFQiY?FY8YiM*:G?5-)G8YM0*i:G*:xAF)8-iW.:-*x)F)8*MW-GGY:0Yii-Fi0V:Y*S-xYW,xFMY:GG-)x)m008MxQMW::xYF,*F-8Wi0*MGiQB0)M-))*0:x-Mx:_M8)i**0G-xWYM,:F&8i:--YxWQWYGMi):G):QY0,WFxYMG8*&GQh-0YMW)WWM:W-Q,FFF80MQ*xG,Q:YKM)Fw*-:W-xxM1Y02iF*-G)x0Yx,MF:80:)-*x0Q0Y8M,),W5:8Y-,0FWYxGY*:GM.)0*M0F-Wx:0-ixQo:8-MW*WGGQMY:,uF:*):0-WxxQ:0:MQ*)WEx-YW,xFM0Qi.-Fx-Q-YYMG)WW::YY),-F0YWG**MGGQt0FM-FeWW:-#:x:k,8)MF*0G8QxY,,:FM)y:--0xWQ80MMi)LWl8FY0,*Fx8Mi:*Ux)Q)0:MW)-WMMi-3,)F-80QW*xGYQ:YEM))-W0:W-0xMX007Mz*-G0QWYxx-F:88:)-Fx0UW0xMMFxW#:WY-,)FW8xiM)MGxS)YGM0Q,Wx:M-:x1FF8-M?*WWQQMY8,I/)8i:0*#xxZY0:,Q*)W):*Y8x_FM-0im-)x-}0Y8Mx)-W::0Y),*F0YWW0*MG0QpY,M-)*WWiW*Gxi+08)xQ*0GWQxYMxiF38x:-*MxW{G0MG:i:GF::Y0G)Fx-Ni:):YY>-Y:MW)0WM::-eG)jG80M^*xG-Q:*MM)F)88:W-FxMi_0Ui)*-G0:*Yx,-F:8::)-)x0Q0Y8MM)YW3::Y-,0FWYxM:*:G8b)Y,M0n-Wxix*,x}EW8-x)*WGxQMY:GG))8,:0-0xxzx0:,::YG-:MYW,0FM8:i^))GYa0Y:Mx))W:MMY)x)Qi8WMQ*M0GQH0)M-)08,:x-)x:T:8)i)*0W0Q8YM,*F!8::--0xW:x0YM:)YG):GY0G-Fx0xi8*UG07-YFMW)xWM::)G,)bG80i0*xGxQ:).0R)*8::W*8xMX-0SM)i0GY:4Yx,*F:8x:)*)*)U8Y:MMF8WkQ)Y-G0QE8xMz*:G-<)*!M0F00::M-FxuQ-8-i0*WWW:)Y:,)))Yi:0-WxxJMYFMg)0G-:WYW,WFM0:iY-)GMI0*iMxFOW:i:-M,-%x8WMx*MG:QJ-))Y)08M:x*Dx::88)M)):GW:iYMxFFbW):-*-x0JxY:M:F*G)Q-Y0x0Kx8MMQ*gWYS-00MW)x8Y::--,)zY80i0*xWMQ8YP,x)-8Q:W*:xMi:0Yi))MG0:,YxG:F:0:Q---Gx_WYxMM):WIi)-0,0(M8xMv*:88R)Y)M*)W8i:MF0xhF)8-M-)<Gx::Y:WW))W-:0*0WiTMYQM!QxG-Q0YW,xE08:i--)GYE000MxFMW8:A-x,-Q88WM:*M0:_Q0),M)0-i:xF-x:Q:Yzi-)xGW:,YM,:Fp0)MM-0GMKxY4M:RMG):)-G,Wqi8M,l*^x)R-Y-xQ)x8:::FW,)F-80M0)8GM:QY/G,)-W0:W*WGF6:YXi)QMG0QWYx,M0*8ri0--G0_W0WMMF:W,Q)-M,0QM8xMZ*:W:QG0-,x)W8,:M-:x/Q)0*i0)MGx:zY:GM))8)i*-WGitM*0M4*)G-:-YF,xl:8:,,-)x-U0Y0,Q)M8Q:D*M,-F08WMWF?G::D0)WM)0WW:x-MGY;R00i-)0GWQWYMx:RWW)iM-00:kxY9M:FPWMQ--i,WFF8Mi0*4W5:r00,M)xY,::-=,)Q-8-iW):GMQ)YlG:)-8-i)-xGQt:*Wi)*-G0:0-8,,2O8&,x--x0UW0xYq):W-Q)-0,0F08xMM*QG!QG0-xM)W8::M*Mx*F)0Wi0vGGxQMY:GXFMW-ix-WG:!M*YMNF)8xQ0-M,xgv8:MY-)G-Q:0WMF)MYY:j-0,-Z-0zix)hG:iF0)M-)00W:0-Mx)bc00i-)WGWixFY,:F-W)iW-0WQpxYMMQ)?WGQ--W,WT:8MMM)Gx)QW00GG)xWM::)<xiF-0xiW):GMi:Y6x))FW0iM-xG1S:0-i))-W8QWYF,MQ:8 i0--G-X80x,#):0FQ)Y-,0QW0:iM*)G+Q00-WQ)W0xxY-:x-F)0Wi0F0Gx:MQ1,QFGW-xQ-WG:IMY:8)*FWxQ0-Q,xF-8:M:-xx-Qx0WGG)MW::g*)0iF00Mix)SG:iM0),)Q8WWii-M80T%8)i-)-G-Qx-:,:::W):--0xWQi0MM))/W-Q-Y-,Wsx88i:*0x)iF00,M)xYMiG-Ox8F-0*iW)0GM::Y8M)FGW0iQ-xx-w:Y:,i*-WxQW-*,MF:8_M)*0x0QM0x,o):0MQ)-)G6FW0iiMF(Glr)0-,-6MWxi:-:WGF)8-i0*WGYQMY), F-W-:--WGxm,0:MY*)0GQ0-M,xtx0Fi?*0x-Q00WMx)M0:iYY)xWF00MixF*G:::-MM*FGWWMi-Mx:A^YSM,*0WxQx*Q,:FTW)i)--xWQ,0M,F)VG)Q-Y0x:Fx05i:*Fx)E)00,WF0WM:*-%x,F-0xiW_xW:Q:YYM)F8W0Mx-xGxQ*0wM0*-W0QWYx,MQ::F:)*Wx0QM0xx*):8:iQY-xGFW-)iM*:G7:TY*M0FxWx,--:x}F)0)M-*WW,QM)0,?))W-:0*ixxQu0:MF*)G)Q0-Wx*FM8*i1)*x-Qx0WGxFxW::YY)8GF0*^ix)xx0Q+Y0M-F8WW:x-MW:x:8)MW*0WMQx*W,:(:8::-*GxW:M0MM:)O8>:YY0xxFx--i:*_x)Q)0FMWF,WMM8-l,)F-0-i)*xWMQ:)WM))-W0:W)ixMT)0OM)*-G-QW-x,WF:8Y:))Wx0QM0x,x*0Wb:0Y-x8FW8xiMF:*:9)YWM0FMWxMW-:G:&88-MG*W0)QMY:,(L W):0*xxxp,0:M_*)W)ixYWx,FM-0i3-)x-Q-Y)MxFMW::QY),-F08WiG*MG)QaY)M-)-WWix)Qx:?Y8)Gx*0WMQx)M0MFQ88:-*)xWiX0MG:i:GF:GY0xwFxYGi:):xx+-YxMWF)WM::-?,),080M,*xG0Q:YzM))-YQ:W*:xMPM0ZM1*-80,FYxxQF:8-:)*)x0:WF0MM)FWA:YY-8NFW8-*8*:GFt)0*M0)8Wx:G-:x7i-8*i0*WG-QMY:,4))-0:Y-WxxQe0:Mh*)G-,WY8,xFM8Giu-)x-J0Y8MxFQW::FY),*F08WW8*,G:QA0FM-)0WW:W-xx:&^8)i-*0GWQxY,,:FIW):-Q*x8wx0MMi).G)Q-Y0,WFx8Mi:)8x)j-00MY)-WM::-.,-i8-xW8:YW)Q,YWM))-W0:xSMYQM*F-8,ix8MQYYW,MF:8.:-QYx*g)0xMM):G)GxwG0iM-)0iM*:G=?)0-M0)WWx:M-,x,F)8-i0*x0=,*F*0i))YF,*FY88iG*,ciQ*GFQ-YW,xFM8mG-*QGWd00WMx):0YGxS80-,QF:x):Y-ixx 0MF)*WW:x-Mx9,:)8iF*FGWQxYM,eQ*)MW8QFxWY)-:-G-Y-F*MxW8GF88Gi:*cx)u0lx0G)8W8::-(,)F0*:W-QF*,Q:Y%M))-W0:W-xMMMQ0iMi*-G0QWYMWFMiF:GY-FGp1W0xMM)^--xYQV0i,888ix*:Gk+)000,)YWW:M-:xSF-F0i**-GxQMY:M)MM*8W8-YG:7M0:Mu*-08xiQi0GM0)QxY:0-*,)F,M8)xW::JY),0,x8YiF*MG:Qo0-WMMQ)iGG:OYi,GFMiF*)GWQxYM,r:G)YWW-0i,*:GU^)0-M0_WF8W-Fx8Mi:*J-Ma-00MW)xWM::-=G^FM80i8*xGxQ:Y;M)f-*Q:W-GxMBi0J,:*-W-:YYG,xF:8F:)--x0Q0Y8M,),W&:*Y-,0FW8x0A*:GQu)0FM0)0WxiM:TxQF)8-Mi*WGGQMY:0x))W-:0-WxxTM0:,:*xG-QYYW,GFM8:ib))-)L008Mx),W:iMY)x)kQ8WiW*MWQQj0)M-F-8*:x-Gx:r,8)i-*0W0Q*YM,xF38*:--0xWQW0*M:),G):QY0,WFx8Mi8*<xF=-0FMW)WWMi:-*,)F-80MF*xG,Q:-:Y8)-W0:W*kxM3:0di))oG0Q8Yx,,F:8A:)--WA%W0WMM):WpQ)Y-,0Q+8xiM*:G:R)0*M0F08G:M-:xRfY8-i0*WGx::Y:,Q))W-:0-*xxbM0iM%)(G-Q0YW,xFM0:W)-Fx*z0YYMx)xW:,5Q/,*FY8WM-*MG8Q{-gQx)0W0:x-Fx:t_8),-FMGWQWYM,MFD0i:-)0GWJx0xM:):G)::Y0xWwQ8Mii*HW^2-0-MWQx8i::-Q,)<M80,k*xGMQxY1,E)-W0:W-GxMQMY,i)*FG0Q8Yx,MF:Y/8_--x*fW08MMFxWdiO-0,0F-8xM**:GPf)Y)MY)WWY:M-GxXF)8-M-FQGxQ0Y:x8))W-:0*0Wi}M08Ma)iG-Q0YW,x2-8:ii-)Git000MxFM8*:N-t,-608Wi8*MW:x)0FM*)0WY:x-xx:DB-,i-*0GWQWYM,MF}0)Wu-0xWfx0MM:))G)Q-Y0,8Fx8MiM*wxFA-Y-MV)xWM::*Q,)F-80M0)8G,QiYc,0)-W0:W--b8?:0:i)*-G0Q8Yx,,F:87Gx--x04W0xMM):W=Q)-*,0FW8xix*:GQ^)Y)M:)WWx:M-xxjF)8-i0:)GxQ,Y:,:))W-:0-WxxO,0:ME)1G-QYYW,xMG8iiT-)x*O00WMx)MWi:RY),-IY8Wix*MG,Qx0)M-)0WxxiF(Yi,,YWiF*-GWQxYM,UM)8Q:)-0xWIx0:8Q)iWiQ-Y0,WFM-QWW:*-ipF0FMW)xWM:vFWY:M,FYiY*WGMQ:Y%M-MWW*:--xxM(:8)8M:8*8QW)8WG:,-ixQFF:*MG08MG):WnQ)Y0Yx,G88i8*:G=.)00W,i8)WGQ-:xOF)8-i0*WGxQMY:,iFiW-:0-WxM:))YWYiQGFQ-YW,xFM8rG-*QGWg00WMx):0Fx8Q80*,5)GGQi4*ixMFYM-)0WW:x-Mx:XdW)GY**G-QxYM,:))-,W8:xxYtW0MM:)tG-GG*:,WFx8MMMQix)#-00,Q)xWM::-{,FF-8YiW*xGMQGY^M)FWW0:0-xxME:0ji))-8xQWYG,MFM8%i9--80Qx0xM,):WxQ)-M,070YQiM*MGTQ:0-M0)W0xii-:x:F)8)i0)xGxiMF8,NFBW-:--WG:VMY:8)*FG*Q0-8,xFx8:xO:xx-wY0W,i)M8::yY)G,F080ix*MG:QQ0),)FxWW:8-Mxi3V8)i-F0GYQxYG,:FiW)ii-0G0QG0MMx)%W*Q-Y0,W}W80i:*,x)QG00MW)x8xi*-pxMF-08iW*xGM:M*FMFFiW0ii-xxM_:0PM,*-G*QWY*,MFM8;i)*ix0_00xM)):WiQ)--GxFW8GiM*,GqQU0-M0FYWx:M-:x:F)8)i0FWW*QMY:,B))W-:F-WxxQ*0:MR*)G)Q0Y8,xFM0,iu-)x-RY0WMx)MW::^Y),-F0XQix*MG:QiYxM-)0WW:MFF0F,--0W8i,-iQ8YF,:FgW):0FYY*MFFiWFQM-GxxaG0-F88Fi:*Lx)H0Fi8Mi:-5G8F-0)M8)FW,*8W4Q:YlM))0-:GQQ:Yb,iFxW*Qg-GxxQ:,MF:8N:)--x0aW*MWM),8:Q)Y-,0Fx-GW8QYYF,Y)W0MiQ*-GFQ008,W)88N:i*GQG-8,r))W-:WF:0FMFF,WFiW*iGGj)0:i1)-G8:M-Gx:FQ02iQ*WxYQF,FqG8Wix*MG3i0a,0xix*,W_)FY8,MF,8xF,GYQ-YM,:FmW-xWQY-M,0FQM,F)G)Q-Y0,x:MFQWWQY-0,*>Q8)F--gxF:zY0MxFQ8W)-Y:,Y>M0Yi88:xi::Y),8FiWY*-G0QWYx,MF:Y{8d!-x*9)0xMM):G),-S,0),,)iiG*YG_2)0-MW:,YG,FQ)Y0,,)FWG*YW:QMY:,>)--MG)QQYQ,QF:8Gi:-WxGQ:,83,8:iz-)x0iMFQ8QiG*QG0Q,Y8,t)MxQ:Y-xxGKWxG)*8::x-Mx:F)--8i:,*,GQ)W08MY)0:F*MxWKx0MM;QY*,GxQxWF,A)LGF:0GQQ,00MW)xW:,-QQ08M-*xW,ix*EQ,-QM))-W0:xFQYWMF)88WQW-GGWQ:WYMWY)W,QG-Gxi08M*):W>Q)Y08,M,F:xF:i*:,Y)WM*FeWx:M-:,)ix),Wx:M-Gx0tQ,iFYW-:0-WxM:FF880iM-8GMF:8FMk)iW*:8xFQB0WMx)MW(,0UF0YM0FMi8*YG:QV0)M0Q,*FG0QYY-QY0QM)*0GWQxY:8si*)WWWQYYiMFFWxYiM-FxYQt0*Mi)0W)*iGiq-00MW)MY:G8QxY0F-80iW*xGMQ:F{YM:-W*i--xxMo:8)G8:8*xMia00QiY)0x0Q8-0xM**80Q4*Gx8Q8Y,FY0tiM*:GXe-)W80i8*QGGQW0*,8FGi***GxQMY:M):M*,GFQ,x8QM0:MB*)G0,:RQYQ,f*FiWZF-ixG(:M):d-FW^Q0,Fw:8Wix*MG}M-FY0-Mx*:G*:Mx:/n8)i-*0GW,xQM8:Fi8i:--0xWOM*5WFiY-8Q-Y0,WFx8Mi:*BW:M-0*xQ)xWM::Y)88M8FxGM:i*Mx))-0Wi,)fWiQ)0*,-)*8M:G*Y,M GY1Mx**iQ*,x0eW0xM:Q0*GG8y*YxM8)*W0*,GYZ)0-M0)x-QGQQ)8)MFFGWY::-0xQY,,0))W-:0-x0:,Qy:8-Q:-,xMR,00FG8Wil-)x-bWFM8iiW-YWQ-QxGF08Wix*:Y-,8F88Fi8):G*:QYWM-0Q,j*0GWQxY:W:MG)WG*:-YF,-B{WYiM0GG3&Y0GM-)8GF:x-01-00MW)xWM::0q-*i-8*MM*xGMQ:0)W0i8)0WMc,Y)MYFW8x:8-xQYYW,MF:8}:-F0x*:Q0xMM):G)GW&xY0MQFQWFQF--,FFWx-FF8*i***W>Q-Y-,WFG8i:-*:xFFQ8Q:0-Wxx6:**8QMe-8Q*-i,xFM8::)F)-ixMF80WiY*WG-jGYgF*0(ix*MG:R))-88i,)MG*Q)G-Ki0-i-*0GWQM):0iMM):,WQY-:,i)F8)iQ*,G:Y*xMFx8Mi:-)8Gx:F,8Wi**),0QG0F,:FxiY)8GMQ:Y<M-:G*GWMF)YWMY)YWY:-*Qx-X:0QM---GY:--xlY-WMM):W%Q-)0YGM))Q8q:i-GxM-:Wxi,)xWvJ-YG,)Y:GW:Q-0GQFF,WQW*,G,QYY,,)F88*iM-WQ0YW,xFM8:ip-)8aM00WMx)MW::}Y),-*0*Gi8*-G:Q 0)M0Q,*FG-Q00FMYF0iF)xGWQxYM,2:M*GW*:Q-,x:*Y8-:--YGxY*xWFx8Mi:-)8Wxi<M8Mii*),*QQ-oM8*:W8ix-QxxYi,G)-W0:W-M8FMFF-G-:,-)G,pi,GFF8}:)--xWMz)F8e:)*QGMnY8MM8),WM:)G?f)0-M0MW)-W0Y}8FBQ0:i0*WGxQ:)i0,iG*YGG-YxF3M0:MS*-0Gxip-00i)*YGY:Qx-!00WMx)MW::p)W8-F*0,ix*MG:/))YG*Q)*8WQ:N8xM8FF8iiG*MQxQ0YW,xFM8:i(,xM,0M,iY)WWY-,iFQ*F*ii,)Qx)s-00Mx::*QW:Q-80,x)iW)iQ--,Yy08YM:*,W8-8x-D:0Ii)*0Yxx,QxYLQ-)GW)-FGirW0xMM)RY*MF)GYQ,:)-WQ:-GKU)0-M0)WWx:MY:8FnQ0xi0*WGxQ:)FWQ:x*,GxQMYG,0FQMi)iG-Q0YW,M:Q)WW*:ix-K00WMx)MW::SY),-F*8-ix*MG:o)vM88M8WYi,-Mx:_=8-GW:G*WG:FMGYMM*FGY:NY*,iF08))(G)Q-Y0,WFx8Mi:QlGQQG00MW)xW:,QQGY0M-)iW*}r-YxxF-,QFGW0:W-xx:i))*8)iW0,xFv00YM-0YiQ*,x0NW0xM:Q)-*G)QW8,M8FWWQ*,G0k)0-M0)xYQGW5F08,W*WWGiW*:QGYF,.))W-:WoM-rM*FW8Yix-,GM_,0-iFFiii-)x-S00WMx)MW::sY),-F00WGx*MG:Qc0)M-)0WW,FSMx:4S8)i-*0GW*xQx8:F&W):--0xWdx0MG0:VWQ:QY0,WFx8:x)Q*-)xW0*MF)xWM::Y)8xM,FMW,:-*ZQ,Y,M))-W0:xF0YQ,_F-i)*-G0QWYx,MF:-Fx)-FG-{W0xMM)LYWG:>,0,M,)xWY:xY-,YgxG,iF*0GYQ-GY_Q0:i0*WGxQ:)l00iG)QGG-Wii*Tx)D-00MW!0FG,8FY8:iz-)x0i,F,8-M4-FG0-QxQF08Wix*:0Fi-FF0Q)0WW:x-M0:ii*QcFQ8GYQ-YM,:FKW-x8FxY8,YY)M,)8G)Q-Y0,x:G)0W*:-YGx:F,8,)8W-::-/,)F0)W8::*-8M-*FGW)F80:W-xxMV>*W8::,-,x,Ex0YMx*-GY:x0x,,sx0E),W8Q)Y-,0Fx*QWQ:)0-,FJW8)i,WG:,-,xxF)8-i0*x0QxY<x0GMWWFiG-WxxgM0VG-:Y*-Gx-=xMF-*7G8::-8,G:FMG)MW:Mt ,,-F-8WiG*MGYQt-)8i)0WY:x-,x:::8)M:QWGWQ8YM,GF!WF:--YxW40FxM:)IG):QY0,8Fx0xM,*QGQ2-F*MW)xWMM:tG,)I 80i8*xY:Q:YxW-)-W):W-FxMJi0RiF*-G)x0Yx,MF:88:)-*x0Q0Y8M,)xWvGQY-,0FWYxGY*:G,O)0*M0FMWx:0&RxJvi8-MG*WGGQMYi,UF:*):0-WxxQQ0:MQ*)W):*Y8,YFM),iJ-)x-:0)FMx)0W::QY)x0F08)GM*MGWQ.YFM-)YWW:G-Mxx,:8)i-*0W8QxY,,:&:0Q:**%xW:,0MM:)s8)xiY0,FFx8,i::Qx)Q:)WMW)*WMiY-B,FF-8YiW*0-xQ:YaM);,W0:8-xWMM80pM,*-GYQW-8,MFW8Q:F*ix0:50xM,):W+Q)-J0-FW8xiM)0G=5F0-M)i0Wx:M-:G8F)8*i0*WG)QMY8,o))W-:0-WWxMY0:MW*)G*Q0FG,xF08iiQ*xx-:G0WMG)MW::P-:0)F08WixFQG:QQ0),li-WW:x-MWf(B8Fi-*-FYQxY-,:FQW):--0G0F)0MMY)(0GQ-Y0,WFxGMi:*0x)3-00MW)xWM:8-ux8F-8-iW*xGMQ:-xM)FWW0:Y-xxM4:0(,i*-WGQWY0,MF:89Mm*:x0Qx0xxM):W4Q)Y-xFFW8FiM)&GSQW0-x0qMWx:F-:x0F)-si0)0W8Q,YF,{iWW-:0-WxxQ,0:MY*)W8Q0Y8,xQM)xiy*8x-QM0W,0)M8MiiYFx8F00iix*MG:QjYFM-F,WWii-MxiqaYyW8*0WiQxQG,:F&W)M-*:xWQQ0MM*)5-8Q---,-Fx0Vi::*x)P-00MWFYWM:*-^x9F-8-iW)WWxQ:Y-M)MFW0:W-xWMQ*0_M0*-WxQWcQ,MNM0i:)*8x0M80xMM):WvM,Y-xxFW8WiM*MGy:;F8M0F,WxWG-:xLF)Y-,,*WWiQMYF,ri8W-i--)xxQ:0:WW*)G-Q0YW,)FM8Fi_*Bx-A-0W,WF*W::)Y)YFF08WixFMWGQLY-M-FWWWGQ-MGM!,8)MY*0*,QxYM,:F!Y,:-*WxW<W0MMM)l8lx8Y0xGFxFGi:*gx):-YxMWF,WMiQ-e08F-0-MJ*xWMQ:FxM))-W0:W*0xMQQ0<Mn*-G-QW-W,0F:0V:):Fx0XW0xxMFxW+:)Y-x0FW)QiM)MW09)Y*M0F,Wx:M-:xy:,8-M0*WGWQMYM,5T+*8:0*8xxxG0:M1*)8-:MYWxGFM0iigQ8x-Q-Y,MxFxW:xWY),-F08Wi**MWiQlY7M-)-WWiW*8x:Q:8)8F*0GWQx*M,*Ff0E:-*-xW,Q0M,M)*G):FY0,0Fx8Mi:*z8,4-Y-MW)WWM:M-=G(M880MY*x*GQ:Y6M).-WF:W*8xMQ,0HW8*-W-:MYxxWF:*,:)--x0yWY-MMF,WP:NY-,-FW0WM,*:WMa)JFM0)WWxMM-xxpQ:8-M)*W-QQM-M,)))0Q:0:,xxKM0:M%z,G-:)YW,WFM8MicF)Y)yYYiMxr:W:M*Y)x-,W88MQ*M-YQgYGM-F-F-:G*8x:iQ8)i-*08W::YMxGFV0i:-Q,xWQWYiM:FxG)xiY0,WFx0xi0*4W,D-)QMW)xWM::*,,)QQ80MF*xGxQ:-7,0)-8,:WF8xMQG0+,U)0G0:*Yxx-F:8Z:))-<8VWYYMMFGWdW:Y-x-g*8xM0*:8YZ)0-M0F08x:M*8xm:88-i0*WWWQ*Y:xW))YG:0-WxxTMY)M=FiG-i:YW,WFM0:M0-)GGu0YGMxF8W:,m*g,-I,8Wi**MY8Q -&i0)08*:x*-x:Uq8),-)8GW:YYMxGF6F::-*-x0_xY0M::0G)Q-Y0x0Qi8MM8*JYW&-00MWFWW,::*W,)Mx80iW*xGMQ,Y#xi)-0::W-WxMQ:0Mi))GG0:;Yxx8F:-DQF--G,#W)5MM:-W#i2*!,0d*8x8x*:Gn^)--,W)W8Y:M*Gx5M88-M-F:Gx:0Y:8G))W-:0*0GxKMY8Mh:WG-Q0YWxWF08:MW-)0iZ00WMxFxWF:T*G,-MM8Wix*MG:-Y0)xQ)00Q:x-xx:QuY,i-),GWiYYMxGFv0ViY-0G*ex_xM:)BG)i--:,WHY8MMG*>Y86-Y-,0)x80::Z0,)F-80M0)YGM:8Yt0M)-W0:W*WGMR:YWi)QFG0QWYxxxy)8#MG--YMOW0xMM):8xQ)*Q,0QQ8xix*:WsQ00-,,)WY,:M*GxyX)00i0)MGxx*Y:,Y))8)i:-WGY_M.:M6*)G-i0-M,xb88:M,-)YGl0Y0M0)M8W:_nW,-F08WMW)GGi:G0),Q)0WW:x-M-)_OYii-FQGWQWYMx:)FW)iW-0G*^xY8M:F:8WQ--F,WiF8Mi:*ZW):W00,*)x88::F:,)Q-YliW)YGM:GY<G))-80iG-xGVr:*:i)FQG0:0-F,M1G8#GG--x0XW-xM)):8,Q)*Q,0::8x,MQ8G3:i0-,F)W8*:M*:,FF)0Wi0n:Gx:8Y:x:FWW-iF-W0F7M0:MuF)8:Q0-*,xz88:MQ-)W-Q00W,Y)M8G:XFG,-/080ix)cG::Q0)xQ)080i?-MGGOL)Gi-*0GWixYF,:v,W)MQ-0WQ}x-MQY)n8iQ--F,W,,8MM:*,x)QW00xQ)x88::*=x*F-0GiW:FGMQ*Y}xPB:W0i*-x-Mb:0+i)F-WeQW-Y,M.G8NG8--G-QW0x,0):-0Q)Y-,010Y:iM)8GtM)0-M0)WWx:,-:G,F)Yii0*0Gx:MY*,&FYW-xx-WGYjMY:Mx*)W0Q0QQ,xFF8:M:*Mx-QF0W,))MW::&*),)F00*ix)8G:GM0),)F8WWi--MY8NT8)i-)-iQQx-Y,:MGW):--0G0gW0M,0)y*8Q-Y0,WFx8,i:),x):M00M0)x8M:*-1x-F-08iW)YGM:MY,M)=QW0Mg-xxM!:-JMQ*-WFQW-Y,M,x8OMJ)xx0Q)0xW)):WcQ)-)0GF80*iMQ-GK=)0-,-F-Wxi--:00F)8-i0*WW,QM-G, }xW-:--WGxQY0:M)*)WMQ0-*,x:M0xir*-x-MM0W8q)M8M:QY)GQF0F0ix*MG:i}Y8M-FFWWiY-M0*pcY4xF*YW)QxF),:FwW)i)*8xWQ*0Mxi)EG)Q---,*Fx0-i:Q0x)K-00,0)GWMiY-qYiF-80iW*xGFQ:-,M)I,W0:0-xGM6,0NM-*-08QW-Y,M7M8M:))Qx03Y0xMM):8:MiY-GPFW-YiM*:Gv2)-ZM0FFWxi:-:xlF)8-i)*WWYQM-8,o)FW-i0-)xxQi0:88*)W0Q0-0x)FM0Giz:)x-c00WxxFYW:i,Y)GQF0)iix)xGGQ2-MM-iMWW:x-MGMQ-8),i*0--QxYM,:Fq0M:-*FxWQ*0MMM)7W)iQY0xGFx00i:),x)Q-Y0MWFxWMGY-gx-F-0-Mi*xW8Q:-WM))-W0MW--xMQG02,i*-*)QW-W,YF:0x:)FGx09W0x,x))WQi,Y-W,FW8xiM)MGQ3)-MM0QiWx:M-:xuhG8-MF*WW)QMYM,.F)W):0*Wxxx-0:,,*)0-:,YWxxFM0Fi&Q,x-i0Y0MxFMW:G:Y)8)F000M0*MWGQ/YQM-)0WWiW*GxiQx8)Mx*0GWQxYMY4F>0,:-*0xW3x0MM:FQG)iQY0xFFx8,i:)n--X*YYMWiFWMis-(GHG}8YM**x*MQ:YsM)p-0x:W*YxMQG03W8*-W-:MYxx0F:*0:)--x0Q0YTMMF8WTMQY-,0FW8xMY*:W,3)-iM0)0WxiM*;xLyF8-i)*WWYQM-Mx0))0Q:0:Wxx_M0:xZ:,G-:FYWxYFM**i+)_GF=YY)Mx:)W::qY)x)Qx8WM**M8,Qh0)M-)0WF:x*8x:QG8)i)*0WW:*YMxiF_-0:-*FxWQx0FM:F:G)G,Y0xxFx0xi-*9Wis-*YMW)xWMM:**,)QQ80M**xYFQ:-:x0)-0O:W#*xMp:09,},YG0:FYxWYF:8k:)--GQ;WYYMMF8WH:aY-x0F*8xMx*:0iJ)-QM0F08F:M*Gx Qx8-i0*W8xi}Y:x,))0Q:0:-xxQx0*MzFMG-M,YW,xFM0Mi)-)Wi!0*iMx)MW:i:*Q,*Q:8WxQ*MG:QU0),X)Y8*:x*-x:_:8)M-)iGW:WYMxQF50i:-F0W%OxYxM:)GG)xiY0x06)8MMG*5WxA-00MW7x8)::*,,)QQ808-*xWx:,YoxM)-*M:W-xxMQM0:i)FiG0x:Yx,MF:0:MQ-*W:rWF3MM):WfQ)-6,Y#*8xM-*:G:w)Y-,Q)W8W:M-0x>Qi8-x0)*Gx:xY:W0))*x:0*0GlUMYGM6M.G-Q0YWGx9q8:M,-)WQe0FiMxFx8x:p*M,-MQ8Wix*MWM:-0)xi)0*::x-Mx:Q:,Gi-F:GWM*YM,:FI0nM:-0WQHx))M:);G)Q--F,WuY8MMY*(Gh2-Y0,0)x8x::),,)QQ80M0)8GM:GYoYt)-W0:W)xx-p:Y,i)FQG0xiYxxxp08>MM--YMKW0xMMFM8iQF*i,0F*8xiM*:W:Q00*x:)W*j:M-:xRQkYWi0FQGxQ8Y:,w))W-i}-WGY_MYYMo)AG-:0Y0,xIx8:,F-)WQm0*WM-)M8M:mF-,-:W8Wxx**G:::0),:)0)8:x*xxW5AYii-**GWQxYMxM=iWFM:-0*QVx0MM:)O*-Q-*Q,WLW8Mi:*!x)G*00,*)x8Y::-Q,):-8)iW)8GMi{YLG,)-80:F-xGG1:F8i))0G0:0-:,MAG8mMx--x0XW-xM-):8,Q)*Q,0,-8xMx*WG_:M0-G,)WWx:M*MGQF)Yii0ziGxQMY:x:=QW*M:-W8Q1M0:M9*)W{QY-*,xX-8:i:-)G-QY0W,8)M8Q:}*i,-:00Gix)GG:QG0)8i)080M1-MGGZpYxi-*0GWix--,:J,W)MQ-0--BxYx,Y).8MQ-pM,WFx8MMM*Qx):i008:)xWM::*:GQF*Y:iW:vGMQ:Y2M)F_WYi*-xG-{:0:i))-G-QW-8,MF08rMi--80I00x,G):Y0Q)ex,0y0Y:iM)GGbGd0-M0)W0x:*-:G,F)YQi0:iGx:xYi,XHMW-x*-WxxRMYM,-*)8iQ0f:,xFM8:M:QWx*::0WW*)MW::a*Lx0F0YQixQ)G:QS0)M-FQWWiY-MGY3J0li-)0W:Qx-G,:QFW)MQ-0G0I00M,G)_-GQ-Y0,WQx0Wi:),x):Q00x:)x0Mi8-uGiF-0FiW:MGM::,0M)FFW0M:-xG8O:Y:,Q*-WFQW-),MF:8DM))ix0Q*0x,8):)MQ)-)x)FW0-iM)*G!P)0-,-FiWxiY-:GYF)8-i0)0WFQM-0,5;8W-:0-WxxQ)0:,,*)8MQ0Y0,xSMF7iQ)Qx-xx0W,Y)M8:G)YFxFF0F*ix*0G:M/-8M*F*WWiW-M-8HO0)MY*0WYQxU-,:F,W)i)),xWQY0M,0)PG)Q-*0,*Fx08i:),x)Gw00,0F,WMiW-_W8F-80iW)WGFQ:-GM)QGW0:W-xGxQ)0h,x*-0,QWYx,MF:QQ:F)Qx0:e0xMx):8_iiY-x*FW),iM)GGti)0*M0FYWxGM-:8xF)--,M*WW8QMFx,nMFW-,0*YxxQG0:x-*))iQ0-0x*FM0GiXQGx-b00Wxx))W:i,Y)GQF0)MixFMG-Qh-iM-FFWWWy-MG:QY8)MF*0-MQx-8,:FKWF:-*FxWS*0MM:)9W)G0YYxYFx0Gi:),x)Q)FxM8FYWM:,-H,)F-0-i0*xW0Q:Q8M))-W0:W*FxMQ80L,Q*-G0QWYxx9F:0,:))ix0B80x,M))WBi:Y-YiFW0MiM)M)MOF-QM0Q8Wx:M-:W&dM8-MF*WWYQMF*,jc.0::0*)xxiY0:M6*)W)iiYWx*FM*8io-)x-^0YMMxF8W:iGY),)F00WM)*MWxQp)QM-FFWWiW*ix:Q,8),M*0GWQx*MFQF/0i:-*FxWx00M,M)MG)i:Y0WiFx8Mi:):GQ1--QMWQQWM::-<G&Qx80,%*x8FQ:YnM))-8i:W*YxMQ00}M_*-W0:nYxxWF:8F:))Qx0iW0FMMFxWI:,Y-8GFW0W::*:W,d)-MM0)WWxMM-ixnQi8-MF*W*0QM-M,i))0::0Q:xxIM0:,:):G-iQYW09FM8:if)LG-;0-bMx:)W::_Y),-QQ8WMY*MW0Q3YOM-F08_:x*Wx:}W8),Q*00W&GYMxxF.-W:-QMxWQWY0M:F,G)G)Y0,WFxYMiW*NWi%-YFMWiQWMiM-*,)Q:80xF*xGMQ:-:MF)-0Q:WQExM}:0y,Z).G0iAYx8YF:8n:)*)W,JWYFMM:-WhQ)Y-,0Yi8xM8*:W8l)0)M0FWW0:M*xx?:i8-MF*WWW:-Y:x,)))):0-Wxx:MY0M&FiG-:FYW0QFM0MMi-)W:X0BxMx)MW:i:*Y,-QQ8WW&*MG:QZ-y,,)00z:x7)x:ho8)M))*G8:FYM8FF<W):--0*M&xY8M:F8G)Q)Y0xW,M8,Mx*;8*Z-YFMW)-:8::*,,)sQ80i8*xGxQ:Y_W-)*W0:W*8xMV:09i)Q0GYQWYx,-F:8q:))-YQwWY-MMF,W(:)Y-G0M-8xM0*:Wx7))MM0)W)M:M*0xDQi8-i0*WGx:,Y:xx))0M:0-8xxQx80MbFMG-M:YW,xFM0MMi-FWi(0F:Mx)MW::lQ-,-Q:8WMY*MG:Q(0),*)08):x*-x:zQ8)i-G^GW:-YM,:F6W):-*I3*fxYYM:)iG)Q*Y0,8Fx8MGo*Qx)J-YMMW)xWMi:Q),FQ:808)*xWYQ:YxFi)-0Q:W--xMui0fiF*-G0,xYG,MF:80:)--x0QWNMM,FWW6QFY-GQFW8-*8*:WGV)0-M0)8Wx:,-:xni-8*i0*WGFQMY:,_F))0:Y*)xx:00:,G*)W:YFYWx*FM8xin-Fx-JY0WMx::Wi:UY)xFF08Wix)M*5QQ-MM-:,WWi*-MxW0,8),i*0GFQxY,,:FQW):-uWx8 x0M,,)DG)Q--0YxFG00i:)-x):i00M)WYWMi8-#x_F-8YiW*GGMQ:))MF)-W0iY-xxMR:Yt8-**89QW)0,M{88_:)M8x0Q)0xMx):W4Q)Y-0*F88xiM*iGh.)0-M-FvWx:M-:xQF)8-i0*YG)QMY:,d)--0GY:iYGM)FxW*)QG-Q0YW,xM08:i:-)x-100WMxFM)f:Q-u,-FY8WiG*MG:xi0FM-)0W8:x-Mx:V:8)i-*0GWQxYM,:F#WF:--0xWUxFGMi)!G)Q*Y0,WFx8Mi:*5x)e-0YMW)xWM:,*v,)F-80ix;)-W,YFY8Yi-)QG-Q:YQ,-*-WYi-*xQYYx,MF:83WM--x-bW0xMM):WV:)Q0,YF08xi,*:GQ;)0-8*)8Wx:M-ixAF)8-i-*WGxQMY:,Q))W-:0-YxF3M0:M#*-YGxGQM8:M,))WMQYGQ^00WMx)MiW:4-=,-F08Wix*M8:QF0)M))0W0:x-,x:!=0-i-*)GWQGYM,:FdW)M:-0x04x0WM:)QG)Q-*M,WFx8Mii*=x)u-0-MW)xWM::-Q,)F-80iY*YGMQ:YgM-:W*GWW::xG=:0ei)*-*3QWYW,MF:8?:)--G0xx0GMx):WQQ)Y*,0FW)8i,*:GZsF0-M0)WWW:M-:xnF)8Fi0*WGxQGYW,P))W-:W:oYQM*Fx8M*)G-Q0YW,xFM8:i}-)xFJF0WMx)MWL,-nYY-,x0Mix*MG:Q>RMM-)0WW:x-Mx:U!Y)Wi*0GWQxYM,:FiW):-Q*xWmx0MM:)?G)Q--WWxFx8xi:*xx)b*00MW)xWWGM->,)F-06iW*GGMQx1:M))-W0ii-xx,a:Y:ix*-G0QWYG,MF:8y:)::x0s80xM,):WRQ)Y-YpFW8WiM*:Gm=)0-x0:FWx:x-:x:F)8Fi0*WWGQMY:,AF4W-:Y-Wxx,G0iMh*)G*Q0YW,xFM8:im-)x-uY0WMx)MW,:WY),-F08xGQ:Q-)i-FY0Gi,W*:x-Mx: z,Mi-*-GWQxYM,:Fo0)iY-0x0ax0xM:)QG)Q--8,WF08Mii*6x)l-00,-)xWx::-M,)F*80iW))GMQ:YbMF)-W0:W-WxMn:0wi)**G0QWYx,Gdi8o:)--xWiiF08Q:Y*0,0D8Y0,M-*W0#h-G,8a80,)-Wx:M-:xK,M8-i-*WGxQMY:,J))F0:Y-Yxxq,0:M+*)W-GWY8,WFM8iiz*Qx-^0FYMG)MW::QY),-F080ix*MG:QwWFM-)0WW:8-Fx:ZL8)i0:i-Mx:Fg08:-*)G8QFY,=808M:)yG)Q0))0,MMF7i,*,x)s-00MxM:),G0l*xQOM80iW*xG:M)F*0)MWYMGF:xxGk-0 i)*-GWGiNi0WMR*GG8Q,Y),-08,i):WqQ)Y00,MF)0WWQFYYx0FY8iM:*Ox*QQ0*6Q00i0*WGxQ:)Z0QM:)r,xQ8-U,Q)*8-:F*iGAYY,8FM8:i_--80iW0Y,:)MW::3Y-8MMi)MW::,-W,F):88iW)M:8*ix:._8)i0Q,-iGP<Y0xMM*FW:Q88xx7)*8G:*WQ:hY0,WFx8:x4:Q-0>-00MW)xWM::-U8:i-8*i-*xGMQ:0)08MW)M:Y-*xM5:0ni-(,-,GMBGY:iF8iii--x0ZW0MGFii):xYYF,)FW8xiM*4-0xYu:M*)WWx:M-:xi5i8-i0*WGMGiFY00MMWFif-Wxx7M0_8F:)-*x)%,,8Fx8:i.-)x0:Q0YM*)MW::DY-WG,Q)-W*:)W*QiYGM-)0WW:MF,YW,YF0W,iu-ixiYG,0F%W):--WYi,*F88G:**MGWY*,*Fx8Mi:-)88xiFx8,)8WW::-p,)F0)GW)::GMQ:Y3M))-W0WW:-0MI,YFi)*-G0Qx)MYQMW*YW0Q*-Q,)Y-xFi8--xY*:WMMQ)QWG:Q-0x,m80DiMW)x:=YYM,Y)8i*)wGxQMY:M):W*8G8Q8Y*,0Y*Mi)-G-Q0YW,MQ*)FW-:,-Q,ikM8G:FY*GQ:S08F*0Qix*MG:J))088M0)MxQQ,-MM*0QiF*0GWQxY:0ii)8QiG-0xWKx0:G0:8-0xWgY0)M,*pW8:WGQQQ00MW)xW:GW1*Y),W80iW*xGMQ:Y4M)---8:Y*QxMu:0Ji-QY-0xQQ:0,M*)-G)Q*-,?YYiMM):W#Q-F8WY:-)GWF:)0M,Gh*0QM,)::G-WxSF)8-iWiMYF,)bx8*FQ80:0-Wxx=:*FGQQx-,xx2M0GM0)Q,Y:,YW,G0YMY)MW::EY-Y8,x)x,x*GG)Q90)M-)WYQG-tFY:,GFWGMiQ-8x-QP,:F W):--0xWWx)*W:)pG)Q-Y0,WFx8MGYQ1GQQ900MW)xW:GxQ*0GFF8FiW*xGMQs*80)i8),:Y-)xMe:0=i-)G-xi:FFGMMl*)iQ*:x0IW0xM:Qi*,xGTY0GFW8xiM*:G_y)0-,0:WW8:*-:xgF)80x):8--xQ))8*M))W:*--xxKM0:i):-*iGMYY,WFM8:i5--G)5*YGMx)MW:Q)F008,0FMGGF*-xxQF*0:iF*,G-:Rx,}i8)i-*0Gxx*&F,,F:W):--0xx:-0Gxf)3G)Q-YWWx,i)0G*:-YFxiZu,)QQ*Yx)u*GM:x)iWi:8-ix-BG0YM:*xi{FQYYM))*MQ)xG0QWYx,::))FGYQ8-ri8F-8:i8Wi:iY-,0FW8MxQ:W-*xi0-M0)WWx:M-:x%F)8-i*F0GxQMY:M)Q-)8WrQi-:,,F88xFM0GGQTM0i 0-*GY:W-i,)F-8Gi0*QM)QW0,MF),i)FF-8,-FYM-)0WW:x-Mx:IV-MG-**G0QxYM,:))*M:--0xWKx0MM:)j8),-Y*,*Fx8Mi:-)8-xicJ0M)xWM::-E,)F-80GMQxGG:xY.M))-WW,WQ*Y),i7:8,i:*xxQe0G*Mx)QG*::YF,,F-0%),WWQ)Y-,0Fx*MWQQ*--x,VxxM)YW8:M-:x9F-Fi8M*WGxQMY:,_))W-GYNWx8 )0:M4*)G0,G)8W)i**)G-QF-:,80Y,G)MW::sY-8WMGFW8:Q%--,8PM0GM:*QWLQQYWMYFFiF)WGWQxYM,h:W*GGWQxY8,-Fix-iG*0GWQQ0*F88Wi:*=x)I0)x8Fi)WM::-f,)F-80FWiWYMQ,-QM))-W0:xF30*M*FiW*ix*QG,%-0vQ*)GW::i-M:i08M0):WmQ)Y0WW,:*FW8QFGiQ,0-M0)WWMGFQ:08,W)8Wx*YGWQMY:,;)-YQ:**ixx4M0:i)6W-,x,2Y0,M))8W*:MYWT*0FMx)MW:Q)Q0Y*,:),W*::G,QG0)M-)0WxWQQQYxM*)88W**G*QxYM,:)))0G,:,YYs8YiM:)UG)Q0N)0FMQ**WxQG-xxxgQ0Zii*)G):QxQR)80iW*xG:Mi1,8GiY*GxM:>0*,WFY8x:,*Mx,N-8F,i8t:)--x0pW0xMMiY-;:Q-W,0FW8xi:7xY8xFfi0GMMY*G);)0*,W8FM#*WGxQMY9W*Q0**GF):xxmM0:Ma*)G-Q0<G8xFG88ib-)x-pWF,0xi-*8G0Q0,F/,8Wix*MG5xM<,8,ix)iW:Q)Yi,x)*iF)MGWQxYM,a:Y),Wx:x8Fx^F5WFi0WQ:MY0,WFx8:WI:0-,xQ)MGGQ9WGiW-7,)F-8Wxi:*-Wx8N0W8i8)iW,QiY0M*)*GQ:8*YGZH*0,MW)-iQ-)x0IW0xM:)FWi:uY-,0FW8MM8*,G,k)0-M0)x*Qx*QxYM?Q8Fi0*WGxQ:F:8QFQ8::0-WxxV:F0W8:F*xG,YYxQFM8:if--8*,FFQ8,iQYxx8OW08M)8Yi0*MG:QD0-0:iG)G:8-Gx:LX8)i0:x-FQ8Y-,:FjW):0*,WG:G)F,0:)--Q-Y0,WFx8Mi:*d--M-0*M))xWM::Y)0W,x)GWQ:8GGQ*Y>M))-WW,::RY,M*Fix8ii-)xFQb,GF88I:)--xWxi_:8)ii*xx*YFxQFW8xiM*J-0,YBM8GiQ)::G-Gx6F)8-iW:GYFx8FF,5))W-:0-WxxqMFXWA*)G-Q0YW,xFMQ:G:s)xFQQ0WMx)MWhx*Q:YGMG)8WM*GGGQB0)M-)W)MGG>FY,bi0Gi-*0GWQM)-08MY*FWWQYYF,-0G,Y)DG)Q-YWWx,i)0G*:-YFxi6U,)QQ*Yx)f*GM:x)iWi:8-ix-TG0YM:*x:Y-FxM%:0^i-ii*:x,QA8*M))GWW-FGa!W0xMM)4*WGWv*Y%,M88i-*:GZe)008MiF**GW+F08,M8-i0*WGxQMY:,HiQ--:*-*xxnM0:i)QY0WxYg*,8FY8:iA-)x0MMFQ8-i *8G,-QxiF08Wix*:00,8pW88MU)M:x-Mx:1K8)i-Y0)G,xYG,WFOW):--WY-,*)FWYiMWQ::Y0,WFx8:,*:G-:xicMMY)YWM::-I,-iD)YW):iGGQWYcM))-WWW,Q--c,iFMMQ)YG0QWYx,::)**W):W00iQF08,iQ*xGiD8YH,M88i0*:Gu<)008GM:)JGYQ-xi!28-i0*WGMQFY:,m))W-:0-WxxQW):Mi)WG-Q0YW,M,i)8W0:Q-Gx:FQ8QiQW,iWY),-F08xMY)8G0xWXW8*MA)Mix-)8:M*F:8_iQWI,,/Y0-MM*0ix*YxYZW0MM:)ZG-MkY*,)Fx8Mi:-)0W,*F88WM:WG:0-m,)F-8WMiFxY)ii--xFi8W*iO-xxM=:8)x8ii*_x)=i8FM)8iiF--x0cW0MxFix*QGxQGWxM,FQGFQF-x,0F,0hMM)Q:G-xxnF)8-iWi:-cGMY,,M))W-:0-xY-,YF)MK*)G-Q0YW,xFM8:GU*QG8_00WMx):**x*Q0YQMGFMGFi<YY,0v:88)*8*:x-Mx:F)*8WGiM-Fx0lWG-i8)W,*QFYQ,,FQx*iG*:GiQMGiF888i:*3x).0*,8Fi)),:,-,,)F-80ix:YY*x)zb,QF,W0:W-xx:iF*Qx8ii*Mx)%i0)F:8H:)--x0NW0xiM:QWi:GY-,0FW8MW::F-x,8LW8YiF*-:G-*x2F)8-iWJiYFx0Q 88M8-GGY:0YiDG0-M1*)G-QWqF0)MQ)-G8:0-ixMNiM8)xW::XY),0s*8YMW*MG:Q{0-W0iG):W:Q,0*M8F:x,:)-8x,k00Gi*)MWW-*xF<x0MM:*)-GGGQ,0,, F?i:*Ax)I-00MW)x-Qx:-ix:F-80iW*M0),YQQ,QFQW0:W-xx:MFFM88:8G*QYYx,MF:W)G,FYx*oF0xMM):G)M8)0YMMQ)YWQ*,GYf)0-M0)x-:GQ::Y-:8FiW):F*!:FY,,W))W-:0-xGQ:iFPWY:--8xWYW,xFM8:i1-))-,,)WM8))W::kY),0i,)iGF:WYFM-jF0MiGWW:x-Mx:Tk8)i-M,YWQ8*W,:FcW):0FW-,,-)F8)iQ*,G:*/WiM*)PGF)x8W,,F,8Yi,*)G8Q*YMMW0:xi:*-m,FYWW-i,*)W,QixGpF0=i)*-GWxGZiYNMG**W0Q,-x,QF;8W:FWi:,Y-,0FW8MW,:0Y8,F(x0,)Y8e:M-:x=F-*WWGiW*:MWFY80iY)!:0-WxxjM0:Mf*)Y,,0YY,YFM8:iX---W,0F,8-)GW0:{Y),-FW*iWiie8*xGF088)0WW:x-Mx:&X8)xMQ0GY:QYM,:FmW-,Y:Q-M,x)*8Gk0*,Ghgx,Y(x8Mi:*ux-ixRQ0:i:*QG-FY0F,))GG/:G*M,FrMM))-W0:W-xxMP:*)G)*FGFQWYx,MF!-xGG:QYGgW0xMM):WTQ)i-0aiW88i8*:GDj)000rM,*0GW-,xWF)8-i0*x--GQoG80iY)xW,-Wxx9M0:M4*)G-xxFW,8F*8:iH-)x0MMF88QiMY)x*Q)YWF*0oix*MG:2))-88i,)MG*Q)G*{i0Qi-*0GWQMU,0WFi0G:--0xWZM*iWFi-YxGxQQYmMi))W)iQ88,-Fi8)i,*Qx)FY0FMYF3WQ:0GGQ8YmM))-WWWWQ)0FMYFM8:*FWGQWYx,MF_Y8GW:G-Q,-9i09:FYYxFQ)0GFY8WiM*:Gm&-*0M*))Wx:M-:,),x)GWi:--0QG-:,%))W-:Ww:YiM*FxMWPW-,x,lY0,M))8W*:MYWH00WMx)MW::3Y)W-i08YMM*MG:Qz0-GGMQ*-G*Q)8*M*FG88:G-)xQ/Q,,F-W):--0xxM:FQ0:i-Y*GxPiYbM))QG)*iGx7-00MW)MWFG/a)G*MxY8,:*8WxQ:YvM))0YFGF:iYFMF-08YiW*xxFZ-x*Q*)MGFQGY*3Y0)MM):WUQ-V0YMMF)YxMQF*3QQYWM0)WWx::F)0*,)FWM:)xG)M,F*0GMMW-:0-Wxx^M0:-6:xY-Q*-Q,xFM8::):0-ix,pM0li,*WxF-QGWF08Wix*:--,0c)8,M,)iGi:+YiM--y,iFQ8W:F*QxYQ?00MW),WM::-m,*F08*QF-:,WFx8Miz*YYG:8FxxxiM*::,-,,)F-80ixQ:-QG:h-,QFGW0:W-xx:i:FG8W:**-xFm-YAiY)MiQ)ix0=W0xM:X--8x8PF08,:)*8Q:WY-M0Rx8ii))QG-NYY0MYF:W,i8G8:QY:,{))W0x:QQY:,DFi8x:*YxxY6G0x,Z8:i!-)x-X00WMxJW-::i-:,-F08WiMQ*-W,-YQ,,)0WW:x-:Y),GFM88:F-:xi%),,F)W):--0xxi*Z:WFi0*:x,Q:8hiF))GY:,-83FYWMW)xWM:zF00G,*),WQiQ*bM0F80Wi,*FWi-8x8z:0vi)*0YMx,5QYXF,8G:)--x0?xK}8Qi)**GWQ:,0:Y-8xGr,0iMQxFW8)WWx:M-:xmF)8-xMQWG8QFY:,b))W0xMQFYj,YF)8GQi*iG>mF,8kG8:i;-)x0M,Fi0niY*xGM)W0,,M*MWx:,Y*xi;M88M,)i:8-Yx:V=8)i0i,-iGtg,00M-8QiG-0xWHx0:G):**)GW)MY,,:F5W8:xGQQG00MW)xW:,FFQW*,x)iWM:G-QxW.-,Q))W0:W-xx:xW0iM,*-G0QWYMYQMW)WGGQGY*qY0FMM):WgQ-FxYQ,M*F8P:i-GxM0F,:)WWx:M-A8WMG)WWx:8--xiY,x8))W-:0-x-KM)q:W8i8*GxGQM0GM}YMMG),W,:,-Wx:Ni8-i0*WGWQ0YQi8*8G:Q60)M0M8*QGG:.x,#x8)i-*0Gx,:3,0)MM*Y:*-YxYQi0MM:)KG-MxQQY:M:)QW-FY-,xt>Q0:.QWG:8-J,)F-8Wxi:i-0x)F*0W)F8i:W-xxMLE*YWYiWYxx8Q:0WiFGii:--x0:W)*MM)MWuQFY-iGFW8-i,*iG:%)YNM0)8Wx:M-:xM,g8-i0*WG0QMYi,vF:*):0-WxxH80:MQ*)W):*Y8,WFMMziV-)x-:0)FMx)GW::QY)GMF08)iG*,G,QHYGM-)YWW:x-Mxx,:8)i-*0WQQxY,,:FM)t:--0xWQy0MMi)98!:FYY,YFxQxi:*dx)Q)0:MW)0WMiW-9,)F-Y0i**xGWQ:YMM)M)W0i0-WxMLG0nWW*-G0QWYxx*F:8M:)-)x0200x,xFYWp:iY-GJFW8xiMF:WGf)YQM0)*WxWx-:G:Qx8-MO*W-LQMY:,=))0x:0-*xxTx0:M:*)W)xGYW,-FM0Wis-)x-:0-QMx)0W::xY)Y)F000MG*MG8Q<i*M-)0WW:x-Yx:=x8)i)*0G0Qx-xx,F+8,:-)?xW}x0Mx:)YG):iY0,FFxFxi:):WWK-Y:MWi?WM::-w,):i80iF*xGxQ:Y:M)F)*G:W-)xMQW0=i)*-80:xYx,-F:8W:):)x0Q0YWMM)YWex:Y-,0FW8xMi*:GWc)0)M0)0Wxix-*x eG8-,4*WGxQM*:x:))8,:0*Qxxxx0:,:FMG-:MYW0uFM8:in-)8ij0YQMx)xW:::Y)x)MG8WMO*MWWQ_0)M-(08Y:x-)x:e08)8)*0W0:MYM,*FVQ*:--0xWEx0GM:)0G)Q)Y0,0Fx0xMG*DG8T--<MW)xWMM:*0,)aG80Mi*x*xQ:-:xW)-8x:WQ.xMw:0Xi)liG0:iYx,xF:8::)*)YG(WY:MMFWW&Q)Y-G04x8xMA*:G-I)})M0F08,:M-Fx=M:8-i0*WGx:FY:,-))W):0-0xxQxY*Mh)YG-iHYW,xFMY:M:-)G8a0Y,MxMxW:i:-M,-SW8WWR*MG:Q.0)Gi)08,:x-xx:r:8)M):GGW:MYMxWFnW):-)0G:_xY:M:))G)G)Y0x0tG8MMQ*cY:}-00MW)x8,::-),)F)80i0*xWxQ-Yl,*)-02:W-xxM::YYi))YG0:GYxYxF:0:ii--G0 WM0MM):WSQ))i,0uG8xix*:G:k)Y)8G)W8x:M*WxcF)8-,0FQGx:MY:xt)))):0*0xGlMYiM>:WG-Q0YW,xux8:M^-)x)1000MxFx8G:y-F,-Q{8Wix*M8:QY0),*)088:x:xx:Q:Y0i-)-GWxOYM,:FtW),i-0G87x0xM:):G):)cG,WVW8MMW*Ox)v--0,i)x8x::*:,),)80M0FpGM:,Yk0F)-W0:W-xxGT:Y:i)*)G0Q0YxxxFi8UMQ--WuUW0xMMm:WWQ)-F,04Y8x8x*:W:QQ0-,))W00:M-:x5F)-ii0)YGxQxY:,:))8)GG-WG0yMYWMK*)G-i0-i,xlW8:MM-)-)b0Y0,-)M8G:o=W,-F08Wix*xG::M0)M))0W0:x*xG)t(Yii-FcGWQxYMG:q*W)MQ-0G*NxHxM:F:8GQ-*s,WMv8Mi:*Kx)ii00,*)xWx::-:,)D))GiW)-GM:WYjM))-00:Y-xG05:Yxi)i)G0:0YF,MD88kY*--x0+W0x,0):8xQ)Y),0F08xMx)WG^:,0-xV)WWx:M):GMF)Yii0)FGxGxY:x:FYW-M:-WW0sM0:M/*)0iQ0-F,xFx8:i:-)G),G0W,))M8W:+Y),-Q088ix)-G::W0)0))080M:-MGYNe):i-*0GWQxY,,:VWW):)-0x04xYx,G)_8GQ-*N,WFx8M,:)Qx):,00xQ)x)x::*:GQF-YMiWG0GMQ:YyM)QiW0MQ-xxx_:0:i)))-GQW*2,MyW8?:)--W0Qx0x,)):80Q)Q),0^00,iM)*GX,W0-M0)WWx:,-:G0F)8)i0*0Gx:x-Q,Z 8W-Ml-Wxx1M-:,Y*)8GQ0*i,x,x8:M:)ix-:x0Wx0)MW::LY)WiF0Yiix*xG:Q:0),)iGWWM:-MGW&%8)i-F0W0Qx*_,:=-W)W)-0G0QF0M,F)#-WQ-Y0,WFx0)i:)-x)})00M0)x8x:*->GYF-YmiW*xGMi:YMM)&8W0M,-x-x+:Y:,:*-8WQWWY,MF:8j:)Fix0:,0xMx):W:Q)-)0GFWYMiM)WGv})0-x0{KWxM:-:G)F)F)i0)0WxQM*Q,bi:W-:0-WxxQe0:,)*)G)Q0Y0,x3x0*ie)*x-:d0WMx)M0::8Y)GYF0YGixixG:::Y0M-l0WWWG-Mx:1v8)8x*08GQxYx,:F:W)i))GxW:x0M,W)RG)Q-*0xMFxYMi:Fzx)x)00,0FYWMMi-ciMF-80iW*xG)Q:*_M)))W0:0-x8MQ00UM:*-:xQWxF,MF:0x:))*x0zW0xMM):8.8xY*,)FWk*iMFiGPi)-:M0)-Wx)Y-:F^F)0),M*W8GQM-G,w))W-M0)Mxx:,0:xQ*)*xQ0-0x0FMYMiO3Gx-#00W,WFiW:MiY)8,F08Wix)xGMQ=*:M-:iWW:x-Mx:oM8F,**08-QxYx,:%q00:--)xW),0Mxi)b0)Q)Y0,-Fxi)i:}8x)Q)YiMWvGWMGG-J,)F-Y0M-*x8,Q:*QM)M)W0i0*ixM:M0H-)*-G0QW-WxWF:Yi:)g,x0(W0x,xF,WQM:Y-8iFW8xiM)MWiyF*QM0M*Wx:M-:xlx08-,Y*W8YQMYM,IF))0:Y--xxQi0:xQ*)0-i:Y8,0FMQ8i.0-x-i0Y7Mx)8W:--Y)08F00WiW*MGGQZ:,M-))WWiW*Qx::Q8),Q*0GWQx*M,,Fg0F:-)YxWx%0M,M)MG)i)Y0*cFx8Mi:):GGc--*MW,)WM::-RGIGY80,-*x)-Q:Y1M))-8W:W)GxM:x0bM6*-W0iQYx,8F:*8:))*x0Q0Y:MM=iWOiiY-,0FWYxM,*:8Q_)-*M0M:Wxix*8xS:?8-Gi*WGxQM-M,G))0F:0zQxxOM0:,:FQG*i)YWWFFM8:iU-)Gj%Y-8MxsWW:::Y)x-ox8WiY*M,QQ&-FM-Q08Y:x-8x:008)G,*0W0:)YMGiF9)i:--0xW:x0-M:1QG)i*Y0Y0Fx0xi8*}8^6-i0MW)xWMiM**,)QF80GQ*xGMQ:-:xQ)*0):W,xxM2:0f,q):G0i*YxW*F:8n:)--GWhW-GMMmGW9:&Y-x0NY8xi8*:GFS)-*M0QW8i:M-GxIW,8-QW*WWx:8Y:,x))ci:0-*xxiMY*MQ),G--xYW,)FM0:M:-)GiB0QFMx)8W:i:-+,-QY8WMY*MG:QB-)x,)008:x),x:,08)M))GGWiWYM-0FsW):-*-G-2x-GM:,WG)Q-Y0x0_-8M,x*=)x.-00MW)xWW:i)Q,):P80i0*xWM:8YR,,)-*i:W)GxMi:YQi))iG0*FYx)MF:0:M:--WYAWYYMM):W?i)*l,0Q88x,,*:-0e)Y)MY)W0W:MFYx?F)8-M-*8GxiGY:W8))W-:0*0G8n,-xMRQGG-Q0YW,xFW8i,Q-)8Bc000MxFM8U:V-,,-*88W,G*M0::-0),i)0i::xF*x:Q:Yxi-FYGWxYYM,:Fm0)i:-0W8;x-,M:M:G):)Y),WQW8M-:*9x)<-Y-,Q)x0G::F8,)F-80M0)8G,ixYn*))-W0:W*WWpj:-,i)Q,G0QWYx,MFi8OMF--WF#W0WMMF:8QQ)-i,0ZG8x,,*:W{Q:0-,:)WF*:M-8x Q}Y:i0F8GxW8Y:,9))0-Mi-WWGPM-iMIMRG-:-Y*,xQx8:x8-)x-70Y0-,)M0,:qFY,-F08Wix)3G:iQ0)xF)0W0:x*MGQ%I0xi-:PGWiGYMxMF*W)M*-0**Zx0MM:ztW,Q-*Y,WQG8M8M*wWB:Z00x0)xY*::-s,)2)0piWF8GMMFY2M))-W0x8-xW,V:-ii)*)G0:W*i,MF08liG--WY%WYW,x):0QQ)iQ,0FW8x,M),GH:F0-xY)W)W:M*Mx*F)Y)i0QQGxQMY:x:F)W-M*-W0ivM0:MK*)8,Q0*8,xQG8:i:-)G-xW08M))MM0:A*F,-K-8nixF,G:W,0)M-)00Wx*-MWiS&YFi-i-GW:W)i,:Q:W)x,-0xW?xYxM0)?0QQ-FG,WFx8Mi:)xx):*00xY)xWx::*sG8F-0:iWFxGMiiY4G)u:W0iQ-xQ#1:,Gi))-WHQWYF,Mx88ji,--G-QY0xx,):-QQ)Y-,0QW0MiMFiGR:F0-0-)W8WiW-:W:F)*,i0*WGx:x-F,_QQW-M--Wxx#M0:Mi*)8*Q0*Y,xFx8:Mn*:x-Qi0Wx))M0i:n*LGlF0Y8ix)8G:Q70)x-FWWWMG-MWiK=FWi-)-:xQx*x,:Q8W):--0G0Q,0Mx,)K*MQ-Y0,WSW00i:FMx)MF00MW)xWMix-ZGFF-Y)iW*WGM::-8M)F,W0GQ-xW,.:Y:MF*-8YQW-Y,MF:8uM)-Fx0:80xx,):*0Q)-)G(F8YWiM_YG#5)0-,-)YWxMG-:88F)8-i0)0G*QM*x,U:GW-:0-WxxQ:0:xQ*)0RQ0Y0,xmM8-iz*Gx-)80WxG)MY:i8Y)x,F0M:ix}*G:::-WM-_YWWGY-Mx:{DY)8)*088Qx*,,:,:W)i)*,xW:W0MGY)/G)Q---,*FxYGi:78x)T-00,0F-WMMx-?WdF-80iW)WW,Q:*,M):,W0:W-xxMQv0.,F*-8FQWYW,MO:0::)*,x0GG0xx,):8:QxY-GYFW)YiM*:G%:)d)M0z8WxM,-:-:F)0),:*W8WQMM:,r))W-i--)xx:G0:G8*)G-Q0-0GiFMYxi(,)x-f00W,WFGW:M,Y)8,F08Wix*MW:QP-FM- FWW:W-MG:Q:8)M,*0WGQx*,,::K)4:**ixWW*0M:t)78+QMY0G8Fx8,i:*ex)Q)Y*M8uWWM,W-E,)F-808x*x8GQ:Y8M))-W0:W*GxM:i01xQ*-GYQW-x8MF:80:)Mix0QQ0x,MFQW>:8Y-*QFW8FiM)MG07)-*M0F*Wx:M-:W+2Q8-,Y*W8GQMU-,2VOW*:0)0xxG-0:M>*)W)ibYWG8FM 0i6-)x-Q-0YMxqWW:8WY),-F08Wi0*,8iQp*:M-)-WWix**x:pY8)W,*088Qx)MxFFV88:-8QxW8x0M,MF:G)i*Y0x*Fx8Mi:FbW0c--YMWUGWMG--aG!Q:80,0*x0*Q:YoM)F)8::W)8xMiY0yi)*-W-:YYGGWF:-8:)--x0#W00M,EiW%M:Y-,-FW0xMi*:GY/)WYM0L8Wx,M*%x/X88-)M*W0FQM-M,*))0*:0Q*xx}M0:x3)8G-iYYWGGFMFMi?)cW:f0-0MxGMW::tY)x)IW8W,8*M0YQh0)M-F-8Y:G)Wx:8f8)i-*0W0i:YMGGFX-G:--0xWDxY-M:{QG)MQY0,0Fx0Mi**{G8L-Y8MW{GWMi:*m,)&W800F*xGFQ:-:,,)-0Y:WiYxM>:0v,)F,G0i8YxG,F:F::)*)W:aW-WMMQYW?Q)Y-x-QM8x,G*:QYV)0-M0)W8x:M)ix9:Q8-i-*WWx:8Y:,-))0-:0)8xxQM0WMp)YG-8QYWxQFM0Mi:-)W*N0Y*Mx)MW:M{-*,-QY8W,G*M--Q=-PxB)000:xiWx:tw8)M)8iGWi8YMG-FNW):-*-W:7x-WM:8?G)Q-Y0,W9Q8M,i*48:z-0-MWFxW)::-*,)M,80,8*xWxQxY(xF)-8F:W-xxM::YGi)F*G0i8Yx0)F:0:MY--W-#W*FMM):WUi{78,YQY8xx**:GyX)Y),w)W00:MFYxgF)8-i0*-Gxi,Y:GM))W):0*WG8hM0FMaY*G-iYYWWxL88:i*-)Qxs0)QMxFxW-:2*F,-MF8Wix*M8::Q0)x*)008:x:xx:Q:*Qi*F-GW0xYM,:FD0vM:-0WYRx**M:)#G):)-0,WQ08M-:*yx)#-Y-,Q)x08::F8,)F-80iW))GMiiYUGi)-W-:W*xx8X:0*i))YG0i8YxxxF)8vMF--xYgW0xMMFM8iQF*),0888xiM*:G;x-0-x*)W8i:M-:xJF)0*i0F8GxiGY:,Q))8)::-WWGwMYWMO*)G-i0FF,xQ,8:,Q-)-)}0Y0,8),0M:%M*,-F08Wixi:G:ii0),8)0WW:x-MGirmYFi-F*GWQGYMx:M)WFi0-0*F(xYQM:F:F:Q**Y,WxY8Mi:*6W):800x8)x0,::::,).)0YiWFWGMMYY2M))-8-iF-xWG}::mi)*-G0QW*A,MQi8T,Q--x-bWYxM*):W)Q)7:,0Q88xMx)YGv:F0-YF)WWx:M):x)F)Y*i0F8GxGxY:x:FGW-M--W8FDM0:MUF WWQ0*Y,xiQ8:is-)x-:,0WxG)M0,:r-I,-f00Dix):G:Q80)x*)080iW-MWi&{Qii-*0GWix-x,:QQW)M*-0-0wxYxFY)=0tQ-Fi,WFx8MMM*Mx):F00W,)xWM::-Ux:F-YYiWF8GMQMYu,)FiW0ix-x:->:-Qi)))8xQW*G,MxG8U:)--W0Qx0xx,):0QQ)Q),0500*iMFMGeMG0-M0)W8WiG-iWiF)*8i0*WGxQMQ),lTFW-M*-WxWwMY:8)*FW0Q0*W,xQ,8:M:-xx-:Y0W,-)MW::#*)0iF0Y8ixF,G:G:0),)F*W8MW-Mx-Bk8)i-*08FQx*,,:F:W):)-0GWG)0,xi)4F,Q--G,W:x8Yi:FQx)Q000:x)x8xi*-JWIF-0FiW*xGMi:YFM)2)W0M0-xY)k:Y:M**-8*QW:),MF:8VMT*ix0:-0xY-):WvQ)-)x,FWYYiMM0Gk+)0-M0)-WGMx-:W,F)8)i0)WGYQM*i,%iGW-M--W8xQF0:xQ*)MiQ0MW,x;x80ipF.x-QF0WMx)M0::0Y)G)F0Y0ix:)G:::YxM-1*WW,F-Mx:KyYd,x*08-Qx)*,:FOW)i)**x8:Y0MGY)NG)Q-Y0,-FGYxi:F,x)o)00,WF*WMMi-+i*F-Y-iWUxWMQ:*QM)8xW0xQ-xGxX80Ixe*--FQWYx,MQ:8):)))x0:00x0x):8::iY-G*FW:xiM*:Gn:jY:M0(-Wx,*-:x{F)0)Fi*W8YQMM:,T))W-i-*)xx:00:G8*)G-Q0YWxYFMYMiJFMx-j-0W,xF:W:MQY)xYF0Y0ix)xWWQ6*9M-iFWW:x-MW:Q-8),)*080QxQx,:#:0i:-)*xW8%0MM:)J8Pi:YYG-Fx-*i:*ox)Q)YGMWSYWM,Y-m,)F-0-i0*x80Q:)8M))-W0:W*FxM:M0{xM*-G-QW-xxWF:YQ:),)x0:00xGMFMWNiFY-:*FW-,iM)MGiv)-)M0F*Wx:M-:W<ix8*,-*W8WQMk-,7wX0g:0)Yxx0M0:M+*)W):iYWG0FM*0iz-)x-Q-YMMx 8W:i0Y),-F08WiW*M8MQ4*iM-)-WWix*:x::Q8)-W*080Qx-xxQFkY6:--YxW/x0M,MFiGFiFY08:Fx8Mi:*T--q--)MWkGWM::-u,)L*80,0*x8WQ:YQM)F)*G:W)WxMQW0si)*-80:xYxGxF:Y::):)x0Q0Y0MMh,WuxWY-,0FW8xMF*:8:B)0)M0)0Wxix--xe:Q8-,=*WGxQM*:xx))0F:0)Yxxxx0:,:FiG-i)YW80FM8:i6-)8i^0-YMx)xW:::Y)W-Q,88,W*MQ)QJ-xM-F088:x)xx:GG8),**0W0QGYMGxF+0i:--0xW:xYiM:fMG)M6Y0Y:Fx0xi-*!8i_-::MW)xWMiM*:,)::80Y+*xGMQ:-:xi)-YQ:Wi)xMj:0Ki))}GYi-YxGYF:8::)*-GseW-WMM:YWrM:Y-W0F88x,x*:iGH)i-M0F08-:M)xxBQi8-i0*W8xQ-Y:GM))Yu:0::xxQxY,Mh3iG-,iYW,xFM0Mix-)8:(0)QMx)MW:i:*Q,*:Q8WxF*MG:Q(0),.)Y0-:x)Yx:7:8)M-FiGWiWYMiQFnY::-F0G,.x-xM:W0G),,Y0x0b08M,x*_-iL-00MWbx8G::)M,):y8080*xWx:0YlGi)-Q0:W-xxMQM0Mi)9:G0,QYx,MF:0:,*--8QpWixMM):W4i{-i,0:B8xx**:G 5)0-xi)W00:M)0x{jz8-M0)MGxixY:,F))Yh:0FWG0LM-,M#W0G-MpYWxx#W8:,i-))i50-0MxFx88:c):,-xF8Wix*M8:,G0)G_)00-:x:xx:Q:YQi*FFGWMFYM,:FJ01iF-YW)vxYqM:)1G)Q-:x,WQ08M,W*pG%U-Y00x)G0G::-8,):a80xW:WG,:QYaF0)-W):W*x*-Ai0Fi),iG0i0YxWMFM8_i*--GWfWWMMMFM8aQ))7,0d*8xiM*:8^Q00-x))W00:MQ-x9Q90ii0F*GxW-Y:,k))8):Y-WW-{MQ0MB*)G-:--Q,xQY8:0W-)x-e00WM0),0x:z),,-F-8WMx*xG:QF0)8,)00-:xFMx*?R0*i-0QGW0xYMxMF0W),P-0G*vx0MM:tuGFQ-*),WQ08MW-*3WaQG00x*)xY*::-T,)&)0iiWF-GMMYY&M))-8-iY-GWYt:*8i)*-G0QWY0,,Qx8/,,--x- WYxM-):WFQ)8Y,0Q-8xxM),GoQ*0-FM)WYF:M*MGWF)-%i0:*GxQMY:G7uGW-M)-WW0SMBMMlFvWxQ0**,x:*8:i4-)G)QG0Wx-)MYY:#Y),-E-):iGFYG:M80)M-)080:)-MW0Jm*Gi-*0GWQxY-,:QMW),M-0x0%xYM,G)<W*Q--8,WQ08MMM)Yx)iw00W/)xWM::)}xFF-Y)iWF0GM,=Y3x)F:W0M--xWWz:YWi))-F:Q8-,,MiO8V,:--80c)0x,i):iQQ)80,0d088iMFxGe:i0-M0)W0xiW-:WMF)-fi0i:Gx:x-*,jQiW-0:-WxxcMYM,Y*)0:Q0iT,xFM8:M:*,x-iQ0WY))MW::OY)8GFYY-ixFYG:Q:0),-FWWWi,-MF){T-:i-+0WiQx-i,:})W)*M-0G0hW0Mxx)rYxQ-Y0,WQx0Gi:FMx)iB00-,)x0Mi--5W:F-Y)iW*WGM::-8M)FYW00,-xWWn:Y:Y***8)QW)),MF:8qM)-Fx0:-0xxW):YiQ)*-xMFWY0iMFxGs,,0-,0F0Wxii-:8iF)-bi0)WWiQM-Q,DYiW-:*-WGWQ-0:xM*)YMQ0YW,xQM0,i>F:x-:)0Wxi)M0:xGY)WKF0Y-ixiiG::?p-M*F8WWMi-MWxvsY x:*Y8-QxY,,:F>W)i)*fxW:Y0M%:)HG)Q-Y0x0FxY0i:*Fx)X-00MWF)WMMx-qWMF-8YiWVxGFQ:-=M)8WW0xF-xGMR*0zM)*-FQQWYF,M.M0i:)F1x0Q*0xMM):0LY*Y-G)FWY0iM:-Gc:LY,M07*Wx8--:xZF)0)MF*W8-QM:0,{))W-i-*Qxx:Y0:YW*)G-Q0YWxiFMYxiZF,x-.-0W,x)GW:iwY)0,F0Y-ix&MWQQbY)M-YQWWYx-MGM))8)x{*0W*QxYM,:Q38x:-))xW:00M8-)q85iEY0G*Fx-*i:*?x)Q)0)MWv-WM,Y-6,)F-0-Mx*x8YQ:)8M))-W0:W-8xM:x0_x,*-G-QW-x,FF:03:)0Yx0:-0xGM*iWU:)Y-HMFW-FiM)MG8K)*VM0i*Wx:M-:WtQM8-,)*W80QMQM,otE8i:0)*xx8M0:M/*)W):WYWG-FM-YiJ-)x-Q-Y8Mx4YW:,8Y),-F000MF*M80Qe,8M-)0WW:xidx::M8)xM*0G0Qx-MY(FQ8):-*8xW:00MG:FYGF:*Y0pMFx8xi:)aW8R-YYMW,*WMi:-7GdFF80,-*xW8Q:Y?M)c-8W:W)0xM:x0(8W*-W-:FYxG8F:9W:)--x0Q0YGMM{WW}8xY-,0FW0WMK*:8GP):MM0)WWx:M-xxQ::8-xQ*WGWQM-:,)))8*:0QQxx:W0:G4FGG-:YYWQ*FM::ip)qG-60--MxF8W::gY)G-7Y8W,0*M8xQ.5WM-F-88:x)8x:i88)i-*0W0:+YMGWF -G:--0xWQWYGMivGG),,Y0,WFx8Mix*Q8:R-*QMW)WWMi:*i,)X*80QG*x8WQ:)RxM)-8Y:WGTxMiY0g,p):G0i-Yx08F:8a:))-WQ?W-0MMVxWkW/Y-x-7i8x,8*:kg?)0-M0F00Q:M)WxqiG8-i0*WWWMiY:GG))Q-:0-WxxQxY,MAAxG-,iYW,xFM8:iF-)8TX0*+Mx)xW:iH*Y,-XY8WM,*M8xQw*)x:)080:xGpx::i8)M-):GW:WYM-8FB8F:-*-x)Ux-WM:F,G)Q-Y0GW8,8M,x*?8:4-aMMWFW8)::),,)GM80iW*xWx:MY+GM)-n::W-xxMQMYYi)ziG086Yx,MF:8DMx--W)AW-*MM)MWj:)*i,0}08xG**:8MP)*-,*)W8W:MW8x_W)8-M--xGxiWY:x,))W-:0)WG8OM-xMw_:G-GMYWxWj*8:,,-)0,o00WMxFx8x:w)M,-ii8Wix*MWM:(0)Gi)0-Q:x-Mx:!P0:i-F)GWi*YM,MF;8)Mx-0G0fxWiM:vMG)M-0Y,WgW8M*-*f0GH-Y-xQ)x0W::Q,,)F-80,W)GGMixY_G:)-)-:W*WGF1:-,i)Q,G0QWYxxxsQ8l,M--8MJW0xMMFMWQQ))i,0iQ8xiM*:W::Q0-G:)W,G:M-:x_F)*GiYF-Gxi-Y:,:))8-MG-WGWHMYQMBd:G-M0Y8,xRx8:,)-):Fc0Y0,0)M0x:BFx,-F08W,x*YG:iM0)Gy)0:G:x)MG*V7-:i-F)GW:QYMx:FYW)i)-0/G?x-WM:F9*-Q*-*,Wx*8MMi*HWwWA0Yx-)xF8::-N,)Q-0YiWF0GMixYcY{)-8-iG-xW87:*8i)*-G0:0YG,MQW8(0)--x0?W0xM*):0MQ)):,0F08xMM*8Gy:Q0-:M)W00:M*Mx:F)-6i0Q4GxQMY:Gzi*W*M)-WW0wM08M5F)WMQ0*-,xQW8:Fx-)G-Q*0W,8)MW8:E):,-?-0FixFWG:MW0)M-)00Wi)-MWxS>-:i-iiGWix-8,:QMW),S-0Y-<xYM,8)e8QQ-Qi,WQ08MMMMFxFi#00Wn)xWM::)PG8F-Y)iWF0GM0GY%x)F-W0M--xWW&:Wbi))-W:QW-8,MWG8Z,:--G06F0x,W):FGQ)-*,0E08GiMFxGw:i0-M0)W0xMQ-:WMF)-Li0i:Gx:x-W,QQiW-0:-WxxgMYM,Y*)0:Q0iV,xFM8:M:*Qx-iQ0WY))MW::tY)xiF0Y-ixFYG:Q:0),-F:WWi0-M0Y<e-:i-D0WWQx-W,:YGW)Y--0G0nF0Mxx)r8iQ-Y0,WQxiii:FMx)i?000:)x8xii-;WiF-*iiW*xGM:MYGM)Q:W0xQ-xxMb:Y:MF*-0QQW)F,MF:8D:))xx0:-0xxY):W:Q)--x:FW00iMYQGhi:0-G0)-WxiW-:70F)*,i0)0x)QM*x,lMiW-:0-WWxxx0:xM*)0AQ0Q0,xNx8*i<Fix-Mi0WMx)M8MiiY)W:F0)Yix*MG:::Y,M-QQWW,F-Mx:E{Y9,G*00eQx,F,:FEW):-)ixW:00Mx0)uWoQ--0xtFx0Wi:*Fx)iJ00,W86WMiG-Z*,F-0)iW)W8tQ:*MM)ZQW0:W-xWM_G0>x:*-8)QWQR,M6M0,:)FQx0GM0xMM):8::GY-WmFW,GiM*:G_:U-,M0JFWx-:-:x2F)8-M-*W80QM*8,TFRW-i0G:xxQ80:W8*)0uQ0-0x,FMYxir)ix-U00WxxFQW:MMY)W&F0F:ix)xWFQk*iM-:iWW:x-MGMQ08)x:*0YQQxYM,:B:80:-FQxWiF0MM:)KG):8Y0G-FxYYi:*:x)Q-::M8FYWM^Q-<W:F--0MM*xW8Q:,0M):,W0i0*)xM:x0q8i*-G0QW*x,xF:YM:)F1x0x00x,xFxWoMiY-8iFW8xiM)MWGm)*:M0:QWx:M-:G:Qi8-xQ*WMxQMY:,eo;_Y:0F;xxi*0:M3*)G-:xYWG0FMY0is*Tx-Q00)MxF8W:WFY)WLF000,Q*M8xQfViM-)0WWMx*:x::M8)xX*0*0Qx-xx,F%Yi:-,0xW2x0M,MF-G)M:Y08QFx8Mi:):WQ%**QMWQFWM::-^Gu8Q80xs*xQFQ:YnM))-0,:W)0xM:00bMS*-W0Q0Yxx8F:8F:)F<x0Q0YgMMVxWvQFY-,0FW0Wi0*:8,#)M*M0)WWx:M*Wx_:M8-MF*WGxQMY:,W))YU:0))xx},0:,::0G*i)YW,GFM8:ip)OG:_0-*MxFFW::NY),-2,8W,-*MWGQ#0)M-)00M:x)Wx::x8)i**0WW:8YMxWFo},:-*FxWQx^:MiFGG)8iY0x*Fx0x0x*Q8:H-QFMW)xWMM:*-,): 80,-*x*xQ:-:,))-0F:WFFxMw:0 ,AF8G0i)Yx*MF:8(:)--GF&W-0MMwWWm:VY-x0^-8xMY*:M0 )*_M0F08):M)xx^ix8-i0*W8xxiYiGM))YL:0-Fxx:MY0M%&:G-i)YWQ-FM0:M:-)Wiu00FMx#WW:i:*Y,-Q)8Wx)*MG:Qj-)x,)00-:x)Wx:,88),-))GWi0YMGxFd)::-*0GM5xYYM:i8G)MeY0xW,M8,M0*(),J-YFMWFWFW:i)M,)GQ80iW*x8M:0YfG:)-0):W:WxMQM0xi)^QG0,QYx,MF:0:ix--8<.W)iMM):W+Q)Y),0Q-8x,0*:G:7)Y-,Y)W8):M-YxK::8-M-F:GxiWY:-,))W-:0)W0*_M-xMn_:G-G-YWxWmG8i,,-)0,h00WMxFx8):A)M,-iG8Wix*MG::-0)Gg)00):x-xx:QEY,i-F:GW*)YMGxF_8)MM-0WQkxQYM:F,G):)-E,WQ08MMG*yx)_--0,-)x0W::)M,),x80M0),GMiGY}-x)-W0:W*WYQUi-xi),MG0QWYxxxF)8!,,--):rW0xMM):8iQ)){,0QF8xix*:Wy:i0-xi)W-F:M)xxB:)Ygi0FQGx*YY:)D))8)in-WW0PMYGM/*)G-i0--,xQW8:,M-)-xj0Y0,-),0G:cFG,-F08WMW**G:ix0)W,)0WW:x*xxMf6-,i-QiGWQxYM,:=-W),r-0WFAx0xM:FHW:Q-*i,W*,8M,x*y8):x00xQ)x:)::F8,)q)0*iWF0GMxGYgM))-00W0-xWW3:-Mi)i)G0:0-G,MQG8qY)--x0IWYWxt):0xQ)F,,0FW8xMx),G{i,0-Wi)WWx:M*MG-F)-Mi0G*GxQMY:,mFFW-M)-WW)vM0MM5))WFQ0*Q,xJi8:,M-)G).:0Wx0)MY0:qY),-Q0*FixFWG:iM0)W0)00Wx*-MWxB&-:i-WiGW:xQ:,i18W)x0-0W-^xYxi0)50:Q-G-,WFx8Mi::)x)iQ00M0)xWM::-HW,F-Y)iW*WGMQMYz,)8xW0MQ-x:8k:-Mi)))8MQW*0,MkG8 :)--W0yY0xxW):0MQ)Qx,0H08YiMFGG1Wx0-M0)W8W:8-:WxF)QMi0*WGx:xY),kQ,W-0:-Wxx;M0:M**)0cQ0*F,xFx8:M1:-x*:i0W):)M0x:9))0)FYYQixF:G:MY0),)Q&W8M0-MxiJO8)i-)-W)Qx*8,:Y^W):--0xWyY0MxW)_8GQ-Y0,WFx0ii:FMx)i:00M8)xYM:i-4GWF-MxiW,0GM::Y8M)cxW08F-xGM1:Y:M**-8)QW-Y,MF:8%M)xYx0:-0xxW):*0Q)-)GGFWYYiMM0G=o)0-,-FQWxM0-:*WF)8-i0)0GYQM*8,axxW-:0-WxxQi0:xM*)0iQ0Y0,x<M0Wi_)Wx-,i0Wx0)MY::FY)GxF0,FixxMG:::8-M-r)WWiY-Mx:XTY)M5*08-Qx*W,:M0W)i)*ixW:Y0MGY)6G)Q---GiFxY0i:98x)4-00,0F0WMM8-o8GF-80iW*xGYQ:*MM)QiW0:0-xGMQ)0>,W*-,8QW*0,M::WQ:))xx0Y:0xG*):8:ixY-G)FW)YiM*:G=:)Y:M0g-WxMW-:-:F)0)M:*W8YQMM:,/))W-i--Yxx:00:G8*)G-Q0-0GUFMY8iU,)x-#00W,WFiW:MWY)8,F08Wix*M8MQQ*:M-Q:WW:W-MG:Q>8),x*0WGQx*W,:5c8):-),xWG*0M,-).8^:YY0G-Fxz8i:*Kx):--:MW>0WMMx-D-kF-0-M_*x88Q:)8M))-W0i0*MxM:W0ZY)*-G0QWYx-JF:YM:)F:x0K00x,M)QWvi8Y-iMFWY0iM)MWY4)*DM0:lWx:M-:WN/-8-,)*W80QMY8,KR)8f:0)-xx:W0:#x*)W-:YYWGQFM88i F:x-Q-0*Mx!WW:,WY),-F0YWiY*M8xQa*:M-:0WWMxHYx::M8)x#*0F-Qx-M,QF}08:-{0xW:00M,MFMG)MOY08_Fx8Mi:F7G-=--)MW+0WMGY-&G)v080,-*x8WQ:tMM)F-0i:W)QxM,Y0Ux:*-W-Q-YxGWF:-W:)--x0:WYGMMJxW?M:Y-)FFWYxGY*:8M=)*%M0-WWxiMs:xmQ88--F*W80QM-:xW))0W:0iFxxQ)0:,:),G-i)YWxYFM8:iE))GYS0--MxIWW:G0Y)x)FF8W,Y*M)0Q%0)M-F-8G:x)0x:GW8)i-*0W0:WYMG8FXJx:--0xW+x0WMiXMG)MiY0,0Fx0MMF*sW0m-FiMW?0WM,:-W,)QW80FF*xEMQ:-:x8)-0):W*YxM.:01,))8G0i-YxGWF:)0:)*)WG1W-YMMQYW.Q)Y-x-Qi8x,0*:082)0-M0F088:,)8x_iG8-i0*WGxQWYiGM))Yi:0-0xxQMYWMsF0G-F8YWG0FM-:MM-)WWy0,:MxQ*W:i:*i,-Q)8WWY*MG:Q^-),0)00-:x)Wx:x:8)M)*-GWiYYMWYFTW):-*-W,Bx-0M:MYG)Q-Y0x0H88,,8*o0Go-00MWFW8G:i)W,)0G80iW*xGMG)Y6G:)-Y::W-WxMQ:F)iFFWG0:GYxGWF:0u0x-*WGlWQ*MMF)W&M)*,,0Q,8xM:*:M)D)Y)x:)W00:M*GxUF)8-,0*YGxiWY:GM)))x:0*0x8KM-GMP,xG-Q0YWxWgY8:,x-))M_00WMxFx80:7),,-G:8Wix*MG:QM0FG9)00F:x-xx:QuYii-FGGW,FYMGxFfY)Mi-0W,?xxYM:GuG):)-:,WQ08MMG*?x)b--0,))x0W::)M,),x80M0F:GMiGY4WG)-W0:W*WGYs:-xi)Q,G0QWYxxxn,8Q,,--0irW0xMM):WMQF)U,0QF8xix*:WDQW0-xG)Wx,:M)xx_:)8*i0F,GxY)Y:W8))8)i*-WW0wMFGMm*)G-i0-),xQW8:,M-)-)r0Y0xZ)M0G:.M),-F08WMW)GG:ix0)W,)0WW:x*x0->Q-,i-x0GWQxYMxMFxW),M-00Q{x0MM:)JW,Q-*),WQ)8MiM*EG)QQ00x,)x8i::)M,)U)8FiWF0GMM0YKM))-00in-xWWI:-Mi)Q0G0iWYY,MQx8&,:--QipWYxY-)i8*Q)F0,0Q-8xxM)0G}:Y0-vF)WQi:M*MGxF)-Bi0)*GxQMY:GjF8W-M)-WW0_MF-M#FOGFQ0**,xx-8:i3-)G)QY0Wx-)MF0:nY),-K-0WixFYG:WW0)M-)0WW8:-MWx?j-,i-*-GW:xQ:,iL*W)-W-0W-=x*M8M)Q8YQ-*W,WiQ8Mx:::xF:800W*)x0x::*:**F*Y)iW^)GMQ:Y{x)F8W0M--xWWB:Q*i)F-WGQW*0,MQx8DY:--G07Y0xxQ):F*Q))T,04W0YiMFvG}W,0-xx)W8WiY-:WMF)QQi0*WGxiM-8,dQ:W-M)-W-W+MYM,i*F0QQ0FQ,xFM8:M:)0x-it0WUF)MW::?Y)x0F0Y-ixF0G:Q:0),-F*WWMM-M:0%r-:i-)0W-Qx*i,:xGW)MW-0G0!W0Mxx)pYFQ-Y0,WQx88i:FMx)iJ0000)x8xix-&WiF-*iiW*xGM:M:FM)Q:W0M0-xxME:03,Q*-8)QW*-,MFM8Ei)-Fx0:G0xx-):0MQ)-)GoFWY0iM)GG_&)0-x0)*WxMW-:WMF)Fxi0)0WHQM*G,bxxW-:0-WGWN*0:xx*)FMQ0YW,x6x0,iQF,x-W:0WMx)MW::MYFWoF0YFix*xG::AYFM-s8WWxF-MWxNV-),G*08GQxGY,:WHW)i)),xW:00M,G)=G)Q-*0xWFxYWi:FMx)xx00,0F8WMMG-%8GF-80iW)WGYQ:*xM):,W0:W-xGxQ,0Qx,*-YiQWYx,MF:8M:FFbx0:F0xMx):8d:tY-G8FWG,iMFxGRi)-GM0UGWx-)-:88F)0)M)*W80QMaG,R))W-M0*ixx:W0:xM*)*)Q0-0,*FMYGiBvGx-^00W,WFYW:MxY)8,F08Wix)x:YQo*,M-j-WW:x-MGMQQ8)xM*0YQQxYM,:F%8):-))xW:)0MMM)UW)Q)Y0GGFxXii:FMx)Q)0*MW_0WMGG-v,)F-Y0,:*x8WQ:*MM)M)W0i0*0xM:G0_GG*-G0QW-WxGFiYx:)Wxx0mW0x,xF,WQM,Y-8iFW8xiM)MWiRF*MM00:Wx:M-:x_x08-,)*W8)QMYM,jF))0:Y)GxxQi0:xM*)0-x-Y8G,FM-_iS08x-i0F0MGViW:G:Y)G)F00W8M*,8:Q&:,M-)FWWiWY-x::M8)FG*0GWQx*MY-FqY::-))xWxW0MM:F:G)MQY0,8Fx8Mi:):G*e-*&MWMQWM::-+G)FF80,)*x80Q:Q:M)F)W):W)*xMiY05i)*-W-:xYxG-F:0,:)--x0:WYxMMu0WgMxY-YMFW0WW8*:88.)MiM0)WWxix*ix&:W8-G8*WGxQM-M,)))YG:0i-xxlM0:MSF:G-M:YWWQFM8:i;-)GYI0-)Mx)MW:::Y)x)FW8W,**M-*Q70)M-?08-:x)Yx::G8)8)*0W0:8YMG0F2Q):--0xWQWYFM:b8G)iQY0,WFxYMi8*&8Gy-*iMWMmWMiM-G,):x80-F*xGMQ:-:,G)-Y,:Wk,xMB:0.,H)FGYMMYx-WF:8f:)--0F<W-FMMe)WcQ)Y-,08i8x,Y*:G#w)0-M0)W--:M)GxEF)8-iY*WGxiYY:GM))W):0-0xxQMP+MQF)G-8MYWG0FM-:W:-FW-V0WQMx8QW:i:Yx,-Q)8WiG*MG:Ql-f,F)Y0*:xiMx:}H8)i-iWGWi-YMG:FNW):--0G82x-WM:.xG)Q*Y0x0Mi8M,x*(WMV-00MWbx8i::)M,):98080*xWxQGYnGi)-*M:W-xxMo:0xi)s_G0Q0Yx,xF:0:ii--WF=WY-MM):W=i)-*,0Q*8x,8*:*:5)Y),,)W0-:MxxxnF)8-i0FFGxi8Y:,:))W):0FWWQp,-xMPW0G-8,YWxxv88:,M-))it0-8MxFx8F:u)M,-RF8Wix*M8::,0)G:)00):xQ)x:Q:Y8i-qQGWW)YM,:F50{MG-083XxQ-M:)+G):)-0,WQF8M00*7x)t-00M-)G00::)8,)F)80MW)xGMixY&8G)-Y(:WFxGWb:-Mi)0iG00WYxxxF,8w,M--GF%W0xMM7:W)Q)):,0Q)8xW)*:W::Q0-GQ)WYF:M-:xtQRYWi0v2GxM*Y:,O))8)i*-8WFUM*YM_*)G-Q0Y-,GQ08:,8-)x)N0YW,i)M0x:+8*,-:Z8Wxx)*G:iM0)Fx)0-Q:x*xxF5j-Mi-:FGWQxYMG:F,W),:-0W)cx9xM:F:8:Q-)Q,WWx8Mi:*PWe::00G()xY*::-w,)V)0*i8FFGM0:YwM))-8-:)-xW)H:*8i)*-G0QW*Q,MQW8.,W--x-4WYx,-):0MQ)-Y,0Q)8xxM*FG&ii0-Fx)WYx:M*:xxF)-Qi0MFGxiWY:W2,)W*MF-WGMSMW2MlFcW,Q0*),x:-8:iU-)W-:Q0Wx-)M0W:g*Y,-Q08-ixF0G:ix0)0Y)08WMi-MWGN4YYi-;kGW:W-:,:QxW)MQ-0xW!x-MMi)w0MQ-)z,W,A8MMM)xxFii00-B)xWM::*:x0F--:iWM)GMQ:YJxck,W0,Q-x*-l:0.i)*-8xQW*-,MQY8civ--G0Q:0xx8):-8Q)):,0:W8FiMFGG *,0-*0)W8W:*-:WxF)YQi0*WGxiM,Q,DQMW-,X-W-1jMYMMF*)0iQ0FQ,xFM8:M:*8x-i:0WGF)MW::m*Xx:F0-QixR*G:Qo0)M-FYWWM--MWYbJ0 i-)0G8Qx*8,:-FW),:-08W{80MxG)T:WQ-Fi,WSWW-i:Fxx)xQ00MW)x0MWM-fWMF--hiWiWGM:M--M)QiW0xQ-xxMs:Y:,x*-0:QW)F,MF:8sMo)ix0iQ0xG*):WvQ)-)x-FW-/iM+YG1E)0-M0FiWxM0-:W0F)8)i0)W8QQM*G,TF*W-,;-WGWOx0ixx*)YMQ0YW,xQM8,ioFMx-iB0WWM)M0::QY)W:F0Y)ix0xG::%-xM-(FWWxM-MWWSo-),M*08*Qxx,,:-)W),-WFxW:Y0M3G)DWFQ---x:FxY0i:),x)N-00xWF*WMMW-TWMF-FMiW)W8QQ:*GM)xMW0:W-xGxQ-02xx*-F:QWYx,MkM0::)F,x0Wz0xMM):WT:4Y-WdFWYFiM*MGPQ)z0MY_*Wx-o-:WxF)--00*88YQM*.,58xW-i--Fxx:00:GW*)G-Q0*WxWFMYWi.FMx-WG0Wxx{DW:MxY)W:F080ix)MGFQr*iM-xGWWM--MGM F8)x:*0YeQxYM,:Q/0Y:-FZxW:-0MG,)O8)xiY0G)FxY0i:QGx)Q-+WM8EYWM,,-wWMF--0W0*G88Q:x-M)-0W0:W,-xM:W0ki)*-G0QWYx)0F:YG:)--x0UY0xMMGWWDMxY-xYFW8xiM)MF_a)*,M0Y:Wx:M-:G:VG8-xM*W*-QMY:,m1J08:0FixxMx0:M+*)W):WYWW:FM:Yif-)x-Q-Y)MxQQW:W*Y),-F000M:*M06Q/-*M-)0WWiW*:x::F8)):*0GWQx-xxiF{Y):-MxxW^x0M,M)YG)M*Y0-QFx8Mi:):G,m-*-MWF8WM::-EG6?F8YxY*x*GQ:Y!M)F)8*:8F0xMii0Ki)*-W-:YYGW8F:Mi:)--x0Q0Y8M,QWWeiGY-,0FW0WMG*i0G_):,M0)WWxix*,xQix8-}8*WGxQM-Mxi)F-,:0,8xxpM0:,:FQG*,MYW0*FM8:iE-)8QoY*_MxQ)W::QY)x-,W88,**M8*Q^*xM-)0Q):x)-x:Q*8)i-*0W08xYMGYF5FW:--0xWQW0FM:.0G)8*Y0,WFx0xMF*p88%-G)MW)xWMiM-Q,):W80-x*xGMQ:-:,8)-YG:W:)xMl:0p,OF:G0MxYxG8F:8N:)*)GG&W*,MMi:W2Q)Y-x-FF8xxM*:M-4)0-M0F08Y:MFix!M*8-i0*WWWQ)Y:W:))0*:0-WxxQx::M<QQG-,:YW,xFM0MM*-)0Er0:xMx)MW:i:-G,-:F8WMW*MG:QK-P,*)0Y):xi:x:f68)M)))GWM*YM)WFaW):-*-GGcx*-M::YG)Q-Y0x0QQ8MxY*y-xE-00MWFW8)::F0,)-G80iW*xWx:,Y3W8)-M-:W-xxMQMY:i)QWG0QYYx,MF:0:0)--0GVWFMMM):WPi9-0,0ix8x^-*:GNT)Y)xi)W-,:MiMx{F)8-M-)0Gx,MY:xx))W-:0*0xGEM)iMKG8G-Q0YWxWo*8:G:-)Q)O00WMxFxWW:/7Q,-iY8Wix*MWM:00)8k)08*:x-Mx:Q:0Mi-QFGWWYYM,:FJ0XiM-00)lxF8M:)NG):)i0,Wi*8M-0*Ax)5-Y-x,)x--:::G,)F-80M0*0GM,YYVQ0)-W0:W*WGQ1:)0i)08G0QWYxxxS:8VG8--8xKW0xMMFM8-Q)fW,0x)8xiM*:W::80-8G)W0::M-:xVQwYii0:xGx):Y:,w))8):--WY,UM*8Mc*)G-:--x,xMM8:ix-)x-=0Y0-x)M*i:TMG,-F08WMW)*G:x:0)Gi)0WW:x*xx-u9FQi-8:GWQxYMxMF)W)WV-0Q*wx0MM:F:GFQ-!F,W8 8Mi:*fW9:Q008))xJF::-t,)N)8YiW:*GMYMY>M))-8-iM-xY-f:*Mi)*-G0:0-),MMY8TW)--x0jWYWM-):*0Q),F,0FW8xiMFGGQix0-0M)WWG:M*:Y)FF-ii0x_Gxi-Y:,vWMW-,:-WG:qM0:MZFPF-Q0)Q,xGi8:ic-)G)QY0WGd)MQx:XY),-#-YMixFFG:x*0)M-)080i--MW)bu*ci-*0GW:W-Y,:Q*W)WW-0xW%xYx,Q)!0-Q--),WFx8MMM*Fx)iY00WM)xWM::*:x8F--0iW::GMQ:Yfx5/8W0,8-xiYZ:0di)))W0QW)W,Mi)8_:)--G-QY0GGG):riQ)Y-,0}008i,OxGRMi0-M0)WWxM8-iWWF)*Ni0*8Gx:MQf,QQ,W-Y*-WW)<M0:*x*)0MQ0YW,xFF8:M:-xx-ii0W,Y)MW::9*)*)FY-QixF*G:-F0),)FYWW,/-M-x{!8)i-*0G8Qx**,:F:W):)-0GWQi0Mx0)l:*Q-)i,W/W0Fi:F8x):Q00MW)x0Mi0-vWGF--iiW8,GM:M-8M)QxW0W--xxMc:0N,G*-0iQWYW,MFM8zi)-*x0iN0xYG):08Q)-)GfFWYFiM)GG7=)0-x0x0WGM*-:W8F),Yi0)0G0QM*-,n0YW-:0-WxxQ*0:x8*)G)Q0Y0,x^M8GiNFxx-GY0WxF)M8Mi-Y)W,F00*ix*MG:iL-JM-QiWWMF-M:QUdYkMq*00:QxGQ,:F_W):-*,xW:F0MMM)kW;Q--0x0FxY-i:FYx)i,00,0FHWMMY-qGiF-80iWFxFxQi*8M)Q,W0)G-xGxQ00(xW*-QGQWYx,MF:8i:)F,x0=00xMx):8Ai8Y-W:FWQ)iMFYG>:o-iM0QQWxi8-:xmF)Y-,i*W8FQM*Y,p0*W-i--0xx:)0:(M*)G-Q0YWx:FMYYi2*Zx-<-0W,xFGW:MWY)x8F0-Qix)xGMQL*GM-FFWW:x-MW:W:8Fx,*00QQxGi,:c:8F:-FMxWWY0MM:)zG)iMY0WQFx8xi:*:x)Q-Y8MWH)WMi8-XWGF-0-,i*x8*Q:-,M))-W0MW-0xM:Y0qxG*-i8QW-Wx-F:Y0:)isx0pW0xMMF-W2MGY-,-FW8WiM):WQN)*MM08xWxM*-:G:q,8-xi*WWYQMY:,&#)q):YFQxx:*0:FF*)W)QFYWW&FMYFiD-)x-(0YiMxN*W:::Y),)F00WiW*M80Q2T-M-QiWWiW*8x::88),Q*0GWQx*M,-FkYG:-FixW-,0M,MFxG)MxY0W,Fx8Mi:*pW,h-*iMW)WWM:M-Px)QM80x=*xG8Q:*8M)F)8_:W)FxMQG0^i)*-80,FYxG*F:Y8:)WYx0Q0Y8M,7-WA*YY-,0FW8x,Y*:88S)0)M0)0WxiM:KxQ:x8-WY*W8FQMYM*i))Y,:0--xx?M0:M5i-G-MMYWGFFM8:iH))Yi30*iMxqYW:MYY),-:Q8Wx.*MGMQZYnM-)0)x:x)Fx::88)i-*08W,*YMG)F!Y,:-,:xW#x-YM:_YG)Q)Y0,0Fx8M8K*c80N-*iMW)xWMM:3G,):880,F*xNGQ:Y&G,)-Yx:W-WxMvM0/MMWQG0M,Yx,xF:8Q:)*zx0wW)MM,):W MxY-,0FW8xG:*iGrV)*WM0)WWx:Md7xQF)8-xM*WGxQMY:W))FW-:0Fixx&M0:MxWiG-MWYW,YFM8ii_*Qx->0)xMG)MW:M-Y),-F08WGM*,G:Qd*xM-)0WW:xl:xiJc8)x8*0GWQx-MW0FeYM:-*0xWiM0MM:FWG)MiY0,WFx8Mi:*aGi!-*QMW)xWM::-fG)7Q80xV*x8QQ:x)M)A-8M:W))xM:00y-M*-WjY*YxG)F:8Q:)-*x0l*0xMM:LWQQ)Y-WQFW8xiM*:0)IF0-M0)YWx:M-:xAi-8*i0*W8iQMY:,{))-0:Y-Wxx:i0:M/*)G-,WY8,xFM0)i&-)x-20Y8Mx.-W:M0Y),*F0YWG**M80QX*MM-F0WWMx&Yx::88)MY*0i*QxYMG8FlYx:---xWmW0M,:i)GF:YY0Q*FxY-i:F!-:}-*:MWF,WM*x-{GB2F8Yx:*x:0Q:YeM))-Fx:W))xM:-0#MT*-80x-YxG-F:YW:),:x0n)MYMMZ-We:,Y-,YFW8WiM*:0)yF0-M0p8Wx:M-:xai-8*i0*WW,QMY:,j))8*:0Fcxx:)0:MQ*)W:YFYWG)FM8,iN-Fx-BF0WMx::Wi:tY)xyF08Wix*MY(QQ0)M-F8WW:x-Mx:i)8Fi-*0W-QxYM,:F?--:*-0xWQF0MM:)HG),0YY,WFxY8i:*rx)X-yWMW FWMM0-#,)F-80MQ*G8*Q:YQM))*W0MWQ0xM:Y0#M**-:)QW-WxGFiYY:)8Qx0zW0xMMM)WKMGY-W,FW8WiMF:-M!)*,M0QQWx00-:xw,-8-x,*W8)QMY:,B))8*:0FQxx:F0:MQ*)G-YHYWGFFM8:i_-)x-QbM*Mxc)W::XY),*F088ix*MYUQQ0)M-kiWW:x-MG:,)8Fx,*0,8Qx*),:Fxii:-FMxW+-0MMi)&WQQ-Y08xFG8Mi:*Fx){-00MW:MW,::-aWMF-80iW*xY:QiYEM))FW0:W-xGMxZ0QxG*-:QQW)R,MF:P*:)F,x0D00xMM):WpGQY*,0FW8GiM*:G.QAYMM0)WWx:x-:x4F)8FiF*WGxQMYJW-iY)-Wx-YxF1M0:Mh*-*WGQQiY:M))iWxQ*G:_00WMx)M*W:3-&,-F08Wix*MWMrW0)MF)0W0:x-Mx:1KF-i-*)GWQGYM,:F5W),i-0xY7x0xM:):G):-QW,8FW8Mii*cGQ5-008Y)GWM::-Q,)F-80i0*xGMQ:YO,Y)-W0:W-xxM?:0vi)*-Y0xWFx,GFW8;:)--xWM,*:8,iG80:Q-Q,0FW8xi:d)Y*x)3WM*)FWx:M-:,):8Fi8::8-ixXY,x8))W-:0-x->M)5:W8i8*GxGQM0GM#YMMG),W,:x-8xQV,8)iF*YGWQ8Y:i8*8G:Q%0)M0:,*8WWQQx:uO8)i-*0GWQxYM,:Fi8M:--0xWIM*,8G:8-*x8Y*,-Fx8Mi:-)-M,8z8MY)-WM::-h,-MW)GW-QF*,Q:YwM))-W0:W-x0:M:0iMY*-G0QWYM0FiF)-G8:HYYxqF68Y:Y*0x0Y-,0FW8xiM*:G9F))YxW)WWx:M-:YxF)8-i0*WGxQMY:,x:-W-:0-WWiJM0iMK*FG-Q)X0,xFM8:M*-)x*s0Y0i))MW::=-0,-F08Wix:0G:QQ0)M*)0WW:x-Mx:dQ8)i-*-GWQGYM,:,FWF:--0x0lx0MM:QoW0Q-Y0,WF88Mix*!x):i00MW)xWG::-&,):-0FiW*xGMQ0Y;,i)-W0:8-xxMv:0Mi)*-G0:0-i,MFi8qiN--x0wW-x0x):WQQ)Y*,0AQ8xMx*iG{Q>0-,Q)WWx:M*MxiF)8Fi0*8GxQMY:x:FQW-:)-Wx*.M0:MqFO8WQ0Y*,xFF8:i7-)x-QG0WMG)MWG:J->,-&00*ix*MG:Qx0)M*)0WW:)-Mx:hA8Fi-*0GWQxG0,:FSW):--0xWhxYxi0)>G)Q--M,WFx8MMM)ixFR*00,,)xWM::-xjiF-8-iW*xGMQiY;,:)-W0Gb-xxMe:0:i)*-G0QWF),MF:8&iQ--x0gW0xW-):W;Q)-r,0FW8xiMQ0GdX)0-M0)WWx:M-:GQF)8-i0*0GxQ,Y:,(MQW*:0-WxGrM0:M_*)G*Q0YW,xF)8:i&-)xFQ%0WMx)MWv,QQi0,M8),i8)*G:Q+0)M0MM*:Wxp*Y*,Y)Y8W:Y-MiW-Yx8S808M-)xWG:oY),-F-8)i,Y*,*Fx8Mi:-)00,8X00M)8W8::-e,)F0-,WF:)*,Q,YxM))-W0:x.i8K,iF,,W*FG)QWYx,MFU)xGY:Yx0 W0xMM):W_Q)O880FW8xiM*:GLV)0-WW:WW8:8-:xDF)80G,:8*WxQY:,#))W-:0-Wxx&M0:,d*)G-Q0YW-,F,8:iV-)x-b00WGxVQW::LY),FF08-ix*MG)Qf0)M-)YWW:x-M8:sM8)i-*0G8QxYx,:F#88:--0xW!W0MM:)S8m:WY0,8Fx88i:*Xx):-#-MW)GWM:i-BxMF-0-Mx*xGxQ:Y0M))-W0i0-)xM9,01M,*-G0QW-WxYF:8M:)*xx0_W0x,x)8W(:iY-x:FW8xiM*:G,v)0*M0)*Wx:x-:GAB*8-i0*WGFQMYi,%))8M:0-WxxwM0:M2*)G-)(YW,xFM8,iA-)x-/0FYMG)MW::QY),-F08Wix*MG:QL-WM-)0WW:8-0x:mJ8)i0:W-Qx0SF8FFi8i:--0xW4M*Q8Wi**iQF-:,WFx8Mi#Q0-,xiF)8,:F*0:,-W,)F-80ix:Q-YxGd,8YM:)x:Y-WxMO:0qi-)YG0QWYx,MF:8c:)--00BY0)MM):WoQ-Q:YGM*)#WQ:--YQQY,M0)WWx::Q)YG,MF8WF::-ix)Y,,M))W-:0-x-QxhF-Mi)iG-Q0YW,M,h)-W*QYxF{)0WMx)MWIGYQY0xF*8Yix*MG:U)-ixQ)*W-:x-Mx:F)FMW*:)GYQWYM,:F{W-i--*x*Kx0MM:*)-8x,j)0-F88xi:*Sx)O0-XMY)FWM::-(,-,iF:W,ioY*x)jG0W)FW):W-xxMqOF0WWi-G*Q0Yx,MF:W)iW--x0LW0xMM):Wv()FY,*FF8xiM*:x),,FG0Qi-**G)-,x0F)8-i0*x*QxQ#x8)i,*GGiQ-Y0RG0xM^*)G-QWR-Yii*8,i,-)x-r00x8-MQ*xGM-Q,)F08Wix*:8MQiY*M-)0WW:MQWY8MY)G8 :Q*cG!KY00i*)WWW:Y),tx0MM:) -WQ-Y-,WFx8Mii*Dx)QQ00MY)xWM::-t,)F-YDiW*0GMQMYTM))-8-iY-xx8s:Y,i)*-G0QW-Y,MFx8vi:--xF{W0x,0):WiQ)YF,0F-8xi0)QGHQQ0-,W)WWG:M-:xU>:))i0*WGx::Y:,Q))W-W5-Wx8LM0:M>*)G-Q0Qx,xFW8:i:-)x-{0Y0,8),WG:#*i,-F08WixxYG:QM0),+)0W*:x-M:,/S0Qi-**GWQ0YM,:x*W):F-0x0ox0MM:F:GxQ-Y*,WF)8Mi:*1x)x000M-)xWx::-P,)F--QiW*8GMQMY ,()-8gxx-xxGn:YMi)**G0Q8Yx,WMM8I:)--G)&W0GMM)x*:Q)Y-,0Q_8xi,*:GIxM0-M*)WWx:M-:xqQ))ii0*YGxQGY:,G))W-0G-Wx8wM0MM *)G-Q)90,xFM8:W)-)x*A0-)xQ)MWM:#*8,-FY8WMi*MGxx:0)M-)00i:x-,x:UMFoi-*0GWi,YM,iF_W)W:-0xY>x0MM:)BG)i-SQ,WF88Mi,*.Wx}-00-,)xWG::-:,)F-80i-:WGMQ:Y{0-)-WY:W)xYW=:0ii)*)G0:iYxxx#,8Qii--G)(W0xMMFM8iQF-:,0F)8xiM*:GLG00-M*)WW-:M-Mxl:MYGi0*YGxi0Y:,Q))8W:0--YWyM0:MLqMG-QYYW,0Mx8:ia-)8xr008Mx)M*W:n-Q,-F08Wix*M8:,G0)MF)0WY:x-Wx:DfQYi-**GWQWYM,:Ff8:G)-0xW4x&:M:)QG)Q-QJ,WF88Mii*rx)7-00cY)xWG::-i,)F)80i)*GG,Q,Y%W5)-WY:W-xxMmxF:i)*-G0M0Yx,,F:8hWM--x* W0xMM):Wvi)Li,0FY8xiG*:WQ7)0--G)WW8:M-MxVF)8-i):0GxQMY:0)))W*:0-WY-UM0,Ma)JG-Q0YW,xYG8:ii-)xF9000Mx)0->:m-Q,-iQ8WiG*MGiQUY:8))0WW:xFYx:XQ8)Ml:-GWQxYMW*FRWF:--0Y)fx0GM:)PG)Q-Y0GWi*8Mi,*1GQS--QMW)x>Q::-i,)F)80iW*xGWxMYuM))-)W:W-GxMh:Fxi)*FG0QYYx,MF:8yFQ--x*{W08MM)MWX:MY*,YFY8xGG*:GQq)0-M0)-*W:M-:xqMQ8-iY*WGxx0Y:,i))W-:0-Wxx:M)8ME)QG-Q*YWxWFM8:0*-)xF=000Mx)MW::MQT,-F08W8M*MGiQ9-)0+)0WY:x-xx:EY8)M))*G8QYYMxxFPW):-*-GYLG00M:FMG)Q-Y0,Wx:8Mi,*(GMD-0-MWE-,Y::-i,)Mx80i8*xWGQ:YM0n)-W0:WQ(xM+i0/M::)G0QWYx0,F:8Q:))-Y)IW08MM)MWz:8Y-x-_Y8Gi8*:WMP)0-M0F088:,-WxeQ:8-i0*WGxWdY:,i))8::0-0xx:0Y*MV)QG-xYYW,GFM8Gi!*:Y)/00WMxi,W::QY)x+M-8Wix*M-GQn0FM-)0*):x-Gx:I68)i-*08W,*YM,,FB8Q:-*ixWux:QM:)iG)Q)Y0,WFx8WWM*Zx)b-KWMW)GWMMW*Y,)F)808:*xG,Q:Y0M)Fc*-:W-xxM,-0}iF*-0NiiYx,xF:)0:)-*x0H80xMWiMW/Q)Y-YMFW8GiM*x-:A)0-M0MxWx:,-:x3,M8-i**WGxQMY:,qX)*i:0-YxxSG0:Mi*)G-8GYW,8FM8MiV-)x-7)F0Mx)MW:G)Y),*F0YWi8*,G,QK0FM-F)WW:xWGx:^i8)i-*0GYQx*0x*Fw8Q:-:*xWzG0M,^)%W:x)Y0,WFxFGi:*Qx)Q2F-MW)xWMWF-w,FF-Y0,)*xGGQ:YQM).^W0:WW8xM^,09i)*-G*QW*-:YF:8i:)ixx0A80x,*):WMGfY-,0FWa<iM*iGR=)S:M0)YWx:M-:x.F)Y-WQ*WG8QMY,,4=MW-:0M,xxEG0:M:*)G-Q0YW0-FM8,i}-)x-900Wxx:YW::iY),FF00Gix*M)FQ{YQM-)-WW:x-MW::x8)iF*0G8Qx-W,:FO,Q:--*xWox0MM,)U0MiGY0,YFx3xi:*Qx)Q-00M-iWWM::-Z*4F-8YiW*0-xQ:Y5M)xWW0:8-xWM:W0?MQ*-GYQWY-,MF:,i:)-Fx0oW0xMG):0xF,Y-,*FWAFiM*iGzQB0-M)i0Wx:M-:*8F)8*i0*W--QMY,,>))W-:0-WWxMY0:Mi*)GFQ0-0,xFMcFiS*Qx-j-0WMx)MW:GxY),FF08Wix*MG:iHF,M-)*WW:8-MG-Dq8)Y8*0GYQxYx,:FDW):-Q*x8<x0MMi)IG)Q-Y-,WFx8Mi:)0x)j-00MY)-WM::-7,-i8-xW8:YW)Q,Y:M))-W0:x:MxGA,0%i)*-GWGMQ,,GFM8 :)--xWxM08MM):W_Q)YF,FFW8xiM*30Y,FN)8G)YWW:M-:xgF-**i**-GxQMY:M)MM*8W8-YG:pM0:Mk*-08G0Q=0*M0*FWx:0Y*,iF-M8)FW::jY),0ix),8xi%8-xGDY0:ix)i:8-8x:>q8)i0NG-)Gi38,,F:W):--0xx,:0GMG){G)Q-YW87M0**8i*iGiB-00MW)M-LxF:!Y0FF8-iW*xGMQ>0:,QF:W0:W-xx:,*FW8::**xQYYW,MF:8p:-:Gx*f-0xMM):G),,Q8YxFW8xiM*:G!l)0-WW:WWx:M-:x(F)8-i0*WGxQGYM,^))W-:WTWxx.M0:M2*)G-Q00W8,FG8Mi>-)x-bWFGMxQGY,,iFQWF:*,YG,*MG:Qc0)M-)0-WGx(Mx,5-8)i-*0GxMiF*0*MQ)MGYd,-MxGFWWF:GG)Q-Y0x0i88Mi:*BGQU-00MW)xW,::-Q,)F-80i**xGMQxYd,e)-W0:W-xxMQ:YMi)**G0Q0Yx,xF:-nM6--xYqW00MMF0W/iZ-M,0F08xiF*:GXU)--xc)WWW:M-MxKQW8-,0QFGxQxY:,:))8,:0*W-M4,0iMb)FG-Q-YWWxM-8:iQ-)GWK0Y0Mx)MWx:I-_,-F08WiG*MWM:80)MF)0W8:x-Mx::_0)i-**GWQ8YM,0F?0biW-0x-jxY0M:)EG):)-Q,WFY8MMx*Ex)m-Y-xM)xW0::*M,)F-80iW:FGMQ8Y^MF)-W0:W)xx,}:0Gi))iG0::YxGMFG8li,--GQ=W0*MMy:W,Q)-i,0FF8xM**:GPQ)0-M*)WW*:M-MxkZ)8)i0*0GxQ0Y:,i))8-iQ-WxGBMY8My)JG-Q0Y0,xFM8:i:-)x)z0-WMG)MW::vY),-dG8Wix**G:Q=0)M))0W8:x*x0,9R8)i-**GWQxYM,:FiW):*-0xW9x08M:)LWGQ-Y-,WFW8Mi:*dG)Qi00M8)xWx::-:,):-0YiW*GGMQxYcxx)-8-i:-xxx{:0Yi)*-G0iW-:,MFM8{iJ--WMaW-xWY):W:Q)Y),0{Q8xMMiIGQ.F0-,Y)WWW:MF:Y:FF8*i0)MGx:xY:,gWMW-:--Wxx{M0iMnF3GMQ0YY,xF,8:i=-)W-,Q0WM8)MW,:V-x,-Z-0YiG*WG::M0)M-)0WWG--MxGt_0Qi-*0GWixFY,:F,W)iQ-0G:;x-MW8)EWiQ-YF,WwY8M,:*ixFQQ00M*)x8G::*:pNF-0=iW)0GMQ:Y(x/)FW0:F-xGGu:09i)*-WFQWY8,MF88Oi1--G0A80xMx):WxQ)YF,0<W8*iM*iGt:,0-M-)WWxiM-:x{F)8)i0*0GxiMY),w))W-:0-WGi5M0:,i*)G-Q0Y0,xF,8:i=)ix- 00WMG)MW::A*)x)F08Wix*MG:Q)0)x-i)WW:x-Mx:Th0)i-)-WYQGYx,:FFW):--0xWG:0MM:)3WgQ-Y-,WFx)Gi:*ax)%-00MW)x8xi,-Q,FF-8FiW*xGM:M-iMF))W0i)-xxM!:0L8-*-G*QWYx,MF:8UMN*FxYZ-0x,0):WVQ)-pU0FW8WiMQxGSnF0-M0MxWx:0-:xQF)8-i0*W*MQMY8,9FiW-:0-WGWQG0iMW*)WYQ0YW,xFM:8iZ-Fx-Q40WM))MWx*0Y),)F0*Gix*,G:Q5!MM-)-WW:0-Mx:r+0)80*YG0Qx-:,:FQW):-Q*x8;x0MMi)<G)Q-Y0,WFx8Mi:*:x)Z-00MY)*WM::-.,-M*F:WQ:G-)x*YQMFFxW0:W-xxM8W0liF*-G0QWYx,MwMWW:)-)x0_80xMM):WSG-Y-,*FW8xiM*:G%y)WxM0)0Wx:x-:xMF)0pW-*WGxQMYW,R)FW-M0Y,xxt,0:Mx*)G)Q0Y)8WFM8Mi9*ix-#Y0WMW)MWxG:Y),-F08*ix*,G:Qa:YM-)YWW:W-Mx:568)WF*YGWQxY,,:FkW):*-0xWVx0Mx:)cG)Q-Y*x0Fx8Mi:-)YM,iFQG*:iYW,)FQ88iW*MGF)i-_:,FG8,)FW-:W-xxMfb-xMQ*FG0QWYx,:iG*,iQ*nx0PW0xM:i***xWYF,FFW8xiM*EYFx8288M)YW0:M-:xcF-FG8xi:G8QFY:,&))W0iG#YGiMGYW,,)Y-Q:GF*,8FY8:i_-)x0x,dM0Ui,*WxF-QxQF08Wix*:W4xMs0xF)*W0:x-Mx:F)0*iF)VGWQxYM,/M-*GGxQ)Y,U80xM:)nG)Q0-M,YF88Mi:*!x-:QYFMY)*WM::-6,-M*F:WQ:G-)x*Yix-)-W0:W-MWW,=FG8MiWW:xiT*0WM8)0ixFQG:Q:YQ,Qi*W0MM-8Y,Q-0*W::8-xx0*:M*)FWx:M-:,)M8Fi81:iYFG2Y:,E))W-:0-WxxfM):Mi)iG-Q0YW,Mt:)QW-FQxFQg0WMx)MW;,-Q,W-MGFWi8*xG:Q;0)M0:)WY:W-Mx:TE8-:)**G0QxYM,:))*i:--0xWcx0MM:)7Wx,-Y*,FFx8Mi:-)Y-xiDM8*:F)l:,-i,)F-80ixQ8YGQ,Y:M))-W0:x*YxMI:0Bi)*-G0QW0x8iF,8Z:)--x0NY0-MM):WlQ-FFxG,G**G8*,Gx;)0-M0)x*Yx*Q)0YM)8Fi-*WGxQMYkGMFQ8i:0-Wxxs:Fi8xi8-8GMQM,8F,8:ie-)W-Z008Mx)MW::4Y),-K)8WiW*MG:QZ0)M-F-WY:x-Gx:Q-8)i-*0W0:-YM,xFo08:--0xW:xY:M:),G)Q-Y0,*Fx0xiW*LG,/-YQMW)xWM:Wx,,)>M80iW*xG,Q:Y:M))--W:8-xxMfx01i)*-G0,xYG,MF:8::)--x0/W)*M,)GWv:xY-,-FW8xi**:Gb7)YQM0)WWx:M*Fxw/i8-i0*WGxQMY:,0))8::0-Wxx6M0:M/)WG-:QYW,xFM8:i<)cGM=0Y9MxFFW::.Y),-Q:8WiF*MG:QN0)M-F-8F:x-)x:QY8)i-*0G-Q)YM,0FmMM:--YxW:xFWM:)-G)Q-Y0,-Fx8M8f*%G-^-Y,MW)xWM::Q),)4Y80Mi*xGMQ:Y&Y0)-8x:W*,xM_M0pMM**GYQ)Yx8WF:8Q:)--x0A-FWMM):W_x:Y-,YFWY-MF*:G-+)-GM0)8Wxi8-:xM,j8-i0*W8QQMYi,HF:*):0-Wxx:F0:MQ*)W:QYY8,*FMYSi?-Fx-v00WM0ixW::ZY)G0F088ix*W-MQO0)M-Q,WW:G-MGMFW8)M8*0WiQxYM,:Q6*,:-*GxWQi0Mx:)6G)G0Y0xxFx8,i:*+x)/-9WMWF,WM:,-D,)F-80M8*xWQQ:YFM))*W0i0Y)xMIF0_M8*-G0QW*x8YF:8*:)*8x0:W0xMMMtWe:-Y-,YFW8xiM*:-)f)YYM0FMWx:M-:x.jF8-MG*WW,QMYi,L7(8F:Y-Yxx:o0:M{*)G-::YW,-FM8:i!-)x-5)F0Mx)MW:*,Y),*F0YWW0*MGFQ_0)M-))WWMx)0x:TF8)MG*08iQxYMYwFJ8):-*,xW?x0MM:M-G):8Y0xWFx8xi:FxW8O-YGMWQWWM:i-hxQF-8)W0*xGMQ:):M))*W0:-QWxM=:0pG)*-GYQWY-,,Fi8G:)n-x0680xMM):WMGOY-,0FW*xiM*iGNd)30M0F,Wx:G-:x_F)0)M**8WMQM-W,#))W-:0,FxxDG0:M**)W0Q0-0M)FM8Fio*8x-t00Wxx:YW::*Y)x8F0YWix*M*lQtY-M-)YWW:x-Mx:,)8)MY*0GYQxYM,:FA8F:-*GxWQ,0MMi)N8#:FYY,YFxYVi:*Hx)o-Y:MW)-WM::-y,)F-80M?*xGYQ:YbM))-W0:-QWxM(:0AFi*-GYQWYxY:F:8*:)-Fx0JW0xMMMAWK:-Y-xxFW8xiM*:<Gy)0FM0F,Wxi:-:xM,68-i0*W:YQMYi,LFM-0:0-*xxMY0:MQ*)G*Q0Y-0WFM8:ifQ,x-AY0WM0ixW::SY)YGF088ix*08,Q_Y0M-iMWW:G-MxG5^0:W)*0GWQxF),:FQW)ipQ-xW<x0M8:)OGFQ-*00-Fx0Qi:*ux)Q>00xWJ-WMiQ-Vx8F-Y,iWFx80Q:-KM)FGW0Mi-xxMx)0%MY*-W0QWYW,MQWxG:)*8x0,00xM,):8MQ)-B0-FW8xiM:MG(vF0-GXYFWxi5-:YGF)8*i0)*GxQW>M,6))W-WQ-WxGXM0:8)*)W8Q0YY,xFM8:iT:-x-QW0W,:)MW::2Y)FiF08Yix)QG:Q)0)M-F:WW:Y-Mx:o}8)i-*)-0QxYM,:0,W):*-0xWxM0MMF)wWQQ-Y0,WFxF:i:*)x)QW00MW)xWMY8-XxQF-0GiW)MGMQxm:M))-W0**-xx,>:-N8:*-WGQWYx,MFx8O:),8x0QG0xMF):WAQ)Y-x,FW0iiM)QG=QH0-x0FxWxiQ-:x*F)Y0i0)0W0QM-Q,O)FW-:0-WxxQQ0:M**)WYQ0Y0,xF08ii{*Yx-Gx0WMG)MW::Z-:0)F08WixMwG:QQ0),)):WWiM-Mx*EA8)i-F0YFQx-:,:F)W)M--0xWxM0M,Q)VGFQ-Y0,WFxF:i:);x)Q800MW)xWMii-&x-F-00iW*GGMQ:&iM)F0W0i,-xxMr:05Y-**WWQW-Q,M^>8NM)F:x0Qi0x,:):8YQ)-O0-FW8xiMWGGI2F0-x0i-Wxi:-:xDF)0li0*W*MQM-:,;F8W-:0-WWxeG0i,Q*)WGQ0*i,xFMF)iN*-x-QY0WMW)M0WFGY)x0F0Q0ix*,G:Q*0),/i-WW:x-M)M_78Fi-)-GkQx-:,:FYW):--0WWQ:0M,6)jW-Q-*0,WFx0Qi:*Fx)u*00MW)xWM:,-5x)F-8*iW*xGMQ:YWM)F0W0iW-xx,3:Y:MF*-G*QW*N,MF:8u:)*0x0t)0xM,):W>Q)*-xFFW0MiM*:G?Q:0-x0FQWxiM-:xYF)0*i0FWW)QM-i,PF8W-MQ-WxxJ80:M)*)W*Q0Y0,xQ00*ij*-x-W00WMG)M8Y:c-:0)F08Wix,MG:QQ0)M-GxWW:*-Mx:VX8)i-*0WyQxYY,:FQW):--0x-,W0MM:)5iiQ-YY,WQ-xYi:*-x)8Q00M8)x8/::-MYsF-80iW,YGMQiY?,:i)W0:W-x)YN:0Qi)c:,QQW-:,MWQ8u:F--GMIW008x):W2Q)MY,0F88xMx-0GDQ-0-,,)WWx:M):0GF)00i0)xGxiMY:,DM-W-i8-WxGcM0:My*)*0Q0-W,xFG8:i&-)x-QY0W,M)M8::kYF,-F0Fxix*GG:Q-0)M-)0WWWM-MxGac00i-*0GWQ0Hx,:FVW))Q-0x8Hx0M8W)!W-Q-Y0,WFx8Mi:8ix)Q000,x)x8q::-x8-F-0WiWx0GMQiYsMF)-W)G0-xxMK:iMi)**G0Q-!W,MF:8+-)--xY^WYWi-):W)Q)-G,0FW8x,MQ8G.Q-0-,W)W0x:M-:Y)F)0Yi0*8GxQMY:,bM-W-i0-Wx8sM0:M=*)W*Q0-x,xjM8:iQ-)G)R:0W,M)MW*:OY),-Q0*Fix):G:Q)0)x-)0WWWM-MGQ^48Fi-*0GWQxQ:,:?IW)iW-0xWax0M,i)_W-Q--0,WFG8MMM)ixF F00xM)xWM::-MYOF-80iWWYGMQiY1x)M9W0ix-xGK+:Y)i)))W*Q8-x,M?F8>:)--x0GM0x,:):8hQ)Y),0F)*MiM)pG_YM0-MY)WWG:M-xY:F)8-i0G)GxQ,Y:,MM^W-:0-WQ 5M0iMb*)*0Q0-x,xFG8:i<-)x-xW0W,,)MW):TY),-F0:Fix*GG:Q)0),Y)0W-GW-Mx:^;,ii-*YGW:W0-,:F)W)iG-0xW>x-MW8)HW-Q--W,WQx8Mi::)x)QY00M8)xWM::-pY-F-00iW*8GMQ:Y9M)F*W0ix-xGMX:0Qi)))G:QW-M,MF*8?:)--W0MF0x,:):W)Q)*-,0FWFMiM)QGs{F0-M0)WWxW:-:GZF)0Wi0*WGxQM-i,3F-W-i0-WxGuMYM,i*FGFQ0*M,xFM8:iMWWx-Q:0W,W)MWi:D*_,MF00pix*FG:Q&0)x-iQWW:)-Mx0DpY)i-*0*xQxY*,:FQW):--0xWxM0MM-)9WQQ-Y0,WFx0,i:*Wx)Qx00M8)xWMYW-pxxF-80iW*xGM:M0WM)F,W0ix-xxM :0;8-*-WMQWYG,MF:83:)0xx0QQ0xMx):WYQ)-(0-FW8xiM-*GXtF0-M00YWxi:-:x:F)08i0*)YMQM-E,6Y:W-:Y-WxGjM0x8:*)G-Q0G-,xF,8:iM:vx-900W:Q)MWi:/*P,MF00xix*-G:Q.0)x-iQWWiM-MGOnkYxi-)-WYQG-i,:FFW):--0xW,-0M,:)?GFQ-Y0,WQx*Yi:)nx)Q-00M))x0MGx-dx)F-00iW)8GMQ:*GM)F-W0:0-xxxs:0p_Q*-WYQWYW,MFF86M):}x0Q80x,,):W,Q)-)x*F808iMFQG6D)0-,-FYWGiW-:x8F)8-i0*W):QM-i,1O:W-:--WWx,M0:,Q*)W*Q0Y*,xtx8,in)Qx-y-0WMx)M8Mi-Y)G/F000ix*MG:QlY-M-FYWWi0-Mx:+18)Mi*0WxQxYM,:F:W)i)*-xWQ,0MM*)}G)Q-*0xYFx0ii:*Fx):-00MWMMWMi:-!xxF-80iW*x*:Q:-QM)F0W0:W-xxMQi0LM**-WYQWYG,MFx)::)--x0#i0xM,):WoGMY-xWFW8WiM*:GX5)T0M0FGWx:,-:xPF)8-8W*WWxQMY),u))W-:0iMxxQ:0:,Z*)G)Q0Y)8MFM0AisY%x-PY0WMG)MWxG:Y),-F0G0ix*,G:QM_%M-)0WWQ--Mxi^}Y?iM*0WGQxY-,:F9W)M-*GxWQ,0M,Q)<8xQ---,)Fx0Mi:*Fx).-00xWFWWMii-Hx-F-0*iW*xW8Q:-QM)))W0:0-xWML80m,O*-WGQWYY,M9M8F:));x0:G0xMM):8::-Y-xFFW8FiM*:G{ )YGM0F0Wxi8-:x:F)Y-W0*WWWQM-M,gFiW-i-*txxQW0:M:*)G-Q0-0xOFM0GiO)Ux-y00WMxU9W:i:Y)GQF08Wix*MG*QZY*M-)0WW:W-MGMtY8)M-*0WiQxYM,:Qz8::-*0xWQx0Mx:)IG)G0Y0x8Fx8-i:*Xx)b-.WMWFWWMiQ-Z,)F-80M8*xWMQ:-:M))*W0:-QWxMN:0Di8*-GYQW-WM-F:8F:)*Gx0LW0xxM:8Wc:*Y-x8FWYxiM*:-)4)Y-M0FaWx:M-:x3,-8-MY*WWiQMY:,}))8*:0*GxxQ,0:MQ*)W:,-YW,FFM,:i>-Fx-%-0WM0ixW::<Y)Q-F088ix)xx0QaYGM-F,WW:x-MW:MG8)M,*0WQQx-M,:F!)-:-*MxWe)0MM:).G)iQYYxQFx8)i:*Ix)A-o)M8)FWM::-s,)F-80WY*GGMQ:YQM))-W0:8-GxMR:0%MQ*-G0QWY8,GF:8j:)-0YQMF0xMM):W4Q)Y-,0)W*,iG*:GXh)0-,,)WWx:M*MGiFF8*i0*YGxQMY:,XMMW-:--WxxoM0:MKF_WFQYYY,xF,8:ib-)x-0Q0WMG)MWi:j-Q,-F0))ix*xG:QQ0)M-)0WWi--MxMyH8Fi-*0GWQx+0,:F:W):--0xW%x-MM,)QWRQ-Y-,WFW8Mi:8xx)v)00MW)xWM::-I*YF-8YiW*WGMQ:Y>M)iFWY:W-xx,>:0wi)**G0QWYx,MFM8S:)--x*H-0xMM):G)GWQ8YVFY8YiM*:Glw-)W8GMW)::--:xdF)8-G-*8GWQMY:,I))W-:0*0xxuG0:MQ*)G-Q0*WGQFM8,i(*Qx-_Y0WMxFQW::MY),*F08Wix*MWFQEYQM-)-WW:W-MG:Qx8)i)*0G0QxYG,:F50W:--YxWRW0MM:)(G):mY0,WFx8,i:*Kx)})00MW)xWM:8-7,)F-8*M,*xGMQ:0)GGix),GFQ0-Q,))*G8:**-x,Y8,0F:8z:)-00GiMFG88F-WwQ)Y-,0FW8xiM*:GEQQYrM0)WWx::QW0*,*8FM,*WGxQMYUGYiG):WWQQ-QiFFi0::YGFQ-YW,xFM8IG?-)x-?00WMx)MW:,MF)x8F08Wix*M*MQQ0)M-)0WW:x-MGM;:8)i**0G0QxYM,:Qd8W:--YxWTG0MMx)q8w:YY0,0Fx8Gi:*jx)v--MMW)8WM:i-d,)F-Y0iF*xGGQ:YiM))*W0MW)ixMr,0ZMQ*-WsQW*xxiF:8i:)-Fx0nF0x,xF*We::Y-,*FW8xiM)MWxd)YQM0)YWx:M-:xVx08-iY*WGYQMYM,aF))0:Y-Wxx_80:MQ*)G-x*Y8,xFM8iiP-)x-&00WMx)MW::*Y),-F08YMF*MG:Qw0-WGiG)Mx:QQ-:,-*08x:i-)GQw-8YM0*YW:Q,-8M:F,8)iM-YQF-<,WFx8Mis}Q-i,,F88,)8W8::-I,)F0Fb8,:0-WQ,YxM))-W0:xF00*M-)*8:*FW:QWYx,MFL-YGY:W8x,,%QWF),WxQ)Y-,0Fx*:W,:)-M,Y0F,,)WWx:M-X00MG)GW*:G*RxY7F0xi0W-:0-WxxrM0:MT*)G-Q*YW,xFM8:ii*Gx-c00WMMQF-FG-F80*,-),G:*GGYQa0)M-)W-iGi:y8),QF08N:GGYQYYM,:F_W-,WQG-i,Q0GM*)?G)Q-YW8iMiFtGA:Q-8,*FM8-ii00::-w,)Q-)QiW*WGMQiYX,M)-8+xx-xxxo:0Mi)**G0Q8Yx,WMM8m:)--x)>W0GMMFM8iQFY),0FY8xiM*:83,,0-M*)WWG:M-)xm7M8*iY*YGxQ-Y:,Q))W-:0--YWjM0:M.)xG-QYYW,0Mx8:iB-)G,D008MxFx8,:Q-Q,-Di8Wix*M8:,G0),2)0W8:x-xx:;x*-i-*)GW:iYM,iFJWF:--)Y0Jx0MM:)*G)Q*Y0x0B88,ix*BGGH-00MWFWG-::-,,)Zi80iW*xGMF:YV,M)-W0:W-xxML:0Qi))iG0Q0Yx,MF:8tM0--G:>W08MM):W!Q)-,,0;Q8xiW*:GUS)Y),,)W8e:M-xx+F)8-i0*-GxQ8Y:,0))8::0)WGxSM08MR)MG-QYYWxW,-8ii8-)GM 00WMx)MW-:k-,,-Li8WiG*M8:QQ0),i)0W):x-)x:Q:00i-)iGWQ)YM,:FZW)M8-0xF5x0*M:)QG)Q--:,WF*8Mi:*Rx)I-Ys)*)xW-::-Q,)F*80i8*xGM,JYQM))-8y:W-xxMQ:F)iF)iG0:iYx,-F:8x*i--G:wW0xMM)iWEQFY-,0ix8GiM*:Gx=)0-M0FW)M:,-8x!di8-M:*WG-Y8Y:,W))W):0-8xxu,0:MwQ-G*Q0YW,YFM8:iw*)-03Y0FMxFQW::WY),-GG8Wi**MGMQE0)M-)0*Y:G-Mx:3Q8)i-*0G0Q8YM,:FRWF:--0xW 80-M:)oG)Q0F,0,,:-4GF:YY8QQ00MW)xWM*W-UxtF-80iW*xGMi:-xM)))W0:0-xx,4:0>,Q*-G)QWYG,MF:8m:))xx0w00xMW):WQQ)Y-xGFW8xiM*iGr6)0-M-)WWx:M-:xQF)8-i0*YGFQMY:,w)--GGG:M0:,,F)8M:YWQQ0YW,xFMMWiS*!x-b00WMx)M0::0Y),)F080ix*,G:Q#YxM-))WW:G-Mx:Op8)Mi*0G0QxYW,:FQW):--FxWyx0MMi)kG)Q-Y-,WFx8Mi:*Qx)6-00MY))WM::-T,-i0)Y8i:GY)xxF*,Q)-W0:W-xY0n:0:i)*-G0QWYxxM,N8Qi6--xY1W0GMM):*iQFY-,0F88xiM*:G:A)0-M0)Wi::M-:xhUQ0xi0*WGxQ:)FWQ:x*,GxQMYG,0FQMiFiG-Q0YW,MiQ-ixMQF-Gxx*-WFM,*8G*Q0Wx,QFWxQ:Y-xxG1WMFF?WW:x-Mxr:)FWW,:F-,Q8YF,:FmW):0FYY),)IQ8)j0-YxYsi0)F88)i:*Dx)P0)x8WiG-FG,Qx0Y,GF,iY*YGMQ:YhM-:R*GGx::xGb*0wi)*-GWM85Y8*MQ**x:Q,YM,,F0MG)GW;Q)Y-,W:)*FW8QFGiQG0-M0)WWM,FzFY-i8)*8-:,Y:QG-M,_))W-:WwxYi,)F)8Q:8-,x))Q00M,)QWx:iY8xK+MM8)FW::oY),0i:)QW::H-ixxF*WWMQ)%:x-Mx:j^8)i-*0Wc,xYG,xFTW):--WY-MFFGM,)xG)Q-Y0,xi:),W):MYY^FY-MW)xWM:fFWY:M,),W,:x-YxxF-8YMxY,GFQ0YY,-YYi)*-G0QWYx,MF:Wn)*-F8,tW0xMM)v*AG0QWY:Q00*MYiQ-Fx*-:0MiF*<GWQ8-qQM)G8Q:*W*,*v*0YiY)WMQ)FYG,#-G,-F)8MiG*xGQQ,00MW)xx-V00WMx)MW::q)x8-F*YRix*MG:5)hW8xM0*QWQQF0F,-)FWWF-WF:**;xY>*0YM-):WQ:N-Q,-)iWWQ-Y0,WFM*(GFi>-0MnFi8:ii*W:,-W,)F-80ix)Q0:ME*)G-Q0YW:Y*:xMs:0di-QW-GGWQ:,-=68W,FQG-Q,)0xMM):WUQ)Y-,0jW*xiM*:Gc<)0-M0)WY)xM-,xxF)8-i0*x0,x)FF8*MMWFiG-Wxx_M0ZG*qF0GGQQ:0-MQ)-xYQ)-ix80WMx)MW::^Y),-F0*Wi8*FG:QL0)M0:,*,W:h:Yi,Y)FWx:)-,Q8-Q,:F9W):0qG88i0F,8*i-Y:x,QY0F,iF5i:8*i0*WGxQMY:G!xQ-ixiF-80iW*M-8,Yt-8))F8,:W-xxM>L-F8,iW-0xQmYG)M8)MG0--x03W0xMM):W2Q)Y-,0W8W7*_GQ#80G,,W8)YWY:M-:xSF--88=i,-YQGY),L))W-:WFGY0,Y>Qx-i,*W,,EW0*,i8:-0xG5,0iMQ*FY*-Q:i--,-F08WiMF)YYx0)-8,i)),GiFiY-M*)Y8:**W8QxYM,:))Y8WfQY-;xQ*7WFiY-8x8Qg0MiF)0W):Yx)iF**GYQ8YG,,0i8*FF08iW*xGMQf*Y0,Mw)QW:ZQYQ,x)*W8iW-YxF_-,GFW8m:)--xW,iF08,:**iQ)Y-,0FW8xiM*:8)M)0FM))WWx:M-480MY)Wi*)iGxQMY:M)QF):W::,-:iQFWW-:Y-WQ*-0,xFM8::)FF-Q,iFG8i:2*-x8QMYG,:)Q8 :Q-W,YVFMFFiWW:x-MxTiWF,8G:Y*MxG1Y0WF=W):--0xW%x0MWx:AWQ:iY0,WFx8:x*:6-,xYFG0:)8WF::-!,)F0-8W,i:0F,FU00-i**,G,-8xW}:0}i)*000G,gi,G(i8 :)--xWi:)FWFi,-FGWQiYGM)):,F:8-Mx,!xx,)YW):M-:xaF--YW):F*,M!680-FQ8M:0-Wxxg:**W*i00WxGQi0QFG0:i_-)x-ZW)N80:*-*x*p)YiM))MWi:)0),*f)0W)08-*M2YMiG0Y:Q0Q8GWQxYM,:F&W):-F)0W_x0MM:)SG)Q-Q0-Gix8Gi**Ux)u-0W8Qi:*9,)QG80M-)GW*:iGGQ)YvM))-WW,iQ*YW,8F0x8ii*Mx)1i0)F:82:)--x0cW0xGF::Wi:xY-,0FW8Mx-:xY8xFF80MMiWx:M-:xpF)8-i0-WY,QM:#ix)iWY,::M,,Mi0,Mx*)G-Q0YxWQMY)xWG:WxFQ80WMx)MW!,-4YY-,x*W,F:W-i,F#M0QiG*)W:-MF-88iG*,GiQQFFFi,,F*W):--0xxM:F)WYix*8GM=iY:Mi)0G*iQGQQ,00MW)xW:M*V8Y:,P)MWQ:Q-GQ:YnM))-W0:W)x-FM:0iM0*-G0QWYMG)iY)0x-Q,Y)x,FiG):F--:Q-*,0FW8xi:FYY0x86i8)M,):GQF0YG,8)*8x:8-*x0Y,x+))W-:0-x8m,YF-W-:Y*x,,d8YWMQ-0WQ:)Y8,)0YGM)MW::aY-W0,G))WQig-ixG.Mx:Q,*FG0QYY-zW*xW*:,-Yxi_)xWQY),Wh:Q-:d)*FWFiM-YxGQxx):.**G*:iY*xxlQ0,i-*X:,-W,)F-80ix(Q-YxW x8YiG)x:Y-*xM{:0ni-QM-iG:li00M)8iiG--x0gW0MGF:F*-,-^,0),,)iiG*WGTh)0-MWQQ):,QQW0-/Q0,i0*WGxQ:*-0GM)YGWQQ-Y*,)0,M,*)G-Q0YxWJMW)FG**QGWO00WMx):0YGxm80-,QF:x):Y-ixx10MFFiWW:x-Mx3:F)Y8WcF-FGi=F8FFi8x:--0xW.M):WF:Y*0GiQMG:F88Wi:*tx)%0*W88M:WGiW-p,)F-8Wxi:*-Wx8o0W8i8)iW,QiY0M*)*GQ:8*YGac*0,MW)-iQ*Wx0kW0xM:u--8GWF00iM-FiWQp:Y8x)0-M0)WWx:M-:x_:Z*-i*)QGxQMY:M):YY*x,:M-N,YF,W*)QW8Q0YW,xF:Y-G8:W00,iF-0iiQ0-GMQY08F*8)ix*MG:X)F80bii**G)-GG8;p8)i-*W0:,FFF0,iF)WWi:GY),:)#8-:8*MGGQ:0Q,5)QWWQY-F1FYGMW)xWM:bF-0Y,-FxGMim*QxWFY8GMW*G:Y*lxMA:0Ji-T-*Gx,)Q0YM-)xGY:xx*Q,0xMM):G)M)Q80Gii)iWWQFYYx0F*0Qi)Wx:M-:xDF)8-i0F-YxQMY:,?))W-:0-W8GMM0,M)*)G-Q0YxWQMY)xWG:W0G,G/Q0iiQ*WxY(Y,-F08Wix*MG:Q.d:W-)*W*:x-Mx:F)--8iis*MQ8YY,:FbW):0z-88,-F+WFMmWQ:iY0,WFx8:x0:QY8,FFG0:)8WY::-m,)F0-8WFi:-M,YD,,QFGW0:W-xx:iF*Qx*ix-ixMSG0QMW)-iQ*Wx0UW0xM:Qx-8GFQiYG,M-*W)Q)Y*xW0F,Q)WWx:M-tWYMYF:8x:,*3QGYW,5))W-:WQMYi,W)Y0Q)QW,Q0YW,xF:-FxQF8-ixMF)8ii)W,:*Y),-F08x,FQ)-*xG3:08Mx*,xQQ,-MM*0QMx*0GWQxY:W*iY*GW&QG0MxGF-WF)iWMQ-Y0,WFM*:GY:M-Y,800MW)xWM::-K,)*-*8iY*FGMQ:YrM-:x)QWMrF-P,iFG8M*FG)QWYx,MFo00MY)8x*Q,0xMM):G),x6,0xMM)GW0:Q00,FFY80MMW8iQ-:x;F)80x,:F-0xYz-0WiF*GG*F:0F,)0:Mm*)G-Q0YW8xxQ*:iI-)x-#00WMx-MF:xe-QG8F08Wix*:--,0S)8,M,)iGi:_YiM--?,iFQ8Q:)*QxFAW0-M-):W:Q)YF,)F*8GiGYY,8Fx8Mi:*bx)a-00G*:xWG:)-j,)F-8Wx-:*YF,YcMWxMf*iW8QiY)g,0:i)*-G0QxFx,GFx8g:)--xW,)Fi0i):WDQ)Y-,0FWQxGGQ:Gi:O0-M0)WWM,8Q8Y*,8)8xMi,*:G+h80xbGYGG)Q8YQ,G0:MT*)G-Q0YW,xii*:ip-)x-v00WMx-MFQxyY),-F08Wix*MG::M))M-)0WW:x-Mx:H^F-G-**WQQxYM,:))-8G8:x0M,G#E8x:*G)Yx,iFQWF:*-Y880*KF0-MW)xWM:hSQxQ_,80iW*xG:M)F*0)MW-,G8:WYQa,0-i)*-G0Qx)xYQiFYFWWQ,Yx,8Fi80i)Wi:FY-,0FW8MG;:i--x:F8G,iF*0GYQ-8WMF)GW*:,*.QGY0,())W-:W_MYixMF)x0i,*-Q*Y),xFM8::)hY8W,YF*x%)GWG:}Y),-FW*,x::,-GQiY8M-)0WW:M})0YMYFQWYiM-FGi=08)Fi8G:--0xW!M*,8WiY*0x,QX0iMi8GM^*Ax)U-0WWj:F*(x)QQYMMY-MWFi:*Px81,,QFnW0:W-xx:i:)88)*FWQQWYx,MF+YYW,:P-Qx:-QMM):W_Q)Y-,0FWW0Gi*,GWo)0-M0)x*MG)Q8Y,iW-YxM*YWiQMY:,9)--WWQ:,YQ,M-F8x:G-xx)_,0:FG8WiP-)x-=W*88Y:**Qx*-Q,-F08Wix*MG:Q%0)M-)0WW,FjMx::Q,0,QQ00YM88G8QFi8i:--0xW5M*F8iM:-YQF-x,WFx8MiwNQ-i,,F88,QQ*YGxQGYWQG8*M,*xGMQ:0)G8Mi)MG)QiY)i-)8W0:**GGiY8WcF:82:)-08Wx,F-WFi)*QG,Q:Gd:i)*WW:8-0Qx)M8Yii*8GQQ-Gx:8FiW):F*dQ-)*8*M:*8G,:MG-MQ*iGYi0*xGQmY0iFMFW8xiM*:G?l)iM:iW::;Y),-F08WixQ*Y:QiYiM-)0WW:MFc0F,Y)8iF),GWQxYM,O:-*YW-:x8i,*FW88i088QF*:,WFx8MiSRMYFxG_xGxMi*0x*Q-0F,iFvxi:*-Wx8.0Wxi**,GYQiY)j,0,i)*-G0QxA,8*MG**iQ*ix0HW0xM:Q8-)x-QG0G,M88i8*:G3j)00Wxi,)xWu-:x7F)8-i0*WGx:-F:,iFWW-:0-WxMiFF880i0YiGM&M0iM)8:i7-)x-?00WMx*--Q:?Y),-F08Wix*M-Y,wYQ,8)0WW:x-:W*,GF:8iiMW?M)>,8*Mi*YWx-*G,7x0MM:*)0WGiQM0MMi)),*:G-:xiHMxi)88%::-D,)F0*:WQ::-<xicx8*:D*GGx::xGr-0>i)*-GWMxv*8FMF)Yx::i-,xM0xMM):W+Q)Y-80,)*xiG)YG!m)0-MW:i*iWcF)0*,)FWGxi:YFx02*0WiG)xGGQ)YQx,*)8Qi0*pxGx0,*FM8:,?Q,x-z-0WMG)M8d:K*)0iF08Yix*,G:0*0),:)YW8:8-MxGJr8Fi-*0GWQ0Xx,:F2W)iQ-0x8=x0W8M)IG)Q--g,WFG8MMM)ixFuF00*-)xWM::)l0,F-8)iW*GGM0,YK,M)*WY:--xx)V:0Qi)*-G0Q-DW,MF:8TiW--xY4W008x):WgQ)-G,0F88xMx),GQQ:0-*))WWx:M):0GF)0Qi0*8GxW:Y:,x)FW*:F-WG,#M0iM/*)G-Q)(0,xFM8:iF-)x*+00-8W)MW::2*i,-FY8WMW--G:Q,0)*Y)0WW:x)MiFsq0ii-*FGW0GYMxMFYW)i:-0)GBx0MM:F:W*Q--Q,WG,8Mi:*yWlQx00,U)x?i::-B,)F-0WiW*YGMQ0Y+,()-00xF-xx01:0Qi):QG0Q)YG,,FW8zMG--xY%W0xMM)x*:Q)Y-,0QQ8xi,*:GMxr0-M0)W0s:M-ix#>^QFi0*)GxQ)Y:,!))8)::-Wx*bM:*M6*)G-Q08W,xF-8:iv-)x-{00WM0)MWY:a-B,-F08Wix*0G:Q00)MF)0WW:x-MGitk08i-*)GWQxYMxMFGW)iW-0vF6x0MM:)9GFQ--Q,Wv:8Mi0*}W)Q000,Q)xW-::x-,)J)0*i8)QGMiiYfM))-W0i8-xx*p:0Yi)**G0iWR0,MFY8mix--GiRWYW,G)iWYQ),W,0FW8xiM)iG^QG0-,,)WWG:M*M0*F)0,i0xMGxQMY:GsF,W-ii-WxF^MQ*MHFv8QQ0-:,xFG8:ic-)x-Q)0WMF)MWM:L-f,-%-0Wix*)G:8-0)M-)00Wi*-Mx-dV0Wi-,,GW:WY0,:FYW):F-0xWzx0Mx8) WWQ-Y-,WFW8MMMQ*x)QG00*M)xWM::)5GQF-0,iW)QGMW*Y6xaFGW0iM-x-F>:0>i)*-G)QW-Q,MFM8uid--G-QR0x,5):p-Q)Y-,0QW0FiM*)GsQ00--,)W8WiW-:x*F)0ii0*WGxQM*8,DF0W-:--WxWVMYMW**)W8Q0MM,xFM8:,m)0x-QG0W,i)MF*:9*^GMF00xix*GG:QR0)M-F0WWii-MxM>_0Ei-)-8,Qx-:,:G-W):--0WWQ00M,m) W-Q-i,,WvW0,i:*Fx)GG00MW)xWMM8-Ax-F-8-iW*WGM:M0WM)FYW0YM-xxMR:- W,*-W8QW-,,Mx*8IM+*FxYQW0xM,):WcQ)Y-WQFW0,iM*MGaQ>0-G0BiWG:*-:xWF)iYi0)WGYQMYY,Vi0W-iQ-WGWqx0:,s*)&YQ0YW,xQM08io*)x-Q00W*G)M8M:iY)x*F0QGix*MG:::-iM-F-WW0,-Mx:zhYkMQ*0WYQxii,:FqW):--)x8Qx0M,,)1WBQ--0,8Fx8*i:qMx)Q-00GW)*WM:Y-nY8F-*8iW)WWYQ:- M)GYW0:W-xWMQx0NM)*-W0QWMG,M>M0*:)**x0:80xMM):8::FY-x-FWYGiM*:GE:OYFMYFYWxM,-:xdF)8-i)*8WxQM-,,cF&W-i0-Fxx{*0:)W*)W-Q0)W,YFM8YiOQGx-:Y0W,WFMW:i5Y)),F08WixFMG8QXY)M-F0WW0Q-MGMN:8)M**0YGQxYM,:E:8Y:-*-xW:G0MM:)>8XMYY0xYFx*ii:*Px)Q)Y:MWF0WMMi-7,)F-80MB*xWMQ:-MM)))W0iW-*xMgY0A*,*-W0QW)xxiF:80:)*Mx0x*0x,MF8W#:WY-0xFW8FiM)MG)K)Y-M0iYWx:M-:W7M,8-M0*WWxQM:*,hL78F:Y*8xxMi0:MS*)W)ixYWxWFMHQis-)x-m0YiMxFMW:i:Y),)F00WiW*MG-QjFFM-F0WWix-Yx:h08)Gu*0G*Qx-x,*FR8):-,8xWjx0Mx:FYG):-Y0xWFx:,i:):W8J-YYMWdGWM::-(G3M88YM0*x8,Q:YOM)F)8):W*8xM:i0_i)*-G0i:YxxMF:0i:)-)x0QWYiMM)-W^-xY-x0FW-xiG*:G0K)F,M0j8Wxix-MxwU)8--i*WGxQM*:,i))8-:0*WxxGF0:,:QQG*:YYW8,FM8:i#)aGJL0Y0Mx{,W::1Y)x)%M8WM8*M)QQ+0)M-F-80:x*Wx::Q8)i-*0GWi5YMx:Fw0::---xWQx0WM:)0G)MYY0xWFx0xiM*/G)r-iiMW)xWMM:::,);-80MW*x)FQ:-:xQ)-8Y:W)GxMp:0!,o**G0:0YxW*F:8L:)*)WQ7WY8MM+iWzQ)Y-x-U08xMW*:08;)0-M0)WW0:M*:xZQ:8-i-*WWx:0Y:,0)):i:0*WxxQM7oMQ)8G-xxYWxlFM0M:W-)G-X0i:Mx)MW:M!!,,-w08WMx*M)*Q1-&GY)088:xeix:5t8)M)FQGW:WYMGiFjW):--0G81xYMM:F:G)Q)Y0xW+W8Mi**PjGR-Y0MWQx8F::--,)bM80x**xWM:xYb,0)-*x:W*wxMQMYWi))-G0xYYx,MF:Y?i---G0rWYxMM,*W=i%-:,0^88x0i*:GAo)Y),0)W8W:MiQxRF)8-i0)QGx:MY:x:))W):0*Wx8TM0)M!:FG-:0YWxW G8:M<-)FYV00WMxUM8d:A-),-f08W-G*MWM:x0F,*)03G:x-Mx:Q:0xi-)-GW8,YM,:F20>:F-0GYwx:iM:)2G)Q-Y),W1x8MM,*#G4R-Y0x,)x8u::FM,)!-80xW)PGMQ)YU08)--8:W*Wx*}:Y6i)xYG0QWYxGM8Q8Li)--G0IWiGMMFM8YQ)-*,0Q88xiM*:W::s0-,-)W0G:M-:x4Qz0)i0)YGxi,Y:,=))W-i)-WGx MY,M9){G-:0-,,xIf8:*W-)G-c0*W,M)MW):5pG,-QY8WMW--G::K0)*,)0WW:x)M-MUm0)i-)0GW8QYMxMFQW)i*-0*G}x0MM:F:W-Q---,WQG8Mi:*<Wn:i00,Y)xFi::-v,)T)YQiW)0GMiiY1M))-W0:*-xGMN:YMi)*)G0:WYY,MF)8r,*--G0<WYWi-):8?Q)M,,0FW8x,MiMGhQ)0-,0)WmQ:M*Mx0F)0*i0G*GxQMY:x:EGW-i--WWG>M0:M;F=W:Q0-Y,x888:i{-)G)Qx0W,0)M0i:cY),-F00tix)MG::M0)M))08WMQ-Mx)rhi,i-)0GWMxkx,iF-W)YF-0*)ExYM04)QW0Q-,:,WFY8Mx:)WxFQW00Gx)x{G::F2GxF-0GiW*)GMGGYH,)F,W0i,-xYVH:0-i)))8QQW-x,MM,8(:)--W0Qx0x,M):8&Q)iG,0{00WiM)iGVG*0-M0)W8W:8-:G:F)gYi0*WGxQMx*,AF)W-i--WxWPMY:,Y*)W8Q0E8,xXM8:M:):x-Q00W*,)MW::6*)xFF00Wix)MG:0Q0),)IQWWiG-M)QD}8)i-)-WxQx-x,:xFW):--0G0Q*0M,,)nF*Q-Y0,WFxMFi:)qx)QF00M0)x8Mi)-BxYF--)iW)xGM:M-*M)F-W0YG-xxMZ:-mM,*-W0QW-x,MWi8JMd*Mx0Q80xx,):WOQ)-)x,FW0WiMFiGr/)0-,-vMWxiG-:WQF)8-i0*WG0Q,-:,srQW-:--WGxDx0:M**):MQ0-W,x:M0:iT*Yx-,i0WxG)M8M:8Y)x-F0:Qix*MG:icY-M-F0WWix-M**TEYcM,*0W8Qx:i,:F2W)i)**xWQW0Mxi)PG)Q---QQFx0Gi:iFx)9-00,0))WMix-#GFF-80iW*x8zQ:-?M)ejW0:0-xGMQi0nMY*-08QW-x,MvM8i:)*-x08Q0xMM):0p:8Y-x0FW0xiMM*Gf:ZY:M0F8WxM,-:xOF)0):8*WWWQM-M,v))W-i-*:xxQG0:xQ*)G-Q0-0xFFM0xi/)dx-d00WMx)0W:ilY)GKF080ix)MW0Q2YYM-WQWWix-MG:s88)M0*0-MQx-Q,:6:8W:-*0xW8V0MM:);8)xiY0xWFx0Mi:MYx)Q)Y*M8FGWMxQ-U,)F-0-,M*xWxQ:*QM))-W0:W*)xMQ:0s,e*-G-QW-x,WF:8):)x,x0QW0x,M)iW2:*Y-0xFW8FiM)MW,5)Y-M0G:Wx:M-:W5t88-M0*WWxQM:*,HqJW):0*8xx:,0:Md*)W):*Y8xWFMFQif-)x-y0QMMxFMW:i:Y),)F00W8M*,WQQf:#M-F0WWiWQQx:Qh8)-W*0GWQx*MxYFg8):-*0xWWQ0M,MF-G):*Y0,YFx8Mi:*{Giw-Y0MW)WWM:M-#GIQG80M8*x_%Q:Y?M)+-0G:W*GxMQi0eY8*-W-:FYxxxF:FY:)--x05W-*MMFiWl:_Y-,-FW0WWQ*:W:z)iWM0)WWxMM*WxZQR8-M-*WFQQM-M,F))8F:0:bxx<M0:M_FYG-:-YW,WFM8Mic) Gxl0YYMxGaW::dY)G-508WM8*MW,QB:8M-F-8,:x*Wx:OQ8)i-*0GWi*YMx,F<85:---xWQWFQM:FMG)0WY0,WFxYMMG*UW:e-Y)MWxQWMiM-:,)QQ80iF*xGMQ:Y2xi)-8):W-WxMfM0j,B)mG0:*Yx)>F:8!:))-G-mWYYMMFGW!88Y-x-O)8xM0*:*Yc)0-M0)W0*:M*Gxp{18-i-*WWWxQY:xx))QW:0-Wxx:M0GM#FMG-iNYW*QFM0Mi:-)Wi?00FMx)MW::#-Y,-Q(8WiW*MGMQ{-lM))08F:x,nx:Ih8),-)*GW:*YMx8F5P8:-*-x8+xY-M:)GG)Q-Y0,WQ*8MM8*=G&y-0-MWFW*Q::*W,)WW80iW*x8MQFY=xx)-0::WMQxMQM08i)F,G0WiYx,MF:8VM,--W:hW0WMM)MW1i4*G,0QQ8x-#*:GJZ)--,Y)W8F:M*YxoG88-M-)0Gx:)Y:YG))W-:0-WW*OMYYMA)TG-Q-YWxW)-8:M0-)FW900WMx=M-8:J*W,-QM8WYQ*MWM:i0FxG)0WF:x-Mx:2E-,i-FMGWQWYM,MFd0w:M-0Wi;xYQM:)+G)Q-QW,WQ:8MM:*2x)u-00MW)G8F::-:,)F*80xW:WG,::YJ,x)-F*:W-xY0{:YYi)**G0QWYxxM8-8Ki)--Yx%W-QMMFM8*Q)*G,0WG8xiM*:8 QY0-x,)W0Q:M,ixAQ}0Qi0FMGx:-Y:,e))8)i,-WWi}MY0MS*)G-:--M,xQ:8:0)-)x-K00W,Q)M8*:Z*-,-F-8WMxG)G::B0)W>)00i:x*xx*{.Y8i-x8GWQxYMG:FxW)MG-0Wi xi,M:F:W*Q-*x,WQG8Mi:*qW6::00x,)x0,::-B,)f)YMiWFMGMiiYlM))-W0ix-xGF!:Y)i)*)G0:W:),,d:8A*x--W,VW*xMx):83Q)7,,0Q88xMx*YGm:80-*i)WWx:M):G:F)YGi0FiGxWFY:x:_,W-Mx-WWG/M0:MvF(WxQ0*,,xG,8:iR-)G):V0WxM)M0i:9Y),-E-0YiGFiG:iQ0)M-)0WW8:-MG*qHY*i-*-GW:xQ:,i2fW)-i-0Wicx*M8M)QW)Q-)Q,Wx*8M,:QGx):G00,:)x--::)!0,F-Y,iWFQGMW-Y(x)iiW0MM-xGMO:)-i)F--QQW*:,My)8}Gx--W0MF0xx6):8-Q)ix,0FWxYiM)*GP:80-xx)W0xxY-:G-F)0xi0xFGxiMF8,zw0W-Mx-W)(BM-:WG*)8WQ0*M,x8,8:ifM-x*:,0WxQ)M8):}*)W:F0Yiix)FG:Yx0)x-iQWWM:-Mx-sw)xi-F0YFQx*p,:e-W)Yh-0WWM*0M,F)HW)Q-%x,WQx*Yi:)*x):8008V)x0Mx8-rGYF-YGiW,0GMQ:W,M)%WW0MM-xWQt:-&W,*-8GQW-o,MW88lM)Qix0:,0xxQ):%MQ)*-0QFWYiiM)FGT0F0-M0xxWGM_-:G-F)Y8i0FW8-QM-),I50W-xi-WGWF-0:,**)z,Q0YW,xQM*8i#)Yx-:G0W-Q)M8MiiYFG0F0Y8ix*MG:QT{-M-+8WWMQ-Mx:E%Y.MF*Y8WQx*,,:FOW):-:WxW:G0M,))6G)Q-Y0-MFxYQi:FQx)J)00,WMMW,i:-;W*F-YGiW)W-VQi-*M):GW0:W-xGxO00J,-*--MQWYx,MF:8):))Yx0QW0xMM):Ws:.Y-GGFWY,iM*iGoQ)Y0M0F8WxG;-:GfF)0)i:*W8iQMi-,v))W-M0UFxx:Q0:,**)FGQ0-0x8F,YBiJ)Fx-400W,WFGWiiFY)FFF08Wix*M*)Qa-YM-z8WW:W-MG:,)8FM**0QQQx*Q,:Z/)-:**-xW,:0M,:)?0)x)YYx0Fx88i:}Fx)i-xFMWFWWMxx-l8*F-0-,i*x8QQ:iFM))-W0MW*YxMQF0d,Y*-SYQW-Wx)F:0):)MYx0>W0x,x)*W;i*Y-*8FW8xiM)MWx()--M0xGWx:M-:xpm*8-,G*W8xQMYM,VF)Q*:0*0xxM,0:,**)0-:*YWxWFM*xiRx8x-Q-Y,MxSQW:,YY),-F000MM*M8jQDMWM-)0WW:x--x:QF8)M)*0GWQxYMxxFL0Y:-)8xW&G0M,:F8G):FY00MFx0Mi:):):R*-GMWGjWM::-SG){:80,,*x8QQ::YM)F)8Q:W)MxM:i0/i)*-W-:,YxGiF:Qk:)--x0{W-iMMFFWyi*Y-,-FW0xM**:WiA)i8M0=,Wxix-0xuQY8--M*WGxQM*:,)))08:0),xxGF0:,:FQG-iWYWGGFM8:i{)(G*n0-GMxMiW::6Y),-Qw8W,i*M8QQwY^M-F0WF:x*Gx:088),8*0W0::YMxFFtQW:--0xW:x0xM:F*G)i8Y0*iFx0x)Y*dW-S--YMW)xWMiM*8,)QY808G*xGMQ:Y4x0)-0G:W),xMJM0HM)),G0:YYx-xF:0*:)*)WTNW-iMMx-W^Q)Y-G0j88x,Q*:W*/):GM0F0WY:M)^xpQF8-i0*WWWQ0Y:xF))7-:0-Wxx2MYYMpFYG-i8YW,WFM0:M--)GF_0YiMx7QW:,3-#,-{)8Wi)*MYiQSY),i)08-:xQsx:Qe8)M)M)G8iiYM0,F W):-)0W,6x-QM:F*G)8GY0x0FY8M,!*<WFz-00MWFWW8::*F,)Q*80iW*xGMQ8Y2xY)-08:W-WxMQ:Y0i)FHG0x8YxGQF:0:Mi--WGdWi,MM):WUi)FM,YQ,8x,Q*:TQn)Y),F)W0M:Mi)xoF)8-M-)QGxiiY:--))W-:0*0xGtM-:Mb,0G-Q0YW,xVG8:M*-)W-3000MxFM8Y:v*:,-:)8W,i*MWMQW0)x8)0QQ:x-Mx::qRDi-FGGWiiYM-*Fs0_MW-0WxDx-,M:)9G):)Y*,WQ,8M,i*_x)D-Y-,F)x0M::)Q,)F-80M0*WGMiiYP)i)-W0:W-xxY :Y*i)F*G0Q0YxxMF*89M:--88uW-iMMFMGWQ)*8,0WQ8xiM*:8=GP0-xG)W0i:Mi*x QTY:i0FxGxi,Y:,5))8)MM-WW,UM/MMP*)G-:--W,xQM8:,Q-)x-d0Y0x:)M0i:!:X,-F08Wix)8G::*0)x*)0W0:x*MG*TkY:i-GQGWiiYMW:M:WFM_-0--Zx%iM:Q48xQ*-),WW88MM,*E8):i00,*)xW-::F-,)c-0YiW)YGM,)Y x:)-8-i0-xWQI::0i)*-G0iWY-,M+F8eMY--),_WYWM)):8)Q)**,0FW8xMx))G%:*0-,x)WWx:M-:--F)Y8i0FGGxQxY:x9M-W*iF-WFFmMYFMZ6)-)QY-),xF-8:,8-)G-xW08,-)M-):!*:,-E-D-iGFQG:xi0)M-)00W:W-MGFphYYi-,,GW:WY*,:S)W)8Y-0xW}xYx,W)p8*Q-:8,WFx8Mi:)*x):800xG)xWx::*VxFF-YaiW:GGM:FYyxyFFW0M,-xFi(:0^i)F-Q8QW*i,MNF8<YF--G-QQ0xx:):FFQ)Y-,0(00YiMFQGHW*0-M0)W8Wix-:W}F)QYi0*WGxQM-:,m6YW-M0-WxWKMY:,G*)8:Q0)-,xQQ8:x7)Qx-:J0W0Q)M-Q:9*X,MF0Y,ix,*G:Q50)x-M-WWMi-MGFckQ8i-)-8QQx*:,:QQW):--0G0Q,0MxQ)V8.Q-Y0,W4W0Wi:Ftx):*00MW)x8x:--RGFF-0-iW*xGMQ:-WM)K8W0M8-xxxh:Y4,0*-8kQWM*,M.F89,)Q)xYQ)0x*G):8QQ)-),-F8YiiMF,G!L)0-x0)8WxMQ-:G*F)s8i0FWWWQM-F,9uYW-G)-WGx%)0:,x*))8Q0*,,x:M0Xi2),x-Q:0WG8)M8:G)YFGiF0)Mix)MG:::::M*nGWWG8-Mx:+<Y)M,*08,Qx*Q,:xYW)i)*-xW:M0Mxi)TG)Q---xQFxYii:FQx)L-00MW)-WMiF-uG*F-8-iW)xWYQ:-GM)i*W0M,-xGx M0t,Y*-z8QWYx,MQ:-W:F)8x0:,0x*,):8:iiY-GWFWQ,iM*:G3:qY8M0DGWx0i-:xLF)0)MG*W8xQMiQ,T))W-:0*Wxx:Q0:x.*)G)Q0-W,FFM08i1c:x-:G0W,Ww2W:i*Y)),F08WixFM*MQz-YM-yGWW0Q-MGMQW8),0*0YbQxYM,:}:8K:-)8xW:G0MM:)A8^QFY0GWFxY,i:*Xx)Q)Y)MWUGWMYG-p,)F-80M)*x8QQ:*QM)))W0iW*,xMQ80 x**-8GQW-WM-F:0*:),,x0zW0xxMMMWgiYY-GGFWQQiM)MG,1)-0M048Wx:M-:G:Q08-,8*W*,QMY:,.R_88:0)Wxx:,0:ME*)W)i,YWGGFMFMiR-)x-.0YRMxvQW:MQY),)F00WiY*MW8Q#M,M-2GWW,xQxxiQW8)MM*0*,Qx-MYeFQ0x:-QxxWQ*0M,M*WG)i8Y0):Fx8Mi:FsY,P--GMWjiWM8*-JGd:Y80,x*xYiQ:YBM)F)W-:W),xM:i06i)*-G0iiYxGQF:0F:)-)x0QW-+MMF0WhYGY-GGFW-xMM*:W8/)YMM0x)WxiM-ix1QG8-Wx*WW*QM-Mx-))08:0:8xx}M0:xaMWG-iGYWGiFM(*i+-)WOT0-xMx)0W::<Y)x)cW8W,,*M-GQA0)M-&00H:x)ix:QF8)YG*0W0:*YMG:FI0F:--0xWQWY,M:OQG)0YY0,WFxYMMF*TWFj--YMWGGWMiMQ,,)Q)80YG*xGMQ:-:x:)-0*:W)GxM>:0A,4)WG0i-YxxYF:8}:)--W:+W-GMMUxW=Q)Y-,0QQ8x,i*:Gnh)0)M0F0WM:M):xo,i8-i0*W8xQ*Y:Gv))0-:0MixxQx0GM{FFG-8*YW,xFM0MiQ-)W)}0iGMx)MW:Mj--,-Q-8W,W*MgiQU-BxQ)00Y:xiWx:o<8)M)FGGWi0YM*QFKW):-*-GYaG-8M:HQG)Q-Y0,WiY8M,M*V8in-00MW)x;8::)m,)F-80i0*xWxQIYaxF)-*F:W-xxM::0)i)F*G0i8Yx-FF:0:Md--W-_W-YMM):W3i_*9,0QY8x-i*:G5!)--M-)W08:M),xbWF8-M-)xGxiWY:-W))W-:0*0G)?M-GMv,*G-Q0YWxW3G8i,x-)W*U00WMx)M-G:3)Q,-:>8Wix*MG:8,0)x*)0WW:x-xx:Q:8-i-F-GWxYYM,:FP0)ML-0W0qx-xM:,YG):)*i,WQ88M,0*Jx)4-Y-,9)x0W::MF,)F-80,W)xGMixYsG:)-QY:W*WGFg:-,i)F*G0QWYxxxFi8},M--)8hW0xMMFM8iQF)i,0GG8xiM*:GK,i0-x))W0*:M-:x#F):Qi0F0GxQMY:,:))8):W-WW8{MFGMf*)G-i0-G,xQG8:,i-))G.0Y0,G)M0x:D{Q,-F08WMWFQG:i,0)*Y)0WW:x)MxYd;-ii-FFGW0GYMxMT*W),:-0W89x0MM:F:W:Q-)Q,W,x8Mi:*PWyQF0YGZ)x+i::-/,)F-*FiWFYGMi0YIM))-W00*-xWG_:0!i)*)G0:0YM,MQx8gWi--x0tW-x,,):0MQ))n,0Gi8xMx*YGPii0-xW)WWx:M*MG0F)-:i0xGGxQMY:GnFiW-,5-WW-qMiiMgFcWYQ0*F,xGi8:iv-)G):i0Wx))M0i:bY),-2-0YiGF*G:M00)M-)0WWxY-MWW2(-Gi-*0GWQxi8,:QMW):--0x0_xYxMr)y0iQ-rF,WFx8M,:)Gx)iQ00x*)xFF::*:xYF--niWQ,GMQ:YmxwF0W0MF-xFiT:0Vi)F-W0QW**,MQ88OYF--G-O*0xx-):FFQ)Y-,0&0Y iMFYGz:F0-M0)W8WiG-iW0F)Yii0*WGxQMFG,EQ,W-,M-Wxx+M0:*Y*)0QQ0YW,xFM8:iuQMx-:W0WMx)MWi:KY)WiF0Y,ix*xG:Q:0),-MWW8iF-M0iRPYYi-J08qQG-*,:xeW)0Q-08WQz0M,-)EWxQ-QW,Wkx80i:)0x),W00,F)x8xiQ-(GYF-)*iW*xGMi:-QM)g8W0M,-x*FI:Y:M:*-8WQW:,,MF:8>MP*Fx0:G0xYi):WRQ)Y-Q,FWYiiMFQG7QB0-,0F0Wxi)-:YQF)Y8i0)0WxQM-F,mG*W-:0-WWxU-0:,**)88Q0M8,xHx0xiX)-x-W80WMx)M8Mi*Y)GYF0QGix*MG:::-8M-60WW0,-Mx:bS8)M%*Y8,Qx*M,:F:W)i-*-xW:T0MGx)}8YQ-)0,8Fx0)i::Yx)MY00,0)YWMiF-1)GF-80iWFxW0Q:-*M)H8W00i-xGxQ-05,-*-)8QWYx,M?M0Y:))Yx0:80xMM):8:*GY-G0FW*,iM*:G/:JYxM0u8WxM,-:x/F)8-,Q*W8iQM*i,OFRW-i0):xxQ)0:xF*)88Q0-0G:FM0Fil,Gx-D00Wxx1%W:i*Y)G8F0Qiix)xG0QV--M-tYWW:x-MGMQx8F,Y*0W0QxYM,:H:8Y:-)0xW:G0MM:)&8.iiY0G8Fx0xi:*!x) --GMW5iWMMi-_xhF-00M)*xW)Q:MGM)#8W0,W-0xMQ-0.*Q*-WYQW-W,GF:0*:),Wx0tW0xxM:8WIiYY-GGFWQQiM)MWiUF-0M0F-Wx:M-:x4:,8-,G*WGWQMYM,{Q)0G:Y),xx^-0:-G*)W-:,YWGiFM*)iS*)x-Q-YGMxl:W:0FY),-F0YWM-*M8aQ(--M-GYWWiW*)x:QF8)YY*0GWQx-xxQFu0):-M8xW9x0M,M)MG)i*Y0*GFx8Mi:*RG:>*-WMWNGWM:M-Bx)Q:80,,*x0WQ:-)M)Q-8*:W)ixM,*0>G**-W-:GYxG:F:QF:)--x0:WY,MMHEW/i-Y-)YFW0W,T*:WF+)-*M0)WWxix-xx Q)8-,Y*WGxQM-Mxi)F0*:0)8xx{M0:M&):G*iWYWGGFM8Mi&*)GW(0-,MxW-W:i)Y)W-Ni8W,i*MYYQ{-FM-F-0<:x):x:W88)i-*08WQFYMG_F^0-:-M,xWQW-QM:FFG),YY0,WFx0xMx*&W)_--YMW)xWMiMv0,FQ*80,8*xGMQ:-:,Y)-0-:WXixMd:0Ti)))G0ixYxGxF:8::)*-G-LW-iMMG8WEi-Y-x-F*8x,:*:8i )0-M0!W8::M)mx/Q-8-8**W8xQ8Y:x)))00:0)WxxQM):M;FYG-G*YWGMFM0:MG-)W8U0M0Mx)xW:i:-G,-QW8W-,*MG:Qs-)xW)00x:x):x:8Q8)M)FMGWi,YMGiF2W):-*-WQ3x-MM:jQG)Q-Y0x0qW8M,i*qWF&-00MW)xYF:i*),)Q*80i0*xWM::Y7xY)-:W:W)MxMi:0*i)F8G08*YxxxF:0:MG--WWEW-8MM):Wci)-W,0Qx8x,:*:Y:O)--x:)W0M:M)Hxo7M8-M0FiGxiQY:8:))00:0*0,M>M-{Mdx*G-Q0YWGxF88:M)-)W0b0i8MxFxW):;**,-G88Wix*MWMQ)0)x-)0bG:x-Mx:Q:8Fi-FYGW8,YM,:FjW)iQ-0WxJx-,M:):G):--F,WQi8M*O*4W-z-Y-Mn)x0:::FY,)F-80M0)8G,iQY4xM)-W0:W-x-: :-/i)F8G0QWYx,M_i8sM---W0eW0GMMFM-*Q)*0,0WM8xiM*:8#Q-0-xW)W0M:Mi*xgQE0Qi0FGGxQGY:,&))W-iW-WWMXM0MMS)&G-:-Y*,xQi8:Y--)x-?0-W,:)M0Q:<**,-G,8WMW*0G:i_0)MF)0WW:x-MW8v2Y*i-*-GWQWYMxMi*W)M--0FMwx0MM:Nk8WQ-*0,WQx8M0**EWOQ600x8)xWG::-n,)F-0FiWFxGMQMY2,=)-8-:--xW,P::-i)*-G0iW*:,MQi8pMF--),?WYW,Y):0:Q):G,0FW8xiMF8GT:F0-M-)WWW:M*M0*F)Y)i0xMGxQMY:G FWW-M--WWW}MQ*MXF6W*Q0*Y,xM-8:i/-)x-Q*0WxW)MWM:l-_,-3-8YixFGG:8-0)M-)00Wi,-MW,cX-Qi-,,GW:W-F,:QMW)YM-0xW{x0Mx8)D0QQ-Y-,WFW8MMMQ*x)i900*M)xWM::)pGWF-Y)iWF0GMW*YVxHpWW0M*-xGWR:0Pi)*-8,QW*0,MFM8tiI--G-{*0xx8):A-Q)Y-,0QW0*iMFGGrii0--,)W8WiK-:WxF)Y8i0*WGxQM*8,mQiW-:--WxW?MYMW**)0:Q0MM,xFM8:,h*,x-id0Wx-)MF*:h*axQF0YFix*GG:Q60)M-))WWM--MxMNf0Vi-)-W_Qx*Y,:G-W):--0WWQi0Mx8)w0,Q-i,,WXW80i:FWx)qF00MW)xWMM8-RW,F-8-iW*WGM:MF*M)QMW0YM-xxMZ:-;M:*-0:QW*),Mx*8?M3*0x0iQ0x0F):WaQ)Y-G(FWY)iM*MGnQ(0-,-FxWxM*-:)-F)8-i0FWW:QM*Y,_QGW-0,-WGWb*0:x0*)*MQ0YW,xFMY8iDFGx-6-0WMW)M8Mx*Y)WxF0:Mix*MG:iXYGM-QMWW,L-M**;6YpMQ*00iQxi-,:FUW):-*:xWiT0MMM)zWTQ---GQFxYFi:,-x)n-00xW)YWMM*-VW8F-Q,iW)WWxQ:*-M)7gW0:W-xxM:80/x8*-G-QWYW,M{M**:)FWx08M0xMM):0^iGY-WxFW-:iMM*GP:.-MM0Q,Wx:G-:xEF)8-,x*W0:QMYM,LFsW-i-*YxxiQ0:--*)G-Q0*Wx*FMYFi5FYx-W,0W,W)8W:M)Y),FF08Wix*M88QI*YM-)-WW:W-MGMM*8)x0*0OMQxYM,:Qr8M:-FWxWiM0MY*)H8%:-Y0WGFxFFi:*_x)2--GMWQMWM:M-{xLF-0-M0*x0iQ:i-M))-W0MW**xMiQ0#x**-F,QW-WxWF:-Z:):Mx0hW0xMMv8WeM*Y-,-FW8WiM)MY*s)*-M0GMWx:M-:WHQ08-x0*W0xQM:*,USt8):0F8xxW-0:M_*)G-iiYWWxFM8Mi;*px-Q-YWMxQ,W:0-Y),-F0YWMW*M0iQh*FM-x,WWiW*Wx:i:8),A*0GWQxYMG8F_YF:---xWIW0M,M:*G)M)Y0)MFx8Mi:F>GQA-*-MWQWWM8*-gG^QG80xY*xGGQ:Y.M))-8*:WFWxM5M0NMD*-W-Q-YxWGF:Q-:)--x0:WY8MMQ,W4,QY-*,FW0Wi0*:0Mm)0FM0)WWx:M)8x#iQ8-i-*WGWQM-M8*))-D:0,MxxVM0:x?FxG-M)YWW0FMa*iJ)_GF^0**MxMFW::nY),-2M8Wx0*MGMQnY?M-F-8Y:xF8x:W-8)i-*08W:)YMWGFn-i:-M,xWQWYQM:QxG)GMY0,WFx8M,8*>0im-0-MW)WWMiM&*,)i:80-M*xGMQ:*z,W)--D:WF-xMG*06,j):G0MFYx*-F:8p:)--G-UW*-MM)MW_:jY-x-%-8xxY*:F-a)0-M0JWWG:MF8x+i,8-Y,*WWW:WY:WW))0<:0-WxxHM-8MLQ,G-Q-YW,WFM-:W:-FW0^0Y7MxiiW:i{Q-,*QW8WW:*MW:QX-_->)Y-b:xQGx:ac8),-FxGWM)YMW0FsU8:-*-G)ox**M:QFG)Q-Y0x0BF8Mx-*7WFt-00MW)x8G::FW,)ix80i0*xWM:MYox-)-*Y:WF)xMQMY*i)QMG00GYx,MF:Ya-*--0:fW*)MMGiWwiX-*,0iQ8xYi*:G7O)Y),G)W-!:MMQxuF)8-M-):GxMFY:-F))W-:0-WGxbM*0M?Q8G-Q-YWxxvF8:M)-)0<10) MxQM8M:6*-,-,,8WG,*MWMF)0)WM)0QG:x-Mx::&Y8i-Q:GWM)YM)iF/0mi,-00QAx-,M:)ZG):)-0,WiI8M,i*kx)K-Y-M*)xYF::)Q,)F-80iWF:GMM0Y}W8)-W-:W*xxx.:Y)i)WMG0,kYxWM)i8VM---Yi#W-GMMFM8YQ)FM,0WQ8xiM*:8_::0-W:)WY):Mi*xjQrY8i0QQGx,iY:,y))8)MG-W0DwM-iMp*)G-:-YF,x:F8:,Q-)x-R0Y0M))MY):&,i,-F08WixWFG:MW0)WW)0W0:x*Mx)#RY-i-l8GWM)YMxMFGW)xM-0FQdx0MM:Vk8WQ-F:,W:)8M0**wWIQ*00WQ)x0,::-E,)s)YGiWQvGMGMYjM))-8-iQ-x8FX:-Qi)*-G0:0-8,,:)8c8k--x0mW0xYI):YWQ)FW,0F08xMMiVGQ:-0-)Q)WY):MF:GYFFYYi0)9Gx0:Y:x_FiW-M8-WY:lM-NM/F(8iQ0F/,xWi8:iE-)W-QW0WG))MY0:wMF,-K-88ixo*G:WF0)M-)080:*-M8-d=Q*i-*0GW:WYY,::YW)0Y-0xW?x0MMx)QYxQ-F,,WFW8MM:*Gx):Y00G-)xY-::FJ,FF-Y8iWiQGM,QY1x{)FW0x;-xFic:0di)F-8MQW)),M:08/YF--G-:Q0xG*):0QQ)Y-,01008iMm-Ga:F0-M0)W8WiG-i8YF)Y*i0*WGxQMYx,Q:xW-x,-WxWTMY:,Y*)8YQ0x{,x:-8:xh*Qx-:80WWF)M0i:A*4xYF0*_ix,*G:Q{0)x-)*WW,)-M80_7Q8i-)-WYQx)*,::FW):--0G0Qx0MG-)n8FQ-Y0,WwW-ii:?Yx):*00MW)x8x:,-K80F-Q:iW*xGMQ:-8M):MW0xM-xxxy:YS,:*-88QWM*,M:08v,)*Gx0:W0xM-):*xQ)--xFFWYxiMQ)GT:*0-,-F)Wx,--:YiF)8-i0FWWMQM)0,o:xW-0,-WGWq00:G8*)8*Q0YW,xLx8FihwWx-G80WMx)MW:i-Y)8MF0*:ix*xG::R-0M-A0WWGG-M80XXYRM,*0YhQxMi,:F5W)M-*-xWi)0MG0)y=FQ---x)FG-*i:Qxx)7-00,0F,WM,--j0MF-80iW)WGxQ:)YM)i:W0:W-xxM_x0pGx*-Y,QWYW,M#:0x:))-x0i-0xG-):YLixY-G0FWFQiMQQGy:vYlM0:ZWxYi-:xTF)Y-*8*W0)QM)0,lGFW-i-*Yxxi*0:xQ*)G-Q0-0GQFM--in)Fx-D00W,W)GW:,YY)G*F08Wix*MG)Q()xM-:,WW:W-MG:Qi8),-*0:nQx)-,::B8M:-)0xWMF0Mxi)d8 QMY08/FxQ*i:*Hx):-_-MWQ)WM,0-}*8F-0-i**x0*Q:*QM))-W0i0*QxMi-06,F*-G0QW-WxiF:-Y:)iYx0aW0x,x)*Wb,0Y-GYFW8xiM*:WxA))MM0:MWx:x-:G.z:8-,0*W0,QM)0,vDXWM:0}KxxW*0:M3*)8-G-YWW)FM-0iEM8x-Q--MMxQ*W:MWY),-F000M)*M0-QB-FM-)0WWiW*Gx:iY8),**0GWQx-xxQF.-0:-F,xWBx0MM:)FG),MY08MFx8xi:)(G:h--0MWG*WM,0-%x),08Y,8*x-=Q:*}M)F)W::WF)xMW-0%i)*-80,FYxW-F:-W:)MGx0Q0Y8M,QYW},*Y-,0FW0WMG*i004)-*M0)WWx:M:)x2ix8-GM*WGWQM-:0))F0*:0xQxxi-0:,&,xG*i-YW0:FMY:ipF)G*^0-0Mx)8W:,FY)x)F)8Wx)*M<QQ50)M-s00M:xF-x:iW8)-**0W0:xYMWYFku*:--0xWQW0,M:Q0G)8YY0,WFx0xM,*c08%-:8MW)xWM:::-,)iM80Gi*xGxQ:-_0-)*0-:WUGxMi00{x):)GYi0Yx8WF::Y:)*)8o38*)MMQ*W(Q)Y-x-F08xx**:40&)0-M0)W8::MF-xs:(8-i0*WGxQ)Y:WW))-x:0-8xxiMYYMJcQG-::YWx0FM0:i*-)WFN0FMMx?MW:i:-W,-i:8W-,*MG:QD-))Y)0-e:xF-x:8Q8)M)FxGWMFYM*QFOW):-*-G8+x*)M:,FG)Q-Y0x0Qi8Mx**2)*1-00MW)xWG::FW,)iG80i0*xWM::YkGQ)-Y):WF)xMi:YMi)FFG0GiYx8iF:0:Q---0:EWi,MM):Wai)YF,0iD8xx-*:wQw)Y),G)WYF:M)ixDF)8-M-)0GxM)Y:GQ))W-:0*0GGZM**MHFFG-Q0YW,xOi8:xW-)0Gg000MxFM8W:&)Q,-0:8Wx)*M0:5Q0)xF)0*Q:x),x:Q:0,i-Q:GW8FYM,:F{0)i0-007ux*-M:,YG):)-:,W:F8MGQ*>x)6-Y-,:)xY)::)Q,)F-80M0*GGMM*Y^W*)-W0:W*WGW1:*-i)F*G0QWYx,M,)8/xx--0x;W0WMMF:GFQ)*F,0WF8xx-*:W::,0-W:)W08:M-:xOQ)0Qi0QyGxM-Y:Yi))0-Mi-W8)nM*0MnMMG-:0-0,xQG8:8i-)0MI0Y0,G)MY0:2M*,-F08W,x*GG:MW0)WM)0Q8:x*xG,fQ*Gi-W,GWQxYMxM#iWFxx-0Qi&x0MM:F:8QQ*F,,W0Q8Mi:*Rx)GW00Wy)xYF::-:,)c-FWi8F8GM:QYOWx)-Y0G0-GWGv:*Gi)FQG0MWwW,,Q,8h*6--GF}W*xYM)i0iQ)MQ,0MF8xMx))GoMx0-x*)WWx:M):xxF)*Mi0QcGxGoY:G%F*W-x:-W8)PMF!Mf))W,Q0*Y,x,&8:xW-)G):Q0WG))MQQ:AY),-Q000ixb-G:MW0)**)080i8-,8YuEQ*i-*0GW:W-G,i:0W)0Y-0xW1xYx*G)1Y8Q-i8,WFx8Mi:*Wx)MM00Wi)xWx::*rG:F-Y*iWGMGMM0Yjx#FWW0xt-x8Fy:0Bi)))8GQW)F,MDW8H:)--x0Q,0xG)):0iQ)Y-,0FWYiiMd0GXMW0-MY)W8xW:-iWMF))Wi0FGGx:x:x,Q:xW-G*-WxxNM-:,M*)YMQ0F/,xxF8:M:*8x-Mi0WW,)MW::S*XG8F0*:ixMiG:Qa0)M-F0WW,)-M8-V60Si-)08iQx*W,:MQW)xM-0G0QF0MG0) }*Q-Y0,WQxiii:^Wx)MM00*8)x8xi)-m8GF-Q8iW*xGM:MYiM):xW00G-xxM!:Y:M**-Y,QWi,,MF:8_:)*8x0MA0xGF):W:Q)--x)FWY0iMZxG9Mx0-G0FiWxMW-:YYF)*Yi0)0xMQM)0,VG*W-:0-WWxQz0:GW*)YMQ0M8,x{x8xiBsGx-:Y0WMx)M8M:)Y)8xF0Y8ix*MG:::-0M-:,WWMG-Mx:Et8)M**0YoQx)F,:F:W)i-)xxW:00M)0)lYxQ-)0M8FxYWi:Q8x):*00,0))WM,0-R)GF-80iWFxGGQ:)WM):MW00i-xGx.009GG*-Y0QWYx,MzM0,:)kxx0:80xMM):8:::Y-8,FWD,iM*:G4:OY-M0:MWxM,-:x6F)8-F,*W0)QM)),BFwW-i0)Axx:W0:xF*)YMQ0-0xFFM-0im,Gx-.00Wxx)FW:,WY)8MF0Qiix)xWiQd)GM-LYWW:x-MGMQM8)Gx*0YQQxYM,:E:09:-p,xW:G0MM:)B8Ix,YY8MFx-*i:*yx)I-YIMWQ)WM,)-Hx>F-00M8*x8WQ:MGM):MW0i0)pxMi00bxQ*-G0QW*x,GF:-W:).Mx0xY0xxM)xWz,xY-8:FWF-iM):Wxa)*mM0MYWx,--:8mq-8-,)*WQWQMMu,qQ)F-:Y)-xxW80:8G*)W)i:YWW)FMY,iO-)x-:0-:MxQ-W:,WY)8)F0YWi8*M00QD)xM-FSWWix*Gx::M8)G)*0YrQx-x,0Fc-x:-,8xWpx0Mx:)8G),MY08ZFx:,i:):WQ<*)iMWx,WM::-OGEpF8YG:*xFiQ:YvM)F)QF:WKQxMWQ0ei)*-G0QYYxW-F:-Y:)-)x0QW0GMM_xWaY-Y-8:FW0WM**:0W<))GM0)WWxix-xxUiG8-,_*WGxQMY:,G))-x:0)-xxhM0:MnFGG-,:YW8KFM8ii^F)Y)dY-*Mx)-W:::Y)x-F88W,Y*MY)Qc--M-F-8W:xF-x::i8)i-*08WiQYMW0FS-x:-x)xW:x0,M:QWG),MY0-LFx0MM-*B8id-M)MWQ)WMiM-:,)iM80,Y*xGMQ:*V,8)--::WF)xMy-0d,):iG0,!YxW-F:F8:)*--Wu8-YMM)-W2,xY-W0Qi8G,0*:GW()*WM0FWWF:M)WxRM08-,W*WWW:8Y:WW))QY:0-Wxx:MY0M5QxG-,:YW)GFM0MMG-)0,f0:GMx)MW:i:-G,-iM8WY,*MG:Qj-OxM)0-i:xMix:K 8)i-*)G8M)YMW*Fe8V:-*0xF&x-0M:QMG),MY0WWFY8M,W*/-8&-)8MWFW8)::FW,)WY80iW*x8MQiYTWx)--::W,GxMQMYGi)Q,G0i8Yx,MF:0:iQ--0M1W-GMM):WTi>-F,Yii8x,,*:Gc#)0-Yx)WY):MF*xX.(8-M0ixGGi0Y:FW))-M:0FWYWh,-WM!:GG-iYYWWx),8:,x-)*M!0)GMxFxW0:ZFx,-Wi8Wix*M8:Q-0)WM)0-<:xiFx:Q:0Wi-QiGW,,YM,:FH0(i,-00:kx-,M:){G):)-*,WiQ8M,i*Ax)a-Y-MY)x-q::iW,)F-80iWM:GMM0Y2W0)-W-:W*x-:_i-xi)GiG0,_YxWMMM8Q,,--G:yW)*MMF:*)QF)i,0MM8x,0*:W:W:0*W:)W*8:M-:xmQ)8)i0Q?GxM-Y:-Y))8)iG-W8F=M-iMK*)G-:--0,x:)8:8F-)x-S00WxQ)MY0:SFW,-F-8WMx)8G:iG0)8*)0-K:x*xxG+?*xi-x8GWQxYMG:WFW)xM-00udxi,M:F:88Q-Fi,Wi-8Mi:*yWkQG00W:)x-0::->,)/)0FiWQQGM,WYOM))-W0i0-x8-5:*Yi)*)G0:WY*,MQ881x:--0:tW*x,W):0GQ)QG,0iG8xMx-gGPMx0-*8)WWx:M):xxF)*Mi0QDGx0,Y:x:FGW-xi-WWGKM0:M.Fe8xQ0F:,xQ,8:i_-)G):G0WWQ)M0i:+Y),-F00xixt-G:MY0)M))08WMR-MW8BEMxi-Q:GWMx0,,:QGW)G,-0W8wxYx,-)DYxQ-Mi,WFx8M,:)*x)MM00W_)xFF::*:x:F-*iiWFGGMQ:Y<xrF8W0x:-xW,&:0ci)))8QQWFQ,MxQ8o:)--G-QZ0xWy):0QQ)Y-,0FW,QiM;0G{M00-M-)W8xiM-:WGF)-Yi0Q_Gx:x-G,k:xW-Yi-WxxAM-:,Q*)YMQ0F ,xxF8:M:*0x-Mi0W*-)MW::.*%x,F0*:ixF,G:Q/0),)FQWWxQ-MWi428)i-)-8MQxFV,:QYW):--0xWL)0MG0)AY0Q-Y-,W&x8Yi:FGx)0i00Wr)x8Mi--{WxF-)xiWF*GM:M-QM):MW0Y:-xxMb:-?,:*-Y:QW)),Mx*8(Mc)xx0MQ0xWi):WgQ)-)x*F8*3iMFiG?u)0-M0,MWx,--:80F)8)i0)W*MQ,*0,LWGW-x:-WGxG-0ix8*)-WQ0*F,x:M00iIFGx- F0WW,)M8M:xY)8MF0:Gix*MG:iZY0M-::WW,)-MFiBXY+M**0YQQxii,:FIW)i)*xxWMq0M-Q)KG)Q---,0Fx-Fi:MFx)B-00MW,:WM,0-/88F-8-iW)x*:Qi*8M):*W0xV-x8M,M0QxG*-Y)QW,Q,MTMYx:F}Mx0Mi0xMM):8:::Y-8iFWi&iM*:GaS)Y8M0::WxM*-:xAF)8-Mi*W0)QM)-,m)FW-,0-)xx:)0:MW*)8nQ0-W,-FMY-i4Q0x-iQ0W,W))W:,WY))YF08WixFMQQQ7)xM-::WWYG-MGMq*8)G,*0FGQxYM,: :8*:-#MxWW,0MM:).8E:0Y08iFxQii:*%x)+--,MWQ)WM,*-Zx=F-00,:*x8)Q:)MM):MW0,W):xM:-0 88*-Y8QW-WM:F:-W:),Yx05W0xxMFxW7,xY-8:FW:GiM)MGMR)),M0;8Wx:M-:G:eM8-GM*W8GQMY:,qzp0W:0rixx:,0:Mm*)G-:GYWW)FM-*i6*9x-Q0Y:Mxd)W:-WY)8MF0-W:G*M8-QuFGM-#YWWiW-xx:iW8)-,*0GWQx*M,iF(-x:-3:xWWQ0M,M)-G),,Y08GFx8Mi:):Wx2-)MMWXGWM::-cGgF*80Gi*xYiQ:Y!M)F)80:WI:xM:i0ni)*-G0WMYxW-F:--:)-)x0QW0,MM=-WZY,Y-8:FW0WM-*:0W+)-FM0)WWxMM*GxBix8-G:*W*8QM*:x0))-M:0fNxxx00:,f)0G-MMYWY8FM-0i{)/Gi(0)SMxGiW::vY)G-vQ8Wx)*M00Q/iFM-F-8Y:GF*x:0Y8)i-*0W0:8Y,W-Foi8:--0xWQWYGMiQYG)-GY0,WFx8M8)*U0xk-),MW)WWMi:Q),F:x80MG*x0-Q:)u0j)*YM:WF*xMGi0Hx):)GYM:YxFxF:2Q:)F-*028*ZMMxGWBG,Y-x-3H8xx-*:8i^)0-M0^WW):MF0x ix8-8x*W8xQYY:WW))-M:0QxxxQM0,MRVWG-GxYWW)FM0MMY-)0Mh0iGMx)MW:MKYF,-i:8Wx)*M4iQq-R,F)Y-Q:xMix:fX8)M))*G8,{YM*QFmW):-*-F*qx*FM:,FG)Q-Y0,WrY8Mx0*k08T-0-MWFx8L::)0,)8080GI*xWx:,YmWx)--,:W-xxMQMYWi)Q,G0:)Yx,MF:8yM8--0M+W*rMM):WqQ)*W,0i78xx)*:GQT)Y-0W)8YQ:M{)xb:M8-M-M-GGM-Y:0i))W-:0)WxW(M*0M QxG-8,YWxWFY8:x8-)0Y600WMxFx8,:XFW,-x88Wix*MG::-0)WM)0-::x-xx:QBYii->,GWxGYMW0FP0#ia-00esxiiM:)/G)i-,8,W:)8Mx0*aFFN-Y-,,)xY*::iF,)F-80M0FQGMM-Y?-*)-W0:W*WxFy:*Yi),YG0QWYx,MFW8Jxx--0,gW0WMMF:8GQ))G,0:-8xx-*:0&Q:0-G,)W)Q:MRQx(Q?W0i0QtGx0iY:,e))0-M:-W8)UM*0MrxFG-:--0,x:*8:,Q-)x-K0Y0,x)MY-:;*F,-F08WMW)GG:MY0)x*)0WW:x-MGW&s*xi-Q,GWQWYMx:HYW),G-0Q+Zx*-M:QSxFQ-),,WiF8M,i*jWR:x00Wp)x1*::-u,)Q-YGiWU)GMM0YL-8)-8-M:-x8*l:){i)*-G0:0-x,M:-8dMF--x0oWYWM*):YYQ):Y,0FW8xMx*,GVM00-xY)WWx:M-:QYF)*Mi0QMGxQxY:x6RQW-,,-W8,4M*0M;FO8:Q0F^,xG*8:iX-)W-bY0WG))MY0:Li8,-7-8Yix%*G:iQ0)M-)080iW-M8->r*Gi-*0GW:W*O,::YW)M*-0xWaxYxWY)QY0Q-Fi,WFx8Mi:*8x)MM00WM)xWx::*KxQF--,iWx*GMM0Y7x2FWW0xO-xWGP:0ri)F-8iQW)),M:08_8Q--W0QQ0xG-):YWQ)::,0mW0-iMF*GkGQ0-W:)WYx:x-:WYF)i)i0<MGxMM::,QQ8W-0F-WY*KMYMMF*)YMQ0*Y,xFM8:,9*xx-M:0WG))M-M:g*)x8F0*#ixH-G:Qx0),-F0WW,Q-M0M/(*xi-)-G-Qx)-,:GFW):--0WWQ:0MG0)>YxQ-MY,W&W0Gii78x)WY00MW)x8xi,-Q8WF-Q8iW*xGM:MM,M):GW00G-xxM7:0#M8*-Y:QWFQ,MFM8(i)),x0ii0x):):YWQ)-)GMFW-)iM%*G&q)0-,-)*Wx,*-:GxF)8-i0*W8pQM)-,5Q8W-:0-Wxxt00:GW*)YxQ0Y8,x:M0*iQF0x-Q:0W,F)M8:iGY)WWF0)MixF:G:::Y:M-::WWY,-Mx:ZgY)MQ*0Y(Qx)-,:WQW)i)*ZxWiF0M-Q)eG)Q---,8Fx-)i:MFx) -00,0F-WM,*-e**F-80iW*xGWQi)WM):GW0:0-xGM}80+x0*-0)QW)),M::0x:)FWx0xi0xWi):8::YY-8:FW:,iM*:GX:)YWM0:OWx,--:FQF)0)i-*W0FQM*i,d))W-i-*-xxi)0:xQ*)G-Q0-0x8F,-*i3)Fx-+00WMx,2W:,WY)8GF080ix)M*.QQ*0M-8:WW,)-M8:,:8FxW*0-QQx*,,::XGF:-FxxWx)0M,*)a8U:QY08.FxQ*i:*lx):-Y,MWQ)WM,0-.*8F-0-i-*x0*Q:)FM))-W0i0-YxMi-01,F*-G0QW-W,0F:-Y:))*x0dW0x,xF-Wm,0Y-*:FW8xiM*:*-k))MM0:MWx:x-:GZ,-8*xx*Wl*QM)0,uQ)*):YF,xxN-0:xx*)W-GWY8WiFM*)ibF0x-Q-Q-MGQ-W:GiY),-F0YWMQ*M00Q#)xM-x,WWiW-Gx:i88),**0GWQx-x,xFX-W:-i8xWkx0MM:FiG),MY08:Fx8xi:)JG)A-*GMWiGWM,0-_Gne*80G>*xmiQ:Y<M)4-:8:WF)xMi00k-F*-W-Q-YxW*F:*x:)--x0Q0-iMMQ-WhxMY-,0FW0WM!*:0Y4)F:M0)WWx:M-Fxqix8-G,*WGWQM-:x0))Y8:0F-xxi-0:G&)YG-MGYWYQFM*Qi()w,0?0)NMxGiW::7Y)G-#*8Wx)*M00QViFM-F-0Q:xF*x::Q8)i-*0W0igYMW-FU0F:--0xWQWYxM:QYG)i*Y0,WFx8MiW*o0x_-),MW)WWMi:*Q,):880)f*x0-Q:){iF)-YG:WXFxM:i06,l)YG0,HYx**F:8Z:))-xY^W*)MMQ0Wu88Y-x-F-8xx**:8Qz)0-M0F0WW:MF-xoQF8-i0*WWW:8Y:WY))FY:0-WxxQx0iMpQ0G-iYYW,xFM8:)Y-)0Mu0)MMx)xW:iK-*,-:G8Wx,*M00QU-gxi)0-#:xM*x:?48),-FGGWM)YMW0FVo8:-*-G*Px**M:GxG)Q-Y0x0bs8Mx-*KWFZ-00MWFW8x::FY,)Q*80iW*xWx:)YuW0)-Y,:W-xxMK:0Qi)QMG0,MYx,xF:0s:F--8G}Wi*MMQ0Ws:)-*,0:x8xWo*:8*o)Y),8)WY):MM-xkF)8-,0**GxM-Y:WW))HG:0*0G0PM*YMkQ*G-Q0YWxW.G8ix0-)W*100WMx)M)):VFx,-iM8WiW*MW:x)0FG0)0:Q:xF-x:Q9Qxi*j8GWx:YMGFF{Y)M:-08Gmx08M:QFG):)YY,W:)8M-Q*Dx){--0x,)xY-::FW,)W*80M0*YGMMYYO-*)-W0:W*Wx-w:*0i),YG0QWYxxxK)8Dx8--)8^W0xMM):)-Q)FM,0ii8xix*:WPx-0*G8)W-G:MF0xE:)))iYIGGx,WY:)Y))8),Z-88)!M**MR*)G-:--G,x:*8:-0-)x-f00WM*)MY-:U)*,-F08Wix)MG:MW0)Wx)0W8:xFMGFKv-)i-):GW:0YMx:F8W),--0YM6x*QM:F:WbQ-F:,WW,8Mi:*fW)0Y00W3)xY-::,Q,) )8*iW1FGM8QY>M))-8-:8-x8);:QFi)*-G0:0-G,M:*8.0*--x03W0x,-):YWQ)FG,0F08xMM)iG.i)0-G))WY):MF:x8F)--i0iiGx,iY:x:*-W-x:-WF,_M0:MaF)WiQ0FJ,x:-8:-Q-)G)Qx0WGF)M0i:>Y),-A-0*ix.)G:iQ0)M-)080iG-M8*_XYFi-*0GWQx-*,::WW)xG-0x0qxYMMF)50)Q-x:,W:)8Mx:-Qx)i-008Q)x0,::*:GxF-*:iW,FGMQ:Y x)FxW0x_-x8-q:QYi)))G)QW)F,MiQ8+:)--G-!00xG)):0QQ)Y-,0V0YHiM/*G5M*0-M0)W8W:W-:8-F)Y*i0*WGxQMQ),>:xW-xx-WxWEMY:iF*)0-Q0MF,x:-8:M:)Yx-M:0Wx8)MW::b*)xhF0*2ix(-G:Gi0)x-K,WW,)-M80vD}Mi-)0WxQx)M,:,iW)xM-0G0HW0MG0)rD*Q-Y0,WQx08i:KWx)MM00*8)x8xi,-Q8GF-M,iW*xGM:M-iMF:xW0*i-xxM&:Y:,Q**Y,QWxQ,MF:8%:)iWx0M90xGF):W:Q)--YWF8-xiM)QG>Mx0-G0i0WG,M-:8GF)_*i0qW-WQ,):,I8JW-8Y-W8xGM0iG&*)mQQ0dF,x6x0:iVuxx-:*0WMx)M0::*Y)8MF0*lixipG:ig-iM-::WW,)-MYdw}0)i**00WQxQ7,::WW)i)*0xWi)0M*Q)TG)Q-*0xWFx--i:gWx)8*00,0F8W,,Y-6**F-80iW)WWGQi)0M)xYW0:W-xGx8G0LG8*-F8QWYx,MF:8Q:)6Mx0Mi0xMx):85QFY-W0FWiMiMP0G9:+-IM0:}Wx,F-:xaF)0)M-*W0FQM-W,e))W-:0*Mxxi)0:Gh*)G-Q0YWx,FM-0i;ZWx-?Y0W,xM:Wi,QY)0WF0-Mix)x)xQQ)xM-i*WW:x-MW:Qi8)GM*0Y=Qx:F,:N:8x:-PixWM,0MM:)s8A:)Y08:Fx;ii:*<x)>-YxMWQ)WM,--rxzF-00MW*x0,Q:rQM):MW0i0)cxMi00K-**-G0QW*xFiF:-W:)kMx0880x,xF*W3,GY-*8FW8xiM)MG*_))xM0xGWx:M-:G:Q08-G,*WF,QMY:,T))8W:0fUxxiF0:M:*)W-ixYWWGFM-xi2zxx-i00-MxQ,W:GYY)8YF000:M*M00QAi*M-)0WWMx*)x:iW8)GM*058Qx-xxxF.-G:-)YxWTx0M,M)0G),xY0G8Fx8Mi:):G*3-),MW#GWM::-n,)B*80GP*x0FQ:Y:M)F-8*:WFGxM000{Gx*-00k8YxW,F:*8:))*x0Q0-iMMQ0WK0GY-,0FWYxi,*:0WP))MM0xiWxix*:xEiG8-G0*WGxQM-M,0))-x:0)8xxbM0:,:FWG-,,YW-,FM8:id)?WQ(0)MMxd,W::qY),-Y,8Wx)*M0)QDY#M-F08::xF,x::F8)GM*0W0:iYMW0FVQG:--0xW:xY:M:QWG),MY0*iFx0xMQ*c0GN--YMW)xWMiM*i,)ix80GQ*xGMQ:-:,,)--,:W)GxMo:0k,=:,GY,MYxW*F:8S:)--WMZW*)MMQ)W;:RY-x0SW8xx,*:zGo))MM0F08M:MF0xA:Q8-i0*W8x:8Y:WW))-M:0:Yxx:M0WMJQxG-,:YWY-FM0:M*-)8*(0HYMxQ-W:,4*W,-:Y8W*W*MWYQU*)Y-)YY8:xM8x:,G8)M)FiGWM)YMG,FoW):-)0GQDx*-M:QWG),)Y0GWF88Mx0*E0x{-Y%MWFx8M::FQ,)i)80G2*xWx:YY+Wx)-Q8:W-xxM::08i)QMG0,DYx),F:0:MQ-*0icW:,MM):W_iR-F,Yi:8xYi*:Gr{)Y)*F)W-Q:MMQx?F)8-i0*8GxM-Y:WY))W):0*WG-_M*iMzG-G-,:YWxWKx8:xW-)0G^00WMxFx8M:&FG,-QZ8Wix*MG:Q*0)Wx)0Y8:x-Mx:L6Yxi-Q:GW,_YM,iF>Y)MG-Y80+x0-M:i<G):--M,W:W8MG)*tW-l-Y-,i)xY-::MF,)F-80,W*8GMM0Y!Wx)-QY:W*WG-?:*8i),YG0QWYxxx}Y8pxW--)8hW0xMMFM88Q)FG,0GG8xiM*:GHQ:0*W:)W-Q:M-Mxcg)0Mi0o0GxMWY:WW))Y-:--W8WRMF*M{Q*G-:-YY,x:-8:YF-)x-y0-W,0)MY0:RFx,-WY8WMW*0G:M80)x*)0WW:x*xG-lp*Wi-FYGWQxYMxM#iWFxG-0W8Tx0MM:)f)0Q-F:,WiQ8MiM*NG)x00YG0)x:-::FW,):-)-i8DWGM,YYRxF)-Y0Q8-x8xj:2Wi))WG0:0*i,M:086YG--x0+W-x,i):YWQ)FM,0Gi8xMx)*GzMG0-W8)WWx:M*Mx8F)*xi0F8GxQMY:x:>8W-x,-WWGeM0:M_FO8:Q0FM,xx-8:iq-)x-Gx0WG))MY):=-/,-O0FxiG=xG:0G0)WM)0YWGW-,8,A/0xi-iiGW:xQ:,i:iW)GW-080pxYxYx)QYxQ-=*,WFx8M,:*Yx)MM00Wh)xFF::*:xxF-*iiWFGGMQ:Yaxne8W0x:-x*i7:0=i)*-8DQW)),M:-8yif--G0Q:0xGG):*QQ)FM,0(08WiM.0Gn8*0-M0)W0x-i-:8WF)*Mi0x8Gx:xY0,E:GW-Go-WxxPMYM,-*)YxQ0F),xFM8:M:)ix-M,0WW-)MW::^Y)x0F0*RixNFG:Q:0),-%MWW,8-M8xn{*xi-Z0W-Qx)G,:MYW)xY-0G0FM0MG0)lL*Q-Y0,WQx8Gi:VWx)MM00*8)x8x:*-a8GF-YYiW*xGM:M-MM):xW0M8-xxM3:Y:,,*-Y,QW*G,MF:8a:)*Gx0M>0xGF):W:Q)--xFFW-8iMG0GcMx0-G0*8Wx,G-:08F)Y*i0)0G)QM)0,KGGW-:0-WWx:Q0:GW*)YMQ0ii,x6x0YilmGx-:Y0WMx)M8MiiY)8xF0Y8ix*MG:::YYM-:,WW8,-Mx:nkY4iF*0YMQx*,,:FwW):-W,xWi)0MG))#WoQ--0xtFx-Gi:FFx)MM00,0FYWM,0-y)GF-80iWFxG*Q:)WM):MW00i-xGxQQ0DGG*-QhQWYx,M!M8i:)7xx0:80xMM):8::AY-8,FWYGiM*:GA:h-WM0:MWxMF-:x!F)8-i)*W0)QM)),zF#W-i0-YxxiG0:*G*)YMQ0-W,8FM-xi3Q0x-i*0W,WFMW:,WY))xF08WixFMW8Q%)xM-::WW0Q-MGMQM8)G,*0YGQxYM,:.:0Q:*DMxW:G0MM:)9G)WWY08=Fx-)i:*:x)Q-EWM8Q0WMYY-_8xF-00Y&*G08Q:F-M)QFW0,W-0xMiG0kMi*-Y8QW-W,FF:-W:),Yx0lW0xxM)WW>,xY-8:FW:GiM)MG0k)),M0xGWx:M-:G:_M8-GM*WF,QMY:,t2^8):0hixxWi0:M_*)G-WxYWW)FM-*id*%x-Q0JxMGQ8W:xQY)8MF0-WWW*,0GQkF:M-W,WWiW)0xiiW8)GG*0GWQx-x,xFN-G:-xMxW4x0MM:)GG),xY0W*Fx8Mi:*<G*+-):MW:JWM:i-NW)c-80x)*xG-Q:-MM)F-W-:WF-xMM)06GQ*-W-:xYxW-F:QF:)--x0:WM,MMQ0Wr,xY-)YFW0Wi-*:081):YM0)WWxix-xxZiW8-Y8*WGxQM-M,i))-G:0MGxx4M0:MmFWG-,:YW8QFM8MiT*)W8%0*)MxQWW:,WY)W-Qx8Wx-*M-*Qe)*M-F-Gx:xF-x:WF8)i-*08WQ*YMW0Ft-x:-,YxWQWYQM:Q8G)i*Y0,WFx0xM)*X0Wy--YMW)xWMiM*G,)iG80,8*xGMQ:YcxQ)--::W#QxM>M0VM)**G0M)YxF-F:-W:)F-,Y3W*-MM:YW}iFY-x-#D8xx-*:F8=)0-M0 W8G:MF0x3ix8-Y,*WWWQ-Y:W8))-Y:0-WxxQxYiM4QWG-iYYW,xFM0MiQ-)0Gq0)GMx)MW:i:-F,-ix8W,G*MG:Qn0)YW)0-O:xpKx:r:8)M-*8GWM-YM)8F5-x:-*-G0=x*-M:1iG)Q-Y0GWn08Mx0*y0x6-#*MWHxW)::FW,)iM808)*xWMQ0Y/WM)-)*:WF)xMQM0)i)QMG00GYx,MF:YNiQ--0:OW*)MMGiW;iw-F,YiQ8x*F*:GPZ)Y),*)8-H:Mx*xuF)8-M-)YGGMFY:FY))W-:0-W*:sM*0M^Q8G-Q-YWxx,:8ixx-)GYs0)#MxQM*M:QFM,-iQ8W0G*M0:x:0FW:)0:0:xi,x:i{X)i*Q7GW8YYM08FI06i0-00w.x-GM:)OG)i-*Q,W:)8Mx0*D-0#--0xM)xY-::FW,)M080MW*GGMMWYl00)--::W*WGxo:*Wi)xYG0QWYxGM -89xx--0:%WiGMMFM8iQFF,,0GG8xiM*:W::Q0*WM)Wt,:M-:x.QNiQi0QiGx8iY:,())W-MG-W8)!M**Mb)4G-:0Y8,x:08:-)-)0My0Y0,8)MY0:6F8,-F08WMW)-G:M80)x:)0WW:x-MGG}(*Wi-QRGWQxYM,:FQW)xM-00:zx0,M:FU*-Q*FQ,WM:8MxM*oWyWm0YWo)x*G::-l,)Q-YxiWr)GMM0Yt-8)-8-:F-x8*#:*Fi)*-G0:0-x,M:-8{8*--x09W0x,,):YWQ)Fx,0F08xMM)iG<M,0-8Y)WY):M*MG-F)*Mi0xGGxQMY:G.W*W-x:-W8)6MiiMoF%WFQ0FQ,xGi8:ih-)G)Q:0WW?)MeQ:mY),-(-YMixbFG:WF0)M-)0WW:W-M80lD*8i-*-GW:x-),::GW)x>-00KTx*M,F)=Y,Q-Q,,Wi,8MMMY)x)MM00*G)xWM::)Rx-F-*:iW1)GM0iYSxoA:W0xQ-xW,K:02i)))W*QWFc,MQi8N:)--G-QG0xGF):0QQ)Y-,0FWY+iM10G_M80-M-)W8xi--:8GF)MMi0Q<GxMM0i,S:,W-Gi-WWGkMYM,i*)YMQ0MQ,xFM8:,4-Fx-M:0WG))MF*:D*}GiF0*QixQMG:Q%0),))YWWxs-MWi/z8)i-)-G*Qx)F,:,FW):--0G0+00MG))w8FQ-Y0,WFxMFi:BWx)MW00M0)x8Mii-38,F--8iWO)GM:M-iM):MW0YQ-xxM7:-;,,*-Y:QW)),Mx*8KMI*,x0MQ0xx,):WSQ)-)xYFW*?iMgYGV{)0-,-)FWx,F-:WQF)8-i0)0YFQ,)),k:GW-:0-WxxQi0:GW*)YWQ0Y0,x}M8iihz,x-0Q0WG))M8M:-Y)8MF0YYix*MG:i4Y&M-::WW,)-M-,6TY)M-*0Y?Qx)-,:,xW)i-):xWi*0M0,)vYxQ-)0xYFx-Yi:G:x),-00GW,xW,,8-U)iF-FQiW)WWQQ:)WM)oFW0:W-xWMQ00rGx*-Y:QWFW,MQ:0,:)yMx0M10xM0):83i8Y-8QFW*WiM^0Ge:2Y7M0:oWxYi-:xUF)Y-MM*W0)QM)0,IGFW-i-*YxGi*0:YF*)G-Q0-0x8F,--iDM*x-400W,WG8W:,YY)*YF08Wix*MW:Q>)xM-:,WW:W-MG:Q*8)Gi*0QxQx)-,:b:0Y:-e:xWMQ0MM:)k8aiQY08QFx00i:* x)S--MMW:>WM,8-a,)F-80i)*x0-Q:)0M))*W0i0QixMi00+-0*-G0QW*x,*F:-W:)_Mx0Wi0x,xFFWH,GY-,*FW8xiM*:G0n))MM0)0Wx:x-:G:QG8-Gi*Wg:QMY:,2g)8::0hQxxi*0:YY*)W)QFYW8cFMF*ih-)x-O0-FMxQ*W:::Y),)F000:)*M0-Qgi0M-)0WWMx>Yx:i08)Gx*0FiQx-xx,FQ-8:-*QxW^x0MM:LGG),xY0,0Fx8xi:T=-Hj*):MW))WM,i-Hx),08YGV*x-!Q:-aM)F)F):8XQxM,,0di)*-80QFYxWFF:-Y:)MGx0Q0Y-MMQ)Wq,*Y-,0FW0WMM*:0*v)-*M0)WWx:M-Fx#i88-GG*WGWQM-:x8))-M:0Q8xxiF0:,:))G-,,YW),FM8:ip))0MzY)iMxQFW:YQY)x)b-8WG:*MFQQ=0)M-F-W):xhQx::Q8)i-*0W0:-YM8%Fv0F:--0xWkx0)M:QYG),0Y0,0Fx0MMW*n0xd-*)MW:QWMiM-Q,)iG80-G*xGMQ:*/)*)--,:W1QxM8i0+,#FGG0,MYxG,F:8q:)*)WxpW)iMM6iW_Q)Y-x-108xG:*:8QS)0-M0)W8-:MF*xKi-8-i-*WWx:iY:WW))iM:0^ixxiMY)MTQxG-xiYWGGFM0M:W-)0Gz0iQMx)MW:Ms:d,-i,8WGQ*M)*QZ-2M*)0-M:xaix:#78)M)FQGW,iYMGiFyW):-*-G:Hx):M:z:G)Q-Y0x0F)8MGQ*5WF1-00MW)x8F::FY,)iY80i0*xWM:8Y=Wx)-Y8:WXQxMQM8Wi)QGG00QYx,MF:Y28w--0,aW)QMM,*Whi4-F,0iM8x,,*:GI!)Y),W)W-i:MF:xjF)8-M-),Gx,:Y:GQ))W-:0*0GQ%M)QM!S8G-Q0YW,xFG8:xY-)0Yw000MxFMW-:HFx,-8Q8WGQ*MWMJW0)WG)0Q::x-Mx::9),i-Q,GW,QYM-*F!0siF-Y0Mmx)iM:)}G):)-3,Wii8M,i*Ux).-00xi)xYF::F*,)F)80MW*0GMMYYw)G)--,:WFxxYz:*8i))MG0i:YxxM{-8IxG--YxpW*)MMQ:*:QFFx,0Ac8x,W*:Wbx-0*WM)W*::MF0x=QqQaiYQiGxxGY:,v))0-:--W0QBM**M_,8G-:-Y*,xik8:8F-)x-j0Y0,M)MYF:N:*,-F08Wix*-G:MY0)W8)0W0:x*MG8.D*Wi-:YGW,QYMxM6xW)xG-0FGIx0MM:{zQ*Q-F,,WiQ8M-i*pWf:M00WM)xUi::-6,)()0:iWQiGM8QY3M))-8-ii-x0:H:QFi)*-G0QWY0,M:*8qx---x-&WYxM0):Y0Q)Fr,0ii8xxM)QG5MW0-0,)W-,:M*MM)F)*Gi0xGGxQMY:G1F;W-x,-W0QcMiiMOFj8:Q0FM,xQ,8:iq-)G)}*0WWi)M0i:zY),-{-0-ixQ:G:iQ0)M-)0WW:--M8*I!*-i-*-GW:xYY,::0W)*M-00iyx*Mii)_YWQ-pi,WQG8MMM)*x)MG00*Q)xWM::)TxMF-*,iWQQGMW*Y5xNFQW0xM-x*i#:0bi)))8xQWFi,MQi8n:)--G-QF0xW:):)FQ)Y-,0n00)iMQQGo:F0-M0)WWx*F-:8YF)*Yi0*0Gx:M-W,1:WW-,8-W0QXMYMM8*)YGQ0MQ,xFM8:,y)0x-M,0WWQ)MF*:_*KGPF0*MixxMG:Qc0),)F)WWxi-MWil18)i-)-8QQxF:,:8,W):--0G0Q80,WQ)P8FQ-Y0,WFx8WiipYx)MY00M0)x8Mi8-A8WF-iQiWQQGMM:YMM):xW0YY-x*0_:Y:M**-Y,QWM,,MF:8hM)):x0Mi0xGF):QQQ)-)x}FW*:iM,QGyV)0-,-)*WxxQ-:WQF)8-i0)0W8Q,FU,twFW-:0-WxxG 0:GY*)Y0Q0Y0,x=MW:iEqWx-0:0WWQ)MY:i:Y)8xF0-xix,GG:::-MM-:,WW,D-Mx:/s8)Mi*0YMQxYY,:F;W):-*,xWMQ0MMM)}WyQ---,vFx*_i:F0x)S-00MWMMWM,F-^G:F-80iW*x8YQ:)-M)))W0:0-xGxF00;GY*-0MQWYx,MF:)):)N0x0QF0xMM):WdM,Y-8GFW8WiM*MGPO)YMM0:xWx:M-:xdF)0)M**8Y,QMFQ, ))W-i-*YxGMM0:GF*)G-Q0-0x8F,*iiZI*x-o00W,WFGWix:Y)x-F08Wix*MM:Q<FQM-:)WW:x-MGMFW8)WQ*0QWQxYM,:QpF8:*aFxWMY0MGM)u8r:-Y08FFx*:i:*Ox)p--GMW:YWMx8-#xlF-Y0i**xY8Q:F,M)x,W0MW*-xMMG0hWi*---QWYxGYF:*,:)-)x0o00xMMY:WwxMY-0:FW8xiM*:-xu)F,M0)0Wx:M-:W6M,8-Wi*WYFQMMM,qFMiQ:0Q:xx_80:MQ*)GFQ0YW8MF,8:iu*Wx-b00WMx::Wi:sY)x-F08Wix*MY%QQ0)M-F-WW:x-MxW0,8)WG*0W8QxY,,:FiW):-wWx8Tx0MW2)7G)Q-Y08xFG8Mi:)gx)t-00MW:MW,::-(GwF-80iW*x-0Q:F-M)))W0:W-xWMM80.W0*--xQWY0,MQ:)M:)QWx0,M0xWF):Wx-iY-0WFW8)iM*iG/Qe0-M0:xWG:M-:GdF)8-i0*WYMQ,Y:,di8W-:0-WxxQ,0:W-*)-0Q0Y8,xQM*8ilQ0x-M,0W-i)M0:GMY)0WF0)MixQFG:Qx,iM-iWWWii-Mxirz0Qi-*0YxQGYM,::)W):--0xWMM0,M:)R-WQ-Y0,WFx*:ii*wx),G00MW)xWMii-%00F-)WiW*GGMQW,,M)iWW0:8-xx,s:YQi)*-YWQ8Yx,MF-8.:)--x0Mx0GMM):YFQ)Y-,0FW*Mi,*:GRM)0-M0)WWxx:-ixTF)**i0*WGxQMFd,Q))W-ix-WxxPM0:G)*FG-Q0--,xFM8:i/I-x*k00WG))MW::bY)80FY8Wix%)G:Qw0)M-:WW8:x-MW-Kg8)i-*0YxQGYM,::NW):--0xWMM0,M:)6YMQ-Y0,WFx*:ii*mx):F00MW)xWMxo-Q,)F-YkiW*xGMQ:))MF)-W0x0-xxM{:0 G-**G0QW*V,MF:87:).0xYvW0xW0):WeQ)Y-8WF88xiM*WG}%)0-M-xYWxGQ-:xMF)8-i0*)QYQM<{,_FMW-:Y-WxFlM0:G)*FG-Q0*Y,xFM8:i5H-x*100W8i)MW::/Y)80FY8WixQiG:QZ0)M-:WW8:x-M0:1X8)i-*0YxQGYM,:iQW):--0xWMM0,M:)P-0Q-Y0,WFx*:ii*Ex)ix00MW)xWMxZ-Q,)F--0iW*xGMQ:))MF)-W0,)-xxMK:-N-Q**-8QW)e,M8-8BM)):x0,G0x8i):-YQ)Y-,)FW)GiM:LG3H)0-M0)0WxGi-:YQF)8*i0FWG-QMtQ,BQ)W-*M-WWxe*0:WF*)-YQ0ui,xFM0iipQFx-,W0WMx)MW::-Y)0YF0)8ix*,G:i%Y)M-i8WW,--MA-_IY),i*0-GQx7i,:iYW):-:WxW,G0M8y)ZG)Q-Y0x8Fx)ii::Qx)3*00xW:*WMGQ-LWQF-MMiWFx-WQ:FFM)iYW0Gi-xxMxa0XWF*--WQWYx,MF:0Q:)QYx0,80xM,):8:QxY-08FWY,iM*:GP:)FiM0iGWxGi-:Y0F)Y-iG*W-xQM--,5ixW-M0*:xx,M0:8.*)h_Q0*W,0FM)iiv),x-,:0Wxx))W:GQY)0*F0Q-ix*MGWQmF)M-i0WWGG-MGMQM8)W**088QxYM,:QP88:-Q-xWQ*0M0))N8):*Y000Fx)xi:,Mx)n-0*MWi,WMGM-dx9F-Y0Mi*x-MQ:-GM),WW0MWz*xM,:0%W)*-F)QWYxQ,F:*F:)QYx0,W0x,MV:WQ,*Y-88FW),iM)MxWK)FYM0=GWx:M-:WyM,8-W8*W-,QM!-,yJ)W8:0QWxxQ00:WW*)8-:)YW0xFM):i4MWx-:0YGMxi,W:iMY)0MF0YWMM*M-iQ/FFM-xMWW:x*0x:,%8)W-*0-8Qx-xx*Fs*F:-)YxW.x0Mx:),G)x)Y0x-Fxw{i:FRG*_-F-MWiWWM8--n,)7:80WG*x-xQ:Y:M)o-0Q:WQxxMQx0300*-80,FYx0MF:)J:)Mxx0SWxGMM::WJx*Y-00FW0W:-*:YF_)-YM0)WWxMM_8x!M*8-W8*W*kQM*:M*))*-:0*)xxM-0:xHFxG-x0YW0xFMQxiT))Gi+0F8MxFWW:xWY)G-RM8WWG*M-iQPi:M-)08M:xQMx:,T8)W**0W0Q)YM0iFB0F:--0xW:xYYM:i:G)icY0-MFxYMMH*%-/+-F-MWx0WM::-0,)MY80W0*xGxQ:*rxi)-*0:W*0xMx)07,):iG0xWYx0MF:QM:)--:YUWF,MMiQWpx)Y-x0QW8GG,*:0Fr)FYM0FW)M:,--x<i:8-iF*WWxG:YixM))-#:0-*xx:M)8Mj:*G-,xYW,0FMY:WM-)YYP0FGMx:FW::xxi,-MY8WiW*MGiQ5Y,M-)0-x:G-Mx:MG8)i-*0GW,MY,,:F/*i:--0xW1x):Mi)pG)i}Y0,WFx8MGd*Qx)u--5MW)xWM::F),FF-80GW*xGMQ:Y;W-)*W0:WqGxME:01i)Q0GYQWYx0>F:8;:)--GYLWF,MMiiW4QFY-G0iF8xWi*:0-d)*8M0%W*0:MQQxEM*8-W,*WG-Y8Y:0Q))8i:0-8xxn,0:MIQ-G*Q0YW8*FM8:i_-)G*60FGMxi,W::QY)G-MQ8WW,*M0FQJY:M-h0*-:xQix:MF8)WG*0G)YYYM0iF48*:--YxW>-0MM:Q)GFQ-Y007Fx8Mi:*c0-n*00MW:YWM::-^,)i08YiW*xWYQ:Y%M))--W:8-xxMQ-0Ti)*-G0,xYG,MF:-F:)--x0NW)MM,):WOx0Y-,0FW8xM,*:YFA)F*M0)8WxMM+8xpM*8-GG*W0iQM*:0M))*Y:0QGxxMF0:MxWiG-xYYWx0FM8iiA-Fx-r0)xMG)MW:xWY),-F08WMG*M-QQUFFM-)YWW:--,xiM88)-))QG8QxYM,:FM)f:--0xW8W0YMi)D8)xiY00GFx0Wi:*Mx):-F)MWi,WMGQ-X08F-0a***x-,Q:Y-M))*W0:F-xxMM+0Qi)*--QQWYx,MF:-):F--x0M*0xMM):Wp,-Y*,0FW00iM*:G9<))0MY)WWxi0-:xyF)8-GW*8GxQMF:,/))W-:0exxGmM0:WQ*)G-Q0YW8MF,8:i(Q0x-200WMxF,W:xFY)0*F088ixFMY8QyF*M-F)WW,i-MW:,M8)WY*0-GQxFF,:Fxii:-QYxWQM0MMi)!GFQ-Y08xFG8Mi:QGx)v-00MWFGWMGQ-<0FF-8YiWFxYYQ:FFM)/iW0:--xWM,x0vW**--8QWqQ,MFWi,:)Q*x0XY0xM,):WxQ)Y-8WF88xiMQ0GPs)0-M0:xWG:M-:0,F)8-i0*WYMQ,Y:,AU,W-:0-WxxM:0iMo*)8xQ0YW,xFM*niQ-)x-M80WMx)MW:,)YF,-F0)Mix*MG:Q#YFM-i8WWGG-Mxil9Y)Wi*0-GQx-Y,:Q*W)M-Q)xW,,0M8Q)e-8Q--gF*Fx),i:):x)#*00M8)xWMxy-Q,)F-):iW*xGMQ:-QM)iYW0G8-xx,l:Y:ix*--8QW:c,MF:8pMT*FxY,W0xx,):W&Q)-:FFFW)GiM**G&eF0-,u)WWxx:-ixHF)*Yi0*WGxQMFS,Q))W-x0-WxxaM0:G)*FG-Q0F8,xFM8:iAV-x*s00W,_)MW::zY)80FY8Wix:jG:Q%0)M-:WW8:x-MxW?c8)i-*0W8QxAi,:MQW):*-0xW8-0M8Q)6G)Q-Y0,WF-i8i::dx)QF00M8)xW,::-B8-F*80iW*)GMQ:Yh,)M0WYGG-x)x2:FXi)):QFQW2x,M>:8_:F--xY W0xW:)iWwQ)-M,0FW8xMMi#GQ,*0-W/)W*x:M-W<,F))-i0)QGxQ,Y:,Q))W-xW-8xxaM08Mt*)G-:0Qx,GMi8:M--)Y-m00))Y)M*::2Y),-FY8Wi)*MG:M)0FM-)08::x-Mx:K.*-i**0GW:0YM,:FEW)x0-YxW<x)iM:)BG)Q-FW,8Fx8MG:*hx)=-00Wx)GWM::IQ,)F-80iWQMG,Q:Y7xM)-W0:W-x0:3i0_i)FxG0QWYx,Mi&8Q:)--GsPW0xMMF:*)QFOY,0M,8xWM*:GOWY0-88)WWW:M-:xrF))FiY*WGxQ,Y:,5))W)iF-WxxIMYQMu*)G-Q*Y-,xFM8::):MY8x80YM*)MW::+Y-WG,Q)-W*:)W*QiYeM-)0WW:MF)x,q:8)i-*0GxM,YM,:FkW):--0MWG,)MM:)_G)Q-Y0,WFxWMGQ*A:x:0:FiiiGi-o_FFxQ=:80iW*xG:x0FY8GMc*):Y--xMI:0ui-iW*QMWFQ8:F:8/:)--x0^W0xMM):Wi:xY-,0FW8MW::--Gxi)xG8Q:W8:x-:xtF)80xM*YG-QMY:,b)--8,xQ8YYQ)0,M8*)G-Q0YxW)MY)*WQ:0Y*xQF)M8F,W::yY),0:M)QWQ:G-Qx0w,08MD*M,QQYYx,GFW,G:*GWQxYMG:iGW):)-0x8bx0GM:)xGFQ*Y-,WF08Mii*bx)T-0)80)xWM::-M,)F*80i-:WGMQ:YK,x)-WY:W-xY0 :0:i)*-G0QWYxGMi885i{--x-SWY,MMJ:-GQ)Y),0F08xiG*:8zQY0*M-)WWW:M-GxhQ))ii0*YGxQ,Y:,M))8::Y-8x8^M0)Mh*FG-Q0YW,0Mx8:iA-)GWp008Mx)W*M:pY),-b08WiG*MG:xx0)MF)0WW:x-Mx::/),i-**GWQ8YMxQFy0)Gi-0xY5x0GM:)MG)i--G,8F88Mi,*4Gi5--0WF)xWW::-Q,)wW80i)*GG,QxYZx:)-WY:W-xxMVxF:i)*-G0:-Yx,,F:8MWI--x0ZWY)MM)iW;Q)Q:,0F-8xiM*:GLz)--8Q)WW0:M-xxqs*8-,0QFGxQWY:,M))8W:0)WGi2,0xMn):G-QFYWxMi78:i0-)WG^008Mx)xW::MQg,-F08W,Q*MGiQKY:8))0WW:xQxx:wQ8)x:i8G8QWYM0MFuWF:--FxW.0FxM:)1G)x)Y0,8Fx0:Wx*QGWS-F-MW)GWM:,-ax:M)80iW*x-xQ:YQM)Q:)8:8-8xM,M0LiF*-GFQWY00xF:8H:)Q)x0o80x,:Q)WP:WY-G)FW8GiM*xGJQ:F)M0)WWxMW-:xQF)0PW-*WGxQM?M,J)FW-, :FxG5W0:xG*)G*Q0Y*,xFW)MiL-)x-iQ0WMG)MWxG:Y),-F0)0ix*,G:::0xM-)FWW:W-Mx:ahY)Wi*0G*QxY8,:FYW):-:WxW&-0MMM)_G)Q-Y0YxFx8Yi:*ix)E-00MWMMWM:0-cx:F-80iW*x)#Q:Y,M)FMW0:0-xxM,W06MM*-G0QWYx,Mu:)):F*:x0QG0xM8):WlGMY-x>FW8GiM*:G!Q)iMM0))Wxii-:x,F)0)iF*WG-QMYM,())W-M0):xxL00:Mx*)W,Q0YWx)FM88im*ix->00WMx)WW::xY),)F00(ix*MW,QBYGM-F WW:x-Mx:9Q8)Mx*0GFQxYM,:F4G::-*:xWb00MM:)!G):)Y0x:Fx8Gi:*7x)6-YgMW)FWM:M-q,)F-80MQ*xG*Q:Y,M))-W0i0-0xMc-01MY*-G0QW*x,WF:80:)*xx0D80xMMFWWO:8Y-xQFW8xiM)MW-a)YWM0F:Wx:M-:G<_08-MG*WG-QMY0,_TR88:0*xxxV)0:MZ*)G-WxYWx%FM03i>*bx-Q0Q8MG)*W::)Y)xxF08WM)*MGYQ9YMM-)0WWiW*Yx:S08)M8*0GWQx*M,GF(8W:-*MxWaG0M,M)8G):GY0,FFx8Mi:):G0 -YxMWFwWM::-Dx)}Q80M,*xG0Q:YxM)F)8):W*MxM_-0 i)*-G0:xYx,)F:8):)-)x0QWY,MM)YW.:-Y-xMFW0W:-*:G8I)YMM0)WWx:MQWx>IW8-MQ*WGxQMY:0)))8G:0-0xxNM0:M+i-G-:xYW,8FM8:ir-)-0j0Y,Mx)WW::OY),-5Y8WiF*MGFQK0FM-)0*Y:G-Mx:NQ8)i-*0G0QxYM,:FLYQ:--0xW%80xM:);G)Q0FM,YFY8Mi:*&x-MWFG0WM:WG:M-.,)F-8WWM*8GGQ:YmM))0)xWG-xxMr:03i)*-G0yWF,,GFW85:)--xWxMF*GMQ*Y):Q-M,0FW8xi::q-0x,1QG0:i-M:G*ZxEF)8-iW)iWi:---8pFY0MMM>WGiQ-Y-Ww)QWlQ0YW,xF:-8W*:0xFQY0WMx)MWcM0_G0GM*)G8A:Y-FxxF0GGMQ*-G*Q)G*zi0 i-*0GWQM)i,,F:W):--0xxxM0GMG)sG)Q-YW8%M0**8i*iG0.-00MW)MY,GG?80*M8-,WF:0-Yx--YM))-W0:W-xxM}:WTG**FWOQWYx,MFU-*,0Q*YF::08M8):W=Q)Y0WGM)FiW8*:G/z)0-M0)WWx:M-:xi548-i0*WGMi)Y,,:))W-:0-x-:zG08Mr*)G-QW)i0*MW)8W0)8xFQx0WMx)MWtM*rGYGMY))W,NF-)GQ/:88)*WF:x-Mx:F)F88WiM-8x-%i,::i-Q,FF*8Yi8xGWQ)iWGQ-Y0,WFM--W8:YYFxWFY8Fi-WG:x-},)F-8WW):i*iQ,Y:M))-W0:x:QxGv80#i)*-GWxx=*0)MG*8W0-FGikW0xMM)L*-G,QGYx,:)GW0:QGiQo0-M0)WWMGi-,x,F)8-i0*x-Y,*e)0h))W-:0-WxxXMW:0FQ)GF:(YW,xFM86WWQ8Y,,)F-M8)0W::yY),0MW)-W*:Y--QiY0M-)0WW:MFQ-:,WF,8::G-)G:%,8YMM,G:--0xWSxW)M:)QG)Q-Y0,WFx0xi0*2G1B-YFMW)xWMM:-Y,)F)80i0*xGYQ:Yk,F)-W*:W-GxMP:0Ai)FMG0Q-Yx,xF:8L:)--G)lW0YMM),WrQ)Y-,0hG8xix*:G,v)0)M0FW80:M-ixtPW8-i-*WGx:QY:,Q))8.:0-WxxQx0xM6)oG-:FYW,xFMY:GG-)x)1000Mx)YW::%QM,-F*8WiG*MG:QL0)0:)0W-:x-xx:7<8)i-i_GWQYYM,,F9W):--0*MTx0xM:),G)Q)Y0xW,M8,ii*fG-k-0-MW)x*0::-Q,)zQ80iW*xWxu0Yy, )-8F:W-xxM::)Gi)*)G0Q0Yx,YF:8gWM--x*=W0GMM):Wli?-F,YF-8xi8*:Gwr)Y),*)8WY:M-GxEF)8-i0MMGxQxY:,,))W):0*W-ME,0iMh)WG-Q-YW,x*)8:iQ-)G:e00WMxFx8f:e-!,-LF8Wix*M8::*0)M))0W0:x-Yx:(cYMi-**GWQGYM,:FXW)iM-0x-tx0xM:)oG)Q-YF,WFY8Mi,*mx)(-00,i)xWx::-,,)F)80MW):GMQiYk,W)-W-:W-xx*D:0Qi))iG0QWYxxxBF8Vie--GF{W0xMMu:-GQ)Y),0F08xiY*:G<xM0-M*)WWG:M-:xjF)F:i0*-GxQxY:,j))W-Ws-WxY5M0,Mt*)G-Q0:M,xFx8:i,-)x);0YW0M),Wi:O--,-F-8WixYYG:QQ0)M-)0WW:x)Mxx>%8Fi-*YGW:/YMG:F:W):*-0x8{x0,M:!P8IQ-YY,WFG8M,:*bx)::00M0)xWM::-^,)Q-0xiW*WGMQMY+,W)-00:)-xxx9:0:i))GG0iW-,,MFM8OiS--W0>W0x,0):WiQ)Y-,0FW8x,M*WGJQQ0-M*)W8u:M):0GF)8Fi0*YGx:GY:G FYW*:*-Wx8?M-:Mw*)*:Q0Y-,xF-8:i4-)G)p:0WMY)M8F:OY),-5-8 ix*0G::F0)M-)00Wx*-MxWll0Mi-F-GWQxQ:,:FGW):*-0xWIx0M-W)1WMQ--Q,WFx8Mi:,,x)QQ00MW)xWx::*_Y-F*8)iW*WGMQGY.M)M:W0:--xx*7:0Ki)))G:QWYY,MKF8g:)--G-m=0xM0):8FQ)Y-,0QW**iM*WGsQM0-x-)WWxW:-:xGF)8)i0*WGxQMiW,gFMW-iQ-WxxXM0:-,*)WQQ0YW,xFx8:Mh:-x*_)0WMW)MWG:uY)Y:F08-ix*)G:Q>0),)):WW:Y-MGF}38)i-)-GzQxY0,:KFW):--0WWM*0MMW)1WMQ-*-,WFxF:i:*Gx)XF00MW)xWM0W-5xMF-0QiW*xGMQ:i,M)FQW0:W-xxxa:Yg8-**G)QWYW,MFG83M>-Mx0h-0x,Y):WvQ)*-M:FW80iM*xG_:00-,-/:Wx:8-:xWF)8-i0)0GWQMYW,AI*W-:0-WWx3*0:Mx*)W:Q0*0,xFM8xiU*,x-OY0WMx)MW:iGY)x:F080ix*xG:::YGM-FQWWM,-Mx:%VY)Mx*0GFQxYY,:Q:W):--)xWI)0MMM)<G)Q-Y0x,Fx8Yi:*:x)f)00,0*)WM:0-TG*F-80iWFx:QQ:YWM)FMW0M0-xxMQF0NMG*-G*QWYx,MF:0Y:)*Mx0QQ0xMM):W=:iY-,)FW8xiM*MGV5)-iM0)*Wx:F-:x(F)0-M-*WGYQMYM,gF:W-i-*3xxJ80:,,*)G-Q0*W,WFM8Gir*ix-Q<0WMx)YW::xY),-F08WixFMW-Q_YMM-FXWWiU-Mx:*08)MQ*0G0QxYY,:Ff,M:-*QxW%80MM:)HG)):Y0,)Fx8xi:*^x)P-GAMW)YWM:i-2,)F-80W)*xG8Q:Y:M))-W0M))QxM4G0q-:*-GYQW-W,MFx)::)--x0W-0xM,):WUGMY-,FFW88iM*:GAiM-GM0)*Wx0W-:xQF)0)i0*--WQMY:,rG:W-:Y-WGWF-0:M,*)WkQ0YW,xFM:Wip*Mx-Z00WMY)MW:GxY)xiF00Mix*MG::wu-M*FUWWi:-Mx8nl-)W)*YG)Qx-W,:UWW)i)8MxW<*0M,i)uG)Q-*0xXFx8Yi:*Gx)::00xWFGWM:8-lx,F-Y*iW)xG,Q:YxM)yGW0:F-x8MQM0DMM*-G*QWYF,MF:8*:)*ix0kW0xM,):8:iYY-x:FW0xiM*:G%:)FiM0FKWx:--:G0F)8-8_*WGFQMYM,^))W-i-*YxG/)0:,:*)G-Q0YW0-FM8*iI*Qx-t00W,xNMWi:YY)xQF00iix)x)WQyY0M-F-WW:x-Mx:{-8)MM*0WMQxYx,:;h0Q:-*QxWQF0MM0)gW)i8Y0,)FxY:i:*Gx)m--:MW)YWM:M-HxsF-Y0MF*xG8Q:Y,M)F8W0:W-*xM3G0}MK*-GYQWYx00F:8,:)*8x06W0xMMiWWa:MY-,YFW8xiM*W8iE)YQM088Wx:,-:xxF)0.W-*WGxQMxi,m)FW-:0Q)xxm80:M:*)G-Q0*):*FM8Gib,0x-1Y0W,W)MWxG:Y),-F0:Mix*,G:QMaHM-)0WW*G-Mxi>O8)8:*0G*QxYG,:FsW),:0QxW2Y0M*:)?GFQ---,WF0)xi:*px)8-00M8)xWWGM-P,)F-MYiW*GGMQ:DxM)FQW0:0-xxM_:-xQ,*-GFQWM0,MFi8fM)--x),00xMM):QMQ)Y*,0F-)WiM*:G?YF0-MY)WWxG0-:x,F)8Fi0*WGxi0-*,4FiW-*Y-WxG>M-:M>):-)Q0YW,x0,8:iQ-)x-xg0WMY)MWi:OY),-F0,)ix*8G:Q*0)M-)080x8-MxGw>0:i-*0GWQx-F,:FxW):--0x*5x0M,W)sW,Q--W,WFx8MM:)8x)Q:00,M)xWY::F(xGF-0SiW)0GM:0YsxDF,W0:F-xG,P:0}i)F-WYQWY*,MF88sMM--W0MF0xMY):WGQ)*F,0DWFMi,*WGn:80-,Q)WYxGx-ixxF)8Fi0)QGxQMMW,fF,W-:0-WxGbMYMiW*)WMQ0-W,xFM8:,IQ,x-Q:0WM))M8-:%*qxFFY0Qix)iG:Qk0),)F*W8ia-MGMDj8)i-*0-)QxYF,:FQW):--0GW:x0,M*)LWiQ--,,WuW40i:*-x)Q)00MW)xWMiY-NxxF-0xiW*WGM::Y*M)FiW0MQ-xx-e:YKM-*-W/QW*M,MF883:))8x0b*0xMx):W:Q)*-GxFW8YiM*GGIQY0-M0)FWx:8-:x:F)8*i0*W--QMYG,AF*W-:0-Wxx,00:Mx*)G-Q0YW,xQM*8i#*Mx-Qf0W,T)MWWMiY)xQF0x>ix*,G:Qx0),2i-WW:x-M:0?h8Fi-*0-)QxY8,:FyW):--0WWM*0MMG)_WiQ--M,WFx,0i:*,x)QY00MW)x8xQ0-RxiF-YYiW*xGMQ:=xM)F:W0iW-xxM}:Y:ix*-WQQW*,,MF:8#M)Qix0yF0xMY):0:Q)Y-YWFW8)iM*iGL{)0-M0oFWx:Y-:x:F)8)i0)0x)QMY0,p&*W-:0-WWxMY0:MW*)WMQ0*0,xFMFXi>*Gx-{-0WMx)MW:MGY)xMF080ix*xG:::0xM-FiWWM,-Mx:=zY)Wi*0WQQxY*,:Q:W):-:WxWQ=0MM,)hG)Q-Y0*)Fx8*i:*0x)w-00MWF0W,:G-T,)F-8YiW*x-GQiY^M))*W0:W-xx,^:0Ui)*-WiQWYx,MF,8Y:)--x0Ex*:8,i*-YG,Q:Y&M,)Q8.*,G)U)0-M0)x-1GQQW0-MYFxG,iM-ix-#08*i0WFiW-WxxJM0+G*i8-8GM)80-M-)FW-a0-*x:F,M8)FW::.Y),0iMF,W-tFYFx0}-8*i,*,:8-8x:+V8)i0gG-)Giq8,,FYW):--0xxi,FQ8)QY-YGxQW08MQ)Qi,*,x)I-00Mxi,-*GGJ*xQZM80iW*xG:i*HG0MM:*GGi::xG%F0Hi)*-GWM*/*YQM***,W:8-xxMF*80FY8*Q)Y-,0QWi-iM*iGN2)0-M*)W8W:)-:x:F)0Qi0*WGxiM-*,EF9W-:--Wx85M-:MW*)G)Q0Y0,xF*8:ix*,x-NY0WM*)MWi:D-%,-F))0ix*MG:QG0)M*)0W-GW-Mx:b<Y0i-*YGWQx.0,:FQW):--0xWcx00Mi)QGFQ--G,WFG8Mi:*5G:,)00MW)x8Q::-Q,)F-F.iW*GGMQ:YXM))-00G--xx,P:0Qi)**G0QWYx,,Fi8;iS--xYnWYWi-):WQQ)-i,0FW8x,Mi*GQmF0-MY)WW-:M*MG:F)8Fi0*-GxQMY:,N?8W-:Y-Wx82M0MM5F)8:Q0Y8,xF,8:i:-)W-QX0WMG)MWi:P-x,-tHi*ix*GG:Q{0)M*)0W):x-M009t8)i-*YGWQxYM,:iWW):--0x0Bx0MM:)=-xQ-Y0,WF88Mi:* x),M00MW)xWW::-p,)F-):iW*xGMQGYTM))-W0GP-xxM%:0xi)*-G0QW::,MFi8IiQ--x-6W0x?0):WQQ)Y-,0FW8xiM:,GQr)0-MY)WWx:M-ixQF)8-i0)FGxQMY:,iFFW-:0-WxM:*)-8Yi,*?GGQM0i:-)8WYQF-W,YFF8-)GWM:>Y),-FWFiix*MG:Q/0)M-)0WW:x-Gxxgp8)i-*W-)xiQi,,F,W):--0xxiiF08Fi,WQ:,Y0,WFx8:x0:G-8,*rx88i**0:,-,,)F-80ix()-W,YQQ,Q))W0:W-xx:M:0iM3*-G0QWYM0iF,8-:)--x0Xx*iW*i**QGM;Y8,,MFGWWQFGiQa0-M0)WWMx,-,xMF)8-i0*x0*GQe),iFQW-:0-WxMxq.QMi) G-Q0YW,M,c8,i--)x-n00xGiMM*0GGQM08,IFMWGQ*-xQiYMM-)0WW:MPQW),QFi,x**W,QxYM,:))YGGx:,YF,02Q8):*Y8x*Q-0,Fx-Gx,}i0QiF**fY:,WG:G-^,)F-8WW*QF*lx:Yi,O)-W0:W-MY6N:0ti)*-G0QWYxMMiQ8ii1--x0tW0M0:),WxQ)Y-,0Fx)QWWQY-,xx)-M0)WWxixF8xqF)8-M**WGxQM*:,F))W-:0-WxxQY0:Ms)YG-QYYW,xFM8:iB))WP 008Mx),W::WY),-7-8WiW*MGiQo0)M-z08G:x-xx:f:8)i**08Wi1YM,MF?8=:-*:xWbx0xM:)QG)Q*Y0,0Fx0xYy*sGB=-0*MW)xWM::*Y,)FF80i8*xGMQ:*kxY)-W*:W-8xMQi0U,)FQG0QYYx,GF:8W:)--G8eW0xMM),Wz: Y-,0F88xi,*:GQO)0-M0_W8i:M-ixkFF8-MY*W8x8xY:,Q))W*:0*nxxeMY-MK*)G-Q0YW,GFM0MiG-)x*!0YYMx)MW:Me-:,-FY8WiG*MW8Qn0),i)0W0:x-Mx:Z38),-FMGWQWYM,MFU88:--0W(1x0GM:)QG)Q-Y0GWF08Mi,*nGQL-0YMW.xW8::-i,)FF80Mi*xGMQGY{,t)-W-:W-8xMQMQ)i)*FG0QYYx,MF:84i*--x)uW0GMM):WOi)*M,0F-8xiW*:WQk)--,Y)WW0:M-xx3}88-i0)*GxQ,Y:,M))W):0-WWiJM0MM{*FG-Q0YWGx&-8:i:-)x)u0Y8MxEM-8:X-=,-F-8WMQ*MG:*Q0)M*)0W8:x-xx:Q:)Qi-*-GW:iYM,:F+W)MM-0xYqx0MM:),G)Q-Y),WF08MiM*&x);-Y0M0)xWG::*x,)hL80xW*YGMQ,Y>,-)-8-:W*WxYA:0Mi))QG0QWYxGMF)8Di:--x)rWYKMM7:0YQF-/,0F-8xMi*:W{:G0-M*)WWW:M-xxs:)08i0*YGx:WY:,-))W-iY-Wx0dM0:Mj*FG-:--g,xF88:Mh-)x-J0-WM8)MWG:;-i,-F)8Wix)iG:Qx0)M-)0WW:x*xx*d+0,i-**GWQxYM,: RW)iM-0x8px0MM:F:W*Q--i,WF88Mi:*Px)*Y00M*)xW*::-:,)L-0FiW*0GMQWYX,i)-80MM-xxG>:08i))<G0QW-*,MFM8;i;--x-tW-xMx):W:Q)Y),0FF8xiM)xGNQ_0-M-)WWG:M-::xF)8-i0*YGxQMY:xyE)W*:--WGYjM0iMv*)M:Q0Y0,xFW8:i.-)x-xI0WMW)MWG:nY),-F003ix*GG:QQ0)M-)0WW:x-,xM.r0yi-*YGWQx;G,iFpW):*-0xWLx0MM:)PG)Q--i,WFx8Mi,*)x){-00Mx:r*QGW7-0Y,x*,8M:i--x0F*80)FWF:W-xxM_E-*8Mi8-FQY-Q,MF:8f:-FWYYxiFQ8YiW*xxY&GYxFY0QiM*:GU4-*Y8GMM-QGQQ-Y)MF)GWG*YG-QMY:,1)--WWQ:,YQ,M0,MY*)G-Q0Yx8z,Q)WxYQY-xxWF88QiQW,:)Y),-F08xGi:FYFx0*F0:M:),W:.X-i,W)YiF):GWQxYM,oQY),W::JY,,Q9ZM,),G)Q-Y0,xM,**WGQ*W0y-00MWDx:0::-Q,)F-80iF*xWxQiYe,&)-W-:W-xxM::Y*i)*)G0Q0Yx,YF:Y2iG--x-_W0WMM)GWD:M-*,0F88xiY*:GQm)0)M0)-*W:M-:x}!,8-iY*WG0xxY:,3))0G:0-8xxgMFWM3*FG-Q0YW,xFM8WiQ-Fx*L0Y,Mx),W::fY)x9M-8Wix*MGFQc0FM-)0*):x-,x:3&8)i-*08Wx0YM,iF}WF:--*xWhx0MMi)QG)Q)Y0,8Fx0x:0*lxFv-YiMW)xWMM::Y,FF*80i8*xGWQ:-:x,)-W*:W--xMa:0<i)),G0Q8Yx,GF:8::))-GovW0GMM)iWKQFY-G0F-8xi,*:GQL)YMM0)):Y:M-,x!F)8-iY*WGYQMY:8W))W-:0-8xx&M0:Ma:xG-Q0YW,WFM8:i5-)YMO00WMx)GW::+Y),-M:8Wix*MGxQD0)M-)0*b:x-Mx:_,8)i-*0GWW:YM,iF_8Q:---xWjxx0M:)QG)Q-Y0,WFx8MW,*Qx)E-0YMW)xWM:i-Q,)F-80Mi*xGMQ:YnKxL0^FQiQGQ-)u*FMQ)*G0QWYx,:QY*0W8:iY)x,1:8QQ0*GG8m*YxM8)*W0*:G5=)0-M0)WWxQMjQxit:8-i0*WGMx0FF0FFQ8::0-Wxx^:*Fx-:F*QiMYY,-FM8:iu--YG,)FQ8Yi-W,:*Y),-F08x,FQ)-*xGz:08Mx*,xQQ,-MM*0QMQ*0GWQxY:0Gi8)0G--*GQ>x0MM:*)YxGiQ,08,:),W8:xx)u-00MW)xWM::-^,)FF8-iW*xGMQ=FQx))-W0:W*W8Y+:0Ri))MG0QWYxGMF*83:)--x0}W0-MM):8WQ)Y*,0FW8xiM*:8q:x0-MY)WWG:M-*x>F)0ii0*0GxQ,Y:,X))0-iY-WxWlM0MMU)!G-i0-F,xFx8:i:-)GGB00W,i)MWi:VYF,-F-8WMW,:G:Q:0),x)0WW:x-MxxZe0Qi-*YGWQxYMG:F*W):F-0xYOx0YM:b=88Q-Y*,WF88Mi**Xx)Q800MW)xWG::-:,)F-00iW*GGMQiY(M))-00MK-xx,?:0Qi))iG0iWF*,MFi8o:F--G,<W0xI,):WVQ)Y-,0F88xiM:WGRSF0-M-)WWx:M*M,WF)8)i0**GxQMY:GKi,W-:--WxW(M0xMrF(WFQYYY,xF,8:iv-)G)Q*08M0)MW-:SY),-F0Fxix*8G:Q=0)M-)080i8-,xW7+0Wi-*0GWQxGW,:F:W)i:-0x0nxYM,F)OGFQ--i,WFW8MM:)mx)D*00MY)xWM::-9x,F-8YiW*8GMQ:Y.M)FMW0:8-xxWU:0Xi)*-WMQWYW,MFi8a:)--x0Qi0xM,):W:Q)Y*,0FW)8i,*:GtDF0-M0)WWx:M-:x3F)0Wi0*WGxQMY:,p))W-:0-WGxMM0,MM*)G-Q0YxYQ,Q*-i+-)x-U00WMx)MW0xk-Qx,F08Wix*:-)xGaM08iF*:GiQ)x:yq8)i-*0GWQxYM,:Fi8K:--0xWOM0FM:)UG)Q-Y0,WFx-MG:*yx)S-00MW)xWM::h7,)F-80iW*xGMQ:-MW))-W0:W-xxMc:Ws0*Q-G0QWYx,MF:8{:))M00hW0xMM):W4Q)Y-M0iG-xiM*:G+:)5?M0)8Wx:M-:x:F)0)M**8G8QMY), ))W-i-*YxGfW0:M-*)G-Q0YW-:FM8iip*:x-o-0Wx-FFW::QY)xiF088ix*0G:QMR+M-)0WW:*-MxiBk0:W)*0GWQxYF,:FQW)M-Q)xWrG0MM:)IW=Q---xYFG8Gi:*Wx)H-00MW,:WM:i-dxQF-8-iW*x*:Q:Y5M))*W0:W-xxM,,0AiF*-G0QWYx,MQWxG:)-*x0ii0xM,):WYQ)-J0-FW8xiMF*G3nF0-,-)?Wx:,-:xMF)8-i0FW-0QMYM,U))W-:--WGWQG0iMM*)WWQ0YW,xlx0,iQ*ix-Q:0WMx)MW:W-Y),)F08*ix*xG:::-QM*)*WW:*-Mx:#d8)0W*0G8QxYG,:F:W)M-,,xW%G0MMi)fWWQ---,1Fx8xi:*Mx)L-00xWi0WM:,-r,)F-8-iW)WWGQiY,M))FW0:W-xGxQ,0QMM*-GYQWYx,MF:F-:)-Fx0^)0xMx):8:iQY*,)FW8*iM*:G5q)QWM0)0Wx:W-:x:F)Y--,*WGWQMYM,&FWW-i--.xxTG0:MM*)G-Q0*W00FM8xi+-)x-y-0W,WFGWi:xY)x,F08Wix)xW,QQY,M-F,WW:x-Mx:x-8)M2*0GFQxYx,:e:0Q:*-FxWN*0MM:)dG)WWY0,YFx88i:*:x):-i,MW)8WM:,-_xWF-808x*xGWQ:YQM))-W0:W:MxMkG0sMX*-G0QWYxY:F:8x:)-Fx0^W0xMMQ,WV::Y-,-FW8xiM*x-:!)0-M0QGWx:,-:G:QQ8*iY*WGYQMY:,dVf8F:Y-0xxk80:MH*)W):*Y8,8FM8Gi4-)x-L0*YMx),W:::Y),-F08WW8*,G:QT0FM-)0WW:G-Mx:6;8),8*0GWQxYM,:FnW):--0xWMF)MM,):G)Q-Y0,x,:8GiG*}x)E-0WWiiG)xxF-p,)F-80iW*xGMQ:YP,Q))W0:W-xx:,*0iMF*-G0QWYMG*i-)YW,:T-GxMFiG-i8*YxFQW0YMF)-iG*8G9c)0-MWQF*MG:Q*0*,08-x*3Y08MG),WiYQ-Y:*-0xxAM0:i):0G-Q0YW,xFM8:,(ik0-m*00Mx)MW:Q)Q-,FKG8Wix*MG}M-NW8,Mb)iG)S*Y-M*FMWGiYGY::YM,:F W-,8Qi-i,GF08QQY*0G*L)0,F88Yi:*Zx)20):8QMS*QGWQ-,)F-80iW*xGM,:lFW))FW-:W-xxMoE)mMQ)QG0QWYx,:QF)xWY:Qx*%-0xMM):G),,Q8YxFY8WiM*:GI^-FYM*FMWx:M-:,):YF-8::F--xQvW0-iF*,G)-Wxx M0:MN*)G-WiFW,x,0FW8xiM*:Gu8xW,)GWM:JY),-FW*8i8**G:Ql0)M0::*FWQQ,Y),QF,8:**GFQxYM,:))-:G*:kY,MFF)M,),G)Q-Y0,x:))WGYiQGQQ:00MW)xW:,F)-0F,QYMiY*8GMQ:Y7M-MW)8:Y-0xMd:0^i-i:-GGGl:,MF:8j:)W)x0_W0xMM):W3Q)*-G,FW8xiM*:G{QM0-x0F0Wx:M-:x6F)0-i0*WW-QMYi,p)FW-:0-WWx_F0:MQ*)G*Q0-x,xQM0xia-Fx-_Y0WM-)M0:i0Y),*F088ix)MG:QDWiM-)0WW:x-Mxi>U8)8:*0G8QxYM,:FUW)M-FYxWgG0MMi)vWQQ-*0GMFx8,i:*Qx)Q-00xW)8WM:i-l,FF-0QiW*x8QQ:YoM))-W0:8-xWM1-06i)*-G0QW-3,MF:80:)-*x0gW0xMM):0_iYY-,YFW8GiM*WGk:)FiM0)8Wx:,-:GGF)8-8l*WGWQMYi,())W-M0PFxxlx0:M:*)W0Q0*W8*FM8Mi *Sx-QE0Wxx:YW:::Y),)F00Fix*MMGQf0FM-)YWW:W-Mx:,x8)i)*0GWQxYM,:Qg*,:---xWuW0MM,)f8)xiY0,0Fx8xi:)Gx):-FQMW)WWM:M-cx,F-80Yx*GG,Q:YQM)))W0MW)-xMhi0HiF*-GYQW-W8GF:8::))Wx0dW0xMMFFWw:QY-,0FW8YiM*:Gio)YNM0)8Wx:M-:GnQ08-i**WWQQMYx,SQ)8W:0-Yxxex0:MW*)W):WYW,0FM0iiE-)x-:0YGMx)WW::MY)x8F0YWG**MGxQRY:M-F)WWix::xiui8)MQ*0G-Qx)M00F}8Q:-*ixWQW0MM:)FG):tY0,WFx8xi:):GG -0FMW3QWM::-6G)l)80i**xG8Q:-*M)F)8-:W--xM_x0<i)*-W-iMYx,YF:0,:)--x0Q0-iMM)0Wc::Y-,0FW0WMG*iG8R)YYM0)WWx:M-0xQ+i8-Mi*WGWQM-:,:))85:0-YxxI80:,:)-G-QFYWGQFM8:i ))Gi?00*Mx)8W:i*Y)x)FY8Wi-*MGxQN0)M-)0W):x-Yx:bg8)i-*0W0:,YM,0FS8::--0xWhxy:M:)8G)Q*Y0,WFx8M#Q*qGiA-YiMW)WWMi:*i,)_=80,(*xG8Q:-fxY)-W*:W*8xM=x0pi)**G0Q0Yx,xF:8::))-WQ9W0WMM)MW^iWY-,0z:8xix*:G:s)0*M0F0-8:M-MxsQ08-i0*WGxQFY:,i))W-:0-*xx%MYFMS):G-Q-YW,xFM0:M--)xFb0YiMx)WW:,p-x,-F*8WiW*MG0Q4-Exi)0W-:x*,x:z 8),-)-GWQ0YM,xF&8Y:-)00F%x0WM:)MG)i,Y0xWj,8Mi,*DGio-0)MWQx8-::-i,).,80M0*xGM:0YB,:)-W0:W-GxMi:YWi))uG0:MYxx0F:0/ii--x*/WY8MM)xWtQ)*:,0F08xix*:G:2)--,i)WWW:M-Mx;QW8-i0*WGGQxY:,:))W*:0-WY85,0:Ms*FG-Q0YW,xFM8:ir-)GWu00WMx)MW::cY),-F0GW0,QMG,Q80)M-)0Wxx--F0,b*F)WQ)*WMQxYM,:F6W):--0xWex0GMG)aG)Q-YW0*iFF2W:*iGiX-00MW)M-txF:AY0FF8)iW*xGMQ>6x8YMYW*:)-xxM1:8)8i:,*xxi6x,GFW8K:)--xW,iF0W*iG*W:Q-:,0FW8xi::)-Gi))GWW)WWx:M-:x&F)8-:0QGG8QYY:,%))W0,,QFY0,YF-,Y)QW,Q0YW,xF:))WG:M-8,FF:8ii)FQ:#Y),-F0))ix*MG:Qg0)M-)00Wx*-Mx:(H8)i-*FGWixlW,:FSW):--0xFsxYx,,)QWeQ-Y-,WFx8Mi:i-x)3-00M0)xWx::-x,FF*80iWkGGMQiY>M))-W)G0-xxMy:*Qi)**G0QWd-,MFi8z:F--x0?W0x0:):W:Q)Y-,0FW8xiM0-GhlF0-M-)WW8:M*M,WF)02i0*-GxQMY:GAi,W-:)-Wx04M00Mh*)*0Q0Y*,xF,8:i/-)G)Q*08M-)MW,:mY),-+-0YiG*YG:Q00)M-)0WW8:-MxxJn0,i-*-GWQxQ:,:FQW)iK-0xW2xYxi0)SW:Q-Y),WFx8M,:QGx)Qu00M-)xW-::-!Y-F-8FiW*WGMQ:YlxsFFWY:)-xxGu:04i)))W*Q8Y*,MF-8!:)--x0GM0xMW):WGQ)Y),0FWFMiM*MGTQ:0-M0)W8WQ--:xMF)0Li0*WGxiMF8,.F:W-:)-Wx)!M0:8)*)WQQ0YY,xFM8:M:)Qx*Q50WM8)MW::#*qxFFY8Fix*)G:Q90)M-,xWW:0-Mx86T0(i-*0*xQxYG,:FMW):--0G0F)0MMx)jW8Q-Y0,WQx*Yi:*Mx)Qy00,Q)x8xQ0-^xiF-0,iW*xGMi:FGM)FQW0:*-xx0?:058-*-W>QWYG,MF:8^:):0x0IF0xMx):W7Q)Y-YWFW8)iM*,G(5)0-M0:*Wx:8-:xWF)8-i0*W,-QMYx,1))W-i&-Wxxx:0:MG*)W4Q0YW,xFMFfiI*xx-&F0WMx)MW:)xY)x:F08-ix*MG:QTGMM-F:WW:8-Mx:X/8)q:*0GFQxYx,:FfW):-: xW+*0MMG)VG)Q-Y0x5Fx8-i:*Qx)}-00MW)xW,:8-;xaF-8YiW*0-xQ:YBM),0W0:8-xGxF00siF*-WxQWYx,MF:)x:)-)x0B)0xMM):07x,Y-,-FW8WiM*GGKg)*iM0)8Wx:x-:x:F)0:GW*WGGQM)0,/)FW-:Y-Wx0,x0:M(*)YMQ0Y8,xmx0,iQ-Fx-B*0WMx)M8MQWY),)F00Mix*MG:QfKMM-)*WW:*-Mx:X.Y)Wi*0GYQxYG,:F,W):-FQxW{W0MMM)nWPQ--w,8FG8xi:BFx)?*00MW)xWWGM-v,)F-*8iW*GGMQxh:M))-W0xW-xx,H:Y:,Q**G-QWY8,MF:8vMZ-Mx0NY0x,<):WuQ)Y-Y FW80iM*0G4 )0-x0:FWx:W-:xMF)0Qi0*W8*QMY,,3F+W-:--Wx-e,0iMi*)-iQ0Y8,xFM8:iM:zx-U00WW*)MWi:s-:0)F08WixQ-G:QQ0),)F*W8:8-Mx,{p8)i-)-G?QxYW,:FMW):--0WWM*0MMx)TW:Q--:,WFxi*i:*,x)X*00MW)x8x:x-zxMF-8*iW*xGM:M-*M)FiW0:8-xxM+:0s,M*-G)QWY*,MFM8kM)-Fx0n80xMW):WQQ)-)GGFW80iM*xGa6)0-x0))Wx:W-:xMF)0Mi0*WQFQMYG,aFeW-:0-WGWQM0:Mx*)GFQ0YW,x#x0iit*,x-pY0WMx)MW::GY)x.F08Fix*xG:iv-,M-)-WW:0-Mxi_gYnM)*0G-QxYW,:F=W)M-)ixWs00MMx)SWxQ-Y0=QFx88i:*ix)v-00,0F-WM:W-BxQF-80iW)WWiQ:YGM))*W0:W-xxMhF0^M:*-WQQWYW,MQ:80:)-Fx0O-0xM,):8::-Y-,)FW0QiM*:GK:)-WM0)-Wx:W-:x8F)0)i:*WGYQMY*,c))W-M06FxxS80:M,*)W:Q0YWYMFM8Wi{-Fx-.00WMxM:W::GY),)F08Wix*M*kQNYxM-)*WW:x-Mx:M,8)MQ*0W#QxYM,:F&GM:--)xW4x0MMW)vG)G0Y0,FFx8Wi:*jx)K-qWMW))WM:G-D,)F-80F)*xG0Q:YMM))-W0:WW-xM{006MQ*-G0QWYxQ0F:8G:)-)x0=W0xMMiWWP:,Y-,FFW8xiM*:GWt)YMM0)8Wx:M-:x.F)8*MQ*WGWQMYi,^))*F:Y-Wxx4,0:MR*)G-Q0YW,xFM8xiz-)x-c*0*Mx)MW:Q))YY:,G)*i8*FG:Q(0)M0Qx*8WQ&FY8,xFMW8:,*MQ8-:,:F.W):06G-i,iF)Giix*xG8Qx8M,G)-GF*iGY5-00MW)MY8G8Q*Y8M8-M8,i:*Rx8{xxGF0W0:W-xWM0W0^iF*-G0QWY8,MXM08:)-)x0j80xMM):0Ii2Y-,-FW8WiM*,Gu:)-:M0)0Wx:x-:xMF)0:,Q*WGGQMY8,;)FW-:--Wx0,x0:Ml*)WiQ0Y8,xFW)MiR-)x-QG0WMG)MW:GxY),*F08Wix*MG:Qx0FM*)YWWii-Mxi#l8)i-*)-0QxYM,:F*W):*-0xW,-0MMi)3G)Q-Y0,WQx)Wi:*Qx)K*00M0)xWM::-Q,FF-8-iW*GGMQ:!iMF)-W0:8-xxMI:0Qi)*-G0QW-,,MF:8piQ-)x0TW0xM:::WSQ)Y-,0FW8xiM-:0FQQYMM0)WWx::F0YMMGF*WGi:*QQGYF,b))W-:WF*Y*xQF*W*pW*8GxQM0*M00Yii*Mx-a00WMM:D*8G*D80-F*8*ix*MG:3)F*8,iF*,:x-Mx:eI8)i-*00-,xYG,MFLW):--W08v808M:){G)Q0)G0),i)8i,*Yx).-00MxQ,*QG)FY0Y,xFWW8:Q-QQ,Y)M))-W0:x_iYFMFF0xFi:*:G,Q:8;,i)WGY-FGY#W0xMM)z08xWQGYQM-Fi8%QF0Wx,nG8YMM*GGYQWxisY8-i0*WGMi*F-0YM,)cWG:MYiiFFi0::YGF:iYW,xFM85,FQY-WiFFF0iiF-F:i-0,-F08WiMZW-8,YFG0L::*-xF:,0F,0),i-*0GWixx>,:FQW):--0GiRxYx,Q)(W+Q--i,WFx8M,:)Wx)m)00M0)xWF::)%x-F-8-iW*WGMQxYS,MF:W0:8-xxYd:0Qi)*)G0Q-JW,MF:8Ei,--xYmW008x):WAQ)-8,0F88x,MQ8GlOF0-M0)W8Q:M*M,WF)8)i0)QGxQMY:Gei,W-:--WxW4M0*MlF)-iQ0Y0,xFx8:i,-)G:M)08MG)M-W:aYF,-F-8Wi0:xG:QT0)8:)0W8:x-MYWAK8Fi-*0GWQxYMG:iGW):*-0x8dxYIM:)y*MQ-Y-,WFx8Mi:*jW),i00M0)xWx::-*,)9)8:iW*8GMQWYyM))-008i-GxG.:0ii))xG0:0*Q,MFG86iQ--x0}W0xx9):WiQ)-Q,0F08x,M)-GKQQ0-M*)W8,:M):GiF)8Fi0*YGx::Y:,!Q,W-:*-WxWZM0MMbF)-iQ0YY,xFG8:iQ-)W-,Q0WM0)MWi:eYF,-^pQ-iG*GG:,M0)M*)0W-:x-WYMBN8)i-Q)GWQGYMxM)WW):F-0x)>x0MM:6f)8Q*Y*,WF88Mi-*TWh:W00M*)xWG::-d,)F-YiiW*8GMQGYX,/)-00ix-xxGA:0ii))YG0iWYW,MF,8ziQ--GW7W0xY0)iWiQ)Y),0F08x,M))G3QQ0-M*)WWG:M):xMF)0Ki0*8GxQ,Y:G1FxW-:F-WxW M0iMJ*)8<Q0Y-,xFW8:i,-)G:QM0WM0)M-x:ZYF,-F*8Wi0:xG:QI0)8d)0W8:x*x,0HZ0Qi-)lGWQxYMG:,YWF:F-0xYVx0)M:F:WMQ-YF,WF88Mi:*ax)Q-00MY)xW8::-:,)Q-YMiW*8GMQ,Y=,*)-00i0-xxG}:0ii))0G0QWYY,,F,8Ji9--x-1W-xMW):WiQ)YF,0j28x,M*,GAQ:0-MY)WW):M):xGF)0!i0*-GxQYY:GNT,W-:)-Wx02M0MM3)MWYQ0YY,x:Y8:iQ-)G}>00-8W)MW::bF,,-FY8Wi0:xG:Qs0)8g)0W8:x*x,0V+0Qi-)6GWQxYMG:,YWF:F-0xY x0)M:F:WMQ-YF,WF88Mi:*?x)Z)00MY)xW8::-:,)Q-08iW*8GMQ,Y/,*)-00:8-xxGy:0ii))0G0QWxQ,MF,89iB--x-zW-xMW):WiQ)YF,09k8x,M)0G&Q:0-MY)WW):M):GYF)0Qi0*0GxQ-Y:,Dw0W-:)-Wx0bM0GMn)M8GQ0Y-,xi08:iQ-)xF700-8W)MW::_SM,-FY8Wix:0G:Qi0)M*)0WW:x-MxY9Q0Qi-*YGWQGYM,:MiWF:--0x86x0MM:)QG)Q-Y0,WFG8Mi:*zGQQM00MW)xW:x%QQY8M*)MW-:iGGQ:YhM))-)U:W-WxMK:0{i)*-W0GxYG,xF:8Q:)-*x0!WF8M,):WJQFY-,0FW8WiM*:G{k)0-M0)WWx:,-:xaF)8-W**8GxQMYi,P))W-:0-Wxx{M0:M0*)G-Q0YY,YFM8:ij---Q,i_M8x)GWW:wY),-FWFMW*#M0*M)YQM))0WW:x-:W-ji0Mi-*0GWQM&:0xMG),Wx-*x0rx0MM:*)0*QF-f,WFx8Mik:WY8,,F)8-)88,::-A,)F0-MWQ:Q-GxQm00,M8)ZGMFQYY,xFG8WFGG*Q0Yx,MF:W)xW--x0vW0xMM):x{W*F-,*FF8xiM*:x)i8Ei8)iF)TiF)8xfF)8-M-iMGGQMY:,0))W-:0)WxWDM0:MX*)G-Q-YW,xJF8:iQ-)xFN00WMxVM8-:yYF,-FY8Wi**MG:Q*0)M-)0W0:x-xx:Er0ki-*-GWQWYM,:FhW)M,-0x8sx0,M:)qG)Q--x,WFx8Mi:*Ex)(-00MF)xWM::-M,)F-80iW)*GMQiY{MF)-W0:W-xxMji0Bi)*)G0Q8Yx,M*88(:)--x*PW0xMMg:WxQ)Y-,0FW8xiY*:8rQF0-M0)WWx:M-0xmQ)YMi0*WGxQMY:,8))W-i:-WxG&M0,M>*)G-i0-0,xF,8:iQ-)Gi!0-Wxi)MWi:qYF,-FF8W,x)QG:QQ0)M*)08Q:x-Mx)e/0/i-**GWQxYMG:tGW):)-0x0 x0YM:g7-,Q-Y-,WFW8Mi,*KW)Q80YM0)xWx::-8,)A)8:iW*8GMQWYXM))-W0G)-xxW<:0,i)*-G0:00),MFG8y:F--x0KW-xWY):W,Q)-Q,0F-8xiMiXGXQM0-M0)WWx:M-:WGF)0Qi0*0GxQxY:x:)xW-i!-WxG2M0:MOF)-iQ0Y),xF08:iM-)x-xW0WM*)MWi:&Y),-F0YFix*0G:Q:0)M))080Q)-Mx8y%8Fi-*0GWixFY,:FGW)ii-0x-%x0M0P)cWxQ-Y-,WFx8Mi:,xx)Qi00,V)xWM::-5G:F*8*iW*xGMQiY#M)iFWY:W-xx,y:0ei)*-G0QWYx,MFY8r:)--x*Qi0xMM):G),WQ8Y(ii)iW)iZ-Q,8F8M*FxWx:M-:,)iYFGWGi:0Gx0.00*M0-WWY:KYi3G0*MD*)G-QW)G0i,f-*G*:W-0,YFi8i)GW0:6Y),-FW-iW*:0-W,*F80W)*W*:x-Mx:F)-Y8:iG-*Q8Y0,:FhW):03xYFxi)F8:)iW8Q-Y0,WFM-3Wi:YY8xi_u8)ii-FG)-ix-F-80iW*M0),Fox80i8)Mxi::YQ,0FWWY:WG*Q*Yx,MF:W)G*Q,YF,,-iMM):Wfi)xW,0F88xiM*:G:I)Y)M*)WWW:M-GxjF)8-,0)iGxQxY:,:))W):0)WW:=M0MMD)vG-:nYW,-h88:iQ-)WW9008Mx)xW::MQL,-F08W,:*MGiQg0)0:)0W8:x-Mx:dj8)M:QWGWQGYM,-FnWF:--YxWT0FxM:)>G):xY0,8Fx8WWM*zx)}-YGMW)GWM::Qx,)F*80iW*xGMQ:*b0:)-WY:W-GxMR80/i)*-GYQ8Yx,xF:8Q:)*)x:hW0GMM)YWpQ)Y-G0xi8Gi,*:GQ )0FM0F00i:M-,xSFF8-i0*WGxQxY:,Q))WF:0-0xx:MY*M5*FG-QYYW,)FMY:iG-)x*n008Mx)WW::xxi,-F*8Wix*MGiQ>YMM-)0*p:x-Mx:^Q8)i-*0GW,)YM,:Fr8#:--0xWHx)-M:)dG)QFY0,WFx8MG0*5x)r-0)MW)xWM::^W,)F-80i**xGMQ:Y48x)-W0:W--xMK:0?i)MWG0Q8Yx,GF:8::)--i_LW0GMM):WPQ)Y-,0MY8GiM*:GQc)0-M0)8WG:M-:xkV88-i0*WG8QxY:,d))W0xY-YxW_M0:MJ*-Y-Q*-8,xFM8::)FGYxx,FF80MQ*)x*FxYi,,)88::,-8xxYQ,8)0WW:x-:WYM0F88i:)*,G:sQW*MQFZG8-0xWwx0MM:)mG)Q-Y0,YF08Mi:*Nx-x:FG0G)8W8::-z,)F0)FWQi:-MQ:Y3M))-W0:W-x,MMQ0iMM*-G0QWYM8QQ))QWi)xx*h)0xMM):G)x8Qj0iM*))iG*YGoP)0-MW:.**GFQiY-MFFi8T40GxQMY:x::,W-:0-Wx*dM0:McF)W,Q0YW,xFM8:i0-)x-QM0WMG)MW::zY),-Q00*ix*,G:QQ0)M))0WW:0-MxM_<8Fi-*0GWix--,:F:W):)-0xYzx-M,i)fWeQ-Y-,WFW8Mi:*Gx)d*00M8)xWx::*:*-F-8-iW*YGMQ:YgM)XGW0:Y-xx,_:0ji)F-W-QWY8,MF,8_i:--W0/*0xMG):WiQ)Y),0FWY:iM*:GNQQ0-M-)WWx:0-:xQF)8*i0*WGxiM-F,<)FW-:Y-Wx0NM-:-:*)G*Q0Y8,xFx8:iP*Mx-d00WMx)MWi:}*qxiF088ix*YG:Q20)x-RxWW:G-Mxi_<0Wi-*0WiQxYx,:F3W):--0WWQG0MMM)=WUQ-YY,WFx0,i:*ix)&*00MW)x0Mi)-2xQF-8*iW*8GMi:Y)M))FW0:Y-xx,^:0pMQ*-G-QWYW,MF,8UMoM0x01Y0xM8):W_Q)Y-xxFW80iM*iG.c)0-x0)-Wx:W-:xMF)0Ui0FW8QQMYx,jF:W-:Y-Wxxy80:MQ*)WfQ0Y0,xFM8Wi/*^x- Y0WMx)M0::WY),)F080ix*WG:i908M-)-WW:W-MxigE8),x*0G8QxY,,:F:W):-*0xWPW0MMM)jG)Q---GMFx8Gi:*8x)/-00xWFGWM:,-vxQF-0eiW*xW8Q:YMM))-W0:W-xGxQ:0rMi*-GFQWYx,MF:0W:)*:x0o80xMM):8:iiY-xQFW8YiM*:Ga{)Y8M0)YWx:Y-:x:F)0-8W*8GWQMY*,(FQW-:0W)xx M0:Mi*)G-Q0-WGxF,8Mis*xx-EY0WMx00W:::Y)xAF08Wix*M-WQUYjM-)FWW:x-Mx:}W8)iF*0G8QxYM,:FTW):*--xW^W0MMi)IG)xFYY,WFx8,i:*&x)(-00MW)xWM::-;,)F-0xiW*xGMQ:dxM))-W0:W-xxM4:050-**G0QWYx,MF:8V:)8:x0+W0xMM):WyQ)Y-YBFW8xiM*:G}/)0-,_)8WG:M-:x8F)8*i0*WGxQWcM,<))W-ii-WxGOM0:8x*)G-Q0Y8,xFM8:iy*Gx*z00WMG)MWi:6-:0)F08Wix*FG:QQ0)M-MdWW:x-MxM1S8)i-*0WQQGYM,:FQW):*-0xW,80,M:);GFQ-Y0,WFx8Mi:*9x)Qc00MW)xWG:W-r,)F-8WGM:**Q,*%P,QFQW0:W-xx::FFx8YiQG*:iYx,MF:W),0Q*-,,iF*80iW-*x8QW,*&x8xiM*:x)MYPG8GM:YGG0Q0Y*,0*W8Yi_-i::Y:,T))0-*d-WxG^M0:MA):G-:--,,xFx8:i:-)x-B0-WxQ)MWM:h-U,-F)8W,x*,G:Q:0)M))0W8:x-0GQa78Fi-)QGWQGYM,MFR8:G)-0xWbx0YM:)QG):ru-,WFx8MiF*.xFe-008))xW,::-H,)F-80i)*GG,QiY5,Y)-WY:W-xxMVxF:i)*-G0:,Yx,,F:8.WM--xY7W0xMM):WIi)Qb,0F88xi,*:Gin)0-M0)8WG:M-MxIFF8-i0:YGGQMY:,Q))W-:0-8xxtM0:M=)GG-Q0YW,8F88:i_-)x0,8FQ8YiQW,:WY),-F08xxQ:Y-WxxFY8GMxWYiQ-Mx:>_8-xW:Y*ixQlY0WMx*YGG:xxYQQ0MM:)wG-,xQG0)iQ)QW-:)YF,GFGMYFMWM::-.,-i8F,W,iA0,xW&W0YMW-xW8Q)YQv,0*i)*-G0Qx)Y0YMF)YGYFx-GxMU:8YiW88:Q-0,0FW8xi:<-Y*xMFW8GM:-QW?lFYW,x)8Wx*YGYQMY:,l)-Y8WV:,YY2G0*M *)G-QW)G0i,(-*G*:W-0,YFi8iKEW::^Y)G-0x8WiG*MG:QeYiM-F-8x:x-xx:pW8)i-*08WiPYM,MF?8=:--FxW:xYxM:):G)Q)Y0,)Fx80MM*(xFE--,MW)GWM:M-ax:M)80iW*xWFQ:YQM))-)6:W-GxM{:0ki)*-WE,xYx,,F:80:)-*x0/80xMWiMWbQ)Y-xMFW8GiM*x-:L)0-M0F,Wx:,-:xR,M8-iY*WGxQMY:,/d))m:0-8xxI,0:Mi*)G-Q0Y8,GFM8Miz-Fx-Q-0PMx),W::QY),-F0YW0Q*,GiQA0FM-FiWWiW*-x:Zi8)Mg*0GWQxYM,*FmWF:--*xWNW0Mx:FiG)Q*Y0,8Fx8Yi:FcWWU-0YMW)GWM:M-bxM0Q80iY*xGMQ:YQM)FQW0:WK)xM>:0BiF*-G0QWYx8-F:87:)-)x0_W0xMM:0WVQ)Y-,*FW8xiM*:YWd)0-M0)-Wx:M-:xUMx8-i0*WGYQMY:,j))FW:0-8xxqG0:M:*)G-)yYW,GFM8:iE-)x-d0FYMG)MW::QY),-F088iG*MG:QH-,M-)0WW:xFG8,ii*QxFX*iY,,YG,YFhW):--W0v,*FF8ii--FGiQ/,Yw:8Mi:*Ox-i8Fi0iiG*0GQFYY0,*))W,*8GxQ:YeM))0*8:Y--xMI:0qi-:G-)xQ<Y0-F,8,:)--x0cx*i80iF*,:QY),0FW8xi::)GiQJ0-M0)WWMx,-,xxF)8-i0*xYiMJ}i0,mWWF:--WxxvM0wW-)QW5Q0YW,xF:)WG*:*xF=F0WMx)MWAG,fGYWM08YiY*MG:Qf0-WMi)*QWG-Mx:??8)i-*0GWFxFi,:FXW):--0xW_x0MM:)iWeQ-Y0,WFM)Fi,)Qx)d-00Mx5F-)G*QGY:,8FxW,d)-Yx*dQ00i*)QG)-8xx#:0oi)*0*WQWYx,MF:84:)--,0MG08,Q):W;Q)Y0WiM:FQWY:x-*x0F8W,i8)WGQ-,xiF)8-i0*x*:GiY,,-))W-:0-x8ixMF08GiM-8G2QM0Gi*)xii*:x-300WMMQY*FG-)-,-F08WMW}YG:Qk0),W)0WW:x)MxY.k8)i-*0GWQYYM,:FxW):*-0xW5x0MM:%!WFQ-YY,WFG8Mi0*Vx)Q000M0)xW,::-w,)Q-Y9iW*WGMQMYm,F)-00:8-xxx5:0:i))MG0QW--,MFi8=:F--x- WYW-:):W:Q)-Y,0FW8xiM*GGqQQ0-MY)WWx:M):GWF)8Fi0*YGx:WY:GJXMW-:*-Wx8jM00Ms*)GFQ0YW,xFG8:i:-)x-Q80WMG)MWi:OY),-Q0YAix*,G:QQ0)xe)00Wx*-Mxilc8Fi-):GWQxG,,:F&W):--0x8mxYxW,)+GFQ--F,WFx8Mi:*Yx)H)00MW)xW8::-RGMF-8*iW*WGMQ:Yz,)FGW0:0-xGxO:0ii){-G)QWYW,MF88n:F--G-Qx0xMG):WxQ)Y-,0QW0:iM*,GzQQ0-M*)W0xxY-:xiF)8Fi0))Gx:MQp,QF+W-i0-Wx8}M*:8:*FG)Q0-:,xcY8:ilxMx-I*0WMx)MWi:;*5,MF08-ix**G:QO0)x-iQWW:0-Mxx!B08i-)-WYQGY8,:F)W):--0G0Q80,MW)jW*Q-Y0,WFxF:i:*Gx)y-00MW)x8x8W-sxxF-08iW*xGMQ:-xM)FuW0if-xxxO:Y^,M*-G*QWYW,MFx8Di))Qx0R00xMW):WiQ)Y-x0FW8GiM*MGzQ_0-x0F:Wx:,-:xQF)08i0*W8:QMYi,1FKW-:Y-WGx:M0iMQ*)WFQ0YW,xFM,Win-Fx-H*0WMx)MW:GxY),*F08-ix*MG:Q2YxM-)-WW:G-Mx:eu8)i-*YG8QxYx,:FQW):-Q*x8!x0MMi)LG)Q-Y0,WFx8Mi:*Qx)O-00MY))WM::-D,-iG)G8MT:-Qx*FY,i)-W0:W-xQ0?:0:i)*-G0QWYxGMFW8fiB--x-hW0GMM):80Q)-2,0F88xiM*:G/:P0-M-)WW0:M-ixJF)8)i0*WGxQ,Y:,H))W):0-WxxRMYxMX*)G-Q*-M,xFM8::)FY--x:FF8-iQ*WG-PF0,M)8YM:*MG:Ql0-G8ii)iGGQ0YQiYF08*:)-,Q8Yx,:FmW):0:xxYv-0MM:)rG-,8)x08MY0)i,*,x)/-00MxQ)*WxY:QxQ!880iW*xG:M)j08GM:),W. FY)MFFxW8i*G*Q*Yx,MF:W),Y::-G,*08MG):WTQ)Y0Yx,G8xiM*:G+f)0-M0)WWx:G-Mx<F)8-iWixG8QWY:,A))W0WUQ,-,/G08M(*)G-QW)-0GM0*FG8:Wx-^00WMx)MW::u:G8-F08Wix*MG:Qr0)i-:8WY:0-Mx:AB8-GiiG*MQ8Yx,:FJW):0Q8xY_W0MM:)DG-GGY*,*Fx8Mi:-)08,*p-8,)8Wx::-?,)F0)xiW+80GM,)iWQQFM*xGF#xM+:0wi))MG0QWYx,MF:8I:)--i}}W0xMM):WaQ)Y-x-iY8xiM*:GWL)0-M0)WW0:M-ix?F)8-iF*WGx:xY:,:))W*:0-WxxQMYiM4*FG-:MYW,WFM-:MM-)x*#00YMxFWW:i:-x,-F-8Wi**MG:Q+-),F)0W0:x-xx:l:8),-:QGWQWYM,MFZWF:-*0-xTG0,M:FQG)Q)Y0WWM)8Mii*lWQO-Y8MW)xW)::-:,)F-80i8*xWxQxYz,Q)-W):W-xxM::Yxi)*FG0QYYx,FF:0:MM--x)sW0FMM):Wzid*x,0F*8xMQ*:GN?)Y)MY)WW-:M-Yx/F)8-M-M)GxQYY:,8))W-:0-WG)jM0,MI),G-Q-YWxxF,8:i:-)G){00YMxFMWW:PYF,-(08WiW*MG:Q:0)M-)0W0:x-xx::I8Fi-*0GWQxYM,GFPW)iF-0xWHx0xM:)QG):)F*,WFx8Mi0*2x)T-00,0)xW,::-3,)uQ80iW)-GMQMYa,k)-W0:W*xx*n:0Qi))xG0Q0YxWMFG84:F--x*hWY0MMFMWFQ)Y),0FF8xiM*:8>6F0-M-)WWW:M-Mx+Q))ii0*0GxQxY:,-))8-i8-WxG(MYiMv){G-M0YY,xF,8:Mi-)GY;00Wxi)MWM:uY),-FY8Wxx*WG:Q:0),:)08x:x*MGGsd8Fi-)0GWQWYM,:p0W):--0x0}x0xM:zm8MQ-Y0,WFx8MiG*yx)3-0YMW)xWx::-Q,)F-)*i8*xGMQiYgM))-W0:W-xxMl:0Mi)*-G0QYYY,MF:8z:-F8- x,FYMGF%WNQ)Y-,Wi,FQWQ:-0QxMpM0GMM-:W,Q00*UQ0Gi0*WGxQ:*)0QM8*GWQQ)Y-,Q)*8-)QW:Q0YW,xF:-)WG:YYG,0YGMx)MW:MfxM,-FY8Wix*MGMQ^-!xG)0W0:x-,x:Sh8),-)GGWQWYM,MF_8j:-)0W:<x0xM:):G):hY0,)F08Mii*7G,v-0YMW)WWM:xQ:,)F-80iF*xG,Q:YM0A)-W0:W*MxM<i0;i)i:G0Q8Yx,MF:8=:)*:0WHW0GMM)*W#QFY-,YFW80Wx*:GdT)YGM0)8Wx:WQMxtF)8-MW*WGGQMY:0x))W*:0-WxxgM0:xNi:G-QYYW,GFM8,iA-)x-3Y08Mx)xW::QY),-M*88ix*MGiQ(0)M-)YWW:x-Mx:rQ8)i-*0GYQFYM,:F5W-xGQG-MM:F,8)iM-Y:QY0,WFx8M)W*2G55-00MW)xWMM:-8,)F)80i0*xG,Q:YR,u)-W):W-GxM(:0hi)FWG0Q0Yx,WF:8Q:)--GYOW0xMM)iWSQ)Y-,-FW8xiM*:GMe)0-M0)YWY:M-:xsF--88#i,-YQGYF,E))W-:WF*Y*xQF*W*5W*8GxQM0*M00Yii*-x-h00WMM:Q**x*QWW*,JFj8ii40)GQPx88)*8i:x-Mx:F)-0W*i,-ix*700Wi**8WW*WxWfx0Mx:WxG)Q*Y0,WFx8Gi:):GFz-0-MW)GWM::-!G)Qi80i0*xGxQ:YiM)5-80:W-WxMRM0oM5*-WyiHYx,,F:8G:)-*x0w00xMWiMWNQ)Y-xQFW8GiM*x-:^)0-M0F,Wx:,-:xw,M8-iY*WGxQMY:,&FMW*:Y-8xxQQ0:MQ*)G-Q0Y-0WFM8:ik*Yx-_Y0WMxi0W::QY),-F08WixFM-xQp0FM-)YWW:0-Mx:Du8Fi**0G0QxY,,:F%)Q:*-0xWZG0MM:)mGFQ-Y0,WFxY)i:*px)m*0YMYFQWM::-K,-:YFQ8M:xY*xG*00,Mb*x:Y-FxM2:09i-1**qGiQ:8*MW*YGY-FGiaW0xMM) YYxYQW8xM8F:WWQFGiQM0-M0)WWM,:Q-08,i)8i*)8GxQMY:M)QW*,G,QYY,,)F88*iM-WM,gF00MY)-MY*QGQ600WMx):0FGxQYYQF08Wix*MG:Q?0)WS:0WYix-Mx:h 8-xxiQ*:x:1Q0-:Y*FW)QG0;,G+MWFiMWQ:QY0,WFx8:x)Q*-)xW00MW)xWM::-7,)Q#*0iY*YGMQ:YUM-:8YxG8QYxGn*0Li)*-GWxQ+:0A:))Gx0Q-YG,*FiMM):W%Q)Y-,0FWY)GM*,G*v)0-M0)xYaGYQ-0-MYFxx,:F-0xYZ-xYFQ8W:0-Wxx(:*)W*i)*W::-x,):,**WG:MxFQ:0WMx)MW?,YbY0G,x)8W*:0G,Q00)M-)0Wxx:QQ-:,-*:W,:M-,x0YG,GF=W):--WY)xiFW8x)iWWQ-Y0,WFM*QxieWYG,WFx88i-*i::-f,)F-80iW*xxM,QYi,,)-W0:W-M8-MYF0WYi:*xQY-,,MF:8R:-4WYGxWu:WM<Y*MxFyYYRM*)iW0:)Gi:,0-M0)WWMM)!Y0Y,Q)Y8M:F*ix0F)W-MW*,WN:iY)M*F-W*iM-GGYYYxGFM8:iR--8G,)F88)iF0)x*Q80GMG))W:Q*-Wx-48MF)FWW:x-Mx5ix)G8Q:GGYQ0YM,:FDW-W:QG-GJ8YpM:)DG)Q0F:0QM:)oWi:xY*M1FG8xM:WG:Y-L,)F-8WGM:i*Mx))Y8FM)*G:Y*ixMO:0_i-QM-ixM2:0,MW*FxWQ*Y8,W2:MG)GWSQ)Y-,W:x)*W0:)Gzg)0-M0)WWx:M-:xJ!Q0:i0*WGxQ:))0QM0)BGG-YxYeM0:MP*-YGxYQ00iFG8GiA-)x-_W*-8ii:*):i-,,-F08WiMFF-8xMT,0x;,WYix-Mx:I<8-Gx:G-Qx0Y-G-i8*8GFQ8-:,*^Q8W:-WQ:MY0,WFx8:W/:0-,xQ)MGGQ{WG:W-n,)F-8WG,_:-,xG-0,QFGW0:W-xx:i))*8)iW0,xFB00YM-0Y:)--x06W0xMM-:)F,)YFx,FW8xiM*_80,GFG8*iG)JGYQFYxM0::i0*WGxiMF8,tF&W-:Y-WWGwM0WMQ*FG)Q0Y-,xF,8:i4-)GD,-0WMx)MWx:_YF,-F))0ix*MG:Q,0)M*)080i8-,xM=dYQi-*0GW:W0-,:FiW):F-0xWbx-MMG)hWQQ-Y*,WQQ8MMM*Yx)QE00M*)xWM::-bGWF-8*iW*WGMQMY&xSFYW0:--xxGJ:0Ni)F-GYQWY0,MFx85M8--G-Q80xM8):W,Q)Y-,0FWY:iM*xGLQ#0-M-)W8WGQ-:x,F)8Fi0*WGxiMYY,vFiW-:F-WWQtMYMMW*)W:Q0-0,xFM8:iw*0x-DF0WMW)MWM:N*Zx:F08)ix*GG:Qn0)x-F,WW:--MxWtZY8i-)-WGQxYY,:7MW):--0xW:*0MMW)1WfQ-Y-,W:x)xii*ix):x00x*)xWMGW->x,F-80iW*xGM:::WMF)FW0i)-xxY}:*+M)*-G*QW-),MqG8!MD*,x0AF0xxW):WIQ)*-xYFW8*iM*8G&iM0-,-FMWx:--:W^F)8-i0)0WGQMYY,P6)W-:0-WGWQ-0:M0*)8-Q0YW,xFM8xiQ*,x-QM0WMW)M8:iiY),FF00Gix*YG:MX-0M-)*WW:F-MW:4OY<,y*0GFQx*Y,:FgW)M--YxWB*0MM8)Z88Q---,-Fx8-i:),x)w-00,0F8WM:Y-eG)F-80iW)WWGQiY0M)d-W0:W-xGxQ,0QM8*-W:QWYx,MF:F-:)*ix0Qi0xMx):8vG-Y*,*FWYWiM*8G4i)-MMY)YWxi*-:xQF)--M0*WG0QM--,uQWW-i0):xxvW0:,x*)GFQ0-0x)FM88izF:x-t00WxxF)W::GY)xiF0Y)ix)xWxQLYxM-QiWW:x-MGMu-8)M,*00QQxYM,:p:0Q:**MxW:F0MM:)vG):;YY,FFx8)i:*:x)Q-Y,MW)0WM:W-Ix,F--0i)*xGWQ:-WM)IQW0i0*QxM380Ix:*-G0QW*xx0F:8G:)*ix0:)0x,xFFW&:xY-G0FW8xiM)MGM9)Y,M0bWWx:M-:G:QQ8*MM*W8xQMY:,4))89:Y-FxxD)0:M:*)W-:YYW,0FM0QiS*,x-i0-MMx)WW::8Y)G-F000M8*MG8Q5*,M-)0WWMx*,x:>G8)Mi*08iQx-x,YFZ8x:-*FxWwx0M,M)-G):,Y0GWFx8Mi:):8*T-YMMW;xWM::-sGzd080Mi*xG-Q:YtM))-88:W-*xM+*0LMz*-W0Q*Yx,WF:Y::)*ix0iWY0MM)GW6iWY-xYFW0xi8*:G,L)-:M0)-Wxix-*xuk,8-,)*WGxQM*:)F))8i:0-Fxx:00:,:F8G-::YWGFFM8:id)kWMK0YQMxg*W::ZY)x)QG8WMB*M8YQI0)M-)08x:x-Yx:108)i)*0WW:{YM,GFX8M:-*QxWix0FM:),G)iMY0x*Fx0x:R*HG,l--)MW)xWMM:-Y,)7i80iF*x80Q:-:x4)-8::W)xxMN:0!,;),G0:QYxGMF:8j:)*)G)?WYlMMV:WKQ)Y-,0F-8xiY*:G0()0)M0FW0=:M-Gx6+*8-MQ*W0x_,Y:,,))8,:0)WxxQx0xM<),G-MQYW,xFMY:ix-)GiZ00FMxFFW:i:*Q,-n:8WMY*MG:Qk-},*)08Q:x)Mx:eB8)M))FGW:(YMG:F3W):-*-WQfx0FM:)WG)Q-Y0,Wx:8Mi8*cG8o-0-MWFxG8::-,,)Q)80iF*xWxQiYe,,)-8Q:W-xxM::0:i))iG0QFYxGiF:YqiY--GQKW0*MM)MWh:)*M,0F*8x,i*:GG_)Y-,:)WWY:M--x^778-M-)iGxQYY:GM))W-:0)W?,(M08MD),G-M7YWxWhE8:iW-)8,200WMxFx8,:A-G,-:i8Wix*MWMQx0),x)0YQ:x-Mx:XN0*i-)QGW:mYM,MFK8):*-0x*{x--M:)GG)M-*Q,WFY8MMF*^G-5-Y-8W)GWY::-G,)F-80,W*-GMQ8Yl,,)-0Q:W)xx0l:0Gi))iG0iYYxxMoM8Nii--WQ9W0*MMFM8iQ)-i,0c,8xiM*:W:QG0-,:)W8x:M-:xyF)0Wi0)QGxQ8Y:,X))W-in-Wx*KM0YM4*FG-:0Y),xF08:Mx-)GHq0Y0Y0),W8:q-0,-F08W,x*FG:QG0),i)00i:x*xx*h;0xi-F0GWQxYMxMF8W)i,-0Gi7x0MM:) 8:Q--Q,WFF8MiM*BG)::00M))x0 ::-G,)9)Y3iW**GMQ)YdM))-00xF-xxY;:0Gi)FGG0:0-8,,F08bM)--x0qWYW,G)iW8Q)-G,0FW8xiMi)G4Q,0-,i)WWW:M*:Y)FF0:i0FxGxQYY:,rWMW-iQ-WxxgM0:M_)M:QQ0-&,xFM8:iQ-)x*f00WWM),W::a-i,-F08WMxi:GiQG0),5)08f:x-M*F4Z0,i-*-GWQxYM,:MiWF:--0x84x0MM:):GFQ-Y0,WFG8Mi:* GQQQ00MW)xW:,)V*Y),W8*iW*xGMQ:PxM)))W0:W-xxMr:Yt8-**G-QWYG,MFi8U:)QFxYpW0xM,):W=Q)Y),0FW8xiMF0G}I)0-M*F8Wx:M-:,)i0)880iMY:x)FY0xM8)MGi::Yi,0)*0Q)QG)Q0YW,xF:*)ic-)x-?00WMx)MG:,F-Qx:F08Wix*:0ax0FG0QiGWYi,-Mx:Jy8-x0:Y-)x:):0iM0)8WWF,YW,GFWW))iWMQ-Y0,WFM)-GY:Q-WxG0*,^)xWM::Y)8-M*F,W8:<-W,FYi,0)-W0:W-M8QMYFYWFi:-8,iQ:Y,Mx**iQ*:x0uW0xM:Qi*x,,Q8YxF88GiG*)G{p)0-MWQG*iWg)*Y;MFFdWxi:-ix0Y:Wi:QYF,*FY88-G)QMi)iG-Q0YW,M:W)iWxQYxF2F0WMx)MWa,xLGYQMG8YiY*MG:Q!0-G8M_),GY-Gx)p58)i-*W0Qx-FF0:MG)WxM:QY8,-+pM,)xG)Q-Y0,xii-fWi:,WW3FY,MW)xWM:1FQYiM,)8W,20Y*,-F*0:)FWF:W-xxMm<*MWFiG*xQYY-,MF:8=:-&WYYxMF08Q),8:Q)Y-,0Fx-GW8QYYF,Y)W0MiQ*-GFQ008,W)88_:i*GQGY*,P))W-:WF:0FMFF,WFiW*iGGo)0:FMFW8xiM*:GO^):-:iW,:GY),-F08xx0:,-W,*FG0x)*W0:x-Mx:F)F-iF*-GWQxYM,LMY8QiQ-0xWIx0:Goi**MxGY*,0Fx8Mi:-)-0qF0*MW)xWM:KQ-Y*FF8-iW*xGMQ9FF,QFqW0:W-xx:iiFYxG*FG)QWYx,MFw)xGY:Yx*QQ0xMM):G),xQiY,M8F:W,:8-xbF0-M*))Wx:M-:,),8FMWiiG--QGYG,?))W-:W:M0F,FF,Mi)iG-Q0YW,M:-)xG8:Fx-100WMx)MW::aY),-F*8*ix*MG:I))x8,i8*,:8--x:+D8)i0QW-,xQQ?08M00WYx-0xWUxYxi0)DG)Q--/,WFx8Mi::xx)_*00MW)xWM::)e0,F-8YiW*GGM:,YbM)-xW0:W-xxxf:0:i))J--QWYx,M:i8t:F--W0MF0xM8):WMQ))i,0:W)Wi,*GGdQ,0-x-)W8WQ--:x,F)0:i0*WGxQM--,QFMW-:Y-Wxx1M-:,d*)W:Q0Y),xFF8:i7*-x-QU0WM*)MW::?Y)G:F08*ix*MG:QG0),?%lWW:x-MW0%48Fi-F0--QxY),:F8W)MY-0G0Q80,M))PW:Q-Y0,WFxHZi:*0x)QW00M0)xW0:i-QxWF--:iW*GGMQ:Y<,:i)W0:W-xW-X:0Qi)F--)QW-7,MFY8{ii--G-QY0G,h):8xQ)Y-,0FW :iM*-GZQ00-M-)WW-x:-:x0F)YMi0*8GxQ,Y:,MM>W-:0-WG)eM0iMl):-)Q0YW,xQ-8:iQ-)W-,Q0W,6)MWY:p*M,->-8cix*FG::Q0)M-)00WWW-Mx*%D08i-F0GW:WYx,:F-W),:-0xWwxYx,i)yWYQ-)D,WFx8MMM*xx)Q000x))xWM::*:GxF-08iWF-GMQ:Y<M)F,W0ii-xGip:0:i))-GYQW-9,MQi8^i8--W0MF0xM)):W8Q)*:,040W)iM**G#ix0-M0)W0xxY-:xYF)0Gi0FWGx:x-,,QF0W-:*-Wxx MYM,i*FW8Q0*),xFM8:ili0x-Q,0W,i)MWM:L-)Y0FY0:ix)MG:QY0),::-WW:Y-MxFk 8Fi-*-GWQ0Lx,:FyW)i8-0x8}xYxi0).WiQ-*),WFx8M,:QGx)QQ00M*)x0G::-x}iF-04iW*xGMQiY4MF)-W0GI-xxM3:0Qi)*-G0QWYx,,FG8HiI--xYvW0x80):W,Q)Y),0FW8xxM:MGQQi0-,Q)W8(:M-W0:F)8-i0**GxQ,Y:,:))87G--Wxx1M0GMk*FG-:-Y&,xFM8:ix-)x-a00Wx ),Wi:D-Q,-F08W,x))G:QQ0)M*)08i:x-MxGZ(8Fi-*-GWQxYM,:>8W):--0xWZx0xM:)M8xQ-Y0,W,88Mii*bW)x/00M*)xWW::*F,){)0*i8**GMQxY4M))-W08M-xx8;:0Gi)*)G0Q)YG,,FG8h8Q--xY_W0xMM)x*:Q)Y-,0,Y8xi,*:87,,0-MF)WW0:M*Zxr:MYGi0**GxGGY:,Q))88:0--YWXM0:M_MQG-QYYWxW)-8:i,-)W8d00WMx)M.i:T-M,-F08WiY*M8:Q-0),i)0W-:x*Fx::?Y:i-)QGWQ*YMxxFL8)i*-0x)HxY*M:)GG)M--F,WF-8MM)*rG02-Y-,Y)xWY::-F,)F-80,W)0GMQ8Yb,,)-8::W)xGW/:0Gi))iG0ilYxxMXQ83iM--WMAW0*MMQ:WGQ)-:,0F08xi**:Gt:M0-,Q)WWx:M-ix_:)Y8i0*FGxQ,Y:xG))8-M,-Wx-LM-AMf),G-Q0-*,xF88:i:-)x)N0-W,x)MWG:k-i,-QF8Wix*MGiQ,0)M))0W8:x*x,0pO0ii-FGGWQxYM,:GQW)i:-0xW4x08M:e1WiQ--Q,WF08MM**PW)Q800MF)xWY::*:,)_-8YiW*-GM:YY=,,)-Y0ib-xx0_:Y-i))WG0:0*:,MF88Vi*--x0vW-x,-):WGQ)-i,0w>8x,M),G(Q,0-,Q)W8):M*:xFF)0:i0F:GxQYY:W=FQW-il-WxW5M0YM4*)W0Q0YF,xFM8:iQ-)8-QM0WM*)M8G:V*,,-#00Gix*0G::)0),i)0WWM:-MxGpK0Ji-*-GWix-),:F,W)iQ-0W*ox0MM:)QWiQ-Y-,WFG8MiWQ:x)1-00WQ)xW,::-:,)d9)-iW*xGMMYY=MF)-8-:O-xxM2:Y*i)*-G0QWM-,MFi8/:)--xF.W0x80):W:Q)-D,0FW8xMMi7GQbF0-xi)WWW:MF:Y:FF8*i0FMGx:mY:x:)xW-:--WG,JM0:MLF)-iQ0Y0,xFx8:iW-)W-,Q0WMW)MWM:5*x,-b00Gix*,G::00)M))0YWiF-Mxie107i-)iGWQxY*,:F:W):--0x8Px*M,))jW{Q-YY,WQ-8MM:*-x)N*00xx)xWx::-dx:F-80iW*WGMQMY1x)gKW0:W-xxMj:-,i)*-G0Q8Yx,MFM82:F--G-MY0xMM):8*Q)Y-,0FW0FiM*iGs1)0-MF)WWx:Y-:x:F)0Qi0*WGx:M-x,.)FW-Mi-WxWEM*:MY*)G*Q0*M,x> 8:M:*Gx-u-0W,,)MW::D*)GWF080ix*xG:QW0)x-iQWW:W-MxM1_Yxi-)0WGQxY,,:N0W):)-08WQ*0MMi)=WmQ--i,WFx0*i:*:x)U-00M8)xYM:*-/xbF-0FiWF-GM::-WM))*W0Mx-xxxb:0A,8*-G0QWYW,MFM8UM))ix0;W0xMM):0,Q)Y-,0F88xiM*MGj!F0-M0i)Wx:M-:xxF)8-i0oW-WQ,Y:,RF,W-iM-Wxx,00:M3*)WiQ0YW,xFM8YiQ-)x->Y0WMG)MW:GiYF,-F088ix*MG:Q90FM-)0WWiF-Mx:D^0Qi)*0GWQxY:0QFi80:--0xW(M*QWYiY-FG:p88i,:F,WxQ*GQn)00MW)xW:G*-PFW8,ii*QxF>*YY)F,Q))W0:W-xx:,)0iMi*-G0QWYMW-Mx*8WF-Fx)jW0xMM)7YQG8),,*EM8xiM*:x)iY -0:iF*-GQQWY-MF),W)*YG-QMY:,Z)-Y0WMQQYY,Q0,M:*)G-Q0YxYMFG8GiL-)x-=W+GWFi,*):i-0,-F08WiMF*-W,YF)0iMM-eG*Q,YW,-0QMM*0GWQxY:8wi**8WW:Q-::z0GM*)XG)Q-YWW:iF*FW,QF-Wxi&G8)i:WM,,Fi8Q:F-*xY08YiQ,YFM))-W0:xFMY,,W)-x-:**MGiQ:GFM:)QW:QWx*QM0xMM):G)M*c8Yx:i)xW,:xY-xWF80_)YWY:M-:x{F-FWWiii-8QGY,,J))W-:W:M-,AG0GM6*)G-QWh)0i,M))i?-)x-J00WMx)MW::^-QxQF08Wix*:8FxxRY0Q)*W-:x-Mx:F)FMW8i8GYQWYM,:FbW-GW-*x) x0MM:*)0FG:FQY,,:-Qi:*}x)Q)0:MW)xWMix-J,)F-80W)*xG,Q:Y/M))-W0MWQ0xMri0AiF*-WYQWYx:)F:8Q:)-)x0h00xMWiMWfQ)Y-WMFW8GiMF:-MU)YQM0)-Wx:Y-:G:QQ8*MQ*WGFQMY:,p))FW:0-*xx?Y0:M:*)W:,WYW,YFM8*i<-Fx-nY0WM0ixW:: Y)xGF088ix*W-MQ>0)M-QMWW:G-MW:,M8)MQ*0G-Qx-M,:q:0Q:**QxWQM0MM:)RG)WWY0,*Fx8Yi:*:x)Q:)WMW)YWMii-H,FF-8YiW*0-xQ:Y7M)F*W0:8-xxW,M09i)*-0MQWYG,MsMWW:)*Qx0QY0xMM):WqFFY-xBFW8xiM*GG?:)0*M0)FWx:W-:x)F)0-,_*WG-QMY-,lF,W-,0-0xxK00:M,*)WYQ0-0xGFM88is)Mx-k00Wxx)-W::GY)xiF080ixFMWFQyY,M-FQWW:)-MG::-8)M:*0GYQxYY,::V8F:-*gxWQ)0M,Y) G)i,Y0,FFx8Mi:*Qx)Q)-iMW))WM:F-L,)F-Y0M0*xG-Q:YWM)ZiW0i0-YxMXY0k,i*-G0QW-W,WF:80:))Qx0<W0xMMFiW :xY-xMFW8WiM):WWT)YiM0FMWx:--:G7aY8-Mf*WGGQMY8,r))Yi:0-*xxqx0:M:*)8-x)YW,YFM8Gi<*Mx-r00WMG)8W:::Y),*F000:)*MGGQA-eM-)0WWMxrYx:k,8)MQ*0WiQx-xx,FQ8M:--)xW;x0MM:)VGF:QY0,0Fx8,i:*xYz6-00MW)YWM:i-_xtF-8)W0*xGMQ:Y,M))*W0:WQ8x,(:0.iF*-G0QWYx,MF:8{:))ix05W0xMG)GW>Q)Y-,W:M)iWFQ*GiQG0-M0)WWM,5Q-YG,x)W8QiG--QGYY,f))W-:WPiYixn**8QM.-8,xYY,-FM8:i=--0QxGF-0:i,W,:MY),-F08x,F:dY)Qi0)M-)0WW:8-Fx:k=8)i0Q,-,G:F:0iMY*FGxQ)Y,O80FM:)DG)Q0HM0QMQ)GWQ:0-,x82;8M)8W*::-+,)F0*,W,i:Y:,YPM0Yi8W0:W-xxMD:0#i)--Y8QY-F,MF:87:->GYGxM):8QM:*-,0Qx0iM)FQW-QY-0,Yu:8,M8-:G,Q)YMMY8FM-*WGxQMY788i0*W,x::Y*,-))8Gi**:,,#,00MQ**W-*QGMB00WMx):Y*x*Q0WWMGFiWQ*GGWQD0)M-)W-xxFQWYFM*0QMQ*0GWQxY:WxMQ)8WW-*x)Hx0MM:*)08GT^G0Q,T8Mi:*bx);-00WWM,-M::-6,)F-80iW*xGMQ:Yi,G)-W0:W-MWFMYFM8::x-ixib8,GFG8r:)--xW,)gi8WixWi:GY-,0FW8MxFQF--M0F*0xi-*i:G-Wx F)8-iWD8-Y,*VQ8*FQ8::0-Wxx;:*)8Qi0*hxGfi,xFM8:,}Q,x-g-0WMG)M88:_-M80F080ix*WG:QQ0)M*)0W-GW-Mx:s60:i-*YGW:W-G,iF:W)Ma-0xW7x-MW8)6WQQ-YY,WFG8MiW*QxFSF00,p)xW,::-3,)&w)-iW*xGMQ0YNMF)-W)G0-xxM;:08i)**G0:0-8,,F,8viM--x0/W-xWY):WMQ)Y*,0%)8xi0QsGzQ:0-,G)WWG:M-ixP!:))i0*WGx:QY:,Q))8)i*-8x0nM0WMP*)G-i0FF,xF88:iQ-)GYP00)MG),WG:t-F,-FY8Wix*MGxx:0)M-)088:x-,x:=MFXi-*0GW:WYM,iF%W)-:-0x*#x0MM:)#G)i-<Q,WF-8Mii*+G-H-YfM8)GW0::*x,)F*80iW*xGWxMY^M))-0y:W-GxMaxF:i)*-G0:FYx,,F:YPG,--GlcW0YMM)-WBi)(i,0FF8xi,*:GMt)Y:MY)8W*:M**x<FF8-i0*WG0xxY:,k))0G:0-8xxhWFMMn*)G-ixYW,GFM8:iW-)Gid00WMx)MW:MK^,,-_:8WiG*MW,QDYMM*)Y8#:x)Mx:^Q8)i-*0G-xWYM,:Fq0):--YxW_0FxM:)tG)i*Y0,8Fx8xY,*%Gx}-0YMW)xWMiMYW,)U,80Mb*xGMQ:Yj:))-8M:W-xxMB:0gi)*)G0:iYx,xF:87:)--W2IWY:MM),WvQ)Y-,0F)8xMQ*:GMy)0-M0F08Y:M*oxEk98-i0*WGx:xY:,8))80:0*:xx:M0)M;)8G-:MYWxQFM0MMi-FG8(0Y0Mx)MW::{-F,-l,8WMi*MGiQJ-)0j)08i:x-)x:_i8)M))*G8:iYMxiFbW):--0G8dx0FM:)*G)Q*Y0x0))8Mi**oG0w-00MW)x):::--,)4,80iW*xGMGfY_,Y)-8i:W-xxM/:F)i))0G0QFYx,MF:8yG---G8{W0)MM):W1Q)*L,0AW8xi0*:G?;)0-,))W8G:M-GxnF)8-i0*8GxQFY:xQ))W):0-WGieM0)M_*)G-Q0YW,-888:i*-)GQ=008Mx),W::pF-,*F08WM^*MG:Q2Y)00)Y8M:x*8x:w*8)M:GFGW:iYM,WFaWF:--YxWfx):Mi)HG):xY0,WFx0M8I*QG0>-YGMWFiWM:Wx,,)>880i-*xG,Q:YQM))--W:8-xxMuY0Di)*-W0GxYGxJF:8G:)*8x0I)MYMM)FW1:QY-,YFW8GiM*:0)6F0-M0FiWx:M-:G6,-8*Mx*WGFQMYF,4FMiQ:0*,xxLM0:MQ*)G*Q0YW8MF,8:ik*8x-!00W,xM:Wi:-Y)xQF00,ix*0QGQeYYM-)-WW:G-MxiVu8)G0*YGWQxYF,:FhW)i-:Wx8Q:0M,:)oWYQ-Y0*,Fx0{i:*:x)H-00MWi8W,::-s,FF-80iW*WGYQ:Y1M))*W0:W-xxGvx0!i)*-GWMQz:0_FG84:)--x0Y)0xMx):W9Q)Y-,0QW0:iM*MGvQu0-MY)WWxMQ-:xMF)8*i0*WGxQM-:,=F&W-:)-WxGnM0:,i*)G-Q0Y8,xFM8:i:-)x-%00WMx)MW::>YF,-F08Wix:GGiQ{0)M*)0WW:x-Mx: h8)i-*YGWQxYM,,FxW):--0xxiQFWWF:8*W:MY0,WFx808x*bG3S-0*MW)GWM:i-Xx:M)80iW*xGGQ:YQM))-,0:W-WxM{M0zi)*-G0x)Yx,GF:8K:)--x0:WF0MM),WH:QY-,YFW8x8:*:G,9)0)M0)WWx:M*ix67Q8-iF*WGGQMY:0i)FW-:0-8xx%M0:M:*)G-Q0YW,GFM8:i(*QG,e00WMx):Y*x*Q080Mi)-8i:QGGQv0)M-)0i):x-xx: t8)i-*08W:GYM,MF>8I:--YxWmxY,M:)MG)Q*Y0,WFx8Mi8*pG(R-0)MW)GWM::*G,)F-80i8*xGMQ:Y:M))-W0:W-GxM{:0ZMQ)MG0QWYx,:i_)QW8Q*YM,-FiMG):WyQ)Y-Y?FW8WiM*:G/.)0-,0MxWG:x-:xQF)8*i0*W-8Q,Y:,o)FW-:0-WxW+M0:Mo*)G*Q0YW,xFG8Yi1-)x-%W)i8iM_Y)GQQ0Y;MG8*ix*MG:QZxMM-)-WW:x-Mx:93Y)M**0G0QxYx,:FQW):-*QxWy00MMi)^G)Q-Y0,FFx8xi:*Mx)S*00MW))WM::-;,FF-80iW*WGMQ:Y2M))*W0:W-xxGJ00ai)*-GW,iBiYbQ)**W8QGxFnW0xMM):ixQ)Y),0FW8xiM*:8DQQ0-M-)WWW:M-ix1F)0Gi0*-GxQ,Y:,z))W-ii-WxWOM0xM5*FG-Q0*i,xFM8:iQ-)x-L000Mx)MW::L_,,-F08Wi8*0G:Q10)M0i,*-GG2FY,y/8)i-*0GWQxYM,:F^W):--0xWwx0MM:QQY)QF-:,WFx8Mi(gYYYxW*x8,MQ-F:,-x,)F-80ix::-QxxF80F)-W0:W-xxMJ:0/xWQ-G*:QYx,MF:W)xx:i-,,8s:8,i8*x:Q-W,0FW8xi:IxY8xF2i0GMMY*G)U)0*,W8F,i*WGxQMY&GFiY)Wx:::Y*,-)F80i0**M,TW8FM0)QG*Q00G,YFG8-:**x:lY),-F08Wix*MG:,mYQ,Q)0WW:x-:8*,QoUW8**WQQxYM,:))Y-W8:_Yix:F,88ixWQ:WY0,WFx8:,Y:xY8,-6Q0:Q)*YGiQxY0FF0,iW*xGMQI)Y8YMW-WG8:QY,M-FMWY*FGFQWYx,MFR)xWY:fY)vW0xMM):WdQ)Y-0oiW88ix*:GvX)00GW)W8G<:--pf8Gi,:iQGG8Q*Y:,p))W0x,Q,-:M:)Y8MiY-8Q*-,,xFM8::)ZxY,,xFM8Gi0*Q,06F0YM0FMi8**G:Q/0)M0:GY8,QQYY-,x)Y8x**G*QxYM,:))-0Wx:GY,a80*M:)1G)Q0F,0,,:*TWi:--:,80*M))xWM::Y)8Y:W)YW*FqGGQGYNM))-WW,MQiYFM*0 *WG,QiYQMF)*0Y-F:)--x0IW0xMM):Ga,*YFxQFW8xiM*}8Y,Yv:0xi,)q:G*:xtF)8-iW}:-*x)F)8*MW-GGY:0Yii-Fi0j:Y*HQ0YW,xFM8:is-)YYM00YMF)MW::4Y-W*,(Fi8:Q*-W,YFYMFF,WW:x-Mx#M0)GWG:*-GGUNY0FMx*0:F-0xWUx0MM:)aG)Q-Y0,WGx*,G:*%x)S-00MW)xWM{:FFxQ{W80iW*xG:M0F880iW*YG)Q,8WMF))80*-G0QWYx,MF:8}G9u-x*Q+0xMM):G),-/80,,M)*W))-GiQF0-M0)WWMM)?Y0Y,Q)Y8M:F*ix0F)GYM,)AWQ::WQ}G0-Mm*)G-QWFi0*M)))xG:WYW,GN:M8))W::zY),0iG-8x)Q*Y),-FF0:i8WY:--Mx:r68-x*:F-Qx, Q,,FxW):--0xxMM)*8xi*-YQF-9,WFx8MinF)-W,,FF8,)8WW::- ,)F0FuW,i,GG:xY3M))-WW,WQ*Y),iU:8,i:*xxQc0G*Mx)QG*::YF,,F-0d),WGQ)Y-,0Fx-QWY:x-GxW-GM*))Wx:M-:,):-),W)ii-iQMY:,_))W-:00W*,MM0:Mk*)G-Q0YW,xi-*:iz-)x-_00WMx)M-ixL-Qx:F08Wix*:0)xQq00=iGWY:Y-Mx:SX8-G8Rx-8xYYGxMF&W):--W0x,iF)8)iQ-8x,7)WQM0),WQ:x-i,8Dk0M)xWM::-X,)F-808QQxGGQGYHM))-WW,)jFY8MF0iMi*-G0QWYMWQMW)*Wi-FGnlW0xMM)cY0xFrY00,M8xiM*:GDX)0-M0:*-x:G*MxVF)8-iW/*-*GQU*8*QW)8Wx:MY*,0YYxYi:-*x,HY,85Y8:iz-)x0iMFQ8QiG*QG0Q,Y8,H)MG::)YYxxJ80Mii):GiQ00*xQ0QMi*0GWQxY:W)MG**GYQ)Y,c8YQM:)UG)Q0Fx0FM,)iWxQ*GxM0Fi8-Mi*Q:,-8,)F-80ixPQY*xxoM8Wi,*,GY-8GQ<:0bi)*00,xFQ900iF)0xWQ,Yx,8ti8F),W*Q)Y-,0Fx-OWY:-Y-,Y3xG,iF*0GYQ-GY%Q0Mi0*WGxQ:3}00M,)QxMFG8s GYMMz*)G-QWFM0*Mi)QWMQYGMiMFQ8QiG*QG0Q,Y8,()Mi8)QG:Q?0)M0:GY8,0Q,Y*,-*:W,iY-FGiQc,,FWW):--0xxiQFY8Wix-YxGQx,YF*8Mi:*#x-MMFi0:ii*0G))x,FF-80,WQ*GMQMYHMF)-Y,:W--0:k:0:i))1G0Q8Yx,,F:8MWt--x0lW00MM)iWJQ)-M,0F08xiM*:GV})--8Q)WW8:M-ix4:W8-MUQxGxQGY:,W))W*:0-8xx+WFMMk*)G-::YW,GFM0MMi-FxF60-8Mx)MW:M}b,,-F)8WiG*MY:QKYMM*)YW-:x*5x:3Q8)i-*0G-xWYM,:F_80:--YxWy0FxM:)tG):8Y0,8Fx8xY,*lG:N-00MW)xWMM:aG,)sQ80i8*x0WQ:YxMF)*WF:W*GxMJi0^i)*-G)x0Yx,MF:0Q:)-*x0d-FWMM):W(iwY-,YFW0WMG*iG,!)YYM0)WWxMMf8x;XM8-iY*WWFQMYW,Q)F8::0*)xx;,0:Mw*)WUx-YW,xFM0Wiz-Fx-.)F0Mx)MW:iGY),*F000M8*,GWQa-FM-)0WWiWY-x:_G8),-*0GWQxYM00FQ8x:--0xWux0MM:)0G):,Y0,*Fx8Mi:*qWY2-YMMW)-WM::-p,)Pi80Mi*xGGQ:Y<M)F)WF:W*:xMM10>i)*-G0:QYx,YF:8-:)*Mx0Q0FiMM)YWvi*Y-,0FWYxiF*:G8g)Y,M0Q,Wxix--x%1W8-xx*WGxQMY:x0))8,:0-0xxyx0:,:)MG-:MYWG,FM8:i?))GYa0Y:Mx))W:M*Y)x)OM8WMQ*MYGQS0)M-)00F:x-)x:/:8)i)*0W0xiYM,*FZ0*:--0xW:x0*M:)YG):GY0W,Fx0xM:*%G0s-*iMW)xWM::-M,)4G80i0*xGxQ:-:,-)-8x:W),xM#:0_,))YG0:MYxxEF:Y*:)*)G*jWYiMMv)W{Q)Y-,0QF8xMj*:G:6)0)M0F0*i:M-FxVQ*8-i0*W8x:0Y:,*))88:0F,xxQxY:M5)-G-:FYW,xFM8:Mi-)G8z000Mx)xW:i:-m,-.W8W,,*MG:Qw-)M*)08x:x*:x::*8)M))*GW:,YMG)FVW):--0WFqxY:M:):G)Q)Y0x0Mi8MMQ*%W*S-00MW!x0v::-F,)nY80x,*xWxQxY&,))-8F:W-xxM<:0,i))YG0Q0Yx,xF:0:iQ--G0gW-,MM):W^i)YF,0>W8xMM*:8*D)Y)xJ)W8G:M)Yx=F)8-i0FFGx:MY:,:))W):0FWYWP,0YMgQxG-:YYWxx,:8ii8-)YiP00FMxFxFx:Q-F,-:c8Wix*M8::W0),*)088:xFQx:Q:08i-)-GWiQYM,:Fr0yMx-0GYhx-GM:)^G)Q-*x,WkG8MM,*PG9A-Y0MY)xW*::-*,)d*80M0FDGM:iY?G*)-W0:W)xSi?:YQi))*G0,YYxxx^W8oM(--8YIW0xMMFM8QQ)-F,0:88xiM*:W::Q0-,))WYG:M-:x2F)Yii0)8Gx:WY:,:))8-:Y-WxF2M-8M4)FG-M0-),xF*8:x*-)WG>0Y0iM)M8i:H)*,-F08W,x*WG::Q0),*)0-Y:x*xx,7^Yei-*-GWQxYMxMF:W)iF-0x0Tx0MM:F:W*Q--),WFW8Mi:*Rx)Qj00,8)x8W::-:,)V-00iW*FGM,MYu,F)-Y0Q8-xx*w:Y*i)*)G0:0-F,M!i8/Mx--x05W-x,W):8QQ)-*,0:,8xMx),G%:>0-x,)WWx:M*MGxF)0Fi0*0GxQMY:x:F:W-i)-WW8vM0:MsFOWiQ0-*,xFx8:i7-)x--,0W,G)M8G:Z-!,-908Fix**G:QG0),*)080iY-MGiuuYxi-*0GWixYW,:XQW)i*-08,3xYxM))r8cQ-Y-,WFx8MMM):x)QF00GF)xWM::*:G_F-0)iW)WGMQ:YsxIFFWYi*-xxxj:0Ui)*-)xQW-G,MmG8Li9--G0xx0GM*):WYQ)-*,0UW8,iM*-GD,,0-,i)W8W:8-:GQF)*,i0*WGxiMY8,^FFW-iY-W8M6M-:MF*)W*Q0-8,x:)8:M&*Yx-QM0WGM)M8i:<*qGiF008ixR*G:Q 0)x-F:WWiG-MGi+X-xi-F0YFQx-,,:.QW)iM-0GWFY0MM-)h0xQ--Y,WmWYQi:)Qx)M,00MW)x0MiF-rxFF-0YiWT-GMi:YWM)F*W0i8-xW>z:Yt,Y*-WMQW)-,MTi8}i))Gx0Qi0xWY):W8Q)-)GMFW0GiMKGGEm)0-x0:FWxi,-:GQF)-8i0)0W8Q,-M,fF_W-:0-WGW:<0:,i*)W:Q0YW,xFM8ii=*Fx-Q*0WMW)M8::MY)xGF00-ix),G::DYFM-FxWWx*-MxYRdYD,W*0W8Qx)i,:FlW)M-*/xWQG0M,i){-QQ---,-Fx0xi:F,x)N-00,08FWMi,-!W2F-80iW)WWWQ:-MM)Q)W0:W-xxM/00%MF*-W)QWYW,M;:8G:)*Wx0:F0x,,):8:iYY-xYFW-,iM*:GN:)YFM0F8Wxi,-:0iF)0)M:*WWWQMYM,o))W-i-Q,xGQG0:M:*)G-Q0-0xFFM0xi}*ax-y00WMxFMW:iQY)G9F080ix)MG*QhY0M-:-WWiG-M8:t*8)MW*08,QxYx,:2:8::-*YxWQ)0MM:)s8):)Y0x8Fx0,i:F*x)Q)Y*M8FWWM:M-q,)F-0-:G*xWGQ:)iM))-W0i0)jxMQx05Mu*-G0QW-WxMF:0,:)-Fx0#W0xMM),We:FY-xFFW8WiM):GYf)YWM0FiWxi,-:G!>G8-MG*WY*QMY),1k=8*:0*8xxi80:MU*)8-xQYWxGFM0iiEFYx-Q-YYMGFxW:iYY),-F000,:*MW,Q4YNM-)0WW:x*Wx:QQ8)MF*0G0Qx-M,*FE8Y:-PYxWQG0M,:FGG):0Y08FFx0mi:):G,_-YYMW{-WM::-PG)aG80M8*xW,Q:**M)F)8Y:W*WxMUM0ti)*-W-8GYxxGF:Yi:)--x0aWYWMMFiWKiQY-,-FW0xM,*:G)7)Y8M0F8Wxix-Fxq^F8-x8*WGxQM*:,-))8*:0*8xxMG0:,:)-G-:-YWxxFM8:iA)XGYJ0YYMxQFW::wY)x)G88WM0*M8uQs0)M-)00,:x*,x:QM8)i)*0WWQFYMxyFDY,:-*YxWQWYQM:FQG)MYY0,WFxYMix*;GFK-YYMW:8WMiM**,)m)80i0*xGMQ:-:,))-8*:W-WxMk:0},%)FGY:-Yx,xF:8N:)--x)=8YGMMFxWB:bY-x0gx8xM:*:Y:R)Y*M0QW0Q:M*Sx?QY8-i-*WWW:MY:xQ))0M:0-Wxx:MY8M_)FG-:YYWWiFM0MiW-)G)h000Mx)MW:i:*W,-n*8WiW*MG:QL-#P,)08-:x)Gx:3P8)M))-GW:YYM,MFLW):--0GxpxY,M:F,G)Q)Y0xWSW8MMr*sG,K-YYMWFW8F::*Q,)QM80iW*x8M::Yk,F)-8Y:WFixMQM0,i)))G0Q0Yx,MF:0:MQ-*G*zW0-MM):WliB-F,YO-8xix*:G/L)Y),*)88Y:M-Wx=F)8-i0MMGx:,Y:x,))W):0*W-Mh,YAMA)8G-:YYW,-i:8:i:-):)P008Mx),W::MQ+,-F08WFW*MGiQfY:8))0WW:x8Gx:AQ8)i-irGW:GYM,iF^W):--0*0AGYxM:):G)Q-Y0,Wex8MMi*{GF>-Y-MWgxWW::*Q,)V*80MM*x8MQiYS,F)-8Y:WbMxM::Y*i))*G0:8Yxx0F:YSix--GYJWYGMM:xWb:)--,01M8x,Y*:WQo)0-Qx)W8G:M-ixSF)8-i0F:Gx:xY:,:))W-:0-WGi_MYiME)FG-:-YWGxeY8:MQ-)G*J0YMMxdMWY:t-F,-HY8WGM*M8::M0),*)088:x*0x::<0Gi-)YGW:GYM8QF+8)W0-YGxtx-YM:FQG):=1-,WFx8MQ,*+xF#-008))x8,::-Q,)F-80iWMWG,:MYa,!)-W0:W-xxGB:YQi))*G0:0YxGM}G8viF--GYmWY:MM :W0Q)-*,0288xG:*:8mQG0-,Y)W8G:MF:xSQ)8*i0)8Gx:,Y:8M))8-iQ-WG:.M-8MV)FG-Q0WM,xH,8:iQ-)x-j00Wxi)M8M:}-l,-F08Wix)FG::Q0),*)080:x)Mxie=0Fi-)YGW::YMG:5iW)i*-0G81x):M:#7W:Q--Y,WAG8Mx:*NW)Q000,8)x8,::FF,)f-FWi8)MGMi8Y;,F)-80Wx-GGir:)Gi))0G0:00),MBi8sxi--x0NW-xWY):8QQ)-*,0:,8xMx),GQ:60-x,)WWx:M*MG-F)0Fi0*0GxQMY:,hF,W-iY-WG8}M0MMN))WFQ0-G,xi,8:MQ-)G-QQ0W,x)M-8:4-0,-_-0Qix),G:M,0)M-)00W:W-MGi_I0Fi-JGGW:W-W,:!:W):)-0xWAxYx-Q)N8QQ--M,WFx8Mi:*)x)Q*00,Y)xWx::*2x,F-00iWF0GM:iYUxDF8W0i8-x88S:0Li)F-G*QW-G,Mfi84,Y--G-Q*0x,x):W:Q)Y-,0P08WiM),G3QW0-M0)WWx81-:GQF)0Fi0*0Gx:MQ>,QF)W-i)-WGG^MYMiW*)W*Q0Y8,xFM8:i1:-x-Q-0WM*)MW::jY)WiF008ix*xG:Q:0)M-,WW8:W-MxM9;8)i-)KQ*Qx-x,:FQW):*-0xFbx0MWj)QG)Q-Y-,WFx8Mi:j)xFZ-00,N)xWM::-L8-F*80iW):GMQ:YZM)iMW0:W-xx,+:0_i)*--:QWYx,MFM8o:)--x0Mx0GMM):W)Q)Y-,0FW*Mi,*:G1Q:0-M0)W0xGW-:GiF)0ii0)QGx:x-,,QaiW-,Q-WxxDM0:0-*)WFQ0-*,xFx8:,j::x-Q*0W,8)M-W:g-MaQF00*ix*GG:QQ0),Q)0WWxM-,x:y50wi-*0GWQxF:,iF9W)iW-0xWXx0MW0)bG)Q-YY,WFx8Mi:QWx)(-00M0)xWM::-A8-F*80iW)MGMQ:Y%M)F*W0iY-xG8X:0Qi)F--QQW-8,M6i8ax0--W0,-0x,G):8iQ)9:,0FWFMiM)GGN:^0-M0)WWxi,-:GiF)YQi0*8Gx:x00,^}QW-:F-Wxx<MYM,i*F8rQ0*:,xFM8:iR:-x-QF0W,W)MW::aY)x*F00Yix)8G:QQ0)M-W5WWi8-Mx:h>8)i-).Q*Qx-W,:FMW):*-0x8(x0MWX)QG)Q--:,WFx8MM::)xFQF00,F)x8W::-x7iF-0)iW*-GMQiY4MF)-W0xx-GxMt:0Wi)*-G0:WQM,,b,8Ni:--G)DW0-)8):8MQ)-Q,0F88xi,*:GvM-0*M0)WW*:M-:x%u)F0iY)YGx::Y:xM))8:-F-WG0;M0MM_*FG-Q-YW,xi:8ii}-)x)100WMx)M-n:QY),-S-8Wix*MW:x)0F,F)08Y:x*Wx:=3QYi-)*GWQWYM,:FTW)GF-YxWgx0,M:)VG)Q)-Q,WFx8Mi:*rx)m-0YMW)xWM::Qi,FF-80i8*xGMQ:YpM))-W0:W)MxME:0ZMQ*)G0QWYx,:,98iii--x0/W0MG-ix-8GFYFxGFW8xiM*10-x,FY88i-*i:-w^08,:F8WG*W*-G0QWYx,MF:QyeGx8/80:M_*)G0,xQ:YiMQ8:xi?Q8Fi**YG80G-Q:i-M,-F08WiMJ:YYxMS888)*W0:x-Mx:F))0iF)xGWQxYM,kQ8)MGGQ0YFxs*-88iQ*MGWY*xQFx8Mi:-)0xxi_,88M:*,G8QxxQV)80iW*xG:M)#G8*iY*)G,-)W)MY)Y8Q:Y*MxFQi00i)8iiM--x0LW0MWQ+)*QGi*x,*F*8xiM*:x)iY2:0Gi*W8:x-:x5F)80W8*YG)QMY:,e)--0GGQi-:,YF-,0*)G-Q0YW,xFM8:i3-)xF_*0WMx)MWyG-Q*,FQi8Wix*MGkMYFY0W:x*,Wx:m8),0)G8:i,*A,Fe)8FMx*8W*IxY8x:FWWF)iW:Q-Y0,WFM)0GF:FGQQ*00MW)xW:M-S808MF)88::**QxWF-G8Mi*)GF:&GFB,0-i)*-G0Qx)i8*M*)QWMQY0,xM?G8W:FWi:MY-,0FW8MW-Q*Y8x:H+M*)-Wx:M-:,)i,F88x*YGWQMY:,v)-)G:0-WxxZM0:Mn*),-,8YY,*FM8:i^--0_,YF)8i:**-:i-,,-F08WiMQ4-8,FF*0kiGWY:W-Mx:X38-8W*0GWQxYM,:FpW)Q-!8xYwF0MM:)KG-M0QG0)MQF1Wi:G-M8W00MW)xWMGW-l,)F-80iW*xGMQ:Q)MF)-W0:W-xxM}:0nmM*-G0QWYx,MF:8H:)::x0.W0xMM):W+Q)-:,YF88xiMQ8Gj>F0-M0)WW0Gx-:xUF))ii0*8GxQM?W,T))W-:Y-WxxVM-:x**)G-Q0YW,xox8:M:*Qx-9-0W,x)MW::^Y)G,F08Wix*xG:QQ0),)F8WW:x-MGi#I8)i-*08iQxY,,:F_W)iQ-0xWQQ0MMM)>WjQ-Y0,Wlx0:i:*Qx)q*00M0)xYM08-2,FF-YxiW*-GM:MY8M)))W0i,-xxMj:-2MQ*-G-QWYW,M_G8sM)):x0V00xMx):80Q)--x:FW8GiM)0G.QT0-G0FGWx:,-:xWF)Yii0*WW,QMYM,g))W-:Y-Wxx*60:Mi*)GFQ0YW,xFM0Yie*:x-k)0WMx)MW:iMY),FF08Yix*WG:i?-xM-)*WW:8-MWclwY)Mx*0GYQxYG,:AYW)M-*QxW180MM,)qWiQ-*0GiFx8Gi:*ix)QG00,WxFWM:M-NG:F-8*iW)xW)Q:YQM)F0W0:0-xxMQQ0>i)*-G-QWYW,MQ:8,:)--x02W0xMx):WlisY-,0FW8WiM*iG4:K)FM0)WWxi,-:xkF)8-,G*WGGQMY:,gFiW-:0*Gxxlx0:M,*)G-Q0-W,0FM8iiv-Fx-S-0WGx)8W::QY)GWF08)ix)xG)QNY M-FGWW:x-MW:^W8)i)*0G0Qx-8,:Qv*,:---xWtW0M,-)JW)G0YY,8Fx0-i:*:x)i-F-M8)GWM:0-6G,F-80-)*xGxQ:YnM))FW0:W8:xMJ,0.MQ*-G0QWYxx-F:8M:)*2x0nW0xMM)*Wb:QY-,*FW80iMF:W:P)0FM0)YWxM:-:W<a*8-i**WG8QM-*,zZ)80:0-YxxzG0:M,*)8-iQYW,8FM8,i7*Qx-Q0>xMG)xW:iMY),FF00000*,G,QrY*M-)0WWMx-Yx:Ii8)iF*0WYQx-x,-Fy8::-)GxW1x0M,M)GG):QY0GQFx8Mi:*3W0Z-0*MW)YWM:M-/x)^M80i0*xG*Q:YiM)F)8::W-8xMb)0Zi)*-80G0Yx,GF:8i:)*Fx0Q008MM)xWliYY-,0FW0WMM*:G,{)Y-M0)WWxix*WxnnM8-,i*WGxQM-Mxx))8i:0*WxxjM0:M;FYG-Q*YW,*FM8Mi;*)WM6000Mx))W::iY)x-,W88iG*MWPQKYLM-)00F:x-Mx:O:8)i)*08Wx0YM,:F!W):---xW#x0MMi)KG)Q)Y0,8Fx8WWM*&x)%-iQMW)GWM::Qx,)F-80i8*xGMQ:*7GY)-W0:W-xxMQM0u,_F8G0Q0Yx,WF:8S:)--Gx_W0xMM)MWfQFY-x-Q,8xiM*:WQB)0-M0)W8F:M-ixLF)8-iF*WGx:0Y:,:))W):0-WxxQMYWMR*FG-QYYW,WFM-:YG-)x*K0-MMx)0W:i:*M,-F-8WMi*MG:Qv-)x,)0W0:x-xx:Q,8),-)MGWQWYM,MFw0W:-*0x8>x0,M:FWG)Q)Y0WWlQ8Mii*AGxr--QMW)x88::-:,)F-80i8*xGM*)Yg,Q)-W*:W-xxM!:Y,i))OG0Q-Yx,MF:8 iW--x*qW08MM)xWXi)*G,0FY8xiG*:W)z)--,M)WW8:M-,xvQ88-,0)FGxQGY:,i))8i:0)WGWJM0,M&)QG-:,YWxxG*8:i:-)WIa00YMxFMWY:DYF,-!W8WiW*MG::i0)M-)0W0:x-xx::j8Fi-*0GWQxYM,MFbW)i*-0xWox0xM:)QG):)F*,WFx8MMi*(x)_-00,x)xW,::-K,)PQ80iWFQGMQMY3,i)-W0:W*xGQz:0Qi)**G0Q0YxWMK-8N:F--Wx=W0-MMFM8,Q)Y),0+,8xiM*:8c:Q0-M-)WWW:M*GxKQ))ii0*0GxQxY:x0))8-WW-8xG>MY0MD)fG-M0#0,GF,8:iW-)Wiz00W*-)MWM:mY),-F*8Wix0eG:Qi0)MF)0WW:x-Mx-4&0:i-*)GWQxYM,:V:W):F-0xYbx0WM:/RW8Q-Y*,WF88M,3*4W):W00MY)xWG::*Y,)Q-0)iW*8GMQ,Y%,,)-00i8-xxGs:0ii)*FG0:WQM,,FM8>M:--x*NWYWYW)iWiQ)-Y,0FW8x,M)FGgQQ0-M*)W88:M*Mx-F)0 i0)WGxQMY:x:FYW-:F-WGF#M0:M6*)WWQ0YY,xF88:i:-)G-QW0WMW)MWY:U-Q,-6-Y,ix*GG:Q-0)M-)00WWW-Mx,Dj0Qi-)*GW:W*c,:FMW)i--0xW<xYx,,)jWiQ--0,WFx8MMM)ix)Q:00xQ)xWM::*:GiF-0QiW)xGMQ:YlM)))W0:Y-xxY_:0:i))-8GQWYW,MF-8;iQ--G0xx0GM,):W)Q)Y),0FWY*iM*:G/QA0-M-)W0xGW-:xuF)8-i0*0GxQMY:,Q))W-:--WxGyMYMiW*)G-Q0-),xFM8:in:Mx-lY0WM-)MW::gY)Y:F080ix*MG:Qw0)M-FYWW:x-MxMac8Fi-*0-YQGYM,:FQW):--0xWex0MM:)gG)Q-Y0,WFY8Mi:*?x)x80YM0)xW,::-6,)F-8FiW*WGMQ:Y M))-W0i0-xxxd:0Qi)*-G0QWY),MFM8^:F--xYaW0xMG):W>Q)Y*,0FW8xix*:G67)0-,Q)WWx:M-,x8F)8-i0*x0MGQKW8YM0**WQQ)x8QQ0:M2*)G0,xOF0,Mi)xG**x00,iF-0iiQW,i:Y),-F08xG::Y-Q,F&:88F:Y:xF/FY,MFFW8iiG-)x:YG,8F!W):--W0M,*Fi8QiM-YQF-Y,WFx8MitF0YG,GF*8GM?*YGFQx00:GFQW-:*-):*Yi,i)-W0:W-M07,-F*WY*FWPQWYx,MFmY)GG:P-,,,-FMM):W(Q)Q:,0FW8xiM*:GAc)Y:MY)8Wx:M*Wx/FF8-i0*WG0xxY:,D))0::0-8xx{MFWMV*)G-QYYW,xFM8:F--)x*v000Mx)MW::tYF,-F-8Wi8*MG:QD0),x)0W8:x-,x:O:8),-)-GWQGYM,iF>WF:-)0GGyx0,M:)QG):dY0GWP88Mii*jxF5-YtMW{x8G::-Q,)F*80iY*xWMGgYQM))-WF:W-GxM%:Fxi)*-G0Q-Yx,MF:8}F0--xYlW0WMM):WSQ)-F,0F08xiG*:GXa)0-,i)WWG:M-ixHTq8-,0F:GxQ,Y:,Q))W*:0)WxFzM0iMj*FG-Q)YWGxF88:iQ-)x*/00)MxBM8W:!YF,-FY8WiW*MW:x)0FM-)0W*:x-,x:}MFbi-*0GWi)YM,iFHW)W:-0xWTx0,M:)rG)Q-Wx,WFG8MiM*Ex)l-00xZ)xWx::-i,)F-80iW)WGMQiY{MF)-W-:W)xGF.:0Qi)**G0Q8YxGMF,8R:F--xYHW00MMD:W,Q)Y*,0F88xiY*:8UQ)0-MY)WWG:M-,xu{)F0iY*WGxQ8Y:,Q))W-WV-Wxx#M0xMA*)G-Q0WM,xF,8:i:-)x-w00WxQ)MWM:_-Q,-F08Wix)iG:QQ0)M*)0W0:x)MG)<c8Fi-*YGWQGYMG:F8W):*-0x8?x0WM:rl8gQ-YY,WFG8Mi8*yW)QW00M8)xW,::-:,)h-FWi8*xGMQGY+MF)-W0GY-GxMd:0Qi)*-G0QWYx,MF:8B:F--x0oW08M*):WnQ)Y08,M,F:Gn:i--x:F8MF)WWx:M-:QxF)8)i0*WGxQMY:GqFGW-:--WxWXM0iML*)8MQ0Y-,xF,8:i2-)x-mF0WMW)MWx:5YF,-F00-ix*MG:QQ0)M-)0W0:x-Mx:w;8Fi-*0GWQ8Y-,:FjW):0eWY8xQF,W-iM-YQFY0,WFx8MWW*5G?9-00MW)xWMi:Q),FF)80i8*xG,Q:Yj0Q)*W0:W-GxMo:0VMa*-G0QWYx,,F:8t:)-FG:LW0xMM)2YYxYQWWxM,FQGF*GG<3)0-M08)Wx:x-:x(F)8-i0FWG0QMYM,dF{W-:Y-Wxxe)0:MM*)G*Q0YW,xFM8Yi4*zx-9)0WMG)MW:ixY),-F088ix*MG:Q:0)M-)0WW:*-Mx:D^0QM8*0GWQxY:G)i**-G,:GY-x:*,8W:--YG-YY,8Fx8Mi:*zx)y-00iW:,WG:W-5,)F-8WGxQF-WxFF*,QFQW0:W-xx:,)7Q8x:8G*Q*Yx,MF:W)x:Q*-,xM08MY):WoQ)Y0Yq,,)YG)QF-0:-0-M0)WWxG0-:x{F)8-i0*WGxiMF8,u))W-:0-Wx06M0WG)*)G-Q0*,,xF,8:iQ-)GH,-0WMx)M8F:.YF,-F0))ix*MG:Qq0)M-)00Wx*-Mx:J78)i-)UGWQxuG,:F#W):--0xW6x0M8W)9GFQ-Y0,WFx8M,:QGx);*00M8)xW,::*:,xF-8-iW*YGMQ:YIM)M0W0:Y-xx,Z:0vi)*-0QQWYW,MFM8Ti7--8&:i0xMx):WFQ)Y*,0FF8xiW:MGp9)0-,8)WWG:M-xY:F)8-i0)*GxQ,Y:GxiMW*:Y-WGWhM0iM2)QG-Q)!0,xFM8:M:-)x*=00-8W)MW::Z*i,-FY8Wi-,WGiQz0)xQ)0W8:x-,x:VMFLi-*0GW:YYM,iF38:G)-0xWtxY0M:)QG):)-*,8FG8Mi,* x)K-008))xWx::-Q,)F-80i)Q0G,QMYExY)-WY:W-GxM;xF:i)*-G0i,Yx,,F:8RWM--x-bW0WMM):W;Q)-,,YF08xi,*:GQ{)0-0k)WWW:M-:xpF)8-x0:0GGQxY:,M))W):0-WY8v,0:M<*FG-Q0YW,xFM8:iq-)*0h00WMx)GW-:1Y),-FW*,xGS-YY,-F08*Ml*G:8-0x:N^8)i0K,-Fx01Y0-FiYc:--0xW_M*:8Fix-8GW+Y0FM-00x,Q*-F,xFY8)i:80x{58Y:,8)GM/7mY*,*oi8*Mx)QW,Q-Yv>:0ri)*-G0QWGx0*i:8iii--x0_W0M80iF*MG:YFxGFW8xiM*68Yx,Ox0Ii,)O,)tY0-MFF88,*YG)QMY:,;)--GGG:M8:,QF*WY)QW:Q0YW,xF:-)WQ:0-U,G0YM*)MW::tY-8GMGFMx8:Q*iQiY,M-)0WW:M)FY8,MF,8xF,GWQxYM,:FLW)M-iM0W1808M:)VG)Q0)F0QMG)0i,*Gx)d-00MxQQ*QGWQ-0Y,x80iW*xGMQ:Y}E)M:-0:W-xxM=:02i)*-0),WY8,)F:8q:)-00,,F;^0EQ8*0x0r8YMFY0GiM*:GJV-*x8iii*8GiQ-YG,YF:WxZi-*xW5800b8WF:--WxxKM0}x*)QWQQ0YW,xF:-*WQiEY83*YMMx)MW:Q))GY:M,)WW*:)00xGFF0:MxWW:x-Mx:/R8)i-QYYWQGY,,:F^W):--0xW)xQiW:)zG)Q-Y0,WFx8MWYQox)E-00MW)xWM::FQ8)FF0QiW*xGMQq)W8GMx*GG)::xGNW0Oi)*-GWM8+Y8*MQ**iQ*8x06W0xM:Q0-8x0/W0YM)),x):iYF,)&WM*F,Wx:M-:,):WFi8M:M-ix)**0GM:)iWM)ixx_M0:M9*)G-Q00W8,FG8*iL-)x-rWF:WF:F*,xFQWYi,G))W:*MG:Qz0)M-)0WWi0pMx:n78)i-*0GWQxFi8:Fi8G:--0xWnMeB88iY*0GxKY0)M,8Mi:*Rx)/-00MW(0-M:,-W,)F-80ixEQ-YxW!x8YiG)x:Y-FxMv:0Hi-QG-GGMF:0,M))MGY-FG,NW0xMM)IY-xYQ-Yx::Fi8r:)-GxM0F,,)WWx:M-oWF,,FWW0:Q-Yi)P80Mi0WFMW-WxxIM0lx)iY*:x,QM0GMY)WMxcQY8xYF:8Gi0-)ixF-0,M)F,Wi*-0*x-}W0ii**,:8*,x:vn8)i0Qx-,GxQ;W)M0*GW::,-zMFF)WFix-8G*Y*,*Fx8Mi:-)00,8d00M)8WF::-!,)F0*,W,i:Y:xi&Y8Fix*)G,-8xFL:0Ui)*000xFQk0,,M)GWM:WYi,-0xMM):WuQ)Y-,0QW*xiG**GZ2)0-MW:M*iWMQ)WY,,F<8Qi:8QQGYY,c))W-:Wf6Y*,FFi8-:F*iG%YY,-FM8:i_--08ixF88YF)W:iQ8-xx80iQ-FY*YQQiYMM-)0WW:MS:0Y,MFYW8**WFQxYM,:))YWG,Q,YY,,F)88i**MxWFxY:iF)0W*:WYGxxFG8)iQ),:,-*,)F-80ixj8-QGiF08FM:*xxxlFYW,F)*MQ)WG0QWYx,::)**W):WG:Qx0)G,:**GGMYFxWFW8xiM*^8),FcE8)QM*GG)qF0Y,0)*8Q:)G8:QY:,g))W0xx::0F,0F*8W:G*xxGB)0Q,,8,i--)x-_00xW:iQ):G-F*YxMiF1W):QY)QA0)M-)0WW:x-M0wM/0QM-*0GWQxY:G-MG)WGWQG-:MQF,0M:*Yxx*Q00,M08Gi0*Px)V-0WWxii-FG)QGYWQx8*i-*xGMQ:0)WQi8)Y:W-xxM :0ti)*-0M,WY8,)F:8f:)-00x,WFGWFi,*xxYQGY,FY0QiM*:GpN-**02Mj)iW.)-0*M*),8T*YG)QMY:,u)-YFGG:8Y<,,FWW-)QW0Q0YW,xF:YFWx:Y-Q:V*Y8iM,0*GGK008Q^8Yi0*MG:Q{0-0:iG)G:8-*x:RB8)i0Qx-,GxQUW*MQF!G8-*WQHx0MM:*)0*x8Qx8r,Z)YW0Q*-WxWJYGiix-*GW#F0YMW*,W8:,-0,YuM,QF:W0:W-xx:i-FQW*:-*xQW,E)*WY:8-Gx,:iMG08MY):W9Q)Y08-:8)-WXQF*TQQYQM0)WWx::FFW-MFFQi***GxQMY:M)Q0*8W,Qix8QQ0:MH*)G0,G)8W0M,)*W-5:Y,xYFF0iM&W,:8Y),-F08xGiR,8*xGkW0:iG)::8-*x:ce8)i0Q,-,G:F:8YMM)YG8-*xW?x0MM:)L)MW::2Y),-F0:D FGQQ,00MW)xW:,FFQ88,WFMWF:8-QQ:YjM))-W0:W-xMMMQ0iMW*-G0QWYM8jiFFyW0UbYi,:Fi8W),WWQ)Y-,0Fx-8WQii8Yx,FW8G)Y8::M-:xNF-*W8Q:G-,xWFFW)iG)>WGQ,x8;-0:MO*)G0xWQ:0*M8--,FFWxFQ-0WMx)MW>,,Q,Y8,,),xDiQ-)x-6,0:>iYiG0Q,0*,i0Q,O*0GWQxY:W:MG)WG*:-YF,-dKWYiM0GGv3Y0GM-)8GF:x-0lF0FMW)xWM:{HFY8,8)MiW*xGMQ:YRM))-*YxW-8x0_:0wi)*0-xx,w08*,i8o:)--x0fW0xMM):WzQ)Y-,0FW8xiM*:0WM)0FMF)WWx:M-!8xMGFQWG*YGFQMY:,N)-YGGiQ-Y0M))YWYiQGFQFYW,xFM8w,):,-:xx0YM))MW::TY-8MMi)MW::,-W,FYQ,))0WW:x-:0wM*FW8W:Y-i,FDWGYMM*FGY:_Y*,iF08))zG)Q-Y0,WFx8Mi:QcGQQ,00MW)xW:,-QQ08M-*xW,ix*vQ,Y:M))-W0:xFMxG^Y0?i)*-GWM8t-0FM)*8WMQGYGBY0-MM):W<Q-)0YMMQ)YWQ*,G8Z)0-M0)x-QGQQ)8YMFF)WGQMG8Q0Y:,m))W0G,Q-YGMFF,M?*)G-Q0YW,xFM*WGO*QGW_00WMx):Yxx8QFYi,GFMx*:)Y),*5WM-)0WW:xLM8,iiGQGY**G*QxYM,:))YYW::GY*d8YOM:)^G)Q0F:0QM:)NWi:xY*McFG8xM:WG:*-+,)F-8WWQ::-cM)4GW0i-*GG*QixMz:0ui)*-G0QW-x8M-Q8Q:)--W0MF0xMx):WQQ)-M,0F)*MiM*MGvQ:0-MY)WWG:M-xY:F)8-i0*-GxQ,Y:x:LQW*:--WxYoM0:M%F)-iQ0YY,xF,8:G8-)G:%Y08M8)MW0:qYF,-F08Wi0:xG:Q>0),M)0W8:x-WYMgA8)i-)iGWQGYMxM<iWF:F-0Y,tx0MM:1l-,Q-Y),WFG8MM**TGMN*0YM-)x8Q::-Q,)F-80i-:WGMQ:Y},Y)-WY:W-0YxO:0ui))0G0Q8YxxxV,8Qi:--YGzW0xMMX:-GQ)-Q,0F88xxx*:GxKF0*MF)W8W:M-ixgF)8-i):0GxQMY:x:))W*:0--YWuM0:MzFQG-QYYW,xF-8:i,-)x-J00WMxNM-8:b-M,-FY8WG:*MGWQQ0F,:)08F:x-,x:p68)M;:-GWQxYMx8FsWF:--)Y02x0MM:F0G)Q*Y0x0))8MiW*K*8d-00MWDx-Y::-x,)T:80W0*x8M,8Yw,M)-8=:W*WxM::)Gi))iG0Q8YxYQF:8xx---GQfW-MMM)iW%QFY-,)M08xiM*:W)p)0*M0)068:M-8xqz,8-i0*WWWd-Y:,W))0Y:0-WxxhMW:Mj)GG-Q0YW,xFM8:iM-)Gx 000Mx)MW::T-i,-k,8Wi8*MG:Qy0)xW)08M:x-Wx:a 8)M))xGW:iYM8:FOW):--0Gx&x0-M:)*G):,Y0GWQQ8Mi-*lGG1-QbMWFW8G:i--,)QM80iW*xGM:iYu,W)-8x:W-GxMQM)*i))xG0G-Yx,MF:Yvi8--GMIWY6MM:MWKi.-i,0/i8x,0*:G X)0-,W)W8r:M-Mx9vc8-M-*)GxQFY:YM))W-:0)WG,sM0*Ma)8G-,-YWxWQK8:i--)Yxm00WMx)M08:U-8,-F-8WiW*MWM,*0),W)0)-:x-Mx::y08i-)xGW::YM8MF&04i*-0G,gx0,M:)mG)Q-*M,Wb:8MiM*_G&+-Y-M8)x8Q:::M,)F-80,W),GMQFY;,Y)---:W*WG:2:0)i)MQG0QWYx,MQ883iY--x-UW0WMMFM-*Q)-0,0,-8xiM*:8aQQ0-,W)W8M:MRMxBQA8)i0)GGx,FY:,#))W-M:-WGMhM0MMe)UG-:-Y),xei8:8M-)x-O0-W,8)M8Q:d-*,-i-8WMW)iG::D0)YQ)0WW:x-MW89}0*i-*-GWQWYMxMi*W)i--0--6x0MM:_/88Q--0,W1x8MGM*bW6Q:00,8)x-F::-f,)F-0)iW)xGMQMY5,y)-8-:--xG,z:{Mi)*-G0iW-Q,M<i87iF--0-sWYW,x):8:Q)Y*,0FW8xiMF8G?QF0-M-)WWW:M*M0*F)0)i0i-GxQMY:GrF0W-i--WGW(M)MM.FSWMQ0-Y,x,88:iA-)x-::0W,W)MWM:_->,-X-YVix)GG:GM0)M-)00Wi)-MG,njYQi-Q-GW:W-Q,:gMW)GG-0xW x0Mx8)48QQ-Y-,WFW8MMMQ*x):h000-)xWM::)BxQF-0)iW)0GM,MYXxdF8W0i*-xYiI:0Ai)*-G-QW-0,MFM8<i<--G-;00x,8):)MQ)Y-,0QW0WiM)GGJ:i0-W-)W8W:W-:GxF))*i0*WGxQM*8,.tiW-:--WxWgMYMiW*)8:Q0Q-,xFM8:,hQ,x-:d0W,-)M-M:?*;xFFY0Fix*,G:Qy0)M-QQWWi--MxM%?0;i-X0-0QGY),:M-W)WF-0GWxM0,M-)z8WQ--:,W WEWii)Gx)MG00MW)x0Mi*-rG,F-YQiWQWGM:M-eM)yMW0Mx-xxMe:Y:,Y*-8iQWLx,MF:8w:)-)x0QF0x,*):W:Q)--x^FW0diM)xG2:,0-,-}:WxiY-:x0F)8-i0FWQ,QM-8,Zo,W-G)-WGWHW0:,W*)8iQ0YW,xKx8GiV)Gx-:Q0WMx)M8M:GY)GxF00Fix*MG:Q%-xM-uQWWM_-MxMaX0)M8*0W:Qx-,,:EGW),-)ixWQn0MG,)A8-Q---MxFx0Yi:*0x)s-00xW)GWMi8-<G,F-))iW)WW-Q:-WM)MxW0:W-xGxEM07,G*-*MQWYx,MUM8,:))xx0x:0xMM):Wp:8Y-GQFWY5iM*MGHQ)0FM0F:WxMQ-:GGF)--:Y*WWdQM)-,VMWW-i-*QxxQY0:G_*)G-Q0*W,WFM08ia),x-M-0W,W)YW:iWY)G0F08Wix)xWxQU-GM-MMWW:x-MGM?Q8),x*0-WQxYM,:%:08:-),xWxb0MM:)EG)*GY0xFFx0Fi:*:x)Q-Y-MWFtWM,Q-(G,F-0-MF*xWYQ:)hM))-W0MW-0xMQ80c,,*-Y-QW-W,xF:0W:):xx0XW0x,x)*WIiGY-G:FW8xiM)MG*a)-xM0Q8Wx:M-:G:DM8-,,*W*9QMY:,>))W*:0*FxxQF0:M:*)W-:8YWx!FM0,i%),x-i0-,Mx))W:M0Y)08F00WMM*MG*Q1-WM-FMWWiWiWxiQG8)WM*0GWQx*MxxFg0,:-)QxWMW0M,MF,G)iMY0Y:Fx8Mi:):GQ --iMWQiWM::-N,)U:80MF*xW*Q:Y:M)F-8F:W*QxMxQ0/,,*-W-i,YxxYF:FY:)--x0:WF,M,F8Wui,Y-87FWYxiW*:WG4)-iM0QMWxiM*ixj788-G<*WW*QM-Mx*))0i:0iixxhM0:xf)0G-iQYWx*FM)WiO))G)N0YFMxFYW:x,Y)x-uY8WMQ*M-WQy-,M-F-W5:x*Yx:xY8)i-*08Wx,Y,x8Fv0,:-*0xW:xYGM:FGG)iiY0-QFx0MMF*mG8{-Y0MWF*WMiM*0,)Qi800i*xGMQ:*T,,)-0Q:W**xMx:0D,)*)G0:FYxxYF:8*:)*-GGwWYQMMM:Wki,Y-x0,x8GMZ*:W0b)YxM0F0G):M*8x7Mx8-i0*W8x,YY:xG))0i:0E0xxQx*QMcFxG-GMYW,xFM0Mi)-)W,g0),Mx)MW::h*,,-QQ8WMF*MGMQ+Y),G)08M:x)dx:QG8)x-*FGW:iYM0)Fc)Q:-*0WM}xYQM:F0G):xY0x0FG8MM8*SGW1-00MW{xY-:i*G,)Qi80W-*xWxQ*YJxx)-F::W-xxMQM0ii)F,G0:*Yx,MF:0:M,--WMfW00MM):WvQ)YF,0}F8xM)*:G:?)Y-,x)W8i:M*ixdQ,8-M-),Gx:YY:,0))W-:0)W7,sMY8M F,G-x)YWxWFW8:MW-)-xS00WMxFx8F:b*G,-,M8Wix*MWM:*0)xx)0)::x-Mx:#_YQi-FQGWiaYM,MFa8)i7-0G,%x-QM:FGG)M--F,Wzi8Mx-*K-Wl-*0i8)x8Q:::8,)Q080M0),GM:8YtG))-W0:W)xxY^:YGi)FiG0,0YxxxFY81Mx---MKW0xMMFMW*Q)*,,0_*8xiM*:W:Q80-xM)W)+:M-:xZQTYWi0FiGx:*Y:, ))W-M--8G*wMY*M/)LG-:0*t,xeQ8:Mi-)Wi%0YWM))M8w:U*W,-HG8WMW)*G::G0)8M)0WW:x)MxY=%Y,i-FQGW,WYMxMFQW)MM-0Wxrx0MM:F:W8Q-*i,W,g8Mi:*nx):)0Y,F)x8*::-:,)m-Y,iW)MGMQWY4x,)-80i*-xGiR:Y0i))8G0:0YG,Mb88>x8--x0nW-x,Y):8GQ)*i,0i08xMx))Gp:x0-xW)WWx:M*MGWF)Y,i0:WGxQMY:,K08W-MQ-WGFIM0MM5))W0Q0-G,x!W8:MG-)G)QQ0W,*)MW-:_Y),-Q00:ix)YG::G0)0%)080:--MG0f/0-i-*0GW:WY8,:28W)WM-0xW.xYx,G)X8WQ--,,WFx8Mi:WYx):i00x:)xWx::*JGYF-08iW)GGM:8Yax(%GW0iF-xx)(:0_i)F-WYQW-*,M_88PW:--G-:M0x,-):*0Q)Y-,0o00YiM)YGJxW0-M0)W8Wii-:G0F)Fxi0*WGxQMYx,Qu,W-MM-WxWUMY:,^*)WYQ0*,,x6Y8:x=*sx-Q80WWP)M*-:I*vG:F00FixaMG:QN0)x-F-WWi*-MG85!)Li-)-G0Qx--,:g)W):--0G0Q,0M,Y)U*WQ-Y0,WbWM*i:)0x),-00MW)x8xiY-vG8F-FMiW*xGMQ:-YM) iW0Mi-xxx%:YX,,*-W8QW),,MK88}Mq*Wx0QF0xGM):WLQ)*-,-FW0*iM)8G<,K0-,-)*Wxi--:Y0F)8-i0)0W8Q,-Y,S:YW-:0-WGWQG0i,0*)*xQ0YW,xyx:Gi_)8x-MG0WMx)MW::8Y)GiF0Yiix*xG::V-YM-F8WWi8-MG8zuYS,x*0WFQx:Q,:FaW)i)-FxWQ)0MM))1G)Q-Y0G:Fx0*i:*Fx)j-00MWF:WMi8-XGGF-8YiW)x*:Qi-_M)mxW0iG-xGxF00^,,*--:QWYx,MQ:*G:))ix0QF0xWx):8:iQY*G:FWYMiM*:Gg:H-WM0JQWxG)-:x<F)8-iY*WW*QM-Y,OFJW-i0),xxQM0:Mx*)8iQ0-W,*FM0iij)Wx-QG0W,W)0W:iGY)0MF08WixFMG0QU-,M-sQWWxW-MGMg)8),M*0*:QxYM,:f:L*:-)ixWxG0MM:)bG):GY0xFFx0*i:*:x)Q-Y:MWFGWMW)-#G,F-0-Mi*xWYQ:FWM))-W0MW-FxMQ80D,,*-Y-QW-Wx)F:0W:):xx0DW0x,x)8WAiGY-YYFW8xiM*:*-I)-iM0#QWx:x-:G^,-8*MY*W8:QM-8,{Q)0G:Y*0xxxd0:GM*)W-:*YWxWFM0-iZ*Wx-Q-YXMxFYW::0Y),-F0YWiY*MW8Qs-,M-i)WWiW*)x:QW8)8G*0GWQx-x,YF(0G:-:,xWwx0M,M)xG)ixY0G8Fx8Mi:*u:8g--QMWo?WM:M-Ox)O,80M0*xW,Q:-GM)F)80:W**xM3-0ai)*-80i;YxxYF:0G:):gx0Q008MMF0WtGWY-,0FW0WMM*:W83)sxM0)WWxix-*xhQW8-8M*WGxQMY:,M)F0i:0):xxwx0:,/F0G-:-YWGiFM08inF)WQa0Y0MxQ)W:G0Y)x)QQ8WM**M0:Q%0)M-+00B:x*Yx:QG8)G)*0W0Q8YMx0F_)W:--0xWQW-cM:F8G),,Y0,WFx0xM,*QWWS-eMMW)xWMiM,,,)QG80MG*xGMQ:Y<,X)-0Q:W)QxM=M0;M))-G0:0YxxGF:0G:)*)Gx>WY*MMMFW{Q)Y-x-HF8xM-*:GiX)0-M0)WWW:M*YxEQ68-i0*WGx:0Y:xG))0,:0-8xxQMywMQFQG-iMYWxWFM0M:W-)WiL0F^Mx)MW:M3z,,-QQ8WM**MYMQP-A,F)Y0g:xQ)x:RT8)M)FxGW:FYM-LFRW):--0G-!xYYM:F8G)Q)Y0xWT:8MM,*pGMg--QMWFxWW::*M,)Qx80M0*xWxQWYOx,)-8M:W-xxM::YYi)FiG0:FYx0WF:0:M,--W:5WY*MM):WbiE-W,YQQ8xMY*:G{K)Y),F)W0J:M*8xKF)8-i0))Gx:YY:x0))W):0*Wx)(MYxMt)cG-iQYWWx4x8:MM-)00c0-xMxQMWW:L*:,-iQ8WWM*MWMQ-0)xi)0F,:x-Mx:Q:YQi*F:GWi)YM,:FsW)W0-0WQ_xYWM:)uG)Q--Y,W<*8MMY*BxF=-Y0F:)x88::*0,)K)80M0)iGM:8Y^,W)-W0:W)xGbe:YGi)FiG0x-YxxxFx87Mx--WQ6W0xMMFM8,Q)*,,0rF8xiM*:W:QQ0-xM)W8*:M-:xZF)0ci0)FGx:)Y:,:))8-0:-8GYyMYiM9F,G-M0-W,xT88:xi-)W0V0Y0,G)M88:H-W,-F08W,x):G::G0)xi)0*-:x*xG85DYxi-iMGWQxYMxMF8W)M,-0-:4x0MM:F:8WQ-*M,W,D8Mi:*jx)QP0Y,F)x8)::-:,).-YuiW)YGM:FYtx,)-Y0i)-xG8u:*0i)ixG0:0Y8,Me88H,)--x0#W-xM-):8GQ)*i,0i08xMx*FG{:x0-xW)WWx:M*Mx,F)Y,i0i:GxQMY:x:iWW*MM-WWMwM0:MXFkWQQ0*i,xM)8:i&-)x-QF0W,*)M8*:^-z,-N0Y:ix)8G::i0)xi)080i8-MG8?Ak8i-*0GWix-,,:zGW)Mi-0-x/x-MM,)b8,Q-*Q,WQ*8MM:-#x):Q000x)x8Y::Fyx:F-0FiWiWGM:WYZx5{iW0iF-xWxs:0+i)*-W0QW-),MFW8U:)--x0::0x,Y):W:Q)Y),0QW)0iM)8G_:,0-0Q)W8W**-:G8F)**i0*WGx:x-),/JWW-GG-WxxZM0:,e*)8iQ0*:,xFx8:M}*,x-QF0WGz)M88:H*oGGF00Fix*)G:Q 0)x-F0WWi*-MG8TeF:i-)-WFQx--,:kGW):--0G0i00M,Y)I8,Q-Y0,WNW0:i:)0x):i00MW)xWMi8-#G,F-YMiW*WGM::YYM)hQW0,x-xGYB:*fMQ*-WFQWF8,MQ,8_,)-Fx0Q*0xx*):)0Q))-x8FW0YiMg0G;:M0-,-)YWxiY-:-*F)8-i0)0W^QM-0,l:iW-:0-Wxxm*0:,8*)8QQ0YW,xFM0iiw),x-:i0WMG)M8:G)YFG:F0Y:ix)xG:::::M*4QWWx)-Mx:2UY)Mw*0WFQx-Y,:i:W)i)*ixWQ)0M8-)lG)Q---,YFx0*i:Flx)w-00MWc:WMi8-vGGF-8-iW)xWGQ:-xM),WW0iF-xGx/M0X,,*--:QWYx,MQ:QF:))ix0QF0xWx):8::8Y-G:FWFeiM*:GS:R-MM0sQWxMM-:xeF)8-M,*WW*QM-Y,bFkW-i0*FxxQ00:,-*)8iQ0-0,FFM08i_i,x-X00WMxF8W:iWY)xMF08Wix*MWxQr-,M-)-WW:W-M8:ci8)M)*0YFQxQ,,::R0i:-*MxWM*0M0i)_G)W0YY,*Fx88i:*^x)Q:MFMWF)WM:*-u,FF-02iW*xY:QiY{M)FQW0:W-xxMMy0Qi)*-WiQWYx,MF:-):F--x0Q,0xMM):W!xxY-,0FW8GiM*:G4s)FMM0)WWx:x-:xoF)8-GW*8GxQM-Q,2))W-M0(FxxQ*0:,G*)*QQ0*W00FM0Yia)Gx-:)0WMxM:W:iYY)GMF08Wix*MWiQ7-GM-7,WW:G-MGMFW8),,*0*QQxYM,:?:0Q:*)MxWM-0MM:)pG)G0Y0GiFx0-i:*2x)=-YYMWFFWMi*-q,FF-80M_*xW*Q:YlM))-W0:)xYxMQ-0wM:*-GYQWYW,MF:-):F--x0Q*0xMM):W5,-Y*,0FW0WiM*:G(O)r0M0PiWxi)-:xIF)8-Mi*88QQMYi,a)FW-i!x*xxQF0:MW*)G*Q0YF,xFM*;iQ-)x-:i0WMx)MW:,)YF,-F00*ix*MG:QAFxM-)0WW:8-Mx:P^8)G0*YGWQxY0,:FsW):-3Wx8ox0M,-)oG)Q-Y08xFG8Mi:*Gx)u-00MW:MW,::-AxiF-80iW*x-0Q:--M))FW0:W-xWMM80+,0*-8xQWF,,MQ:)M:))Wx0:M0xxW):Wx-iY-GWFW88iM*iGfQi0-M0:xWG:M-:xxF)8-i0*WYMQ,Y:,>DGW-:0-WxxM:0iMD*)8MQ0YW,xFM*;iQ-)x-QQ0WMx)MW:,)YF,-F08*ix*MG:Q4YFM-dxWWMM-MxiUAYZiM*08MQxg*,:FjW)i)**x8:i0M8-)JG)Q--TF*FxY:i:*xx)A*00MY)xWMxw-Q,)F-0QiW*xGMQ:))MF)-W0:)-xxMt:0zG-**G0QWYY,MF:83:)**x0:M0xx:):WQQ)*-0)FWY:iM*0Gu,:0-,-FYWGM:-:GQF)8-i0*W):QM-),O -W-:--WWx,W0:,-*)8WQ0*-,xF0iGim)-x-3-0WMG)MWG:uY)80FY8Wix*8G:Q&0)M-:WW8:x-MxFf_8)i-*0-NQxYM,:FQW):--0xWM)0MM:)1W+Q-Y0,WFx*:ii*Zx)QY00MW)xWMGY-QG0F-YWiW*GGMi:-GM)RWW0i:-xY86:-#MM*-8xQW*:,MQx8y:)-Fx0:x0x,F):WmQ)Y-xpFWY:iMFPG9uF0-M0)8WxM1-:xNF)8-i0*)QYQM-F,7))W-:Y-WxGXM0:G)*FG-Q0-Q,xFM8:Ma:-x*:x0WxY)M8F:<-MjQF0Y,ix**G:QQ0)M*)0WWxM-,x:V{0Gi-*0GW:xQ:,i4-W)ii-0W,(x00)G)r8YQ-YF,WFG8Mii*nx)M00YMW)xW-::-l,)d-FWi8F:GMi*YRxY)-8K-*-xWQv:0Qi)**G0Q0Yx,Mir8Q:)--xFNW0xMM):Y)QFY-,0QH8xiM*:W+x-0*xx)W*::M*FxS_MMQi0F,GxQ)Y:,Q))8Q:0-W0MS,0:M%)MG-Q0YW,xi:8iiI-)WQL00WMx)M-m:QY),-QM8Wix*MG:M)0FM-)0WF:x-Mx:V<*-i**0GWQYYM,:F/8)W0-YWM#x0*M:F*G)Q-iG,WQ:8MiM*1x)I-008Y)GWM::-Q,)F-80i0):GMQ:YkMF)-W0:W-8x*a:0ai)*0Y,x,Q:8(Mi)-W:Q8xF_W0xMM):ixQ)Y),0FW8xiM*:83Q30-M-)WWW:M-ix%F)Y:i0*-GxQ,Y:,<))W-Mx-WxW>M0xMT*FG-Q0*Q,xFM8:iQ-)x-3000Mx)MW::&Y),-F08WiY*MG:QK0)08)YW0:x-,x:N_8)i-)WGWQWYM,:F&W):--0GFcx0xM:)QG)Q-Y0,WFY8MiM*zxFH-0YMW)x8*::-u,)F*80iW*xGxQ:Y6M))-8Q:W-xxMu,0Wi)*-G0Qx)80Q,i*0GF::Yx3Y0FMM):WLQ-)0YGM))Q8b:i-GxM0F,G)WWx:M-N8-,,)YW8:--iQ-Fl88M:)8GG-YGGuM0:M9*-0xxi1i08Mi)-WG:Y-:,x*i8*iW*8G0*8,Fp-8Wix*MGnM-N,8Yi8*-Gi--W-M8)8WF:8*:x*QQ0Wi-8QiQ-0xW5x0:G)i0*Yx8Y*,)Fx8Mi:-)8-,,F)0iii0)::-q,)F-FuiW*xGMQ:YLM))-8jxx-xxMV:0Mi)**G0Q8Yx,WMM8L:)--x);W0GMM)x*:Q)Y-,0VF8xi,*:G>xM0-M0)WWG:M-:xeF)xWi0*8GxQxY:,!))W-ix-WxWVM0,M;*)G-Q0Y),xF,8:iQ-)x)_0-W,F)MWi:&YF,-F-8W,x*8G:QQ0)M*)0W8:x)Mx,qn8Fi-*YGWQ-YMG:O*W):*-0x8cx08M:Ff*-Q*Y0,WF08Mii*yx)x:00MW)xWW::-e,)F-xxiW*GGMQMYdM))-W0i)-xxxh:0ii)*-G0QW-m,MFi8f:F--x-+W-x,F):WQQ)Y*,0F08x,M)xGH(F0-MY)WWG:M):G:F)8*i0*8GxQ0Y:G#lYW-:Y-WxGHM0,M7))*0QYYW,xFW8:iQ-)GU,-0WMx)M0Y:JYF,-F0))ix*MG:QQ0)M-)0WWF:-MxiZk09i-*0GWQxYx,:F:W):F-0xWVx0MM,)4GFQ-YY,WFW8M,:)xx)o*00M8)xWx::)cx0F-8YiW*GGMQiYjx)FMW0:8-xx,_:0Gi)F-WGQWYG,MFi8+ii--G0xx0GMM):WMQ)Y*,0FW)-iM*:G_Q:0-M0)WWxF_-:xQF)8)i0*WGxQMYW,UFcW-:*-Wxx M0:MM*)G*Q0Y8,xFx8:,K*,x-VY0WMG)MWM:3*)GMF088ix*,G:QQ0)x-vGWW:G-Mxi_;0,i-F0W*QxY,,:FQW):F-0GWxM0,M:)=W:Q-YY,WFx)Gii*jx)/*00MW)xWM::-a,)F-8-iW*xGMQ,YxM))-W0:xQ)0FMYFM8:*FW:QWYx,MF!-iGY:*8,,FF:8QF:WzQ)Y-G0iF8xix*:G/1)0)M0)W*-:M-,x}F)8-i0*WG-iGY:,:))8Q:0-8xxrG0:MMiJG-Q0YW,YFM8iiE*:Y)e00WMxFiW::QY),-,e8WiW*MGiQ(0)M-Ff-x:x-xx:(F8)i**0G8QxYW0MFsW):-*8xW7G0MM:ixG)Q)Y0,0Fx8Mi:*%GG=*0-MW)GWM:i-EGTFM80i0*xG,Q:YBM))-)J:W-8xMj,0ui)*-G0x)Yx,WF:8(:)--x0sWF-MM)GWP::Y-,0FW8xM,*:G:L)YQM0)8Wx:MQ,xQF)8-iY*WGxQMYM,V))W-:0)ixxSM0:Mi)iG-Q0YW,MiH*F8+:0x-i**YG8QGY,,iWQ8YF*8*ix*MG: ))88*M-*,:8-Fx:jd8)i0j8-,G:)F8FM0)-G*Q,Y,(800M:)PG)Q0FGWMMG)8M-*iG:k-00MW)M*0xFQFxQF)80iW*xG:,)Yi,x)-W0:W-M0:MF)Y80ii*Mi:Yx,MF:8;:)--x0DW0xMG)8WeQ)Y-,W:-)GW0QFY8xW0-M0)WWx:M-:xki:*-i**0GxQMY:M):)WF:F-WxxaM0pGWi:-,GYYY,WFM8:iw---Wl*00Mx)MW:Q)(*,FVi8Wix*MGfM-FY0-Mx-iGG:x0F5i00i-*0GWQMF98F,v)0xGQG-:xMF,W*:*WQ:WY0,WFx8:,FQ8-8,*^q8G:Q)^WiQM0YFF8FiW*xGMQTFF8GMQ*G:Y-0xMt:0 i-Qi*GGMY8,GF:8Z:)-0-xxG08,s):WJQ)Y0W8M,F:G{QF*&x0)G8YM0*i:G-MxOF)8-iWiiGxQMY:,s))W-x0,G0x(G0MM3*)G-QWQx,8F88:iI-)x0iGF)0ii8W,:,Y),-F08xxM:Y-Wx-*WM-)0WWiWY-x:6p8)MF*0GWQx*M0xFkW):--0xWH00M,MFiGFQ)Y0x8Fx8Mi:*R*0_-00MW)WWM:M-LG),f80iW*xGMQ:-xM))-){:W-WxM.:0Bi)*-80,FYx,xF:8::)-*x09WF-MM),WBQ)Y-,0FWYxGY*:Gi_)0FM0FWWx:MQWxaK:8-i0*WGxQM*:8G))8U:0--xxQF0:,:*xG-QFYW,)FM8:ic))Yio00*Mx)8W::xY)x)r*88i-*MW0QP0)M-F-8Y:G-Yx:QW8)i-*0GW,YYM,GF+8,:--0xWXxFiM:)PG)Q-Y0,0Fx0xii*HxFS-YFMW)xWM::*8,)F)80iW*xG8Q:Y2,M)-W*:W-GxMp:0nM)):G0Q0Yxx*F:8i:)F-Wx/W0WMMF}Wj:uY-x-dW8xiG*:W0D)0-M06WWG:M-,x%UQ8-M-*W8x:QY:,i))WF:0*:xxQMYGM#){G-iQYW,8FM-:MW-)x)P00FMxFWW::E*i,-F*8Wix*MGiQK-u,j)0W-:x-8x:PA8),-)iGWQ0YM,xFN8M:-*-G-Ox08M:)8G)Q-Y0GWFY8MiW*lx)3-YxMW.xWx::-x,)S:80Mi*xWx:,YQ,,)-8i:W-xxMQM-FiF)MG0:iYx,MF:8_iF--x).W0)MM)MWj:)-0,0FY8xiG*:GML)Y-xi)WWW:M*QxB Q8-i0),GxQ,Y:,:))W):0)WG)(M0iM(*FG-:GYW,xFF8:iQ-)x)f008Mx)MW0:_Y),-FY8Wix*MG:Q60)M-)0W8:x-Mx:6i0xi-*0GWQMF:0iMY*FGxQ)Y,b80MM:)}G)G:Y0,0Fx8Mi:*ax)Q-kWM8)WWM:i-j,FF-80WY*GGMQ:YQM))-W0:0-xxM^:0 iF*-G0QWY8,0F:8E:)-0-:,i)F8WixWxQ)Y-,0f0:HiM*:G7oF0-M0)WWxi8-:xQF)8-i0*WGxQM-0,EFjW-:Y-Wxx4M0:,:*)GFQ0Y0,xFM8:i )Mx-g00WM8)MWi:BY)x0F08Wix*,G:Qy0)M-)0WW:x-Mx:%#8)i-*YGWQxYM,:MiWF:--0x8Ax0MM:)fG)Q-Y0,WF08Mi:*aGQQM00MW)xW:M*QGYM,:)GWii:GGQxYdM))-WWi)*-G0I,0,i)*-G0QxF:0Q,:)-iQ*Gx07W0xM:Qi*xGxQ8Yx::)iWiQY-x:Q0-M0)WWx:--:xUF)8*i0*WGxQMGW,6))W-:0-Wxx4M0:8x*)G-Q0Y8,xFM8:xp:Kx*T00WM8)MWM:wY):-F08Wix*MG:Q(0)M-MAWW:G-MxMjm8)i-F0YFQxY,,:FQW)ik-0WW,00MMi)RGFQ-YY,WF-i8i:*ix)3-00M8)xWY::-T0xF-80iW*8GMQ:YfM)iMW0:W-xx,j:0_i)*--:QWYx,MFx85:)--x0Mx0GMM):W7Q)Y-,0FW*)iM*:GnQi0-M0)WWxx--:x<F)0:i0*WGxQMF0,())W-:0-WxxOM0:0-*)G*Q0YY,xFx8:iD:-x-V00WMG)MW::kY)0FFY8Wix*,G:Qe0)M-)YWW:x-MG^L 8)i-**GWQxYM,:Fi8i:--0xW>M*Q8Wi**iQFYF,WFx8Mi!V-YYx-RxMYFQWM::-c,-:W)Y8i:Q-YxWkx8YiG)x:Y*MxMz:0Ii-N8*dG,bYx0:,**WFFG-Q,MFi,0),WxQ)Y-,0Fx))GFQY-Mx:0FMF)WWx:M-c0F,8F8WM*YGYQMY:,B)-)YGiQ8-:(G0YMn*)G-QWQM0*MF))W0QF-:,80YMF)MW::NY-WFMGF8W!:YYYx0F0MF)FWW:x-Mxb,-)G8G:*GY:MYM,:FfW-x8:,Y,x4*,8WiW*YGWFxY8M))Qi,*Wx)T-00MxQ8*QWi)YY,MW)GiWGkb*0YM8)GW,MixG)WxMZ:0L,)WWG0Q8Yx,MF:8-:)*)WGoW0WMM)MWIQ)Y-G0F-8xix*:G:D)YWM0_W0::M-Mxo;68-MM*WG-i6Y:,Q))0*:0-8xxjx0:MMiIG-Q0YWGGFM8iiU))Yi+008Mx)MW::*Y),-Fx8WiG*MG:QP0)M-)088:x-,x:9Q8)i-*0W0:MYM,MF58G:--0xW{x0,M:)iG)Q-Y0,WFx8MiW*aGs!-0-MW)WWMM:-G,)F)80i0*xGYQ:-:x,)-W):W-YxM1:0P,e)MG0Q*Yx,,F:8V:)--GxtW0WMM)GW;:UY-x0_Y8xi,*:Gim)0)M0)W*-:M-ixIUZ8-i0*WGxQ*Yi,Q))W*:0-8xxdMFWM2*FG-Q*YW,xFMY:WM-)x*#008Mx)WW::rY),*FY8WiW*MGiQ?-!MM)0W8:x-0x:ST8)i-isGWQWYM,xFsW):--0Y)gx0GM:)nG)Q-Y0,WM-8Mix*dGi>-00MW)x8,::-Q,)>u80i8*xWxg0YkMF)-8,:W-xxM::)Gi)**G0Q8Yx,-F:0:MQ-*x-eWYMMM):WwQ)Y-,YF88xix*:GQ#)0-,:)WWG:M-:xAF)8-i08)GxQ,Y:,x))W-:0-WY8A,0:M2*FG-Q0YW,GFM8:i6-)x*&00WMx)GW0:nY),-FW*iWii{8),*N88G)FWW:x-Mx:Yx8)i)*0GWQxYM,:Ql0Y:---xWDW0MMi)LG):MY0,-Fx8,i:*^x)(-Y8MW)WWM:x-r,FF-80MG*xGMQ:YQM))-W0:0-xxM!:0SMM*-G0QWY8,8F:8<:)-0Y8xifiW)),WeQ)Y-,0FY0MiM*:GN=-*80vM,*Yi0F,0*,F-G8Q:M-i:0Y,,8))W-:0-x-:,YF*8-iW-*GZpG,8F08:iN-)x0x:FiWFiW*x:i-i,-F08WiMQsYFGl40,))0WW:x-M,)hb8Fi-*0GWQxYM,:y-W):)-0x8ax0MM:F:WiQ-Y*,WF08Mi:*ax)Q-00M-)xWM::-?,)F-0GiW*8GMQMYV,z)-00i8-xxG}:0ii)**G0:0-Q,MFG86iQ--x0#WYW,:):WxQ)Y),0FW8xiM)iGfQQ0-,_)WWW:M*:xMF)8)i0*)GxQGY:,!MMW-:--WxW9M0:MN*)W,QYY0,xF,8:iQ-)G)8M0WMW)MWG:?Y),-F08-ix*GG:Qi0)M-)0WWM:-MxxAR8)i-*0GWQx-M,:F,W)i^-0xWrx0M,,)KWaQ-YF,WFG8Mi:),x)>-00M8)xWM::-:,)F-80iWFiGMQ:Y1,QF:W0:W-xx:iv)88:iG-GQWYx,MF:85:)--x0pW08,,):W;Q)Y0WMMQ)QWG:Q-0x,+80aiMYQGYQxYG,WYGi**0GxQMY:M)i0WFii-WxxRM0tGWi,*GxYQM0GMY)Wii*Mx-(00WMM:Q0)GQQiGxF*80ix*MG:n)&-MFFxWW:x-Mxb:8FMWG:0-FGu)-08MQ)MWW-0xWvx0MM:)9G)R-F8,YF*8Mi:*zx-M_FY8)ii-*G--ixiF-80iW*M0-xxF80F)FW-:W-xxM=vFYMQ)&G0QWYx,::8)*W0--x0 W0xMM):W7F)FY,0,)F-80iW*xGM8:W8)Y8::M-:xhF--8Wiii-Gx0<QWYM0)*G)Q,x8Qx0:MT*)G0,x5F0,Mi)xG**x8x,iFi88ii*-GGQYY:Mx8YiF*MG:Q_0-G0MG*)GQ:RYi,GFMiF*FGWQxYM,_Q*)MW8QFxYN00MM:)5G-G:lGYGF888i:*sx).0)x0:Mi*Q:,-i,)F-80ixi:*iQ,YWM))-W0:xF8YQxi)0WFi:-xQYYW,MF:8V:-QYx0iY*8GGQ,Yi,QGF88FY8WiM*:Gmv-9WM*NQWx:M-:,)i8)88xQM-iGMm)W-MW*,Ww:iY)M*F-W*iM-GGYFM0G,_)xG**QGMd00WMx):-hx*h8YW,QF:,O*GGFQl0)M-)W-MG*QiYQ,M)YMMQW-Qx0QQ8FG8W):--0xW,-0MM:)zG)Q-Y0,WFxg:ii*+x)/-00MW)xWM)W-T,)F-80iW*xGMQ:OxM))-W0:W-xxMy:0xG-*-G0QWY*,MFi8v:F--x),00xMM):WGQ)Y*,0F-)WiM*:G.,x0-MY)WWxG0-:x<F)8*i0*WGxiM*F,3))W-:0-WWQhMYM,8*)G)Q0Y0,xFM8:ih)Qx-J00WMW)MWi:B*.xWF08Wix)0G:QB0)M-F*WW:G-Mx:!r0ii-*08:QxYx,:F:W):--0GW(W0MMi)mW,Q-Y-,W:xQYi:*Qx):x00xQ)x8xi*-vx2F-0*iW*xGMi:-iM)))W0:0-xGM.:-SM**-G-QWYW,MF-8wi))xx0.80x,X):W:Q))-xWFW8GiM*xGqQY0-M0?,Wx:x-:x1F)8*i0*WM:QMY,,AFQW-:0-Wxx<,0:MM*)W&Q0YW,xFM8GiT*Qx-t*0WM0)M0::0Y),FF08Yix)xG:i7-,M-)*WW:8-MG8_LY)MM*0GYQxYG,:N,W)M--)xWr80MM,)PWFQ--0)QFx8xi:*ix)NF00,WF-WM:i-UGxF-8-iW*xGYQ:YzM)))W0:0-xWMQY0%i)*-G0QW-Q,MF:0M:)--x0b00xM,):8:xQY-,0FW0-iM*:G(b)-QM0)8Wx:M-:x,F)8-MQ*WGWQMYG,{))W-i0-YxxD,0:MG*)G)Q0)Wx,FM8iiO)Wx-:i0W,W)xW:::Y)xFF08WixFMGWQwYVM-)-WWix-MW:MG8)i)*0G0QxY),:+.)-:*-YxWQ:0MMM)j0)x)YY,8Fx8Wi:**x)&-MuMW)WWM::-sxQF-80KM*xGGQ:YiM))-W0:W-WxMUx0hM:*-G0QWYx,YF:8i:)-Fx0o-0xxMF-W>:QY-,*FW0WiMF:Wxz)0FM0)YWxiY-:WsR:8-i**WG8QM-G,7O)08:0-Yxx_G0:,**)W-GWY8,WFM8,i/*Qx-Q-Q-MG)GW:i-Y),-F0YWMi*MG,QyYQM-F)WWiW-,x:mM8)M,*0GWQx-x,YFV8i:-*WxW}x0MM:FGG)QFY0,*Fx8xi:)VGQI-0-MW))WM:,-JG&N080iY*xG0Q:Y9M)l-)-:W-8xMu,0q,:*-W-Q0Yx,WF:88:)--x0Q0Y,MM)GWR:IY-,0FW0Wi,*:Gxk)Y0M0)WWxix*Gx2O,8-i-*WGxQMY:,Q))WF:0-Fxx{x0:,k)xG-Q-YW,YFM8,iX*)-0uY08MxF-W:::Y),-:Q8Wix*MGMQwYAM-k0*-:x-Mx:UL8)MG*0GWQxY,,:F 8E:--YxW<0FxM:)?G)0MY0,8Fx8MWW*}x)2-0YMW)xWMM:)*,)F-80iW*xWFQ:-:,8)-W-:W*,xM+:0di)FxG0QWYx,xF:8Q:)*)x)XW0xMMFWW Q)Y-,0{Q8xi,*:Gk?)YQM0)W88:M-MxpcS8-i0*WWxQ)Y:,Q))8i:0-0xxiM:8ME*FG-iMYWxFFM0MM8-)x)k0YYMx)MW:M6*0,-F-8WiW*MW:Q7-)xG)0W0:x-xx:m08)M-)xGWQGYM,)F=86:-F0G8Ex0,M:)MG):8Y0,WLF8MiM*Sx)D-0YMW)x,e::-i,)FF80iW*xGMQMY;,:)-W):W-xxMg:Y*i)*FG0QYYx,WF:Y3i---x*DW08MMFMWyi)-),0FY8xiG*:WG.)--xM)WW8:M-,xJFF8-,0)WGxQGY:,i))8*:0*W)FsM0MM!)QG-Q*YWxxFY8:iQ-)WMa000Mx)MWG:aY),-F-8WiW*M8:Qx0)M-)0WW:x-Fx:yd0ii-*0GWQWYM,iFw0/xF-0xWkxY0M:)9G)Q--G,WFG8Mi:*kGie-00,G)xWx::-,,)F-80MWF2GMQiYj,,)-W-:WFxG0L:0Qi)FxG0iQYxxxF,8Xic--G*tW0xMMv:WYQ)Y),0F08xMM*:89,,0-M-)WWW:M--xwc)F0iY*8Gx:TY:,:))Y-G--8xGtM0xMl)YG-Q0M),xFx8:ic-)xFS00WQ:)MW,:s-Q,-F08Wix*8G:QM0),a)0WW:x-MxM.j0Qi-**GWQ0YMG:6*W):F-0xY^xYxM:S4WMQ-Y*,WF88MM8*=W)QF00MY)xWG::-Q,)Q-YGiW*8GMQ,Y7xY)-80Wx-Gxx}:0ii)*FG0:0:0,,F,8}M0--x0!W-x,0):WiQ)YF,0g-8xMx*,G2Q:0-M-)WWx:M*MGWF)0Qi0)xGxQMY:,&)FW-:*-WxYsM0MMh))8GQ0Y0,xF-8:ii-)G)Q*0WM8)MWW:RY),-Q0F0ix*GG:Qi0)xH)080i=-MxxbS0Ai-*0GW:W-0,:F,W):)-0xWmxYx,^)(WMQ--W,WFx8MMM*)x)Qi00M0)xWM::-EGQF-8*iW**GMQMY.,)F:W0:0-xx8j:0ii))-*WQ8YG,Mt08qi+--x0:F0xMM):W:Q)Y),0QW)0iM*:GV+)0-,,)WWx:M-ixEF)8)i0*8GxQMg,,Q))W-:Y-Wxx/M0:Mt*)G-Q0:8,xFM8:ia-)x-z00WMx)M8:xpY),-F08Wix*MG:MM))MFFWWW:x-MxBiW)GWW:x-8x-KiG-MG)0WW:QY*T8-QM:)hG)Q0)WY,M-*FW):Q-,x:-AWii0*,x)+*YWQ:-,W8i9YFxxF*,x:0*iG-:iYQK,0xi)*-G0QxFiWwMi),MW-FGG}W0xMM)!0YG,QxY+M,F!x)QYY-,F>80,)Y80:M-:x_F---8Qi:-GGxg80xM0*,G)FQY0,,FQ8xii-8G/QM,xFM8:ig-)x->00WWx)G0i:tY),-FW-x8i:0Y*x-FF0iM68)xQQWYiM-)Y8xFKYix0#,8)i*)WiMFMYQx^0-W9:8*:G86G,YF*8Mi:*Ix-i,F,0MiG):xF-ixYF-80iW*MYQMi)M8FMG)x,-PF-,,8F*80*-G0QWYx,MF:8UW-I-x*QQ0xMM):G),898YxiM)G89:xY*QQYGM0)WWx::F*0*,0*0WYii-G,)ox8*FQ8,:0-WxxS:*i8xi8*WxiB)0QMQ8,i8-)x-500xW:iQ):G-F80*,-),ix*MG:Qe0)M-)0-8xx-GxWew8)i-*W-ix04,8*Mi8Qi)-0xWsx0:Wc:**WGWeY0iiF)W,Y:MYF,Yhs8*ii*0G)-ix)F-80iW*M8*x0 W0:M*-,WM:#YY,,)*Giii-xx,Y8,-F:8(:)-00,,,_:G :F*Yx8YFxQFW8xiM* 0Y,Y_WGFiQ)x:G-GxnF)8-iWQi-GGxFF,y))W-:0-Wxx)MQQWr)QW,Q0YW,xF:Y*G8::-q,MFQ8QiGW,:8Y),-F08xGiA,0*x-NW0ii**,:x-Mx:yL8)i-*0GWQxYG,-FjW):--W0,iG*-WY:--0x*QP0GFx8Mi:*5x)D-00iW:,W,:i-ix,F-80iW*M8)x8^080i8)M:Y*ixMA:0Li-wx*QG:o:0QM-YYW,:Z-Qx:-QMG)YWeQ)Y-,Wi,-G,F:8-0xMF80M)YW0:M-:xXF-*QWiiWG8Q-Y:,r))W0xWQ,YQx}F880FWGFiQYW,xFM8/,0QGYG,*FG0ViY*FGxn08W,M)QW-:F-0,8DW88Mb*iWG-GxG9e8)i-*W0),FZ88FF&W):--0xWUx)M0W:IG)Q-Y0,WFx8Mi:FM0)pFYGMW)xWM:XF-YWM,F28i:)Y*x-F*0MiG)Y:Y-*xMR:0Ji-QM-iG:vi00M)8n:)--x0.W0xLMiW-^Q)Y-,0FW8xiM*:,+M*0-YfM))-W0:W-x)-*Yi**-GxQMY:M)MM*8W8-YxYIM0:MI*-08GVQ,0YFG8Gib-)x-^W*x8*i0*):i-8,-F08WiMQ*Y),-)00i:x*WGiQ80FSi0xi-*0GWQM)-8Yi-*0G*:6YG(80FM:)fG)Q0)Y0)M)FQW)F0YY,YFi8))8W*::-N,)F0FxWF:-*QxGF08YMxW*i8-xxMO:8)xW:,-,xYa,0)M8)*WMQW8,,FF08Yi-8Y:Q-i,0FW8xi:E*-M,FFW8GM:Wx:M-:xXF)8-F0iQYxQGYG,3))W-:WFMYi,F)*Mh*)G-Q0YW,xQMF-G6*Qx)v00WMx):YH:i-8,-F08WiM_,-WxWLY0WQG*)G:QQ0)7i0ii-*0GWQMO00FMM)::F*MxW;x0MMPQ--)x*Z,0YM-)QW*:YGQQG00MW)xW:,0D800MW)YW):,Ylx8BW,QFMW0:W-xx::*FG8Mi:-GxiQ:,MF:8B:)--x0HWqFWM),W8Q)Y-,0Fx*QWQ:)0Y,F3)8G:MW8:F-:xaF)80x0:F*{x,QM0GMM)WGiQ-x87M0:M_*)G-Q0YW,xFM8:iXQM0-z*0)Mx)MW:Q))8YiM))F83*GGWQ?0)M-)W-:GGQiY:,-0QM:*0GWQxY:W)MQ)0WZQGxYQ:0MM:)uG-,MUi0MM:),WWQF0:,8FW0M)8W0::-w,)F0-YW*QF-i,FYixZ)-W0:W-M8-,x)8W8:8-0xF100#iF)0,8:iY),Fze,F),0QQ)Y-,0Fx-M8Q:WYYx0F*0Qi)8-,FQxYQM0)88M))YM,*}x0*iY8M,MQQYQ,GFQ80i,*8GerM,xFM8:i5-)x-!0-WWx)G8::bY),-FW*;W0Q*Y*,*F)0ii)*MGiQ)8)M*F)8W**WMQxYM,:))-0G8:0-MN)Y:M0QQ-8GiQ_,WFx8Mi:*9x)1-):WW)8WF::-&,)F0)MWQ:Q-GxQw00,M8)HGM-8x8q:0bi)*0YGMMdG08F,08:)--x07x)Q8Qi)Y-xYQ-YxiMF!G*:W-YxxF,0Mi,*-xF:i8-MFFWW):,G8Q)Y:,>))W0x,QF-Pxv*880:0-8GMYYxxFM8:i3--8xxQL:8:iQ*-,Y FY)MG*}WGiMYFxMYQ,i)0WW:x-:W*M*FM8W:G*:QxYM,:F}W):--0-QMx0GM-)3G)Q-YWWxM**FWF:Y0:xi/,0M)8W-::-},)F0)W8::*-8M-*FGW)F8::W-xxMZB-YWGix*xxF_*00F,8,:)--x0Lx):8QM:*-Q)Y-,0FW8xiM*:80M)0-M0)WWx:M-:-&xx*-i*),GxQMY:M):x*,GxQMYG,0FQG0:F-Yx0QM,8m:8:i<-)x0iWF880iW0)GQQW08M,FMWG:Y-WQiYMM-)0WW:MF:Y-M8FiW8**G)QxYM,:))--G,Q)-,,i0GM8);G)Q-YWWiM*)WW8:0W8H-MM)QGFQ*YY,8MGiY8*M,*xGMQ:0)GFM:):W,::WF,:)88M:Y-GxMY8GQF:8R:)-08Wx,F-WFi)*QG,Q:Gqii)0W,Q)Y*xW-:WWiQ*0WQ1FxWi8FW8M:F-8xQY:,+))W-:0-WxxM*):Mi)xG-Q0YW,Mik*F83:08xxQ#WM8)WW::IY),0:F)8W-*GG*QH0)M-)W-MGi:MY):YF,8ciQ*:iQYG,YFBW):--W0f,*FF8ii--FGiQ{,YF*8Mi:*ex-MGFG0MQY*,GW-ixGF-80iW*M0)x8n*0MiW*YG)Q,xGJ)0Ri)*-GWM-FFY,M8)*W09i-M,MFi8)):WJQ)Y-,0FW8x,-Q:G5=)0-M0)WWx:MOQ0<F)8-i0*WGxQMY:0Q:)WFix-Wxx_M0 x8iM-Gx0mFYh:-)8WQ:M-W>*YQMx)MW:Q)F808,x*xGF:W-F,*YQxG)0WW:x-:8K,*FMWGix-8x*^0xW:Y):G*QxY,xZY0G*iM-FxWRGY:F)Y)GY:08Gs)00MWTx-Y::-:,)F*80G)*xG0QiYQ,j)-W):W-GxM&:0PM::)G0QWYx,WF:8Q:)*HY-^W0xMM)GWIQFY-x-5Y8Gix*:0Ya)0-M0hW-*:M-,xSFF8-GQ*WG-Q,Yi,i))8,:0-8xxqM0:MMiLG-Q0YW,FFM8ii?*:Y)L00WMx))W::QY)x)m*88i8*MYMQ.0)M-d0-F:x-Wx:dQ8)WM*0G)QGY,,xFs8-:--YxW{x0MMxi:G)Q-Y0xxFx8,i:*M-_<-00MWF,WM:i-rGq%F8Yi-*xYxQ:Y%M)?-*Q:W-YxM i0<0M*-W&,xYx,8F:0i:)-*x0_80xMWiMWpQ)Y-x*FW8GiM)MWi;FYQM0biWx:M-:W=M,8-MH*WGGQM*M,4FMW*:Y-)xxQY0:MQ*)G-Q0Y-0WFM8:i_),x-dY0WM0ixW::5Y)GMF088ix)xW,QQYMM-iFWW:x-MW:MG8)Mi*0G8QxQi,:Fx--:-*QxW::0MMi) GFQ-Y)00Fx8Mi:)-x)T*00xW)8W,:8-lxiF-YGiWFxYYQ:YWM))*W08:-xx0fi0QMx*-80QWYG,MF:8!i:Q)x0nW0xxM):WQQ)-B0-FW8xiMFiG_RF0-,-FYWG:--:xWF)8-i0FWY*QMYY,H)FW-Mi-Wx-M:0:M8*)0QQ0Y8,xF,8:iM:mx-f00WxY)MWi:q-m*FF00Qix*FG:Q?0),)):WWid-MYQZb8)i-*0,WQxYF,:F%W):--0xWQ-0MM)).W^Q-Y0,WFx8)i:**x)6F00MW)xWMi,-vx-F-8)iW*xGM:MYFM)FYW0,*-xxME:0}MQ*-WMQW-,,MF*8}M)*:x0QM0xMF):*QQ)-)x*F80MiM)*GJf)0-M0F8WxiV-:x)F)8*i0FW-0QMY),(F8W-x0-WGWQG0iM)*)YYQ0YW,xFM0ii{*0x-QW0WMG)M8Mx*Y)xWF00Gix*MG:iEY)M-FxWWi:-MWF1jY{M)*0W,QxQ:,:FpW):-*:xWQ:0MMM)VW(Q---GiFx0Qi:*Fx)a-00xW)FWM:F-axYF--GiW)WGGQ:Y)M)FGW0:W-xxM:807MY*-G-QWYW,M1M**:)*0x0QG0xMM):0IiiY-xWFW0MiMFFGs:zYGM0FGWxMv-:xqF)8-Mi*WWMQMYM,IFZW-i-*,xxQi0:MF*)G-Q0*Wx,FM0QiI**x-iG0W,WFMW:i<Y)Y0F08Wix*M88QSY*M-)-WW:W-MGMM*8)M-*0WGQxYM,:Q588:-*0xWQx0MxF)a8hixY0x8FxF8i:*#x)6-0)MWFxWM:M-^xbF-0-M8*xW,Q:YFM))-W0MW*xxMQi0_MF*-0GQW-W,WF:0::))*x0(W0xMMz8W3:FY-,-FW8WiM)MY*D)Y)M0FGWx:M-:WV;i8-M-*WWWQM*F,f/O8,:0*YxxQ)0:MU*)G-i,YWxWFM8MiA*&x-Q--iMxFGW::FY),-F0YWM**MW,Q5-QM-QGWWiW*,x:QM8)80*0GWQxYMG8Fn0Q:---xW_W0M,M:*G)i^Y0xGFx8Mi:FPW:5-Y)MWF0WMMF-7GR!i80M**x*:Q:Y5M))-8W:W*0xMZM0rM{*-W-:*Yxx8F:8F:)--x0:WYYMMFGWjiiY-WGFW0WMQ*:Wxc)-*M0)WWx:M)8xSQi8-i-*WGWQM-M8*))0::0*Gxx M0:x;FxG-irYWx-FMYFi{)bWTI0YFMxM:W::BY),-;08WM-*MGMQ}YAM-F-8Y:x*Yx:cF8)i-*08W::YMx8F70,:-FGxWQWYxM:FWG)i*Y0,WFx8M,8*jW, -0-MW)WWMiMe*,)QM80MG*xGMQ:*_MF)-0::W*)xM:F0q,KFiG0iQYxY:F:8D:)--xFTWY)MM)MWI:zY-x-2-8xM**:GFV)0-M0<W8Q:M*Yx9QG8-xG*WWW:FY:x0))0*:0-Wxx^M-8MNFGG-Q-YW,WFM0M:W-)Wx=0YGMx)MW:MNb,,-QM8W,J*M8FQV-/,F)Y0i:x)Px:s_8)i-vQGWiLYM,MF#8r:-F0Y0+GYZM:b,G),,Y0xW,M8,i)*B8Gc-YMMWFWFW:i*Y,)QF80iW*x8M:TY6x8)-0,:WFixMQMYUi)FWG0i,Yx,MF:0:M0--WGhW*QMM):W^Q)--,0Qi8x,Q*:G:B)Y-M*)W8::MiQx!Q88-M-)xGx:FY:Yw))W-:0)WR,HMY*MwF8G-GQYWxWF*8:M--)WMo00WMxFxW-:R*Y,-Q:8Wix*MWM:*0)x0)00c:x-Mx:_;0)i-F,GWiMYM,MF98)iY-0GMrx*WM:FYG)M-Y-,Wp:8M,x*+WYc-Y-ix)x8F:::n,)F-80,W*YGM:*Ynx8)-)Q:W*WG*+:Y-i)FGG0QWYxxxwG8NMY--W,1W0xMMFM8WQ)*0,0Qi8xiM*:GBQ:0-x,)W0M:M-MxdN)0Fi0)MGxiMY:xY))Y-QY-WG:BMF,MHF8G-:-Y),x;F8:i,-)x-P0-W,G)M8*:D*8,-:G8WMWFBG::-0)x8)0WW:x*xxxoKYYi-F,GWQxYMxMFFW)M0-08i>x0MM:F:88Q-*8,WQQ8Mi:*Bx)-G00xi)x0i::-:,)&-00iW):GMG0YLx8)-8-iF-xGFa:0,i)*-G0iWY),M<*8uM8--8GIWYW,#):8-Q)*G,0FW8xMx)xGt:Y0-0,)WWx:M*Mx0F)Y0i0i8GxQMY:x:y0W-M8-WWQtM0:MV*)8QQ0*i,xQi8:i:-)G-Q00W,:)M88:T*8,-t08*ix)QG:i80),W)080i8-MG*{ ))i-*0GWix*Q,:4YW)MG-08,SxYxMx)B80Q-*,,WFx8MMM)ixF:8008i)xWM::-e-0F-Y,iWFiGMQMY4,))YW0i,-x8,B:YYi)))WMQW*Q,M:58+:)--W0Q80x,F):8YQ)Q8,0QW88iM)*G!:80-WY)W8xiF-:x*F)F8i0FiGx:x-i,}O8W-,W-WxxpM-:Mi*)8GQ0*i,xFY8:,#Q,x-:,0WxQ)M-G:!-),YF00,ix*YG::Y0),)2,WWMQ-M8!Ip8)i-F0W,Qx-F,:IYW)G)-0WWQF0M,*);88Q-:,,W/x8-i:**x),)00xi)x8x:Y-6G8F--WiW*xGMi:-WM)TGW0Mi-xGGJ:-HQG*-8,QW*Q,MMx8+i)),x0Q,0x,G):8YQ)--x,FW0MiMFYG&Q00-,-)FWxiF-:YUF)8-i0FWW)QM-*,e28W-,G-WGWoG0:,-*)8GQ0YW,xbx0,iQ)Yx-xM0WMx)MW:W-Y)GGF0Y,ix*xG::5L-M*FWWWW:-MG*L50)YM*YWGQx**,:F-W),-)xxWQ,0MM-)U8-Q---,8Fx0Fi:ibx)_-00xWFiWMi*-1G8F-FQiW)WW,Q:--M)i0W0:W-xGxQ:0?,Y*--WQWYx,M!M8G:))0x0G,0xMM):WH*8Y-G,FWYMiM*MG4Q)Y*M0FGWx,W-:GYF)0),X*W8QQMQ:,h))W-M0-*xxQF0:,Y*)*iQ0-0xFFM0)i1)8x-v00W,WF8W:i*Y)GGF08Wix)xWYQr--M-b,WW:x-Mx:rM8F,G*08xQxYx,:kA8G:-*8xW:x0M,*)>0):-Y0xGFx)Gi:)Yx)Q)YeMW.QWM:G-e,)F-Y0i-*xWFQ:-YM)Q8W0i0*xxMQ)0q,8*-G0QW-W,GF:0*:)iPx0kW0x,xF,WQi-Y-G,FW8xiM)MWi_F-YM0)0Wx:M-:xLx08-,,*W8,QMYM,SF)Q*:0*GxxQY0:,Y*)0-:)YWx,FMF*i_)Yx-Q--,MxFFW:,XY),-F000MG*MW)QqFWM-)0WW:x*Qx:Q*8)MY*0GWQxYMx*Fr08:-)GxWsG0M,:)8G):-Y0WQFx0ii:y<-l9*Y0MWFsWMMI-oW)-Q80MW*x8WQ:-*M)F)0G:W)QxMx:06i)*-80iQYxxFF:0Y:):ix0Q00*MMF)WRi8Y-,0FW0W,n*:W*#)-GM0)WWxix*YxfQ-8-,,*WGxQMY:,0))0G:0)xxx+x0:,v,xG*:0YWGxFM0*idF)Gx_0YWMxiGW:iYY)x)(x8W,Q*MGGQ<0)M-!0W-:x*Fx:QY8)x8*0W0:QYMx)Fw0Y:--0xWQWYiM:F*G)iGY0,WFx0xM)*vW-H--GMW)xWMiM*i,FQY80,i*xGMQ:Y{Y0)-0,:W),xMcM0_M)*YG0:WYxxYF:0Y:)*)G8DW-QMMQqWyQ)Y-G0q)8xMF*:WY=)*YM0aWWW:M**xPQ88-8:*WWx:QY:xq))YY:0)ixxQxY-MAF8G-G0YW,xFMY:M,-)WGo0-iMxiYW:i:*M,*Qx8W,-*MG:Qu-rx,)00,:x)0x:5#8)M)FxGWiMYMGWFqW):--0xYBxYFM:F)G)Q)Y0xWQ58MM:*TYGN--,MWQxWY::*u,)MW80G0*xWxQ*Yox8)-Y*:W-xxMR:F)i)FWG0QFYx,MF:8R,,--W,oW0WMM)MW{:)xx,0_W8xW**:WYN)Y)xM)W0Q:M::xsF)8-,0)-Gx:FY:xY)))i:0*0xY3MY)M<FxG-Q0YWxWJY8:M*-)WM300WMxFx8W:(*-,-Q:8Wix*MG:Q-0)xG)00x:x-xx:Qp:Fi-)0GWG*YMx*FNY)iY-0GWvxYMM:M-G):)*,,WQQ8Mx:*3x).-Y-M-)x0H::5*,)F-80iWFQGM:FYa,))-W0:W-xx-y:YYi)F8G0Q8YxxMF*8wiF--8iyWY,MMFMGWQ)*G,0MW8xiM*:8q,,0-x,)W0Q:M)FxKQ+0FiYFMGx:FY:,3))8)i*-8WiSM0iMb*)G-Q0:M,xdF8:M*-)x)90YW0M),8i:y-M,-Q,8WMx*iG:::0)G,)08G:x*xxWyAY8i-eWGWQxYMG:FxW)MG-0WiAxYWM:;o8QQ-*,,WQQ8M,Q*;G):Q00,0)x8W::*Y,)A)Y,iWFQGMG:YyM))-00:)-xGF7:YYi)iiG0:0-8,,B)8DMx--x0tWYW,g)i8*Q)*M,0FW8xMx*-G&:-0-x:)WWx:M-:x:F)YGi0FxGxQxY:xyF-W-i--W00NMY*MX9)W:Q0-0,xi_8:M*-)8-:,0W,W)M00:A)0,-/-0)ix)FG:M20)M-)080i8-,G)dj7Qi-*0GWQxQ:,:f*W)i)-0xW6x0M,i)V88Q-*G,WFG8MM:G0x)QF00GQ)x8N::*:GxF-Y,iWixGMQ:YHx)FHW0Mi-xGFT:FGi)))W)QW*:,M(08Z:)--G-QY0xxQ):8WQ)Y-,0K00QiMFKG!:x0-M0)WWx:W-:GYF)Y0i0*0Gx:M:0,Q5QW-,)-WWQ?M*:,Y*)WFQ0*-,xQQ8:M:*:x-:,0W0x)MW::S*),)F0Yiix)FG:xG0),)F*WWM:-MG*br8)i-)-8MQx*Q,:9YW):--0G0:i0Mxb)K88Q-Y0,WFx8Wii)Yx):000M0)x8MiW-<GQF-Y0iWFQGMM:-*M)FFW0GY-xGFk:Y:MF*-8,QWYY,MF:8.M))ix0:i0x,F):0*Q)-)x0FWY:iM)*G/#)0-,-FFWxMQ-:x-F)8-i0)0W8Q,*_,po8W-:0-WGW:P0:,F*)G)Q0YW,xFM0:is)8x-:80WMW)M8::*Y)xFF00Fix)FG::D-MM-F)WWMF-MG,%aY_,8*08iQx*G,:F}W)M-*8xW:Q0M,*)}0YQ---xWFxY<i:FYx)R-00,0x,WMiF-RW8F-80iW*xW)Q:-YM)98W0:0-xGMQM0q,:*-)8QW*Q,MfM0,:))Gx0xW0xMM):0S:GY-G,FWYQiM:8Gl:DYFM0<MWxxG-:xDF)0),:*W8iQM-i,a))W-i-MGxx::0:Gx*)G-Q0YWxxFM0*il)-x-o-0W,xF:W:iMY)8ZF0Yiix)xGGQ#-8M-M0WW:x-MW:#Y8),G*08iQxBY,:w:8G:-)xxW:Q0MM:)48qiMY0G,Fx0Fi:*(x)Q)Y*M8+MWMi*-_,)F-80i-*GWFQ:-)M)))W0iW-8xMQx0a,)*-8,QW)xx,F:0M:)QFx0:i0x,x),Wji8Y-,FFW8xiMF:W-h)-GM0fiWx,Q-:G:.,8-,x*W0QQMY:,!ct0M:0),xxQF0:M(*)W)*iYWGMFMY*i_-)x-Q-0YMxEiW:iYY),-F08W,Q*MW*QV-*M-)-WWix*Sx:QM8)0M*08iQx-x,)Ff08:--FxWmx0Mx:F*G)iGY0GiFx-Qi:):G-D--xMWDiWM::-NGu;F8Y,,*xWFQ:YqM)F)8*:8)MxMQ*0_i)*-W-0*YxGiF:YG:)--x0.WYYMMF*Wfi*Y-,-FW0xMF*:WMX)-iM0BiWxix*,x}Q88-x0*WGxQM-Mx0))0W:0i8xxZM0:M_F/G-iGYWx0FM8:i^-)GF90-iMxXQW::QY)x-,W88MY*M8YQH-:M-F-W_:x*Fx:,(8)i-*08W,*YMx*F208:-FGxWQWYGMiF-G)i8Y0,WFx0xM)*fWYh--,MW)xWM::-F,)QG80,,*xGxQ:-=,W)-8F:W--xMQ*0PM))xG0:)YxG*F:0M:)*)GMmW-QMMU,WIQ)Y-G0F*8xMF*:WY!)*8M0F08Q:M*)x;Q88-i0*WWW8iY:x*))YG:0-WxxjMYQMJF8G-iGYW,WFM0:i*-)W:k0QGMxFFW:i:-0,-Q,8W8x*MG:QU-),M)00i:x*Fx:,G8)M)FxGWi:YMG-FbW):-*-xYcx-QM:M)G)Q-Y0x0G,8M,A*&0x?-00MW)x8*::*Y,)Q080i0*xWM:xYTxM)-Y):W)QxMQM0Qi)FGG0GWYx,MF:Ygix--W,;W-QMMi8WSil*Q,0QM8xMF*:G=_)Y)x,)W0i:M**xnF)8-M-)YGGi:Y:xY))W-:0-Wx01,Y*M<F-G-Q-YWxxa88:Mx-)W-10-iMxQMWY:3*M,-M*8W,Q*MWM:Y0)xG)0W*:x-Mx::KYQi-F,GWiQYMGFFJ0Hix-0WMhxYFM:)nG):)*i,WQi8MM**sx)b-Y-XQ)x0:::)Y,)F-80M0)xGMiQYax8)-W0:W-xGim:YYi)FYG0Q0YxxMLQ8VMM--*:bW-QMMFM8,Q)*G,0F*8xiM*:8gQi0-x,)W0Q:M)FxvQo0ii0FMGx:FY:,b))8)i*-8WicMY*Mm*)G-:--Y,GQ:8:M*-)x-=0Y0*Y)M0Q:(*8,-F08Wix*-G::Y0)xY)0W0:x*MGWpPYMi-FQGWiQYMxM4iW)MG-08WVx0MM:F:WQQ-*x,WFF8Mi:*3x)Q800x,)x80::- ,)F-0,iWFQGM:FY%MF)-80Wx-GGY1:-8i)F:G0:00),MU*8LG)--x0cW-xWY):8YQ)*G,0:,8xMx),GQ:00-xG)WWx:M*MG-F)Y8i0FiGxQMY:,;F-W-M,-WWilM0MM1))G*Q0-F,xF08:MY-)G-Z)0W,))M0Y:{*M,-q-88ix)FG:ii0)M-)00Wi:-MG*<hY8i-cGGW:W--,:6-W)M8-0xWwxYx-Q)(8YQ-),,WFx8Mi:*Wx):G00x,)xWx::*bGQF-Y:iWM,GM:*Y>x/FFW0Mi-x-ML:0di)F-8MQW*Q,Mu*8JW,--G-Q*0xxL):8WQ)Y-,0{08-iM)FGw:x0-M0)W8W0i-:G)F)YMi0*WGxQMYi,ys8W-MW-WxW4MY:M**)8MQ0)-,xPF8:M:):x-:,0W0x)MW::H*)GMF0Yiix)FG:xG0),)F0WWM:-MG*va8)i-)-WiQx*Q,:HYW):--0G0Q80,xZ)=88Q-Y0,WFx8Wii)Yx):000M0)x8Mi*-}GxF-Y0iWFQGMM:-YM)rMW0GY-xGFN:Y:MF*-8,QWYY,MF:8tM))Mx0:i0x,F):0*Q)-)GiFWY:iM)FGh_)0-,-f:WxMQ-:GYF)8-i0)0:FQM*h,nQ8W-:0-WGWQF0:,F*)8GQ0YW,xFM8)ir)8x-:80WMW)M8::xY)GMF0E!ix)FG:::YGM-9,WW:Y-Mx:VSY)M-*08iQx-F,:Q*W)i)*QxW::0M,*)?G)Q---xYFGYQi::0x)u-00,0F8W,Mb-RG8F-80iW)W+8Q:-FM)MxW0:W-xxM{Y0 ,8*-88QWYW,MR:0G:))Mx0QF0x,F):8:iQY-G,FW-xiM*:G/:5-WM0ZMWx:W-:xDF)8-i-*W8iQM-0,a))W-:0-8xxQF0:,**)G*Q0-WYMF,0YiIFGx-::0W,W*-W:iYY)0-F08WixFMY8QP-8M->,WW,i-MGMQi8F,W*08,QxYM,:^:00:-)GxW:Q0MM:)vG)ixY0GiFxYQi:*:x)Q--MMWFFWM:W-kG8F-00,.*xW)Q:*8M)loW0i0*ixMQ*0AW)*-G0QW*x,xF:0Y:))Gx0i,0x,xF8Wji0Y-G,FW8xiM)M)FH)-8M0F}Wx:M-:xgqW8-,,*W8iQMYM,?F)08:0):xxZG0:,Y*)W):iYWGQFM):in-)x-:0-iMxFFW:iYY)W8F000iG*MW)Qp-8M-)0WWiW*Gx:Q*8)MM*0GWQxYM8iFs08:-)GxW#W0M,:)MG)ixY08FFx0Fi:):GF=--,MWixWM::-yG)>i80,i*xWFQ:**M)F)8Y:W):xMQ*0wi)*-W-iiYxGQF:8W:)--x0_W0*MMF*W<iYY-,-FW0x8:*iW0{)XWM0}iWxixixxQQ88-W0*WGxQM*:,W))0G:0)ixxiQ0:,:)-G-ixYWGQFM8:iq)SG*90-,Mx)-W::<Y),-^}8W,Q*MWFQpYVM-F00M:x*)x:i*8),G*0W0:GYMx*Fs0(:--0xW_xz:M:F-G):FY0,WFx8M,8*OW8P-0-MW)WWM:MMi,)QW80Me*xGMQ:YxFi)-0G:W-0xM=i0}Mx*-G0,xYG,MF:8,:)--x0HW)MM,):W=:MY-,0FW8xG:*iG_r)-WM0)WWx:MDnxQF)8-M:*WGxQMY:W))FW-:0-FxxjM0:MnQ-G*Q0YWx-FM8:iA-)00sY0WMxFMW:: Y),-iW88ix*MGYQS0)M-)0)x:x):x:Q*8)i-*0G)G0YMGQFOG):*-YxWg*0MMxi:G)Q-Y0MWFG8,i:):WQ4*-8MWLQWM::-d,)F-8Y,x*xGxQ:YQM)O-*Q:W)MxMQ:0A8M*-80x-YxG:F:0):)T0x0<)MYMMO:WpQ)Y-,YFW88iM*:0)IF0-M0FWWx:M-:x;i-8*i0*WGYQMY:,6))-0:Y-Wxx:Q0:Mz*)G-:YYWGMFMY:iH-Fx-QOM*Mxf:W::,Y),*F08-ix*MYAQQ0)M-F)WW:x-Mx:i)8Fi-*0G)QxYM,:F+--:*-0xWjY0MM:) G),0YY,WFxYQi:*sx)3-Y:MW<,WM::-N,)F-Y0GF*x8MQ:-YM)Q)W0MWQ0xM::0T,)*-YWQWY-F8F:Y::)*,x0y80xMx):W/,-Y*,0FWY,iM*:GUq))0MY)WWxM:-:xPF)8-MY*W8xQM*M,p)FW-M04Fxx:M0:,Y*)YxQ0*W00FMY:i&))x-MW0WM-W8W:M:Y),FF088ix*,G:QO)-M*)0WWM,-Mx:X&8)M**08WQx*x,:FQW):-:uxW:x0MMi)1G)Q-*08FFxYMi:FUx)x)00xWi0WMM:-zG)F-*WiW*-Q8Q:*:M)))W0:8-xxx<:06G-**G0QW*,,MF:8S:)o0xYtW0xx:):WPQ)Y-xYFWYxiMFMG4ZF0-M0G)WxMM-:x{F)8-i0*)QYQM*i,fF,W-:Y-WxGVM0:G)*FG-Q0-i,xFM8:My:-x*:00W,i)M0i:a-MPQF0Y8ix*,G:QQ0)M*)0WWxM-,x:.208i-*0GW:xQ:,iQDW)MQ-0W8Hx00)G)48FQ--G,WFG8Mii*mx)M00YMW)xW)::-Z,)n-FWi8FxGM:bYXxF)-8j-*-xW,>:0xi)**G0Q8Yx,Mik8Q:)--WG(W0xMMF:*)QF*-,0xW8x,,*:GxYi0-xY)W8#:M-ixBqQ8-i0QxGGQMY:,,))W-:0-W0MS,0:Mh),G-Q0YW,xi:8ii{-)W8300WMxFM)j:Q*),-xi8W,G*MGWY,0)x*)08M:x-,x:ci8)i-QWG8QxYM,WFNW):--00xOG0MM:)GG)Q-Y0,WiM8,i:*>WYe-00MWFx)::i)r,)Q:80,8*xGMWFYHx))-W-:W-xxM+:FiiF*-G0Q8Yx,MF:8:i---x0(W0WMM):W3:Q-Q,0FW8xi:X)Y*x)kWM*FQWx:M-:,),0Fi8Ki,-Y,)FF00F0W-:0-WGWF-0:MZ*)G)Q0YW,xFM)Wiu-Fx-J00WMx)M0:xGY),*F088ix*,G:Q.*,M-)0WW:W-MxM4N0Mi**YGWQxYY,:FQW):--0x-,W0MM:)IW,Q-YY,WF0)xi:*Ax)QM00M8)xWMGW-<,)F-8YiW*xGMQ:>xM))*W0:0-xxMl:0j8-*-G-QWYx,MF:8u:)--xY?80xMx):WQQ)Y-0*F88xiM*iGyu)0-M0)WWx:M-:xQF)8-i0*YG)QMY:,5)--GGG:M8:,QF*WY)iG-Q0YW,x008:i:-)x-{00WMxEMW):U-X,-F-8WiG*MG:Q*0),D)0W8:x-Mx:}5YQi-*-GWQ0YM,iF9W)M8-0xWgx0,M:)TG)Q)Y0,WFx8Mix*/x)D-0*M))xWM::Y)80,iFGWi:xGGQGY/M))-WW,,Q--Q,G0iM-*-G0QWYM8QM***WWF*-pxk i0jQ))QGxk8,*Ux8xiM*:x)MiOi0GMi*i,8Q8Y)MYFQWG:)*::0Y:,X))W-Wl-WxGyM0:MI*)G-:DFx,xF,8:iM-)x*n008Mx)W*M:^Y),-F)8WiG*MGxx:0)M-)08*:x-,x::h),i-*YGWQxYM,,FZ0>:M-0x0bx0xM:)vG)i-JQ,WFW8MiM*^GQw--0WF)xWx::-:,)u?80i)Q0G,QiY},8)-WY:W-WxM3xF:i)*-G0:iYx,,F:8MWg--x0IWYWMM)iW(i)?i,0F88xiM*:Gio)Y)M:)WWW:M-MxVF)8-,0QFGxQxY:,:))WF:0)W0*3M0MMq)BG-QYYW,-QG8:iQ-)G);008Mx)xW::MQj,-F08WMW*MGiQ#Y:8))0WW:x*8x:RQ8)i-iVGWQGYM,iFXW):--0-xcx0xM:)AG)Q-Y0,WFx8,ii*jG 5-0YMW)x*G:i-t,)F*80iW*xG,Q:Y9M))-W):W-xxM^,0*i)*-G0Qx)Y0YMF)YGYFx-GxMm:8YiW88:Q-:,0FW8xi:a)-GxYFG80)Y8M:M-:x5F-*88,:,*bM,3W0WMY)Wxx:8Y),Q0,M,*)G-Q0YxWiM0)FW,*Fx-400Wxx87W::QY),-F08Yix)xW*Q4YpM-))WW:x-MW:Qi8)i)*0G0QxYG,:Qc8Y:---xWpW0MMi)yWM:MY0,8Fx8Yi:*Qx)1)00M-iWWM::-&x,F-8YiW*0-xQ:YTM)F0W0:8-xWMM80.iF*-G0QWY8,M/MWW:)-)x0J-0xMM):0fx,Y-,-FW8WiM*,G6:)FiM0)0Wx:x-:x:F)0:,**WGGQM-g,z)FW-:--Wx0,x0:M1*)W0Q0Y8,xFW)Mi<-)x-Q00WMG)MW::WY),*F08Wix*MG:QBGMM-)YWW:x-Mx:{c8)WF*YGWQxY,,:FRW):*-0xW#x0M,8)!G)Q-Y0,WFx8Mi:*&x)(-00MY)-WM::-u,-i8-xW8:YW)Q,Y:M))-W0:x:QxG?G0vi)*-GW,ze08*,i8iiM--x0kW0MWFix-8GiQM,*F08xiM*:x)x-0FM-)WWx:M- 0-5Q0Hi0*WGxQ:)80*M0W-):)x)Y)FFiFW8-YYQ0)YW8:G-,xi>Q:FM80YMY)MW::3Y-8GMYF0Wi*GG)QO0)M-)WY,WxQ-Y8,x)Y8:ix-8,FlW,,F,W):--0xxiiF08Fi,WQQ)Y0,WFx8:W)*iG:T-00MW)M*0xFQFxQZW80iW*xG:iFF808i*)LGGrQ-fxiFMWY*FWiQWYx,MFr)-W,:G-xx:FG80iQWEQ)Y-,0FW8xiM-:0FQQY:M0)WWx::Q00YMGF=W)*YGYQMY:,3)--WGG:W-:EG0,M6*)G-QWQMY,FG8Gis-)x-qWF*WFMB*::i-q,-F08WiM:i0)QZ0)M-F-FF:G-,x:Qx8)i-*08WQYYM,iFDWF:--FxWqx0WM:):G)Q-Y0,WFx8Mi8*RGQL-00MW)xWM::-:,)z 80i8*xGMQ:Yk,-)-WY:W-0xMbM0qi))QG0QWYx,,F:8%:)--x)LW0GMM)MWHQ)Y-,0kF8xix*:GRz)0-M0)W8::M-,xdRQ8-i0*WGxWVY:,Q))WF:0-0xxoMl/Mf*)G-QYYW,xFM8:Fx-)x-H00-Mx)MW::HQM,-FY8Wix*MG:Qs0):Q)0W8:x-Mx: Q8)i-itGWQWYM,iFjW):--0GFdG0GM:)2G)Q-Y0,W208MiM*PG=v-0*MW)xW,::-Q,)F*80i0*xWx:-Y ,%)-8F:W-xxML:0)i)*FG0QWYx,8F:8;i8--x)=W0YMM):WT:)*v,0FY8xi0*:GMw)*-8-)8W8:M*3xUJW8-M-0:GxQWY:,*))W-:0)WxW=M0xMJ):G-:0YWGxP08:iM-)G7_0YMMxFMW*:_-Q,-F*8Wi0*M0::W0)MF)0WF:x--x:nT0Qi-*)GWQxYM,iF_0&iG-0x*hx0xM:)IG)i-=Q,WFY8MiG*uG*c-Y-M&)xW0::*x,)F-80,WQ*GMQWY ,M)-WF:W-x-:7:0Gi)**G0QWYxxx7,8Qix--Gi+W0xMMFM8iQF-,,0208xiM*:G_G00-,=)WWF:M-MxRQK0FiY*FGxQ,Y:,^))8)i*-8x)UMYMM/*)G-:-:),xF*8:iQ-)x-N00W,*)MWG:/-G,-F-8WMx)QG:QM0),G)0W*:x*MGFVh0Qi-FQGWQ0YM,:F-W):)-0x09x0xM:2T8iQ-Y-,WFW8Mix*cx)QY00M0)xWx::-Q,)F-FDiW*WGMQWYtM))-8-:J-xxGe:YQi)*-G0QWJ-,MFx84i;--x0KW0x0:):W,Q)Y-,0FW8xiM:WGVQM0-M*)WWx:M-:0,F)0hi0*)GxQMY:,VGiW-:*-Wxx!M0MME))*0QYY0,xXW8:ii-)G)b:0WMW)M8,:4Y),-F0))ix*GG:QG0)M-)0WWWM-Mxx<N8)i-*0GWQx-,,:F:W)iL-0x8wx0M8,)QG)Q-YY,WFx8Mii*Nx)5-00,U)xWM::-<,)F-80iW*xGMQ:Yz,QFQW0:W-xx:,G)880:-G*:8Yx,MF:W),GQx-,,FF00Qi)-*,xQiY,M8F:W,:8-xQQY,M0)WWx::F0YG,8)*8x:8-*x0Y,,x))W-:0-xYQ,W)Y8,ixGFQ-YW,xFM8JG^*QG8400WMx):0Yx0Q8YiM)F,8::Q0*xQQw88)0WW:x-Mx:1v8):-Q88(QxYM,:FNYW:--YxW x0MM:)u8%iiY0,0Fx8xi:*Tx):-0FMW)WWM:M-<xiF-Y0Mi*xGGQ:YyM)F.W0MW--xM?,0hMQ*-W^QW*x,FF:8M:)-*x0hY0xxMF6W_::Y-,)FW8-iM*:W-a)0FM0)YWx:W-:W30:8-i)*WGGQMY8,vA)8W:0--xxdW0:Mx*)G-iMYW,8FM8,ic*:x-Q-YiMx)WW::QY),-F000Mx*MGGQEYxM-)0WW:x*xx:a:8)MQ*0G0QxYMxxFZ8Q:--YxWPx0MM:ixG):ZY0,0Fx8Mi:*SMi!-0*MW)8WM:x- ,),G8YiY*xGxQ:YiM))-)j:W-0xM>M0ni)*-G08xYG,GF:8i:)*Vx0_WF-MM)xW(:QY-,0FW8x8:*:G,3)0FM0)WWx:M-:xQE:8-i-*WGGQMY:0i)FW-:0-8xxRM0:MQ*)G-Q0YW,xFM8:iD*:x-P00WMxi0W:::Y),-F08Wix*M* QIYQM-)YWW:x-Mx:Jz8Fi)*0G0QxY,,:Fn)Q:*-0xWjG0MM:)oW=Q-Y0,WFx8,i:*Sx)pFYiMW)xWM:_FY0Y,W*xW8i:-W,FY,M))-W0:WG-xMSM0Ti)*-G0QW*x,GF:8::)-)x0Z80xMM)8W2::Y-,YFW8xiM*:GFc)0)M0)-Wx:,-:xaQ:8-i0*WGGQMY:,dFAW-:0-WxxwW0:M(*)G-Q0YW,xFM8:itF:0-y*0)Mx)MW:Q)V-Y&,Q)F8(*GGGQ70)M-)W**xF:vY:pV8)i-*0GWQxYMi::F8G:--0xWQx},M:):G)Q*Y0,8Fx0x:0*LGQ+-0*MW)xWMM:7G,)FF80iY*xGxQ:Ys08)*W):W-xxM=M0=,)*FGYQ-Yx,WF:8M:)--8Q;W08MM)MWp:kY-,0Y88xiG*:Gim)0)M0)W!i:M-,xq!P8-i0*WGxxGYi,h))W*:0-Wxx<x0:M3*)G-Q)YW,xFM8,i,-)x-=00xGii0*FG,-Qx0F08Wix*:0FxYFY0xQY*)G):QY)i-FF8M:GGY:iYM,:FEW-xQ:Q-,xQFQx-i**0GWQQ0)XF8GiW*wx)&-0WWMi*)Qx*QTGVF-80iWFxQ0Q:YQM))-W0:0-xGx%W0dM{*-GYQWYx,MQ:8*:)-)x0P00xMx):0K:8Y-,-FW8WiM*,GyQMY&M0)8WxiS-:xQF)8)i0*--WQMY:,<F0W-:Y-WWxMY0:MQ*)G-Q0Y0,xdxW0ir*(x-cY0WMx)M0:xGY),)F080ix*xG:ifF,M-)-WW:W-MxxeI0MWz*YG8Qx-,,:FQW):)-0x-,W0MM:)7WFQ-YY,WFx8-i:*Qx)c*00MW)xWM)W-V,FF-80iW*xGMQ:7xM))*W0:8-xxM4:0b8-*-G-QWYx,MF:8w:)--xYI80xMx):WQQ)Y-0*F88xiM*iG{5)0-MY)WWx:M-:xPF)8-i0)^GxQMY:,2YMW-:Y-Wxx!M0:M_*)*:Q0Y0,xF,8:ig-)G:iY08MW)MW8:vYF,-FY8Wi0:xG:QO0),i)0W8:x-MYWO.0ni-*-GWQxYM,:M)W):F-0x8Ax0MM:)5G)Q*Y-,WFW8Mii*Sx),F0YMW)xW,::-w,)F)80iW*xGMQ:YtM))-WY:W-xxMn:FiiF*-G0Q8Yx,MF:8z:)--x0mW0xMM):WP:xY-,0FW8xF0*:GQN)0-M0)WWx:MQWxB>h8-iY*WGxQMYWWQ)FW*:0-Fxx4,0:M:*)Wnx-YW,xFM88i%-Fx-H0F)Mx)xW:::Y),-F08W8M*MG,Q?0FM-)0WW:x-Mxi{:8)i)*0G8QxYM0,FQW):--YxW!x0MMM)3G)Q-Y0,8Fx8Mi:*iGxX-00MW)M-:GiQY0FMx))W,*8GMQ:YwM)M:W0:0-xxMj:0(i))-*WQ8YW,MFi8#:F--x0,Y0GMM):WQQ)Y-,0F08xiM*:GL:G0-M0)WW8iY-:xnF)80xM:Q-QxGPQ00M,)8W;QM0:,))Y8xi8*MxiQ:0iM0**8Q*QW8+00WMx):*-x0Q)0,,,FiWiiD-i,-*Lxi<Q0QiF**G*Q)YW,8FY8Q:)*Mx)m*0GM,-*x*fx0MM:*)YYMW4Y0*F88*i:*<x)_0):8FMQ*,G)QQY,,:8*i)*xGMQ:0)WYQW*YG*);xM!:05i)*-G08WQ-8MF,8-:)--x0sx-F80:**sG,Qx8:MF)GW0:)GiQ,0-M0)WWM,-/YY0MYF:8x*WGxQMY:,())W-Q0NGx8N-0:Mg*)G0,WT,0Q,%)8W0)WxFQi0WMx)MW^,QQMYG,x)QW-QFYFQiYWM-)0WW:MFF0*M8F:W8Qx*8x)DQ,,FxW):--0xxiGF8WY:F-YQFYF,WFx8MiyvYYFx)FGMYFQWM::-.,-:*)FWQ:,-QMxF88Wi8*):Y*ixM>:0ai-jG*QG:k-0QM--0GGQWYYx,=QMM):W<Q)Y-,0FWGxGi*,G,{)0-M0)xY-x*QG0*KQ0,i0*WGxQ:)FWQQ8)iWMQ)Yi,)0,M,*)G-Q0YxWQM))8WW-)x-#00WMx)MW::7Y),-F08Wix*MG:QaYxW-)*W*:x-Mx:F)-Y8:iG-*Q8YG,:FsW):0FYY*J80WM:)9G)Q0Q?0,,,-ii:*Ax)Q)FGMW)GWM:*-_,)F-Y0M8*xG,Q:YQM)#,W0i0*GxM1M0.M**-G0QWYxxQF:8Q:)-)x0d00x,xFQW+:nY-x,FW8xiMF:W81)0)M0)0Wxi*-:G:FF8-i**WW8QMY:,y))Yi:0-0xx(x0:M:*)0-x-Y8,GFM0Miw)xx-40F)Mx)GW::tY),-F00W8M*,GiQ1YxM-)*WWiWiWxi i8)Mx*0GWQx*MxMFz8Q:--*xWQF0M,MF,G):PY0x8Fx8Mi:):G,R-0FMWFGWM::-c,)V880iY*xG8Q:Y:M)F-80:W-GxMZ80HMQ*-W-:MYx,GF:8,:)--x0:W9WMM),W%:QY-GiFW0WMW*:GMr)Y*M0)WWxix*ix^bi8-MF*WGxQM-M,8))8::0*8xx_M0:,:FYG-:QYWxYFM8:iR-)G,z00YMx)YW:::Y)x-F*8WiG*MGxQqYQM-Q0G8:x-,x:yQ8)M,*0W0QFYM,,F?8i:--0xW:x-QM:)iG)QFY0GQFx0xi)*eG:}-YiMW)xWMiM-F,)BQ80M**xGMQ:-:xt)-8n:W--xMS:0w,#)WG0QFYxx8F:8j:)--0,5808MM)8W2:&Y-x0=G8xi,*:G)c)0FM0QW8*:M-ix#7Y8-i-*WWW:QY:,i))0i:0-Wxx:M0MM )QG-Q*YWx:FMY:i--)xF+00YMxFWW:iq-8,-FY8WM:*MG,QNY)Y))0W0:x--x:4Q8)M)FiGWQ8YM,,F;W):-)0Gxkx0GM:)iG)i,Y0x0FF8Mix*%Wiu-00MWFW0Q::-,,)Q:80iW*xGM:*Y+,Q)-WF:W-WxMQ:YMi)*)G0:WYx,GF:8PiF--x0zW0GMM):WVQFY-,0FW8x0M*:GI%)0F,_)WWx:M->0-MYFhWii8GxQMY:,2))W-:0*W0xqG0GMh*)G-QW)x0*M0))ii*Mx-y00WMMQ,*Gx89*08F*Y/ix*MG:l)^W8xM0*QWQQF0F,-)FWWF-WF:*-*x*c80-MM)xW,:PY*xQ)iW0Q-Y0,WFM-QGY:YYFx:F8WiM:),Gx7*xQ G80iW*xG:,YF-80:W)QxMQxYQ,G)*MQ)QG0QWYx,::FY-GF:Qx*g*0xMM):G),0z*0FM,8xiM*:GUA)0-M0QT-x:M-:xKF)8-i0*WG),MY:,1))W-)08Mi:FR)QMi)FG-Q0YW,MQF)xWQ:x-GixF,0Q:F-FGxB00,,tFM8Q*MD-08MG),Wi:Q*F}ix:;A8)i-*0GWQxYM8:Fi8W:--0xW6M)QGiQW-GxW!x08M-)ii:*ox)?-00MWMx)Wx:-iG:F-80iW*M8*,-lY0,Mh)GWMQiWF,8Fx80:8*_GMFQ0,,M**iQ*Wx0LW0xM:aY*xx8+-YQ,:-)WY:i-xx00FM))WWx:M-%YxMYFYi**-GxQMY:M):0)iW:-Wxx+M0:MV*)F-WjFW,xFM8:iR-)x-j00WMx)GWG:KY),-FW*MWiiM-)QiY8M-)0WW:M))0YMYFQWYiM-FGiN08)Fi8i:--0xWNMF08FiM*:QF-Q,WFx8MiuFY-,xTrQ0:_QWG:M-4,)F-8WWG*8G0Q:Y3M))0-G,MQGY8Q-0iMG*-G0QWYM8oiFFNW0EGYYx0FiMM):WJQ)Y-,0iWF0GM*,G)()0-M0)xY)x*T)0-MFF:W8v:-*GoE)0GMiWFi,-Wxx?M0RW)iW*ixF)F0MM:)*G*:0xFQ80WMx)MWP,-AYY-,x*W,F:W-i,FhM0QiG*)W:-GxM%98)i-*W*iQ8Y*,:F_W):02:YFxQF,8)iQ*,G:Y*x:Fx8Mi:-)08xiBM0MQ**)x)/*YWFF8*iW*xGMQV}-0*)F8_:W-xxM nFY8x:,*8x)Y8xQF:8J:)-00Gi8*08,i**-,:{,YYMFFi8t*,Gx!)0-M0)x-QGWQi0YMY8Fi-*WGxQMYe8-FQ8Q:0-Wxx#:**8QM}-8Q*Y0,xFM8::):0x-t00WMx)MW:B2:*8-F08Wix*MG:QL0)xb:0WW:x-Mx:;I8)Y-iGYWQ8-Q,:FhW):0F,YFxvF0WFi0YWx,Kx08,i)Fi,*-x)p-00MxQ:*QG*IYYWM*F:8M:G-YxWYi,G)-W0:W-M8),i)YW)QW-GGWQ:,G Y8N:)--xWiGFi0#Q0*0G,QM0G,:F:8,F*-n,G{:88i,*:,FQi0F,M),W)*YG)QMY:,9)--0GGQi-:,YF-,0)QWQQ0YW,xF:-xG*Q--W?*YWMx)MW:Q))WYi,M)MWi:)0*xQQe88::*8WxQQYxruxYdW0xMM):Wdi):F8QiQ-0xW x0:G0iM-GG*Y*x0Fx8Mi:-)8FxQFi8Gii-EG-r8YM,GF:WQik-QxWFY0F)FWF:W-xxMJo--WYiG-,QY-:,MF:8m:-F*YF,QF,8Qg**GG:QiYMQi88i8*:G/K)00WziQ*YGQ-,x-F)8-i0*x0),*F)8-iF):G8F-Yi,:F)Mi)0G-Q0YW,M:W*Y8Q:,-8xx*F0<ik-FG0Y),-F08Wix*MG::W))MF)0WW:x-Mx,px8)i-*0GxMMV)8YM,*Y:F--xW!x0MMTi)G)MF)*WY:8-Gx,0i0*vFY8MW)xWM:nF-0Y,-FxG8FF-WxiFF0MMQ*GG)::xGqM0Zi)*-GW,8YG,,F,8,:)--x0ux)18Q:**-:Q-i,0FW8xi:B*-Z,GFW0QMGW8:F-:xEF)80xY:*YFxiFFWMiG*xGGQ-xxkM0:MZ*)G-80ci8xFM8:i!-)x-N00Wix:iW::.Y),-F08WixYMYQQiY8M-)0WW:MFiY8,-))W,:F0:x*aW8)FQW):F*MxWVx0MMLQ--YG-QxW-iF*)GF:MGQQ:00MW)xW:,)QQY0,<)GiY)*GMQ:Y%M-Qx*iGiQ8Yi,-FG8Yi:-x,MQk8*MW)YWxQ,-M,,F-WFMiWi:iY-,0FW8MxQ:W-*xi0F,x)WWx:M-B8-MYF-8x)tWMQ-)i8YM,)::*-*xxqM0:i)i0-,G,#Y,x:G-,xiXQ8Fi*xYW,)GW0:vY),-FW*dGF:;Y)xQtM8Y)*WF:x-Mx:F)*:W*iX-,,Fb),, :W):--0xxi,F)88i**x,WQM0QM-)FW0Q8-W,8A!8iMGWGi!-u,)F-8WxQii*Zx8+,8GMW*YGiEQY,xM)*i)*-G0QWYx,MF:YMx)-FG,mW0xMM)JY-xYQ-Yx:i)*WW:8-0:80F,:)WWx:M-w0),WFiWFQ:0,i)Y,,Y))W-:0-x8)M*))W-:F*:x8FM0*M-8,i--)x-.00xGQ:**WG)+GYG:8F:W*iQ-0QiYWM-)0WW:M)FY8,,Fx8{:G*Mxi6=,:FvW):--0xW0xKWW:)iWxQ-Y0,WFM*:Wi:YYF,xF)8,)8W8::-L,)F0*8WQ:G*ZQ,YGM))-W0:xF)0*,-)*8MiWG*Q)Yx,MF:W),F::0Qx,_:MG)YW<Q)Y-,Wi,-G,F:8-0xMF80M)Y8G:M-:xpF--xWi:i-8xiB-0GMY):GxFiY*,WF880F8GF:GYW,xFM8k,0:,-x,xF,01_F*8GMQ,YxQ,8YiF*MG:QI0-G*MJ)iW:a*YWMY)YiF)YGWQxYM,X:-*YW-:x0Mxh)*8WiY*xx,QM0,M-*F8i*iG0J-00MW)MYQW:QWY,,:)GW)i:-,,YpM,QFMW0:W-xx::*FG8Mi:-GxiQ:,GFF8v:)--xWM9)F8.:)*QGMyY8MM8),WM:)GiQG0-M0)WWMWrQ8YY,0FxWY:)-,QGY-,2))W-:W^iYQM*FxW*Q0**G:T,,8aZ8:iK-)x0MxF,0xMo-QG0fGYM,:),W:*GG)Q20)M-)W-iG0Q,0*M*-8W8iH*MxiP),MF:W):-)00F>x0xM:)QG)x-Y0,)iM8MiM*vG:H-0YMW)GWM:xQ:,)F-80i-*xG,Q:-:xQ)*W-:W)1xMV:04,):iG0QYYx,,F:-0:)*:xYv808MM)0W5QFY-,0FW80Wx*:GUu)YMM0)8Wx:WQMx>F)8-Mi*WGGQM-Mxi)FWF:0kWxx=M0:x6:,G-Q)YW,GFM8Yi{*M00/00-MxFQW::QY),*F08-WW*MG:QzYYM-)YWWiW*GxiPM8)x0*0GWQx-xM0FU8i:-i:xW.x0Mx:),G):QY0,*Fx0Wi:):GF}-YuMW:FWM::-b,)PY80i**xGxQ:Y:M)F)W*:W--xMx00_i)*-80:QYx,0F:8x:))px0Q0Y*MM)8WJ:)Y-,0FW8xM**:GxK)0)M0)0WxixwFx4X,8-0:*WGxQM*:,8))8i:0-FxxQW0:,:)QG-::YWYMFM8:iN-)WM#00FMx)xW:::Y)x)QG8Wi)*M*0Q40)M-n0WY:x--x:jW8),X*0W0:KYM,YFPFi:--0xWax-YM:)WG)Q)Y0,0Fx0xGF*BGG{-Q:MW)xWMM:*,,)V,80MQ*xWWQ:-:,M)-8M:W<GxM7:0Ii))YG0:QYx,xF:8::)*)G,SWYjMMM0W?Q)Y-G0_)8xi)*:G0/)-!M0F08i:M-*xUiF8-i0*WGxiYY:,0))W):0-0xxQx)FMA)8G-W:YW,xFMY:MQ-)GGA0YiMxFWW:i:YF,-Nx8WMx*MG:Q;0)x8)08i:x-xx:5:8)M))QGW::YMY0FqW):-)0GYmxYEM:)-G)i/Y0x0>E8MiF*IY*u-00MW)x0Y::--,)F)80i0*xWx,FYs,Y)-F::W-xxM::Y-i))8G0:,YxxWF:0:Mx--GW%W-)MM):WAQ)-W,0D,8xix*:G:e)Y)M))W8M:M:0x+F)8-,0*0Gx::Y:,)))01:0*0WiwMYQMl:*G-Q0YW,xM)8:i)-)x) 000MxFxWF:I-*,-x:8Wix*M8:QM0),Y)08G:x*Wx:Q:0Fi-)0GW,GYM,:FEW)ii-0GGmx0xM:):G)M-Y-,WFY8Mx)*aYxH-00xQ)x8M::-g,)F-80MWW&GMQGYcYQ)-80:W*Wxxu:Y{i)FGG0QWYxGMF88ui)--G0kWv:MMFM8,Q)-*,0B88xiM*:W:Q)0-,-)W0,:M-:xgQD0ii0)YGxGMY:,E))W-i--WGx9MY,M{)_G-:0i;,GF88:8x-)G-p0*WxQ)MWG:b}F,-M,8WMW)xG::t0)x8)0WW:x)MG:&S0)i-)0GW:0YMxMqKW)i*-0GF4x0MM:F:WQQ---,W!-8Mi:*zWcQ800,Y)x8Y::-A,)u)UHi8)0GM:8Y!M))-W0i0-xGM(:YMi)*)G0:W*i,MFG8e,8--G01W*x,G):W,Q)-O,0F*8xiM)0GlQ)0-MY)WWx:M-:x)F)0*i0*0GxQMY:,HFGW-i0-WGx MYiM6F)W-Q0-W,xvM8:GW-)G-Q00WMY)MY*:>-),-:0fWiG*8G:M80)8W)080iG-MG:OfF{i-*0GWix-F,:pzW)i--0*x2x-M,x)hW)Q--0,WQF8MM:)Mx)QQ00Yx)x8M::*:G8F-00iWQ*GMQ:Y3x)FLW0iW-xGMt:YMi)))0*Q8-G,MM-8^:)--G-QG0x,x):*0Q)Y-,0Z088iM),GBi*0-M0)W8W:x-:GMF)-Yi0*WGxQMYx,&F)W-i)-WxWeMY:,w*)WQQ0:W,x/M8:M:)0x-Q00WM*)MW::_*?xFFY08ixQ-G:QU0)M-MWWWiW-MxG+18)i-*0W8Qx-M,:B:W):*-0GWxM0,MW)l)QQ-YF,W?W_Wii)mx)QM00MW)x0M:Y-;x)F-00iW)0GM:MY*M)F*W0iF-xxM%:Y:,G*-W-QW)M,MF:8}:)-)x0QW0x,x):W:Q)--xMFW8-iMF:G9Q)0-,-)-WxiM-:xWF)8-i0FWWMQM-:,bF)W-i)-WGW:B0:,Q*)8iQ0YW,x%x00i4)Nx-iW0WMx)MW:i8Y)x-F000ix*xG::=Y*M-FwWWxi-MG:2SY#,,*0WWQxY-,:FEW)M-*ixWQx0M,:)48:Q---QQFx0,i:)Gx)K-00,0FiWMiM-6W-F-80iW*xW:Q:-RM)F)W0:0-xGMQG0gMM*-)xQW-x,MBM0Q:)*-x0Q70xMM):0RiWY-x0FW0xiM)xGe:uYxM0F8WxiY-:xZF)0)Mb*WWWQM)O,I))W-:0--xxQM0:,:*)G)Q0-W,-FM8WiD:Yx-Q00WGx)0W::GY)8WF0YQix)MGGQAY,M-M*WW:Y-MGMFW8)M-*00-QxYM,:QR*,:-*0xWQx0M,x)U8K:FYYx8Fx)gi:*ox)Q)Y*M8FWWMx)-X,)F-800M*xWMQ:-:M)))W0iW:Mx,680s,Q*-W0QWYx00F:0.:)-*x0}W0xMMiWW^:FY-,-FW8xiM*:iib)Y-M0FWWxi,-:WjM88-M0*WWxQM-Y,VF)0x:0-Fxxx00:,=*)W):FYWxxFM0*iq-)x-:0YxMxFMW:iJY)YWF000i0*MWiQf-,M-)0WWiW**x:Q:8),i*0GWQx-x,,F.0Q:-)QxWqx0MM:)MGF:-Y0xYFx8xi:)tG:k-YQMWM*WMi:-LW)_F80iF*x00Q:-GM)F)8x:W*xxMQF0_i)*-80:*YxxMF:0d:))_x0Q0Y8MMFiW{x0Y-,0FW0WMW*:W:!)-iM0)WWxixGYxjQQ8-Wx*WGxQM-M,,))0k:0*FxxIM0:M9FiG-:0YWx0FM8Mio*)GYZ00FMxUWW:i4Y)x)QH8WMx*MWFQp0)M-z08Q:x*Mx:QU8),N*0W0Q8YMxiFU*8:--0xWQWYGMiF:G)iiY0,WFx0xi)*QWQv-F,MW)xWMiM-M,)Q>80MF*xGMQ:YXxG)-80:W*0xMyM0EM)):G0QFYxGFF:0s:)F-x*OW0*MM)FW/xMY-W0Qo8xiY*:-WP)FGM0F08Q:M*:xUR,8-i0*WWWi8Y:xQ))0,:0-WxxuMYGM>F(G-:QYW,xFM8:iY-)G-b0Y0Mx),W:i}-i,->:8W88*MG8Qt-J,Y)08W:x--x:VS8),-)lGW:xYMx:Ff0::-*-G43xY,M:FGG)Q-Y0x0Q:8MMM*s0*6-00MW)x8G::*;,)6)80i0*xWMQ*YJ,x)-Y0:W*xxMQ:YQi)),G0GYYx,YF:0:MQ--G0DW*0MM):Wmi)-F,0?W8xMM*:WMr)Y)xG)W8G:M*8x+F)8-M-,GGx:xY:8Y))W-:0-WG-uMY:MeFjG-Q-YWxxPo8:i8-)GFm0YWMxFx8*:4-),-Q,8Wix*M8:Q)0),-)08W:x:;x:Q:0Ji-)YGWMiYM,:F?0miL-0G0ux*QM:)tG):)-*,8s88M,F*nx)d-00M-)G8M::*i,)F)80MW*-GMQYYwYM)-80:WFxG:&:08i):*G0:MYxxx^88Vi)--W,sW0xMMe:WxQ)--,0bW8x8 *:W::Q0-,Y)W8*:M-:xEQ(8*i0)0Gx:YY:,w))8)i*-8G8.MY8M}*)G-Q0Y-,G2M8:Mi-)x)m0YW,-)MWY:^:,,-408Wxx*YG:Q80)W:)08F:x*xGYo?0)i-FGGWQxYMG:A:W)i--0GWDxYWM:F:W,Q--Y,Wz*8Mi:*lWK::00,0)x8Y::-j,)N),iiW)8GM,*YgM))-8-M:-xGWJ:YGi)*-G0QWY),M^:8_M:--x-%WYxMx):W8Q))N,0eW8xMx*MGhQ)0-xG)WWx:M):G,F)0-i0)WGx:WY:x:F-W-iY-WYQfM0:M>FcWFQY-0,x9Y8:i=-)G)i80W,8)M88: Y),-=-0Lix)WG:Q:0)M-)0WWi)-MG:?HY:i-*-GW:xYG,:F8W),G-0GW{x*MMi)1WWQ-Fx,WB)8MM:)Mx)Qx000Y)xWY::*:x,F-00iWFQGMQ:YNx)WYW0iW-xGM :F-i)))WMQW-G,MQF8+:)--G-Q80x,x):0*Q)Y-,0e08)iM),G.iY0-M0)WWx:--:GHF)0Fi0*0Gx:M-F,+FWW-8B-WGx!M*:,W*)WxQ0K8,xiF8:M:Y-x-Q00WxQ)MW::y*)xWF00Wix)MG:x-0),)FxWWiG-MG8bD8)i-)-8:Qx-x,:/GW):--0G0&-0M,,)u8,Q-Y0,WFx8Fi:)Jx)QF00M0)x8Mi0-3xWF-bQiW)xGMM:0QM)FxW0,)-xGY%:Y:Mi*-W0QW*i,MF:8JM)):x0QW0x,M):8MQ)-),YFW0GiMQ*GBI)0-,-FMWxix-:GGF)8-i0)0G)QM-,,zi8W-:0-WGWQW0:,M*)8iQ0YW,xFMYMiQ*)x-Q)0WMW)M8::MY)xxF0-iix)MG::<-WM-F,WWW8-Mx-s?Y+M8*0WWQxY-,:F5W)M-*MxWQx0M,:)D8:Q---x-Fx0,i:)Gx)S-00,0FQWMiM-XW-F-80iW*xY,Q:-kM)F)W0:0-xGMQ,01M8*-80QW-x,MJM0,:)*-x0QJ0xMM):0 :MY-x0FW0xiM)xGN:/-8M0F8WxiY-:x9F)0),Q*WWWQM)a,K))W-:0)QxxQM0:,:*)G)Q0-WYMF,8*iLsYx-Q00W,W,WWiiyY)xMF08WixFMW,QVY)M-F0WWi0-MGMQQ8)M**0WFQxYM,:l:88:-*-xWiM0MM:)rG):MY0xWFx0xi:*:x)Q--xMWFQWMW)-3x)F-0-,s*xWMQ:YWM))-W0MWr*xMQ:0LM)*-W)QW-WWiF:0Q:))ix0RW0x,xF-WyiqY-WWFW8xiM*:Gx2)Y-M0F0Wx:x-:GRQW8-M,*W*iQM-:,vQ)8G:0*MxxMu0:8H*)W-:*YWx:FMF,i=*Wx-Q-Y0MxFMW:G:Y),-F0YWG**MW:Q Y)M-MiWWMxAFx:Qw8)M-*0Y*Qx-M,,F>80:-:ixWQx0M,M):G):-Y0GiFx8Mi:FIWQe-Y0MWFxWMG)-HGpo880M8*x0QQ:YoM)F)80:W*WxM:F0_i)*-W-:WYxxGF:Y*:)--x0uW00M,F:WfiQY-,-FW0xM8*:G-m)Q:M0FWWx,M*0x2w08-WY*W-QQM-MxY))8-:0)ixxrM0:xt)GG-:0YWxxFM))il)9G8K0Y8MxFYW::!Y)x)F-8WMW*MW8QN0)M-F-8Y:G*Gx:QG8)i-*0GWQ0Y,x:FE0Q:---xWQxY8M:)-G)WiY0xWFx-MMG*6G0y-)5MWF*WMiM-x,)}-80,,*xGMQ:*K,F)-80:W*xxMQx0q,KFWG0:8Yx8FF:8I:)*)GWpWYWMMF8WpQ)Y-x-M:8GMG*:WGa)0-M0F0WY:M*xx>Q,8-i0*WGx:WY:xb))0b:0-0xxQM0GMX)0G-M,YWxxFM0Mi0-)G-O0F0Mx)MW:MS*W,-#08WMx*MG,Q%-),W)08W:x*Mx:M*8)M-iWG8::YM,,Fq8):-*-xjaxYMM:M*G)Q-Y0,W,M8MMi*rG?7-00MW)x0Y::*_,)F)80i0*xWMGgYQ,0)-0::W*xxMp:Fxi))-G0Q8Yx,MF:8<WM--GYTW0WMM):WhQ)GF,0pW8xMM*:WQ>)--8Q)W8x:M*:xX,Q8-M0ixGG:=Y:0Y))8-:0FWYWf,0)M6F-G-:MYWWxMx8ii--)*YB0))MxQMF::Q-0,-:-8WG-*MWM:M0),-)0*0:x-Mx::Z0Fi-)0GW:xYMGMF90)MW-0GWAxYMM:Q,G):-Y-,Ws:8M,M*.G)6-Y-,))x8M::Q:,)F-80,W)*GM::Y6,))--):W)x*Q7iYBi))-G0:*YxxM?Q8Ti0--0)NWYxMMFM8GQ)--,0FF8xiM*:W:Qx0-,Y)W*8:M-:xRF)0,i0)0Gx:AY:,<))W-:)-WGxJMYMMt*FG-:0*i,xBQ8:8i-)Gx20Y0Y0),8::f-x,-F08W,x)GG::%0),-)08-:x*xG:V&0Fi-FQGWQxYMxMdQW)i)-0GiLx0MM:)_W,Q--0,W<W8MiM*wG)Qx00,,)x*0::* ,)?)0QiW)xGMxMYPM))-00xF-xGMs:Ymi)>QG0iWF*,Mk:8Bi)--0WEWYx0:)iW*Q))Q,0#W8xxM:MGQQ-0-Wx)WYG:M*:,FF)00i0iYGxQ)Y:x:c,W-i0-WYW7M0:MXF)W8Q0-W,x1M8:W8-)W-:x0W,x)M8::tLi,-_00Gix):G:x80),-)080i*-MG:p2Y8i-*0GWix-0,:AjW)i--0-MdxYx,W)QWFQ-)G,WFx8MMM*)x)Q)00G,)xWM::*:G:F-0*iWUiGMQ:YeM)gMW0iW-xGG!:0:i))-W)QW-M,M,W8{i)--80;*0x,:):*QQ)jG,0g008iM):G+:80-M0)W0x-i-:GpF)0-i0iMGx:xY),qFFW-MQ-Wxx>MYMMF*)W)Q0-F,xFM8:M:*Qx-Q*0W,*)MW::7Y)G.F00Wix)GG:Q:0),-)FWWiM-M-8ye0)i-k08,Qx-:,::xW)Mi-08WFG0M,O)cY-Q--8,WlW8Yi:)wx):800MW)x0Mi)-lx)F-00iW)0GM:MYWM)F*W0Gi-xxMf:Y:,i*-W-QW-*,MF:8>MS*Mx0QY0x,Y):W+Q)-)xIFW00iM)8GkH)0-M0QQWGiM-:GMF)8)i0)WWxQM-d,BQ8W-i0-WGWg00:,(*)-)Q0YW,xQM8xiZ*)x-Q00WM8)M0::8Y)x-F00Wix:QG::pYvM-FWWW:8-MG:4VY3,M*0WWQx:Q,:FjW):-*bxWQG0MM,)eG)Q-Y0,0Fx0Mi:*:x)w)00,W)-WMir-.GxF-00iW*x-0Q:-_M))*W0:W-xxM,W0#MF*-G-QWYx,MF:,i:)*-x0QW0x,,):0ux,Y-x0FW0xiM:,GaQ)J0MYFxWxGF-:G;F)--W-*8WMQM*T,lMWW-,0Q0xGQ:0:08*)-WQ0)W0WF,03iui*x-,k0WGx,MWi:)Y)W)F0*)ix)xGGQ&Y)M-i-WW:x-MW:Qi8)M-*0WWQx*x,:Qz8W:-*0xWQx0MGG)qW):FY0xxFxYxi:)9x)Q)YQMWFxWMGM-E,)F-Y0M8*xWMQ:-2M)iBW0MWY0xMQ:0EM)*-WFQW-xxFF:8):)QIx0QW0xGM)8W&:-Y-YYFW)MiM)MG07)Y-M0)FWx:M-:G:Q08-MY*W-8QMY:,b))8W:0*0xxQ:0:M_*)G-iMYWxxFM0Mi+-Fx-Q07xMGFiW:WiY)xxF08WW-*MW:QL0FM-)0WW:xQ0x:QQ8)i)*0GWQxYMQ,FU8):-*0xWQG0Mx::GG):-Y0xWFx)Gi:)9)x&*Y8MWM-WMi:-;W)9i80MG*x-,Q:)GM)F)8r:W*xxMQ*0.i)*-80iQYxxMF:0{:):Wx0Q000MMFiW_i,Y-,0FW0WMW*:W:g)-iM0)WWxix-Mx{QQ8-,Q*WGxQMY:Y-))8-:0*Yxx2x0:,si-G*:8YWY*FM0:ioF)Y)4YYGMxQ0W:iGY)W-)Y8WM,*MY%QEF8M-F-0i:x*Mx:Q*8)i-*08WQYYMx:F;8):-*)xWQW0FM:FQG)xGY0,WFx0xMM*KWXL--QMW)xWMiM-M,)>F80MF*xGMQ:-:xQ)-8):WQQxM&:0vi)MWG0:WYxxWF:8::)*--Wm8Y,MMX*WS:)Y-W0M08GMi*:*Qw)F0M0F0G):M*:xST,8-i0*WWW:GYixQ))*F:0-WxxRMLTMvF G-:8YW,xFM8:MQ-)G-e0Y0Mx),W:i:Yx,-u08W,i*MG:Qo-),i)08W:x*Mx:QM8)M))8GW:GYM8*FeW):-*-GMZxYxM:FGG)Q-Y0x0v:8MM,*oY8o-00MWFW80::*M,)Qi80iW*xGM:WYe,))-8):W-WxMQM0*i))*G0i,Yx,MF:YqMM--GYXWYGMM9iWgi^*,,0j08xx:*:G.?)Y),-)W88:MFoxbF)8-i0MMGx:,Y:xi))W):0-WiY1MY:MK))G-:YYWxx,:8iiG-)8Gh0YWMx)0Wi:Q-Q,-Yx88iG*MG:QbY:8))0WW:xWIxinQ8)x:YQGWQ8YMI-FQWF:-&0xWk0FxM:)zG)*xYY,8Fx8WWM*/x)d-xxM8)GWM,:Q:,FO08088*xY0Q:)<0p)*88:W:GxMMW0{MMWQG0:WYx,MF:8Q:)-)x0JW)MM,):Wp:YY-,0FW8xG:*iG&{)YQM0)WWxixY0xksF8-iY*WGxQM-Mxi)F8):0*xxxBM0:MZi-G-:*YWxxFM8:ih-)G*^0Y8MxFGW::QY)G-M)8WMG*MGFQL)QM-F-8Y:G*Gx:Q:8)i-*0GWW:YMxiFd0Q:---xW:xFWM:FQG):*Y0-iFx8M8a*sWQO-Y0MW)xWM::*Q,)N*80MY*xG,Q:-:Mx)-8Y:W)-xMs:06i)G:G0:0Yx,MF:8,:)*--Wv8YWMM:MWv:iY-W0M08GMx*:8-()+QM0F0,B:M*,xN,w8-i0*W8xQxY:xi))8F:0-)xx:MYJM<FQG-:*YW-/FM0:MQ-)G)f0-YMxFGW:,^-i,-e-8Wxr*M*xQ50),M)08Y:x-Mx:=Q8)M)F,GW:0YMxFFVW):-)0-0NxYWM:FMG)i#Y0x0g,8MMG*rW,A-00MWFW88::*x,)Q:80iW*xWx:0Y=x,)-0Q:W-xxMQM0Fi)FMG0x:Yx,MF:8Di)--G)wWY)MM)MW?:)-=,0yY8x,F*:WMm)Y-0W)88W:M*)x#QQ8-i0FFGx:,Y:,:))W):0)WY0(MYMM9)FG-,:YW,xFM8iM:-)x);008MxEM-8:P*&,-4Y8W8,*M8:xM0),))080:x:xx:%O8)i*)-GWQWYM,iF90^:M-0G0Xx-0M:)vG)Q-,=,Ws88Mi:*UGiS-Y00x)G8G::v:,)ki80xW:WG,:,YUG0)-*F:W*W:)Z:YMi):)G0QWYxGMFi8%M:--G)%W0-MM4:WFQ)*{,0?-8xWY*:WPoF0-,*)W08:M*xxZ:)YGi0)YGxi)Y:YM))W-:*-WG0.M0:M()<G-:--G,xw88:M*-)x-30-W0W)M8G: *i,-u)8WMW*)G::x0)8G)0WW:x*xx0+XY,i-FQGWQxYMxMHQW)MM-0Yipx0MM:F:W*Q-*i,W&*8Mi:*}x):W00,*)x8*::-:,)y-Y:iW)0GMi*Y&xi)-Y0G0-GGWO:FWi)QFG0:WQM,,T,8lM0--G) W0xxY):8:Q)Y),0F08x,M:xGj:S0-,-)WY):M-:x9FF0)i0*0GxQ,Y:x:)xW-i--WY0mM0:M#F)-iQ0-0,x<x8:,G-)G:0F0W,8)MWi:lYF,-F)8WixQ:GiQ40),g)0WW:x-M0>PQ8)i-)iGWQxYM,::)WF:--0xF+x0MM:)jY-Q*Y0,WFY8Mi:*&x)w-0Y,0)xWx::-Q,)F-)*i8*xGMQiYLM))-W-:0-xxMl:0:i)*-G0QYY-,MF:8/:-QWYG,xFi8)),W,Q)Y-,0FxF:G*:*-iQ,0-M0)W8WQ--:xOF)8)i0*WGxiMF8,a))W-:0-WxG_M0W),*)G*Q0YW,xF,8:i:-)x-,:0WMx)MW::wY),-F0)Bix*MG:QQ0)M-)0WW:x-,x:<+03i-*YGWQxXG,iF^W):*-0xWHx0MMi);G)Q--i,WFx8Mi,*,x)U-00Mx:Q*,WMb*xQF)80iW*xG:,iYi,,)-W0:W-M8Y,T))88:8*xQWYx,MF:8P:)M-*<MW08MW):W3Q)Y0Y(M,F,iG*WGc2)0-MW:,Y:G,QGG0tQY^i0*WGxQ:*Y80M8)iG):,-:,Q-*8GiM*WxG>)Y::F)i8:QYx-{00WMx)MW::=Y),-F08Wix*MG:Qw0)WW:08-:x-Mx:&.FMi-*0GWQxYM,:F 0)Gi-0xW?x0MM:)GG)i-SQ,WFx8Mi:*LGB<--0MY)GWM::-_,)q,80iW:-GMQiYwMF)-W0:W)x0Y#:0Qi)**G0Q8YxGMi88r:F--xYZW0WMM}:-GQ)Y*,0F88xiG*:GxiQ0-MY)W88:M-ixkF)8-i):0GxQMY:xi))W*:0-WY-RM0iMn*FG-Q0YWxWQQ8ii:-)G:f00WMxbMWx:q-g,-F-8WiY*MWMQx0)MF)08N:x-Mx:Q:00i-*)GWQ0YM,:F_09iY-0x*Nx0-M:)=G)Q--M,WF-8Mi:*%x)a-00,i)xWx::-x,)F)80MW*WGMQiYKMF)-W-:W-xYG<i0pi)**G0QWYx,MF:8(:)--Wx%W0xMM),W:Q)Y-,0Fx):iG**G;5)0-MWix)VGYQG8GM-)08,:,*:QMY:,3))W-:0-W,x-i0,M-*)G-Q0YxWii*)*WQ:MYYM,;M0GiW-F:bY),-F08Wix*MWx,%0)M-)0WW:x-Mx:FR**iF*-GWQxYM,HMY8Q:)-0xWnx0:8Q)iW:Q-Y0,WFM)0GF:FGQQQ00MW)xW:,*QQ-%M880iW*xGMQ:Y9M)F--0:Y-YxMV:0_i-iY-ix8Q:,GF,8w:)--xWxM{,MM):WgQ)Y-,0FW8xiM*,G,T)0-M0)xYiG0QFY,KQ0:i0*WGxQ:)i0x:,)8Wx-YG:nM0:M2*-08G0QI0*M0*FWx:0Y*,iF-M8)-W::lY),0:,)FW-:0YF,Y90MF))WW:x-MxSiGFY8W**G0QxYM,:)))-:-F*8Yi8*GG,QiMQ,YY*x0Fx8Mi:-)8*xx#Q0,i)-BG-}8YM,GF:WQiK-QxWFY0F)FWF:W-xxMht*W8::,*YQY-{,MF:86:-FG-Q,*F)8W:F*-xYsW,*F08xiM*:x)x00F,X)WWx:M-/8*:0)*WFF:G8Q8Y:,K))W0WxQQ-Q,G0,MG*)G-Q0YxW0M,)WG*QG-xMF0WMx)MW:GxY),-F08Wix*MG:::-QM*)YWW:--Mx:mEY{MF*YG0QxYG,:FDW)iSG0xWVx0Mxi)jGFQ---,6Fx8Wi:**x)1-00MWG-WM:G-2,)F-8FiW*x-0Q:YxM))*W0:W-xGMxq0QMi*-W)QWY-,M::)::F*Qx0:Q0x,8):8:)WY-xXFW0,iM*:GE:)-MM0))Wx:0-:xMF)Y-,M*WG-QMYW,jFFW-i0-Yxxm80:MG*)W:Q0)W,YFM8GiZ-Fx-Q*0WMxFMW::xY),-F088ix)xW0QbY,M-+MWW:x-MW:MG8)Mi*0GFQxY*,:FE)M:-*:xW%x0MM:)KG)**Y0xcFx8Gi:*Wx)Q)Y*M8)FWMi5-N,)F-0-MY*GG)Q:Y)M))-W0i0i-xM{*0{M8*-G0QWYxx0F:8G:)*Gx0g00x,M)iWk:MY-xMFW8*iM):W0})YQM0F3Wx:0-:xd5i8-i)*WGWQMYM,hf)8x:0--xx=W0:,G*)G-:0YW,0FM8Mi3-Fx-Q-0ZMx)WW:iYY),-F0YWG**MGxQ%Y:M-FxWWiW*Gxiz,8)M:*0GWQxYM,:FQ8::---xW&G0MMx80G)Q-Y0,-Fx8,i:):xx.-00MWFiWM::-3,)8:80i8*xGMQ:Y,M))-)S:W-WxM}M0Ki)*-W0GxYG,,F:0M:)-)x0iWFWM,)iWoiGY-xFFW0WF)*:G:q)YYM0)WWxMM-Wx2Nl8-i-*WG0QM*:xx))W):0-0xx:Z0:,L)*G-QYYW,*FM8MiuF)WW2008Mx),W:i Y),-4*8WiW*MG:QcYyM-F-0::x-Gx:Q08)i-*08WQ*YM,,FB8Q:-*ixWQW08M:)MG)::Y0,WFx0xMi*_Giz-YWMW)xWMiM*Q,)2:80i)*xGMQ:-:x0)-8Q:W*MxMt:0.i)FGG0QYYx,YF:8::)*)WQXW00MMF-W5Q)Y-G0F-8xiW*:GMz)0)M0F00Q:M-Gxwvi8-i0*WWW:MY:,x))8Q:0-WxxvM )MH):G-:vYW,WFM8:A,-)xF(00YMx)WW:iPQ-,*F-8WM?*MG,Qt*)8))YW0:x*0x:wx8)M-iWG8QGYM,0FV8+:--0WFhx0MM:):G)Q)Y0GWM08Mii*Ox)A--QMW)xWM:i-Q,)F)80i8*x8M,8YzMF)-W0:W*)xM::FMi)**G0Q8YxxxF:8x*i--x*^W0xMM)iW(QFY-,0Mj8xiM*:Gid)0-M0)W8G:M-ix&SQ8-iY*WGxxGYi,R))W*:0-Wxx9M0iMA*)G-:FYW,xFM8,i--)x-n00xGi:***GQQM0Yi,FM8G:WYFQiY0M-)0WW:MFQ-:,WF,8::G-)G:>,8YMM8Q:)-0xW(x0:0Z)iWiQ-Y0,WFM-QWW:*-iuFY:MW)xWM:I)YY,,:F/W,:Q*;Q,Y,M))-W0:xF)YWMYDQMQ):G0QWYx,::FY-GF:QWMgY08MM):WlQ-QWY8FW-8xG4,0iMQ*Fe*:GW8ix-:xLF)80xY:*YFxiFFW-MW*,Wt:iY)M*F-W*iM-GGYYY,YFM8:im--0G,Yh08i)MW::oY),-F08W:xQiG,Q00)M-)0Wx,QQYYG,WF:W8ix-,x:YG,MF4W):--W-i180xM:)<G)Q07x,YFW8Mi:*Rx-xW0*M0)xWM::Y)0*F-80iW*xGMQ:iIYM:-W0:W-xxMJ:0{i)*-G0QYY0,MF:8u:-::YGxG08M0):W9Q)Y0WYM)-*8Q:)WF+)0-M0)W*-:M-:xJF)8-i0*W0xxxYi,^))8x:0*MxxQx),MU*)G-::YW,xFM8:i)-)x*T00WMx)8W::!YF,-F-8Wix*MG:QuY),F)0W8:x-Gx:{:8)x-*)GWQGYMx:FV8G:-*-Wi7x0xM:)MG)Q-Y0GWQ.8MiM*HG(%-0YMWXx-Y::-:,)F)80i0*xWMGoYQMF)-8W:W-WxMi:FWi)**G0:GYxx8F:8cMQ--x-fW0xMM)iWSij-G,0FY8xiY*:G9})--,F)WW8:M-,xIQ:8-M-*8GxQWY:xi))W-:0*0xYvM0GMnF7G-Q0YWxWFW8:ix-)GFV00WMxFxFW:s-,,-m*8Wix*MG::,0)MF)0WF:x-xx:Qd0)i-*-GW:QYM,,F68)MQ-0x8gxY,M:):G)Q-*Q,WFx8MiM*gG_y--0,))xW,::-2,)O:80iW)QGMQiY?,P)-WY:W)x0Yz:0Qi)*-G0:,YxGMMx8a:F--xYkW0YMM)W:,Q)YF,0FW8xi,*:GQ?)0-8:)WWx:M-:xuF)8-i0)8GxQ,Y:,i))W*:0-WY8k,0:Mn*FG-Q0YW,xF,8:ir-)x*w00WMx)GW0:bY),-FW-MWi:F-)x0k,0*))WW:x-Mx:,x8)i-*0GWQxYM,:Qw)::--0xWjx0MMi)kG)Q-YY,WFx8xi:*Qx)>-F*M8)xWM:i-1,)F-80iW*xGMQ:YiM))-W0:Y*FxM{:05i-zY-GGM))0)M8)WGY:x-xx8*Q8M:Y*xx*580xii)GWi:WY8x:0F,))WWx:M-vW8MWFG8Q:-*iG5FFGYM,):WxQ,Y-x(**8QMm-8Q*-a,xFM8::)F8-ix2F)8i:F*):0Y),-F0YWW0*MG,QZ0FM-)YWWiW*Gxih,8)i)*0GWQxYMY)Fq8Q:--FxWDW0Mx:iMG)QFY0,YFx8Gi:*xQiA-0FMW)xWM:i-VxQF-80Gx*GGMQ:YSM))-W0:W!Mx,k:0{iF*-G0QWYx8:Fi8/:)-)x0wW0xMMFiWf:QY-,FFW8GiM*:-ieF0-M0)8Wx:M-:xiFF8-i0*WG*QMY:, FQ8>:0-WxxP:FWW*i*GF:>YW,xFM8yx*F0Y*,F-:M8)FW::yY),0:,)QW-i:YYxY)88*M-*,:8-xx:%38)i0QYGWQxYM,:FzW):-*)0W_8YWM:)jG)Q0)i0:,Q)YWx:*-0,8*,8Fi-)<xFQxY0iG)Y80:iGMQ:YrM))-W0:W-xxMQM0Xi)*-G0FiYx,MF:8e:)--x0Q0YxMM)iWg:IY-,0FWYxMW*:GQ%)0*M0)8Wxix*MxcyJ8-MQ*WGxQM-MxQ))WF:0-FxxwM0:,:)QG-Q)YW,*FM8:i3-)WMI00*Mx),W::!Y)G-L:8WiY*MGGQTYMM-U0W0:x-8x:1,8)M2*0GW:xYM,WFr8!:--0xW?x::Mi),G):QY0,)Fx80ii*QGio-YWMW)GWM::-5x:M)80iW*xW:Q:YQM)FE*-:W-xxMQQ0IiF*-W-:YYG,8F:8,:)--x0#WQ:MM)iWl:iY-,-FW0x8:*iGru)0FM0)8Wx:MQ,xQF)8-iY*WGxQMY:,D))W-:0-Wxx#M0:M:*)G-Q0YWQ-FM8:ic-)x-d00WMxiGWi:VY),*F08Wix*,G:QO0)M-)*WW:x-Mx,<*8)i-*0GxMGH000M*)0,GQ0YQ,-FiWF:-WQ:MY0,WFx8:,*:G-Mx:FG8iM:WG:*-<,)F-8Wx8:---xFc-GWi8*8GQQ-G)3:0?i)):QFQWY-,MFM8w:F--x*PW0xW:)iW=Q)-},0FW8xiMQ3GQr)0-MY)WWx:M-:8)FF8-i0**GxQMY:GSi,W-iQ-WxxBM0,MhF)*2Q0YF,xFY8:i:-)G:0F0WMF)MW,:aYF,-F)8WixQ:GiQL0)M))0WW:x-M0IuQ8)i-*)GWQxYM,::)WF:--0x*>x0MM:)DY-Q*Y0,WFG8Mi:*Vx)Q*00MF)xW*::-Q,)Q-)QiW**GMQ:Y+MF)-00G--xxYJ:0Gi)*)G0Q),Y,MFY8P:)--xYoW0GMM):Y)QFY-,0FY8xiM*:G;QF0-,Q)WWF:M-ix.F)F:i0*FGxQMY:,o))0-GQ-Wx*AM08Mt*FG-i05-,xFY8:iG-)x)300))Y)MWY:OYF,-FY8Wi8*MG:M)0FM-)0WY:x-Mx:}4*-i**0GWQWYM,:FDW)x0-YxWwx00M:)1G)Q--Y,WF*8MiY*DxFX-008Y)GWM::-Q,)F-80i0*0GMQ:Yu,:)-W0:W-8G:L:0Ri)*0YGGi!i0):i)xWx:8-xMMDG8-:FWi:MY-,0FW8MGE:8-*,8F-M*)*Wx:M-:,):YF:8G:*G8::Y:,#))W0,FQF-i,F)FG,i,*0xGJ*0iM0))MP-)x-&0-WF:)MWi:&Y),-FY8WMW),G:Q:0)MF)0WW:x)MGxTJ0di-*-GWQGYMG:#MW):)-0x0rx0WM:)x8,Q-YY,WF*8Mii*+GRO-0)80)xWM::-G,)F*80i-:WGMQ:Ye,-)-WY:W)x0YK:0Qi)*-G0Q8Yxxx)08Sil--x*(W0xMM7:-GQ)Y),0F08xi,*:8J,,0-M-)WWW:M-MxrcMYFi0*8Gx::Y:,Q))W):0--YW;M0:M?)-G-QYYW,0Mx8:in-)GYU008Mx)MMW:KY),-F08Wix*MG:xi0FM-)0W8:x-Mx:kQ8)i-*0GWQxYM,:Fv88:--0xWqxF0M:)QG)Q-Y0,WFx80,,*gx)/-0)MW)GWM:i->x:M)80iW*xGWQ:YQM)F?*-:W-xxM5-0aiF*-G0x)Yx,,F:8Q:)--x0X)0GM,)iW&:WY-,YFW8xiM*x-:a)0-M0F:Wx:,-:xK,M8-iY*WGWQMY:,m)))0:0-0xxyM0:M;*)G-Q0Y8,GFM8Mi_-Fx-&0FYMG)MW::QY),-F088ix*MG:QA-QM-)0WW:8-Yx:RE8)i09)-8x-KQ8YM08Q:)-0xWfx0:W))iWQQ-Y0,WFMFS8Q*iGMZ-00MW)M-QM)QQYiQx8*MM*xGMQ:0)GYi,),G8Q-Yii*F-8Fi3-GQYYW,MF:8h:-I*x*D)0xMM):G)MFQ:8Q,,F:iG*MG%c)0-MW:WW8:*-:xfF)80G::F*Qx,{)0QM,)::*--xxdM0:i)iM-8G8YY,*FM8:i>--0i,WFx0QiQ*):i-i,-F08WiM+--x,8=FMFF<WW:x-MxPiY)8W,:)-,QxM))YW8:G-,xiQQM,0GMM)^G)Q-YWYiF888i:*7x)u0*G8)Mi*8:,-:,)F-80ixiMGGQMY.M))-WWGG-8xxb:0Ti)*0*xiFYx,MF:YIG,--xYeW0xMM)YW;Q)Q:,0F08xiM*:Gb7)0-QF)WWG:M-ix#^28-M-QYGxQxY:,i))W-:0-WG)qM0,Me*)G-QFYW,xF*8:iM-)x*/00WMxFM8G:%-Q,-XY8Wi0*M0:QF0)MF)08Y:x*:x:Q:0Yi-*)GW:xYM,:Ft0)i{-0x-Ex0WM:),G)i-OQ,WF08Mix*?xF_-Y00x)GWG::-F,)n380xW:WG,Q,YZ,9)-8Q:W-xF0l:0Mi)*-G0Q8Yxxx)08tii--x)2W0xMM_:-GQ)-Q,0F*8xi)*:G9*B0-,a)WWW:M-:x}Q)0Qi0*)GxQ0Y:,W))0-i,-Wx-DM0WM})YG-Q0*i,xFY8:i:-)x-e0-WMY)MW8:e-,,-_:8W,xFfG:QG0),i)08i:x)MGM7I0xi-*YGWQ)YM,:x)WFii-0xF}x0-M:)HMgQ--:,WFW8Mi:*+W)Qi00,t)xW-::-x,)Q-0*iW*)GMQ0Y9,Y)-W0:0-xx* :0:i)*-G0iW-:,MFY8tiG--G^SW-x,:):W8Q)-,,0fi8x,M*8GPQW0-MY)WW-:M-:*)FF0,i0)QGxQ)Y:,EY*W-:F-WxF7M0MM ))W:Q0Y-,xF*8:i,-)G-QG0WM8)M8M:m-:,-F00Yix*xG:Q:0)M))00WiG-MxM(30Ni-)xGWQxYW,:F:W):)-0x8lx0M8,)QG)Q-YY,WFx8Mii*5x)4-00MF)xWM::-ixxF-80iW*M8Fx:F80MiY*GGM-8x-Z:0fi)*00,xF?-00iF*YW0-FxFkW0xMM)u0*GMQ80FFY0MiM*:G{I-)80,i,)3,,QWYW,YFWGxi8-)xQY,,8))W-:0-x8),YF*8Qi0-*GQ2),8eQ8:im-)x0iFFF0iiF-FM0QYYW,x)FW-)*G,Qx0)M-)0Wxx:QYYFMY)),x*0GWQx*MFWFoWF:--0xW;00M,M)0G)Q)Y0,YFx8Mi:F&W,_-0-MW)WWM:x-_G)>F80i0*xGxQ:YxM)F:8e:W-GxMt)0/iF*-G-QWY00xF:87:)*Wx0R80xxM:8WcQFY-,0FW80iM)MxW%)0)M0)YWx:M-:WnM,8-i-*WGWQMYx,I{)*i:0-0xxBx0:MG*)W:,)Y8,GFM0Yih-Fx-/-0WM0ixW::JY)G,F088ix*MG0Q(0FM-)YWW:x-Mx:-x8)i**0GWQxYM,:QE*,:--YxW(x0MMG)<G)):Y0,8Fx8,i:*;x)3-#}MW)GWM:,-7,)F-Y0GF*xG,Q:YQM)FQW0:WW-xMAi0?MD*-G0QW*x8YF:8Q:)--x0t80xxMixW9QFY-,YFW8WiM*WQ,p)0FM0)WWx:,-:x:F)8-GW*8GxQMY:,9))W-:0QrxxBM0:M;*)G-Q0YWxGFM8ii9*Qx-KY0WMxiGWi:5Y),*F08Wix*,GiQo0)M-)*WW:x-Mx,<M8)i-*0GxMiy08)Fi8i:--0xW>M*Q8Wi**iQF-8,WFx8Mi<&*-8,8VMG8i-*-GFQ-88,W)i8M:iGFQ:Y1M))-)&:W-xxM_:0ti)*-80Y)Yx,MF:8P:)-Fx0Q0-:MM)iWJ:!Y-,0FWYxM8*:GQw)0*M0)YWxMM*)x_FF8-iY*WGGQMYWxW))W-:0*!xx/,0:MQ*)W1x-YW,xFM80il-Fx-7)F0Mx)MW::0Y),*F08Wi)*MG:Qy0)M-)0WW:xW0x:s(8)i**0GWQxYM0,FQW):--YxWox0MM:)VG)Q-Y0WiFx8Mi:*iGiy-00MW)MY*GFb800FF0QiW*xGMQ_*Y0Wi8*iWMQixG 80gi)*-GWMi_*0WM8)0M8-Fx)2W0xMM)+YGGYQW,*F*8xiM*:x)M8F*0-i,W8:*-:xpF)80xY:)*QG}FY0xi8*8:*--xx?M0:i)iM-8G8YYxGFM8:i4--8x,iFi88ii*-GGQYY:Mx-iW*:W-8x0-8MFF0WW:x-Mx7:0F,8x:x-,G7)F0i,:*YxMQY-W,iFWM,)0G)Q-Y0,xi:FiGFQ*-Mi*u68xi*WG:--&,)F-8Wxi:*-8x01M8YMW*GGM-8x0n:0Di)*00WG:FF08iF8iiG--x0IW0MWQQi0YG,QxYRM,F.iG*MGh<)0-MW:8W8:8-:xeF)80GG7M-Gx8Y,,*))W-:0-x0:xi)FW*iMYGxGQ:YMM,**G**QG8f00WMx):0Yx0Q8YiM)F,8::Q0*xQQ.88)0WW:x-Mx:3H8)i-Q0GYQFYM,:FdW-xM:Q-i,GNl8iiG*MQ-Y0,WFx8Mi:*D8:M-0*,k)xWM::Y)8-M8),8M:*-):-YjM))-W0:W-xxM):*Fi)*-G0QWYx,M*:FFx)-FxF/W0xMM)nYWG:m,YYFY0GiM*:GI%-*,8MMi**GWQFY-MY*M8Qii-GGOli0GMMWFi,-WxxwM0BxF:Y*W,,?,Y#,:)iGYQYxFQQ0WMx)MW3,W1GYxMG))8:*GGFQa0)M-)WYiG*Q)YWM*FWGx:i-MxGQQ0*Fi8,:--0xWdM)xGiix-0x8Q0,YF)8Mi:*bx-,0JM8FiYY),Q)0xQtM80iW*xG:i*NG0MM:*GGi::xGm)0mi)*-GWMQ4-8FM:)GWWrM-Q,8F-0S),W,Q)Y-,0Fx),G*:GY*QQYQM0)WWx::)FYx,YFQi**0GxQMY:M):)W-:0-WxxVM0:M&F:Y-Q0YW,xFM8:iy-)x-h00YM-)MW::vY-88:x)8WY))G,:G0)M-)0Wx,d/*0*,i)*8xiQ*,x-E<W)M0*GW::,-%MFF)WFix-8G*Y*xWFx8Mi:-)8Y,, ,88i-*iM)QQYWM8),8M:G-YxWYLM))-W0:W-xxMF:*FMQ)WG0QWYx,:QF*8W8Q*- ,G)Q07Mi*MxYY--N,)F-80iW*xFM)YYi)WWx:M*M,WF)8)i0*)GxQMY:G<i,W-:--WxWNM08MeFpWFQYYY,xct8:ij-)x-iQ0WMW)MWM:.-X,-k0M:ix*xG::Y0)M-)080i0-Mx,#q0Qi-*0GWix-:,:FiW):F-0Wx6xYx,{)%W:Q-*Q,WFx8MMM),x)QQ00,F)xWM::*:G:F-0/iW)*GMQ:Y+M)FMW0:Y-xx0j:0:i))-*WQ8YW,MF08&iQ--80,00GMx):0GQ))G,0:W)Wi,*MG/QG0-xF)W8W8W-ixiF)YQi0*WGxiMY), FQW-:*-Wx*dMYM,**)W.Q0-),xFM8:M:**x-NF0W,-)MW::aY)G8F08Yix*8G:Q:0),-{xWW:W-MW:m70Qi-)-8uQxYG,:QxW):--0WW8F0MM,)aWQQ--Q,W!W8-i:*Mx)iQ00MW)x0M:,-bxiF-8YiW)FGMi:YxM)FQW0:*-xWGT:-E,x*-W^QWYx,M_Y8hM)*,x0%)0xM0):0iQ)Y-,)FW8YiM*GG!QM0-x0mQWx:0-:xQF)0*i0FWW-QMYW,vFMW-M*-WWx=*0:Mx*)W:Q0-0,xFMQUiQ*ix-2F0WM-)M8MiiYFx:F0Y*ix*MG:iRF,M-FQWW:G-MGYu!Y)Wi*0GFQxYY,:F)W)M-QQxWL)0MM:)w8GQ-*08FFx8-i:*Wx)Q000MWYYWM:8-;x,F-0:iWFxYYQ:YWM))*W0i8-xWMM80uMx*-W:QW-M,MQ:QY:)*Mx0Qh0x,x):Wt8-Y*xQFW8*iM*0GkN)xGM0)YWx:Y-:x:F)0-MY*WGWQM-,,HFQW-i-):xx!G0:xx*)G-Q0*Wx*FM8,in*Qx-QQ0W,WF)W::MY)WQF08Wix)xG8Q=YiM-RFWW:x-MGMQ08)M:*08*QxYM,:_:0Q:**QxW:Y0MM:)yG)WWY0,YFx8Yi:*:x)Q-?WM8)WWM:G-fxQF--0W0*GGxQ:-*M)UTW0i0QixMS,0HMM*-G0QW*xxMF:8i:)-Fx0qF0x,x)GW5::Y-xGFW8xiM*:WMO)0FM0)0Wx:x-:G:;Q8-i)*WW,QMY:,Ua)80:0--xxbW0:MG*)W):WYW,YFMYYiw-)x-Q--MMx)0W:M,Y),-F08WMY*MGxQ/YMM-)-WWix-xx:<i8),W*0G-Qx-MxGFp8Q:-),xWrW0M,MFWG):eY0x:Fx8Mi:F_G8<-0)MW)0WM:8-pGeRQ80i**x8*Q:YlM)F)WM:W--xM:M0oi)*-80Q0Yx,0F:8x:)Fxx0:WY:MM)WW_:MY-,YFW0WMW*:GGr)-)M0)WWxMM-8x;=,8-MQ*W8)QM*:x0))8i:0-Fxx>W0:Mh)MG-Q)YW,*FM8MiB-)GQo00*Mx)MW:::Y)x)9-8Wi-*M8WQy0)M-U0W-:x-0x:;x8)Mi*0W0:8Y,,8FKYi:--0xW:x)YM:)WG)Q*Y0x8FxYMG8*eGxn-Y:MW58WMM:-*,FnM80Mo*x8WQ:-:xQ)*8i:W)YxM^:0%,):iG0::Yx,,F:0Q:))-YQ(WYJMM)-W^MQY-G0&,8Gi)*:G0y)*BM0)WF::M-Wxd=W8-i-*WWxG:Yi,,))8Q:0-)xxiMFMMQ)iG-MQYWGFFM0M:W-)G:p0-8Mx)MW:MIQ:,-r28Wi-*MW-Ql-v,F)Y8_:x*Mx:.78)i-MxGWQ-YM,0FX84:-)0Y-ox00M:)xG)Q)Y0,W,M8Mi0*ZGy2-00MW)x):::-8,)An80iW*xGMGlYK,W)-WF:W-xxM :n-i)):G0::Yx,xF:Y}G,--GQ+W0-MM)*W>i)QV,0FF8xiY*:WFn)Y:)F)WWF:M-:xzFF8-iY*WGx,:Yi,w))W):0-WxxcMYiMe),G-:iYW,GFMY:WM-)GiZ00)MxF-W::oY),*<Q8WiW*MGiQ(0)8F)YWW:x-,x: J8)i)*YGWQxYM,iF2W):--*GR_x0MM:*)00x8Q,YM,t)Y8i*Mx)j-00MWi-WM::-R,)F-80iWFx-WQ:Y.M))-W0:8-xxM?:0Qi)*-G-QWYG,MF:)i:F--x0t80xMM):WLQ)Y-,0FWFiiM*:GeQQYYM0)WWx::F*0*,0*0WYii-G,)Ax8*Q0*8W,QixGKM0,MG*)G-Q0YxW)i*)-G*:M-Wq*YMMx)MW:Q)F008,0FMi)):G0MQF80iMcWYi:-Mx:>w8-x,is-ixxbY0-:W),G*:d-MNxi)*YG8QGY,,iQQi,8Gi**px)d-0WG8iY-*GQ%*8:M,)MW,:0GGQGY2M))-WW,,Q--Q,G0iMY*-G0QWYMG)M8)0G0Q8-MiiF*8Wi8*0i8YFxYFW8xiM*?80,GFG8*iG)LGYQFYxM0-G8Q:--*x)-*,<))W-:0-Wxx2M-0W/*)G-Q0YW,xFM8:,0j)xF%F0WMx)MWu,*)00*MF8YMW*MG:Qn0-W0iG):W:Q,0*M8F:x,:)-8x,D00Gi*)MWW-*xW<x0MM:)IG)Q-Y0,WFxQMWiQcGQQx00MW)xW:,FFQ8xM,)xWM:G-0xQYNM))-W0:W-xxMM,).MQ*FG0QWYx,:MQ)MiQ*Qx0#W0xM:Q)-*G)QW,*F)8xiM*:x),0F88)iQ)G:G-Gx3F)8-iW?8-QxYwW,iFGW-:0-WxMMQ*ixYi,*xGh_,YLFG8*ik-)x-!W*G8*MN*:x8QiWx,Q)-W:*GGYQ60)M-)W-iGi:H8),QF08b:GGYQYYM,:FAW-x:QiY*,i0MM:)=G)Q-Y0,Wi0*Mi,*8x)+-00Mx:Q*QG)FY0F,))GGM*8W,Q:YeM))0-xG,:x-#i)F0WGi:*,GrFF0)iF)xG8:*x*QM0xMM):G),:O,YYMFFi8{28-0,0F80M)Y8F:M-:x_F-*GWGiMY:xQQ:0-:0)xGiQ)-Q,-)Y80:Y*:x,Q88:M,))WMQYxFQs0WMx)MWh,*)00*MFY:ix*MG:Qd0)M-)0GWx,-Mx:mw8)i-*0FW,GFM,:FTW):--0xWmx)QW:)bG)Q-Y0,WFx8Mi:*_GQQ:00MW)xW:,DQ00G,Q)GiY**GMQ:YmM-QG*GG)::YQ,-0iMb*-G0QWYM8XF,80:)--x0Rx):8QM:*-,:u,0MM,)0iG*WGIj)0-MWQ8*Yx*QQ0*yQ0)i0*WGxQ:)i0,iG*YGGh:YiMFF)GWi,*GxYQM0GMY)Wit-)x-h00WMx)M0)x?-QxWF08Wix*:00,8F08WiY*)G,FW0FM)F0iF*FGWQxYM,ZQ)),W::xxYc)0MM:)PG-,0LG0i,:)YW-)0x)/-00MW)xWM::0+8*FF8FiW*xGMQJ*-8YMG*,:Y*QxMp:0ti-QW-GGWQ:GFM8)MW,:xW,4Y0)MM):W}Q-)GYQM))-WQQ*--QQYxM0)WWx::FgY*,M)G8x:8-*x0-W,v))W-:0WWi:*(W)GF*)G-Q0YWYx,0FWQx<*xFh-0WMx)MWbxQ-QxQF08Wix*:0*xQQ^88)*8i:x-Mx:F)-WW,:,-Yx,f)08M*)MGW-*x-gx0MM:*)*Mx8Q8,Ys08Mi:*;x-i,FM0ii**WGFQ-0Y:GFQW)i:-QxW.-W8i*)-G,-8GQo:0yi)*0Y:xQg:0<Mi)xG*vxYY,GFx0_),WWQ)Y-,0Fx*QWQ:)8-,YsG8,)WWx:M-:xDF)8-WiQWG8Q-Y:,())W0xWQ8-Q,,)-8M:YG-Q0YW,xFM8:imH:0-D*YFMx)MW:Q))W0,M,)YW,:)-8x*<M8W:x):xFQ0Y*,W)G8x:G-)xQQ,,,F*W):--0xxMi*,GxiQ*8GW))0Q,G)YWF:-GQQ,00MW)xW:,)}*Y),W*,W8iW-QQiYQ,QF:W0:W-xx:i)FQ80iK-GQY-Z,MF:8A:-&G-Qx:U:GYi---xYQx,*QQ8xiM*:x)i*F80x:m)vGYQ00*,WFW8YOi-x,*zW8FiY*Wx,Q8Y,,0)Y8M)QWMQ0YW,xF:)5W0:,-QMM*GGs)G8L: Y),-FW-Q8ii!-8x,FG0WiY*ixQQ,-MM*0QM)*0GWQxY:WiM,*GGYQG0MxI)*8WiY*xx,QM0,M-*F8i*iGG=-00MW)MY-G8QY0F,W)YWF:-GGQ*Y;M))-WWGQQ:Yvi)FGG0:--Gx*Vi,Gbf8z:)--xWi8FYW*iQ-*,WI80,,M*QW,iMY*QQY-M0)WWx::F-0*MGF(M:t:YF,Fs,8FMW)iWGQ)Y:/G08Mn*)G-QW)i0*MW)8W0)8xFQi0WMx)MW4G-Q,YG,xF:WG:0-QQ(QMY:,%))W-:0MWiF8):YFYx*G,Q0YW*x-*:F*xxWox0MM1Fx0Wx,c,0YM,))W8:*-M,W0*,G)xWM::Y)80M8F08MQx8*xx/Q8*M:*FG,Q--9Z,YRi)*-G0Qx)/0YM-*-GY:x0,,8OW8QQ0*QG)L80)FY8FiM*:GV%-**0lMi):x*QW0YMY8FM0*WGxQMYJWQMi*,G8Q,0(,Q)*8-Q,-0xWQi0i,_8:iK-)x-700W:x,i-::i-i,-F08WiM WYF,)E0MFFiWW:x-Mxyi0)FWG:0YMxiQM0)Fi8F:--0xW>M-F8xiQ*xGG)x0,,Q*FGF:xY0,,OL0MMQWG:)-y,)F-8WGM:i*Mx))F0Wi,):WwQiY%A:0ei)*-G0QWYx8Hi:8;:)--x0RW0xMMIx-l)xY*,0FW0WWQ*:G,q)PQM0)WWxMM*,xJ>i8-iF*W0FQM-Mx:))8::0)*xxvM0:MyFiG-QFYW,WFM8MiU)LGGe00)Mxi8W::(Y)G-QQ8Wi-*MGWQD)GM-F-8G:x-Yx::,8)i-*0GWi*YM,WFL8j:---xWQWFQM:)GG)GQY0,WFxYMMG*lG,d-YQMWQFWMiM*M,)EM80MF*xGMQ:Ykx8)-8Q:W-WxMdM05,z)iG0:HYx08F:8h:))-GQRW0)MM)0W/,GY-x-SW8xi**:8,.)0-M0)W0*:M-0x=/X8-i-*WWWxQY:,8)))Q:0-Wxx:MY8M>)GG-:iYWWFFM0MMM-)GxJ0)8Mx)MW::o*M,-ji8WiW*MGMQ -E,F)08::xQ8x:hh8),-)iGW:SYM,-FV-G:-*-x-+x0FM:FQG)Q-Y0,WQ*8Mi-*.GS^-0-MWFW*Q::-Y,),Q80iW*x8MQxYX,8)-8,:WFFxMQM0,i))WG0M>Yx,MF:8DM=--G,PW0WMM)MWfiX-*,0dM8xW8*:GSb)--M))W8::M-)xeiG8-M-)QGx:QY:GW))W-:0-WW*SM0)M/)6G-Q-YWWxMx8ii,-)Wx!0F,MxFMF0:Q-i,-F*8Wix*M0:QY0),Q)0-W:x),x:Q:0xi-)GGWxMYM,:Fh0)M8-0G,nxYQM::GG):)*i,WfM8M,x*Zx)_-Y-xQ)x8i::)M,)F-80M0FoGM::YkG:)-W0:W-xxWvi0*i))-G0Q0YxxMj08jii--Gi^WYiMMQ:WGQ)-Q,0M-8x,W*:W:QF0-,G)W0x:M-:x3Q)0Mi0),Gx:QY:W8))8)MG-WGMtM-iMD*)G-:--x,xAi8:,M-)x-k0Y0,8),8::v):,-F08WMW)GGi:Q0)x))0WW:x-M-);U0Yi-)YGWQWYMx:M)WFiQ-08F+xYQM:Q}8xQ*YF,W,18MG,*98)Q)00M))x8)::FW,)f-0FiW*-GMQ,YI,i)-8-Mi-xGQ1:))i)*-G0iWY8,MFF8JiY--YQ<WYW,8):W)Q)*F,0FW8xMx**G%Q*0-0x)WWx:M*M*FF)0-i0)0GxQMY:,wsWW-iG-WGxSM0MMo))W-Q0Y),xF)8:i*-)G)Qi0W,i)M*I:sY),-Q008ix)QG:Q*0)8i)080i,-MGlRg-:i-*0GW:W-M,:FFW),?-0xWLxYx,,)QW)Q-*),WFx8Mi:*MxFQ800,W)xWx::*bxYF-0OiW*FGMQFYsG))FW0:)-xYWK:-Mi)))8QQW-i,MQ:8!:)--W0Q-0x,Q):W*Q)F,,0j08*iM)UGB:F0-M0)W8W:,-:xFF)- i0*WGx:x-,,QF)W-MY-WxxeMYM,i*FW*Q0*-,xFM8:i_i0x-QG0W,G)MWM:Z-)Y0FY8)ixfYG:Q*0)G-i-W8:--MY-h=)Qi-)-GjQx-Q,:iYW):--0G0Q80,,d)1YQQ-Y0,WFxF:i:*Fx)Qe00MW)x8xi,-Qx)F-)-iW*xGMQ:MGM)F0W0ix-xGM_:0D8-*-W8QWY-,MF:8g:)**x0Q,0x,i):WQQ)--YWF88*iM*,GHQM0-G0i0WG:--:G0F)-ii0)W*MQ,Y0,wFQW-i#-WGWGW0iM**)00Q0YW,xQM8Fie*Yx-QG0WGF)M8MiYY)x0F0Y-ix*MG:::Y0M-F8WW,,-Mx:%A8)MG*0W,Qx-i,:F:W)i-**xWj)0MMG)cWYQ---,)Fx0Qi:Q)x)+-00xWW,WM:F-9xYF-)QiW)WW:Q:Y)M)MiW0:W-xGxoW0>M**-*QQWYx,MaM8Y:)*-x0,F0xMM):Wa:GY-xGFW0xiM*MGZQ)YFM0FIWx:)-:x*F)--M**WG)QMF:,PpFW-i-YxxxQQ0:W)*)G-Q0*WxiFM8FiU*Yx-,Q0W,WFWW::)Y)W_F08Wix)xW<QAY*M-v)WW:x-MGMV*8)M-*08-QxYM,:Fg00:-*GxWQx0MMM)>W)Q*Y0xAFx8*i:**x)i-8YMW))WMGx-6W:F-0-M**xWQQ:*{M))-W0MW*YxMRF0eMY*-YiQW-W,-F:8):)F_x0>W0x,x)-Wq:*Y-G)FW8xiM)MG0>)Y-M0QGWx:M-:G:u-8-MY*W80QMY:,Z))MG:0*,xxQ,0:M:*)W-Q)YW,)FM*-iD*Yx-Q-YFMxFQW:MRY),-F0YWMW*MGFQ(YYM-:iWWiW*Yx:n)8),**0GWQx-xxHFa8*:-))xWDx0M,M):G):-Y0G8Fx8Mi:):WQn*YYMWc0WM::->,)xW80M,*xW,Q:Y:M)F-)W:8-)xMi80UMY*-W0QGYx,*F:8i:)*Mx0Q0Y)MM)FWH:xY-,0FWYxMM*:G*&)Y8M0:*WxMM*Gxm#Y8-MG*W8MQM-:,:))8,:0z*xxQQ0:,:)iG-:GYW,)FM8:i?))x)a0Y,MxFQW::)Y)G-MQ8WMi*MGFQ<*MM-F0)x:G-*x:_)8)M8*0WWGMY,,-Fp8Q:-*:xWQWQWMi)*G):8Y0,WFxYMi-*(GY_-YGMWQFWMiM*Y,) 080,-*xGMQ:-:,G)-88:W*:xMu:0Ti)FxG0:,YxxiF:8::)*-W,fWY.MMs)W1:YY-x-F08xMQ*:G*p)0-M0nW-*:M-FxE=Y8-Gi*WWW:GYi,)))Y>:0-WxxQxY)M!)*G-:0YW,xFM8:i*-)G8A0YGMx)xW:im-W,-sM8WGQ*MGFQhY),M)08i:x-Gx:+W8)M)):GW:iYM0lF#W):-)0W,1xYQM:)*G)xiY0x0eF8MME*7-,2-00MWFW*Q:i-F,),i80iW*xWxQ8Yp,))-)Q:W-xxMU:0Mi))8G0:WYx,xF:0y:F--G,!WY;MM)FWRM)-,,0bi8xGM*:8Q!)Y)xJ)W8i:MQ(xpF)8-,0)8Gx:QY:,*))*i:0*0G89,Y4MZ6:G-Q0YWxWcV8iiF-)86e00WMxFxWF:<-),-Q)8Wix*MG::x0),8)08W:x-xx:QI0)i-),GWQFYM,FFrY)i:-0GiNxFWM:hMG)M--Y,W1Q8M,A*<WF;-Y-,:)x8Q::)>,)F-80,WiWGMQFY_,Y)--i:W*WxW(:0)i)F*G0QWYxxx_W8ci*--W)hW0xMMFMWYQ)--,0Q-8xiM*:W::,0-,Y)WYQ:M-:xNF)Y8i0),Gx:,Y:,:))8-:*-WGQ(M*8M%)YG-:--W,xRQ8:iW-)x-m0-W,x)MWF: -Y,-:G8W,x*YG:Q*0),8)00m:x*MG,rr08i-+GGW:iYMW:F,W)iG-0-Qux)GM:F:W0Q--G,WM,8Mi:*px)QM00,x)xWx::-l,)F-0)iW)iGMQMYq,r)-80*:-xxFO:YMi))8G0:0-*,MFF8gG---x05W-xxQ):W*Q)-8,0iF8xMx)fGwQ-0-0Q)WWx:M*Mx*F)0Yi0:FGxQMY:x:F0W-i0-WY*UM0:M6*)WWQ0-,,x^M8:i:-)G-xW08,Q)MYi:}-Y,-:0F*iG*FG:,:0)08)0YW:--Mx*?fYYi-IFGWMx-Y,:FYW)WG-00YnxYx,x)/WYQ--:,WFx8M,:)-x)Q800,,)x*G::)NG1F-0GiW)iGMx0YT,)FWW0ii-xYGN:0*i)?---Q8-Q,Mi>8piK--G-u00G,Q):WWQ)Y-,0QW08iM*FGSQY0-8:)W0x:)-:x*F)08i0e)Gx:M-),UF8W-G:-WGisM*:,M*)WGQ0*:,x:M8:M:-xx-QG0W8Q)MW:: *#xFFY0xix*WG:Q70)M-MWWWi,-Mx*^v8)i-*0W8Qx-Q,:FFW):*-0GWY&0MM))%WQQ--:,WvW0:i:**x),000MW)x0M:*-LxYF-0GiWQ*GM:MYFM)F0W0GF-xxM^:Y:M-*-W8QWb*,MF:8lM+*ix0QW0x8Y):WAQ)Y-xWFW0iiM):G5Q{0-,0x_WGiq-:x0F)08i0EWWiQMY),1:)W-MY-WGWQW0:M**)-0Q0YW,xQM08id*Yx-QG0WW*)M8M:*Y)x0F0Y-ix*MG:::Y-M-F8WWM0-Mx:m+YNiF*0WWQx*W,:FIW):--)x8Qi0M,:)TWtQ--0,*Fx0>i:*8x)Q800GWF*WM:)-<Y:F-Y)iW)WWWQ:Y*M)9-W0:W-xWMn*0rMY*-WGQW)F,MDM0,:)*0x0:80xMM):8::WY-x8FWY0iM*:Ge:6FxMYFWWxMW-:x(F)0)MY*WWGQM**,%))W-:0):xxQQ0:,Q*)G)Q0-Wx,FM8)i;#,x-QG0W,W),W::*Y)xMF08WixFMWWQBYYM-FGWW,i-MW:D08)M8*0W,Qx--,:neG):-*xxWii0MMF)o0):iY0xMFx)*i:Qix)Q)-5MWFiWMGQ-E,)F-80,M*xW:Q:YQM))-W0:W*,xM.F0hMr*-G-QW-xF)F:8-:))Xx0Q,0x,x)GWE:YY-0WFW8xiMF:WQU)Y8M0F,WxxY-:G:QW8-MW*W-*QMY:,XU28x:0*Gxx,Y0:MP*)W)QFYWxxFM)8iq-)x-a0Y-MxFQW:ilY),)F00W8M*,G)Q#*FM-FGWW,xQxxiS-8)G)*0WiQx)M-:FQ80:-:,xWM80M,M)-G):8Y0x_Fx8Mi:FmxFE-YGMWFiWMG,-sG)Q:80M,*xWQQ:kWM)F-8M:W*:xM,,0DMY*-W-i:YxxQF:8W:)--x0:W08MM)FWA:YY-0:FWYx:W*:G*L)Y8M0Q)WxiM-,xu708-W:*WWiQM):xi))8W:0):xxMW0:,:FiG-:GYW0QFM8:i!)uWi!0YxMx)WW::cY),-Qi8WM,*MG)Q}0)M-)08,:x*Qx:hF8)i**0G),MYM,MFK8W:*-YxWAG0MMxi:G)Q-Y0x:FG8,i:*M-5O-00MWFMW,:i-}WM*i80i0*xWQQiYQM)FYW0:-QWxM^:0kMY**GYQWY00xF:8S:)*0xY>80xGMiMWQ:8Y-8WFW*8iM*WGQRF0FM0W*WG:,-:xqF)0qW-*WGxQM,G,Q)FW-,O)ixx_G0:),*FG*Q0-G,xFW)Mim-)x-0F08MG)M8MQWY)x8F00,ix*MG:iNY-M-FGWWii-M8Y 5Y?iF*0WxQx*W,:F;W)i)*-xWQ,0MGF)VG)Q-Y0x:Fx0Qi:*Fx)_)00,WF,WM:--%W0F-0GiW)W8QQ:Y*M)MQW0:W-xWMQ/0gMY*-WGQW)F,MNMii:)*0x0:*0xMM):W<:,Y-xGFW8WiM*MGJ:B-iM0FxWxG8-:xhF)Y-i**WWMQM-#,q:GW-i-*-xxQi0:MG*)G-Q0YW,WFM0qil*Px-N-0W,W)FW::FY)YQF08WixFMY8QyY*M-F8WW,F-MGMQi8FM-*08*QxYM,:FzY,:-*8xW?W0MMM)90)iGYYx,Fx0)i:F8x)Q-YWMWFiWM:,-yxMF-0-i8*xWMQ:F)M))-W0MW*MxMQ:0&M)*--QQW-Wx:F:0Q:):ix0vW0x,x)xW^iUY-YQFW8xiM)MG,I)YFM0iFWx:M-:x3R:8*M0*WW8QMYM,AF)83:0*,xxu)0:,V*)0-iMYWxiFM*:iA)Fx-Q-0-MxFMW:x)Y),-F0YWiF*MW:Q{Y)M-iQWWiW*Hx:QQ8)xB*0GWQx-xx*F/0o:-))xWox0M,MFiGF:FY0G-Fx8Mi:*rG:&*Y0MWF8WM:M-Xx)Q:80M,*xG*Q:->M)Q-0x:W*ixM,x0Sx:*-W-Q8YxxMF:YP:)--x0:WYFMMF:W1:)Y-8iFW0Wi-*:WQ )*jM0)WWxix*,xtQN8-,,*WGxQM-MGF))8F:0)8xxIM0:,:)GG-:)YWG0FM8:iD-)GQg0YWMxFWW:::Y)x-S88WMi*M08Q+Y)M-Q08F:x*:x:Q08),:*0WW:FYMx_FE8Q:-*GxWQWY-M:F3G)M0Y0,WFxYMMd*+G)X-Y0MWQFWMiM*W,)E*80xG*xGMQ:-:xx)-8-:WF,xM<:0Zi))FG0:WYxxxF:8::)*-x)6WYMMM)GWp:)Y-x-EQ8xMM*:Y)o)0-M0AWW8:M*:x(_)8-WQ*WWW:0YixQ)))i:0-WxxQx0iM;FeG-GQYW,xFM0MiW-)GFJ0FFMx)MW::j*G,-I08WM8*MGMQ}Y)x:)08x:x-)x:Q^8)x-F,GW:MYM8:Fo0F:-*-GMTxYMM::)G)Q-Y0GW8,8MM:*IG)!-FQMWFW88::*Q,):g80iW*xWxQ8Y#xU)-0):W-xxMQM0Gi))FG0i-Yx,MF:8JMc--G01WY8MM)MWq:)--,0_x8xi**:Wp%)*-xi)W8M:MQxx}::8-M-*nGx:MY:GR))W-:0)W-WaMY:MN))G-,iYWxWk-8:MQ-)8YP00WMxFxWM:f*O,-Q)8Wix*MWM:80),F)0YG:x-Mx:Q:Y,i-))GWi0YM,:F^W)M:-0GWSxYWM:):G):--x,WfM8MG-*(G)P-Y-ME)x8M::)N,)F-80,WiWGM::Ys,))--i:W*WG*j:YQi) XG0QWYxxx%F8(Mk--08#W0xMMFM8,Q)-F,0Q-8xiM*:W:QG0-,))W-,:M-:xeF)0xi0)WGx:WY:,:))8-i,-WGM2M*8Mr))G-:-YQ,xTM8:Mi-)x-(00W,0)M8i:E-Q,-F08Wix)8G::70)M))0W0:x)MGM#H0)i-)0GWiFYMx:5iW)i0-08Q6xYMM:F:WQQ--0,WB88Mi:*9x)QQ00,8)xWG::-#,)F-YiiW)xGMQMY+,D)-00iF-xGMo:Y}i):WG0:W--,M<?8qG0--G0;WYWi-):85Q)-F,0FW8xiMi<GqQF0-M*)WWx:M-:WGF)0-i0*0GxQxY:GZi,W-i0-WGxAM--M())*0QY-x,xM08:M_-)8-,-08,M)M-Y:P1),-40FxiG)iG:Qi0),8)08080-,G:tP--i-*0GWixYG,:uBW)i--00Q7xYx,5)RWFQ-*Y,WFx8MMM*xx)Q)00GG)xWM::-6xQF-00iW)WGMQMYX,)N,W0iG-xx8N:Y+i)))8iQW-x,MMR8!:)--W00G0x,M):8HQ)ni,0R000iM)iGax,0-M0)W8W:0-:G:F)Fii0*WGx:xYx,E{QW-WQ-Wxx}M0:M0*)W-Q0-Y,xFx8:MI*,x-Q80W,%)M8::t))x-F00GixQMG:MM0),)*WWWix-MY<uz8)i-F08iQx-M,:t&W)Gi-0G0lF0M,i)t0:Q-Y0,W5W88i:):x)i400MW)x8x:Y-3GQF-Y)iW*xGMQ:-*M)F-W0iY-xxxO:YLM-*-W8QWYF,MN:87,)Y*x0QG0x8W):0MQ)-)GOFW0xiMF:Grb)0-x0_5WxiM-:GvF)*,i0)0WkQM-i,jRFW-:0-WGWQ,0:,:*)0aQ0YW,x5x0xio)Qx-i80WMx)M8MiGY)GaF0Y-ix*MG:Qzx8M-F0WWi0-MxM790)M,*0WGQxF),:eZW)i)-)xWQx0Mx:)?G)Q-*0xxFx0Mi:)2x)M,00,0FWWMii-?W:F-80iW)WGxQ:-:M)}*W0:W-xGxQ,0X,Q*--YQWYx,MgM:,:))kx0:-0xMM):Wni,Y-x0FW00iM*MGOQ)0*M0FGWx,Y-:GZF)0)M8*WWxQMF*,_))W-i-**xxQ,0:MM*)G-Q0YWGiFM0Min*-x-o00WMxF0W:i3Y)x)F088ix)xx0QNY)M-i,WW:x-MGMQi8FM**0G-QxYM,:Fc)-:-*-xWQ,0MM:)/G):*Y0xWFx0xi:*Qx)Q:MFMWFiWM::-g,FF-8-iW*xY:QiYTM)F,W0:W-xxMM20Qi)*-GFQWYx,MmMWW:)*0x0Q*0xMM):8:iQY*x8FW8-iM*:Gc{)X0M0FWWxiQ-:x_F)8-MY*WWMQM-:,2)FW-M0Q-xxQ:0:M8*)-:Q0-0x8F,0:i9HWx-}00WMx,%W::)Y)x-F080ixFM-xQ.Y-M-FWWW,W-Mx:,)8)M-*0W,QxYM,:F<8F:-*WxWQx0MMi)_G)Y:Y0xxFx8Mi:*_x)Q:MFMWF,WM:M-%,FF-8*iW*xY:QiYVM)FWW0:W-xxMMs0Qi)*-G*QWYx,MF:-):F--x0S)0xMM):8RG-Y*xWFWY,iM)QG9QM,QM0FGWx:,-:xQF)8*i0*WYMQ,Y:,DFWW-:0-WGxx:0iM)*)8WQ0-G,xF0iGiS**x-=)0WMG)MWi:HY)80FY8Wix)PG:Q30),-MWW8iM-MGYw20*i-)TQ*Qx-i,:F,W):*-0x8;x0MWO)QG)Q--,,WFx8MM::)xFQ000WM)x8i::-x^iF-08iW*8GMQiYDMF)-W0xx-GxMw:0-i)*-G0:WQM,,us8q:F--G85W0x0:):WFQ)-:,0FW8xiMieGZQ)0-,W)WWx:M-:0MF)0Yi0*YGxQMY:,yMQW*:0-WxGZM0:MP)iW:Q0YW,xFx8:i_-)xFQV0WMx)MW+x-PY00MGF:i8*8G:Qs0)M0Mx*QWQQGx8p28)i-)-G3QxYM,:F:W):--0WWM*0MM:)yG)Q-YY,WF-i8i:*Qx)&-00M8)xWx::-z0xF-80iW*xGMQ:YvM)iMW0:W-xx,&:0Oi)*-G0Q8Yx,MFM8g:F--x0,Y0GMM):WQQ)Y-,0FW8GiM*:GqQG0-M0)WW8iW-:xVF)80xi::*QxY_x0*M0*8,,QFY-x7)F8xi0YGxYQ00iFM8:i9-)x-{00Wix:iW,::Y),-F08xGG*GGxQk0)M-)W*)Gi:ix,t,8)i-*0Gx,Qd,YMi*8Qi:-0xW?x0:GFX--FGQ*M,WFx8Mi:*Ex)K-00MW)xWM::-j,)F-80x*QxGGQ8YTM))-WW,FQMY:,*)*80FQG0QWYx,MMW8%:)--x0{W0xMM<:-GQ)Y-,0FW8xi,*:87,,0-M0)WWx:M-,xqQ)8FiY*WGxQMY:,W))W-W#-WxG!M0iMR*)G-i0FF,xF,8:iQ-)GQ+0-WW*)MWi:+YF,-F*8W,xQYG:QQ0)M*)08Q:x-00xRQ8Fi-),GWQGYM,:F>8:G)-0xWsx0FM:)QG):.p-,WFx8MMx*_xFz-008))xW,::-Q,)F-80M0FiG,QMY&,M)-W0:W)xxx&:0:i)*)G0Q-YxxxFx8>iQ--x-EW0xMMFM8+Q)-9,0FF8xiM*:W:Q,0-MF)WW*:M-:xLF)8*i0*)GxQMY:,S))W-iF-WxWRM0WMU)mG-:0-W,xF,8:i,-)x)%00W88),W::XYF,-F08Wix*MG:Q!0),m)0WW:x-GxG!B8)i-*WY,M:1,0GFi8Y:--0xWEM*-WY:--0x*Qm0Gi_),WQ:v-0zF0)MW)xWM:aQx0Y,Y80iW*xGMQ:YuM))-W0i6-xxMh:0D8M*-G-QWYx,MF:8;M{-Mx0oY0xM,):W7Q)*-0QFW88iM*,G2QQ0-,-FYWG:W-:xMF)8-i0*W*MQMYG,h)FW-:0-WxxGS0:Mi*)WQQ0Y0,x!MFdiQ*3x-2-0WM8)MW:GiYF,-F088ix*MG:Q:0)M-)0WWiG-Mx:+c0Qi)*0GWQxY:YmFi80:--0xWAM*QWYiY-FG:v88i,:F,WxQ*GQQQ00MW)xW:MFQxYY,Q8*iY*xGMQ:0)00MYW*:0-xxMg:8)W0*FWXQWYx,MFq-QWiQ,Y8,,08M8):W2Q)Y0WYMi)*W0*,GG3)0-M0)xY0G,QW0*MGFxi**-GxQMY:M):,)8Wx-YxYtM0:MA*-YMx)<QYGFG0Mi^-)x-jW*88Y:**Qx*F0YxMi))8Q:-YYx0FY0:i,)8:8-xx:Ab8)i0:8GYQxYM,:Fn8Q:)-0xWKx0:8*)lYQMF)*WY:8-GF,BFGQ&)00MW)xW:G)-ixFF-80iW*MY>,FQA00:W)MGQQ-YF,0)88W:8*KxiQGGFF:8j:)*)0*aW0WMM)xW+Q)Y-,0Q:8xiG*:Gzw)YQM0)W8Y:M-xxXF)8-i0*WWx::Y:,i))W*:0--xxiMYQMb)QG-:0YWx,FM0MM0-)GX;00YMx)MW:MZ-),-F)8Wi0*MGMQ4-)08)0W-:x-Wx:jW8)M-**GWQ8YMx!F.8::-F0G*5x0GM:),G):,Y0,WQO8Mix*.x)k-0YMWFx8x::-M,)J*80i8*xWMQ*Y%,Q)-8x:W-0xMk:YGi)*)G0Q0Yx,xF:Yjix--x-gW0WMM)-W_Q)-Q,0F08xix*:GQA)0-M*)WWW:M-ixoF)8-MfQxGxQxY:xM))W*:0-8xx!WFMM^*)G-:)YW,GFM8xW:-)x-f0*:Mx),W::;QM,-F-8WiG*MG:QE*M:i)0W0:x*-x:%Q8)M8*0G-xWYM,:F60x:--YxWw0FxM:)>G)MxY0,8Fx0x:0*}G_}-0)MW)xWM::G*,)FF80iW*xG8Q:YsxQ)-W):W-WxM?:0;,)FWG0Q-Yx,WF:8x:))-G0.W00MM)xW9:,Y-x0pi8xiG*:GQa)YAM0QW8E:M-,xUN)8-M8*WWWQ,Y:,M))WF:0-Wxx:M00M_):G-Q)YW,WFMY:MY-)GPs00-Mx)-W:i(*x,-F*8WMM*MGxQg*)8))YWY:x-8x:188)i-G5GWQ0YM,:F5WF:-*0FQ_x0WM:)YG)Q*Y0xW{G8Mi,*sG0Z-0)MW)xW0::-:,)F)80i0*x8MQ,Y},Z)-W-:W*XxMJ:Y0i)*)G0Q0Yx,,F:8RWQ-*x0VW0GMM):W/:qY-,0FW8xi,*:GAo)0F,:)WWx:M-z8)MFFGWY::-0xQY,,p))W-:0Q)xx4x0:Mj*)G-Q0-WYMF,8Mig-Fx-yY0WMxiGWi:TY),*F08Wix*xG:Qj0)M-)-WW:x-Mx,L88)i-*0GxG:=Y0*M-)WG*:lYG4808M:)JG)Q0Fx0,,xFniW*qx)<-008))xWx::-!,)F-80M0-)GMQ,YqMF)-W0:W-x-:_:0Mi)**G0QWYx,MQ88/iQ--x-1W0WMMF:*)QFY),0F08xiG*:G xQ0*M0)WWG:M-:x 668-i0*WGxQ0Y:,g))WF:F-WxxnM0AG-:Y*-GxYY,xFM8:i}-Fx*.Y0WM8)*W::SY),0,x)F8Qic--xQ6M8Y)*8I:x-Mx:F)*-W*i,-8xr9W8F+3W):--0xW,-0MMM)VG)Q-Y0,W=WW-i:*ix)QQ00MW)xWMWL-Ex:F-8YiW*xGMQ:*GM))FW0:0-xxxd:YT8-**G-QWYG,MF,8biM-*xY/80x,Q):WQQ)Y-,0F-)WiM*:G6QY0-MY)W0-FY-:xQF)0xi0*8GxQxY:,MMlW-:0-WGEIM0iM#):-)Q0YW,xBQ8:iQ-)x-xl0WMW)MW::%Y),-:0)0iG*xG:Qx0)MF)0W-GW-Mx:uc0*i-*YGWQxp0,:F:W):--0xW;x*M8M)QWuQ--1,WF08Mi::ixF!-00M8)xWM::-:,)F-80iW)MGMQ:Y(,QF:W0:W-xx:iiF,WG:Y-GQYY),MF:8z:-J0YG,io:8Yi-80:Q-Q,0FW8xi::=-QxMFWM*FxWx:M-:,),W)x80:Q*QxFFF0-iF*WM-*FG*;G0YM5*)G-QWQM0*MF))W0QF-:,80YMY)MW::kY-YW,YF1Wi*GG8Qr0)M-)W)iW:Q)Yi,x)*iF)GGWQxYM,_:Y)xWxQY-M,iFF8::*-YGWQ,,YF08Mi:*nx-x:FG0G)88:::-2,)F0-YW*QF-i,F)08YiG)xxiQG-xMF0iM,*-G0QWYM00MF),GWQ8-MkY0-MM):WPQ-)*0,MF)-WF*:GAT)0-M0)WWx:M-:xiQZ8-i0*WGMM,pG88i**8xMQ,YQxp*08Gi8-*Gxt80*M0)tia-)x-30F)Mx),W::#Y),-F0YWG**MGiQe0FM-FxWW:xWGx:kQ8)i**0GWQxY0,iFQWF:-*)xWgG0MM:)^W:x)Y0,WFx0Wi:*Qx)_-&&MW)WWM::-X,)F-Y0GF*xGxQ:Y:M)FMW0i0Y)xM7,0BMi*-G0QW*x8YF:8M:)-*x0680xMM_8Wk:QY-,-FW8WiM*:iiP)0)M0)0Wx:G-:xxFF8*i-*WW0QMYi,=))W-:)Q0xx1M0:,M*)G*Q0YW)-FM8,i;-)x-E*0W,x:QWi:iY),*F080ixFMG-QaY:M-)YWWiy-MG:Qj8)iF*0W:QxYW,:Qp0,:--)xWPG0M,Z)_W)i,Y0,YFx0:i:*Mx)_--,MW)8WM:M-g,)F-0-i.*xGxQ:YxM))-W0:W:MxM^,0Ki)*-G0QWYxGYF:8::)-)x0X00xx0F*W2:PY-GMFW8GiM*8GgQ:F)M0)WWxi)-:xQF)0NW-*WGxQM),,B)FW-M0Q-xx!x0:MR*)GFQ0-0x8F,8xiw*:x-d00WMx,{W:::Y)x?F080ix*0GiQQY#M-L0WW:G-Mx:R{0:W)*0GWQx*M,:FQW)ioQ-xW9x0MG,)zGFQ-Y0))Fx8xi:*ox)yF00,0F8W,:,-Bx:F-80iW*x*:Q:YMM))-W0:W-xxM8801MQ*-G*QWY0,M(:)):F-)x0S80xMG):8:8:Y*,*FW8WiM*:G#:)YWM0)YWx:G-:x8F)0)M,*WG0QMYF,N))W-i-*GxxS80:M**)G-Q0YW,GFM8,i4*ix-w-0W,xF)W:::Y)xxF08Yix)xW-QUYQM-)-WW:x-MW:iF8)iF*0GYQxY*,:=:0}:--)xWQi0MM:)U82i:Y0,*Fx0Qi:*5x)t-0)MW)8WM:G-.x/F-00iF*xGxQ:Y)M))FW0:W*ixMeM0pMU*-G0QWY0xQF:8d:)Q8x0280x,x*0Wh:IY-xgFW8xiM*:-);)0FM0)WWx:M-:xy:,8-i-*WGWQMYM,&QM0G:0-0xxi*0:MQ*)WGQ0Y-0WFM8:iIyGx-KY0WM0ixW::LY)0WF088ix*McWQ.Y1M-)0WW:8-MGMQi8FiF*0G-QxYM,:FB)-:--)xWZx0MM:)+G)YiY0,YFx8Gi:*Mx)Q- WM8)WWM:i-qxQF-0-0-*GGGQ:Y:M))-W0MW)nxM ,0&MQ*-WiQW-W,YF:8M:)*8x03W0x,xF(Wv:iY-xGFW8xiM*:GMO)0FM0)*Wx:x-:GbN88-i-*WWkQMY,,kp;8):0-YxxVx0:Ma*)8-,8YW,8FM8,i;*Gx-Q-Y:Mx)WW::*Y),-F000,P*MGGQqYYM-)0WW:x*:x:Hi8)MQ*0G0Qx-MxYF?8m:-*WxWo80MM:FWG)Q)Y0,0Fx8Mi:*MWQD-00MWiiWM:i-f,)G880iW*xGxQ:YhM))-**:8-xxMdi0qi)*-GYQWYx,MF:0i:)--x04YY4MM):WRQ-FG0i,x)iGh::Y*xiF8M*))Wx:M-:,),x),WYi:*QQGY-,3))W-:WeMYixMF)GM:G-xxGq-,8F08:i5-)x0iWs:WFi8-F:i-x,-F08WiMQuYFGlZ0GxMQ)W:8*,x:{n8)i0:8-,G:*F08MM),WxFW-:,*F8G0:8*0x-Y*,-Fx8Mi:-)8FxG*iMYFQWM::-!,-:*)FWQ:,-QMxF88Wi8*):Y*,xM7:0li-QG-,G:>*0WMx)QWMQY8Wx:)F88:FWi:8Y-,0FW8MGdQF*Kx0*x0GMM):GYQWxiVM8-i0*WGMiFH80MM,)x:**Mxx3M0:i)rF*QxiPG0iQ))FW-:0-ixy0Y,Q)MW::lY-8WMGFW8:FF-8xMZ,0xo,WY:F-Mx:zU8-G8?YYiG:U)08Mi*Y:F*xxWjx0MMRzY-GG:QW0Q,Q-iW-:G-YxM0*,*)xWM::Y)88MGFMWF:0-Wi-F80WQ**FGQQ,YQ:*FG8:ii*MiiY8,FF:8l:)-00Gi8*,8):Y--xF.8Yo,M88M6*:G=S)00GYi*-FGi2FWY,,F^8Qi:8QQG-i,h))W-:WF:0FMFF,WFiW*iGGm)0:QF)8WM:,-x:,B0Mx)MW:i:Yx,-F-8WiW*MG:Qg-VMM)0WY:x-,x:qa8)i-YMGWQWYM,MFc8::--)Y0<x0MM:iFG)Q*Y0x0))8Mi8*!GMn-00MW)x):::-W,)F*80iW*xGMGmY1,G)-WF:W-xxMf:?-i))iG0:QYx,xF:8x:F-*GQ(W{,MM)iWmQ)Y-,)M08xiM*:-F/)0*M0F0G):M-0x.VT8-i0*WGxG:Y:,8))8::0-WxxrMG-MD)xG-Q-YWx<FM8xW:-)x-c0(,Mx),W:i:Yx,-hG8WiG*MG:QB0)kF)08,:x*Qx:B,8)M:*YG8:iYM0FF4WF:--0xWK0FxM:)kG)G8Y0,8Fx0x:0*=GY9-0-MW)xWMiMYW,)T080i8*xGMQ:Y>QQ)-8W:W*MxM;G07i)YxG0:,Yx,xF:8F:)*2Y-qW0xMMi*W%QFY-G0M-8xMx*:WQ?)YiM0F088:,*xx(3:8-i0*WGxWaY:x:))0>:0-0xxu00iMQFzG-iGYW,GFM8:it*:Y)b00WMx+QW::QY)x5M-8Wix*M8,Q60FM-+0*-:x*xx:QQ8)Mi*0W0:8Y,xxFh8*:--0xW6xQsM:F:G)ihY0,0Fx80Gj*6WXX--*MW)GWM:i-5x:M)80iW*x8GQ:YQM)Fz*-:W-xxM:G0=iF*-W0GxYGx,F:0i:)*ix0_-FWMM):WmG8Y-,YFWYxWW*:W:A)Y*M0)FWxix*,xQQ:8-i**WGxQMY:Y-))8):0*-xxsx0:Mx*FG*:-YWWQFM8ii.-)x-E)F0Mx)MW:MYY),*F08-WW*MG:Q_)MM-)YWWMxQWx:Q:8)M**0GFQx-xx,FQ0::-*MxW<x0MM:M-G):)Y0x-Fx8xi:*x0-L-Y-MWQ-WM:i-V,FF-8)W0*xGMQ:)xM))*W0MWQ0xMQM0vMF*-WQQW-WxGFi0M:)*Qx0!W0xMMM)W#i2Y-x)FW8WiM*W0){)Y)M0Q)Wx:,-:xQF)06W-*WGxQM)W,f)FW-:)Q0xx6M0:GW*)G*Q0-WYMF,0iij*Yx-QQ0WM0ixW::kY)YGF088ixFM-xQI-tM-FYWW:*-MGMQi8F,5*0W&QxYM,:FvF0:-*-xWQ00MMM)JWM,0Y0x0Fx*Gi:*Qx)X*00M-iWWM::-&0QF-8YiWFx-WQ:-:M)F*W0:F-xGxQ,0Q,:*-WxQWYx,MF:F-:)*)x0Q-0xMx):Wx,-Y-x-FW*8iM*iG<nF0-M)i0Wx:M-:0iF)8*i0*--WQMY:,qiiW-:Y-WGxx:0i,Q*)W)Q0YF,xFW)MiX-)x-x,0WMG)M0:GMY)x)F008ix*YG:::-QM*F)WW:F-Mx:Rr8)0W*0W0Qx-W,:F:W)i:SWxWQW0MW*)RGFQ-YY,WF0)xi:*Lx),G00M8)xWWGM-2,)F-)GiW*GGM::u)MFF*W0iW-xxY.:0M85*-G0QWQQ,MFi8qM):Ix0Q00x,,):WGQ)-)x*F800iM)9G_g)0-M0,MWxix-:GMF)8)i0*)GGQ,-M,bM:W-:Y-WxxjM0x8:*)G-Q0a-,xF,8:M :-x*QY0W,Q)MW8:a-:0)F08Wix:FG:QQ0)x-i)WWiW-MGiJ+0,i-)-WYQG-W,:9QW):--0xWG:0M,M)s8:Q-Y-,WF-*:i:):x)xx00M8)xW,::-MYLF-80iWicGMQiY/,:i)W0:W-xYF>:0Qi))-*WQ8-G,MF*8ai,--G^M00x,Q):8GQ)Y*,0F08xiW:MG#1)0-xQ)WWG:M-W0:F)0Mi0)xGxQ,Y:,:))8qG--WxxLMY_Mh*FG-:!F0,xFx8:iM-)x*c000Mx)W*M:bY),-F)8WiG*MG:xi0FM-)0W8:x-Mx:I:8)i-*0GWQ0YM,:Fg8Qi:-0xW_x0:8*iW*:x*Qx,YFW8Mi:*fx-::0*MF)xWM::Y)Y8,WFMW8:--iQ,YGM))-W0:xQGY-MYFQ8WiGWYQWYx,MF:)):)-)x0uW0xMM):8:QxY-,*FW80iM*:Gv:Z0MM0)-Wx:G-:x<F)Y-WQ*WG0QMYx,>)FW-:0:xxx980:MQ*)G-Q0-0x8F,8Wit*vx-E00WMx:8W::MY)x:F08Wix*M,WQ<YQM-)0WW:Y-Mxx,:8)i-*0W,QxY,,:Fx--:---xWQ:0MMi)6GFQ-Y)00Fx8Mi:*-x)I*00M-iWWM::-}xYF-8YiW*xiGQ:Y:M)))W0:F-xx0MM0aMQ*-WiQWYG,MFM8%i:Q)x05W0xM*):WQQ)Y-*GFW8WiM*MG6_)0-M0iYWG:M-:xQF)8-i0*0GxQMY:,6FWW-:0-Wx8QM0:M/*)G0MGtQYQM,)WGFF0Y*xMF,8QMe*iGGQM,FqQ8Wix*MGviYPW88ii)MGi-GxMw28)i-*W*xQ8Y),:FAW):0_x-G,iFQ8WQQ*Mx0QQ,YFW8Mi:*>x-xG0*M-)xWM::Y)YMM8F8iY*YGMQ:YRM-Q8)4W,QYxGNM0Ei)*-GWxGY8,xF:8{:)-0-x<Y0WMM):W{Q-mWx0FW8xiM*:-Y})0*M0)WWx:M-:W/yz8-iY*WGGQMYM,m4)03:0-Yxx3M0:Mi*)W):MYW,0FM8xi(-)x-:000Mx)WW::MY)x:F0YW,Q*MGGQ#0)M-FiWWMx)Qx:.x8)i-*0G*Qx-xxxFf8,:-*QxWsx0Mx:FxG):iY0,FFx8,i:F+Go3-Y:MW)xWM:--w,)YF80iF*xGYQ:YWM))-Fx:W-0xM580hMk*-80,FYx,8F:8v:)*Mx0+WYYM,)iW7:iY-,0FW8x8W*iGQI)0-M0)WWx:MQ,xQF)8-iY*WGxQMYi,I))W-:0)QxxIM0:Mi)FG-Q0YW,MQ)*YGY:QYYxMFF0ii0-)MYQ,YR,QF:,Q*GGxQ30)M-)W*)Gi:ix,%,8)i-*0Gx,Qb,YMi*8QiQ-0xWmx0:G=iG*MGWY0,WFx8Mi:*rM)GY)0MY)*WM::-S,-:GFQW-:*-):*Yi,i)-W0:W-M0/MFpA80*F8QQWYx,MF%Y0GGQGY*,GV58YiF*xx0FWYMMQ)-WF:0Y8xWF80aii)G:G-WxUF)8-iWQ,0:x,hGx0FQ8::0-Wxx7:-*8M:F-Gx*YYxQFM8:iV--0W,GLW0:JF*8GMQ,YxQ,8YiF*MG:QV0-WWiG)WW:FFYix:)YiF*FGWQxYM,/Q*)MW8QFxYQx0MM:)VG-MxQQY:M:)QW-dYYFx)FGW(iG)MxFQMxQA880iW*xG:i-AG0WiW*GW:FQYY,xFG8WFGG*QFYx,MF:W)xxQ,-M,,F-03),W7Q)Y-,0FY8)iM*:G?X-F00MiF*Y,)FQW0F)8-i0*WGxQMY:,())W-:0-Wxx>M0:ML10Y-Q*-i,xFM8::)p8-ixGb:8QiQY*x8QMYGF*0Qix*MG:E)*F0:M,)MxFQ00*M*0QMQ*0GWQxY:WWi8)iG8-*Gi7x0MM:*)Y0x8Q0YM:eFQW):--,x:00MW)xWM::-B,))-*8x,*xGMQ:-:Mx)-WY:W*-xM<:0;,):iG0Q8Yx,,F:8::)*)G*c80WMMF0WdQ)Y-,0QF8xi,*:G:z)0)M0QW0Q:,-ixoQ,8-MM*WWxQGY:,Q))8-:0-WxxQx0)M}){G-:TYW,xFMY:MW-)x) 000MxFxW:i:*M,-F*8WiY*MG:Q&-.xx)0W-:x-8x:#+8)M)),GWQYYM,GFuW):--0x-qG0xM:),G)Q)Y0xW7-8Mii*HxFu-0-MWQx0I::-Q,)JM80,Q*xWx::Y_,T)-8.:W-xxM::Y0i)*)G0Q0YxxxF:0:Mi--x*.WY8MM):W?iT-0,0F-8xMG*:Gsk)Y),*)8WY:M*,x_F)8-i0*-GGQxY:,,))W):0*WG8DM0iMJ)*G-Q-YWWxb}8:iQ-)G0_0YYMxFx8*:(-h,- i8Wix*M8::Y0)M))0W0:x-xx:Q:0Ri-**GW:FYM,:Fn0?iY-0x-wxYGM:)JG):)!M,8FY8MMY*(x)}-Y-MY)xW0::*i,)F-80iW*FGMQMY1,M)-W-:W*xGG^:0Qi)*FG0Q0YxxxFG8%iq--GGdW0xMM=:W0Q)Y),0F08xiW*:8}Q,0-M-)WWW:M*GxD9)QMiY*8GxQWY:,:))Y-Mu-WxGTM08Mb)FG-:--8,xFx8:ix-)x-z0-WMF)MWM:D-N,-O-8WMW)FG:Qi0),F)0WW:x*xG-SD0:i-)*GWQxYMxMaiW)iQ-0GYox0MM:)O)0Q-Y-,WFY8MiM*3G)x00YM8)xWF::-:,):-)-i8*GGMQ)Y4x:)-W00,-xx,s:0:i)*-G0QW&8,,F:87:F--x0qW0GMM):W!Q)");local n=o.CUhZkoqY;o.xurrZASJ(function()n=n+o.GJcbkRsj end)local function e(e,d)if d then return n end;n=e+n;end local d,n,s=r(o.CUhZkoqY,r,e,k,o.nqSbYmSo);local function f()local n,d=o.nqSbYmSo(k,e(o.GJcbkRsj,o.EioAxQhf),e(o.SFkrFUTi,o.ShXFBdFX)+o.BEZLyErg);e(o.BEZLyErg);return(d*o.cxeVllnc)+n;end;local c=true;local c=o.CUhZkoqY local function y()local e=n();local n=n();local l=o.GJcbkRsj;local t=(d(n,o.GJcbkRsj,o.kRCc_OPk)*(o.BEZLyErg^o.KHEhUHZE))+e;local e=d(n,o.CloCIFQF,o.KZgvklfU);local n=((-o.GJcbkRsj)^d(n,o.KHEhUHZE));if(e==o.CUhZkoqY)then if(t==c)then return n*o.CUhZkoqY;else e=o.GJcbkRsj;l=o.CUhZkoqY;end;elseif(e==o.UDBmOsvi)then return(t==o.CUhZkoqY)and(n*(o.GJcbkRsj/o.CUhZkoqY))or(n*(o.CUhZkoqY/o.CUhZkoqY));end;return o.iZzVHdnr(n,e-o.aQffAmWI)*(l+(t/(o.BEZLyErg^o.ISfrduZL)));end;local _=n;local function p(n)local d;if(not n)then n=_();if(n==o.CUhZkoqY)then return'';end;end;d=o.POUpzXnE(k,e(o.GJcbkRsj,o.EioAxQhf),e(o.SFkrFUTi,o.ShXFBdFX)+n-o.GJcbkRsj);e(n)local e=""for n=(o.GJcbkRsj+c),#d do e=e..o.POUpzXnE(d,n,n)end return e;end;local _=#o.iYu_zlop(b('\49.\48'))~=o.GJcbkRsj local e=n;local function le(...)return{...},o.dRwShvkL('#',...)end local function te()local k={};local e={};local b={};local c={b,k,nil,e};local e=n()local r={}for t=o.GJcbkRsj,e do local d=s();local e;if(d==o.GJcbkRsj)then e=(s()~=#{});elseif(d==o.CUhZkoqY)then local n=y();if _ and o.CQVrOyCj(o.iYu_zlop(n),'.(\48+)$')then n=o.BxLTvlPQ(n);end e=n;elseif(d==o.EioAxQhf)then e=p();end;r[t]=e;end;for k=o.GJcbkRsj,n()do local e=s();if(d(e,o.GJcbkRsj,o.GJcbkRsj)==o.CUhZkoqY)then local s=d(e,o.BEZLyErg,o.EioAxQhf);local a=d(e,o.yxfYDsPk,o.ShXFBdFX);local e={f(),f(),nil,nil};if(s==o.CUhZkoqY)then e[l]=f();e[h]=f();elseif(s==#{o.GJcbkRsj})then e[l]=n();elseif(s==u[o.BEZLyErg])then e[l]=n()-(o.BEZLyErg^o.wOSPUFkf)elseif(s==u[o.EioAxQhf])then e[l]=n()-(o.BEZLyErg^o.wOSPUFkf)e[h]=f();end;if(d(a,o.GJcbkRsj,o.GJcbkRsj)==o.GJcbkRsj)then e[t]=r[e[t]]end if(d(a,o.BEZLyErg,o.BEZLyErg)==o.GJcbkRsj)then e[l]=r[e[l]]end if(d(a,o.EioAxQhf,o.EioAxQhf)==o.GJcbkRsj)then e[h]=r[e[h]]end b[k]=e;end end;c[o.EioAxQhf]=s();for e=o.GJcbkRsj,n()do k[e-(#{o.GJcbkRsj})]=te();end;return c;end;local function de(d,n,e)local t=n;local t=e;return b(o.CQVrOyCj(o.CQVrOyCj(({o.xurrZASJ(d)})[o.BEZLyErg],n),e))end local function p(m,k,s)local function de(...)local f,j,_,ne,u,n,b,g,z,y,c,d;local e=o.CUhZkoqY;while-o.GJcbkRsj<e do if o.BEZLyErg<e then if e>o.yxfYDsPk then if o.ShXFBdFX~=e then d=r(o.mOCqXdTf);else e=-o.BEZLyErg;end else if o.BEZLyErg~=e then repeat if e~=o.EioAxQhf then y=o.dRwShvkL('#',...)-o.GJcbkRsj;c={};break;end;g={};z={...};until true;else y=o.dRwShvkL('#',...)-o.GJcbkRsj;c={};end end else if e>=o.GJcbkRsj then if o.GJcbkRsj==e then _=r(o.ShXFBdFX,o.iIpyXTfq,o.EioAxQhf,o.rRZFyWLx,m);u=le ne=o.CUhZkoqY;else n=-o.BIFPAhJW;b=-o.GJcbkRsj;end else f=r(o.ShXFBdFX,o.SFkrFUTi,o.GJcbkRsj,o.gXUCkOnU,m);j=r(o.ShXFBdFX,o.uvKLIoOD,o.BEZLyErg,o.XfBopVas,m);end end e=e+o.GJcbkRsj;end;for e=o.CUhZkoqY,y do if(e>=_)then g[e-_]=z[e+o.GJcbkRsj];else d[e]=z[e+o.GJcbkRsj];end;end;local ne=y-_+o.GJcbkRsj local e;local r;local function _(...)while true do end end while true do if n<-o.aDBeMQns then n=n+o.MLcbndIJ end e=f[n];r=e[ee];if o.FMFWwedi<=r then if r>o.RyaPxcom then if 342<r then if r<=366 then if 354<r then if 360>=r then if r<358 then if r<356 then d[e[t]]=p(j[e[l]],nil,s);else if 357~=r then local e=e[t];do return a(d,e,b)end;else for r=0,6 do if r<=2 then if r<1 then d[e[t]][e[l]]=e[h];n=n+1;e=f[n];else if r>=-3 then repeat if 1<r then d[e[t]][e[l]]=e[h];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=e[h];n=n+1;e=f[n];until true;else d[e[t]][e[l]]=e[h];n=n+1;e=f[n];end end else if 4>=r then if r>=0 then for a=31,59 do if 4>r then d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;else d[e[t]]=s[e[l]];n=n+1;e=f[n];end else if r~=5 then d[e[t]][e[l]]=d[e[h]];else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end end end end end else if 359<=r then if r>=356 then repeat if 360~=r then if(d[e[t]]<=e[h])then n=e[l];else n=n+1;end;break;end;local o,c,u,b,k,r,s,_;for r=0,5 do if 2<r then if r<4 then r=0;while r>-1 do if 2<r then if 5>r then if r~=0 then for e=42,69 do if 3~=r then k=o[c];break;end;b=o[u];break;end;else k=o[c];end else if r~=5 then r=-2;else d(k,b);end end else if 1<=r then if-3~=r then for e=42,86 do if 1<r then u=l;break;end;c=t;break;end;else u=l;end else o=e;end end r=r+1 end n=n+1;e=f[n];else if 4~=r then d[e[t]]={};else s=e[t]d[s](a(d,s+1,e[l]))n=n+1;e=f[n];end end else if r>=1 then if 1==r then s=e[t]d[s](a(d,s+1,e[l]))n=n+1;e=f[n];else s=e[t];_=d[e[l]];d[s+1]=_;d[s]=_[e[h]];n=n+1;e=f[n];end else r=0;while r>-1 do if r<=2 then if 1>r then o=e;else if 1<r then u=l;else c=t;end end else if 5>r then if r>=1 then for e=36,70 do if 3<r then k=o[c];break;end;b=o[u];break;end;else b=o[u];end else if r>3 then for e=46,72 do if r~=5 then r=-2;break;end;d(k,b);break;end;else d(k,b);end end end r=r+1 end n=n+1;e=f[n];end end end until true;else local o,c,k,u,b,r,s,_;for r=0,5 do if 2<r then if r<4 then r=0;while r>-1 do if 2<r then if 5>r then if r~=0 then for e=42,69 do if 3~=r then b=o[c];break;end;u=o[k];break;end;else b=o[c];end else if r~=5 then r=-2;else d(b,u);end end else if 1<=r then if-3~=r then for e=42,86 do if 1<r then k=l;break;end;c=t;break;end;else k=l;end else o=e;end end r=r+1 end n=n+1;e=f[n];else if 4~=r then d[e[t]]={};else s=e[t]d[s](a(d,s+1,e[l]))n=n+1;e=f[n];end end else if r>=1 then if 1==r then s=e[t]d[s](a(d,s+1,e[l]))n=n+1;e=f[n];else s=e[t];_=d[e[l]];d[s+1]=_;d[s]=_[e[h]];n=n+1;e=f[n];end else r=0;while r>-1 do if r<=2 then if 1>r then o=e;else if 1<r then k=l;else c=t;end end else if 5>r then if r>=1 then for e=36,70 do if 3<r then b=o[c];break;end;u=o[k];break;end;else u=o[k];end else if r>3 then for e=46,72 do if r~=5 then r=-2;break;end;d(b,u);break;end;else d(b,u);end end end r=r+1 end n=n+1;e=f[n];end end end end else local b,o,_,u,c,r,s;for r=0,8 do if 4<=r then if 6<=r then if 6<r then if r~=8 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else d[e[t]][e[l]]=d[e[h]];end else d[e[t]]=d[e[l]][d[e[h]]];n=n+1;e=f[n];end else if r~=5 then d[e[t]]=k[e[l]];n=n+1;e=f[n];else d[e[t]]=k[e[l]];n=n+1;e=f[n];end end else if 2<=r then if-1<=r then for s=39,96 do if 2~=r then d[e[t]][e[l]]=e[h];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;else d[e[t]][e[l]]=e[h];n=n+1;e=f[n];end else if 1>r then r=0;while r>-1 do if r>=3 then if 4<r then if 2~=r then repeat if r~=5 then r=-2;break;end;d(c,u);until true;else d(c,u);end else if r==4 then c=b[o];else u=b[_];end end else if r>=1 then if 0<r then repeat if r~=2 then o=t;break;end;_=l;until true;else o=t;end else b=e;end end r=r+1 end n=n+1;e=f[n];else s=e[t]d[s]=d[s](a(d,s+1,e[l]))n=n+1;e=f[n];end end end end end end else if r>363 then if 365<=r then if r~=365 then d[e[t]]=(not d[e[l]]);else local r,_,k,c,r,r,o,z,j,p,y,b,u;for r=0,6 do if 2>=r then if 0<r then if 1<r then d[e[t]]=s[e[l]];n=n+1;e=f[n];else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else if 4<r then if 3<r then repeat if r<6 then u=e[t]d[u](a(d,u+1,e[l]))n=n+1;e=f[n];break;end;d[e[t]][e[l]]=d[e[h]];until true;else u=e[t]d[u](a(d,u+1,e[l]))n=n+1;e=f[n];end else if-1<=r then for h=13,94 do if 3<r then r=0;while r>-1 do if r<4 then if r<=1 then if r~=-3 then repeat if r>0 then z=t;break;end;o=e;until true;else o=e;end else if-1~=r then for e=45,65 do if r>2 then p=d;break;end;j=l;break;end;else p=d;end end else if r<6 then if 5==r then b=o[z];else y=p[o[j]];end else if r==6 then d[b]=y;else r=-2;end end end r=r+1 end n=n+1;e=f[n];break;end;r=0;while r>-1 do if r>2 then if r>=5 then if r~=3 then repeat if r<6 then d(b,c);break;end;r=-2;until true;else r=-2;end else if 3~=r then b=o[_];else c=o[k];end end else if r<1 then o=e;else if r>0 then for e=18,74 do if 2~=r then _=t;break;end;k=l;break;end;else k=l;end end end r=r+1 end n=n+1;e=f[n];break;end;else r=0;while r>-1 do if r>2 then if r>=5 then if r~=3 then repeat if r<6 then d(b,c);break;end;r=-2;until true;else r=-2;end else if 3~=r then b=o[_];else c=o[k];end end else if r<1 then o=e;else if r>0 then for e=18,74 do if 2~=r then _=t;break;end;k=l;break;end;else k=l;end end end r=r+1 end n=n+1;e=f[n];end end end end end else d[e[t]]=d[e[l]]+d[e[h]];end else if 361>=r then for r=0,6 do if 2>=r then if 0>=r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else if-1<r then repeat if r~=2 then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=e[h];n=n+1;e=f[n];until true;else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end end else if r>4 then if 4<=r then repeat if r~=6 then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=d[e[h]];until true;else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end else if 4==r then d[e[t]][e[l]]=e[h];n=n+1;e=f[n];else d[e[t]]={};n=n+1;e=f[n];end end end end else if 359<=r then repeat if 363~=r then local o;for r=0,8 do if r>=4 then if 5>=r then if r>1 then for s=45,73 do if r~=5 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else if 6<r then if r>=3 then for s=13,72 do if 8>r then d[e[t]][e[l]]=e[h];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=e[h];break;end;else d[e[t]][e[l]]=e[h];end else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end end else if r<=1 then if r~=-1 then repeat if r<1 then d(e[t],e[l]);n=n+1;e=f[n];break;end;o=e[t]d[o]=d[o](a(d,o+1,e[l]))n=n+1;e=f[n];until true;else o=e[t]d[o]=d[o](a(d,o+1,e[l]))n=n+1;e=f[n];end else if-2<r then for a=16,71 do if r~=2 then d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;else d[e[t]]=s[e[l]];n=n+1;e=f[n];end end end end break;end;local r,s;for o=0,4 do if o>1 then if o<3 then r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];else if o>-1 then for a=18,97 do if o>3 then r=e[t];s=d[e[l]];d[r+1]=s;d[r]=s[e[h]];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end else if 0==o then r=e[t];s=d[e[l]];d[r+1]=s;d[r]=s[e[h]];n=n+1;e=f[n];else d(e[t],e[l]);n=n+1;e=f[n];end end end until true;else local r,s;for o=0,4 do if o>1 then if o<3 then r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];else if o>-1 then for a=18,97 do if o>3 then r=e[t];s=d[e[l]];d[r+1]=s;d[r]=s[e[h]];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end else if 0==o then r=e[t];s=d[e[l]];d[r+1]=s;d[r]=s[e[h]];n=n+1;e=f[n];else d(e[t],e[l]);n=n+1;e=f[n];end end end end end end end else if 348<r then if 351>=r then if r<=349 then d[e[t]]=(not d[e[l]]);n=n+1;e=f[n];k[e[l]]=d[e[t]];n=n+1;e=f[n];d[e[t]]=k[e[l]];n=n+1;e=f[n];d[e[t]]();n=n+1;e=f[n];do return end;else if 348~=r then for f=27,74 do if r~=351 then d[e[t]][e[l]]=d[e[h]];break;end;if(d[e[t]]<=e[h])then n=n+1;else n=e[l];end;break;end;else if(d[e[t]]<=e[h])then n=n+1;else n=e[l];end;end end else if 353<=r then if r==354 then local o,a,c,u,b,r;for r=0,9 do if 5>r then if r<=1 then if-4<r then for h=47,85 do if 0~=r then d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;d[e[t]]=k[e[l]];n=n+1;e=f[n];break;end;else d[e[t]]=k[e[l]];n=n+1;e=f[n];end else if 2>=r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else if r~=3 then d[e[t]]=k[e[l]];n=n+1;e=f[n];else r=0;while r>-1 do if 2<r then if r>=5 then if 6==r then r=-2;else d(b,u);end else if r~=2 then repeat if r>3 then b=o[a];break;end;u=o[c];until true;else b=o[a];end end else if r>=1 then if r>0 then repeat if r<2 then a=t;break;end;c=l;until true;else a=t;end else o=e;end end r=r+1 end n=n+1;e=f[n];end end end else if 7>r then if 4<r then repeat if 5<r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];until true;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else if r<=7 then d[e[t]]=d[e[l]]+e[h];n=n+1;e=f[n];else if 8==r then r=0;while r>-1 do if 3>r then if r>=1 then if r>-3 then repeat if 1<r then c=l;break;end;a=t;until true;else a=t;end else o=e;end else if r<=4 then if r~=3 then b=o[a];else u=o[c];end else if r~=3 then for e=16,76 do if 5<r then r=-2;break;end;d(b,u);break;end;else d(b,u);end end end r=r+1 end n=n+1;e=f[n];else r=0;while r>-1 do if 3>r then if r<=0 then o=e;else if r>-2 then for e=41,57 do if r>1 then c=l;break;end;a=t;break;end;else a=t;end end else if 5<=r then if r~=5 then r=-2;else d(b,u);end else if r~=3 then b=o[a];else u=o[c];end end end r=r+1 end end end end end end else local a,o;for r=0,9 do if r>4 then if 6>=r then if r~=2 then for h=18,93 do if 5<r then d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;d[e[t]]=k[e[l]];n=n+1;e=f[n];break;end;else d[e[t]]=k[e[l]];n=n+1;e=f[n];end else if r<8 then d[e[t]]=k[e[l]];n=n+1;e=f[n];else if 7~=r then for h=41,93 do if 8~=r then d[e[t]]=k[e[l]];break;end;d[e[t]]=d[e[l]];n=n+1;e=f[n];break;end;else d[e[t]]=k[e[l]];end end end else if 1>=r then if r~=-3 then repeat if 1>r then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];until true;else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end else if 3>r then a=e[t]d[a]=d[a](d[a+1])n=n+1;e=f[n];else if 1~=r then repeat if 3<r then a=e[t]d[a](d[a+1])n=n+1;e=f[n];break;end;a=e[t];o=d[e[l]];d[a+1]=o;d[a]=o[e[h]];n=n+1;e=f[n];until true;else a=e[t]d[a](d[a+1])n=n+1;e=f[n];end end end end end end else local a,o,b,_,c,u,r;for r=0,7 do if r<4 then if 2<=r then if 0<r then repeat if 3~=r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;r=0;while r>-1 do if r>2 then if 4>=r then if 2~=r then repeat if 3<r then u=o[b];break;end;c=o[_];until true;else u=o[b];end else if 3<=r then repeat if r<6 then d(u,c);break;end;r=-2;until true;else r=-2;end end else if r<=0 then o=e;else if 0~=r then repeat if 1~=r then _=l;break;end;b=t;until true;else b=t;end end end r=r+1 end n=n+1;e=f[n];until true;else r=0;while r>-1 do if r>2 then if 4>=r then if 2~=r then repeat if 3<r then u=o[b];break;end;c=o[_];until true;else u=o[b];end else if 3<=r then repeat if r<6 then d(u,c);break;end;r=-2;until true;else r=-2;end end else if r<=0 then o=e;else if 0~=r then repeat if 1~=r then _=l;break;end;b=t;until true;else b=t;end end end r=r+1 end n=n+1;e=f[n];end else if r~=-4 then repeat if r~=0 then d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;a=e[t]d[a]=d[a](d[a+1])n=n+1;e=f[n];until true;else d[e[t]]=s[e[l]];n=n+1;e=f[n];end end else if 5<r then if 2<r then repeat if 7>r then d[e[t]]=k[e[l]];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=d[e[h]];until true;else d[e[t]]=k[e[l]];n=n+1;e=f[n];end else if r~=3 then for s=44,88 do if r>4 then d[e[t]][e[l]]=e[h];n=n+1;e=f[n];break;end;a=e[t]d[a]=d[a](d[a+1])n=n+1;e=f[n];break;end;else d[e[t]][e[l]]=e[h];n=n+1;e=f[n];end end end end end end else if 345<r then if r<=346 then for r=0,6 do if r<=2 then if 1<=r then if r~=-3 then for h=35,86 do if 2>r then d(e[t],e[l]);n=n+1;e=f[n];break;end;d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;else d[e[t]]=s[e[l]];n=n+1;e=f[n];end else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else if r<5 then if r>=0 then for s=17,62 do if r~=4 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d(e[t],e[l]);n=n+1;e=f[n];break;end;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else if r>1 then for h=11,95 do if r>5 then d(e[t],e[l]);break;end;d(e[t],e[l]);n=n+1;e=f[n];break;end;else d(e[t],e[l]);n=n+1;e=f[n];end end end end else if r>=344 then repeat if r>347 then local o,b,a;for r=0,9 do if r<5 then if r<2 then if 1~=r then d[e[t]]=s[e[l]];n=n+1;e=f[n];else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else if 3<=r then if r>=-1 then repeat if 3<r then o=e[t]b={d[o](d[o+1])};a=0;for e=o,e[h]do a=a+1;d[e]=b[a];end n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];until true;else o=e[t]b={d[o](d[o+1])};a=0;for e=o,e[h]do a=a+1;d[e]=b[a];end n=n+1;e=f[n];end else d[e[t]]=k[e[l]];n=n+1;e=f[n];end end else if r>6 then if 8<=r then if 8==r then d[e[t]]=k[e[l]];n=n+1;e=f[n];else d[e[t]]=(e[l]~=0);end else k[e[l]]=d[e[t]];n=n+1;e=f[n];end else if 6>r then k[e[l]]=d[e[t]];n=n+1;e=f[n];else k[e[l]]=d[e[t]];n=n+1;e=f[n];end end end end break;end;d[e[t]]=d[e[l]]*d[e[h]];until true;else local a,b,o;for r=0,9 do if r<5 then if r<2 then if 1~=r then d[e[t]]=s[e[l]];n=n+1;e=f[n];else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else if 3<=r then if r>=-1 then repeat if 3<r then a=e[t]b={d[a](d[a+1])};o=0;for e=a,e[h]do o=o+1;d[e]=b[o];end n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];until true;else a=e[t]b={d[a](d[a+1])};o=0;for e=a,e[h]do o=o+1;d[e]=b[o];end n=n+1;e=f[n];end else d[e[t]]=k[e[l]];n=n+1;e=f[n];end end else if r>6 then if 8<=r then if 8==r then d[e[t]]=k[e[l]];n=n+1;e=f[n];else d[e[t]]=(e[l]~=0);end else k[e[l]]=d[e[t]];n=n+1;e=f[n];end else if 6>r then k[e[l]]=d[e[t]];n=n+1;e=f[n];else k[e[l]]=d[e[t]];n=n+1;e=f[n];end end end end end end else if 344<=r then if r~=345 then local s,b,o;for r=0,5 do if r>=3 then if r>3 then if 5>r then d(e[t],e[l]);n=n+1;e=f[n];else s=e[t]b={d[s](a(d,s+1,e[l]))};o=0;for e=s,e[h]do o=o+1;d[e]=b[o];end end else d[e[t]]=d[e[l]];n=n+1;e=f[n];end else if r<=0 then d[e[t]]=k[e[l]];n=n+1;e=f[n];else if 2>r then d[e[t]]=d[e[l]];n=n+1;e=f[n];else d[e[t]]=d[e[l]];n=n+1;e=f[n];end end end end else local r,o;for s=0,5 do if s<3 then if 1<=s then if-2<=s then repeat if s>1 then r=e[t];o=d[e[l]];d[r+1]=o;d[r]=o[e[h]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];until true;else r=e[t];o=d[e[l]];d[r+1]=o;d[r]=o[e[h]];n=n+1;e=f[n];end else r=e[t]d[r](a(d,r+1,e[l]))n=n+1;e=f[n];end else if s>3 then if s==5 then d[e[t]]={};else r=e[t]d[r](a(d,r+1,e[l]))n=n+1;e=f[n];end else d[e[t]]=d[e[l]];n=n+1;e=f[n];end end end end else if(d[e[t]]<e[h])then n=e[l];else n=n+1;end;end end end end else if r>=379 then if r>=385 then if r>=388 then if 390>r then if 389==r then for r=0,6 do if 2<r then if 4<r then if r==5 then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];else d[e[t]]=s[e[l]];end else if 0<=r then repeat if 4~=r then d[e[t]]=k[e[l]];n=n+1;e=f[n];break;end;d[e[t]]=k[e[l]];n=n+1;e=f[n];until true;else d[e[t]]=k[e[l]];n=n+1;e=f[n];end end else if 1>r then d[e[t]]();n=n+1;e=f[n];else if 0<=r then for h=36,66 do if 1<r then k[e[l]]=d[e[t]];n=n+1;e=f[n];break;end;d[e[t]]=k[e[l]];n=n+1;e=f[n];break;end;else k[e[l]]=d[e[t]];n=n+1;e=f[n];end end end end else if(d[e[t]]<d[e[h]])then n=e[l];else n=n+1;end;end else if r~=391 then d[e[t]]=e[l]-d[e[h]];else local h,a,o,r,k,s;d[e[t]]=d[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]];n=n+1;e=f[n];h=e[t]d[h]=d[h](d[h+1])n=n+1;e=f[n];d[e[t]]=d[e[l]];n=n+1;e=f[n];do return d[e[t]]end n=n+1;e=f[n];h=e[t];a={};for e=1,#c do o=c[e];for e=0,#o do r=o[e];k=r[1];s=r[2];if k==d and s>=h then a[s]=k[s];r[1]=a;end;end;end;n=n+1;e=f[n];n=e[l];end end else if r>=386 then if r~=385 then repeat if 386<r then local r,s;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];r=e[t];s=d[e[l]];d[r+1]=s;d[r]=s[e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]];n=n+1;e=f[n];r=e[t]d[r](a(d,r+1,e[l]))n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];r=e[t];s=d[e[l]];d[r+1]=s;d[r]=s[e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]];n=n+1;e=f[n];r=e[t]d[r](a(d,r+1,e[l]))n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];r=e[t];s=d[e[l]];d[r+1]=s;d[r]=s[e[h]];break;end;local r;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](d[r+1])n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](d[r+1])n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];until true;else local r;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](d[r+1])n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](d[r+1])n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];end else local r;r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=e[h];n=n+1;e=f[n];d[e[t]][e[l]]=e[h];n=n+1;e=f[n];d[e[t]][e[l]]=e[h];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=(not d[e[l]]);end end else if 382>r then if r<380 then d[e[t]]=d[e[l]]-e[h];else if 377<=r then repeat if 381>r then if(d[e[t]]<=e[h])then n=n+1;else n=e[l];end;break;end;local r;for o=0,5 do if o>2 then if o>3 then if o>2 then for h=41,78 do if 4<o then d[e[t]]=(e[l]~=0);break;end;r=e[t]d[r]=d[r](d[r+1])n=n+1;e=f[n];break;end;else d[e[t]]=(e[l]~=0);end else d[e[t]]=d[e[l]];n=n+1;e=f[n];end else if o>=1 then if-1<o then repeat if o<2 then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;d[e[t]]=s[e[l]];n=n+1;e=f[n];until true;else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end else r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];end end end until true;else local r;for o=0,5 do if o>2 then if o>3 then if o>2 then for h=41,78 do if 4<o then d[e[t]]=(e[l]~=0);break;end;r=e[t]d[r]=d[r](d[r+1])n=n+1;e=f[n];break;end;else d[e[t]]=(e[l]~=0);end else d[e[t]]=d[e[l]];n=n+1;e=f[n];end else if o>=1 then if-1<o then repeat if o<2 then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;d[e[t]]=s[e[l]];n=n+1;e=f[n];until true;else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end else r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];end end end end end else if r>=383 then if 382~=r then repeat if 383<r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];break;end;d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];until true;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];end else d[e[t]]=d[e[l]]+d[e[h]];end end end else if r>372 then if r<376 then if r>=374 then if r>=372 then for o=11,76 do if 375~=r then local s;for r=0,5 do if r>=3 then if r<4 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else if 2~=r then repeat if r>4 then if(d[e[t]]<d[e[h]])then n=e[l];else n=n+1;end;break;end;d[e[t]]=d[e[l]]+d[e[h]];n=n+1;e=f[n];until true;else d[e[t]]=d[e[l]]+d[e[h]];n=n+1;e=f[n];end end else if r>0 then if 2>r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else s=e[t]d[s]=d[s](d[s+1])n=n+1;e=f[n];end end end break;end;local o;for r=0,9 do if 5<=r then if r>6 then if 8>r then d[e[t]]=k[e[l]];n=n+1;e=f[n];else if r>=6 then for h=33,57 do if r<9 then d[e[t]]=d[e[l]];n=n+1;e=f[n];break;end;d[e[t]]=k[e[l]];break;end;else d[e[t]]=d[e[l]];n=n+1;e=f[n];end end else if r~=5 then d[e[t]]=d[e[l]];n=n+1;e=f[n];else o=e[t]d[o]=d[o](a(d,o+1,e[l]))n=n+1;e=f[n];end end else if 2>r then if-2<r then for a=12,82 do if r~=0 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;else d[e[t]]=s[e[l]];n=n+1;e=f[n];end else if 2<r then if r>=2 then repeat if 3<r then d[e[t]]=k[e[l]];n=n+1;e=f[n];break;end;d[e[t]]=k[e[l]];n=n+1;e=f[n];until true;else d[e[t]]=k[e[l]];n=n+1;e=f[n];end else d[e[t]]=d[e[l]];n=n+1;e=f[n];end end end end break;end;else local o;for r=0,9 do if 5<=r then if r>6 then if 8>r then d[e[t]]=k[e[l]];n=n+1;e=f[n];else if r>=6 then for h=33,57 do if r<9 then d[e[t]]=d[e[l]];n=n+1;e=f[n];break;end;d[e[t]]=k[e[l]];break;end;else d[e[t]]=d[e[l]];n=n+1;e=f[n];end end else if r~=5 then d[e[t]]=d[e[l]];n=n+1;e=f[n];else o=e[t]d[o]=d[o](a(d,o+1,e[l]))n=n+1;e=f[n];end end else if 2>r then if-2<r then for a=12,82 do if r~=0 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;else d[e[t]]=s[e[l]];n=n+1;e=f[n];end else if 2<r then if r>=2 then repeat if 3<r then d[e[t]]=k[e[l]];n=n+1;e=f[n];break;end;d[e[t]]=k[e[l]];n=n+1;e=f[n];until true;else d[e[t]]=k[e[l]];n=n+1;e=f[n];end else d[e[t]]=d[e[l]];n=n+1;e=f[n];end end end end end else local a;for r=0,6 do if 3>r then if 0<r then if-1<=r then for s=31,60 do if r~=2 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d(e[t],e[l]);n=n+1;e=f[n];break;end;else d(e[t],e[l]);n=n+1;e=f[n];end else d[e[t]]=s[e[l]];n=n+1;e=f[n];end else if 4>=r then if 2~=r then repeat if r~=3 then d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;a=e[t]d[a]=d[a](d[a+1])n=n+1;e=f[n];until true;else d[e[t]]=s[e[l]];n=n+1;e=f[n];end else if r~=5 then d(e[t],e[l]);else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end end end end else if 376>=r then for r=0,6 do if r<3 then if 0>=r then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];else if r>-1 then repeat if 1<r then d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=e[h];n=n+1;e=f[n];until true;else d[e[t]][e[l]]=e[h];n=n+1;e=f[n];end end else if 4>=r then if 1~=r then for s=32,85 do if 4>r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d(e[t],e[l]);n=n+1;e=f[n];break;end;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else if 6==r then d(e[t],e[l]);else d(e[t],e[l]);n=n+1;e=f[n];end end end end else if 374~=r then repeat if 377<r then local r,s;for a=0,6 do if 2<a then if a<=4 then if 4>a then r=e[t]d[r](d[r+1])n=n+1;e=f[n];else d[e[t]]=k[e[l]];n=n+1;e=f[n];end else if a<6 then r=e[t];s=d[e[l]];d[r+1]=s;d[r]=s[e[h]];n=n+1;e=f[n];else r=e[t]d[r](d[r+1])end end else if a<=0 then r=e[t]d[r](d[r+1])n=n+1;e=f[n];else if a==1 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else r=e[t];s=d[e[l]];d[r+1]=s;d[r]=s[e[h]];n=n+1;e=f[n];end end end end break;end;local s,c,o,_,b,u,r,p;d[e[t]]=k[e[l]];n=n+1;e=f[n];d[e[t]]=k[e[l]];n=n+1;e=f[n];d[e[t]]=k[e[l]];n=n+1;e=f[n];r=0;while r>-1 do if r<4 then if 2<=r then if r~=-2 then for e=37,71 do if r~=2 then _=d;break;end;o=l;break;end;else o=l;end else if-2~=r then repeat if 1>r then s=e;break;end;c=t;until true;else s=e;end end else if r>=6 then if r>4 then for e=20,69 do if 6<r then r=-2;break;end;d[u]=b;break;end;else d[u]=b;end else if 5>r then b=_[s[o]];else u=s[c];end end end r=r+1 end n=n+1;e=f[n];r=0;while r>-1 do if r>3 then if 6<=r then if r~=7 then d[u]=b;else r=-2;end else if 5>r then b=_[s[o]];else u=s[c];end end else if r<2 then if-3<r then for n=44,79 do if r~=0 then c=t;break;end;s=e;break;end;else c=t;end else if 2==r then o=l;else _=d;end end end r=r+1 end n=n+1;e=f[n];r=0;while r>-1 do if 4>r then if r>1 then if r>-2 then repeat if 3>r then o=l;break;end;_=d;until true;else o=l;end else if 0==r then s=e;else c=t;end end else if 5>=r then if r>4 then u=s[c];else b=_[s[o]];end else if 4~=r then repeat if r~=7 then d[u]=b;break;end;r=-2;until true;else d[u]=b;end end end r=r+1 end n=n+1;e=f[n];p=e[t]d[p]=d[p](a(d,p+1,e[l]))n=n+1;e=f[n];d[e[t]]=d[e[l]][d[e[h]]];n=n+1;e=f[n];d[e[t]]=k[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]]+d[e[h]];until true;else local s,c,u,_,o,b,r,p;d[e[t]]=k[e[l]];n=n+1;e=f[n];d[e[t]]=k[e[l]];n=n+1;e=f[n];d[e[t]]=k[e[l]];n=n+1;e=f[n];r=0;while r>-1 do if r<4 then if 2<=r then if r~=-2 then for e=37,71 do if r~=2 then _=d;break;end;u=l;break;end;else u=l;end else if-2~=r then repeat if 1>r then s=e;break;end;c=t;until true;else s=e;end end else if r>=6 then if r>4 then for e=20,69 do if 6<r then r=-2;break;end;d[b]=o;break;end;else d[b]=o;end else if 5>r then o=_[s[u]];else b=s[c];end end end r=r+1 end n=n+1;e=f[n];r=0;while r>-1 do if r>3 then if 6<=r then if r~=7 then d[b]=o;else r=-2;end else if 5>r then o=_[s[u]];else b=s[c];end end else if r<2 then if-3<r then for n=44,79 do if r~=0 then c=t;break;end;s=e;break;end;else c=t;end else if 2==r then u=l;else _=d;end end end r=r+1 end n=n+1;e=f[n];r=0;while r>-1 do if 4>r then if r>1 then if r>-2 then repeat if 3>r then u=l;break;end;_=d;until true;else u=l;end else if 0==r then s=e;else c=t;end end else if 5>=r then if r>4 then b=s[c];else o=_[s[u]];end else if 4~=r then repeat if r~=7 then d[b]=o;break;end;r=-2;until true;else d[b]=o;end end end r=r+1 end n=n+1;e=f[n];p=e[t]d[p]=d[p](a(d,p+1,e[l]))n=n+1;e=f[n];d[e[t]]=d[e[l]][d[e[h]]];n=n+1;e=f[n];d[e[t]]=k[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]]+d[e[h]];end end end else if r>=370 then if r>=371 then if 372~=r then local e=e[t]d[e]=d[e]()else local r;d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];end else d[e[t]]=k[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][d[e[h]]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];end else if r<368 then for r=0,5 do if r>=3 then if r<4 then d[e[t]][e[l]]=e[h];n=n+1;e=f[n];else if r>=0 then repeat if r~=5 then d[e[t]]=k[e[l]];n=n+1;e=f[n];break;end;d[e[t]]=s[e[l]];until true;else d[e[t]]=s[e[l]];end end else if r>0 then if 2~=r then d[e[t]][e[l]]=e[h];n=n+1;e=f[n];else d[e[t]]=k[e[l]];n=n+1;e=f[n];end else d[e[t]]=k[e[l]];n=n+1;e=f[n];end end end else if r~=366 then for o=33,67 do if 369~=r then d[e[t]][e[l]]=e[h];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];break;end;local o;for r=0,9 do if r>4 then if 7>r then if r>=4 then repeat if r~=5 then d[e[t]]=e[l]-d[e[h]];n=n+1;e=f[n];break;end;d(e[t],e[l]);n=n+1;e=f[n];until true;else d[e[t]]=e[l]-d[e[h]];n=n+1;e=f[n];end else if 8<=r then if 7~=r then repeat if 8~=r then d[e[t]][e[l]]=d[e[h]];break;end;o=e[t]d[o]=d[o](a(d,o+1,e[l]))n=n+1;e=f[n];until true;else o=e[t]d[o]=d[o](a(d,o+1,e[l]))n=n+1;e=f[n];end else d(e[t],e[l]);n=n+1;e=f[n];end end else if 1<r then if 2<r then if-1<=r then repeat if r~=3 then d(e[t],e[l]);n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];until true;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else d[e[t]]=s[e[l]];n=n+1;e=f[n];end else if 0==r then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];else d[e[t]]=k[e[l]];n=n+1;e=f[n];end end end end break;end;else d[e[t]][e[l]]=e[h];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];end end end end end end else if 317>=r then if 306<=r then if r<312 then if r>308 then if 310>r then local e=e[t]d[e](d[e+1])else if 306<=r then repeat if r~=310 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);until true;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];end end else if 307<=r then if r~=305 then repeat if r>307 then d[e[t]]=d[e[l]]/d[e[h]];break;end;local o;for r=0,6 do if r<3 then if r<1 then d(e[t],e[l]);n=n+1;e=f[n];else if r~=-1 then for h=44,95 do if r~=2 then d(e[t],e[l]);n=n+1;e=f[n];break;end;d(e[t],e[l]);n=n+1;e=f[n];break;end;else d(e[t],e[l]);n=n+1;e=f[n];end end else if 4>=r then if r>=2 then for h=37,63 do if 4~=r then d(e[t],e[l]);n=n+1;e=f[n];break;end;o=e[t]d[o]=d[o](a(d,o+1,e[l]))n=n+1;e=f[n];break;end;else o=e[t]d[o]=d[o](a(d,o+1,e[l]))n=n+1;e=f[n];end else if r>5 then d[e[t]]=s[e[l]];else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end end end end until true;else d[e[t]]=d[e[l]]/d[e[h]];end else local t=e[t];local h=e[h];local f=t+2 local t={d[t](d[t+1],d[f])};for e=1,h do d[f+e]=t[e];end;local t=t[1]if t then d[f]=t n=e[l];else n=n+1;end;end end else if 315>r then if 313<=r then if 314==r then d[e[t]]=d[e[l]]*d[e[h]];else local n=e[t]local l={d[n](a(d,n+1,e[l]))};local t=0;for e=n,e[h]do t=t+1;d[e]=l[t];end end else local r;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];end else if 316>r then local r;r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=e[h];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];else if r>=313 then repeat if r~=316 then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];do return d[e[t]]end break;end;local o;for r=0,9 do if 5>r then if r>1 then if 3>r then d[e[t]]=k[e[l]];n=n+1;e=f[n];else if 1~=r then repeat if 3<r then d[e[t]]=k[e[l]];n=n+1;e=f[n];break;end;d[e[t]]=k[e[l]];n=n+1;e=f[n];until true;else d[e[t]]=k[e[l]];n=n+1;e=f[n];end end else if r>=-1 then repeat if r<1 then d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];until true;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end else if r>6 then if 8<=r then if r~=6 then repeat if 8~=r then d[e[t]]=d[e[l]][e[h]];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];until true;else d[e[t]]=d[e[l]][e[h]];end else d[e[t]]=k[e[l]];n=n+1;e=f[n];end else if r>5 then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];else o=e[t]d[o]=d[o](a(d,o+1,e[l]))n=n+1;e=f[n];end end end end until true;else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];do return d[e[t]]end end end end end else if r<300 then if r>=297 then if 298>r then local o;for r=0,9 do if 5>r then if r<=1 then if-1<r then for s=34,66 do if r<1 then o=e[t]d[o]=d[o](a(d,o+1,e[l]))n=n+1;e=f[n];break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end else if r>2 then if r>=2 then for s=47,72 do if r~=4 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else d[e[t]]=s[e[l]];n=n+1;e=f[n];end end else if r>6 then if 8>r then d[e[t]]=d[e[l]];n=n+1;e=f[n];else if 7<=r then for s=22,56 do if 9>r then o=e[t]d[o]=d[o](d[o+1])n=n+1;e=f[n];break;end;d[e[t]][e[l]]=d[e[h]];break;end;else o=e[t]d[o]=d[o](d[o+1])n=n+1;e=f[n];end end else if r~=3 then repeat if 6>r then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;d[e[t]]=s[e[l]];n=n+1;e=f[n];until true;else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end end end end else if r~=296 then repeat if r<299 then if(d[e[t]]<=e[h])then n=e[l];else n=n+1;end;break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=e[h];n=n+1;e=f[n];d[e[t]]={};n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d[e[t]]=d[e[l]];n=n+1;e=f[n];d(e[t],e[l]);until true;else if(d[e[t]]<=e[h])then n=e[l];else n=n+1;end;end end else if r>=295 then if r>292 then repeat if r<296 then d[e[t]]=d[e[l]]/e[h];break;end;local e=e[t]d[e](a(d,e+1,b))until true;else d[e[t]]=d[e[l]]/e[h];end else local o;for r=0,6 do if r>2 then if 4<r then if r~=5 then d[e[t]]=s[e[l]];else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end else if-1<=r then repeat if r<4 then o=e[t]d[o](a(d,o+1,e[l]))n=n+1;e=f[n];break;end;d[e[t]][e[l]]=e[h];n=n+1;e=f[n];until true;else d[e[t]][e[l]]=e[h];n=n+1;e=f[n];end end else if r<=0 then d[e[t]]=s[e[l]];n=n+1;e=f[n];else if 1~=r then d[e[t]]=d[e[l]];n=n+1;e=f[n];else d(e[t],e[l]);n=n+1;e=f[n];end end end end end end else if r<=302 then if 300<r then if r>=297 then repeat if r~=301 then d[e[t]]();break;end;if(d[e[t]]<e[h])then n=e[l];else n=n+1;end;until true;else d[e[t]]();end else local r,a;r=e[t]d[r]=d[r](d[r+1])n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](d[r+1])n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];r=e[t];a=d[e[l]];d[r+1]=a;d[r]=a[e[h]];end else if r<=303 then local r,s;d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];r=e[t]d[r]=d[r](d[r+1])n=n+1;e=f[n];r=e[t];s=d[e[l]];d[r+1]=s;d[r]=s[e[h]];n=n+1;e=f[n];r=e[t]d[r](d[r+1])n=n+1;e=f[n];do return end;else if r>304 then if(d[e[t]]<d[e[h]])then n=n+1;else n=e[l];end;else local k,c,o,u,b,r,a;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];r=0;while r>-1 do if r<3 then if r>0 then if-2~=r then repeat if 2~=r then c=t;break;end;o=l;until true;else o=l;end else k=e;end else if r>4 then if 1<r then repeat if r~=6 then d(b,u);break;end;r=-2;until true;else r=-2;end else if r>3 then b=k[c];else u=k[o];end end end r=r+1 end n=n+1;e=f[n];a=e[t]d[a]=d[a](d[a+1])n=n+1;e=f[n];d[e[t]][e[l]]=e[h];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];end end end end end else if 329>=r then if r<=323 then if r<=320 then if 318>=r then local f,r,s,o,a,h;local n=0;while n>-1 do if n>3 then if 5<n then if n>=5 then for e=24,72 do if 7~=n then d[h]=a;break;end;n=-2;break;end;else d[h]=a;end else if 1<=n then for e=27,73 do if n~=4 then h=f[r];break;end;a=o[f[s]];break;end;else h=f[r];end end else if 2>n then if 0==n then f=e;else r=t;end else if n~=-2 then repeat if 2<n then o=d;break;end;s=l;until true;else s=l;end end end n=n+1 end else if r>319 then local n=e[t];do return a(d,n,n+e[l])end;else local e=e[t];local n=d[e];for e=e+1,b do o.aSy_RxsI(n,d[e])end;end end else if r>321 then if 321<r then for s=18,80 do if r~=322 then if not d[e[t]]then n=n+1;else n=e[l];end;break;end;local r;d[e[t]]=k[e[l]];n=n+1;e=f[n];d[e[t]]=k[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]];n=n+1;e=f[n];r=e[t]d[r]=d[r](d[r+1])n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];k[e[l]]=d[e[t]];n=n+1;e=f[n];do return end;break;end;else if not d[e[t]]then n=n+1;else n=e[l];end;end else local e=e[t];do return d[e],d[e+1]end end end else if 326<r then if r<328 then local h,s,o;for r=0,8 do if 4<=r then if r<=5 then if r~=2 then for h=26,62 do if 4<r then d(e[t],e[l]);n=n+1;e=f[n];break;end;d[e[t]]=(e[l]~=0);n=n+1;e=f[n];break;end;else d(e[t],e[l]);n=n+1;e=f[n];end else if 7<=r then if r>5 then for a=33,53 do if 8>r then d(e[t],e[l]);n=n+1;e=f[n];break;end;h=e[t];s=d[h]o=d[h+2];if(o>0)then if(s>d[h+1])then n=e[l];else d[h+3]=s;end elseif(s<d[h+1])then n=e[l];else d[h+3]=s;end break;end;else h=e[t];s=d[h]o=d[h+2];if(o>0)then if(s>d[h+1])then n=e[l];else d[h+3]=s;end elseif(s<d[h+1])then n=e[l];else d[h+3]=s;end end else d[e[t]]=#d[e[l]];n=n+1;e=f[n];end end else if 1<r then if r~=-1 then repeat if r~=2 then d[e[t]]=(e[l]~=0);n=n+1;e=f[n];break;end;d[e[t]]=(e[l]~=0);n=n+1;e=f[n];until true;else d[e[t]]=(e[l]~=0);n=n+1;e=f[n];end else if-2<r then repeat if r~=1 then h=e[t]d[h]=d[h](a(d,h+1,e[l]))n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]];n=n+1;e=f[n];until true;else h=e[t]d[h]=d[h](a(d,h+1,e[l]))n=n+1;e=f[n];end end end end else if 328~=r then local r;d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=e[h];else for r=0,6 do if r>2 then if r<=4 then if 1~=r then for s=13,86 do if r~=3 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else if 2~=r then repeat if 5<r then if(d[e[t]]<e[h])then n=e[l];else n=n+1;end;break;end;d[e[t]]=d[e[l]]-d[e[h]];n=n+1;e=f[n];until true;else d[e[t]]=d[e[l]]-d[e[h]];n=n+1;e=f[n];end end else if 0>=r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else if r>=-1 then repeat if r~=1 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]]-d[e[h]];n=n+1;e=f[n];until true;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end end end end end else if 325>r then if(d[e[t]]==d[e[h]])then n=n+1;else n=e[l];end;else if 326~=r then local o,a;for r=0,9 do if r<5 then if r>=2 then if r>=3 then if-1<r then repeat if 4~=r then d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;o=e[t];a=d[e[l]];d[o+1]=a;d[o]=a[e[h]];n=n+1;e=f[n];until true;else o=e[t];a=d[e[l]];d[o+1]=a;d[o]=a[e[h]];n=n+1;e=f[n];end else d[e[t]]=d[e[l]][d[e[h]]];n=n+1;e=f[n];end else if r~=0 then d[e[t]]=k[e[l]];n=n+1;e=f[n];else k[e[l]]=d[e[t]];n=n+1;e=f[n];end end else if r<7 then if 5==r then d[e[t]]={};n=n+1;e=f[n];else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else if r>7 then if r>7 then for s=19,84 do if 9~=r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=d[e[h]];break;end;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end end end end else if(d[e[t]]<e[h])then n=n+1;else n=e[l];end;end end end end else if 335<r then if r>=339 then if 340<r then if r~=337 then repeat if 341<r then d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]={};n=n+1;e=f[n];d[e[t]]=k[e[l]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=e[h];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];break;end;local s;for r=0,4 do if 1>=r then if-4<r then for s=17,85 do if 1>r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else if r>2 then if r>1 then for h=42,53 do if 4~=r then d[e[t]]=d[e[l]];n=n+1;e=f[n];break;end;s=e[t]d[s]=d[s](a(d,s+1,e[l]))break;end;else d[e[t]]=d[e[l]];n=n+1;e=f[n];end else d(e[t],e[l]);n=n+1;e=f[n];end end end until true;else local s;for r=0,4 do if 1>=r then if-4<r then for s=17,85 do if 1>r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else if r>2 then if r>1 then for h=42,53 do if 4~=r then d[e[t]]=d[e[l]];n=n+1;e=f[n];break;end;s=e[t]d[s]=d[s](a(d,s+1,e[l]))break;end;else d[e[t]]=d[e[l]];n=n+1;e=f[n];end else d(e[t],e[l]);n=n+1;e=f[n];end end end end else if 339==r then do return end;else if(e[t]<=d[e[h]])then n=n+1;else n=e[l];end;end end else if r>=337 then if r>333 then for f=19,86 do if 337~=r then d[e[t]][e[l]]=e[h];break;end;if(d[e[t]]<e[h])then n=n+1;else n=e[l];end;break;end;else d[e[t]][e[l]]=e[h];end else local o;for r=0,8 do if r>3 then if 5<r then if r<7 then d[e[t]]=d[e[l]];n=n+1;e=f[n];else if 4<r then repeat if 7~=r then d[e[t]][e[l]]=d[e[h]];break;end;o=e[t]d[o](a(d,o+1,e[l]))n=n+1;e=f[n];until true;else o=e[t]d[o](a(d,o+1,e[l]))n=n+1;e=f[n];end end else if r>0 then repeat if r>4 then d(e[t],e[l]);n=n+1;e=f[n];break;end;d[e[t]]=s[e[l]];n=n+1;e=f[n];until true;else d[e[t]]=s[e[l]];n=n+1;e=f[n];end end else if 1>=r then if r>-3 then for a=19,59 do if r~=0 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else if-1<=r then repeat if r~=3 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];until true;else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end end end end end end else if r<=332 then if 331>r then local o,u,b,k,c,r,_;r=0;while r>-1 do if 2<r then if r<5 then if 2<=r then for e=44,69 do if 3~=r then c=o[u];break;end;k=o[b];break;end;else k=o[b];end else if r>=2 then for e=46,85 do if r>5 then r=-2;break;end;d(c,k);break;end;else d(c,k);end end else if r<1 then o=e;else if-3<r then repeat if r<2 then u=t;break;end;b=l;until true;else b=l;end end end r=r+1 end n=n+1;e=f[n];r=0;while r>-1 do if r>2 then if 5<=r then if r~=2 then repeat if 6~=r then d(c,k);break;end;r=-2;until true;else r=-2;end else if 0~=r then for e=23,92 do if 4>r then k=o[b];break;end;c=o[u];break;end;else k=o[b];end end else if 0>=r then o=e;else if-3~=r then for e=40,96 do if 1~=r then b=l;break;end;u=t;break;end;else u=t;end end end r=r+1 end n=n+1;e=f[n];_=e[t]d[_]=d[_](a(d,_+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];else if r==332 then local o;for r=0,4 do if 1<r then if 2>=r then d[e[t]]=d[e[l]];n=n+1;e=f[n];else if 0<=r then repeat if 4~=r then o=e[t]d[o](a(d,o+1,e[l]))n=n+1;e=f[n];break;end;d[e[t]][e[l]]=d[e[h]];until true;else d[e[t]][e[l]]=d[e[h]];end end else if-3<r then repeat if 0~=r then d(e[t],e[l]);n=n+1;e=f[n];break;end;d[e[t]]=s[e[l]];n=n+1;e=f[n];until true;else d(e[t],e[l]);n=n+1;e=f[n];end end end else local r;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];end end else if 334>r then local o;for r=0,6 do if 2<r then if r<=4 then if 1<=r then repeat if r~=3 then d[e[t]][e[l]]=e[h];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];until true;else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end else if 6~=r then d[e[t]]=s[e[l]];n=n+1;e=f[n];else d[e[t]]=d[e[l]][e[h]];end end else if 1<=r then if 1~=r then o=e[t]d[o]=d[o](a(d,o+1,e[l]))n=n+1;e=f[n];else d(e[t],e[l]);n=n+1;e=f[n];end else d(e[t],e[l]);n=n+1;e=f[n];end end end else if r>331 then for o=38,96 do if r~=334 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];break;end;local r;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];break;end;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];end end end end end end end else if r>=245 then if r>=269 then if r<=280 then if 275>r then if r>271 then if r>=273 then if 273<r then d[e[t]]=d[e[l]][e[h]];else local r;d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]={};n=n+1;e=f[n];d[e[t]]=s[e[l]];end else local e=e[t];do return a(d,e,b)end;end else if r>=270 then if 268<r then for o=25,87 do if r<271 then local r,_,y,p,o,c;d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=k[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];r=e[t]d[r]=d[r](d[r+1])n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=k[e[l]];n=n+1;e=f[n];r=e[t];_=d[e[l]];d[r+1]=_;d[r]=_[e[h]];n=n+1;e=f[n];r=e[t]c,p=u(d[r](d[r+1]))b=p+r-1 o=0;for e=r,b do o=o+1;d[e]=c[o];end;n=n+1;e=f[n];r=e[t]c={d[r](a(d,r+1,b))};o=0;for e=r,e[h]do o=o+1;d[e]=c[o];end break;end;local n=e[t]local l={d[n](a(d,n+1,e[l]))};local t=0;for e=n,e[h]do t=t+1;d[e]=l[t];end break;end;else local t=e[t]local l={d[t](a(d,t+1,e[l]))};local n=0;for e=t,e[h]do n=n+1;d[e]=l[n];end end else d[e[t]]=d[e[l]]*e[h];end end else if r>277 then if r<279 then local o,k,c,u,b,r,_;r=0;while r>-1 do if r<=2 then if r<=0 then o=e;else if 1==r then k=t;else c=l;end end else if r<5 then if r<4 then u=o[c];else b=o[k];end else if r~=6 then d(b,u);else r=-2;end end end r=r+1 end n=n+1;e=f[n];r=0;while r>-1 do if r>2 then if r>=5 then if 2<=r then for e=37,73 do if 5<r then r=-2;break;end;d(b,u);break;end;else d(b,u);end else if 4~=r then u=o[c];else b=o[k];end end else if 1<=r then if r>-1 then for e=17,54 do if r>1 then c=l;break;end;k=t;break;end;else k=t;end else o=e;end end r=r+1 end n=n+1;e=f[n];r=0;while r>-1 do if r<=2 then if r>0 then if 2>r then k=t;else c=l;end else o=e;end else if r>4 then if 4<=r then for e=39,78 do if 5~=r then r=-2;break;end;d(b,u);break;end;else r=-2;end else if 2<=r then repeat if r<4 then u=o[c];break;end;b=o[k];until true;else b=o[k];end end end r=r+1 end n=n+1;e=f[n];_=e[t]d[_]=d[_](a(d,_+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=e[h];n=n+1;e=f[n];d[e[t]]=s[e[l]];else if r>=276 then repeat if r~=280 then for r=0,6 do if 3>r then if 0>=r then d[e[t]]=k[e[l]];n=n+1;e=f[n];else if r>=-3 then for s=24,70 do if 2~=r then d[e[t]]=d[e[l]]-d[e[h]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]]/d[e[h]];n=n+1;e=f[n];break;end;else d[e[t]]=d[e[l]]-d[e[h]];n=n+1;e=f[n];end end else if 4<r then if 5<r then d[e[t]][e[l]]=d[e[h]];else d[e[t]]=k[e[l]];n=n+1;e=f[n];end else if 1<r then for h=24,86 do if r<4 then d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;d[e[t]]={};n=n+1;e=f[n];break;end;else d[e[t]]={};n=n+1;e=f[n];end end end end break;end;for r=0,6 do if r<3 then if r>=1 then if-3~=r then for s=40,77 do if 2>r then d[e[t]][e[l]]=e[h];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end else d[e[t]][e[l]]=e[h];n=n+1;e=f[n];end else if r<=4 then if r>=2 then for a=15,91 do if r~=3 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;else d[e[t]]=s[e[l]];n=n+1;e=f[n];end else if r~=3 then for h=36,55 do if 5~=r then d(e[t],e[l]);break;end;d(e[t],e[l]);n=n+1;e=f[n];break;end;else d(e[t],e[l]);n=n+1;e=f[n];end end end end until true;else for r=0,6 do if 3>r then if 0>=r then d[e[t]]=k[e[l]];n=n+1;e=f[n];else if r>=-3 then for s=24,70 do if 2~=r then d[e[t]]=d[e[l]]-d[e[h]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]]/d[e[h]];n=n+1;e=f[n];break;end;else d[e[t]]=d[e[l]]-d[e[h]];n=n+1;e=f[n];end end else if 4<r then if 5<r then d[e[t]][e[l]]=d[e[h]];else d[e[t]]=k[e[l]];n=n+1;e=f[n];end else if 1<r then for h=24,86 do if r<4 then d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;d[e[t]]={};n=n+1;e=f[n];break;end;else d[e[t]]={};n=n+1;e=f[n];end end end end end end else if 275<r then if 277==r then local n=e[t];do return d[n](a(d,n+1,e[l]))end;else local e=e[t]d[e](a(d,e+1,b))end else local f,h,a,s,r;local n=0;while n>-1 do if 3<=n then if n>4 then if n>=1 then for e=34,70 do if n~=5 then n=-2;break;end;d(r,s);break;end;else n=-2;end else if 3==n then s=f[a];else r=f[h];end end else if n<=0 then f=e;else if 0<n then for e=34,71 do if n<2 then h=t;break;end;a=l;break;end;else h=t;end end end n=n+1 end end end end else if r>286 then if r>289 then if 291<r then if 292~=r then local n=e[t];local t=d[n];for e=n+1,e[l]do o.aSy_RxsI(t,d[e])end;else local t=e[t];local h=d[t+2];local f=d[t]+h;d[t]=f;if(h>0)then if(f<=d[t+1])then n=e[l];d[t+3]=f;end elseif(f>=d[t+1])then n=e[l];d[t+3]=f;end end else if 286<r then repeat if r<291 then local _,o,c,b,k,u,r;_=e[t]d[_]=d[_](a(d,_+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];r=0;while r>-1 do if 3>r then if r<1 then o=e;else if 2~=r then c=t;else b=l;end end else if r<=4 then if r~=1 then for e=16,97 do if 3~=r then u=o[c];break;end;k=o[b];break;end;else u=o[c];end else if r<6 then d(u,k);else r=-2;end end end r=r+1 end n=n+1;e=f[n];r=0;while r>-1 do if 2<r then if 4<r then if r>=4 then repeat if r>5 then r=-2;break;end;d(u,k);until true;else d(u,k);end else if 1<=r then repeat if r<4 then k=o[b];break;end;u=o[c];until true;else k=o[b];end end else if r>0 then if r>-3 then for e=40,82 do if 1<r then b=l;break;end;c=t;break;end;else b=l;end else o=e;end end r=r+1 end break;end;n=e[l];until true;else n=e[l];end end else if 287>=r then d[e[t]]=d[e[l]]%e[h];else if 287<=r then repeat if 288<r then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];break;end;d[e[t]]=e[l]-d[e[h]];until true;else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];end end end else if r>=284 then if r<=284 then d[e[t]]=d[e[l]]%e[h];else if 284<r then repeat if r>285 then local o,b,u,k,c,r,_;for r=0,6 do if 2<r then if r<=4 then if r>=2 then repeat if r<4 then r=0;while r>-1 do if 2<r then if r<=4 then if r>2 then for e=43,82 do if 3<r then c=o[b];break;end;k=o[u];break;end;else k=o[u];end else if 4<=r then repeat if 6~=r then d(c,k);break;end;r=-2;until true;else d(c,k);end end else if r>=1 then if r>=-2 then for e=42,53 do if 1<r then u=l;break;end;b=t;break;end;else b=t;end else o=e;end end r=r+1 end n=n+1;e=f[n];break;end;_=e[t]d[_]=d[_](a(d,_+1,e[l]))n=n+1;e=f[n];until true;else r=0;while r>-1 do if 2<r then if r<=4 then if r>2 then for e=43,82 do if 3<r then c=o[b];break;end;k=o[u];break;end;else k=o[u];end else if 4<=r then repeat if 6~=r then d(c,k);break;end;r=-2;until true;else d(c,k);end end else if r>=1 then if r>=-2 then for e=42,53 do if 1<r then u=l;break;end;b=t;break;end;else b=t;end else o=e;end end r=r+1 end n=n+1;e=f[n];end else if 4<r then for a=16,62 do if r~=6 then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;d[e[t]]=s[e[l]];break;end;else d[e[t]]=s[e[l]];end end else if r<=0 then d[e[t]]=s[e[l]];n=n+1;e=f[n];else if r>=-1 then repeat if r~=2 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;r=0;while r>-1 do if 2<r then if r>4 then if r>=4 then for e=31,73 do if r~=6 then d(c,k);break;end;r=-2;break;end;else r=-2;end else if 1<r then repeat if 3~=r then c=o[b];break;end;k=o[u];until true;else k=o[u];end end else if r<1 then o=e;else if r>-2 then repeat if 2>r then b=t;break;end;u=l;until true;else b=t;end end end r=r+1 end n=n+1;e=f[n];until true;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end end end break;end;local r;d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d[e[t]]=d[e[l]];n=n+1;e=f[n];r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];until true;else local r;d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d[e[t]]=d[e[l]];n=n+1;e=f[n];r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];end end else if 282<=r then if 283==r then for r=0,6 do if r>=3 then if 5<=r then if r~=4 then for h=35,90 do if 5~=r then d(e[t],e[l]);break;end;d(e[t],e[l]);n=n+1;e=f[n];break;end;else d(e[t],e[l]);n=n+1;e=f[n];end else if r~=4 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else d(e[t],e[l]);n=n+1;e=f[n];end end else if 0>=r then d[e[t]][e[l]]=e[h];n=n+1;e=f[n];else if 0~=r then repeat if 2>r then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;d[e[t]]=s[e[l]];n=n+1;e=f[n];until true;else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end end end end else local r,o,c,p,s,_;for c=0,4 do if c>=2 then if 3<=c then if c==3 then r=e[t]_={d[r](a(d,r+1,b))};s=0;for e=r,e[h]do s=s+1;d[e]=_[s];end n=n+1;e=f[n];else n=e[l];end else r=e[t]_,p=u(d[r](d[r+1]))b=p+r-1 s=0;for e=r,b do s=s+1;d[e]=_[s];end;n=n+1;e=f[n];end else if c>=-2 then for s=40,55 do if c~=0 then r=e[t];o=d[e[l]];d[r+1]=o;d[r]=o[e[h]];n=n+1;e=f[n];break;end;d[e[t]]=k[e[l]];n=n+1;e=f[n];break;end;else r=e[t];o=d[e[l]];d[r+1]=o;d[r]=o[e[h]];n=n+1;e=f[n];end end end end else local r,s,_,a,k,c,o,b,u;local f=0;while f>-1 do if f<3 then if 0<f then if 2==f then a=s[t];k=s[h];c=l;else s=e;_=n;end else r=d;end else if 5<=f then if f~=6 then n=u;else f=-2;end else if 1<f then for e=22,88 do if 3~=f then u=o==b and s[c]or 1+_;break;end;o=r[a];b=r[k];break;end;else o=r[a];b=r[k];end end end f=f+1 end end end end end else if 257<=r then if 262<r then if 266<=r then if 267>r then for r=0,9 do if r<=4 then if r>=2 then if 2>=r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else if r~=0 then repeat if r~=4 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];until true;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end else if-4<r then repeat if 0<r then d[e[t]]={};n=n+1;e=f[n];break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];until true;else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end end else if 6>=r then if r>=3 then for s=42,74 do if 6~=r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end else if 8<=r then if 9==r then d[e[t]]=d[e[l]][e[h]];else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end end end else if 263~=r then repeat if 267<r then local k,b,c,u,_,r,o;for r=0,6 do if 3>r then if r>0 then if r>=-3 then for h=34,92 do if 2~=r then r=0;while r>-1 do if r>2 then if r>=5 then if 6~=r then d(_,u);else r=-2;end else if r~=1 then for e=45,60 do if 4~=r then u=k[c];break;end;_=k[b];break;end;else u=k[c];end end else if 0>=r then k=e;else if r>-2 then repeat if r~=2 then b=t;break;end;c=l;until true;else b=t;end end end r=r+1 end n=n+1;e=f[n];break;end;o=e[t]d[o]=d[o](a(d,o+1,e[l]))n=n+1;e=f[n];break;end;else o=e[t]d[o]=d[o](a(d,o+1,e[l]))n=n+1;e=f[n];end else r=0;while r>-1 do if r<3 then if 1>r then k=e;else if-3<r then for e=37,64 do if r~=2 then b=t;break;end;c=l;break;end;else b=t;end end else if r>=5 then if 5==r then d(_,u);else r=-2;end else if 4>r then u=k[c];else _=k[b];end end end r=r+1 end n=n+1;e=f[n];end else if 5>r then if 2~=r then repeat if 3~=r then d[e[t]][e[l]]=e[h];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];until true;else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end else if r>=1 then for a=32,56 do if 5<r then d[e[t]]=s[e[l]];break;end;d[e[t]][e[l]]=e[h];n=n+1;e=f[n];break;end;else d[e[t]][e[l]]=e[h];n=n+1;e=f[n];end end end end break;end;if(d[e[t]]~=e[h])then n=n+1;else n=e[l];end;until true;else if(d[e[t]]~=e[h])then n=n+1;else n=e[l];end;end end else if r<=263 then d[e[t]]=(not d[e[l]]);else if r==264 then local _,r,c,u,b,r,r,o,z,y,j,p,k;for r=0,6 do if r>2 then if 5<=r then if 2<r then repeat if 6~=r then r=0;while r>-1 do if 4<=r then if r<6 then if r==4 then p=j[o[y]];else k=o[z];end else if 5<=r then repeat if r<7 then d[k]=p;break;end;r=-2;until true;else d[k]=p;end end else if 2>r then if 0==r then o=e;else z=t;end else if 3~=r then y=l;else j=d;end end end r=r+1 end n=n+1;e=f[n];break;end;r=0;while r>-1 do if 2<r then if 4>=r then if-1<r then repeat if 3~=r then k=o[c];break;end;b=o[u];until true;else b=o[u];end else if r~=3 then repeat if r>5 then r=-2;break;end;d(k,b);until true;else d(k,b);end end else if r>0 then if-2~=r then repeat if r~=2 then c=t;break;end;u=l;until true;else u=l;end else o=e;end end r=r+1 end until true;else r=0;while r>-1 do if 2<r then if 4>=r then if-1<r then repeat if 3~=r then k=o[c];break;end;b=o[u];until true;else b=o[u];end else if r~=3 then repeat if r>5 then r=-2;break;end;d(k,b);until true;else d(k,b);end end else if r>0 then if-2~=r then repeat if r~=2 then c=t;break;end;u=l;until true;else u=l;end else o=e;end end r=r+1 end end else if 4~=r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else r=0;while r>-1 do if r>2 then if r<=4 then if 4>r then b=o[u];else k=o[c];end else if r>3 then repeat if r~=5 then r=-2;break;end;d(k,b);until true;else d(k,b);end end else if 0>=r then o=e;else if r>=-1 then for e=11,64 do if 2>r then c=t;break;end;u=l;break;end;else c=t;end end end r=r+1 end n=n+1;e=f[n];end end else if r<1 then _=e[t]d[_]=d[_](a(d,_+1,e[l]))n=n+1;e=f[n];else if r>1 then d[e[t]]=s[e[l]];n=n+1;e=f[n];else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end end end end else d[e[t]]();end end end else if 259>=r then if r<=257 then if d[e[t]]then n=n+1;else n=e[l];end;else if r>=256 then repeat if r<259 then for r=0,4 do if r>1 then if r<3 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else if-1<=r then for s=46,74 do if r<4 then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=e[h];break;end;else d[e[t]][e[l]]=e[h];end end else if-2<=r then for a=14,61 do if r~=1 then d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;else d[e[t]]=s[e[l]];n=n+1;e=f[n];end end end break;end;d[e[t]]=d[e[l]]+e[h];until true;else d[e[t]]=d[e[l]]+e[h];end end else if 261<=r then if 258<=r then repeat if 261<r then local m,y,j,p,z,m,r,_,o,c,b,u,k;r=0;while r>-1 do if 4>r then if r>=2 then if-1<r then repeat if 2~=r then p=d;break;end;j=l;until true;else p=d;end else if 1>r then o=e;else y=t;end end else if r<=5 then if r~=1 then for e=33,96 do if 4~=r then k=o[y];break;end;z=p[o[j]];break;end;else k=o[y];end else if r~=6 then r=-2;else d[k]=z;end end end r=r+1 end n=n+1;e=f[n];_=e[t]d[_]=d[_](a(d,_+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];r=0;while r>-1 do if r<3 then if 1<=r then if r~=-1 then for e=27,89 do if 2>r then c=t;break;end;b=l;break;end;else b=l;end else o=e;end else if 4>=r then if 1~=r then repeat if r~=4 then u=o[b];break;end;k=o[c];until true;else u=o[b];end else if r==6 then r=-2;else d(k,u);end end end r=r+1 end n=n+1;e=f[n];r=0;while r>-1 do if 2>=r then if r<=0 then o=e;else if-3<r then for e=19,81 do if r~=2 then c=t;break;end;b=l;break;end;else c=t;end end else if 5<=r then if r<6 then d(k,u);else r=-2;end else if r>3 then k=o[c];else u=o[b];end end end r=r+1 end break;end;local s;for r=0,5 do if 2<r then if r<=3 then d[e[t]]=d[e[l]]-e[h];n=n+1;e=f[n];else if r>0 then repeat if 4<r then if(d[e[t]]<d[e[h]])then n=n+1;else n=e[l];end;break;end;d[e[t]]=d[e[l]]-e[h];n=n+1;e=f[n];until true;else d[e[t]]=d[e[l]]-e[h];n=n+1;e=f[n];end end else if r<=0 then s=e[t]d[s]=d[s](d[s+1])n=n+1;e=f[n];else if r~=-1 then repeat if r<2 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];until true;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end end end until true;else local s;for r=0,5 do if 2<r then if r<=3 then d[e[t]]=d[e[l]]-e[h];n=n+1;e=f[n];else if r>0 then repeat if 4<r then if(d[e[t]]<d[e[h]])then n=n+1;else n=e[l];end;break;end;d[e[t]]=d[e[l]]-e[h];n=n+1;e=f[n];until true;else d[e[t]]=d[e[l]]-e[h];n=n+1;e=f[n];end end else if r<=0 then s=e[t]d[s]=d[s](d[s+1])n=n+1;e=f[n];else if r~=-1 then repeat if r<2 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];until true;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end end end end else local o;for r=0,6 do if 3<=r then if r>4 then if r~=5 then d(e[t],e[l]);else d(e[t],e[l]);n=n+1;e=f[n];end else if r>0 then repeat if r>3 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=s[e[l]];n=n+1;e=f[n];until true;else d[e[t]]=s[e[l]];n=n+1;e=f[n];end end else if r>=1 then if-2<r then repeat if 2>r then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=e[h];n=n+1;e=f[n];until true;else d[e[t]][e[l]]=e[h];n=n+1;e=f[n];end else o=e[t]d[o]=d[o](a(d,o+1,e[l]))n=n+1;e=f[n];end end end end end end else if 250>=r then if 247>=r then if 245>=r then for r=0,6 do if r<=2 then if r>=1 then if r==1 then d[e[t]]=s[e[l]];n=n+1;e=f[n];else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end else if r>4 then if r>3 then for a=27,69 do if 6~=r then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;d[e[t]]=s[e[l]];break;end;else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end else if r~=0 then for s=48,65 do if r<4 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end end end else if 243~=r then for n=33,80 do if 246~=r then local e=e[t]local t,n=u(d[e](d[e+1]))b=n+e-1 local n=0;for e=e,b do n=n+1;d[e]=t[n];end;break;end;local e=e[t]d[e]=d[e](d[e+1])break;end;else local e=e[t]local t,n=u(d[e](d[e+1]))b=n+e-1 local n=0;for e=e,b do n=n+1;d[e]=t[n];end;end end else if r<=248 then d[e[t]]=s[e[l]];else if 250==r then local o;for r=0,9 do if r>=5 then if 7>r then if r==6 then o=e[t]d[o]=d[o](a(d,o+1,e[l]))n=n+1;e=f[n];else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else if 8<=r then if r~=4 then for a=18,70 do if r<9 then d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];break;end;else d[e[t]]=d[e[l]][e[h]];end else d[e[t]]={};n=n+1;e=f[n];end end else if r<2 then if r>0 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else d[e[t]]=s[e[l]];n=n+1;e=f[n];end else if 3>r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else if r>-1 then for a=33,81 do if 3<r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end end end end else local a,_,k,u,b,c,r,o;d[e[t]]=s[e[l]];n=n+1;e=f[n];r=0;while r>-1 do if 3<r then if 6<=r then if r>=4 then repeat if r>6 then r=-2;break;end;d[c]=b;until true;else r=-2;end else if 3<=r then repeat if r~=5 then b=u[a[k]];break;end;c=a[_];until true;else b=u[a[k]];end end else if 2>r then if 1~=r then a=e;else _=t;end else if r~=2 then u=d;else k=l;end end end r=r+1 end n=n+1;e=f[n];o=e[t]d[o]=d[o](d[o+1])n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];r=0;while r>-1 do if r>=4 then if 5<r then if r>6 then r=-2;else d[c]=b;end else if 2<=r then repeat if 5~=r then b=u[a[k]];break;end;c=a[_];until true;else b=u[a[k]];end end else if r<=1 then if-4<r then repeat if r~=0 then _=t;break;end;a=e;until true;else a=e;end else if 1<=r then for e=28,74 do if 3~=r then k=l;break;end;u=d;break;end;else k=l;end end end r=r+1 end n=n+1;e=f[n];o=e[t]d[o]=d[o](d[o+1])n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];end end end else if r<254 then if 252>r then local g,u,y,j,c,g,r,o,_,p,z,b,m;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]]/d[e[h]];n=n+1;e=f[n];d[e[t]]=k[e[l]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];r=0;while r>-1 do if 4>r then if 1>=r then if r>-3 then for n=18,95 do if r<1 then o=e;break;end;u=t;break;end;else o=e;end else if r==2 then y=l;else j=d;end end else if 6>r then if 3~=r then repeat if r<5 then c=j[o[y]];break;end;b=o[u];until true;else b=o[u];end else if 4~=r then for e=20,52 do if r~=6 then r=-2;break;end;d[b]=c;break;end;else d[b]=c;end end end r=r+1 end n=n+1;e=f[n];r=0;while r>-1 do if r<3 then if 1<=r then if 0~=r then repeat if 2~=r then _=t;break;end;p=l;until true;else _=t;end else o=e;end else if 5<=r then if 3~=r then repeat if r~=6 then d(b,z);break;end;r=-2;until true;else r=-2;end else if r~=3 then b=o[_];else z=o[p];end end end r=r+1 end n=n+1;e=f[n];r=0;while r>-1 do if r>=4 then if r<6 then if 5==r then b=o[u];else c=j[o[y]];end else if r>=2 then repeat if r<7 then d[b]=c;break;end;r=-2;until true;else d[b]=c;end end else if 2<=r then if r~=1 then for e=34,86 do if 3~=r then y=l;break;end;j=d;break;end;else y=l;end else if-4<=r then repeat if 1>r then o=e;break;end;u=t;until true;else u=t;end end end r=r+1 end n=n+1;e=f[n];r=0;while r>-1 do if r>2 then if r>=5 then if r==5 then d(b,z);else r=-2;end else if 4~=r then z=o[p];else b=o[_];end end else if r>=1 then if-2<r then repeat if r~=2 then _=t;break;end;p=l;until true;else p=l;end else o=e;end end r=r+1 end n=n+1;e=f[n];m=e[t]d[m]=d[m](a(d,m+1,e[l]))else if 248<r then repeat if r<253 then local r,b;for o=0,9 do if o<=4 then if 2<=o then if 3<=o then if-1<=o then repeat if 3<o then r=e[t]d[r]=d[r](d[r+1])n=n+1;e=f[n];break;end;d[e[t]]=k[e[l]];n=n+1;e=f[n];until true;else r=e[t]d[r]=d[r](d[r+1])n=n+1;e=f[n];end else d[e[t]]=s[e[l]];n=n+1;e=f[n];end else if-4<=o then repeat if 1>o then k[e[l]]=d[e[t]];n=n+1;e=f[n];break;end;d[e[t]]=k[e[l]];n=n+1;e=f[n];until true;else d[e[t]]=k[e[l]];n=n+1;e=f[n];end end else if o>6 then if 8>o then d(e[t],e[l]);n=n+1;e=f[n];else if o==9 then d[e[t]][e[l]]=d[e[h]];else r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];end end else if 5==o then r=e[t];b=d[e[l]];d[r+1]=b;d[r]=b[e[h]];n=n+1;e=f[n];else d(e[t],e[l]);n=n+1;e=f[n];end end end end break;end;local k,o,c,u,b,r,s;for r=0,9 do if 5>r then if r<=1 then if-4~=r then for s=27,70 do if r~=0 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else if r>=3 then if 0<=r then for s=46,72 do if 3<r then d[e[t]]=d[e[l]]-d[e[h]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;else d[e[t]]=d[e[l]]-d[e[h]];n=n+1;e=f[n];end else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end else if r<7 then if 4<=r then for s=10,88 do if 5<r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;r=0;while r>-1 do if 2>=r then if 0<r then if 0<=r then for e=16,60 do if 2>r then o=t;break;end;c=l;break;end;else o=t;end else k=e;end else if 4<r then if 1<=r then for e=48,64 do if 6~=r then d(b,u);break;end;r=-2;break;end;else r=-2;end else if r==3 then u=k[c];else b=k[o];end end end r=r+1 end n=n+1;e=f[n];break;end;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else if 7>=r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else if r~=7 then for o=20,59 do if r~=9 then s=e[t]d[s]=d[s](a(d,s+1,e[l]))n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];break;end;else s=e[t]d[s]=d[s](a(d,s+1,e[l]))n=n+1;e=f[n];end end end end end until true;else local o,k,c,u,b,r,s;for r=0,9 do if 5>r then if r<=1 then if-4~=r then for s=27,70 do if r~=0 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else if r>=3 then if 0<=r then for s=46,72 do if 3<r then d[e[t]]=d[e[l]]-d[e[h]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;else d[e[t]]=d[e[l]]-d[e[h]];n=n+1;e=f[n];end else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end else if r<7 then if 4<=r then for s=10,88 do if 5<r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;r=0;while r>-1 do if 2>=r then if 0<r then if 0<=r then for e=16,60 do if 2>r then k=t;break;end;c=l;break;end;else k=t;end else o=e;end else if 4<r then if 1<=r then for e=48,64 do if 6~=r then d(b,u);break;end;r=-2;break;end;else r=-2;end else if r==3 then u=o[c];else b=o[k];end end end r=r+1 end n=n+1;e=f[n];break;end;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else if 7>=r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else if r~=7 then for o=20,59 do if r~=9 then s=e[t]d[s]=d[s](a(d,s+1,e[l]))n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];break;end;else s=e[t]d[s]=d[s](a(d,s+1,e[l]))n=n+1;e=f[n];end end end end end end end else if 254>=r then local a,u,o,k,b,r;for r=0,6 do if 3>r then if 0>=r then d[e[t]]=s[e[l]];n=n+1;e=f[n];else if 0~=r then repeat if r<2 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;r=0;while r>-1 do if r<3 then if 0<r then if r==1 then u=t;else o=l;end else a=e;end else if r<5 then if 1~=r then repeat if r~=4 then k=a[o];break;end;b=a[u];until true;else k=a[o];end else if 5~=r then r=-2;else d(b,k);end end end r=r+1 end n=n+1;e=f[n];until true;else r=0;while r>-1 do if r<3 then if 0<r then if r==1 then u=t;else o=l;end else a=e;end else if r<5 then if 1~=r then repeat if r~=4 then k=a[o];break;end;b=a[u];until true;else k=a[o];end else if 5~=r then r=-2;else d(b,k);end end end r=r+1 end n=n+1;e=f[n];end end else if r<=4 then if 0<=r then repeat if r>3 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=s[e[l]];n=n+1;e=f[n];until true;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else if 4<=r then repeat if r<6 then r=0;while r>-1 do if r>2 then if r>4 then if 6~=r then d(b,k);else r=-2;end else if r==4 then b=a[u];else k=a[o];end end else if r<=0 then a=e;else if r~=-2 then repeat if r~=1 then o=l;break;end;u=t;until true;else o=l;end end end r=r+1 end n=n+1;e=f[n];break;end;r=0;while r>-1 do if 3>r then if 1<=r then if r~=2 then u=t;else o=l;end else a=e;end else if 4>=r then if r==4 then b=a[u];else k=a[o];end else if r~=2 then for e=40,67 do if r>5 then r=-2;break;end;d(b,k);break;end;else d(b,k);end end end r=r+1 end until true;else r=0;while r>-1 do if r>2 then if r>4 then if 6~=r then d(b,k);else r=-2;end else if r==4 then b=a[u];else k=a[o];end end else if r<=0 then a=e;else if r~=-2 then repeat if r~=1 then o=l;break;end;u=t;until true;else o=l;end end end r=r+1 end n=n+1;e=f[n];end end end end else if 254<=r then repeat if r>255 then local e=e[t]d[e](d[e+1])break;end;for r=0,6 do if r>2 then if r<5 then if 3==r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end else if r==6 then d[e[t]]=d[e[l]][e[h]];else d[e[t]]=s[e[l]];n=n+1;e=f[n];end end else if 1>r then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];else if r>1 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else d[e[t]]=s[e[l]];n=n+1;e=f[n];end end end end until true;else for r=0,6 do if r>2 then if r<5 then if 3==r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end else if r==6 then d[e[t]]=d[e[l]][e[h]];else d[e[t]]=s[e[l]];n=n+1;e=f[n];end end else if 1>r then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];else if r>1 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else d[e[t]]=s[e[l]];n=n+1;e=f[n];end end end end end end end end end end else if 219<r then if r>231 then if r<=237 then if r<235 then if r>232 then if 229<r then for o=37,93 do if 233<r then local o;for r=0,9 do if 5<=r then if r<=6 then if r>4 then for h=12,92 do if r~=6 then d[e[t]]=k[e[l]];n=n+1;e=f[n];break;end;o=e[t]d[o]=d[o](a(d,o+1,e[l]))n=n+1;e=f[n];break;end;else o=e[t]d[o]=d[o](a(d,o+1,e[l]))n=n+1;e=f[n];end else if r>=8 then if 9>r then d[e[t]]=k[e[l]];n=n+1;e=f[n];else d[e[t]]=s[e[l]];end else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end end else if 2<=r then if 3<=r then if r~=3 then d[e[t]]=k[e[l]];n=n+1;e=f[n];else d[e[t]]=k[e[l]];n=n+1;e=f[n];end else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else if r>-3 then repeat if r~=0 then d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;d[e[t]]=k[e[l]];n=n+1;e=f[n];until true;else d[e[t]]=s[e[l]];n=n+1;e=f[n];end end end end break;end;local o,c,k,b,u,r,_;r=0;while r>-1 do if r>2 then if r<=4 then if r>=1 then repeat if 4>r then b=o[k];break;end;u=o[c];until true;else u=o[c];end else if r>=4 then repeat if r~=5 then r=-2;break;end;d(u,b);until true;else d(u,b);end end else if r<=0 then o=e;else if-1~=r then repeat if 2>r then c=t;break;end;k=l;until true;else k=l;end end end r=r+1 end n=n+1;e=f[n];r=0;while r>-1 do if 3>r then if 0<r then if 1~=r then k=l;else c=t;end else o=e;end else if r<5 then if 1~=r then for e=17,71 do if 3<r then u=o[c];break;end;b=o[k];break;end;else b=o[k];end else if r~=4 then for e=35,95 do if 5<r then r=-2;break;end;d(u,b);break;end;else r=-2;end end end r=r+1 end n=n+1;e=f[n];_=e[t]d[_]=d[_](a(d,_+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=e[h];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];break;end;else local o,c,b,u,k,r,_;r=0;while r>-1 do if r>2 then if r<=4 then if r>=1 then repeat if 4>r then u=o[b];break;end;k=o[c];until true;else k=o[c];end else if r>=4 then repeat if r~=5 then r=-2;break;end;d(k,u);until true;else d(k,u);end end else if r<=0 then o=e;else if-1~=r then repeat if 2>r then c=t;break;end;b=l;until true;else b=l;end end end r=r+1 end n=n+1;e=f[n];r=0;while r>-1 do if 3>r then if 0<r then if 1~=r then b=l;else c=t;end else o=e;end else if r<5 then if 1~=r then for e=17,71 do if 3<r then k=o[c];break;end;u=o[b];break;end;else u=o[b];end else if r~=4 then for e=35,95 do if 5<r then r=-2;break;end;d(k,u);break;end;else r=-2;end end end r=r+1 end n=n+1;e=f[n];_=e[t]d[_]=d[_](a(d,_+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=e[h];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];end else local z,j,y,p,z,r,a,b,_,u,c,k,o;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];r=0;while r>-1 do if 3<=r then if 5>r then if r>=1 then repeat if 3<r then k=a[j];break;end;p=a[y];until true;else p=a[y];end else if 5<r then r=-2;else d(k,p);end end else if r<=0 then a=e;else if 2>r then j=t;else y=l;end end end r=r+1 end n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];r=0;while r>-1 do if 4<=r then if r>5 then if 3<r then for e=34,65 do if r>6 then r=-2;break;end;d[k]=c;break;end;else d[k]=c;end else if r>0 then repeat if 4<r then k=a[b];break;end;c=u[a[_]];until true;else k=a[b];end end else if r<=1 then if r~=-1 then for n=17,69 do if r~=0 then b=t;break;end;a=e;break;end;else b=t;end else if r~=-2 then for e=29,82 do if 2~=r then u=d;break;end;_=l;break;end;else u=d;end end end r=r+1 end n=n+1;e=f[n];o=e[t]d[o]=d[o](d[o+1])n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];r=0;while r>-1 do if r>3 then if r>=6 then if 6~=r then r=-2;else d[k]=c;end else if r==5 then k=a[b];else c=u[a[_]];end end else if 1<r then if 0<r then for e=48,94 do if 2<r then u=d;break;end;_=l;break;end;else u=d;end else if r>=-1 then repeat if r~=0 then b=t;break;end;a=e;until true;else b=t;end end end r=r+1 end n=n+1;e=f[n];o=e[t]d[o]=d[o](d[o+1])end else if r<236 then local o;for r=0,6 do if 2<r then if 5>r then if r==4 then o=e[t]d[o]=d[o](a(d,o+1,e[l]))n=n+1;e=f[n];else d(e[t],e[l]);n=n+1;e=f[n];end else if r==5 then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];else d[e[t]]=s[e[l]];end end else if r>0 then if 1~=r then d(e[t],e[l]);n=n+1;e=f[n];else d(e[t],e[l]);n=n+1;e=f[n];end else d(e[t],e[l]);n=n+1;e=f[n];end end end else if r==237 then d[e[t]][d[e[l]]]=e[h];else if(e[t]<=d[e[h]])then n=n+1;else n=e[l];end;end end end else if r>240 then if r>242 then if 243<r then local o;for r=0,6 do if 3<=r then if r>4 then if r~=6 then d[e[t]]=d[e[l]];n=n+1;e=f[n];else o=e[t]d[o](a(d,o+1,e[l]))end else if 4>r then d[e[t]]=s[e[l]];n=n+1;e=f[n];else d(e[t],e[l]);n=n+1;e=f[n];end end else if 0<r then if-3~=r then for s=40,57 do if 2~=r then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=e[h];n=n+1;e=f[n];break;end;else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end end else if(d[e[t]]==e[h])then n=n+1;else n=e[l];end;end else if r>=240 then for a=34,62 do if r>241 then local r;r=e[t]d[r](d[r+1])n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];break;end;local a,b,u,k,o,r;d[e[t]][e[l]]=e[h];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];r=0;while r>-1 do if 3<=r then if r<5 then if 2<=r then repeat if 4~=r then k=a[u];break;end;o=a[b];until true;else o=a[b];end else if r~=1 then repeat if 5~=r then r=-2;break;end;d(o,k);until true;else d(o,k);end end else if r<1 then a=e;else if-1<=r then for e=13,57 do if 2>r then b=t;break;end;u=l;break;end;else b=t;end end end r=r+1 end n=n+1;e=f[n];r=0;while r>-1 do if 2<r then if 5>r then if 4==r then o=a[b];else k=a[u];end else if 6==r then r=-2;else d(o,k);end end else if r<=0 then a=e;else if-1<r then for e=10,85 do if r~=2 then b=t;break;end;u=l;break;end;else u=l;end end end r=r+1 end n=n+1;e=f[n];r=0;while r>-1 do if 2<r then if r>4 then if r>3 then repeat if r>5 then r=-2;break;end;d(o,k);until true;else d(o,k);end else if r>=1 then repeat if 4>r then k=a[u];break;end;o=a[b];until true;else k=a[u];end end else if 0<r then if 2~=r then b=t;else u=l;end else a=e;end end r=r+1 end n=n+1;e=f[n];r=0;while r>-1 do if r<3 then if 0>=r then a=e;else if r<2 then b=t;else u=l;end end else if 5>r then if 1<r then for e=34,56 do if 3<r then o=a[b];break;end;k=a[u];break;end;else o=a[b];end else if 1<=r then for e=37,55 do if r~=5 then r=-2;break;end;d(o,k);break;end;else d(o,k);end end end r=r+1 end break;end;else local a,b,u,k,o,r;d[e[t]][e[l]]=e[h];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];r=0;while r>-1 do if 3<=r then if r<5 then if 2<=r then repeat if 4~=r then k=a[u];break;end;o=a[b];until true;else o=a[b];end else if r~=1 then repeat if 5~=r then r=-2;break;end;d(o,k);until true;else d(o,k);end end else if r<1 then a=e;else if-1<=r then for e=13,57 do if 2>r then b=t;break;end;u=l;break;end;else b=t;end end end r=r+1 end n=n+1;e=f[n];r=0;while r>-1 do if 2<r then if 5>r then if 4==r then o=a[b];else k=a[u];end else if 6==r then r=-2;else d(o,k);end end else if r<=0 then a=e;else if-1<r then for e=10,85 do if r~=2 then b=t;break;end;u=l;break;end;else u=l;end end end r=r+1 end n=n+1;e=f[n];r=0;while r>-1 do if 2<r then if r>4 then if r>3 then repeat if r>5 then r=-2;break;end;d(o,k);until true;else d(o,k);end else if r>=1 then repeat if 4>r then k=a[u];break;end;o=a[b];until true;else k=a[u];end end else if 0<r then if 2~=r then b=t;else u=l;end else a=e;end end r=r+1 end n=n+1;e=f[n];r=0;while r>-1 do if r<3 then if 0>=r then a=e;else if r<2 then b=t;else u=l;end end else if 5>r then if 1<r then for e=34,56 do if 3<r then o=a[b];break;end;k=a[u];break;end;else o=a[b];end else if 1<=r then for e=37,55 do if r~=5 then r=-2;break;end;d(o,k);break;end;else d(o,k);end end end r=r+1 end end end else if 239<=r then if 237~=r then for o=39,75 do if r>239 then local a;for r=0,4 do if 1>=r then if r~=-4 then repeat if r>0 then d[e[t]][e[l]]=e[h];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];until true;else d[e[t]][e[l]]=e[h];n=n+1;e=f[n];end else if 3>r then d[e[t]]=s[e[l]];n=n+1;e=f[n];else if r>=2 then for h=17,96 do if 3~=r then a=e[t]d[a]=d[a](d[a+1])break;end;d[e[t]]=d[e[l]];n=n+1;e=f[n];break;end;else d[e[t]]=d[e[l]];n=n+1;e=f[n];end end end end break;end;local o;for r=0,6 do if r>=3 then if r<=4 then if r>-1 then repeat if r<4 then o=e[t]d[o]=d[o](a(d,o+1,e[l]))n=n+1;e=f[n];break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];until true;else o=e[t]d[o]=d[o](a(d,o+1,e[l]))n=n+1;e=f[n];end else if 2~=r then for a=34,77 do if 5~=r then d[e[t]]=s[e[l]];break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;else d[e[t]]=s[e[l]];end end else if r<=0 then d(e[t],e[l]);n=n+1;e=f[n];else if r~=1 then d(e[t],e[l]);n=n+1;e=f[n];else d(e[t],e[l]);n=n+1;e=f[n];end end end end break;end;else local o;for r=0,6 do if r>=3 then if r<=4 then if r>-1 then repeat if r<4 then o=e[t]d[o]=d[o](a(d,o+1,e[l]))n=n+1;e=f[n];break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];until true;else o=e[t]d[o]=d[o](a(d,o+1,e[l]))n=n+1;e=f[n];end else if 2~=r then for a=34,77 do if 5~=r then d[e[t]]=s[e[l]];break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;else d[e[t]]=s[e[l]];end end else if r<=0 then d(e[t],e[l]);n=n+1;e=f[n];else if r~=1 then d(e[t],e[l]);n=n+1;e=f[n];else d(e[t],e[l]);n=n+1;e=f[n];end end end end end else local r;d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];end end end else if r<=225 then if 222>=r then if r>=221 then if 222==r then local r,s;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];r=e[t]d[r]=d[r](d[r+1])n=n+1;e=f[n];r=e[t];s=d[e[l]];d[r+1]=s;d[r]=s[e[h]];n=n+1;e=f[n];r=e[t]d[r](d[r+1])n=n+1;e=f[n];k[e[l]]=d[e[t]];n=n+1;e=f[n];d[e[t]]=e[l]-d[e[h]];n=n+1;e=f[n];k[e[l]]=d[e[t]];n=n+1;e=f[n];d[e[t]]=k[e[l]];n=n+1;e=f[n];d[e[t]]=(e[l]~=0);else local s;for r=0,4 do if 1<r then if r>=3 then if r>3 then s=e[t]d[s]=d[s](a(d,s+1,e[l]))else d(e[t],e[l]);n=n+1;e=f[n];end else d(e[t],e[l]);n=n+1;e=f[n];end else if r~=0 then d(e[t],e[l]);n=n+1;e=f[n];else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end end end else local n=e[t]d[n]=d[n](a(d,n+1,e[l]))end else if 224<=r then if 224~=r then for r=0,6 do if 2<r then if 5>r then if-1~=r then repeat if r~=4 then d[e[t]][e[l]]=e[h];n=n+1;e=f[n];break;end;d[e[t]]=s[e[l]];n=n+1;e=f[n];until true;else d[e[t]][e[l]]=e[h];n=n+1;e=f[n];end else if 3~=r then repeat if 6>r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];until true;else d[e[t]]=d[e[l]][e[h]];end end else if r<=0 then d[e[t]]={};n=n+1;e=f[n];else if r~=2 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end end end end else local r,u,b,o;for s=0,6 do if 2<s then if s>=5 then if 2<s then for k=34,62 do if 6>s then r=e[t]u={d[r](a(d,r+1,e[l]))};b=0;for e=r,e[h]do b=b+1;d[e]=u[b];end n=n+1;e=f[n];break;end;r=e[t];o=d[e[l]];d[r+1]=o;d[r]=o[e[h]];break;end;else r=e[t];o=d[e[l]];d[r+1]=o;d[r]=o[e[h]];end else if s~=4 then d[e[t]]=d[e[l]];n=n+1;e=f[n];else d(e[t],e[l]);n=n+1;e=f[n];end end else if 1<=s then if 0<s then repeat if s<2 then d[e[t]]=d[e[l]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]];n=n+1;e=f[n];until true;else d[e[t]]=d[e[l]];n=n+1;e=f[n];end else d[e[t]]=k[e[l]];n=n+1;e=f[n];end end end end else local a,o,u,b,k,r,c;d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];r=0;while r>-1 do if 3>r then if 1>r then a=e;else if r>=-2 then repeat if 2~=r then o=t;break;end;u=l;until true;else o=t;end end else if 4<r then if 4<r then for e=30,78 do if 5<r then r=-2;break;end;d(k,b);break;end;else d(k,b);end else if 0~=r then for e=22,70 do if 4~=r then b=a[u];break;end;k=a[o];break;end;else k=a[o];end end end r=r+1 end n=n+1;e=f[n];c=e[t]d[c]=d[c](d[c+1])n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];r=0;while r>-1 do if r<3 then if 1>r then a=e;else if-2<=r then for e=37,60 do if 2~=r then o=t;break;end;u=l;break;end;else u=l;end end else if r>4 then if 1<r then repeat if r<6 then d(k,b);break;end;r=-2;until true;else r=-2;end else if 1<r then for e=37,65 do if 4~=r then b=a[u];break;end;k=a[o];break;end;else k=a[o];end end end r=r+1 end end end else if r>228 then if 230<=r then if r==231 then d[e[t]]=k[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]]*e[h];n=n+1;e=f[n];d[e[t]]=k[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]]*e[h];n=n+1;e=f[n];d[e[t]]=k[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];else local t=e[t]local l={d[t](a(d,t+1,b))};local n=0;for e=t,e[h]do n=n+1;d[e]=l[n];end end else local r,a;k[e[l]]=d[e[t]];n=n+1;e=f[n];d[e[t]]=k[e[l]];n=n+1;e=f[n];r=e[t];a=d[e[l]];d[r+1]=a;d[r]=a[e[h]];n=n+1;e=f[n];d[e[t]]={};n=n+1;e=f[n];d[e[t]][e[l]]=e[h];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=k[e[l]];n=n+1;e=f[n];r=e[t]d[r]=d[r](d[r+1])n=n+1;e=f[n];r=e[t];a=d[e[l]];d[r+1]=a;d[r]=a[e[h]];end else if r>226 then if r>223 then for a=30,65 do if 228>r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]={};n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];break;end;k[e[l]]=d[e[t]];n=n+1;e=f[n];k[e[l]]=d[e[t]];n=n+1;e=f[n];k[e[l]]=d[e[t]];n=n+1;e=f[n];d[e[t]]=k[e[l]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d[e[t]]=e[l]-d[e[h]];n=n+1;e=f[n];d(e[t],e[l]);break;end;else k[e[l]]=d[e[t]];n=n+1;e=f[n];k[e[l]]=d[e[t]];n=n+1;e=f[n];k[e[l]]=d[e[t]];n=n+1;e=f[n];d[e[t]]=k[e[l]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d[e[t]]=e[l]-d[e[h]];n=n+1;e=f[n];d(e[t],e[l]);end else for r=0,6 do if 2<r then if r>4 then if r==5 then d(e[t],e[l]);n=n+1;e=f[n];else d(e[t],e[l]);end else if r>-1 then for a=13,81 do if 3<r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;else d[e[t]]=s[e[l]];n=n+1;e=f[n];end end else if 0<r then if r>=0 then for s=11,64 do if 2>r then d[e[t]][e[l]]=e[h];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else d[e[t]][e[l]]=e[h];n=n+1;e=f[n];end end end end end end end else if r>=208 then if 214>r then if 211>r then if 209<=r then if r~=205 then for a=40,67 do if 209~=r then local r,o;for a=0,6 do if a<3 then if a<1 then d[e[t]]=s[e[l]];n=n+1;e=f[n];else if a>1 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end else if 4>=a then if a>0 then repeat if 3<a then r=e[t]d[r]=d[r](d[r+1])n=n+1;e=f[n];break;end;r=e[t];o=d[e[l]];d[r+1]=o;d[r]=o[e[h]];n=n+1;e=f[n];until true;else r=e[t];o=d[e[l]];d[r+1]=o;d[r]=o[e[h]];n=n+1;e=f[n];end else if 4~=a then repeat if a>5 then d[e[t]]=d[e[l]][e[h]];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];until true;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end end end break;end;for r=0,6 do if r<3 then if 0>=r then d[e[t]][e[l]]=e[h];n=n+1;e=f[n];else if 2~=r then d[e[t]]=s[e[l]];n=n+1;e=f[n];else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end else if 5<=r then if r~=4 then repeat if r~=5 then d(e[t],e[l]);break;end;d(e[t],e[l]);n=n+1;e=f[n];until true;else d(e[t],e[l]);end else if 4~=r then d(e[t],e[l]);n=n+1;e=f[n];else d(e[t],e[l]);n=n+1;e=f[n];end end end end break;end;else local r,o;for a=0,6 do if a<3 then if a<1 then d[e[t]]=s[e[l]];n=n+1;e=f[n];else if a>1 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end else if 4>=a then if a>0 then repeat if 3<a then r=e[t]d[r]=d[r](d[r+1])n=n+1;e=f[n];break;end;r=e[t];o=d[e[l]];d[r+1]=o;d[r]=o[e[h]];n=n+1;e=f[n];until true;else r=e[t];o=d[e[l]];d[r+1]=o;d[r]=o[e[h]];n=n+1;e=f[n];end else if 4~=a then repeat if a>5 then d[e[t]]=d[e[l]][e[h]];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];until true;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end end end end else for e=e[t],e[l]do d[e]=nil;end;end else if r<=211 then local a;for r=0,7 do if r<4 then if r<2 then if r~=-2 then for a=49,93 do if r~=1 then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;else d[e[t]]=s[e[l]];n=n+1;e=f[n];end else if 2==r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else d(e[t],e[l]);n=n+1;e=f[n];end end else if 6<=r then if r>=4 then for s=37,96 do if r<7 then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=e[h];break;end;else d[e[t]][e[l]]=e[h];end else if r>2 then repeat if 5~=r then a=e[t]d[a]=d[a](d[a+1])n=n+1;e=f[n];break;end;d[e[t]][e[l]]=e[h];n=n+1;e=f[n];until true;else a=e[t]d[a]=d[a](d[a+1])n=n+1;e=f[n];end end end end else if 210<=r then for s=40,92 do if 212<r then d[e[t]]=d[e[l]]-d[e[h]];break;end;local r,a;for s=0,4 do if 1>=s then if s>=-3 then repeat if s~=0 then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];until true;else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end else if 3>s then r=e[t]d[r]=d[r](d[r+1])n=n+1;e=f[n];else if 4==s then r=e[t]d[r](d[r+1])else r=e[t];a=d[e[l]];d[r+1]=a;d[r]=a[e[h]];n=n+1;e=f[n];end end end end break;end;else d[e[t]]=d[e[l]]-d[e[h]];end end end else if 216>=r then if 214>=r then d[e[t]]=d[e[l]][d[e[h]]];else if 214<=r then for f=36,74 do if 216>r then if(d[e[t]]==e[h])then n=n+1;else n=e[l];end;break;end;if(e[t]<=d[e[h]])then n=e[l];else n=n+1;end;break;end;else if(d[e[t]]==e[h])then n=n+1;else n=e[l];end;end end else if r<=217 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);else if r~=215 then repeat if r>218 then for r=0,9 do if 5>r then if r<=1 then if-2~=r then repeat if 1~=r then d[e[t]]=k[e[l]];n=n+1;e=f[n];break;end;d[e[t]]=s[e[l]];n=n+1;e=f[n];until true;else d[e[t]]=s[e[l]];n=n+1;e=f[n];end else if r>=3 then if r~=4 then d(e[t],e[l]);n=n+1;e=f[n];else d(e[t],e[l]);n=n+1;e=f[n];end else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end else if r<=6 then if 1<=r then repeat if r>5 then d[e[t]]=k[e[l]];n=n+1;e=f[n];break;end;d(e[t],e[l]);n=n+1;e=f[n];until true;else d(e[t],e[l]);n=n+1;e=f[n];end else if 8<=r then if 4<r then repeat if r<9 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=k[e[l]];until true;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end end end break;end;local t=e[t]local l={d[t](d[t+1])};local n=0;for e=t,e[h]do n=n+1;d[e]=l[n];end until true;else for r=0,9 do if 5>r then if r<=1 then if-2~=r then repeat if 1~=r then d[e[t]]=k[e[l]];n=n+1;e=f[n];break;end;d[e[t]]=s[e[l]];n=n+1;e=f[n];until true;else d[e[t]]=s[e[l]];n=n+1;e=f[n];end else if r>=3 then if r~=4 then d(e[t],e[l]);n=n+1;e=f[n];else d(e[t],e[l]);n=n+1;e=f[n];end else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end else if r<=6 then if 1<=r then repeat if r>5 then d[e[t]]=k[e[l]];n=n+1;e=f[n];break;end;d(e[t],e[l]);n=n+1;e=f[n];until true;else d(e[t],e[l]);n=n+1;e=f[n];end else if 8<=r then if 4<r then repeat if r<9 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=k[e[l]];until true;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end end end end end end end else if 202<=r then if r>=205 then if 206<=r then if r>=204 then repeat if r<207 then local e=e[t]d[e]=d[e](a(d,e+1,b))break;end;local r,s;r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];r=e[t]d[r]=d[r](d[r+1])n=n+1;e=f[n];r=e[t];s=d[e[l]];d[r+1]=s;d[r]=s[e[h]];n=n+1;e=f[n];r=e[t]d[r](d[r+1])until true;else local r,s;r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];r=e[t]d[r]=d[r](d[r+1])n=n+1;e=f[n];r=e[t];s=d[e[l]];d[r+1]=s;d[r]=s[e[h]];n=n+1;e=f[n];r=e[t]d[r](d[r+1])end else local r,s;for o=0,4 do if 2>o then if-2~=o then for a=12,93 do if o<1 then r=e[t];s=d[e[l]];d[r+1]=s;d[r]=s[e[h]];n=n+1;e=f[n];break;end;d(e[t],e[l]);n=n+1;e=f[n];break;end;else r=e[t];s=d[e[l]];d[r+1]=s;d[r]=s[e[h]];n=n+1;e=f[n];end else if o<3 then r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];else if o>=-1 then for a=15,70 do if o~=3 then r=e[t];s=d[e[l]];d[r+1]=s;d[r]=s[e[h]];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;else r=e[t];s=d[e[l]];d[r+1]=s;d[r]=s[e[h]];end end end end end else if 202<r then if 201<r then for s=37,86 do if 204~=r then local f=e[t];local t={};for e=1,#c do local e=c[e];for n=0,#e do local n=e[n];local l=n[1];local e=n[2];if l==d and e>=f then t[e]=l[e];n[1]=t;end;end;end;break;end;for r=0,6 do if 3<=r then if 4>=r then if 1<r then repeat if r>3 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];until true;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else if 5==r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else d[e[t]]=d[e[l]][e[h]];end end else if r>0 then if 2~=r then d[e[t]]=k[e[l]];n=n+1;e=f[n];else d[e[t]]=d[e[l]][d[e[h]]];n=n+1;e=f[n];end else d[e[t]]=k[e[l]];n=n+1;e=f[n];end end end break;end;else for r=0,6 do if 3<=r then if 4>=r then if 1<r then repeat if r>3 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];until true;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else if 5==r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else d[e[t]]=d[e[l]][e[h]];end end else if r>0 then if 2~=r then d[e[t]]=k[e[l]];n=n+1;e=f[n];else d[e[t]]=d[e[l]][d[e[h]]];n=n+1;e=f[n];end else d[e[t]]=k[e[l]];n=n+1;e=f[n];end end end end else for r=0,6 do if r<3 then if r>=1 then if-2~=r then for s=25,81 do if 2~=r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else d[e[t]]=s[e[l]];n=n+1;e=f[n];end else if 4>=r then if 0<r then for s=25,56 do if 4~=r then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=e[h];n=n+1;e=f[n];break;end;else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end else if 6~=r then d[e[t]]={};n=n+1;e=f[n];else d[e[t]]=s[e[l]];end end end end end end else if 199>r then if 197<=r then if r>196 then repeat if r~=197 then k[e[l]]=d[e[t]];break;end;local o;for r=0,6 do if 3<=r then if r<5 then if 0<=r then repeat if 4>r then d(e[t],e[l]);n=n+1;e=f[n];break;end;d(e[t],e[l]);n=n+1;e=f[n];until true;else d(e[t],e[l]);n=n+1;e=f[n];end else if 2<r then for h=16,55 do if 5<r then o=e[t]d[o]=d[o](a(d,o+1,e[l]))break;end;d(e[t],e[l]);n=n+1;e=f[n];break;end;else d(e[t],e[l]);n=n+1;e=f[n];end end else if r<1 then d[e[t]][e[l]]=e[h];n=n+1;e=f[n];else if r>-3 then repeat if r<2 then d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];until true;else d[e[t]]=s[e[l]];n=n+1;e=f[n];end end end end until true;else k[e[l]]=d[e[t]];end else local r;r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=e[l]-d[e[h]];n=n+1;e=f[n];k[e[l]]=d[e[t]];n=n+1;e=f[n];d[e[t]]=k[e[l]];n=n+1;e=f[n];d[e[t]]=(e[l]~=0);n=n+1;e=f[n];r=e[t]d[r](d[r+1])end else if r>=200 then if r>=198 then for n=29,85 do if 200~=r then local n=e[t];local t=d[e[l]];d[n+1]=t;d[n]=t[e[h]];break;end;d[e[t]]=e[l]^d[e[h]];break;end;else local t=e[t];local n=d[e[l]];d[t+1]=n;d[t]=n[e[h]];end else if(e[t]<d[e[h]])then n=n+1;else n=e[l];end;end end end end end end end else if 98<=r then if r<=146 then if r<122 then if r>109 then if 115>=r then if 112>=r then if 110>=r then local h,s,f,r,a;local n=0;while n>-1 do if 2<n then if 5>n then if-1<=n then repeat if n>3 then a=h[s];break;end;r=h[f];until true;else r=h[f];end else if n>5 then n=-2;else d(a,r);end end else if n>=1 then if n>=-2 then for e=26,71 do if n<2 then s=t;break;end;f=l;break;end;else f=l;end else h=e;end end n=n+1 end else if 109<=r then for n=48,89 do if r<112 then d[e[t]][e[l]]=d[e[h]];break;end;d[e[t]]={};break;end;else d[e[t]][e[l]]=d[e[h]];end end else if r>=114 then if 113<=r then for o=14,85 do if 114<r then local s,u,k,o,b,r,c;for r=0,6 do if 2<r then if 4<r then if 2<=r then repeat if r~=5 then d[e[t]][e[l]]=e[h];break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];until true;else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end else if r~=0 then for h=25,92 do if 4>r then r=0;while r>-1 do if r>=3 then if 5>r then if 0<=r then repeat if r~=4 then o=s[k];break;end;b=s[u];until true;else o=s[k];end else if 5==r then d(b,o);else r=-2;end end else if 0<r then if r~=2 then u=t;else k=l;end else s=e;end end r=r+1 end n=n+1;e=f[n];break;end;c=e[t]d[c]=d[c](a(d,c+1,e[l]))n=n+1;e=f[n];break;end;else c=e[t]d[c]=d[c](a(d,c+1,e[l]))n=n+1;e=f[n];end end else if 0<r then if r~=-2 then repeat if 2~=r then r=0;while r>-1 do if r>=3 then if 4<r then if 3<r then repeat if r~=5 then r=-2;break;end;d(b,o);until true;else d(b,o);end else if r>1 then repeat if r>3 then b=s[u];break;end;o=s[k];until true;else o=s[k];end end else if r<1 then s=e;else if r>=0 then for e=29,54 do if 1~=r then k=l;break;end;u=t;break;end;else k=l;end end end r=r+1 end n=n+1;e=f[n];break;end;r=0;while r>-1 do if 3<=r then if 4>=r then if r==3 then o=s[k];else b=s[u];end else if 4<=r then repeat if 5~=r then r=-2;break;end;d(b,o);until true;else r=-2;end end else if r<=0 then s=e;else if 2~=r then u=t;else k=l;end end end r=r+1 end n=n+1;e=f[n];until true;else r=0;while r>-1 do if 3<=r then if 4>=r then if r==3 then o=s[k];else b=s[u];end else if 4<=r then repeat if 5~=r then r=-2;break;end;d(b,o);until true;else r=-2;end end else if r<=0 then s=e;else if 2~=r then u=t;else k=l;end end end r=r+1 end n=n+1;e=f[n];end else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end end break;end;local r;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];do return end;break;end;else local s,u,o,k,b,r,c;for r=0,6 do if 2<r then if 4<r then if 2<=r then repeat if r~=5 then d[e[t]][e[l]]=e[h];break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];until true;else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end else if r~=0 then for h=25,92 do if 4>r then r=0;while r>-1 do if r>=3 then if 5>r then if 0<=r then repeat if r~=4 then k=s[o];break;end;b=s[u];until true;else k=s[o];end else if 5==r then d(b,k);else r=-2;end end else if 0<r then if r~=2 then u=t;else o=l;end else s=e;end end r=r+1 end n=n+1;e=f[n];break;end;c=e[t]d[c]=d[c](a(d,c+1,e[l]))n=n+1;e=f[n];break;end;else c=e[t]d[c]=d[c](a(d,c+1,e[l]))n=n+1;e=f[n];end end else if 0<r then if r~=-2 then repeat if 2~=r then r=0;while r>-1 do if r>=3 then if 4<r then if 3<r then repeat if r~=5 then r=-2;break;end;d(b,k);until true;else d(b,k);end else if r>1 then repeat if r>3 then b=s[u];break;end;k=s[o];until true;else k=s[o];end end else if r<1 then s=e;else if r>=0 then for e=29,54 do if 1~=r then o=l;break;end;u=t;break;end;else o=l;end end end r=r+1 end n=n+1;e=f[n];break;end;r=0;while r>-1 do if 3<=r then if 4>=r then if r==3 then k=s[o];else b=s[u];end else if 4<=r then repeat if 5~=r then r=-2;break;end;d(b,k);until true;else r=-2;end end else if r<=0 then s=e;else if 2~=r then u=t;else o=l;end end end r=r+1 end n=n+1;e=f[n];until true;else r=0;while r>-1 do if 3<=r then if 4>=r then if r==3 then k=s[o];else b=s[u];end else if 4<=r then repeat if 5~=r then r=-2;break;end;d(b,k);until true;else r=-2;end end else if r<=0 then s=e;else if 2~=r then u=t;else o=l;end end end r=r+1 end n=n+1;e=f[n];end else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end end end else local r;r=e[t]d[r](a(d,r+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=e[h];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);end end else if 119<=r then if r<120 then d[e[t]]=(e[l]~=0);n=n+1;else if 116~=r then for a=14,74 do if r>120 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=e[h];n=n+1;e=f[n];d[e[t]]={};n=n+1;e=f[n];d[e[t]][e[l]]=e[h];n=n+1;e=f[n];d[e[t]]=k[e[l]];break;end;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);end end else if r<=116 then d[e[t]][e[l]]=e[h];else if 115<r then repeat if r>117 then local r,o;for s=0,6 do if s>=3 then if s<=4 then if s>0 then for a=14,82 do if s~=4 then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;r=e[t]d[r]=d[r](d[r+1])n=n+1;e=f[n];break;end;else r=e[t]d[r]=d[r](d[r+1])n=n+1;e=f[n];end else if 3<s then repeat if 5<s then r=e[t]d[r](d[r+1])break;end;r=e[t];o=d[e[l]];d[r+1]=o;d[r]=o[e[h]];n=n+1;e=f[n];until true;else r=e[t]d[r](d[r+1])end end else if s<=0 then d(e[t],e[l]);n=n+1;e=f[n];else if 0~=s then repeat if 2~=s then r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];until true;else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end end end end break;end;local b,p,o,u,k,c,r,_;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][d[e[h]]];n=n+1;e=f[n];r=0;while r>-1 do if r>=4 then if 5<r then if r~=4 then for e=18,78 do if 7>r then d[c]=k;break;end;r=-2;break;end;else d[c]=k;end else if r>0 then repeat if r<5 then k=u[b[o]];break;end;c=b[p];until true;else k=u[b[o]];end end else if r>=2 then if r>-2 then for e=28,96 do if 2<r then u=d;break;end;o=l;break;end;else o=l;end else if r~=1 then b=e;else p=t;end end end r=r+1 end n=n+1;e=f[n];_=e[t]d[_](a(d,_+1,e[l]))n=n+1;e=f[n];do return end;until true;else local r,o;for s=0,6 do if s>=3 then if s<=4 then if s>0 then for a=14,82 do if s~=4 then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;r=e[t]d[r]=d[r](d[r+1])n=n+1;e=f[n];break;end;else r=e[t]d[r]=d[r](d[r+1])n=n+1;e=f[n];end else if 3<s then repeat if 5<s then r=e[t]d[r](d[r+1])break;end;r=e[t];o=d[e[l]];d[r+1]=o;d[r]=o[e[h]];n=n+1;e=f[n];until true;else r=e[t]d[r](d[r+1])end end else if s<=0 then d(e[t],e[l]);n=n+1;e=f[n];else if 0~=s then repeat if 2~=s then r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];until true;else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end end end end end end end end else if 104<=r then if 107<=r then if 107>=r then local h;d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=k[e[l]];n=n+1;e=f[n];d[e[t]]=k[e[l]];n=n+1;e=f[n];h=e[t]d[h](a(d,h+1,e[l]))n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]={};n=n+1;e=f[n];d[e[t]]=k[e[l]];else if 108<r then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]={};n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];else local n=e[t]d[n]=d[n](a(d,n+1,e[l]))end end else if r>104 then if r~=105 then for r=0,6 do if 2>=r then if 1>r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else if r~=-1 then for h=25,59 do if 1<r then d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;d[e[t]]={};n=n+1;e=f[n];break;end;else d[e[t]]=s[e[l]];n=n+1;e=f[n];end end else if 4>=r then if r>0 then repeat if 4>r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d(e[t],e[l]);n=n+1;e=f[n];until true;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else if r==6 then d[e[t]]=d[e[l]][e[h]];else d[e[t]]=s[e[l]];n=n+1;e=f[n];end end end end else local s;for r=0,6 do if 3>r then if r<1 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else if r>=0 then for h=36,70 do if 2>r then d(e[t],e[l]);n=n+1;e=f[n];break;end;d(e[t],e[l]);n=n+1;e=f[n];break;end;else d(e[t],e[l]);n=n+1;e=f[n];end end else if r<=4 then if 4~=r then d(e[t],e[l]);n=n+1;e=f[n];else d(e[t],e[l]);n=n+1;e=f[n];end else if r~=3 then repeat if 6>r then s=e[t]d[s]=d[s](a(d,s+1,e[l]))n=n+1;e=f[n];break;end;d[e[t]][e[l]]=d[e[h]];until true;else s=e[t]d[s]=d[s](a(d,s+1,e[l]))n=n+1;e=f[n];end end end end end else local r;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];d[e[t]]=d[e[l]]-d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];end end else if r>100 then if r<=101 then for e=e[t],e[l]do d[e]=nil;end;else if 101<=r then repeat if 102~=r then local r;for o=0,5 do if o>=3 then if o<=3 then d(e[t],e[l]);n=n+1;e=f[n];else if 3<=o then for h=46,73 do if 4<o then r=e[t]d[r]=d[r](a(d,r+1,e[l]))break;end;d[e[t]]=d[e[l]];n=n+1;e=f[n];break;end;else d[e[t]]=d[e[l]];n=n+1;e=f[n];end end else if o<=0 then r=e[t]d[r](a(d,r+1,e[l]))n=n+1;e=f[n];else if o~=0 then repeat if o~=1 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=s[e[l]];n=n+1;e=f[n];until true;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end end end break;end;local o,c,k,b,u,r,_;r=0;while r>-1 do if r>2 then if 4<r then if r>1 then for e=16,85 do if r<6 then d(u,b);break;end;r=-2;break;end;else r=-2;end else if 3<r then u=o[c];else b=o[k];end end else if 0>=r then o=e;else if-2<r then for e=49,93 do if 1~=r then k=l;break;end;c=t;break;end;else k=l;end end end r=r+1 end n=n+1;e=f[n];r=0;while r>-1 do if 2>=r then if 1<=r then if 0<r then repeat if r~=2 then c=t;break;end;k=l;until true;else k=l;end else o=e;end else if r<=4 then if 1<r then for e=10,85 do if 3~=r then u=o[c];break;end;b=o[k];break;end;else b=o[k];end else if r>=2 then for e=36,55 do if r>5 then r=-2;break;end;d(u,b);break;end;else d(u,b);end end end r=r+1 end n=n+1;e=f[n];_=e[t]d[_]=d[_](a(d,_+1,e[l]))n=n+1;e=f[n];d[e[t]]=d[e[l]]/e[h];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];until true;else local k,c,o,b,u,r,_;r=0;while r>-1 do if r>2 then if 4<r then if r>1 then for e=16,85 do if r<6 then d(u,b);break;end;r=-2;break;end;else r=-2;end else if 3<r then u=k[c];else b=k[o];end end else if 0>=r then k=e;else if-2<r then for e=49,93 do if 1~=r then o=l;break;end;c=t;break;end;else o=l;end end end r=r+1 end n=n+1;e=f[n];r=0;while r>-1 do if 2>=r then if 1<=r then if 0<r then repeat if r~=2 then c=t;break;end;o=l;until true;else o=l;end else k=e;end else if r<=4 then if 1<r then for e=10,85 do if 3~=r then u=k[c];break;end;b=k[o];break;end;else b=k[o];end else if r>=2 then for e=36,55 do if r>5 then r=-2;break;end;d(u,b);break;end;else d(u,b);end end end r=r+1 end n=n+1;e=f[n];_=e[t]d[_]=d[_](a(d,_+1,e[l]))n=n+1;e=f[n];d[e[t]]=d[e[l]]/e[h];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];end end else if 98<r then if r~=96 then for o=31,76 do if 100~=r then local o;for r=0,8 do if r>3 then if r>=6 then if 7>r then d[e[t]]=d[e[l]];n=n+1;e=f[n];else if 4~=r then for s=35,85 do if 8>r then o=e[t]d[o](a(d,o+1,e[l]))n=n+1;e=f[n];break;end;d[e[t]][e[l]]=d[e[h]];break;end;else d[e[t]][e[l]]=d[e[h]];end end else if 0<=r then for h=20,84 do if 4~=r then d(e[t],e[l]);n=n+1;e=f[n];break;end;d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;else d(e[t],e[l]);n=n+1;e=f[n];end end else if 2>r then if r>=-3 then for h=11,62 do if r<1 then d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;d(e[t],e[l]);n=n+1;e=f[n];break;end;else d[e[t]]=s[e[l]];n=n+1;e=f[n];end else if r>=0 then for h=12,93 do if 3>r then d[e[t]]=d[e[l]];n=n+1;e=f[n];break;end;o=e[t]d[o](a(d,o+1,e[l]))n=n+1;e=f[n];break;end;else o=e[t]d[o](a(d,o+1,e[l]))n=n+1;e=f[n];end end end end break;end;local f=d[e[h]];if not f then n=n+1;else d[e[t]]=f;n=e[l];end;break;end;else local f=d[e[h]];if not f then n=n+1;else d[e[t]]=f;n=e[l];end;end else local r;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];end end end end else if 134>r then if 127>=r then if r>=125 then if r<=125 then do return d[e[t]]end else if 122<=r then for o=20,97 do if r~=127 then local s;for r=0,6 do if 3<=r then if r>=5 then if 3<r then for s=32,87 do if r<6 then d[e[t]]=k[e[l]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];break;end;else d[e[t]]=k[e[l]];n=n+1;e=f[n];end else if r~=3 then s=e[t]d[s]=d[s](a(d,s+1,e[l]))n=n+1;e=f[n];else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end else if r>0 then if r~=-1 then repeat if r>1 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=k[e[l]];n=n+1;e=f[n];until true;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else d(e[t],e[l]);n=n+1;e=f[n];end end end break;end;local o;for r=0,6 do if 2<r then if 4<r then if r<6 then d(e[t],e[l]);n=n+1;e=f[n];else d(e[t],e[l]);end else if r~=1 then repeat if 3~=r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=s[e[l]];n=n+1;e=f[n];until true;else d[e[t]]=s[e[l]];n=n+1;e=f[n];end end else if r>0 then if r>1 then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];else o=e[t]d[o]=d[o](a(d,o+1,e[l]))n=n+1;e=f[n];end else d(e[t],e[l]);n=n+1;e=f[n];end end end break;end;else local s;for r=0,6 do if 3<=r then if r>=5 then if 3<r then for s=32,87 do if r<6 then d[e[t]]=k[e[l]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];break;end;else d[e[t]]=k[e[l]];n=n+1;e=f[n];end else if r~=3 then s=e[t]d[s]=d[s](a(d,s+1,e[l]))n=n+1;e=f[n];else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end else if r>0 then if r~=-1 then repeat if r>1 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=k[e[l]];n=n+1;e=f[n];until true;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else d(e[t],e[l]);n=n+1;e=f[n];end end end end end else if r<123 then s[e[l]]=d[e[t]];else if 122<=r then repeat if r<124 then d[e[t]]=s[e[l]];break;end;if d[e[t]]then n=n+1;else n=e[l];end;until true;else if d[e[t]]then n=n+1;else n=e[l];end;end end end else if r>=131 then if r<=131 then d[e[t]]=p(j[e[l]],nil,s);else if 128<r then for f=35,79 do if 132<r then local e=e[t]d[e]=d[e](a(d,e+1,b))break;end;if(e[t]<d[e[h]])then n=n+1;else n=e[l];end;break;end;else local e=e[t]d[e]=d[e](a(d,e+1,b))end end else if r<=128 then d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);else if 126<r then repeat if 130>r then for r=0,7 do if 4>r then if r>=2 then if-2<=r then repeat if r~=3 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];until true;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else if r~=0 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else d[e[t]]={};n=n+1;e=f[n];end end else if r>=6 then if 3<r then repeat if 6<r then d[e[t]]=d[e[l]][e[h]];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];until true;else d[e[t]]=d[e[l]][e[h]];end else if 3~=r then for a=18,53 do if r~=4 then d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=e[h];n=n+1;e=f[n];break;end;else d[e[t]]=s[e[l]];n=n+1;e=f[n];end end end end break;end;for r=0,9 do if r<5 then if 1>=r then if-3<r then repeat if 0<r then d[e[t]]=d[e[l]]/d[e[h]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];until true;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else if r<3 then d[e[t]]=s[e[l]];n=n+1;e=f[n];else if r>=-1 then repeat if 4>r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=k[e[l]];n=n+1;e=f[n];until true;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end end else if 6<r then if 8<=r then if 7~=r then for s=26,68 do if 8<r then d[e[t]]=d[e[l]]-d[e[h]];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;else d[e[t]]=d[e[l]]-d[e[h]];end else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else if 2<=r then repeat if 5~=r then d[e[t]]=k[e[l]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];until true;else d[e[t]]=k[e[l]];n=n+1;e=f[n];end end end end until true;else for r=0,7 do if 4>r then if r>=2 then if-2<=r then repeat if r~=3 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];until true;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else if r~=0 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else d[e[t]]={};n=n+1;e=f[n];end end else if r>=6 then if 3<r then repeat if 6<r then d[e[t]]=d[e[l]][e[h]];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];until true;else d[e[t]]=d[e[l]][e[h]];end else if 3~=r then for a=18,53 do if r~=4 then d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=e[h];n=n+1;e=f[n];break;end;else d[e[t]]=s[e[l]];n=n+1;e=f[n];end end end end end end end end else if 140>r then if 137<=r then if 138<=r then if r>138 then d[e[t]]=d[e[l]]/e[h];else local h;d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=k[e[l]];n=n+1;e=f[n];d[e[t]]=k[e[l]];n=n+1;e=f[n];d[e[t]]=k[e[l]];n=n+1;e=f[n];h=e[t]d[h](a(d,h+1,e[l]))n=n+1;e=f[n];do return end;end else local r,a;for s=0,4 do if s>1 then if 3>s then r=e[t]d[r]=d[r](d[r+1])n=n+1;e=f[n];else if 3<s then r=e[t]d[r](d[r+1])else r=e[t];a=d[e[l]];d[r+1]=a;d[r]=a[e[h]];n=n+1;e=f[n];end end else if-2~=s then repeat if s~=0 then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];until true;else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end end end end else if 135<=r then if r>132 then repeat if 136>r then d[e[t]][e[l]]=e[h];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=e[h];n=n+1;e=f[n];d[e[t]]={};break;end;local a,k,o;for r=0,6 do if r>2 then if 5>r then if r==3 then d[e[t]]=d[e[l]];n=n+1;e=f[n];else a=e[t]k={d[a](d[a+1])};o=0;for e=a,e[h]do o=o+1;d[e]=k[o];end n=n+1;e=f[n];end else if 6==r then d[e[t]]=d[e[l]];else d[e[t]]=d[e[l]];n=n+1;e=f[n];end end else if 0>=r then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];else if r>-1 then for a=22,56 do if 1<r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;else d[e[t]]=s[e[l]];n=n+1;e=f[n];end end end end until true;else d[e[t]][e[l]]=e[h];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=e[h];n=n+1;e=f[n];d[e[t]]={};end else local e=e[t]local t,n=u(d[e](d[e+1]))b=n+e-1 local n=0;for e=e,b do n=n+1;d[e]=t[n];end;end end else if 143<=r then if 144>=r then if 143~=r then local r,a;for h=0,6 do if h<=2 then if h>=1 then if h==2 then s[e[l]]=d[e[t]];n=n+1;e=f[n];else d[e[t]]={};n=n+1;e=f[n];end else s[e[l]]=d[e[t]];n=n+1;e=f[n];end else if 4>=h then if 1<=h then for l=39,77 do if 3~=h then d[e[t]]={};n=n+1;e=f[n];break;end;d[e[t]]={};n=n+1;e=f[n];break;end;else d[e[t]]={};n=n+1;e=f[n];end else if h<6 then d(e[t],e[l]);n=n+1;e=f[n];else r=e[t];a=d[r];for e=r+1,e[l]do o.aSy_RxsI(a,d[e])end;end end end end else local m,_,u,c,m,r,b,o,p,y,j,z,k;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];r=0;while r>-1 do if 2>=r then if r>0 then if r>=0 then repeat if 2>r then _=t;break;end;u=l;until true;else u=l;end else o=e;end else if 5>r then if r~=3 then k=o[_];else c=o[u];end else if 5<r then r=-2;else d(k,c);end end end r=r+1 end n=n+1;e=f[n];r=0;while r>-1 do if 3>r then if 1<=r then if r~=-1 then for e=14,82 do if r>1 then u=l;break;end;_=t;break;end;else u=l;end else o=e;end else if 5<=r then if 1~=r then repeat if r<6 then d(k,c);break;end;r=-2;until true;else d(k,c);end else if r~=0 then repeat if r>3 then k=o[_];break;end;c=o[u];until true;else k=o[_];end end end r=r+1 end n=n+1;e=f[n];b=e[t]d[b]=d[b](a(d,b+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];r=0;while r>-1 do if r>3 then if r>=6 then if 6<r then r=-2;else d[k]=z;end else if r~=1 then repeat if r~=4 then k=o[p];break;end;z=j[o[y]];until true;else k=o[p];end end else if r>=2 then if-1~=r then for e=11,90 do if 3~=r then y=l;break;end;j=d;break;end;else y=l;end else if r==0 then o=e;else p=t;end end end r=r+1 end n=n+1;e=f[n];b=e[t]d[b]=d[b](d[b+1])n=n+1;e=f[n];d[e[t]][e[l]]=e[h];n=n+1;e=f[n];d[e[t]][e[l]]=e[h];end else if r>142 then repeat if 146>r then local r;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=e[h];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d[e[t]]=d[e[l]];n=n+1;e=f[n];r=e[t]d[r](a(d,r+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];break;end;local o;for r=0,6 do if r>=3 then if r<5 then if r>-1 then for a=42,67 do if 3~=r then d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;else d[e[t]]=s[e[l]];n=n+1;e=f[n];end else if r==6 then d[e[t]]=d[e[l]][e[h]];else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end else if r>=1 then if r>=-3 then repeat if 2~=r then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=e[h];n=n+1;e=f[n];until true;else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end else o=e[t]d[o]=d[o](a(d,o+1,e[l]))n=n+1;e=f[n];end end end until true;else local r;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=e[h];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d[e[t]]=d[e[l]];n=n+1;e=f[n];r=e[t]d[r](a(d,r+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];end end else if r>140 then if r>137 then for o=24,82 do if r~=142 then local r,s;d[e[t]]=d[e[l]];n=n+1;e=f[n];r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];r=e[t];s=d[e[l]];d[r+1]=s;d[r]=s[e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];if d[e[t]]then n=n+1;else n=e[l];end;break;end;d[e[t]][e[l]]=e[h];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);break;end;else local r,s;d[e[t]]=d[e[l]];n=n+1;e=f[n];r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];r=e[t];s=d[e[l]];d[r+1]=s;d[r]=s[e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];if d[e[t]]then n=n+1;else n=e[l];end;end else d[e[t]]=(e[l]~=0);n=n+1;end end end end end else if r<=170 then if 158<r then if 165>r then if r>161 then if r<163 then local b,_,o,u,c,r,s,p;r=0;while r>-1 do if r>2 then if r<5 then if r~=3 then c=b[_];else u=b[o];end else if 1~=r then repeat if r~=6 then d(c,u);break;end;r=-2;until true;else d(c,u);end end else if 1<=r then if r~=0 then for e=18,74 do if r<2 then _=t;break;end;o=l;break;end;else o=l;end else b=e;end end r=r+1 end n=n+1;e=f[n];r=0;while r>-1 do if 3<=r then if 4>=r then if 1~=r then repeat if r>3 then c=b[_];break;end;u=b[o];until true;else u=b[o];end else if r~=3 then for e=33,88 do if r~=5 then r=-2;break;end;d(c,u);break;end;else r=-2;end end else if 1<=r then if r~=-1 then repeat if 1<r then o=l;break;end;_=t;until true;else o=l;end else b=e;end end r=r+1 end n=n+1;e=f[n];s=e[t]d[s]=d[s](a(d,s+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];s=e[t]d[s]=d[s](d[s+1])n=n+1;e=f[n];s=e[t];p=d[e[l]];d[s+1]=p;d[s]=p[e[h]];n=n+1;e=f[n];s=e[t]d[s](d[s+1])n=n+1;e=f[n];d[e[t]]=k[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];else if 160<r then for o=48,71 do if 164>r then local k,c,u,o,b,r,a;r=0;while r>-1 do if 3<=r then if 4<r then if 2~=r then for e=48,67 do if 5<r then r=-2;break;end;d(b,o);break;end;else d(b,o);end else if-1<r then for e=22,54 do if r~=4 then o=k[u];break;end;b=k[c];break;end;else o=k[u];end end else if r<1 then k=e;else if r>=-3 then repeat if 2~=r then c=t;break;end;u=l;until true;else c=t;end end end r=r+1 end n=n+1;e=f[n];a=e[t]d[a]=d[a](d[a+1])n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];r=0;while r>-1 do if 3<=r then if 5<=r then if 2<=r then for e=11,59 do if 5~=r then r=-2;break;end;d(b,o);break;end;else d(b,o);end else if 4~=r then o=k[u];else b=k[c];end end else if r<1 then k=e;else if 1~=r then u=l;else c=t;end end end r=r+1 end n=n+1;e=f[n];a=e[t]d[a]=d[a](d[a+1])n=n+1;e=f[n];d[e[t]]=s[e[l]];break;end;local s;for r=0,6 do if 3>r then if r<1 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else if r>0 then repeat if 1<r then d[e[t]]=d[e[l]]/d[e[h]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];until true;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end else if r<=4 then if r~=1 then for h=46,80 do if r~=4 then d(e[t],e[l]);n=n+1;e=f[n];break;end;d(e[t],e[l]);n=n+1;e=f[n];break;end;else d(e[t],e[l]);n=n+1;e=f[n];end else if r<6 then s=e[t]d[s]=d[s](a(d,s+1,e[l]))n=n+1;e=f[n];else d[e[t]]=k[e[l]];end end end end break;end;else local s;for r=0,6 do if 3>r then if r<1 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else if r>0 then repeat if 1<r then d[e[t]]=d[e[l]]/d[e[h]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];until true;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end else if r<=4 then if r~=1 then for h=46,80 do if r~=4 then d(e[t],e[l]);n=n+1;e=f[n];break;end;d(e[t],e[l]);n=n+1;e=f[n];break;end;else d(e[t],e[l]);n=n+1;e=f[n];end else if r<6 then s=e[t]d[s]=d[s](a(d,s+1,e[l]))n=n+1;e=f[n];else d[e[t]]=k[e[l]];end end end end end end else if r>=160 then if 156<r then for o=20,55 do if 161>r then local e=e[t];b=e+ne-1;for n=e,b do local e=g[n-e];d[n]=e;end;break;end;local r;d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);break;end;else local r;d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);end else local s;for r=0,6 do if r<=2 then if r<=0 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else if 0<=r then repeat if r~=2 then d(e[t],e[l]);n=n+1;e=f[n];break;end;d(e[t],e[l]);n=n+1;e=f[n];until true;else d(e[t],e[l]);n=n+1;e=f[n];end end else if 4<r then if 4<=r then repeat if r~=5 then d[e[t]][e[l]]=e[h];break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];until true;else d[e[t]][e[l]]=e[h];end else if-1<=r then for h=43,91 do if r~=3 then s=e[t]d[s]=d[s](a(d,s+1,e[l]))n=n+1;e=f[n];break;end;d(e[t],e[l]);n=n+1;e=f[n];break;end;else d(e[t],e[l]);n=n+1;e=f[n];end end end end end end else if r>167 then if r>168 then if 170~=r then local r;d[e[t]]=d[e[l]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];d[e[t]]=d[e[l]]/e[h];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];else local o,k,c,u,b,r,_;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];r=0;while r>-1 do if 2>=r then if r>0 then if r>1 then c=l;else k=t;end else o=e;end else if 4>=r then if 1~=r then for e=24,70 do if r~=3 then b=o[k];break;end;u=o[c];break;end;else b=o[k];end else if r~=5 then r=-2;else d(b,u);end end end r=r+1 end n=n+1;e=f[n];r=0;while r>-1 do if r<3 then if 1>r then o=e;else if r>1 then c=l;else k=t;end end else if 4<r then if 4~=r then for e=39,82 do if 6~=r then d(b,u);break;end;r=-2;break;end;else r=-2;end else if r>-1 then repeat if 4>r then u=o[c];break;end;b=o[k];until true;else b=o[k];end end end r=r+1 end n=n+1;e=f[n];r=0;while r>-1 do if r>=3 then if r<=4 then if r>0 then for e=35,96 do if r~=3 then b=o[k];break;end;u=o[c];break;end;else b=o[k];end else if r>2 then repeat if 6~=r then d(b,u);break;end;r=-2;until true;else d(b,u);end end else if r>=1 then if r~=-1 then for e=33,95 do if 1<r then c=l;break;end;k=t;break;end;else k=t;end else o=e;end end r=r+1 end n=n+1;e=f[n];_=e[t]d[_]=d[_](a(d,_+1,e[l]))end else d[e[t]]=d[e[l]]-d[e[h]];end else if r<166 then local b=j[e[l]];local a;local r={};a=o.yTQUgSrT({},{__index=function(n,e)local e=r[e];return e[1][e[2]];end,__newindex=function(d,e,n)local e=r[e]e[1][e[2]]=n;end;});for t=1,e[h]do n=n+1;local e=f[n];if e[ee]==318 then r[t-1]={d,e[l]};else r[t-1]={k,e[l]};end;c[#c+1]=r;end;d[e[t]]=p(b,a,s);else if r~=167 then for r=0,4 do if 2<=r then if 2>=r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else if 4==r then if(d[e[t]]~=d[e[h]])then n=n+1;else n=e[l];end;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end else if r>-2 then repeat if r>0 then d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];until true;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end end else local r;for a=0,4 do if 2<=a then if 3<=a then if a>1 then repeat if a~=3 then d(e[t],e[l]);break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];until true;else d(e[t],e[l]);end else d[e[t]]=s[e[l]];n=n+1;e=f[n];end else if a~=-4 then repeat if 0<a then r=e[t]d[r]=d[r](d[r+1])n=n+1;e=f[n];break;end;d(e[t],e[l]);n=n+1;e=f[n];until true;else r=e[t]d[r]=d[r](d[r+1])n=n+1;e=f[n];end end end end end end end else if 153>r then if 149>=r then if r<148 then local e=e[t]d[e]=d[e]()else if r~=146 then repeat if r~=149 then local t=e[t]local l={d[t](d[t+1])};local n=0;for e=t,e[h]do n=n+1;d[e]=l[n];end break;end;local r;d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d[e[t]]=d[e[l]];n=n+1;e=f[n];r=e[t]d[r](a(d,r+1,e[l]))until true;else local r;d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d[e[t]]=d[e[l]];n=n+1;e=f[n];r=e[t]d[r](a(d,r+1,e[l]))end end else if 151<=r then if 151<r then if(e[t]<d[e[h]])then n=e[l];else n=n+1;end;else local b,o,k,r,s,a,f;local n=0;while n>-1 do if n<3 then if n>0 then if-3<n then for d=42,73 do if n~=1 then s=r[o];break;end;r=e;break;end;else s=r[o];end else b=t;o=l;k=h;end else if 5<=n then if 3~=n then repeat if 5<n then n=-2;break;end;d[a]=f;until true;else d[a]=f;end else if 4>n then a=r[b];else f=d[s];for e=1+s,r[k]do f=f..d[e];end;end end end n=n+1 end end else d[e[t]]={};end end else if 155>=r then if 153>=r then for r=0,9 do if r<5 then if r<2 then if 1>r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else d(e[t],e[l]);n=n+1;e=f[n];end else if 2>=r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else if 1<=r then repeat if r~=4 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];until true;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end end else if r<=6 then if 2~=r then repeat if 5~=r then d[e[t]]=d[e[l]]-d[e[h]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];until true;else d[e[t]]=d[e[l]]-d[e[h]];n=n+1;e=f[n];end else if r>=8 then if 7~=r then for s=35,92 do if r~=9 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]]/e[h];break;end;else d[e[t]]=d[e[l]]/e[h];end else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end end end else if 151~=r then for o=36,60 do if 154~=r then local e=e[t]local t,n=u(d[e](a(d,e+1,b)))b=n+e-1 local n=0;for e=e,b do n=n+1;d[e]=t[n];end;break;end;local r;d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](d[r+1])n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);break;end;else local r;d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](d[r+1])n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);end end else if 157<=r then if r>156 then for s=27,86 do if r~=157 then local r,s;d[e[t]][e[l]]=e[h];n=n+1;e=f[n];d[e[t]]={};n=n+1;e=f[n];d[e[t]][e[l]]=e[h];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];r=e[t]d[r]=d[r](d[r+1])n=n+1;e=f[n];r=e[t];s=d[e[l]];d[r+1]=s;d[r]=s[e[h]];n=n+1;e=f[n];r=e[t]d[r](d[r+1])break;end;local r,a;for s=0,4 do if 1>=s then if-4~=s then for r=21,75 do if s~=1 then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end else if 2<s then if s~=4 then r=e[t];a=d[e[l]];d[r+1]=a;d[r]=a[e[h]];n=n+1;e=f[n];else r=e[t]d[r](d[r+1])end else r=e[t]d[r]=d[r](d[r+1])n=n+1;e=f[n];end end end break;end;else local r,a;for s=0,4 do if 1>=s then if-4~=s then for r=21,75 do if s~=1 then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end else if 2<s then if s~=4 then r=e[t];a=d[e[l]];d[r+1]=a;d[r]=a[e[h]];n=n+1;e=f[n];else r=e[t]d[r](d[r+1])end else r=e[t]d[r]=d[r](d[r+1])n=n+1;e=f[n];end end end end else local r,s;d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];r=e[t]d[r]=d[r](d[r+1])n=n+1;e=f[n];r=e[t];s=d[e[l]];d[r+1]=s;d[r]=s[e[h]];n=n+1;e=f[n];r=e[t]d[r](d[r+1])n=n+1;e=f[n];do return end;end end end end else if r>=183 then if r>=189 then if 192<=r then if 194<=r then if r>191 then repeat if r~=194 then d[e[t]]=d[e[l]][d[e[h]]];break;end;d[e[t]]=k[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=k[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];until true;else d[e[t]]=d[e[l]][d[e[h]]];end else if r>190 then repeat if r>192 then d[e[t]]=d[e[l]]/d[e[h]];break;end;d[e[t]]=#d[e[l]];until true;else d[e[t]]=d[e[l]]/d[e[h]];end end else if r>=190 then if r~=187 then repeat if 190<r then local o;for r=0,9 do if 5<=r then if 7>r then if 4~=r then repeat if 5<r then d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;o=e[t]d[o]=d[o](d[o+1])n=n+1;e=f[n];until true;else o=e[t]d[o]=d[o](d[o+1])n=n+1;e=f[n];end else if r<8 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else if r>5 then for s=30,91 do if r~=9 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]={};break;end;else d[e[t]]={};end end end else if r<2 then if-3<r then repeat if r~=1 then d(e[t],e[l]);n=n+1;e=f[n];break;end;o=e[t]d[o]=d[o](a(d,o+1,e[l]))n=n+1;e=f[n];until true;else d(e[t],e[l]);n=n+1;e=f[n];end else if r>=3 then if 1~=r then repeat if 4>r then d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]];n=n+1;e=f[n];until true;else d[e[t]]=d[e[l]];n=n+1;e=f[n];end else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end end end end break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]={};n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];until true;else local o;for r=0,9 do if 5<=r then if 7>r then if 4~=r then repeat if 5<r then d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;o=e[t]d[o]=d[o](d[o+1])n=n+1;e=f[n];until true;else o=e[t]d[o]=d[o](d[o+1])n=n+1;e=f[n];end else if r<8 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else if r>5 then for s=30,91 do if r~=9 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]={};break;end;else d[e[t]]={};end end end else if r<2 then if-3<r then repeat if r~=1 then d(e[t],e[l]);n=n+1;e=f[n];break;end;o=e[t]d[o]=d[o](a(d,o+1,e[l]))n=n+1;e=f[n];until true;else d(e[t],e[l]);n=n+1;e=f[n];end else if r>=3 then if 1~=r then repeat if 4>r then d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]];n=n+1;e=f[n];until true;else d[e[t]]=d[e[l]];n=n+1;e=f[n];end else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end end end end end else for r=0,9 do if r>=5 then if r<7 then if r~=6 then d[e[t]][e[l]]=e[h];n=n+1;e=f[n];else d[e[t]]=s[e[l]];n=n+1;e=f[n];end else if 8<=r then if r<9 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else d[e[t]][e[l]]=d[e[h]];end else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end else if r<2 then if-2<=r then repeat if r<1 then d[e[t]]={};n=n+1;e=f[n];break;end;d[e[t]]=k[e[l]];n=n+1;e=f[n];until true;else d[e[t]]=k[e[l]];n=n+1;e=f[n];end else if 3<=r then if 4==r then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end end end end end else if r<186 then if r>=184 then if r~=185 then d[e[t]][d[e[l]]]=d[e[h]];else local o,k,b,u,c,r,_;for r=0,6 do if r<3 then if 0<r then if r~=1 then _=e[t]d[_]=d[_](a(d,_+1,e[l]))n=n+1;e=f[n];else r=0;while r>-1 do if r<=2 then if 1>r then o=e;else if r~=-1 then repeat if r<2 then k=t;break;end;b=l;until true;else k=t;end end else if r<=4 then if r>0 then for e=48,58 do if r<4 then u=o[b];break;end;c=o[k];break;end;else c=o[k];end else if 5==r then d(c,u);else r=-2;end end end r=r+1 end n=n+1;e=f[n];end else r=0;while r>-1 do if 2<r then if r>4 then if 3<r then for e=20,95 do if 6>r then d(c,u);break;end;r=-2;break;end;else r=-2;end else if 2<r then repeat if 4>r then u=o[b];break;end;c=o[k];until true;else u=o[b];end end else if r>=1 then if-1<=r then for e=28,77 do if 1<r then b=l;break;end;k=t;break;end;else k=t;end else o=e;end end r=r+1 end n=n+1;e=f[n];end else if 4<r then if r~=2 then for s=24,79 do if r>5 then r=0;while r>-1 do if 2>=r then if 0<r then if 2==r then b=l;else k=t;end else o=e;end else if 5>r then if r>=0 then repeat if r>3 then c=o[k];break;end;u=o[b];until true;else u=o[b];end else if r~=6 then d(c,u);else r=-2;end end end r=r+1 end break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else if 0<=r then repeat if 3<r then d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];until true;else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end end end end end else d[e[t]]=d[e[l]]*e[h];end else if r<187 then local t=e[t];local h=d[t+2];local f=d[t]+h;d[t]=f;if(h>0)then if(f<=d[t+1])then n=e[l];d[t+3]=f;end elseif(f>=d[t+1])then n=e[l];d[t+3]=f;end else if r==187 then local o;for r=0,6 do if r>=3 then if 5>r then if r>=0 then for s=23,76 do if 3~=r then d(e[t],e[l]);n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;else d(e[t],e[l]);n=n+1;e=f[n];end else if r~=5 then d(e[t],e[l]);else d(e[t],e[l]);n=n+1;e=f[n];end end else if r>0 then if r>0 then repeat if 1<r then d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];until true;else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end else o=e[t]d[o]=d[o](a(d,o+1,e[l]))n=n+1;e=f[n];end end end else local n=e[t]local t,e=u(d[n](a(d,n+1,e[l])))b=e+n-1 local e=0;for n=n,b do e=e+1;d[n]=t[e];end;end end end end else if r>176 then if r>179 then if 181>r then local a;for r=0,6 do if r<3 then if r<=0 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else if r~=-1 then for h=42,92 do if 2>r then d(e[t],e[l]);n=n+1;e=f[n];break;end;a=e[t]d[a]=d[a](d[a+1])n=n+1;e=f[n];break;end;else d(e[t],e[l]);n=n+1;e=f[n];end end else if r<=4 then if 1<=r then for a=28,71 do if 3~=r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else if 3~=r then repeat if 5<r then a=e[t]d[a]=d[a](d[a+1])break;end;d(e[t],e[l]);n=n+1;e=f[n];until true;else d(e[t],e[l]);n=n+1;e=f[n];end end end end else if 178~=r then for o=36,56 do if 181~=r then local r,s;d[e[t]]=k[e[l]];n=n+1;e=f[n];r=e[t];s=d[e[l]];d[r+1]=s;d[r]=s[e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]];n=n+1;e=f[n];r=e[t]d[r](a(d,r+1,e[l]))n=n+1;e=f[n];do return end;break;end;local o;for r=0,6 do if 3>r then if r<=0 then o=e[t]d[o]=d[o](a(d,o+1,e[l]))n=n+1;e=f[n];else if 1~=r then d[e[t]]=s[e[l]];n=n+1;e=f[n];else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end end else if 5>r then if r==3 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else d(e[t],e[l]);n=n+1;e=f[n];end else if 4<=r then for h=44,82 do if 6>r then d(e[t],e[l]);n=n+1;e=f[n];break;end;d(e[t],e[l]);break;end;else d(e[t],e[l]);end end end end break;end;else local o;for r=0,6 do if 3>r then if r<=0 then o=e[t]d[o]=d[o](a(d,o+1,e[l]))n=n+1;e=f[n];else if 1~=r then d[e[t]]=s[e[l]];n=n+1;e=f[n];else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end end else if 5>r then if r==3 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else d(e[t],e[l]);n=n+1;e=f[n];end else if 4<=r then for h=44,82 do if 6>r then d(e[t],e[l]);n=n+1;e=f[n];break;end;d(e[t],e[l]);break;end;else d(e[t],e[l]);end end end end end end else if 177<r then if r>178 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];else local o,k,b,r,a,s,f;local n=0;while n>-1 do if n<3 then if 1>n then o=t;k=l;b=h;else if-1~=n then for d=19,75 do if 1~=n then a=r[k];break;end;r=e;break;end;else r=e;end end else if 4<n then if n~=2 then repeat if 6~=n then d[s]=f;break;end;n=-2;until true;else d[s]=f;end else if n~=3 then f=d[a];for e=1+a,r[b]do f=f..d[e];end;else s=r[o];end end end n=n+1 end end else local r;d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=e[h];n=n+1;e=f[n];d[e[t]]=s[e[l]];end end else if 173>=r then if 172>r then local s;for r=0,5 do if 3>r then if r>0 then if 2==r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else s=e[t]d[s]=d[s](d[s+1])n=n+1;e=f[n];end else if r<=3 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else if r~=4 then if(d[e[t]]<d[e[h]])then n=n+1;else n=e[l];end;else d[e[t]]=d[e[l]]+d[e[h]];n=n+1;e=f[n];end end end end else if r~=172 then local c,p,z,y,m,j,r,o,ee,g,_;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];r=0;while r>-1 do if r>3 then if r>5 then if r>2 then repeat if 7>r then d[j]=m;break;end;r=-2;until true;else r=-2;end else if r>1 then for e=46,98 do if r>4 then j=c[p];break;end;m=y[c[z]];break;end;else j=c[p];end end else if 1>=r then if-1<=r then repeat if r~=0 then p=t;break;end;c=e;until true;else c=e;end else if 1<r then repeat if 3~=r then z=l;break;end;y=d;until true;else y=d;end end end r=r+1 end n=n+1;e=f[n];o=e[t]ee,g=u(d[o](d[o+1]))b=g+o-1 _=0;for e=o,b do _=_+1;d[e]=ee[_];end;n=n+1;e=f[n];o=e[t]d[o]=d[o](a(d,o+1,b))n=n+1;e=f[n];d[e[t]]=k[e[l]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=k[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];else for r=0,4 do if 2>r then if-1~=r then for a=12,79 do if 0~=r then d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else if 2>=r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else if r>=0 then repeat if 3~=r then if(d[e[t]]==d[e[h]])then n=n+1;else n=e[l];end;break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];until true;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end end end end end else if 175<=r then if r~=172 then for a=42,73 do if 175<r then local t=e[t];local f=d[t]local h=d[t+2];if(h>0)then if(f>d[t+1])then n=e[l];else d[t+3]=f;end elseif(f<d[t+1])then n=e[l];else d[t+3]=f;end break;end;local r;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](d[r+1])n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](d[r+1])break;end;else local r;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](d[r+1])n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](d[r+1])end else local o;for r=0,6 do if 2<r then if 4>=r then if 0~=r then for s=17,63 do if 3~=r then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;o=e[t]d[o]=d[o](a(d,o+1,e[l]))n=n+1;e=f[n];break;end;else o=e[t]d[o]=d[o](a(d,o+1,e[l]))n=n+1;e=f[n];end else if 3<=r then repeat if 6~=r then d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];until true;else d[e[t]]=s[e[l]];n=n+1;e=f[n];end end else if r>=1 then if r~=-1 then repeat if 2>r then d(e[t],e[l]);n=n+1;e=f[n];break;end;d(e[t],e[l]);n=n+1;e=f[n];until true;else d(e[t],e[l]);n=n+1;e=f[n];end else d(e[t],e[l]);n=n+1;e=f[n];end end end end end end end end end else if r<49 then if r>23 then if 36>r then if r<=29 then if 26<r then if r>27 then if r>=24 then repeat if r>28 then local o;for r=0,6 do if r>=3 then if 4<r then if r~=4 then for a=22,94 do if 5~=r then d[e[t]]=d[e[l]][e[h]];break;end;d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;else d[e[t]]=d[e[l]][e[h]];end else if 3==r then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];else d[e[t]][e[l]]=e[h];n=n+1;e=f[n];end end else if r<1 then d(e[t],e[l]);n=n+1;e=f[n];else if r>-1 then for h=48,82 do if r~=2 then d(e[t],e[l]);n=n+1;e=f[n];break;end;o=e[t]d[o]=d[o](a(d,o+1,e[l]))n=n+1;e=f[n];break;end;else o=e[t]d[o]=d[o](a(d,o+1,e[l]))n=n+1;e=f[n];end end end end break;end;local r;d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);until true;else local r;d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);end else if(d[e[t]]~=e[h])then n=n+1;else n=e[l];end;end else if r>24 then if r~=23 then for o=48,64 do if r~=25 then local n=e[t];do return d[n](a(d,n+1,e[l]))end;break;end;local r,c,k,o;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]];n=n+1;e=f[n];r=e[t]c,k=u(d[r](d[r+1]))b=k+r-1 o=0;for e=r,b do o=o+1;d[e]=c[o];end;n=n+1;e=f[n];r=e[t]d[r]=d[r](a(d,r+1,b))n=n+1;e=f[n];if(d[e[t]]==e[h])then n=n+1;else n=e[l];end;break;end;else local r,k,c,o;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]];n=n+1;e=f[n];r=e[t]k,c=u(d[r](d[r+1]))b=c+r-1 o=0;for e=r,b do o=o+1;d[e]=k[o];end;n=n+1;e=f[n];r=e[t]d[r]=d[r](a(d,r+1,b))n=n+1;e=f[n];if(d[e[t]]==e[h])then n=n+1;else n=e[l];end;end else local r,b,u,c,r,r,o,z,p,y,j,k,_;for r=0,7 do if r>=4 then if 5<r then if 4<=r then repeat if r<7 then _=e[t]d[_]=d[_](a(d,_+1,e[l]))n=n+1;e=f[n];break;end;d[e[t]][e[l]]=d[e[h]];until true;else d[e[t]][e[l]]=d[e[h]];end else if 3<=r then repeat if 4<r then r=0;while r>-1 do if 3<r then if 6>r then if 0<=r then for e=19,80 do if r>4 then k=o[z];break;end;j=y[o[p]];break;end;else j=y[o[p]];end else if 3~=r then for e=34,63 do if r~=6 then r=-2;break;end;d[k]=j;break;end;else r=-2;end end else if 1>=r then if 0~=r then z=t;else o=e;end else if r~=-1 then repeat if r~=2 then y=d;break;end;p=l;until true;else p=l;end end end r=r+1 end n=n+1;e=f[n];break;end;r=0;while r>-1 do if r>=3 then if 4>=r then if r>1 then for e=16,53 do if 3<r then k=o[b];break;end;c=o[u];break;end;else k=o[b];end else if 3<r then for e=42,55 do if r>5 then r=-2;break;end;d(k,c);break;end;else r=-2;end end else if r<=0 then o=e;else if 0~=r then for e=15,85 do if 1~=r then u=l;break;end;b=t;break;end;else u=l;end end end r=r+1 end n=n+1;e=f[n];until true;else r=0;while r>-1 do if r>=3 then if 4>=r then if r>1 then for e=16,53 do if 3<r then k=o[b];break;end;c=o[u];break;end;else k=o[b];end else if 3<r then for e=42,55 do if r>5 then r=-2;break;end;d(k,c);break;end;else r=-2;end end else if r<=0 then o=e;else if 0~=r then for e=15,85 do if 1~=r then u=l;break;end;b=t;break;end;else u=l;end end end r=r+1 end n=n+1;e=f[n];end end else if 1<r then if r~=3 then r=0;while r>-1 do if 3<=r then if r<=4 then if 3~=r then k=o[b];else c=o[u];end else if r~=2 then repeat if 5~=r then r=-2;break;end;d(k,c);until true;else r=-2;end end else if r<1 then o=e;else if r==2 then u=l;else b=t;end end end r=r+1 end n=n+1;e=f[n];else r=0;while r>-1 do if 2>=r then if r<=0 then o=e;else if-1~=r then repeat if 1~=r then u=l;break;end;b=t;until true;else b=t;end end else if 4>=r then if 1<=r then repeat if r<4 then c=o[u];break;end;k=o[b];until true;else c=o[u];end else if r~=6 then d(k,c);else r=-2;end end end r=r+1 end n=n+1;e=f[n];end else if-4<r then for a=22,85 do if r>0 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;else d[e[t]]=s[e[l]];n=n+1;e=f[n];end end end end end end else if 33<=r then if r<=33 then local k,u,c,b,o,r,_;d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];r=0;while r>-1 do if 2>=r then if 0<r then if 2~=r then u=t;else c=l;end else k=e;end else if r>=5 then if 4<r then repeat if 5<r then r=-2;break;end;d(o,b);until true;else d(o,b);end else if r~=0 then repeat if r>3 then o=k[u];break;end;b=k[c];until true;else o=k[u];end end end r=r+1 end n=n+1;e=f[n];r=0;while r>-1 do if 3>r then if r<1 then k=e;else if 2>r then u=t;else c=l;end end else if r<=4 then if r==3 then b=k[c];else o=k[u];end else if r~=4 then for e=29,56 do if r~=5 then r=-2;break;end;d(o,b);break;end;else d(o,b);end end end r=r+1 end n=n+1;e=f[n];_=e[t]d[_]=d[_](a(d,_+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];else if r<35 then d[e[t]]=d[e[l]]+e[h];else local u,r,s,c,_,k,b,o,a;local f=0;while f>-1 do if f>=3 then if 5<=f then if 6>f then n=a;else f=-2;end else if 0<f then for e=24,77 do if 3~=f then a=b==o and r[k]or 1+s;break;end;b=u[c];o=u[_];break;end;else a=b==o and r[k]or 1+s;end end else if f>0 then if-1<f then for d=19,71 do if f~=2 then r=e;s=n;break;end;c=r[t];_=r[h];k=l;break;end;else r=e;s=n;end else u=d;end end f=f+1 end end end else if r>30 then if 28<=r then repeat if r>31 then local s,a,b,k,o,r,c,u;for r=0,5 do if r<3 then if r>=1 then if 0<=r then repeat if 1~=r then r=0;while r>-1 do if 2<r then if r<=4 then if r~=-1 then repeat if 4>r then k=s[b];break;end;o=s[a];until true;else o=s[a];end else if 4~=r then for e=33,52 do if 5~=r then r=-2;break;end;d(o,k);break;end;else d(o,k);end end else if 1>r then s=e;else if-3<r then repeat if r<2 then a=t;break;end;b=l;until true;else b=l;end end end r=r+1 end n=n+1;e=f[n];break;end;d[e[t]]={};n=n+1;e=f[n];until true;else d[e[t]]={};n=n+1;e=f[n];end else d[e[t]]={};n=n+1;e=f[n];end else if 3<r then if r>1 then for _=33,74 do if 4<r then r=0;while r>-1 do if 2<r then if r<=4 then if r~=3 then o=s[a];else k=s[b];end else if 6==r then r=-2;else d(o,k);end end else if r<=0 then s=e;else if 0<r then for e=23,84 do if 2>r then a=t;break;end;b=l;break;end;else a=t;end end end r=r+1 end break;end;c=e[t];u=d[e[l]];d[c+1]=u;d[c]=u[e[h]];n=n+1;e=f[n];break;end;else c=e[t];u=d[e[l]];d[c+1]=u;d[c]=u[e[h]];n=n+1;e=f[n];end else r=0;while r>-1 do if 2<r then if r>=5 then if r>1 then for e=41,93 do if r~=5 then r=-2;break;end;d(o,k);break;end;else d(o,k);end else if 4~=r then k=s[b];else o=s[a];end end else if 1>r then s=e;else if r>-2 then repeat if r~=2 then a=t;break;end;b=l;until true;else a=t;end end end r=r+1 end n=n+1;e=f[n];end end end break;end;local t=e[t];local f=d[t]local h=d[t+2];if(h>0)then if(f>d[t+1])then n=e[l];else d[t+3]=f;end elseif(f<d[t+1])then n=e[l];else d[t+3]=f;end until true;else local s,o,b,k,a,r,u,c;for r=0,5 do if r<3 then if r>=1 then if 0<=r then repeat if 1~=r then r=0;while r>-1 do if 2<r then if r<=4 then if r~=-1 then repeat if 4>r then k=s[b];break;end;a=s[o];until true;else a=s[o];end else if 4~=r then for e=33,52 do if 5~=r then r=-2;break;end;d(a,k);break;end;else d(a,k);end end else if 1>r then s=e;else if-3<r then repeat if r<2 then o=t;break;end;b=l;until true;else b=l;end end end r=r+1 end n=n+1;e=f[n];break;end;d[e[t]]={};n=n+1;e=f[n];until true;else d[e[t]]={};n=n+1;e=f[n];end else d[e[t]]={};n=n+1;e=f[n];end else if 3<r then if r>1 then for _=33,74 do if 4<r then r=0;while r>-1 do if 2<r then if r<=4 then if r~=3 then a=s[o];else k=s[b];end else if 6==r then r=-2;else d(a,k);end end else if r<=0 then s=e;else if 0<r then for e=23,84 do if 2>r then o=t;break;end;b=l;break;end;else o=t;end end end r=r+1 end break;end;u=e[t];c=d[e[l]];d[u+1]=c;d[u]=c[e[h]];n=n+1;e=f[n];break;end;else u=e[t];c=d[e[l]];d[u+1]=c;d[u]=c[e[h]];n=n+1;e=f[n];end else r=0;while r>-1 do if 2<r then if r>=5 then if r>1 then for e=41,93 do if r~=5 then r=-2;break;end;d(a,k);break;end;else d(a,k);end else if 4~=r then k=s[b];else a=s[o];end end else if 1>r then s=e;else if r>-2 then repeat if r~=2 then o=t;break;end;b=l;until true;else o=t;end end end r=r+1 end n=n+1;e=f[n];end end end end else local f=e[t];local t={};for e=1,#c do local e=c[e];for n=0,#e do local n=e[n];local l=n[1];local e=n[2];if l==d and e>=f then t[e]=l[e];n[1]=t;end;end;end;end end end else if 41>=r then if 39<=r then if r>=40 then if 39<=r then repeat if r>40 then local e=e[t]local t,n=u(d[e](a(d,e+1,b)))b=n+e-1 local n=0;for e=e,b do n=n+1;d[e]=t[n];end;break;end;local n=e[t]d[n](a(d,n+1,e[l]))until true;else local e=e[t]local t,n=u(d[e](a(d,e+1,b)))b=n+e-1 local n=0;for e=e,b do n=n+1;d[e]=t[n];end;end else local e=e[t]d[e]=d[e](d[e+1])end else if r<37 then local r;d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=e[h];n=n+1;e=f[n];d[e[t]][e[l]]=e[h];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]];else if r~=33 then for o=22,63 do if r>37 then d[e[t]]=d[e[l]]-e[h];break;end;local r,c,u,k,r,r,o,z,_,y,p,b,j;for r=0,6 do if 3<=r then if 4<r then if 4<=r then for s=13,61 do if r>5 then r=0;while r>-1 do if r>2 then if 5>r then if 0<r then for e=27,89 do if 3<r then b=o[c];break;end;k=o[u];break;end;else k=o[u];end else if r>2 then for e=34,92 do if r~=6 then d(b,k);break;end;r=-2;break;end;else d(b,k);end end else if 0<r then if r>0 then for e=47,97 do if 1<r then u=l;break;end;c=t;break;end;else c=t;end else o=e;end end r=r+1 end break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;else r=0;while r>-1 do if r>2 then if 5>r then if 0<r then for e=27,89 do if 3<r then b=o[c];break;end;k=o[u];break;end;else k=o[u];end else if r>2 then for e=34,92 do if r~=6 then d(b,k);break;end;r=-2;break;end;else d(b,k);end end else if 0<r then if r>0 then for e=47,97 do if 1<r then u=l;break;end;c=t;break;end;else c=t;end else o=e;end end r=r+1 end end else if r>3 then d[e[t]]=s[e[l]];n=n+1;e=f[n];else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end end else if 0>=r then r=0;while r>-1 do if r>2 then if r<=4 then if r~=2 then repeat if r<4 then k=o[u];break;end;b=o[c];until true;else k=o[u];end else if 1<=r then repeat if r~=6 then d(b,k);break;end;r=-2;until true;else r=-2;end end else if r>0 then if 2==r then u=l;else c=t;end else o=e;end end r=r+1 end n=n+1;e=f[n];else if 1==r then r=0;while r>-1 do if 4<=r then if 6<=r then if r>=3 then repeat if 6~=r then r=-2;break;end;d[b]=p;until true;else r=-2;end else if 3<r then for e=20,94 do if 5>r then p=y[o[_]];break;end;b=o[z];break;end;else p=y[o[_]];end end else if 2>r then if r~=-3 then for n=46,69 do if 0~=r then z=t;break;end;o=e;break;end;else o=e;end else if-1~=r then repeat if r<3 then _=l;break;end;y=d;until true;else _=l;end end end r=r+1 end n=n+1;e=f[n];else j=e[t]d[j](a(d,j+1,e[l]))n=n+1;e=f[n];end end end end break;end;else d[e[t]]=d[e[l]]-e[h];end end end else if r>=45 then if r>46 then if r~=48 then local o;for r=0,6 do if r>=3 then if 4<r then if r>3 then for a=39,66 do if 5~=r then d[e[t]]=s[e[l]];break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;else d[e[t]]=s[e[l]];end else if r>-1 then for s=29,80 do if r~=3 then d[e[t]][e[l]]=e[h];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;else d[e[t]][e[l]]=e[h];n=n+1;e=f[n];end end else if r<=0 then d(e[t],e[l]);n=n+1;e=f[n];else if r>=-3 then repeat if 1~=r then o=e[t]d[o]=d[o](a(d,o+1,e[l]))n=n+1;e=f[n];break;end;d(e[t],e[l]);n=n+1;e=f[n];until true;else o=e[t]d[o]=d[o](a(d,o+1,e[l]))n=n+1;e=f[n];end end end end else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]]/d[e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];end else if 44<=r then for o=40,71 do if 46>r then local r,b;for o=0,6 do if 2<o then if 5>o then if o>-1 then for h=32,73 do if o>3 then d[e[t]]={};n=n+1;e=f[n];break;end;d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;else d[e[t]]={};n=n+1;e=f[n];end else if o==5 then d[e[t]]=k[e[l]];n=n+1;e=f[n];else d[e[t]][e[l]]=d[e[h]];end end else if o<=0 then r=e[t];b=d[e[l]];d[r+1]=b;d[r]=b[e[h]];n=n+1;e=f[n];else if o>=-2 then for h=24,62 do if o>1 then r=e[t]d[r](a(d,r+1,e[l]))n=n+1;e=f[n];break;end;d(e[t],e[l]);n=n+1;e=f[n];break;end;else r=e[t]d[r](a(d,r+1,e[l]))n=n+1;e=f[n];end end end end break;end;if(e[t]<d[e[h]])then n=e[l];else n=n+1;end;break;end;else local r,b;for o=0,6 do if 2<o then if 5>o then if o>-1 then for h=32,73 do if o>3 then d[e[t]]={};n=n+1;e=f[n];break;end;d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;else d[e[t]]={};n=n+1;e=f[n];end else if o==5 then d[e[t]]=k[e[l]];n=n+1;e=f[n];else d[e[t]][e[l]]=d[e[h]];end end else if o<=0 then r=e[t];b=d[e[l]];d[r+1]=b;d[r]=b[e[h]];n=n+1;e=f[n];else if o>=-2 then for h=24,62 do if o>1 then r=e[t]d[r](a(d,r+1,e[l]))n=n+1;e=f[n];break;end;d(e[t],e[l]);n=n+1;e=f[n];break;end;else r=e[t]d[r](a(d,r+1,e[l]))n=n+1;e=f[n];end end end end end end else if r>42 then if r>40 then repeat if r~=44 then local a,o,p,b,u,k,c,r,_;for r=0,8 do if r<4 then if r>1 then if 0~=r then repeat if 3>r then r=0;while r>-1 do if r>=4 then if r<6 then if 5==r then c=o[p];else k=u[o[b]];end else if 6~=r then r=-2;else d[c]=k;end end else if 1<r then if 3==r then u=d;else b=l;end else if r>0 then p=t;else o=e;end end end r=r+1 end n=n+1;e=f[n];break;end;a=e[t]d[a]=d[a](d[a+1])n=n+1;e=f[n];until true;else a=e[t]d[a]=d[a](d[a+1])n=n+1;e=f[n];end else if r==0 then a=e[t]d[a](d[a+1])n=n+1;e=f[n];else d[e[t]]=s[e[l]];n=n+1;e=f[n];end end else if r<6 then if 1<r then for h=29,73 do if 4~=r then r=0;while r>-1 do if r<4 then if r>=2 then if 3>r then b=l;else u=d;end else if r==0 then o=e;else p=t;end end else if r>=6 then if 4<r then for e=41,85 do if 7~=r then d[c]=k;break;end;r=-2;break;end;else d[c]=k;end else if r~=2 then for e=35,57 do if r<5 then k=u[o[b]];break;end;c=o[p];break;end;else k=u[o[b]];end end end r=r+1 end n=n+1;e=f[n];break;end;d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;else r=0;while r>-1 do if r<4 then if r>=2 then if 3>r then b=l;else u=d;end else if r==0 then o=e;else p=t;end end else if r>=6 then if 4<r then for e=41,85 do if 7~=r then d[c]=k;break;end;r=-2;break;end;else d[c]=k;end else if r~=2 then for e=35,57 do if r<5 then k=u[o[b]];break;end;c=o[p];break;end;else k=u[o[b]];end end end r=r+1 end n=n+1;e=f[n];end else if 7>r then a=e[t]d[a]=d[a](d[a+1])n=n+1;e=f[n];else if 6~=r then repeat if 8~=r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;a=e[t];_=d[e[l]];d[a+1]=_;d[a]=_[e[h]];until true;else a=e[t];_=d[e[l]];d[a+1]=_;d[a]=_[e[h]];end end end end end break;end;local o,b,u,k,_,r,c;for r=0,9 do if r<=4 then if r>=2 then if 2<r then if-1~=r then for a=22,80 do if 3~=r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;else d[e[t]]=s[e[l]];n=n+1;e=f[n];end else d[e[t]]={};n=n+1;e=f[n];end else if-1<=r then repeat if 1>r then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=e[h];n=n+1;e=f[n];until true;else d[e[t]][e[l]]=e[h];n=n+1;e=f[n];end end else if r<=6 then if 5<r then r=0;while r>-1 do if 3<=r then if r<5 then if r>2 then for e=16,89 do if r~=4 then k=o[u];break;end;_=o[b];break;end;else k=o[u];end else if 5==r then d(_,k);else r=-2;end end else if 0<r then if-1~=r then for e=44,55 do if r~=2 then b=t;break;end;u=l;break;end;else b=t;end else o=e;end end r=r+1 end n=n+1;e=f[n];else r=0;while r>-1 do if r<3 then if 1<=r then if r==2 then u=l;else b=t;end else o=e;end else if 4<r then if 4<r then repeat if 6>r then d(_,k);break;end;r=-2;until true;else r=-2;end else if r<4 then k=o[u];else _=o[b];end end end r=r+1 end n=n+1;e=f[n];end else if r>7 then if 5<=r then repeat if 8<r then d[e[t]][e[l]]=d[e[h]];break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];until true;else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end else c=e[t]d[c]=d[c](a(d,c+1,e[l]))n=n+1;e=f[n];end end end end until true;else local a,o,_,b,u,k,c,r,p;for r=0,8 do if r<4 then if r>1 then if 0~=r then repeat if 3>r then r=0;while r>-1 do if r>=4 then if r<6 then if 5==r then c=o[_];else k=u[o[b]];end else if 6~=r then r=-2;else d[c]=k;end end else if 1<r then if 3==r then u=d;else b=l;end else if r>0 then _=t;else o=e;end end end r=r+1 end n=n+1;e=f[n];break;end;a=e[t]d[a]=d[a](d[a+1])n=n+1;e=f[n];until true;else a=e[t]d[a]=d[a](d[a+1])n=n+1;e=f[n];end else if r==0 then a=e[t]d[a](d[a+1])n=n+1;e=f[n];else d[e[t]]=s[e[l]];n=n+1;e=f[n];end end else if r<6 then if 1<r then for h=29,73 do if 4~=r then r=0;while r>-1 do if r<4 then if r>=2 then if 3>r then b=l;else u=d;end else if r==0 then o=e;else _=t;end end else if r>=6 then if 4<r then for e=41,85 do if 7~=r then d[c]=k;break;end;r=-2;break;end;else d[c]=k;end else if r~=2 then for e=35,57 do if r<5 then k=u[o[b]];break;end;c=o[_];break;end;else k=u[o[b]];end end end r=r+1 end n=n+1;e=f[n];break;end;d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;else r=0;while r>-1 do if r<4 then if r>=2 then if 3>r then b=l;else u=d;end else if r==0 then o=e;else _=t;end end else if r>=6 then if 4<r then for e=41,85 do if 7~=r then d[c]=k;break;end;r=-2;break;end;else d[c]=k;end else if r~=2 then for e=35,57 do if r<5 then k=u[o[b]];break;end;c=o[_];break;end;else k=u[o[b]];end end end r=r+1 end n=n+1;e=f[n];end else if 7>r then a=e[t]d[a]=d[a](d[a+1])n=n+1;e=f[n];else if 6~=r then repeat if 8~=r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;a=e[t];p=d[e[l]];d[a+1]=p;d[a]=p[e[h]];until true;else a=e[t];p=d[e[l]];d[a+1]=p;d[a]=p[e[h]];end end end end end end else for r=0,7 do if 3<r then if r<=5 then if r>=1 then repeat if 4<r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];until true;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else if r>=3 then repeat if 7~=r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]]-d[e[h]];until true;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end else if r>1 then if r>0 then for s=30,82 do if 3~=r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else if-2~=r then for h=13,68 do if 1>r then d[e[t]]=k[e[l]];n=n+1;e=f[n];break;end;d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;else d[e[t]]=s[e[l]];n=n+1;e=f[n];end end end end end end end end else if 12>r then if 5<r then if 8>=r then if r<7 then local k,o,u,b,s,r,c;for r=0,4 do if 1<r then if r<=2 then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];else if-1<r then for s=37,77 do if r~=3 then d[e[t]][e[l]]=d[e[h]];break;end;d[e[t]][e[l]]=e[h];n=n+1;e=f[n];break;end;else d[e[t]][e[l]]=e[h];n=n+1;e=f[n];end end else if r>=-2 then repeat if r~=0 then c=e[t]d[c]=d[c](a(d,c+1,e[l]))n=n+1;e=f[n];break;end;r=0;while r>-1 do if 2<r then if r>4 then if r>3 then repeat if r~=5 then r=-2;break;end;d(s,b);until true;else d(s,b);end else if 2<=r then for e=10,60 do if r~=3 then s=k[o];break;end;b=k[u];break;end;else s=k[o];end end else if 1>r then k=e;else if-2~=r then for e=45,57 do if 2>r then o=t;break;end;u=l;break;end;else o=t;end end end r=r+1 end n=n+1;e=f[n];until true;else r=0;while r>-1 do if 2<r then if r>4 then if r>3 then repeat if r~=5 then r=-2;break;end;d(s,b);until true;else d(s,b);end else if 2<=r then for e=10,60 do if r~=3 then s=k[o];break;end;b=k[u];break;end;else s=k[o];end end else if 1>r then k=e;else if-2~=r then for e=45,57 do if 2>r then o=t;break;end;u=l;break;end;else o=t;end end end r=r+1 end n=n+1;e=f[n];end end end else if 3<r then repeat if r<8 then local r;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);break;end;d[e[t]]=(e[l]~=0);until true;else local r;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);end end else if r>=10 then if 7<r then for f=43,58 do if r>10 then k[e[l]]=d[e[t]];break;end;if(d[e[t]]==d[e[h]])then n=n+1;else n=e[l];end;break;end;else if(d[e[t]]==d[e[h]])then n=n+1;else n=e[l];end;end else local o,u,b,c,k,r,_;for r=0,6 do if 3<=r then if r>4 then if 4~=r then for h=43,95 do if 6~=r then r=0;while r>-1 do if r<=2 then if r>=1 then if 1~=r then b=l;else u=t;end else o=e;end else if 4>=r then if 3==r then c=o[b];else k=o[u];end else if r==5 then d(k,c);else r=-2;end end end r=r+1 end n=n+1;e=f[n];break;end;_=e[t]d[_]=d[_](a(d,_+1,e[l]))break;end;else _=e[t]d[_]=d[_](a(d,_+1,e[l]))end else if-1~=r then repeat if 3~=r then r=0;while r>-1 do if r<=2 then if 1<=r then if-1<r then for e=10,65 do if 1<r then b=l;break;end;u=t;break;end;else b=l;end else o=e;end else if 4>=r then if 0~=r then for e=38,53 do if 4>r then c=o[b];break;end;k=o[u];break;end;else c=o[b];end else if 3<r then for e=11,65 do if r~=5 then r=-2;break;end;d(k,c);break;end;else d(k,c);end end end r=r+1 end n=n+1;e=f[n];break;end;r=0;while r>-1 do if 2>=r then if r>0 then if r>1 then b=l;else u=t;end else o=e;end else if 4>=r then if 1~=r then repeat if 4~=r then c=o[b];break;end;k=o[u];until true;else k=o[u];end else if r>5 then r=-2;else d(k,c);end end end r=r+1 end n=n+1;e=f[n];until true;else r=0;while r>-1 do if 2>=r then if r>0 then if r>1 then b=l;else u=t;end else o=e;end else if 4>=r then if 1~=r then repeat if 4~=r then c=o[b];break;end;k=o[u];until true;else k=o[u];end else if r>5 then r=-2;else d(k,c);end end end r=r+1 end n=n+1;e=f[n];end end else if 1<=r then if 2==r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else d[e[t]]=s[e[l]];n=n+1;e=f[n];end else d[e[t]][e[l]]=e[h];n=n+1;e=f[n];end end end end end else if r>2 then if r<4 then local r;d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=e[h];else if 1~=r then repeat if 5>r then do return end;break;end;local o,u,b,k,c,r,a;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];r=0;while r>-1 do if 2>=r then if 0>=r then o=e;else if 0~=r then repeat if r~=2 then u=t;break;end;b=l;until true;else b=l;end end else if r<=4 then if 1~=r then for e=37,98 do if r<4 then k=o[b];break;end;c=o[u];break;end;else k=o[b];end else if 6>r then d(c,k);else r=-2;end end end r=r+1 end n=n+1;e=f[n];a=e[t]d[a]=d[a](d[a+1])n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];r=0;while r>-1 do if 3>r then if r<=0 then o=e;else if-3~=r then for e=48,88 do if 2~=r then u=t;break;end;b=l;break;end;else u=t;end end else if 4>=r then if r==4 then c=o[u];else k=o[b];end else if 2<r then repeat if 5~=r then r=-2;break;end;d(c,k);until true;else d(c,k);end end end r=r+1 end n=n+1;e=f[n];a=e[t]d[a]=d[a](d[a+1])until true;else do return end;end end else if r<=0 then local r;for o=0,4 do if 1>=o then if-4<=o then for h=39,71 do if 0~=o then r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];break;end;d(e[t],e[l]);n=n+1;e=f[n];break;end;else r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];end else if o>=3 then if 2~=o then repeat if 3~=o then d[e[t]]=s[e[l]];break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];until true;else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end end end else if-1<=r then for a=25,85 do if 2>r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=e[h];n=n+1;e=f[n];d[e[t]]={};n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]]+e[h];break;end;d[e[t]]=(e[l]~=0);break;end;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=e[h];n=n+1;e=f[n];d[e[t]]={};n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]]+e[h];end end end end else if 17>=r then if r>=15 then if r>15 then if r>=15 then repeat if 17>r then local a;for r=0,7 do if r>3 then if r>=6 then if 7>r then d[e[t]]=d[e[l]];n=n+1;e=f[n];else a=e[t]d[a]=d[a](d[a+1])end else if r==4 then d[e[t]][e[l]]=e[h];n=n+1;e=f[n];else d[e[t]]=s[e[l]];n=n+1;e=f[n];end end else if 1<r then if-2<r then for s=42,81 do if 3~=r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else if r<1 then d[e[t]]=s[e[l]];n=n+1;e=f[n];else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end end end break;end;local n=e[t]d[n](a(d,n+1,e[l]))until true;else local a;for r=0,7 do if r>3 then if r>=6 then if 7>r then d[e[t]]=d[e[l]];n=n+1;e=f[n];else a=e[t]d[a]=d[a](d[a+1])end else if r==4 then d[e[t]][e[l]]=e[h];n=n+1;e=f[n];else d[e[t]]=s[e[l]];n=n+1;e=f[n];end end else if 1<r then if-2<r then for s=42,81 do if 3~=r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else if r<1 then d[e[t]]=s[e[l]];n=n+1;e=f[n];else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end end end end else local r,a;for s=0,6 do if s<3 then if s>=1 then if s~=0 then repeat if s~=1 then d[e[t]]={};n=n+1;e=f[n];break;end;d[e[t]][e[l]]=e[h];n=n+1;e=f[n];until true;else d[e[t]][e[l]]=e[h];n=n+1;e=f[n];end else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end else if 5<=s then if 3<=s then repeat if 5~=s then r=e[t];a=d[e[l]];d[r+1]=a;d[r]=a[e[h]];break;end;r=e[t]d[r]=d[r](d[r+1])n=n+1;e=f[n];until true;else r=e[t];a=d[e[l]];d[r+1]=a;d[r]=a[e[h]];end else if 0~=s then repeat if s~=4 then d[e[t]][e[l]]=e[h];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];until true;else d[e[t]][e[l]]=e[h];n=n+1;e=f[n];end end end end end else if r<13 then local r,o;for s=0,9 do if 4<s then if 7>s then if 6>s then d[e[t]]=(e[l]~=0);n=n+1;e=f[n];else r=e[t];o=d[e[l]];d[r+1]=o;d[r]=o[e[h]];n=n+1;e=f[n];end else if 8>s then d[e[t]]=d[e[l]]+e[h];n=n+1;e=f[n];else if s>7 then for o=38,63 do if s<9 then d[e[t]]=d[e[l]]+e[h];n=n+1;e=f[n];break;end;r=e[t]d[r]=d[r](a(d,r+1,e[l]))break;end;else r=e[t]d[r]=d[r](a(d,r+1,e[l]))end end end else if s>=2 then if 2<s then if 1~=s then repeat if s~=3 then d(e[t],e[l]);n=n+1;e=f[n];break;end;r=e[t]d[r](a(d,r+1,e[l]))n=n+1;e=f[n];until true;else d(e[t],e[l]);n=n+1;e=f[n];end else d[e[t]]=d[e[l]];n=n+1;e=f[n];end else if s>-2 then repeat if s~=0 then d[e[t]]=d[e[l]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];until true;else d[e[t]]=d[e[l]];n=n+1;e=f[n];end end end end else if r~=12 then repeat if r~=13 then local k,_,b,u,c,r,o;for r=0,6 do if 2<r then if 5>r then if r>2 then repeat if r<4 then o=e[t]d[o]=d[o](a(d,o+1,e[l]))n=n+1;e=f[n];break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];until true;else o=e[t]d[o]=d[o](a(d,o+1,e[l]))n=n+1;e=f[n];end else if 2<r then for a=22,55 do if 5~=r then d[e[t]]=d[e[l]][e[h]];break;end;d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;else d[e[t]]=d[e[l]][e[h]];end end else if r>=1 then if r~=2 then r=0;while r>-1 do if r<3 then if r<=0 then k=e;else if r>=-3 then repeat if r~=1 then b=l;break;end;_=t;until true;else b=l;end end else if 4>=r then if r~=1 then for e=32,66 do if 3<r then c=k[_];break;end;u=k[b];break;end;else u=k[b];end else if 4<r then for e=39,62 do if r<6 then d(c,u);break;end;r=-2;break;end;else r=-2;end end end r=r+1 end n=n+1;e=f[n];else r=0;while r>-1 do if 3>r then if 0<r then if r==2 then b=l;else _=t;end else k=e;end else if r>4 then if r~=3 then repeat if r<6 then d(c,u);break;end;r=-2;until true;else r=-2;end else if 3<r then c=k[_];else u=k[b];end end end r=r+1 end n=n+1;e=f[n];end else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end end break;end;local r,s;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];r=e[t];s=d[e[l]];d[r+1]=s;d[r]=s[e[h]];n=n+1;e=f[n];r=e[t]d[r]=d[r](d[r+1])n=n+1;e=f[n];r=e[t];s=d[e[l]];d[r+1]=s;d[r]=s[e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](a(d,r+1,e[l]))until true;else local k,c,b,u,_,r,o;for r=0,6 do if 2<r then if 5>r then if r>2 then repeat if r<4 then o=e[t]d[o]=d[o](a(d,o+1,e[l]))n=n+1;e=f[n];break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];until true;else o=e[t]d[o]=d[o](a(d,o+1,e[l]))n=n+1;e=f[n];end else if 2<r then for a=22,55 do if 5~=r then d[e[t]]=d[e[l]][e[h]];break;end;d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;else d[e[t]]=d[e[l]][e[h]];end end else if r>=1 then if r~=2 then r=0;while r>-1 do if r<3 then if r<=0 then k=e;else if r>=-3 then repeat if r~=1 then b=l;break;end;c=t;until true;else b=l;end end else if 4>=r then if r~=1 then for e=32,66 do if 3<r then _=k[c];break;end;u=k[b];break;end;else u=k[b];end else if 4<r then for e=39,62 do if r<6 then d(_,u);break;end;r=-2;break;end;else r=-2;end end end r=r+1 end n=n+1;e=f[n];else r=0;while r>-1 do if 3>r then if 0<r then if r==2 then b=l;else c=t;end else k=e;end else if r>4 then if r~=3 then repeat if r<6 then d(_,u);break;end;r=-2;until true;else r=-2;end else if 3<r then _=k[c];else u=k[b];end end end r=r+1 end n=n+1;e=f[n];end else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end end end end end else if 20>=r then if r>18 then if r>17 then for s=22,70 do if 19<r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];break;end;d[e[t]]=d[e[l]][d[e[h]]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];break;end;else d[e[t]]=d[e[l]][d[e[h]]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];end else local o,b,u,c,k,r,_;for r=0,6 do if r>2 then if 4>=r then if r>=1 then for s=17,72 do if r~=3 then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;_=e[t]d[_]=d[_](a(d,_+1,e[l]))n=n+1;e=f[n];break;end;else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end else if 5~=r then d[e[t]]=d[e[l]][e[h]];else d[e[t]]=s[e[l]];n=n+1;e=f[n];end end else if 0>=r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else if r>=-1 then repeat if r~=2 then r=0;while r>-1 do if 2>=r then if 1<=r then if 0<r then for e=38,87 do if r~=2 then b=t;break;end;u=l;break;end;else u=l;end else o=e;end else if 5>r then if r>1 then repeat if r>3 then k=o[b];break;end;c=o[u];until true;else k=o[b];end else if 2<r then repeat if 5<r then r=-2;break;end;d(k,c);until true;else d(k,c);end end end r=r+1 end n=n+1;e=f[n];break;end;r=0;while r>-1 do if 3<=r then if r<5 then if 3~=r then k=o[b];else c=o[u];end else if r~=6 then d(k,c);else r=-2;end end else if 1<=r then if 2>r then b=t;else u=l;end else o=e;end end r=r+1 end n=n+1;e=f[n];until true;else r=0;while r>-1 do if 2>=r then if 1<=r then if 0<r then for e=38,87 do if r~=2 then b=t;break;end;u=l;break;end;else u=l;end else o=e;end else if 5>r then if r>1 then repeat if r>3 then k=o[b];break;end;c=o[u];until true;else k=o[b];end else if 2<r then repeat if 5<r then r=-2;break;end;d(k,c);until true;else d(k,c);end end end r=r+1 end n=n+1;e=f[n];end end end end end else if r<=21 then local e=e[t];b=e+ne-1;for n=e,b do local e=g[n-e];d[n]=e;end;else if r>=21 then for a=27,53 do if r<23 then d[e[t]][d[e[l]]]=d[e[h]];break;end;local b=j[e[l]];local a;local r={};a=o.yTQUgSrT({},{__index=function(n,e)local e=r[e];return e[1][e[2]];end,__newindex=function(d,e,n)local e=r[e]e[1][e[2]]=n;end;});for t=1,e[h]do n=n+1;local e=f[n];if e[ee]==318 then r[t-1]={d,e[l]};else r[t-1]={k,e[l]};end;c[#c+1]=r;end;d[e[t]]=p(b,a,s);break;end;else d[e[t]][d[e[l]]]=d[e[h]];end end end end end end else if 72<r then if r>84 then if 90>=r then if r>=88 then if 88<r then if 89==r then local r,s;d[e[t]]=k[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]]+e[h];n=n+1;e=f[n];r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];r=e[t]d[r]=d[r](d[r+1])n=n+1;e=f[n];r=e[t];s=d[e[l]];d[r+1]=s;d[r]=s[e[h]];n=n+1;e=f[n];r=e[t]d[r](d[r+1])else local a;for r=0,6 do if r<3 then if r<1 then a=e[t]d[a]=d[a](d[a+1])n=n+1;e=f[n];else if 1~=r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else d[e[t]]=s[e[l]];n=n+1;e=f[n];end end else if 5<=r then if 2<=r then for s=45,68 do if 5~=r then d[e[t]]=k[e[l]];break;end;d[e[t]][e[l]]=e[h];n=n+1;e=f[n];break;end;else d[e[t]]=k[e[l]];end else if 1<=r then repeat if r~=3 then a=e[t]d[a]=d[a](d[a+1])n=n+1;e=f[n];break;end;d(e[t],e[l]);n=n+1;e=f[n];until true;else d(e[t],e[l]);n=n+1;e=f[n];end end end end end else d[e[t]][e[l]]=e[h];n=n+1;e=f[n];d[e[t]]={};n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);end else if r>85 then if 87>r then d[e[t]]=k[e[l]];else local r;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](d[r+1])n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](d[r+1])end else local s,_,o,k,c,h,r,j,y,p;for h=0,4 do if h<2 then if h>0 then h=0;while h>-1 do if 2<h then if h<5 then if 0~=h then repeat if h~=4 then k=s[o];break;end;c=s[_];until true;else k=s[o];end else if 4<=h then repeat if h>5 then h=-2;break;end;d(c,k);until true;else d(c,k);end end else if 0>=h then s=e;else if h>0 then repeat if h~=2 then _=t;break;end;o=l;until true;else _=t;end end end h=h+1 end n=n+1;e=f[n];else h=0;while h>-1 do if 2>=h then if h<1 then s=e;else if-1~=h then repeat if 1~=h then o=l;break;end;_=t;until true;else o=l;end end else if 5>h then if-1~=h then for e=10,61 do if h<4 then k=s[o];break;end;c=s[_];break;end;else k=s[o];end else if 1<h then repeat if 5<h then h=-2;break;end;d(c,k);until true;else d(c,k);end end end h=h+1 end n=n+1;e=f[n];end else if 3<=h then if 1<h then for s=32,52 do if 4~=h then r=e[t]j,y=u(d[r](a(d,r+1,e[l])))b=y+r-1 p=0;for e=r,b do p=p+1;d[e]=j[p];end;n=n+1;e=f[n];break;end;r=e[t]d[r]=d[r](a(d,r+1,b))break;end;else r=e[t]d[r]=d[r](a(d,r+1,b))end else h=0;while h>-1 do if 2>=h then if 0>=h then s=e;else if-1~=h then for e=31,76 do if h~=1 then o=l;break;end;_=t;break;end;else o=l;end end else if h<5 then if h~=1 then for e=29,63 do if 4>h then k=s[o];break;end;c=s[_];break;end;else k=s[o];end else if h>=2 then for e=41,82 do if h~=6 then d(c,k);break;end;h=-2;break;end;else h=-2;end end end h=h+1 end n=n+1;e=f[n];end end end end end else if r<=93 then if 91>=r then local a,o;for r=0,9 do if 4<r then if 7>r then if 1<r then for s=10,56 do if 5~=r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else if r>7 then if r<9 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else d[e[t]]=d[e[l]][e[h]];end else d[e[t]]=s[e[l]];n=n+1;e=f[n];end end else if r<=1 then if r==0 then d[e[t]]=k[e[l]];n=n+1;e=f[n];else a=e[t];o=d[e[l]];d[a+1]=o;d[a]=o[e[h]];n=n+1;e=f[n];end else if 3<=r then if r~=4 then d[e[t]]=s[e[l]];n=n+1;e=f[n];else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end end end else if 90<r then repeat if r<93 then s[e[l]]=d[e[t]];break;end;local r,a;for s=0,9 do if s<=4 then if s<2 then if 0<s then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else if s>=3 then if s~=2 then repeat if s~=3 then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;d[e[t]]={};n=n+1;e=f[n];until true;else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end else d[e[t]][e[l]]=e[h];n=n+1;e=f[n];end end else if 6>=s then if s==6 then r=e[t]d[r]=d[r](d[r+1])n=n+1;e=f[n];else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end else if 7<s then if 6<=s then for h=19,52 do if s<9 then r=e[t]d[r](d[r+1])n=n+1;e=f[n];break;end;d[e[t]]=k[e[l]];break;end;else r=e[t]d[r](d[r+1])n=n+1;e=f[n];end else r=e[t];a=d[e[l]];d[r+1]=a;d[r]=a[e[h]];n=n+1;e=f[n];end end end end until true;else local r,a;for s=0,9 do if s<=4 then if s<2 then if 0<s then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else if s>=3 then if s~=2 then repeat if s~=3 then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;d[e[t]]={};n=n+1;e=f[n];until true;else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end else d[e[t]][e[l]]=e[h];n=n+1;e=f[n];end end else if 6>=s then if s==6 then r=e[t]d[r]=d[r](d[r+1])n=n+1;e=f[n];else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end else if 7<s then if 6<=s then for h=19,52 do if s<9 then r=e[t]d[r](d[r+1])n=n+1;e=f[n];break;end;d[e[t]]=k[e[l]];break;end;else r=e[t]d[r](d[r+1])n=n+1;e=f[n];end else r=e[t];a=d[e[l]];d[r+1]=a;d[r]=a[e[h]];n=n+1;e=f[n];end end end end end end else if 95>=r then if 95~=r then local f,a,s,h,r,o;local n=0;while n>-1 do if 4>n then if n>=2 then if n~=1 then for e=24,76 do if 3>n then s=l;break;end;h=d;break;end;else h=d;end else if n~=-3 then for d=42,93 do if n>0 then a=t;break;end;f=e;break;end;else f=e;end end else if n<6 then if 2~=n then for e=29,61 do if n<5 then r=h[f[s]];break;end;o=f[a];break;end;else r=h[f[s]];end else if 6<n then n=-2;else d[o]=r;end end end n=n+1 end else local s;for r=0,5 do if r<=2 then if 1<=r then if-1~=r then for s=33,62 do if 1<r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else s=e[t]d[s]=d[s](d[s+1])n=n+1;e=f[n];end else if r<4 then d[e[t]]=d[e[l]]-e[h];n=n+1;e=f[n];else if r>0 then for s=11,70 do if 5>r then d[e[t]]=d[e[l]]-e[h];n=n+1;e=f[n];break;end;if(d[e[t]]<d[e[h]])then n=n+1;else n=e[l];end;break;end;else d[e[t]]=d[e[l]]-e[h];n=n+1;e=f[n];end end end end end else if r~=96 then d[e[t]]=e[l]^d[e[h]];else local s;for r=0,6 do if 3>r then if r<=0 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else if 2>r then d(e[t],e[l]);n=n+1;e=f[n];else d(e[t],e[l]);n=n+1;e=f[n];end end else if 5<=r then if 4<r then for s=44,64 do if 6~=r then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=e[h];break;end;else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end else if r~=3 then s=e[t]d[s]=d[s](a(d,s+1,e[l]))n=n+1;e=f[n];else d(e[t],e[l]);n=n+1;e=f[n];end end end end end end end end else if 79>r then if r>=76 then if r<77 then local r;d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]={};else if r~=73 then for o=13,60 do if 78~=r then local r;d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](d[r+1])n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);break;end;local r;for h=0,4 do if h>=2 then if 2>=h then d[e[t]]=d[e[l]];n=n+1;e=f[n];else if 4~=h then r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];else d[e[t]]={};end end else if h>-2 then repeat if 0~=h then d[e[t]]=d[e[l]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]];n=n+1;e=f[n];until true;else d[e[t]]=d[e[l]];n=n+1;e=f[n];end end end break;end;else local r;d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](d[r+1])n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);end end else if r>=74 then if r~=71 then repeat if r~=75 then local a,s;for r=0,6 do if 2>=r then if r>0 then if r>-2 then for h=28,70 do if r~=1 then d[e[t]]=d[e[l]];n=n+1;e=f[n];break;end;d[e[t]]=k[e[l]];n=n+1;e=f[n];break;end;else d[e[t]]=d[e[l]];n=n+1;e=f[n];end else d[e[t]]=d[e[l]][d[e[h]]];n=n+1;e=f[n];end else if 4>=r then if 2<=r then repeat if 3~=r then a=e[l];s=d[a]for e=a+1,e[h]do s=s..d[e];end;d[e[t]]=s;n=n+1;e=f[n];break;end;d(e[t],e[l]);n=n+1;e=f[n];until true;else a=e[l];s=d[a]for e=a+1,e[h]do s=s..d[e];end;d[e[t]]=s;n=n+1;e=f[n];end else if r>=2 then repeat if r~=6 then d[e[t]]=d[e[l]][d[e[h]]];n=n+1;e=f[n];break;end;if d[e[t]]then n=n+1;else n=e[l];end;until true;else if d[e[t]]then n=n+1;else n=e[l];end;end end end end break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);until true;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);end else local s;for r=0,6 do if r<3 then if r<=0 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];else if-3<r then repeat if 1<r then d(e[t],e[l]);n=n+1;e=f[n];break;end;d(e[t],e[l]);n=n+1;e=f[n];until true;else d(e[t],e[l]);n=n+1;e=f[n];end end else if 4>=r then if r>=1 then repeat if 4>r then d(e[t],e[l]);n=n+1;e=f[n];break;end;s=e[t]d[s]=d[s](a(d,s+1,e[l]))n=n+1;e=f[n];until true;else s=e[t]d[s]=d[s](a(d,s+1,e[l]))n=n+1;e=f[n];end else if r>=2 then repeat if r~=5 then d[e[t]][e[l]]=e[h];break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];until true;else d[e[t]][e[l]]=e[h];end end end end end end else if 81<r then if 82<r then if 82<r then for n=39,71 do if 83<r then local n=e[t];local t=d[e[l]];d[n+1]=t;d[n]=t[e[h]];break;end;d[e[t]]=#d[e[l]];break;end;else local t=e[t];local n=d[e[l]];d[t+1]=n;d[t]=n[e[h]];end else n=e[l];end else if 80<=r then if r~=81 then local r,k,_,c,o;r=e[t];k=d[e[l]];d[r+1]=k;d[r]=k[e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];r=e[t]_,c=u(d[r](a(d,r+1,e[l])))b=c+r-1 o=0;for e=r,b do o=o+1;d[e]=_[o];end;n=n+1;e=f[n];r=e[t]d[r]=d[r](a(d,r+1,b))n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];else for r=0,4 do if 1>=r then if-2~=r then repeat if 0<r then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];until true;else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end else if 3>r then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];else if 2<r then repeat if r~=4 then d[e[t]][e[l]]=e[h];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=d[e[h]];until true;else d[e[t]][e[l]]=d[e[h]];end end end end end else local r;r=e[t]d[r]=d[r](a(d,r+1,b))n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]={};n=n+1;e=f[n];d[e[t]]=k[e[l]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=e[h];n=n+1;e=f[n];d[e[t]]=s[e[l]];end end end end else if r<61 then if 54<r then if r>57 then if r>58 then if r~=60 then local o;for r=0,6 do if r<3 then if r<=0 then o=e[t]d[o]=d[o](a(d,o+1,e[l]))n=n+1;e=f[n];else if-2<=r then for s=28,92 do if 1<r then d[e[t]][e[l]]=e[h];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;else d[e[t]][e[l]]=e[h];n=n+1;e=f[n];end end else if 4>=r then if 0<=r then repeat if r>3 then d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];until true;else d[e[t]]=s[e[l]];n=n+1;e=f[n];end else if r~=3 then repeat if 6>r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]={};until true;else d[e[t]]={};end end end end else if(e[t]<=d[e[h]])then n=e[l];else n=n+1;end;end else local t=e[t]local l={d[t](a(d,t+1,b))};local n=0;for e=t,e[h]do n=n+1;d[e]=l[n];end end else if r>55 then if r==57 then if(d[e[t]]<d[e[h]])then n=n+1;else n=e[l];end;else local a,u,b,s,o,r,_;for k=0,4 do if 2<=k then if k>=3 then if k>2 then for r=22,64 do if 3~=k then a=e[t];_=d[e[l]];d[a+1]=_;d[a]=_[e[h]];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else d[e[t]]=(e[l]~=0);n=n+1;e=f[n];end else if k>-1 then for _=48,83 do if 1~=k then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;a=e[t];u={};for e=1,#c do b=c[e];for e=0,#b do s=b[e];o=s[1];r=s[2];if o==d and r>=a then u[r]=o[r];s[1]=u;end;end;end;n=n+1;e=f[n];break;end;else a=e[t];u={};for e=1,#c do b=c[e];for e=0,#b do s=b[e];o=s[1];r=s[2];if o==d and r>=a then u[r]=o[r];s[1]=u;end;end;end;n=n+1;e=f[n];end end end end else for r=0,7 do if 4<=r then if r>5 then if 5<=r then for s=42,76 do if 7>r then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]]-d[e[h]];break;end;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else if 1<r then for s=35,58 do if r>4 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=k[e[l]];n=n+1;e=f[n];break;end;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end end else if 2>r then if r>=-1 then for a=47,62 do if 1~=r then d[e[t]]=s[e[l]];n=n+1;e=f[n];break;end;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;else d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];end else if-2<=r then for s=34,64 do if r>2 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];break;end;d[e[t]]=k[e[l]];n=n+1;e=f[n];break;end;else d[e[t]]=k[e[l]];n=n+1;e=f[n];end end end end end end else if r<52 then if r<50 then d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]]+d[e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]]-e[h];n=n+1;e=f[n];d[e[t]]=k[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];else if 49<=r then for o=33,97 do if r>50 then local n=e[t];do return a(d,n,n+e[l])end;break;end;local r;d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];break;end;else local n=e[t];do return a(d,n,n+e[l])end;end end else if 53>r then local r;d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=e[h];n=n+1;e=f[n];d[e[t]][e[l]]=e[h];n=n+1;e=f[n];d[e[t]][e[l]]=e[h];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d[e[t]]=d[e[l]];else if r~=52 then repeat if r~=53 then local n=e[t];local t=d[n];for e=n+1,e[l]do o.aSy_RxsI(t,d[e])end;break;end;d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]={};until true;else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]={};end end end end else if 66<r then if r<70 then if 68>r then for r=0,6 do if 2>=r then if r<1 then d[e[t]]=s[e[l]];n=n+1;e=f[n];else if r>=0 then for h=18,74 do if r<2 then d[e[t]]={};n=n+1;e=f[n];break;end;d[e[t]]=k[e[l]];n=n+1;e=f[n];break;end;else d[e[t]]=k[e[l]];n=n+1;e=f[n];end end else if r>4 then if r==5 then d[e[t]]=s[e[l]];n=n+1;e=f[n];else d[e[t]]=d[e[l]][e[h]];end else if r~=0 then repeat if r~=4 then d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];break;end;d[e[t]][e[l]]=e[h];n=n+1;e=f[n];until true;else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];end end end end else if 66~=r then for n=33,74 do if 68~=r then local n=e[t]local t,e=u(d[n](a(d,n+1,e[l])))b=e+n-1 local e=0;for n=n,b do e=e+1;d[n]=t[e];end;break;end;local e=e[t];do return d[e],d[e+1]end break;end;else local e=e[t];do return d[e],d[e+1]end end end else if 70>=r then local e=e[t];local n=d[e];for e=e+1,b do o.aSy_RxsI(n,d[e])end;else if 68~=r then for n=10,97 do if r~=71 then d[e[t]]=k[e[l]];break;end;d[e[t]]=d[e[l]][e[h]];break;end;else d[e[t]]=k[e[l]];end end end else if 63>=r then if 62>r then local r,_,y,p,o,c;d[e[t]]=k[e[l]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=k[e[l]];n=n+1;e=f[n];r=e[t];_=d[e[l]];d[r+1]=_;d[r]=_[e[h]];n=n+1;e=f[n];r=e[t]c,p=u(d[r](d[r+1]))b=p+r-1 o=0;for e=r,b do o=o+1;d[e]=c[o];end;n=n+1;e=f[n];r=e[t]c={d[r](a(d,r+1,b))};o=0;for e=r,e[h]do o=o+1;d[e]=c[o];end n=n+1;e=f[n];n=e[l];else if 60<=r then repeat if r~=62 then local r;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];do return d[e[t]]end n=n+1;e=f[n];n=e[l];break;end;if not d[e[t]]then n=n+1;else n=e[l];end;until true;else local r;d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];do return d[e[t]]end n=n+1;e=f[n];n=e[l];end end else if 65<=r then if 62~=r then repeat if 66~=r then local r;r=e[t]d[r]=d[r](a(d,r+1,e[l]))n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];r=e[t]d[r]=d[r](a(d,r+1,e[l]))break;end;local t=e[t];local h=e[h];local f=t+2 local t={d[t](d[t+1],d[f])};for e=1,h do d[f+e]=t[e];end;local t=t[1]if t then d[f]=t n=e[l];else n=n+1;end;until true;else local f=e[t];local h=e[h];local t=f+2 local f={d[f](d[f+1],d[t])};for e=1,h do d[t+e]=f[e];end;local f=f[1]if f then d[t]=f n=e[l];else n=n+1;end;end else d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]][e[l]]=d[e[h]];n=n+1;e=f[n];d[e[t]]=s[e[l]];n=n+1;e=f[n];d[e[t]]=d[e[l]][e[h]];n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);n=n+1;e=f[n];d(e[t],e[l]);end end end end end end end end n=1+n;end;end;return de end;local t=0xff;local r={};local f=(1);local l='';(function(n)local d=n local h=0x00 local e=0x00 d={(function(s)if h>0x2d then return s end h=h+1 e=(e+0x10a9-s)%0x10 return(e%0x03==0x2 and(function(d)if not n[d]then e=e+0x01 n[d]=(0xac);end return true end)'MZbtr'and d[0x3](0x73+s))or(e%0x03==0x1 and(function(d)if not n[d]then e=e+0x01 n[d]=(0xc4);end return true end)'UumnO'and d[0x1](s+0x116))or(e%0x03==0x0 and(function(d)if not n[d]then e=e+0x01 n[d]=(0xf4);t[2]=(t[2]*(de(function()r()end,a(l))-de(t[1],a(l))))+1;r[f]={};t=t[2];f=f+t;end return true end)'bGIpV'and d[0x2](s+0x270))or s end),(function(f)if h>0x25 then return f end h=h+1 e=(e+0x9cb-f)%0xf return(e%0x03==0x2 and(function(d)if not n[d]then e=e+0x01 n[d]=(0xce);l='\37';t={function()t()end};l=l..'\100\43';end return true end)'alvZk'and d[0x3](0x318+f))or(e%0x03==0x0 and(function(d)if not n[d]then e=e+0x01 n[d]=(0xaf);end return true end)'SEaSd'and d[0x2](f+0x335))or(e%0x03==0x1 and(function(d)if not n[d]then e=e+0x01 n[d]=(0x73);end return true end)'UWPEk'and d[0x1](f+0xd5))or f end),(function(s)if h>0x25 then return s end h=h+1 e=(e+0x74d-s)%0x10 return(e%0x03==0x1 and(function(d)if not n[d]then e=e+0x01 n[d]=(0x65);l={l..'\58 a',l};r[f]=te();f=f+(1);l[1]='\58'..l[1];t[2]=0xff;end return true end)'MSSwf'and d[0x1](0x346+s))or(e%0x03==0x0 and(function(d)if not n[d]then e=e+0x01 n[d]=(0x6d);end return true end)'bhStK'and d[0x2](s+0x3a1))or(e%0x03==0x2 and(function(d)if not n[d]then e=e+0x01 n[d]=(0xee);r[f]=fe();f=f+t;end return true end)'ahuFZ'and d[0x3](s+0xe6))or s end)}d[0x2](0x1fa4)end){};local e=p(a(r));r[2]={};r[1]=e(r[1])pp_pGiveXiEGWhd=nil;e=p(a(r))return e(...);end return le((function()local n={}local e=0x01;local d;if o.evQXsIpk then d=o.evQXsIpk(le)else d=''end if o.CQVrOyCj(d,o.dyMPaVUg)then e=e+0;else e=e+1;end n[e]=0x02;n[n[e]+0x01]=0x03;return n;end)(),...)end)((function(n,e,d,t,l,f)local f;if 4<=n then if 6>n then if 3<n then for f=48,71 do if 5>n then local n=t;local f,t,l=l(2);do return function()local h,e,r,d=e(d,n(n,n),n(n,n)+3);n(4);return(d*f)+(r*t)+(e*l)+h;end;end;break;end;local n=t;do return function()local e=e(d,n(n,n),n(n,n));n(1);return e;end;end;break;end;else local n=t;do return function()local e=e(d,n(n,n),n(n,n));n(1);return e;end;end;end else if n<7 then do return l[d]end;else if n~=7 then do return d(n,nil,d);end else do return setmetatable({},{['__\99\97\108\108']=function(e,t,l,d,n)if n then return e[n]elseif d then return e else e[t]=l end end})end end end end else if n>1 then if n==2 then do return 16777216,65536,256 end;else do return e(1),e(4,l,t,d,e),e(5,l,t,d)end;end else if 1>n then do return e(1),e(4,l,t,d,e),e(5,l,t,d)end;else do return function(n,e,d)if d then local e=(n/2^(e-1))%2^((d-1)-(e-1)+1);return e-e%1;else local e=2^(e-1);return(n%(e+e)>=e)and 1 or 0;end;end;end;end end end end),...)
+Library = {}
+SaveTheme = {}
+
+local themes = {
+	index = {'Dark'},
+	Dark = {
+		['Shadow'] = Color3.fromRGB(15, 15, 15),
+		['Background'] = Color3.fromRGB(20, 20, 20),
+		['Page'] = Color3.fromRGB(18, 18, 18),
+		['Main'] = Color3.fromRGB(50, 50, 50),
+		['Text & Icon'] = Color3.fromRGB(230, 230, 230),
+		['Function'] = {
+			['Toggle'] = {
+				['Background'] = Color3.fromRGB(25, 25, 25),
+				['True'] = {
+					['Toggle Background'] = Color3.fromRGB(40, 40, 40),
+					['Toggle Value'] = Color3.fromRGB(70, 130, 180),
+				},
+				['False'] = {
+					['Toggle Background'] = Color3.fromRGB(30, 30, 30),
+					['Toggle Value'] = Color3.fromRGB(40, 40, 40),
+				}
+			},
+			['Label'] = {
+				['Background'] = Color3.fromRGB(25, 25, 25),
+			},
+			['Dropdown'] = {
+				['Background'] = Color3.fromRGB(25, 25, 25),
+				['Value Background'] = Color3.fromRGB(20, 20, 20),
+				['Value Stroke'] = Color3.fromRGB(230, 230, 230),
+				['Dropdown Select'] = {
+					['Background'] = Color3.fromRGB(20, 20, 20),
+					['Search'] = Color3.fromRGB(30, 30, 30),
+					['Item Background'] = Color3.fromRGB(30, 30, 30),
+				}
+			},
+			['Slider'] = {
+				['Background'] = Color3.fromRGB(25, 25, 25),
+				['Value Background'] = Color3.fromRGB(20, 20, 20),
+				['Value Stroke'] = Color3.fromRGB(230, 230, 230),
+				['Slider Bar'] = Color3.fromRGB(40, 40, 40),
+				['Slider Bar Value'] = Color3.fromRGB(70, 130, 180),
+				['Circle Value'] = Color3.fromRGB(255, 255, 255)
+			},
+			['Code'] = {
+				['Background'] = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(25, 25, 25)), ColorSequenceKeypoint.new(1, Color3.fromRGB(25, 25, 25))},
+				['Background Code'] = Color3.fromRGB(35, 35, 35),
+				['Background Code Value'] = Color3.fromRGB(28, 28, 28),
+				['ScrollingFrame Code'] = Color3.fromRGB(150, 150, 150)
+			},
+			['Button'] = {
+				['Background'] = Color3.fromRGB(25, 25, 25),
+				['Click'] = Color3.fromRGB(230, 230, 230)
+			},
+			['Textbox'] = {
+				['Background'] = Color3.fromRGB(25, 25, 25),
+				['Value Background'] = Color3.fromRGB(20, 20, 20),
+				['Value Stroke'] = Color3.fromRGB(230, 230, 230),
+			},
+			['Keybind'] = {
+				['Background'] = Color3.fromRGB(25, 25, 25),
+				['Value Background'] = Color3.fromRGB(20, 20, 20),
+				['Value Stroke'] = Color3.fromRGB(230, 230, 230),
+				['True'] = {
+					['Toggle Background'] = Color3.fromRGB(40, 40, 40),
+					['Toggle Value'] = Color3.fromRGB(70, 130, 180),
+				},
+				['False'] = {
+					['Toggle Background'] = Color3.fromRGB(30, 30, 30),
+					['Toggle Value'] = Color3.fromRGB(40, 40, 40),
+				}
+			},
+			['Color Picker'] = {
+				['Background'] = Color3.fromRGB(25, 25, 25),
+				['Color Select'] = {
+					['Background'] = Color3.fromRGB(20, 20, 20),
+					['UIStroke'] = Color3.fromRGB(230, 230, 230),
+				}
+			}
+		}
+	},
+}
+
+local ScreenGui = Instance.new("ScreenGui")
+ScreenGui.Name = "Dummy Kawaii"
+ScreenGui.Parent = not game:GetService("RunService"):IsStudio() and game:GetService("CoreGui") or game:GetService("Players").LocalPlayer.PlayerGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+local U, Tw = game:GetService("UserInputService"), game:GetService("TweenService")
+
+do
+	function addToTheme(name, obj)
+		if not SaveTheme[name] then
+			SaveTheme[name] = {}
+		end
+		table.insert(SaveTheme[name], obj)
+	end
+	function getColorFromPath(tbl, path)
+		local result = tbl
+		for _, part in ipairs(string.split(path, ".")) do
+			result = result and result[part]
+		end
+		return result
+	end
+	function Library:setTheme(st)
+		for name, objs in pairs(SaveTheme) do
+			local color = getColorFromPath(st, name)
+			if color then
+				for _, obj in pairs(objs) do
+					if SaveTheme[name] then
+						for _, obj in pairs(SaveTheme[name]) do
+							if obj:IsA("Frame") or obj:IsA("CanvasGroup") then
+								obj.BackgroundColor3 = color
+							elseif obj:IsA("TextLabel") or obj:IsA("TextButton") or obj:IsA("TextBox") then
+								obj.TextColor3 = color
+							elseif obj:IsA("ImageLabel") or obj:IsA("ImageButton") then
+								obj.ImageColor3 = color
+							elseif obj:IsA("ScrollingFrame") then
+								obj.ScrollBarImageColor3 = color
+							elseif obj:IsA("UIStroke") then
+								obj.Color = color
+							elseif obj:IsA("UIGradient") then
+								obj.Color = color
+							end
+						end
+					end
+				end
+			end
+		end
+	end
+
+	local IconList = loadstring(game:HttpGet('https://raw.githubusercontent.com/Dummyrme/Library/refs/heads/main/Icon.lua'))()
+	function gl(i)
+		local iconData = IconList.Icons[i]
+		if iconData then
+			local spriteSheet = IconList.Spritesheets[tostring(iconData.Image)]
+			if spriteSheet then
+				return {
+					Image = spriteSheet,
+					ImageRectSize = iconData.ImageRectSize,
+					ImageRectPosition = iconData.ImageRectPosition,
+				}
+			end
+		end
+		if type(i) == 'string' and not i:find('rbxassetid://') then
+			return {
+				Image = "rbxassetid://".. i,
+				ImageRectSize = Vector2.new(0, 0),
+				ImageRectPosition = Vector2.new(0, 0),
+			}
+		elseif type(i) == 'number' then
+			return {
+				Image = "rbxassetid://".. i,
+				ImageRectSize = Vector2.new(0, 0),
+				ImageRectPosition = Vector2.new(0, 0),
+			}
+		else
+			return i
+		end
+	end
+	function tw(info)
+		return Tw:Create(info.v,TweenInfo.new(info.t, info.s, Enum.EasingDirection[info.d]),info.g)
+	end
+	function changecanvas(ScrollingFrame, UIListLayout, Plus)
+		UIListLayout:GetPropertyChangedSignal("AbsoluteContentSize"):Connect(function()
+			ScrollingFrame.CanvasSize = UDim2.new(0, 0, 0, UIListLayout.AbsoluteContentSize.Y + Plus or 5)
+		end)
+	end
+	function gs(side, pl, pr)
+		if not side then
+			return pl
+		end
+
+		local sideLower = string.lower(tostring(side))
+		if sideLower == "r" or sideLower == "right" or side == 2 then
+			return pr
+		elseif sideLower == "l" or sideLower == "left" or side == 1 then
+			return pl
+		else
+			return pl
+		end
+	end
+	function jc(c, p)
+		local Mouse = game.Players.LocalPlayer:GetMouse()
+
+		local relativeX = Mouse.X - c.AbsolutePosition.X
+		local relativeY = Mouse.Y - c.AbsolutePosition.Y
+
+		if relativeX < 0 or relativeY < 0 or relativeX > c.AbsoluteSize.X or relativeY > c.AbsoluteSize.Y then
+			return
+		end
+
+		local ClickButtonCircle = Instance.new("Frame")
+		ClickButtonCircle.Parent = p
+		ClickButtonCircle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ClickButtonCircle.BackgroundTransparency = 0.7
+		ClickButtonCircle.BorderSizePixel = 0
+		ClickButtonCircle.AnchorPoint = Vector2.new(0.5, 0.5)
+		ClickButtonCircle.Position = UDim2.new(0, relativeX, 0, relativeY)
+		ClickButtonCircle.Size = UDim2.new(0, 0, 0, 0)
+		ClickButtonCircle.ZIndex = 10
+
+		local UICorner = Instance.new("UICorner")
+		UICorner.CornerRadius = UDim.new(1, 0)
+		UICorner.Parent = ClickButtonCircle
+
+		local tweenInfo = TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
+
+		local goal = {
+			Size = UDim2.new(0, c.AbsoluteSize.X * 1.5, 0, c.AbsoluteSize.X * 1.5),
+			BackgroundTransparency = 1
+		}
+
+		local expandTween = game:GetService("TweenService"):Create(ClickButtonCircle, tweenInfo, goal)
+
+		expandTween.Completed:Connect(function()
+			ClickButtonCircle:Destroy()
+		end)
+
+		expandTween:Play()
+	end
+	function jcf(p, p2)
+		local ClickButtonCircle = Instance.new("Frame")
+		ClickButtonCircle.Parent = p
+		ClickButtonCircle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ClickButtonCircle.BackgroundTransparency = 0.7
+		ClickButtonCircle.BorderSizePixel = 0
+		ClickButtonCircle.AnchorPoint = Vector2.new(0.5, 0.5)
+		ClickButtonCircle.Position = UDim2.new(0, p2.AbsolutePosition.X - p.AbsolutePosition.X + p2.AbsoluteSize.X / 2, 
+			0, p2.AbsolutePosition.Y - p.AbsolutePosition.Y + p2.AbsoluteSize.Y / 2)
+		ClickButtonCircle.Size = UDim2.new(0, 0, 0, 0)
+		ClickButtonCircle.ZIndex = 10
+
+		local UICorner = Instance.new("UICorner")
+		UICorner.CornerRadius = UDim.new(1, 0)
+		UICorner.Parent = ClickButtonCircle
+
+		local tweenInfo = TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
+
+		local goal = {
+			Size = UDim2.new(0, p2.AbsoluteSize.X * 5, 0, p2.AbsoluteSize.X * 5),
+			BackgroundTransparency = 1
+		}
+
+		local expandTween = game:GetService("TweenService"):Create(ClickButtonCircle, tweenInfo, goal)
+
+		expandTween.Completed:Connect(function()
+			ClickButtonCircle:Destroy()
+		end)
+
+		expandTween:Play()
+	end
+	function lak(t, o)
+		local a, b, c, d
+		local function u(i)
+			local dt = i.Position - c
+			tw({v = o, t = 0.05, s = Enum.EasingStyle.Linear, d = "InOut", g = {Position = UDim2.new(d.X.Scale, d.X.Offset + dt.X, d.Y.Scale, d.Y.Offset + dt.Y)}}):Play()
+		end
+		t.InputBegan:Connect(function(i) if i.UserInputType == Enum.UserInputType.MouseButton1 or i.UserInputType == Enum.UserInputType.Touch then a = true c = i.Position d = o.Position; i.Changed:Connect(function() if i.UserInputState == Enum.UserInputState.End then a = false end end) end end)
+		t.InputChanged:Connect(function(i) if i.UserInputType == Enum.UserInputType.MouseMovement or i.UserInputType == Enum.UserInputType.Touch then b = i end end)
+		U.InputChanged:Connect(function(i) if i == b and a then u(i) end end)
+	end
+	function click(p)
+		local Click = Instance.new("TextButton")
+
+		Click.Name = "Click"
+		Click.Parent = p
+		Click.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Click.BackgroundTransparency = 1.000
+		Click.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		Click.BorderSizePixel = 0
+		Click.Size = UDim2.new(1, 0, 1, 0)
+		Click.Font = Enum.Font.SourceSans
+		Click.Text = ""
+		Click.TextColor3 = Color3.fromRGB(0, 0, 0)
+		Click.TextSize = 14.000
+
+		return Click
+	end
+	function background(pl, t, d, i, ty)
+		local RealBackground = Instance.new("Frame")
+		local Background = Instance.new("Frame")
+		local UICorner_1 = Instance.new("UICorner")
+		local T_1 = Instance.new("Frame")
+		local UIListLayout_2 = Instance.new("UIListLayout")
+		local UIPadding_3 = Instance.new("UIPadding")
+		local TextLabel_1 = Instance.new("TextLabel")
+		local TextLabel_2 = Instance.new("TextLabel")
+
+		RealBackground.Name = "Real Background"
+		RealBackground.Parent = pl
+		RealBackground.BackgroundTransparency = 1
+		RealBackground.BorderColor3 = Color3.fromRGB(0,0,0)
+		RealBackground.BorderSizePixel = 0
+		RealBackground.Size = UDim2.new(1, 0,0, 35)
+		RealBackground.ClipsDescendants = true
+
+		Background.Name = "Background"
+		Background.Parent = RealBackground
+		Background.BackgroundColor3 = Color3.fromRGB(29,28,38)
+		Background.BorderColor3 = Color3.fromRGB(0,0,0)
+		Background.BorderSizePixel = 0
+		Background.Size = UDim2.new(1, 0,1, 0)
+		Background.ClipsDescendants = true
+
+		addToTheme('Function.'..ty..'.Background', Background)
+
+		UICorner_1.Parent = Background
+
+		T_1.Name = "T"
+		T_1.Parent = Background
+		T_1.AnchorPoint = Vector2.new(0, 0.5)
+		T_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+		T_1.BackgroundTransparency = 1
+		T_1.BorderColor3 = Color3.fromRGB(0,0,0)
+		T_1.BorderSizePixel = 0
+		T_1.Position = UDim2.new(0, 0,0.5, 0)
+		T_1.Size = UDim2.new(1, 0,1, 0)
+
+		UIListLayout_2.Parent = T_1
+		UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+		UIListLayout_2.VerticalAlignment = Enum.VerticalAlignment.Center
+
+		UIPadding_3.Parent = T_1
+		UIPadding_3.PaddingLeft = UDim.new(0,13)
+		UIPadding_3.PaddingRight = UDim.new(0,70)
+
+		TextLabel_1.Parent = T_1
+		TextLabel_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+		TextLabel_1.BackgroundTransparency = 1
+		TextLabel_1.BorderColor3 = Color3.fromRGB(0,0,0)
+		TextLabel_1.BorderSizePixel = 0
+		TextLabel_1.LayoutOrder = 1
+		TextLabel_1.Size = UDim2.new(1, 0,0, 14)
+		TextLabel_1.Font = Enum.Font.GothamBold
+		TextLabel_1.RichText = true
+		TextLabel_1.Text = tostring(d)
+		TextLabel_1.TextColor3 = Color3.fromRGB(255,255,255)
+		TextLabel_1.TextSize = 10
+		TextLabel_1.TextTransparency = 0.699999988079071
+		TextLabel_1.TextWrapped = true
+		TextLabel_1.TextXAlignment = Enum.TextXAlignment.Left
+		TextLabel_1.Visible = false
+		TextLabel_1.AutomaticSize = Enum.AutomaticSize.Y
+		TextLabel_1.Name = 'Desc'
+
+		addToTheme('Text & Icon', TextLabel_1)
+
+		TextLabel_2.Parent = T_1
+		TextLabel_2.BackgroundColor3 = Color3.fromRGB(255,255,255)
+		TextLabel_2.BackgroundTransparency = 1
+		TextLabel_2.BorderColor3 = Color3.fromRGB(0,0,0)
+		TextLabel_2.BorderSizePixel = 0
+		TextLabel_2.Size = UDim2.new(1, 0,0, 14)
+		TextLabel_2.Font = Enum.Font.GothamBold
+		TextLabel_2.RichText = true
+		TextLabel_2.Text = tostring(t)
+		TextLabel_2.TextColor3 = Color3.fromRGB(255,255,255)
+		TextLabel_2.TextSize = 12
+		TextLabel_2.TextWrapped = true
+		TextLabel_2.TextXAlignment = Enum.TextXAlignment.Left
+		TextLabel_2.AutomaticSize = Enum.AutomaticSize.Y
+		TextLabel_2.Name = 'Title'
+
+		addToTheme('Text & Icon', TextLabel_2)
+
+		if d and d ~= "" then
+			TextLabel_1.Visible = true
+		end
+
+		if i and i ~= "" then
+			UIPadding_3.PaddingLeft = UDim.new(0, 50)
+			local Image = Instance.new("Frame")
+			local Icon_1 = Instance.new("ImageLabel")
+			local Frame_1 = Instance.new("Frame")
+
+			Image.Name = "Image"
+			Image.Parent = Background
+			Image.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			Image.BackgroundTransparency = 1
+			Image.BorderColor3 = Color3.fromRGB(0,0,0)
+			Image.BorderSizePixel = 0
+			Image.Size = UDim2.new(0, 40,1, 0)
+
+			Icon_1.Name = "Icon"
+			Icon_1.Parent = Image
+			Icon_1.AnchorPoint = Vector2.new(0.5, 0.5)
+			Icon_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			Icon_1.BackgroundTransparency = 1
+			Icon_1.BorderColor3 = Color3.fromRGB(0,0,0)
+			Icon_1.BorderSizePixel = 0
+			Icon_1.Position = UDim2.new(0.5, 0,0.5, 0)
+			Icon_1.Size = UDim2.new(0, 20,0, 20)
+			Icon_1.Image = gl(i).Image
+			Icon_1.ImageRectSize = gl(i).ImageRectSize
+			Icon_1.ImageRectOffset = gl(i).ImageRectPosition
+			Icon_1.ImageTransparency = 0.7
+
+			Frame_1.Parent = Image
+			Frame_1.AnchorPoint = Vector2.new(1, 0.5)
+			Frame_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			Frame_1.BackgroundTransparency = 0.8999999761581421
+			Frame_1.BorderColor3 = Color3.fromRGB(0,0,0)
+			Frame_1.BorderSizePixel = 0
+			Frame_1.Position = UDim2.new(1, 0,0.5, 0)
+			Frame_1.Size = UDim2.new(0, 1,0.699999988, 0)
+
+			addToTheme('Text & Icon', Icon_1)
+
+			addToTheme('Text & Icon', Frame_1)
+		end
+
+		local function updateSize()
+			task.defer(function()
+				local newSize = UIListLayout_2.AbsoluteContentSize.Y + 21
+				if RealBackground.Size.Y.Offset ~= newSize then
+					RealBackground.Size = UDim2.new(1, 0, 0, newSize)
+				end
+			end)
+		end
+
+		delay(.1, updateSize)
+
+		UIListLayout_2:GetPropertyChangedSignal("AbsoluteContentSize"):Connect(updateSize)
+
+		local f = {}
+
+		function f:SetTextTransparencyTitle(vs)
+			tw({v = TextLabel_2, t = 0.15, s = Enum.EasingStyle.Linear, d = "Out", g = {TextTransparency = vs}}):Play()
+			if i and i ~= "" then
+				tw({v = Background.Image.Icon, t = 0.15, s = Enum.EasingStyle.Linear, d = "Out", g = {ImageTransparency = vs}}):Play()
+			end
+		end
+
+		function f:SetSizeT(vs)
+			UIPadding_3.PaddingRight = UDim.new(0, vs)
+		end
+
+		function f:SetTitle(vs)
+			TextLabel_2.Text = tostring(vs)
+		end
+
+		function f:SetDesc(vs)
+			TextLabel_1.Text = tostring(vs)
+			if vs and vs ~= "" then
+				TextLabel_1.Visible = true
+			else
+				TextLabel_1.Visible = false
+			end
+		end
+
+		function f:SetVisibleDesc(vs)
+			TextLabel_2.Visible = vs
+		end
+
+		return Background, f
+	end
+	function addDropdownSelect(p, p2, Multi, Callback, Value, List)
+		local F = Instance.new("Frame")
+		local UIListLayout_1 = Instance.new("UIListLayout")
+		local UIPadding_1 = Instance.new("UIPadding")
+		local DropdownValue = Instance.new("Frame")
+		local UICorner_1 = Instance.new("UICorner")
+		local UIStroke_1 = Instance.new("UIStroke")
+		local TextLabelValue_1 = Instance.new("TextLabel")
+		local UIPadding_2 = Instance.new("UIPadding")
+		local ImageLabel_1 = Instance.new("ImageLabel")
+
+		F.Name = "F"
+		F.Parent = p
+		F.AnchorPoint = Vector2.new(1, 0.5)
+		F.BackgroundColor3 = Color3.fromRGB(255,255,255)
+		F.BackgroundTransparency = 1
+		F.BorderColor3 = Color3.fromRGB(0,0,0)
+		F.BorderSizePixel = 0
+		F.Position = UDim2.new(1, 0,0.5, 0)
+		F.Size = UDim2.new(0, 120,0.800000012, 0)
+
+		UIListLayout_1.Parent = F
+		UIListLayout_1.Padding = UDim.new(0,15)
+		UIListLayout_1.FillDirection = Enum.FillDirection.Horizontal
+		UIListLayout_1.HorizontalAlignment = Enum.HorizontalAlignment.Right
+		UIListLayout_1.SortOrder = Enum.SortOrder.LayoutOrder
+		UIListLayout_1.VerticalAlignment = Enum.VerticalAlignment.Center
+
+		UIPadding_1.Parent = F
+		UIPadding_1.PaddingRight = UDim.new(0,13)
+
+		DropdownValue.Parent = F
+		DropdownValue.BackgroundColor3 = Color3.fromRGB(24,24,31)
+		DropdownValue.BorderColor3 = Color3.fromRGB(0,0,0)
+		DropdownValue.BorderSizePixel = 0
+		DropdownValue.Size = UDim2.new(0, 100,0, 20)
+
+		addToTheme('Function.Dropdown.Value Background', DropdownValue)
+
+		UICorner_1.Parent = DropdownValue
+		UICorner_1.CornerRadius = UDim.new(0,4)
+
+		UIStroke_1.Parent = DropdownValue
+		UIStroke_1.Color = Color3.fromRGB(255,255,255)
+		UIStroke_1.Thickness = 1
+		UIStroke_1.Transparency = 0.95
+
+		addToTheme('Function.Dropdown.Value Stroke', UIStroke_1)
+
+		TextLabelValue_1.Parent = DropdownValue
+		TextLabelValue_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+		TextLabelValue_1.BackgroundTransparency = 1
+		TextLabelValue_1.BorderColor3 = Color3.fromRGB(0,0,0)
+		TextLabelValue_1.BorderSizePixel = 0
+		TextLabelValue_1.Size = UDim2.new(0.8, 0,1, 0)
+		TextLabelValue_1.Font = Enum.Font.GothamBold
+		TextLabelValue_1.RichText = true
+		TextLabelValue_1.Text = "--"
+		TextLabelValue_1.TextColor3 = Color3.fromRGB(255,255,255)
+		TextLabelValue_1.TextSize = 10
+		TextLabelValue_1.TextTransparency = 0.3
+		TextLabelValue_1.TextXAlignment = Enum.TextXAlignment.Left
+		TextLabelValue_1.TextTruncate = Enum.TextTruncate.AtEnd
+
+		addToTheme('Text & Icon', TextLabelValue_1)
+
+		UIPadding_2.Parent = DropdownValue
+		UIPadding_2.PaddingLeft = UDim.new(0,5)
+		UIPadding_2.PaddingRight = UDim.new(0,5)
+
+		ImageLabel_1.Parent = DropdownValue
+		ImageLabel_1.AnchorPoint = Vector2.new(1, 0.5)
+		ImageLabel_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+		ImageLabel_1.BackgroundTransparency = 1
+		ImageLabel_1.BorderColor3 = Color3.fromRGB(0,0,0)
+		ImageLabel_1.BorderSizePixel = 0
+		ImageLabel_1.Position = UDim2.new(1, 0,0.5, 0)
+		ImageLabel_1.Size = UDim2.new(0, 20,0, 20)
+		ImageLabel_1.Image = "rbxassetid://14937709869"
+		ImageLabel_1.ImageTransparency = 0.3
+
+		addToTheme('Text & Icon', ImageLabel_1)
+
+		local DropdownSelect = Instance.new("Frame")
+		local UICorner_1 = Instance.new("UICorner")
+		local UIStrokeDropdown_1 = Instance.new("UIStroke")
+		local UIPadding_1 = Instance.new("UIPadding")
+		local Search_1 = Instance.new("Frame")
+		local UICorner_2 = Instance.new("UICorner")
+		local TextBox_1 = Instance.new("TextBox")
+		local Frame_1 = Instance.new("Frame")
+		local Frame_2 = Instance.new("Frame")
+		local Frame_3 = Instance.new("Frame")
+		local UICorner_3 = Instance.new("UICorner")
+		local ScrollingFrame_1 = Instance.new("ScrollingFrame")
+		local UIListLayout_1 = Instance.new("UIListLayout")
+		local UIPadding_2 = Instance.new("UIPadding")
+		local UIPadding_3 = Instance.new("UIPadding")
+		local UIPadding_4 = Instance.new("UIPadding")
+
+		DropdownSelect.Parent = ScreenGui
+		DropdownSelect.BackgroundColor3 = Color3.fromRGB(24,24,31)
+		DropdownSelect.BorderColor3 = Color3.fromRGB(0,0,0)
+		DropdownSelect.BorderSizePixel = 0
+		DropdownSelect.Size = UDim2.new(0, 150,0, 0)
+		DropdownSelect.ClipsDescendants = true
+
+		addToTheme('Function.Dropdown.Dropdown Select.Background', DropdownSelect)
+
+		DropdownSelect.Position = UDim2.new(0, DropdownValue.AbsolutePosition.X - DropdownSelect.Parent.AbsolutePosition.X + DropdownValue.Size.X.Offset - 119, 0, DropdownValue.AbsolutePosition.Y - DropdownSelect.Parent.AbsolutePosition.Y + DropdownValue.Size.Y.Offset - 25)
+
+		UICorner_1.Parent = DropdownSelect
+		UICorner_1.CornerRadius = UDim.new(0,4)
+
+		UIStrokeDropdown_1.Parent = DropdownSelect
+		UIStrokeDropdown_1.Color = Color3.fromRGB(255,255,255)
+		UIStrokeDropdown_1.Thickness = 1
+		UIStrokeDropdown_1.Transparency = 1
+
+		UIPadding_1.Parent = DropdownSelect
+		UIPadding_1.PaddingBottom = UDim.new(0,5)
+		UIPadding_1.PaddingLeft = UDim.new(0,5)
+		UIPadding_1.PaddingRight = UDim.new(0,5)
+		UIPadding_1.PaddingTop = UDim.new(0,5)
+
+		Search_1.Name = "Search"
+		Search_1.Parent = DropdownSelect
+		Search_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+		Search_1.BackgroundTransparency = 0.949999988079071
+		Search_1.BorderColor3 = Color3.fromRGB(0,0,0)
+		Search_1.BorderSizePixel = 0
+		Search_1.Size = UDim2.new(1, 0,0, 20)
+
+		addToTheme('Function.Dropdown.Dropdown Select.Search', Search_1)
+
+		UICorner_2.Parent = Search_1
+		UICorner_2.CornerRadius = UDim.new(0,4)
+
+		TextBox_1.Parent = Search_1
+		TextBox_1.Active = true
+		TextBox_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+		TextBox_1.BackgroundTransparency = 1
+		TextBox_1.BorderColor3 = Color3.fromRGB(0,0,0)
+		TextBox_1.BorderSizePixel = 0
+		TextBox_1.CursorPosition = -1
+		TextBox_1.Size = UDim2.new(1, 0,1, 0)
+		TextBox_1.Font = Enum.Font.Gotham
+		TextBox_1.PlaceholderColor3 = Color3.fromRGB(178,178,178)
+		TextBox_1.PlaceholderText = "Search"
+		TextBox_1.Text = ""
+		TextBox_1.TextColor3 = Color3.fromRGB(255,255,255)
+		TextBox_1.TextSize = 11
+
+		addToTheme('Text & Icon', Search_1)
+
+		addToTheme('Text & Icon', TextBox_1)
+
+		Frame_1.Parent = Search_1
+		Frame_1.AnchorPoint = Vector2.new(0, 1)
+		Frame_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+		Frame_1.BackgroundTransparency = 0.8999999761581421
+		Frame_1.BorderColor3 = Color3.fromRGB(0,0,0)
+		Frame_1.BorderSizePixel = 0
+		Frame_1.Position = UDim2.new(0, 0,1, 0)
+		Frame_1.Size = UDim2.new(1, 0,0, 2)
+
+		Frame_2.Parent = DropdownSelect
+		Frame_2.BackgroundColor3 = Color3.fromRGB(255,255,255)
+		Frame_2.BackgroundTransparency = 1
+		Frame_2.BorderColor3 = Color3.fromRGB(0,0,0)
+		Frame_2.BorderSizePixel = 0
+		Frame_2.Size = UDim2.new(1, 0,1, 0)
+
+		Frame_3.Parent = Frame_2
+		Frame_3.BackgroundColor3 = Color3.fromRGB(255,255,255)
+		Frame_3.BackgroundTransparency = 0.949999988079071
+		Frame_3.BorderColor3 = Color3.fromRGB(0,0,0)
+		Frame_3.BorderSizePixel = 0
+		Frame_3.Size = UDim2.new(1, 0,1, 0)
+
+		UICorner_3.Parent = Frame_3
+		UICorner_3.CornerRadius = UDim.new(0,4)
+
+		ScrollingFrame_1.Name = "ScrollingFrame"
+		ScrollingFrame_1.Parent = Frame_3
+		ScrollingFrame_1.Active = true
+		ScrollingFrame_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+		ScrollingFrame_1.BackgroundTransparency = 1
+		ScrollingFrame_1.BorderColor3 = Color3.fromRGB(0,0,0)
+		ScrollingFrame_1.BorderSizePixel = 0
+		ScrollingFrame_1.Size = UDim2.new(1, 0,1, 0)
+		ScrollingFrame_1.ClipsDescendants = true
+		ScrollingFrame_1.AutomaticCanvasSize = Enum.AutomaticSize.None
+		ScrollingFrame_1.BottomImage = "rbxasset://textures/ui/Scroll/scroll-bottom.png"
+		ScrollingFrame_1.CanvasPosition = Vector2.new(0, 0)
+		ScrollingFrame_1.ElasticBehavior = Enum.ElasticBehavior.WhenScrollable
+		ScrollingFrame_1.HorizontalScrollBarInset = Enum.ScrollBarInset.None
+		ScrollingFrame_1.MidImage = "rbxasset://textures/ui/Scroll/scroll-middle.png"
+		ScrollingFrame_1.ScrollBarImageColor3 = Color3.fromRGB(107,84,255)
+		ScrollingFrame_1.ScrollBarImageTransparency = 0
+		ScrollingFrame_1.ScrollBarThickness = 2
+		ScrollingFrame_1.ScrollingDirection = Enum.ScrollingDirection.XY
+		ScrollingFrame_1.TopImage = "rbxasset://textures/ui/Scroll/scroll-top.png"
+		ScrollingFrame_1.VerticalScrollBarInset = Enum.ScrollBarInset.None
+		ScrollingFrame_1.VerticalScrollBarPosition = Enum.VerticalScrollBarPosition.Right
+
+		UIListLayout_1.Parent = ScrollingFrame_1
+		UIListLayout_1.SortOrder = Enum.SortOrder.LayoutOrder
+		UIListLayout_1.Padding = UDim.new(0, 3)
+
+		UIPadding_2.Parent = ScrollingFrame_1
+		UIPadding_2.PaddingRight = UDim.new(0,5)
+
+		UIPadding_3.Parent = Frame_3
+		UIPadding_3.PaddingBottom = UDim.new(0,5)
+		UIPadding_3.PaddingLeft = UDim.new(0,5)
+		UIPadding_3.PaddingRight = UDim.new(0,3)
+		UIPadding_3.PaddingTop = UDim.new(0,5)
+
+		UIPadding_4.Parent = Frame_2
+		UIPadding_4.PaddingTop = UDim.new(0,25)
+
+		local Click = click(p2)
+
+		local isopen = false
+
+		local function updateDropdownSize()
+			if not isopen then return end
+
+			local visibleCount = 0
+			for i, v in pairs(ScrollingFrame_1:GetChildren()) do
+				if v:IsA("Frame") and v.Visible then
+					visibleCount = visibleCount + 1
+				end
+			end
+
+			local contentHeight = (UIListLayout_1.AbsoluteContentSize.Y + 54)
+			if contentHeight > 200 then
+				contentHeight = 200
+			end
+
+			tw({v = DropdownSelect, t = 0.15, s = Enum.EasingStyle.Exponential, d = "Out", g = {Size = UDim2.new(0, 150, 0, contentHeight)}}):Play()
+		end
+
+		TextBox_1.Changed:Connect(function()
+			local SearchT = string.lower(TextBox_1.Text)
+			for i, v in pairs(ScrollingFrame_1:GetChildren()) do
+				if v:IsA("Frame") then
+					if SearchT ~= "" and v:FindFirstChild("TextLabel") then
+						if string.find(string.lower(v.TextLabel.Text), SearchT) then
+							v.Visible = true
+						else
+							v.Visible = false
+						end
+					else
+						v.Visible = true
+					end
+				end
+			end
+			updateDropdownSize()
+		end)
+
+		local function open()
+			if isopen then
+				return
+			end
+			DropdownSelect.Visible = true
+			local targetX = DropdownValue.AbsolutePosition.X - DropdownSelect.Parent.AbsolutePosition.X + DropdownValue.Size.X.Offset - 119
+			local targetY = DropdownValue.AbsolutePosition.Y - DropdownSelect.Parent.AbsolutePosition.Y + DropdownValue.Size.Y.Offset - 25
+			local contentHeight = UIListLayout_1.AbsoluteContentSize.Y + 54
+			if contentHeight <= 200 then
+				tw({v = DropdownSelect, t = 0.15, s = Enum.EasingStyle.Linear, d = "Out", g = {Size = UDim2.new(0, 150, 0, contentHeight), Position = UDim2.new(0, targetX, 0, targetY)}}):Play()
+			else
+				tw({v = DropdownSelect, t = 0.15, s = Enum.EasingStyle.Linear, d = "Out", g = {Size = UDim2.new(0, 150, 0, 200), Position = UDim2.new(0, targetX, 0, targetY)}}):Play()
+			end
+			tw({v = UIStrokeDropdown_1, t = 0.15, s = Enum.EasingStyle.Linear, d = "Out", g = {Transparency = 0.95}}):Play()
+			isopen = true
+		end
+
+		local function close()
+			if not isopen then
+				return
+			end
+			tw({v = UIStrokeDropdown_1, t = 0.15, s = Enum.EasingStyle.Linear, d = "Out", g = {Transparency = 1}}):Play()
+			local gf = tw({v = DropdownSelect, t = 0.15, s = Enum.EasingStyle.Linear, d = "Out", g = {Size = UDim2.new(0, 150,0, 0)}})
+			gf:Play()
+			gf.Completed:Connect(function()
+				DropdownSelect.Visible = false
+				isopen = false
+			end)
+		end
+
+		U.InputBegan:Connect(function(A)
+			if A.UserInputType == Enum.UserInputType.MouseButton1 or A.UserInputType == Enum.UserInputType.Touch then
+				local B, C = DropdownSelect.AbsolutePosition, DropdownSelect.AbsoluteSize
+				if game:GetService "Players".LocalPlayer:GetMouse().X < B.X or game:GetService "Players".LocalPlayer:GetMouse().X > B.X + C.X or game:GetService "Players".LocalPlayer:GetMouse().Y < (B.Y - 20 - 1) or game:GetService "Players".LocalPlayer:GetMouse().Y > B.Y + C.Y then
+					close()
+				end
+			end
+		end)
+
+		Click.MouseButton1Click:Connect(function()
+			if not isopen then
+				open()
+			else
+				close()
+			end
+		end)
+
+		local itemslist = {}
+		local selectedValues = {}
+		local selectedItem
+
+		function itemslist:Clear(a)
+			local function shouldClear(v)
+				if a == nil then
+					return true
+				elseif type(a) == "string" then
+					return v:FindFirstChild("TextLabel") and v.TextLabel.Text == a
+				elseif type(a) == "table" then
+					for _, name in ipairs(a) do
+						if v:FindFirstChild("TextLabel") and v.TextLabel.Text == name then
+							return true
+						end
+					end
+				end
+				return false
+			end
+
+			if Multi then
+				selectedValues = {}
+				TextLabelValue_1.Text = "--"
+				pcall(Callback ,selectedValues)
+			end
+
+			for _, v in ipairs(ScrollingFrame_1:GetChildren()) do
+				if v:IsA("Frame") and shouldClear(v) then
+					if selectedItem and v:FindFirstChild("TextLabel") and v.TextLabel.Text == selectedItem then
+						selectedItem = nil
+						TextLabelValue_1.Text = "--"
+						pcall(Callback, TextLabelValue_1.Text)
+					end
+					v:Destroy()
+				end
+			end
+
+			if selectedItem == a or TextLabelValue_1.Text == a then
+				selectedItem = nil
+				TextLabelValue_1.Text = "--"
+			end
+
+			if a == nil then
+				selectedItem = nil
+				TextLabelValue_1.Text = "--"
+			end
+
+			Value = nil
+		end
+
+		function itemslist:Add(text)
+
+			local Item_1 = Instance.new("Frame")
+			local TextLabel_1 = Instance.new("TextLabel")
+
+			Item_1.Name = "Item"
+			Item_1.Parent = ScrollingFrame_1
+			Item_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			Item_1.BackgroundTransparency = 0.95
+			Item_1.BorderColor3 = Color3.fromRGB(0,0,0)
+			Item_1.BorderSizePixel = 0
+			Item_1.Size = UDim2.new(1, 0,0, 18)
+
+			TextLabel_1.Parent = Item_1
+			TextLabel_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			TextLabel_1.BackgroundTransparency = 1
+			TextLabel_1.BorderColor3 = Color3.fromRGB(0,0,0)
+			TextLabel_1.BorderSizePixel = 0
+			TextLabel_1.Size = UDim2.new(1, 0,1, 0)
+			TextLabel_1.Font = Enum.Font.GothamBold
+			TextLabel_1.Text = text
+			TextLabel_1.TextColor3 = Color3.fromRGB(255,255,255)
+			TextLabel_1.TextSize = 12
+			TextLabel_1.TextXAlignment = Enum.TextXAlignment.Left
+			TextLabel_1.TextTransparency = 0.8
+
+			addToTheme('Function.Dropdown.Dropdown Select.Item Background', Item_1)
+			addToTheme('Text & Icon', TextLabel_1)
+
+			Instance.new("UICorner", Item_1).CornerRadius = UDim.new(0, 4)
+			Instance.new("UIPadding", Item_1).PaddingLeft = UDim.new(0, 5)
+
+			local ClickItem = click(Item_1)
+			local function unselect()
+				tw({v = TextLabel_1, t = 0.15, s = Enum.EasingStyle.Linear, d = "Out", g = {TextTransparency = 0.8}}):Play()
+			end
+			local function hasselect()
+				tw({v = TextLabel_1, t = 0.15, s = Enum.EasingStyle.Linear, d = "Out", g = {TextTransparency = 0}}):Play()
+			end
+
+			ClickItem.MouseButton1Click:Connect(function()
+				if Multi then
+					if selectedValues[text] then
+						selectedValues[text] = nil
+						unselect()
+					else
+						selectedValues[text] = true
+						hasselect()
+					end
+					local selectedList = {}
+					for i, v in pairs(selectedValues) do
+						table.insert(selectedList, i)
+					end
+					if #selectedList > 0 then
+						TextLabelValue_1.Text = table.concat(selectedList, ", ")
+					else
+						TextLabelValue_1.Text = "--"
+					end
+					pcall(Callback, selectedList)
+				else
+					for i,v in pairs(ScrollingFrame_1:GetChildren()) do
+						if v:IsA("Frame") then
+							tw({v = v.TextLabel, t = 0.15, s = Enum.EasingStyle.Linear, d = "Out", g = {TextTransparency = 0.8}}):Play()
+						end
+					end
+					hasselect()
+					Value = text
+					TextLabelValue_1.Text = text
+					pcall(Callback, TextLabelValue_1.Text)
+				end
+			end)
+
+			local function isValueInTable(val, tbl)
+				if type(tbl) ~= "table" then
+					return false
+				end
+
+				for _, v in pairs(tbl) do
+					if v == val then
+						return true
+					end
+				end
+				return false
+			end
+
+			delay(0,function()
+				if Multi then
+					if isValueInTable(text, Value) then
+						hasselect()
+						selectedValues[text] = true
+						local selectedList = {}
+						for i, v in pairs(selectedValues) do
+							table.insert(selectedList, i)
+						end
+						if #selectedList > 0 then
+							TextLabelValue_1.Text = table.concat(selectedList, ", ")
+						else
+							TextLabelValue_1.Text = "--"
+						end
+						pcall(Callback,selectedList)
+					end
+				else
+					if text == Value then
+						hasselect()
+						Value = text
+						TextLabelValue_1.Text = text
+						pcall(Callback,TextLabelValue_1.Text)
+					end
+				end
+			end)
+		end
+
+		function itemslist:SetValue(value)
+			if Multi then
+				selectedValues = {}
+				selectedValues[value] = true
+				TextLabelValue_1.Text = value
+				for _, v in ipairs(ScrollingFrame_1:GetChildren()) do
+					if v:IsA("Frame") and v:FindFirstChild("TextLabel") then
+						if v.TextLabel.Text == value then
+							tw({v = v.TextLabel, t = 0.05, s = Enum.EasingStyle.Exponential, d = "Out", g = {TextTransparency = 0}}):Play()
+						else
+							tw({v = v.TextLabel, t = 0.05, s = Enum.EasingStyle.Exponential, d = "Out", g = {TextTransparency = 0.8}}):Play()
+						end
+					end
+				end
+				pcall(Callback, selectedValues)
+			else
+				Value = value
+				TextLabelValue_1.Text = value
+				for _, v in ipairs(ScrollingFrame_1:GetChildren()) do
+					if v:IsA("Frame") and v:FindFirstChild("TextLabel") then
+						if v.TextLabel.Text == value then
+							tw({v = v.TextLabel, t = 0.05, s = Enum.EasingStyle.Exponential, d = "Out", g = {TextTransparency = 0}}):Play()
+						else
+							tw({v = v.TextLabel, t = 0.05, s = Enum.EasingStyle.Exponential, d = "Out", g = {TextTransparency = 0.8}}):Play()
+						end
+					end
+				end
+				pcall(Callback, value)
+			end
+		end
+
+		for i, v in ipairs(List) do
+			itemslist:Add(v, i)
+		end
+
+		changecanvas(ScrollingFrame_1, UIListLayout_1, 5)
+
+		return itemslist
+	end
+end
+
+function Library:Window(p)
+
+	local Title = p.Title or 'null'
+	local Desc = p.Desc or ''
+	local Icon = p.Icon or 'door-open'
+	local Theme = p.Theme or 'Dark'
+	local Keybind = p.Config.Keybind or Enum.KeyCode.LeftControl
+	local Size = p.Config.Size or UDim2.new(0, 530,0, 400)
+
+	local R, HAA = false, false
+	local HasChangeTheme = p.Theme
+	local IsTheme = p.Theme
+
+	local Shadow_1 = Instance.new("ImageLabel")
+	local UIPadding_1 = Instance.new("UIPadding")
+	local Background_1 = Instance.new("CanvasGroup")
+	local UICorner_1 = Instance.new("UICorner")
+	local Page_1 = Instance.new("Frame")
+	local UIPadding_2 = Instance.new("UIPadding")
+
+	Shadow_1.Name = "Shadow"
+	Shadow_1.Parent = ScreenGui
+	Shadow_1.AnchorPoint = Vector2.new(0.5, 0.5)
+	Shadow_1.BackgroundColor3 = Color3.fromRGB(163,162,165)
+	Shadow_1.BackgroundTransparency = 1
+	Shadow_1.Position = UDim2.new(0.5, 0,0.5, 0)
+	Shadow_1.Size = Size
+	Shadow_1.Image = "rbxassetid://1316045217"
+	Shadow_1.ImageColor3 = Color3.fromRGB(24, 24, 31)
+	Shadow_1.ImageTransparency = 0.8
+	Shadow_1.ScaleType = Enum.ScaleType.Slice
+	Shadow_1.SliceCenter = Rect.new(10, 10, 118, 118)
+	Shadow_1.Visible = false
+
+	addToTheme('Shadow', Shadow_1)
+
+	UIPadding_1.Parent = Shadow_1
+	UIPadding_1.PaddingBottom = UDim.new(0,8)
+	UIPadding_1.PaddingLeft = UDim.new(0,8)
+	UIPadding_1.PaddingRight = UDim.new(0,8)
+	UIPadding_1.PaddingTop = UDim.new(0,8)
+
+	Background_1.Name = "Background"
+	Background_1.Parent = Shadow_1
+	Background_1.AnchorPoint = Vector2.new(0.5, 0.5)
+	Background_1.BackgroundColor3 = Color3.fromRGB(29, 28, 38)
+	Background_1.BorderColor3 = Color3.fromRGB(0,0,0)
+	Background_1.BorderSizePixel = 0
+	Background_1.Position = UDim2.new(0.5, 0,0.5, 0)
+	Background_1.Size = UDim2.new(1, 0,1, 0)
+	Background_1.ClipsDescendants = true
+	Background_1.GroupTransparency = 1
+
+	Shadow_1.Visible = true  
+	local org = Background_1.Size
+	Background_1.Size = org - UDim2.fromOffset(5, 5)
+	tw({
+		v = Background_1,
+		t = 0.15,
+		s = Enum.EasingStyle.Linear,
+		d = "InOut",
+		g = {
+			GroupTransparency = 0,
+			Size = org
+		}
+	}):Play()
+
+	addToTheme('Background', Background_1)
+
+	UICorner_1.Parent = Background_1
+	UICorner_1.CornerRadius = UDim.new(0,17)
+
+	Page_1.Name = "Page"
+	Page_1.Parent = Background_1
+	Page_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+	Page_1.BackgroundTransparency = 1
+	Page_1.BorderColor3 = Color3.fromRGB(0,0,0)
+	Page_1.BorderSizePixel = 0
+	Page_1.Size = UDim2.new(1, 0,1, 0)
+
+	UIPadding_2.Parent = Page_1
+	UIPadding_2.PaddingBottom = UDim.new(0,5)
+	UIPadding_2.PaddingLeft = UDim.new(0,120)
+	UIPadding_2.PaddingRight = UDim.new(0,5)
+	UIPadding_2.PaddingTop = UDim.new(0,45)
+
+	local Topbar_1 = Instance.new("Frame")
+	local Frame_5 = Instance.new("Frame")
+	local Ct_1 = Instance.new("Frame")
+	local UIPadding_11 = Instance.new("UIPadding")
+	local UIListLayout_6 = Instance.new("UIListLayout")
+	local Close_1 = Instance.new("ImageButton")
+	local DropdownValue_1 = Instance.new("Frame")
+	local Td_1 = Instance.new("Frame")
+	local UIPadding_13 = Instance.new("UIPadding")
+	local UIListLayout_7 = Instance.new("UIListLayout")
+	local Icon_1 = Instance.new("ImageLabel")
+	local Title_1 = Instance.new("Frame")
+	local Desc_1 = Instance.new("TextLabel")
+	local UIListLayout_8 = Instance.new("UIListLayout")
+	local Title_2 = Instance.new("TextLabel")
+	local ChSize_1 = Instance.new("ImageButton")
+
+	Topbar_1.Name = "Topbar"
+	Topbar_1.Parent = Background_1
+	Topbar_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+	Topbar_1.BackgroundTransparency = 1
+	Topbar_1.BorderColor3 = Color3.fromRGB(0,0,0)
+	Topbar_1.BorderSizePixel = 0
+	Topbar_1.Size = UDim2.new(1, 0,0, 42)
+
+	Frame_5.Parent = Topbar_1
+	Frame_5.AnchorPoint = Vector2.new(0, 1)
+	Frame_5.BackgroundColor3 = Color3.fromRGB(24,24,31)
+	Frame_5.BorderColor3 = Color3.fromRGB(0,0,0)
+	Frame_5.BorderSizePixel = 0
+	Frame_5.Position = UDim2.new(0, 0,1, 0)
+	Frame_5.Size = UDim2.new(1, 0,0, 2)
+
+	addToTheme('Page', Frame_5)
+
+	Ct_1.Name = "Ct"
+	Ct_1.Parent = Topbar_1
+	Ct_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+	Ct_1.BackgroundTransparency = 1
+	Ct_1.BorderColor3 = Color3.fromRGB(0,0,0)
+	Ct_1.BorderSizePixel = 0
+	Ct_1.Size = UDim2.new(1, 0,1, 0)
+
+	UIPadding_11.Parent = Ct_1
+	UIPadding_11.PaddingBottom = UDim.new(0,5)
+	UIPadding_11.PaddingLeft = UDim.new(0,10)
+	UIPadding_11.PaddingRight = UDim.new(0,10)
+	UIPadding_11.PaddingTop = UDim.new(0,5)
+
+	UIListLayout_6.Parent = Ct_1
+	UIListLayout_6.Padding = UDim.new(0,10)
+	UIListLayout_6.FillDirection = Enum.FillDirection.Horizontal
+	UIListLayout_6.HorizontalAlignment = Enum.HorizontalAlignment.Right
+	UIListLayout_6.SortOrder = Enum.SortOrder.LayoutOrder
+	UIListLayout_6.VerticalAlignment = Enum.VerticalAlignment.Center
+
+	Close_1.Name = "Close"
+	Close_1.Parent = Ct_1
+	Close_1.Active = true
+	Close_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+	Close_1.BackgroundTransparency = 1
+	Close_1.BorderColor3 = Color3.fromRGB(0,0,0)
+	Close_1.BorderSizePixel = 0
+	Close_1.LayoutOrder = 3
+	Close_1.Size = UDim2.new(0, 16,0, 16)
+	Close_1.Image = "rbxassetid://15082305656"
+
+	ChSize_1.Name = "Size"
+	ChSize_1.Parent = Ct_1
+	ChSize_1.Active = true
+	ChSize_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+	ChSize_1.BackgroundTransparency = 1
+	ChSize_1.BorderColor3 = Color3.fromRGB(0,0,0)
+	ChSize_1.BorderSizePixel = 0
+	ChSize_1.LayoutOrder = 1
+	ChSize_1.Size = UDim2.new(0, 16,0, 16)
+	ChSize_1.Image = "rbxassetid://15082210525"
+	ChSize_1.ImageTransparency = 0.5
+
+	DropdownValue_1.Name = "DropdownValue"
+	DropdownValue_1.Parent = Ct_1
+	DropdownValue_1.AnchorPoint = Vector2.new(1, 0.5)
+	DropdownValue_1.BackgroundColor3 = Color3.fromRGB(24,24,31)
+	DropdownValue_1.BorderColor3 = Color3.fromRGB(0,0,0)
+	DropdownValue_1.BorderSizePixel = 0
+	DropdownValue_1.Position = UDim2.new(1, 0,0.5, 0)
+	DropdownValue_1.Size = UDim2.new(0, 120,0, 20)
+	DropdownValue_1.Transparency = 1
+
+	Td_1.Name = "Td"
+	Td_1.Parent = Topbar_1
+	Td_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+	Td_1.BackgroundTransparency = 1
+	Td_1.BorderColor3 = Color3.fromRGB(0,0,0)
+	Td_1.BorderSizePixel = 0
+	Td_1.Size = UDim2.new(1, 0,1, 0)
+
+	UIPadding_13.Parent = Td_1
+	UIPadding_13.PaddingBottom = UDim.new(0,5)
+	UIPadding_13.PaddingLeft = UDim.new(0,10)
+	UIPadding_13.PaddingRight = UDim.new(0,10)
+	UIPadding_13.PaddingTop = UDim.new(0,5)
+
+	UIListLayout_7.Parent = Td_1
+	UIListLayout_7.Padding = UDim.new(0,8)
+	UIListLayout_7.FillDirection = Enum.FillDirection.Horizontal
+	UIListLayout_7.SortOrder = Enum.SortOrder.LayoutOrder
+	UIListLayout_7.VerticalAlignment = Enum.VerticalAlignment.Center
+
+	Icon_1.Name = "Icon"
+	Icon_1.Parent = Td_1
+	Icon_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+	Icon_1.BackgroundTransparency = 1
+	Icon_1.BorderColor3 = Color3.fromRGB(0,0,0)
+	Icon_1.BorderSizePixel = 0
+	Icon_1.Size = UDim2.new(0, 30,0, 30)
+	Icon_1.Image = gl(Icon).Image
+	Icon_1.ImageRectSize = gl(Icon).ImageRectSize
+	Icon_1.ImageRectOffset = gl(Icon).ImageRectPosition
+
+	addToTheme('Text & Icon', Icon_1)
+
+	Title_1.Name = "Title"
+	Title_1.Parent = Td_1
+	Title_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+	Title_1.BackgroundTransparency = 4
+	Title_1.BorderColor3 = Color3.fromRGB(0,0,0)
+	Title_1.BorderSizePixel = 0
+	Title_1.LayoutOrder = 1
+	Title_1.Size = UDim2.new(0, 100,1, 0)
+
+	Desc_1.Name = "Desc"
+	Desc_1.Parent = Title_1
+	Desc_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+	Desc_1.BackgroundTransparency = 1
+	Desc_1.BorderColor3 = Color3.fromRGB(0,0,0)
+	Desc_1.BorderSizePixel = 0
+	Desc_1.LayoutOrder = 1
+	Desc_1.Size = UDim2.new(1, 0,0, 13)
+	Desc_1.Font = Enum.Font.GothamBold
+	Desc_1.Text = Desc
+	Desc_1.TextColor3 = Color3.fromRGB(255,255,255)
+	Desc_1.TextSize = 10
+	Desc_1.TextTransparency = 0.5
+	Desc_1.TextXAlignment = Enum.TextXAlignment.Left
+	Desc_1.Visible = false
+
+	addToTheme('Text & Icon', Desc_1)
+
+	if Desc and Desc ~= '' then
+		Desc_1.Visible = true
+	end
+
+	UIListLayout_8.Parent = Title_1
+	UIListLayout_8.SortOrder = Enum.SortOrder.LayoutOrder
+	UIListLayout_8.VerticalAlignment = Enum.VerticalAlignment.Center
+
+	Title_2.Name = "Title"
+	Title_2.Parent = Title_1
+	Title_2.BackgroundColor3 = Color3.fromRGB(255,255,255)
+	Title_2.BackgroundTransparency = 1
+	Title_2.BorderColor3 = Color3.fromRGB(0,0,0)
+	Title_2.BorderSizePixel = 0
+	Title_2.Size = UDim2.new(1, 0,0, 13)
+	Title_2.Font = Enum.Font.GothamBold
+	Title_2.Text = Title
+	Title_2.TextColor3 = Color3.fromRGB(255,255,255)
+	Title_2.TextSize = 12
+	Title_2.TextXAlignment = Enum.TextXAlignment.Left
+
+	addToTheme('Text & Icon', Title_2)
+
+	local TabP_1 = Instance.new("Frame")
+	local Frame_6 = Instance.new("Frame")
+	local ScrollingFrame_2 = Instance.new("ScrollingFrame")
+	local TabList_1 = Instance.new("Frame")
+	local Select_1 = Instance.new("Frame")
+	local UICorner_10 = Instance.new("UICorner")
+	local UIStroke_3 = Instance.new("UIStroke")
+	local UIPadding_16 = Instance.new("UIPadding")
+	local UIPadding_17 = Instance.new("UIPadding")
+	local UIListLayout_10 = Instance.new("UIListLayout")
+
+	TabP_1.Name = "TabP"
+	TabP_1.Parent = Background_1
+	TabP_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+	TabP_1.BackgroundTransparency = 1
+	TabP_1.BorderColor3 = Color3.fromRGB(0,0,0)
+	TabP_1.BorderSizePixel = 0
+	TabP_1.Size = UDim2.new(1, 0,1, 0)
+
+	Frame_6.Parent = TabP_1
+	Frame_6.BackgroundColor3 = Color3.fromRGB(255,255,255)
+	Frame_6.BackgroundTransparency = 1
+	Frame_6.BorderColor3 = Color3.fromRGB(0,0,0)
+	Frame_6.BorderSizePixel = 0
+	Frame_6.Size = UDim2.new(0, 110,1, 0)
+
+	ScrollingFrame_2.Name = "ScrollingFrame"
+	ScrollingFrame_2.Parent = Frame_6
+	ScrollingFrame_2.Active = true
+	ScrollingFrame_2.BackgroundColor3 = Color3.fromRGB(255,255,255)
+	ScrollingFrame_2.BackgroundTransparency = 1
+	ScrollingFrame_2.BorderColor3 = Color3.fromRGB(0,0,0)
+	ScrollingFrame_2.BorderSizePixel = 0
+	ScrollingFrame_2.Size = UDim2.new(1, 0,1, 0)
+	ScrollingFrame_2.ClipsDescendants = true
+	ScrollingFrame_2.AutomaticCanvasSize = Enum.AutomaticSize.None
+	ScrollingFrame_2.BottomImage = "rbxasset://textures/ui/Scroll/scroll-bottom.png"
+	ScrollingFrame_2.CanvasPosition = Vector2.new(0, 0)
+	ScrollingFrame_2.ElasticBehavior = Enum.ElasticBehavior.WhenScrollable
+	ScrollingFrame_2.HorizontalScrollBarInset = Enum.ScrollBarInset.None
+	ScrollingFrame_2.MidImage = "rbxasset://textures/ui/Scroll/scroll-middle.png"
+	ScrollingFrame_2.ScrollBarImageColor3 = Color3.fromRGB(91,68,209)
+	ScrollingFrame_2.ScrollBarImageTransparency = 0
+	ScrollingFrame_2.ScrollBarThickness = 2
+	ScrollingFrame_2.ScrollingDirection = Enum.ScrollingDirection.XY
+	ScrollingFrame_2.TopImage = "rbxasset://textures/ui/Scroll/scroll-top.png"
+	ScrollingFrame_2.VerticalScrollBarInset = Enum.ScrollBarInset.None
+	ScrollingFrame_2.VerticalScrollBarPosition = Enum.VerticalScrollBarPosition.Right
+
+	addToTheme('Main', ScrollingFrame_2)
+
+	TabList_1.Name = "TabList"
+	TabList_1.Parent = ScrollingFrame_2
+	TabList_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+	TabList_1.BackgroundTransparency = 1
+	TabList_1.BorderColor3 = Color3.fromRGB(0,0,0)
+	TabList_1.BorderSizePixel = 0
+	TabList_1.Size = UDim2.new(1, 0,1, 0)
+
+	UIListLayout_10.Parent = TabList_1
+	UIListLayout_10.SortOrder = Enum.SortOrder.LayoutOrder
+	UIListLayout_10.HorizontalAlignment = Enum.HorizontalAlignment.Center
+
+	Select_1.Name = "Select"
+	Select_1.Parent = ScrollingFrame_2
+	Select_1.BackgroundColor3 = Color3.fromRGB(91,68,209)
+	Select_1.BorderColor3 = Color3.fromRGB(0,0,0)
+	Select_1.BorderSizePixel = 0
+	Select_1.Position = UDim2.new(0, 0,0, 5)
+	Select_1.Size = UDim2.new(0, 3,0, 18)
+
+	addToTheme('Main', Select_1)
+
+	UICorner_10.Parent = Select_1
+	UICorner_10.CornerRadius = UDim.new(1,0)
+
+	UIStroke_3.Parent = Select_1
+	UIStroke_3.Color = Color3.fromRGB(24,24,31)
+	UIStroke_3.Thickness = 1
+	UIStroke_3.Transparency = 0.9
+
+	UIPadding_16.Parent = ScrollingFrame_2
+	UIPadding_16.PaddingBottom = UDim.new(0,1)
+	UIPadding_16.PaddingLeft = UDim.new(0,1)
+	UIPadding_16.PaddingRight = UDim.new(0,1)
+	UIPadding_16.PaddingTop = UDim.new(0,1)
+
+	UIPadding_17.Parent = TabP_1
+	UIPadding_17.PaddingBottom = UDim.new(0,5)
+	UIPadding_17.PaddingLeft = UDim.new(0,3)
+	UIPadding_17.PaddingTop = UDim.new(0,45)
+
+	changecanvas(ScrollingFrame_2, UIListLayout_10, 5)
+
+	local Tabs = {
+		Value = false,
+		List = {},
+		DefaultIndex = 1
+	}
+
+	function Tabs:SelectTab(p)
+		Tabs.DefaultIndex = p or 1
+	end
+
+	function Tabs:Line()
+		local Frame = Instance.new("Frame")
+		local Line = Instance.new("Frame")
+
+		Frame.Parent = TabList_1
+		Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Frame.BackgroundTransparency = 1.000
+		Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		Frame.BorderSizePixel = 0
+		Frame.Size = UDim2.new(1, 0, 0, 5)
+		Frame.Name = 'Line'
+
+		Line.Name = "Line"
+		Line.Parent = Frame
+		Line.AnchorPoint = Vector2.new(0.5, 0.5)
+		Line.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Line.BackgroundTransparency = 0.900
+		Line.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		Line.BorderSizePixel = 0
+		Line.Position = UDim2.new(0.5, 0, 0.5, 0)
+		Line.Size = UDim2.new(0.85, 0, 0, 1)
+	end
+
+	function Tabs:Tab(p)
+		local Title = p.Title or 'null'
+		local Icon = p.Icon or 'house'
+		local Tab_1 = Instance.new("Frame")
+		local Title_3 = Instance.new("TextLabel")
+		local UIListLayout_9 = Instance.new("UIListLayout")
+		local ImageLabel_2 = Instance.new("ImageLabel")
+		local UIPadding_14 = Instance.new("UIPadding")
+		local UIStroke_2 = Instance.new("UIStroke")
+		local Func = Instance.new("Frame")
+
+		Tab_1.Name = "Tab"
+		Tab_1.Parent = TabList_1
+		Tab_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+		Tab_1.BackgroundTransparency = 1
+		Tab_1.BorderColor3 = Color3.fromRGB(0,0,0)
+		Tab_1.BorderSizePixel = 0
+		Tab_1.Size = UDim2.new(1, 0,0, 30)
+
+		Func.Name = "Func"
+		Func.Parent = Tab_1
+		Func.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Func.BackgroundTransparency = 1.000
+		Func.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		Func.BorderSizePixel = 0
+		Func.Size = UDim2.new(1, 0, 1, 0)
+
+		Title_3.Name = "Title"
+		Title_3.Parent = Func
+		Title_3.BackgroundColor3 = Color3.fromRGB(255,255,255)
+		Title_3.BackgroundTransparency = 1
+		Title_3.BorderColor3 = Color3.fromRGB(0,0,0)
+		Title_3.BorderSizePixel = 0
+		Title_3.LayoutOrder = 1
+		Title_3.Size = UDim2.new(1, 0,1, 0)
+		Title_3.Font = Enum.Font.GothamBold
+		Title_3.Text = tostring(Title)
+		Title_3.TextColor3 = Color3.fromRGB(255,255,255)
+		Title_3.TextSize = 11
+		Title_3.TextTransparency = 0.7
+		Title_3.TextWrapped = true
+		Title_3.TextXAlignment = Enum.TextXAlignment.Left
+
+		addToTheme('Text & Icon', Title_3)
+
+		UIListLayout_9.Parent = Func
+		UIListLayout_9.Padding = UDim.new(0,8)
+		UIListLayout_9.FillDirection = Enum.FillDirection.Horizontal
+		UIListLayout_9.SortOrder = Enum.SortOrder.LayoutOrder
+		UIListLayout_9.VerticalAlignment = Enum.VerticalAlignment.Center
+
+		ImageLabel_2.Parent = Func
+		ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255,255,255)
+		ImageLabel_2.BackgroundTransparency = 1
+		ImageLabel_2.BorderColor3 = Color3.fromRGB(0,0,0)
+		ImageLabel_2.BorderSizePixel = 0
+		ImageLabel_2.Size = UDim2.new(0, 18,0, 18)
+		ImageLabel_2.Image = gl(Icon).Image
+		ImageLabel_2.ImageTransparency = 0.7
+		ImageLabel_2.ImageRectSize = gl(Icon).ImageRectSize
+		ImageLabel_2.ImageRectOffset = gl(Icon).ImageRectPosition
+
+		addToTheme('Text & Icon', ImageLabel_2)
+
+		UIPadding_14.Parent = Func
+		UIPadding_14.PaddingLeft = UDim.new(0,8)
+
+		UIStroke_2.Parent = Title_3
+		UIStroke_2.Color = Color3.fromRGB(24,24,31)
+		UIStroke_2.Thickness = 1
+		UIStroke_2.Transparency = 0.95
+
+		local InPage_1 = Instance.new("Frame")
+		local UICorner_2 = Instance.new("UICorner")
+		local ScrollingFrame_1 = Instance.new("ScrollingFrame")
+		local UIListLayout_1 = Instance.new("UIListLayout")
+		local UIPadding_10 = Instance.new("UIPadding")
+
+		InPage_1.Name = "InPage"
+		InPage_1.Parent = Page_1
+		InPage_1.AnchorPoint = Vector2.new(0.5 ,0.5)
+		InPage_1.BackgroundColor3 = Color3.fromRGB(24,24,31)
+		InPage_1.BorderColor3 = Color3.fromRGB(0,0,0)
+		InPage_1.BorderSizePixel = 0
+		InPage_1.Size = UDim2.new(1, 0,1, 0)
+		InPage_1.Position = UDim2.new(0.5, 0, 0.5, 0)
+		InPage_1.Visible = false
+
+		addToTheme('Page', InPage_1)
+
+		UICorner_2.Parent = InPage_1
+		UICorner_2.CornerRadius = UDim.new(0,17)
+
+		ScrollingFrame_1.Name = "ScrollingFrame"
+		ScrollingFrame_1.Parent = InPage_1
+		ScrollingFrame_1.Active = true
+		ScrollingFrame_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+		ScrollingFrame_1.BackgroundTransparency = 1
+		ScrollingFrame_1.BorderColor3 = Color3.fromRGB(0,0,0)
+		ScrollingFrame_1.BorderSizePixel = 0
+		ScrollingFrame_1.Size = UDim2.new(1, 0,1, 0)
+		ScrollingFrame_1.ClipsDescendants = true
+		ScrollingFrame_1.AutomaticCanvasSize = Enum.AutomaticSize.None
+		ScrollingFrame_1.BottomImage = "rbxasset://textures/ui/Scroll/scroll-bottom.png"
+		ScrollingFrame_1.CanvasPosition = Vector2.new(0, 0)
+		ScrollingFrame_1.ElasticBehavior = Enum.ElasticBehavior.WhenScrollable
+		ScrollingFrame_1.HorizontalScrollBarInset = Enum.ScrollBarInset.None
+		ScrollingFrame_1.MidImage = "rbxasset://textures/ui/Scroll/scroll-middle.png"
+		ScrollingFrame_1.ScrollBarImageTransparency = 0
+		ScrollingFrame_1.ScrollBarThickness = 0
+		ScrollingFrame_1.ScrollingDirection = Enum.ScrollingDirection.XY
+		ScrollingFrame_1.TopImage = "rbxasset://textures/ui/Scroll/scroll-top.png"
+		ScrollingFrame_1.VerticalScrollBarInset = Enum.ScrollBarInset.None
+		ScrollingFrame_1.VerticalScrollBarPosition = Enum.VerticalScrollBarPosition.Right
+
+		UIListLayout_1.Parent = ScrollingFrame_1
+		UIListLayout_1.Padding = UDim.new(0,5)
+		UIListLayout_1.SortOrder = Enum.SortOrder.LayoutOrder
+
+		UIPadding_10.Parent = InPage_1
+		UIPadding_10.PaddingBottom = UDim.new(0,10)
+		UIPadding_10.PaddingLeft = UDim.new(0,10)
+		UIPadding_10.PaddingRight = UDim.new(0,10)
+		UIPadding_10.PaddingTop = UDim.new(0,10)
+
+		local Click = click(Tab_1)
+
+		table.insert(self.List, {
+			Page = InPage_1,
+			Button = Tab_1
+		})
+		local MyIndex = #self.List
+
+		local function twSelect()
+			local scrollingFrame = Select_1.Parent
+			local tabScrollingFrame = Tab_1.Parent
+
+			local tabCenterY = Tab_1.AbsolutePosition.Y + (Tab_1.AbsoluteSize.Y / 2)
+			local selectOffset = Select_1.AbsoluteSize.Y / 2
+			local relativeY = tabCenterY - tabScrollingFrame.AbsolutePosition.Y
+			local offset = scrollingFrame.AbsolutePosition.Y - Select_1.Parent.AbsolutePosition.Y
+
+			local targetY = relativeY + offset - selectOffset
+
+			local pos = UDim2.new(0, Select_1.Position.X.Offset, 0, targetY)
+
+			tw({
+				v = Select_1,
+				t = 0.5,
+				s = Enum.EasingStyle.Exponential,
+				d = "Out",
+				g = {
+					Position = pos
+				}
+			}):Play()
+		end
+
+		local function chg()
+			for i, v in pairs(self.List) do
+				v.Page.Visible = false
+				for i, v in pairs(ScrollingFrame_1:GetChildren()) do
+					if v:IsA('Frame') and v:FindFirstChild('Background') then
+						v.Background.Position = UDim2.new(0, 0, 0,0)
+						v.Background.AnchorPoint = Vector2.new(1 ,0)
+					end
+				end
+				task.spawn(function()
+					for i, v in next, ScrollingFrame_1:GetChildren() do
+						if v:IsA('Frame') and v:FindFirstChild('Background') then
+							tw({
+								v = v.Background,
+								t = 0.3,
+								s = Enum.EasingStyle.Exponential,
+								d = "InOut",
+								g = {AnchorPoint = Vector2.new(0 ,0)}
+							}):Play()
+							task.wait(.05)
+						end
+					end
+				end)
+				InPage_1.Visible = true
+			end
+			for i, v in pairs(TabList_1:GetChildren()) do
+				if v:IsA('Frame') and v.Name ~= 'Line' then
+					tw({
+						v = v.Func.Title,
+						t = 0.15,
+						s = Enum.EasingStyle.Linear,
+						d = "InOut",
+						g = {TextTransparency = 0.7}
+					}):Play()
+					tw({
+						v = v.Func.ImageLabel,
+						t = 0.15,
+						s = Enum.EasingStyle.Linear,
+						d = "InOut",
+						g = {ImageTransparency = 0.7}
+					}):Play()
+				end
+			end
+			tw({
+				v = Title_3,
+				t = 0.15,
+				s = Enum.EasingStyle.Linear,
+				d = "InOut",
+				g = {TextTransparency = 0}
+			}):Play()
+			tw({
+				v = ImageLabel_2,
+				t = 0.15,
+				s = Enum.EasingStyle.Linear,
+				d = "InOut",
+				g = {ImageTransparency = 0}
+			}):Play()
+			Page_1.Visible = true
+			twSelect()
+		end
+
+		Click.MouseButton1Click:Connect(chg)
+
+		changecanvas(ScrollingFrame_1, UIListLayout_1, 5)
+
+		delay(.1, function()
+			if not self.Value then
+				local total = #self.List
+				local index = self.DefaultIndex
+
+				if type(index) ~= "number" or index < 1 or index > total then
+					index = 1
+				end
+
+				if MyIndex == index then
+					chg()
+					self.Value = true
+				end
+			end
+		end)
+
+		local Func = {}
+
+		function Func:Section(p)
+			local Title = p.Title or 'null'
+			local RealBackground = Instance.new("Frame")
+			local Section = Instance.new("Frame")
+			local Section_1 = Instance.new("TextLabel")
+			local UIPadding_1 = Instance.new("UIPadding")
+
+			RealBackground.Name = "Real Background"
+			RealBackground.Parent = ScrollingFrame_1
+			RealBackground.BackgroundTransparency = 1
+			RealBackground.BorderColor3 = Color3.fromRGB(0,0,0)
+			RealBackground.BorderSizePixel = 0
+			RealBackground.Size = UDim2.new(1, 0,0, 20)
+			RealBackground.ClipsDescendants = true
+
+			Section.Name = "Background"
+			Section.Parent = RealBackground
+			Section.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			Section.BackgroundTransparency = 1
+			Section.BorderColor3 = Color3.fromRGB(0,0,0)
+			Section.BorderSizePixel = 0
+			Section.Size = UDim2.new(1, 0,0, 20)
+
+			Section_1.Name = "Section"
+			Section_1.Parent = Section
+			Section_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			Section_1.BackgroundTransparency = 1
+			Section_1.BorderColor3 = Color3.fromRGB(0,0,0)
+			Section_1.BorderSizePixel = 0
+			Section_1.Size = UDim2.new(1, 0,0, 20)
+			Section_1.Font = Enum.Font.GothamBold
+			Section_1.Text = Title
+			Section_1.TextColor3 = Color3.fromRGB(255,255,255)
+			Section_1.TextSize = 12
+			Section_1.TextXAlignment = Enum.TextXAlignment.Left
+
+			addToTheme('Text & Icon', Section_1)
+
+			UIPadding_1.Parent = Section
+			UIPadding_1.PaddingLeft = UDim.new(0,5)
+			UIPadding_1.PaddingRight = UDim.new(0,5)
+
+			local New = {}
+
+			function New:SetTitle(t)
+				Section_1.Text = t
+			end
+
+			return New
+		end
+
+		function Func:Toggle(p)
+			local Value = p.Value or false
+			local Image = p.Image or ''
+			local Callback = p.Callback or function() end
+			local Title = p.Title or 'null'
+			local Desc = p.Desc or ''
+
+			local Toggle, Config = background(ScrollingFrame_1, Title, Desc, Image, 'Toggle')
+
+			local F_1 = Instance.new("Frame")
+			local UIListLayout_1 = Instance.new("UIListLayout")
+			local UIPadding_1 = Instance.new("UIPadding")
+			local Frame_1 = Instance.new("Frame")
+			local UICorner_2 = Instance.new("UICorner")
+			local Frame_2 = Instance.new("Frame")
+			local UICorner_3 = Instance.new("UICorner")
+			local UIPadding_2 = Instance.new("UIPadding")
+
+			F_1.Name = "F"
+			F_1.Parent = Toggle
+			F_1.AnchorPoint = Vector2.new(1, 0.5)
+			F_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			F_1.BackgroundTransparency = 1
+			F_1.BorderColor3 = Color3.fromRGB(0,0,0)
+			F_1.BorderSizePixel = 0
+			F_1.Position = UDim2.new(1, 0,0.5, 0)
+			F_1.Size = UDim2.new(0, 100,0.800000012, 0)
+
+			UIListLayout_1.Parent = F_1
+			UIListLayout_1.HorizontalAlignment = Enum.HorizontalAlignment.Right
+			UIListLayout_1.SortOrder = Enum.SortOrder.LayoutOrder
+			UIListLayout_1.VerticalAlignment = Enum.VerticalAlignment.Center
+
+			UIPadding_1.Parent = F_1
+			UIPadding_1.PaddingRight = UDim.new(0,13)
+
+			Frame_1.Parent = F_1
+			Frame_1.BackgroundColor3 = Color3.fromRGB(36, 35, 48)
+			Frame_1.BorderColor3 = Color3.fromRGB(0,0,0)
+			Frame_1.BorderSizePixel = 0
+			Frame_1.Size = UDim2.new(0, 34,0, 17)
+
+			UICorner_2.Parent = Frame_1
+			UICorner_2.CornerRadius = UDim.new(1,0)
+
+			Frame_2.Parent = Frame_1
+			Frame_2.AnchorPoint = Vector2.new(0, 0.5)
+			Frame_2.BackgroundColor3 = Color3.fromRGB(44, 42, 62)
+			Frame_2.BorderColor3 = Color3.fromRGB(0,0,0)
+			Frame_2.BorderSizePixel = 0
+			Frame_2.Position = UDim2.new(0, 0,0.5, 0)
+			Frame_2.Size = UDim2.new(0, 13,0, 13)
+
+			if Value then
+				Frame_1.BackgroundColor3 = themes[IsTheme].Function.Toggle.True['Toggle Background']
+				Frame_2.BackgroundColor3 = themes[IsTheme].Function.Toggle.True['Toggle Value']
+			else
+				Frame_1.BackgroundColor3 = themes[IsTheme].Function.Toggle.False['Toggle Background']
+				Frame_2.BackgroundColor3 = themes[IsTheme].Function.Toggle.False['Toggle Value']
+			end
+
+			UICorner_3.Parent = Frame_2
+			UICorner_3.CornerRadius = UDim.new(1,0)
+
+			UIPadding_2.Parent = Frame_1
+			UIPadding_2.PaddingLeft = UDim.new(0,2)
+			UIPadding_2.PaddingRight = UDim.new(0,2)
+
+			local Click = click(Toggle)
+
+			Value = not Value
+
+			local function change()
+				Value = not Value
+				if Value then
+					Config:SetTextTransparencyTitle(0)
+					tw({v = Frame_1, t = 0.15, s = Enum.EasingStyle.Linear, d = "Out", g = {BackgroundColor3 = themes[IsTheme].Function.Toggle.True['Toggle Background']}}):Play()
+					tw({v = Frame_2, t = 0.15, s = Enum.EasingStyle.Linear, d = "Out",
+						g = {
+							BackgroundColor3 = themes[IsTheme].Function.Toggle.True['Toggle Value'],
+							AnchorPoint = Vector2.new(1, 0.5),
+							Position = UDim2.new(1, 0,0.5, 0)
+						}}):Play()
+				else
+					Config:SetTextTransparencyTitle(0.7)
+					tw({v = Frame_1, t = 0.15, s = Enum.EasingStyle.Linear, d = "Out", g = {BackgroundColor3 = themes[IsTheme].Function.Toggle.False['Toggle Background']}}):Play()
+					tw({v = Frame_2, t = 0.15, s = Enum.EasingStyle.Linear, d = "Out",
+						g = {
+							BackgroundColor3 = themes[IsTheme].Function.Toggle.False['Toggle Value'],
+							AnchorPoint = Vector2.new(0, 0.5),
+							Position = UDim2.new(0, 0,0.5, 0)
+						}}):Play()
+				end
+				pcall(Callback, Value)
+			end
+
+			Toggle:GetPropertyChangedSignal("BackgroundColor3"):Connect(function()
+				if Value then
+					Frame_1.BackgroundColor3 = themes[IsTheme].Function.Toggle.True['Toggle Background']
+					Frame_2.BackgroundColor3 = themes[IsTheme].Function.Toggle.True['Toggle Value']
+				else
+					Frame_1.BackgroundColor3 = themes[IsTheme].Function.Toggle.False['Toggle Background']
+					Frame_2.BackgroundColor3 = themes[IsTheme].Function.Toggle.False['Toggle Value']
+				end
+			end)
+
+			Click.MouseButton1Click:Connect(change)
+
+			delay(0.1, change)
+
+			local New = {}
+
+			function New:SetTitle(t)
+				Config:SetTitle(t)
+			end
+
+			function New:SetDesc(t)
+				Config:SetDesc(t)
+			end
+
+			function New:SetVisible(t)
+				Toggle.Visible = t
+			end
+
+			function New:SetValue(t)
+				Value = not t
+				change()
+			end
+
+			return New
+		end
+
+		function Func:Label(p)
+			local Title = p.Title or 'null'
+			local Desc = p.Desc or ''
+			local Image = p.Image or ''
+
+			local Label, Config = background(ScrollingFrame_1, Title, Desc, Image, 'Label')
+
+			Config:SetTextTransparencyTitle(0)
+			Config:SetSizeT(0)
+
+			local New = {}
+
+			function New:SetTitle(t)
+				Config:SetTitle(t)
+			end
+
+			function New:SetDesc(t)
+				Config:SetDesc(t)
+			end
+
+			function New:SetVisible(t)
+				Label.Visible = t
+			end
+
+			return New
+		end
+
+		function Func:Button(p)
+			local Title = p.Title or 'null'
+			local Desc = p.Desc or ''
+			local Image = p.Image or ''
+			local Callback = p.Callback or function() end
+
+			local Button, Config = background(ScrollingFrame_1, Title, Desc, Image, 'Button')
+
+			Config:SetTextTransparencyTitle(0)
+			Config:SetSizeT(50)
+
+			Button.ClipsDescendants = true
+
+			local F = Instance.new("Frame")
+			local UIListLayout_1 = Instance.new("UIListLayout")
+			local UIPadding_1 = Instance.new("UIPadding")
+			local Image_1 = Instance.new("ImageLabel")
+
+			F.Name = "F"
+			F.Parent = Button
+			F.AnchorPoint = Vector2.new(1, 0.5)
+			F.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			F.BackgroundTransparency = 1
+			F.BorderColor3 = Color3.fromRGB(0,0,0)
+			F.BorderSizePixel = 0
+			F.Position = UDim2.new(1, 0,0.5, 0)
+			F.Size = UDim2.new(0, 50,0.800000012, 0)
+
+			UIListLayout_1.Parent = F
+			UIListLayout_1.Padding = UDim.new(0,8)
+			UIListLayout_1.FillDirection = Enum.FillDirection.Horizontal
+			UIListLayout_1.HorizontalAlignment = Enum.HorizontalAlignment.Right
+			UIListLayout_1.SortOrder = Enum.SortOrder.LayoutOrder
+			UIListLayout_1.VerticalAlignment = Enum.VerticalAlignment.Center
+
+			UIPadding_1.Parent = F
+			UIPadding_1.PaddingRight = UDim.new(0,13)
+
+			Image_1.Name = "Image"
+			Image_1.Parent = F
+			Image_1.AnchorPoint = Vector2.new(1, 0.5)
+			Image_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			Image_1.BackgroundTransparency = 1
+			Image_1.BorderColor3 = Color3.fromRGB(0,0,0)
+			Image_1.BorderSizePixel = 0
+			Image_1.Position = UDim2.new(1, 0,0.5, 0)
+			Image_1.Size = UDim2.new(0, 20,0, 20)
+			Image_1.Image = "rbxassetid://14923748517"
+			Image_1.ImageTransparency = 0.3
+
+			local Click = click(Button)
+			Click.MouseButton1Click:Connect(function()
+				Button.AnchorPoint = Vector2.new(0.5, 0.5)
+				Button.Position = UDim2.new(0.5, 0, 0.5,0)
+				jc(Click, Button)
+				tw({v = Button, t = 0.15, s = Enum.EasingStyle.Back, d = "Out", g = {Size = UDim2.new(.9, 0,.9, 0)}}):Play()
+				delay(.06, function()
+					tw({v = Button, t = 0.15, s = Enum.EasingStyle.Back, d = "Out", g = {Size = UDim2.new(1, 0,1, 0)}}):Play()
+				end)
+				pcall(Callback)
+			end)
+		end
+
+		function Func:Slider(p)
+			local Title = p.Title or 'null'
+			local Desc = p.Desc or ''
+			local Image = p.Image or ''
+			local Min = p.Min or 0
+			local Max = p.Max or 100
+			local Value = p.Value or Min + 1
+			local Rounding = p.Rounding or 2
+			local Callback = p.Callback or function() end
+
+			local Slider, Config = background(ScrollingFrame_1, Title, Desc, Image, 'Slider')
+
+			Config:SetTextTransparencyTitle(0)
+			Config:SetSizeT(200)
+
+			local F = Instance.new("Frame")
+			local UIListLayout_1 = Instance.new("UIListLayout")
+			local UIPadding_1 = Instance.new("UIPadding")
+			local FrameValueTextBox = Instance.new('Frame')
+			local TextBox_1 = Instance.new("TextBox")
+			local UICorner_1 = Instance.new("UICorner")
+			local UIStroke_1 = Instance.new("UIStroke")
+			local Frame_1 = Instance.new("Frame")
+			local Frame_2 = Instance.new("Frame")
+			local UICorner_2 = Instance.new("UICorner")
+			local Frame_3 = Instance.new("Frame")
+			local UICorner_3 = Instance.new("UICorner")
+			local Frame_4 = Instance.new("Frame")
+			local UICorner_4 = Instance.new("UICorner")
+			local UIPadding_2 = Instance.new("UIPadding")
+
+			F.Name = "F"
+			F.Parent = Slider
+			F.AnchorPoint = Vector2.new(1, 0.5)
+			F.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			F.BackgroundTransparency = 1
+			F.BorderColor3 = Color3.fromRGB(0,0,0)
+			F.BorderSizePixel = 0
+			F.Position = UDim2.new(1, 0,0.5, 0)
+			F.Size = UDim2.new(0, 195,0.8, 0)
+
+			UIListLayout_1.Parent = F
+			UIListLayout_1.Padding = UDim.new(0,8)
+			UIListLayout_1.FillDirection = Enum.FillDirection.Horizontal
+			UIListLayout_1.HorizontalAlignment = Enum.HorizontalAlignment.Right
+			UIListLayout_1.SortOrder = Enum.SortOrder.LayoutOrder
+			UIListLayout_1.VerticalAlignment = Enum.VerticalAlignment.Center
+
+			UIPadding_1.Parent = F
+			UIPadding_1.PaddingRight = UDim.new(0,13)
+
+			FrameValueTextBox.Parent = F
+			FrameValueTextBox.Active = true
+			FrameValueTextBox.BackgroundColor3 = Color3.fromRGB(24,24,31)
+			FrameValueTextBox.BorderColor3 = Color3.fromRGB(0,0,0)
+			FrameValueTextBox.BorderSizePixel = 0
+			FrameValueTextBox.Size = UDim2.new(0, 50,0, 20)
+			FrameValueTextBox.LayoutOrder = 1
+
+			addToTheme('Function.Slider.Value Background', FrameValueTextBox)
+
+			TextBox_1.Parent = FrameValueTextBox
+			TextBox_1.Active = true
+			TextBox_1.BackgroundTransparency = 1
+			TextBox_1.BorderColor3 = Color3.fromRGB(0,0,0)
+			TextBox_1.BorderSizePixel = 0
+			TextBox_1.Size = UDim2.new(1, 0,1, 0)
+			TextBox_1.Font = Enum.Font.Cartoon
+			TextBox_1.PlaceholderColor3 = Color3.fromRGB(178,178,178)
+			TextBox_1.PlaceholderText = ""
+			TextBox_1.Text = tonumber(Value)
+			TextBox_1.TextColor3 = Color3.fromRGB(255,255,255)
+			TextBox_1.TextSize = 12
+
+			addToTheme('Text & Icon', TextBox_1)
+
+			UICorner_1.Parent = FrameValueTextBox
+			UICorner_1.CornerRadius = UDim.new(0,4)
+
+			UIStroke_1.Parent = FrameValueTextBox
+			UIStroke_1.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+			UIStroke_1.Color = Color3.fromRGB(255,255,255)
+			UIStroke_1.Thickness = 1
+			UIStroke_1.Transparency = 0.95
+
+			addToTheme('Function.Slider.Value Stroke', UIStroke_1)
+
+			Frame_1.Parent = F
+			Frame_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			Frame_1.BackgroundTransparency = 1
+			Frame_1.BorderColor3 = Color3.fromRGB(0,0,0)
+			Frame_1.BorderSizePixel = 0
+			Frame_1.Size = UDim2.new(0, 120,0, 20)
+
+			Frame_2.Parent = Frame_1
+			Frame_2.AnchorPoint = Vector2.new(0.5, 0.5)
+			Frame_2.BackgroundColor3 = Color3.fromRGB(44,34,103)
+			Frame_2.BorderColor3 = Color3.fromRGB(0,0,0)
+			Frame_2.BorderSizePixel = 0
+			Frame_2.Position = UDim2.new(0.5, 0,0.5, 0)
+			Frame_2.Size = UDim2.new(1, 0,0, 10)
+
+			addToTheme('Function.Slider.Slider Bar', Frame_2)
+
+			UICorner_2.Parent = Frame_2
+			UICorner_2.CornerRadius = UDim.new(1,0)
+
+			Frame_3.Parent = Frame_2
+			Frame_3.AnchorPoint = Vector2.new(0, 0.5)
+			Frame_3.BackgroundColor3 = Color3.fromRGB(91,68,209)
+			Frame_3.BorderColor3 = Color3.fromRGB(0,0,0)
+			Frame_3.BorderSizePixel = 0
+			Frame_3.Position = UDim2.new(0, 0,0.5, 0)
+			Frame_3.Size = UDim2.new(0, 0,1, 0)
+
+			addToTheme('Function.Slider.Slider Bar Value', Frame_3)
+
+			UICorner_3.Parent = Frame_3
+			UICorner_3.CornerRadius = UDim.new(1,0)
+
+			Frame_4.Parent = Frame_3
+			Frame_4.AnchorPoint = Vector2.new(1, 0.5)
+			Frame_4.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			Frame_4.BorderColor3 = Color3.fromRGB(0,0,0)
+			Frame_4.BorderSizePixel = 0
+			Frame_4.Position = UDim2.new(1, 0,0.5, 0)
+			Frame_4.Size = UDim2.new(0, 13,0, 13)
+
+			addToTheme('Function.Slider.Circle Value', Frame_4)
+
+			UICorner_4.Parent = Frame_4
+			UICorner_4.CornerRadius = UDim.new(1,0)
+
+			UIPadding_2.Parent = Frame_2
+			UIPadding_2.PaddingBottom = UDim.new(0,2)
+			UIPadding_2.PaddingLeft = UDim.new(0,2)
+			UIPadding_2.PaddingRight = UDim.new(0,2)
+			UIPadding_2.PaddingTop = UDim.new(0,2)
+
+			local Click = click(Frame_1)
+
+			local function roundToDecimal(value, decimals)
+				local factor = 10 ^ decimals
+				return math.floor(value * factor + 0.5) / factor
+			end
+
+			local function updateSlider(value)
+				value = math.clamp(value, Min, Max)
+				value = roundToDecimal(value, Rounding)
+				Value = value
+				local va = (value - Min) / (Max - Min)
+				tw({v = Frame_3, t = 0.15, s = Enum.EasingStyle.Exponential, d = "Out", g = {Size = UDim2.new(math.clamp(va, 0.12, 1), 0, 1, 0)}}):Play()
+				TextBox_1.Text = tostring(roundToDecimal(value, Rounding))
+				pcall(Callback ,value)
+			end
+
+			updateSlider(Value or 0)
+
+			TextBox_1.FocusLost:Connect(function()
+				local value = tonumber(TextBox_1.Text) or Min
+				updateSlider(value)
+			end)
+
+			local function move(input)
+				local sliderBar = Frame_2
+				local relativeX = math.clamp((input.Position.X - sliderBar.AbsolutePosition.X) / sliderBar.AbsoluteSize.X, 0, 1)
+				local value = relativeX * (Max - Min) + Min
+				updateSlider(value)
+			end
+
+			local dragging = false
+
+			Click.InputBegan:Connect(function(input)
+				if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+					dragging = true
+					move(input)
+				end
+			end)
+
+			Click.InputEnded:Connect(function(input)
+				if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+					dragging = false
+				end
+			end)
+
+			U.InputChanged:Connect(function(input)
+				if dragging and (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
+					move(input)
+				end
+			end)
+
+			local New = {}
+
+			function New:SetTitle(t)
+				Config:SetTitle(t)
+			end
+
+			function New:SetDesc(t)
+				Config:SetDesc(t)
+			end
+
+			function New:SetVisible(t)
+				Slider.Visible = t
+			end
+
+			function New:SetValue(t)
+				updateSlider(t)
+			end
+
+			function New:SetMin(t)
+				Min = t
+				if Value < t then
+					updateSlider(t)
+				end
+			end
+
+			function New:SetMax(t)
+				Max = t
+				if Value > t then
+					updateSlider(t)
+				end
+			end
+
+			return New
+		end
+
+		function Func:Code(p)
+			local Title = p.Title or 'null'
+			local CodeText = p.Code or '-- print("Hello World")'
+
+			local RealBackground = Instance.new("Frame")
+			local Code = Instance.new("Frame")
+			local UICorner_1 = Instance.new("UICorner")
+			local FF_1 = Instance.new("Frame")
+			local UIPadding_1 = Instance.new("UIPadding")
+			local F_1 = Instance.new("Frame")
+			local UICorner_2 = Instance.new("UICorner")
+			local Frame_1 = Instance.new("Frame")
+			local UIPadding_2 = Instance.new("UIPadding")
+			local Frame_2 = Instance.new("Frame")
+			local UIPadding_3 = Instance.new("UIPadding")
+			local TextBox_2 = Instance.new("TextLabel")
+			local Top_1 = Instance.new("Frame")
+			local Left_1 = Instance.new("Frame")
+			local Whatisthis_1 = Instance.new("ImageLabel")
+			local UIListLayout_1 = Instance.new("UIListLayout")
+			local Frame_3 = Instance.new("Frame")
+			local Frame_4 = Instance.new("Frame")
+			local UICorner_3 = Instance.new("UICorner")
+			local UIListLayout_2 = Instance.new("UIListLayout")
+			local UIPadding_4 = Instance.new("UIPadding")
+			local TextLabel_1 = Instance.new("TextLabel")
+			local Right_1 = Instance.new("Frame")
+			local UIListLayout_3 = Instance.new("UIListLayout")
+			local Frame_5 = Instance.new("Frame")
+			local TextButton_1 = Instance.new("TextButton")
+			local UIPadding_5 = Instance.new("UIPadding")
+			local ImageLabel_1 = Instance.new("ImageLabel")
+			local UIGradient_1 = Instance.new("UIGradient")
+
+			RealBackground.Name = "Real Background"
+			RealBackground.Parent = ScrollingFrame_1
+			RealBackground.BackgroundTransparency = 1
+			RealBackground.BorderColor3 = Color3.fromRGB(0,0,0)
+			RealBackground.BorderSizePixel = 0
+			RealBackground.Size = UDim2.new(1, 0,0, 120)
+			RealBackground.ClipsDescendants = true
+
+			Code.Name = "Background"
+			Code.Parent = RealBackground
+			Code.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			Code.BorderColor3 = Color3.fromRGB(0,0,0)
+			Code.BorderSizePixel = 0
+			Code.Size = UDim2.new(1, 0,1, 0)
+			Code.ClipsDescendants = true
+
+			UICorner_1.Parent = Code
+
+			FF_1.Name = "FF"
+			FF_1.Parent = Code
+			FF_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			FF_1.BackgroundTransparency = 1
+			FF_1.BorderColor3 = Color3.fromRGB(0,0,0)
+			FF_1.BorderSizePixel = 0
+			FF_1.Size = UDim2.new(1, 0,1, 0)
+
+			UIPadding_1.Parent = FF_1
+			UIPadding_1.PaddingBottom = UDim.new(0,8)
+			UIPadding_1.PaddingLeft = UDim.new(0,8)
+			UIPadding_1.PaddingRight = UDim.new(0,8)
+			UIPadding_1.PaddingTop = UDim.new(0,8)
+
+			F_1.Name = "F"
+			F_1.Parent = FF_1
+			F_1.AnchorPoint = Vector2.new(0, 0.5)
+			F_1.BackgroundColor3 = Color3.fromRGB(51,62,68)
+			F_1.BorderColor3 = Color3.fromRGB(0,0,0)
+			F_1.BorderSizePixel = 0
+			F_1.Position = UDim2.new(0, 0,0.5, 0)
+			F_1.Size = UDim2.new(1, 0,1, 0)
+			F_1.ClipsDescendants = true
+
+			addToTheme('Function.Code.Background Code', F_1)
+
+			UICorner_2.Parent = F_1
+
+			Frame_1.Parent = F_1
+			Frame_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			Frame_1.BackgroundTransparency = 1
+			Frame_1.BorderColor3 = Color3.fromRGB(0,0,0)
+			Frame_1.BorderSizePixel = 0
+			Frame_1.Size = UDim2.new(1, 0,1, 0)
+
+			UIPadding_2.Parent = Frame_1
+			UIPadding_2.PaddingTop = UDim.new(0,30)
+
+			Frame_2.Parent = Frame_1
+			Frame_2.BackgroundColor3 = Color3.fromRGB(38, 50, 56)
+			Frame_2.BorderColor3 = Color3.fromRGB(0,0,0)
+			Frame_2.BorderSizePixel = 0
+			Frame_2.Size = UDim2.new(1, 0,1, 0)
+
+			addToTheme('Function.Code.Background Code Value', Frame_2)
+
+			Instance.new('UICorner', Frame_2)
+
+			UIPadding_3.Parent = Frame_2
+			UIPadding_3.PaddingBottom = UDim.new(0,5)
+			UIPadding_3.PaddingLeft = UDim.new(0,8)
+			UIPadding_3.PaddingRight = UDim.new(0,8)
+			UIPadding_3.PaddingTop = UDim.new(0,8)
+
+			local ScrollingFrame = Instance.new("ScrollingFrame")
+
+			ScrollingFrame.Parent = Frame_2
+			ScrollingFrame.Active = true
+			ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			ScrollingFrame.BackgroundTransparency = 1.000
+			ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+			ScrollingFrame.BorderSizePixel = 0
+			ScrollingFrame.Size = UDim2.new(1, 0, 1, 0)
+			ScrollingFrame.CanvasSize = UDim2.new(2, 0, 0, 0)
+			ScrollingFrame.ScrollBarThickness = 4
+			ScrollingFrame.ScrollBarImageColor3 = Color3.fromRGB(216, 150, 179)
+
+			addToTheme('Function.Code.ScrollingFrame Code', ScrollingFrame)
+
+			local Code_1 = Instance.new("Frame")
+			local UIPaddingCode_1 = Instance.new("UIPadding")
+
+			Code_1.Name = "Code"
+			Code_1.Parent = ScrollingFrame
+			Code_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			Code_1.BackgroundTransparency = 1
+			Code_1.BorderColor3 = Color3.fromRGB(0,0,0)
+			Code_1.BorderSizePixel = 0
+			Code_1.Size = UDim2.new(1, 0,1, 0)
+
+			UIPaddingCode_1.Name = "UIPaddingCode"
+			UIPaddingCode_1.Parent = Code_1
+			UIPaddingCode_1.PaddingLeft = UDim.new(0,20)
+
+			TextBox_2.Name = "TextBox"
+			TextBox_2.Parent = Code_1
+			TextBox_2.Active = true
+			TextBox_2.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			TextBox_2.BackgroundTransparency = 1
+			TextBox_2.BorderColor3 = Color3.fromRGB(0,0,0)
+			TextBox_2.BorderSizePixel = 0
+			TextBox_2.Size = UDim2.new(0, 0,0, 0)
+			TextBox_2.Font = Enum.Font.Code
+			TextBox_2.RichText = true
+			TextBox_2.TextColor3 = Color3.fromRGB(255,255,255)
+			TextBox_2.TextSize = 12
+			TextBox_2.TextXAlignment = Enum.TextXAlignment.Left
+			TextBox_2.TextYAlignment = Enum.TextYAlignment.Top
+			TextBox_2.Text = CodeText
+			TextBox_2.AutomaticSize = Enum.AutomaticSize.XY
+
+			addToTheme('Text & Icon', TextBox_2)
+
+			Top_1.Name = "Top"
+			Top_1.Parent = F_1
+			Top_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			Top_1.BackgroundTransparency = 1
+			Top_1.BorderColor3 = Color3.fromRGB(0,0,0)
+			Top_1.BorderSizePixel = 0
+			Top_1.Size = UDim2.new(1, 0,0, 30)
+
+			Left_1.Name = "Left"
+			Left_1.Parent = Top_1
+			Left_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			Left_1.BackgroundTransparency = 1
+			Left_1.BorderColor3 = Color3.fromRGB(0,0,0)
+			Left_1.BorderSizePixel = 0
+			Left_1.Size = UDim2.new(1, 0,1, 0)
+
+			Whatisthis_1.Name = "Whatisthis"
+			Whatisthis_1.Parent = Left_1
+			Whatisthis_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			Whatisthis_1.BackgroundTransparency = 1
+			Whatisthis_1.BorderColor3 = Color3.fromRGB(0,0,0)
+			Whatisthis_1.BorderSizePixel = 0
+			Whatisthis_1.Size = UDim2.new(0, 50,0, 13)
+			Whatisthis_1.Image = "rbxassetid://81518443444327"
+			Whatisthis_1.ScaleType = Enum.ScaleType.Fit
+
+			UIListLayout_1.Parent = Left_1
+			UIListLayout_1.Padding = UDim.new(0,5)
+			UIListLayout_1.FillDirection = Enum.FillDirection.Horizontal
+			UIListLayout_1.SortOrder = Enum.SortOrder.LayoutOrder
+			UIListLayout_1.VerticalAlignment = Enum.VerticalAlignment.Center
+
+			Frame_3.Parent = Left_1
+			Frame_3.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			Frame_3.BackgroundTransparency = 1
+			Frame_3.BorderColor3 = Color3.fromRGB(0,0,0)
+			Frame_3.BorderSizePixel = 0
+			Frame_3.Size = UDim2.new(0, 100,0, 30)
+
+			Frame_4.Parent = Frame_3
+			Frame_4.BackgroundColor3 = Color3.fromRGB(37, 49, 55)
+			Frame_4.BorderColor3 = Color3.fromRGB(0,0,0)
+			Frame_4.BorderSizePixel = 0
+			Frame_4.Position = UDim2.new(0, 0,0.15, 0)
+			Frame_4.Size = UDim2.new(1, 0,0, 30)
+
+			addToTheme('Function.Code.Background Code Value', Frame_4)
+
+			addToTheme('Function.Code.Background Value', Frame_4)
+
+			UICorner_3.Parent = Frame_4
+
+			UIListLayout_2.Parent = Frame_4
+			UIListLayout_2.Padding = UDim.new(0,5)
+			UIListLayout_2.FillDirection = Enum.FillDirection.Horizontal
+			UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+
+			UIPadding_4.Parent = Frame_4
+			UIPadding_4.PaddingLeft = UDim.new(0,8)
+			UIPadding_4.PaddingRight = UDim.new(0,8)
+
+			TextLabel_1.Parent = Frame_4
+			TextLabel_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			TextLabel_1.BackgroundTransparency = 1
+			TextLabel_1.BorderColor3 = Color3.fromRGB(0,0,0)
+			TextLabel_1.BorderSizePixel = 0
+			TextLabel_1.Size = UDim2.new(1, 0,0, 25)
+			TextLabel_1.Font = Enum.Font.GothamBold
+			TextLabel_1.Text = tostring(Title)
+			TextLabel_1.TextColor3 = Color3.fromRGB(255,255,255)
+			TextLabel_1.TextSize = 11
+
+			addToTheme('Text & Icon', TextLabel_1)
+
+			Right_1.Name = "Right"
+			Right_1.Parent = Top_1
+			Right_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			Right_1.BackgroundTransparency = 1
+			Right_1.BorderColor3 = Color3.fromRGB(0,0,0)
+			Right_1.BorderSizePixel = 0
+			Right_1.Size = UDim2.new(1, 0,1, 0)
+
+			UIListLayout_3.Parent = Right_1
+			UIListLayout_3.Padding = UDim.new(0,5)
+			UIListLayout_3.FillDirection = Enum.FillDirection.Horizontal
+			UIListLayout_3.HorizontalAlignment = Enum.HorizontalAlignment.Right
+			UIListLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
+			UIListLayout_3.VerticalAlignment = Enum.VerticalAlignment.Center
+
+			Frame_5.Parent = Right_1
+			Frame_5.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			Frame_5.BackgroundTransparency = 1
+			Frame_5.BorderColor3 = Color3.fromRGB(0,0,0)
+			Frame_5.BorderSizePixel = 0
+			Frame_5.Size = UDim2.new(0, 60,0, 30)
+
+			TextButton_1.Parent = Frame_5
+			TextButton_1.Active = true
+			TextButton_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			TextButton_1.BackgroundTransparency = 1
+			TextButton_1.BorderColor3 = Color3.fromRGB(0,0,0)
+			TextButton_1.BorderSizePixel = 0
+			TextButton_1.Size = UDim2.new(1, 0,1, 0)
+			TextButton_1.Font = Enum.Font.GothamBold
+			TextButton_1.Text = "Copy"
+			TextButton_1.TextColor3 = Color3.fromRGB(255,255,255)
+			TextButton_1.TextSize = 11
+			TextButton_1.TextTransparency = 0.5
+			TextButton_1.TextXAlignment = Enum.TextXAlignment.Right
+
+			UIPadding_5.Parent = Frame_5
+			UIPadding_5.PaddingRight = UDim.new(0,10)
+
+			ImageLabel_1.Parent = Frame_5
+			ImageLabel_1.AnchorPoint = Vector2.new(0, 0.5)
+			ImageLabel_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			ImageLabel_1.BackgroundTransparency = 1
+			ImageLabel_1.BorderColor3 = Color3.fromRGB(0,0,0)
+			ImageLabel_1.BorderSizePixel = 0
+			ImageLabel_1.Position = UDim2.new(0, 0,0.5, 0)
+			ImageLabel_1.Size = UDim2.new(0, 16,0, 16)
+			ImageLabel_1.Image = "rbxassetid://13847222481"
+			ImageLabel_1.ImageTransparency = 0.5
+
+			UIGradient_1.Parent = Code
+			--UIGradient_1.Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(216, 150, 179)), ColorSequenceKeypoint.new(1, Color3.fromRGB(105, 81, 164))}
+			UIGradient_1.Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(29, 28, 38)), ColorSequenceKeypoint.new(1, Color3.fromRGB(29, 28, 38))}
+			UIGradient_1.Rotation = 45
+
+			addToTheme('Function.Code.Background', UIGradient_1)
+
+			local Line = Instance.new("Frame")
+			local LineText_1 = Instance.new("TextLabel")
+
+			Line.Name = "Line"
+			Line.Parent = ScrollingFrame
+			Line.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			Line.BackgroundTransparency = 1
+			Line.BorderColor3 = Color3.fromRGB(0,0,0)
+			Line.BorderSizePixel = 0
+			Line.Size = UDim2.new(1, 0,1, 0)
+
+			LineText_1.Name = "LineText"
+			LineText_1.Parent = Line
+			LineText_1.Active = true
+			LineText_1.AutomaticSize = Enum.AutomaticSize.XY
+			LineText_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			LineText_1.BackgroundTransparency = 1
+			LineText_1.BorderColor3 = Color3.fromRGB(0,0,0)
+			LineText_1.BorderSizePixel = 0
+			LineText_1.Size = UDim2.new(0, 0,0, 0)
+			LineText_1.Font = Enum.Font.RobotoMono
+			LineText_1.RichText = true
+			LineText_1.Text = ''
+			LineText_1.TextColor3 = Color3.fromRGB(255,255,255)
+			LineText_1.TextSize = 12
+			LineText_1.TextXAlignment = Enum.TextXAlignment.Left
+			LineText_1.TextYAlignment = Enum.TextYAlignment.Top
+			LineText_1.TextWrapped = true
+
+			local highlighter = {}
+
+			do
+				local keywords = {
+					lua = {
+						"and", "break", "or", "else", "elseif", "if", "then", "until", "repeat", "while", "do", "for", "in", "end",
+						"local", "return", "function", "export"
+					},
+					rbx = {
+						"game", "workspace", "script", "math", "string", "table", "task", "wait", "select", "next", "Enum",
+						"error", "warn", "tick", "assert", "shared", "loadstring", "tonumber", "tostring", "type",
+						"typeof", "unpack", "print", "Instance", "CFrame", "Vector3", "Vector2", "Color3", "UDim", "UDim2", "Ray", "BrickColor",
+						"OverlapParams", "RaycastParams", "Axes", "Random", "Region3", "Rect", "TweenInfo",
+						"collectgarbage", "not", "utf8", "pcall", "xpcall", "_G", "setmetatable", "getmetatable", "os", "pairs", "ipairs"
+					},
+					operators = {
+						"#", "+", "-", "*", "%", "/", "^", "=", "~", "=", "<", ">",
+					}
+				}
+
+				local colors = {
+					numbers = Color3.fromHex("#79c0ff"),
+					boolean = Color3.fromHex("#79c0ff"),
+					operator = Color3.fromHex("#ff7b72"),
+					lua = Color3.fromHex("#ff7b72"),
+					rbx = Color3.fromHex("#7fcfef"), -- def
+					str = Color3.fromHex("#a5d6ff"),
+					comment = Color3.fromHex("#8b949e"),
+					null = Color3.fromHex("#79c0ff"),
+					call = Color3.fromHex("#d2a8ff"),    
+					self_call = Color3.fromHex("#d2a8ff"),
+					local_property = Color3.fromHex("#ff7b72"),
+				}
+
+				local function createKeywordSet(keywords)
+					local keywordSet = {}
+					for _, keyword in ipairs(keywords) do
+						keywordSet[keyword] = true
+					end
+					return keywordSet
+				end
+
+				local luaSet = createKeywordSet(keywords.lua)
+				local rbxSet = createKeywordSet(keywords.rbx)
+				local operatorsSet = createKeywordSet(keywords.operators)
+
+				local function getHighlight(tokens, index)
+					local token = tokens[index]
+
+					if colors[token .. "_color"] then
+						return colors[token .. "_color"]
+					end
+
+					if tonumber(token) then
+						return colors.numbers
+					elseif token == "nil" then
+						return colors.null
+					elseif token:sub(1, 2) == "--" then
+						return colors.comment
+					elseif operatorsSet[token] then
+						return colors.operator
+					elseif luaSet[token] then
+						return colors.lua
+					elseif rbxSet[token] then
+						return colors.rbx
+					elseif token:sub(1, 1) == "\"" or token:sub(1, 1) == "\'" then
+						return colors.str
+					elseif token == "true" or token == "false" then
+						return colors.boolean
+					else
+					end
+
+					if tokens[index + 1] == "(" then
+						if tokens[index - 1] == ":" then
+							return colors.self_call
+						end
+
+						return colors.call
+					end
+
+					if tokens[index - 1] == "." then
+						if tokens[index - 2] == "Enum" then
+							return colors.rbx
+						end
+
+						return colors.local_property
+					end
+				end
+
+				function highlighter.run(source)
+					local tokens = {}
+					local multiStrings = {}
+					local currentToken = ""
+
+					local index = 1
+					source = source:gsub("%[%[.-%]%]", function(str)
+						local placeholder = "" .. index .. "__"
+						multiStrings[placeholder] = str
+						index = index + 1
+						return placeholder
+					end)
+
+					local inString = false
+					local inComment = false
+					local commentPersist = false
+
+					for i = 1, #source do
+						local character = source:sub(i, i)
+
+						if inComment then
+							if character == "\n" and not commentPersist then
+								table.insert(tokens, currentToken)
+								table.insert(tokens, character)
+								currentToken = ""
+								inComment = false
+							elseif source:sub(i - 1, i) == "]]" and commentPersist then
+								currentToken = currentToken .. "]"
+								table.insert(tokens, currentToken)
+								currentToken = ""
+								inComment = false
+								commentPersist = false
+							else
+								currentToken = currentToken .. character
+							end
+						elseif inString then
+							if character == inString and source:sub(i - 1, i - 1) ~= "\\" or character == "\n" then
+								currentToken = currentToken .. character
+								inString = false
+							else
+								currentToken = currentToken .. character
+							end
+						else
+							local foundPlaceholder = source:sub(i):match("^__MULTISTR_%d+__")
+							if foundPlaceholder then
+								table.insert(tokens, foundPlaceholder)
+								i = i + #foundPlaceholder - 1
+							elseif source:sub(i, i + 1) == "--" then
+								table.insert(tokens, currentToken)
+								currentToken = "-"
+								inComment = true
+								commentPersist = source:sub(i + 2, i + 3) == "[["
+							elseif character == "\"" or character == "\'" then
+								table.insert(tokens, currentToken)
+								currentToken = character
+								inString = character
+							elseif operatorsSet[character] then
+								table.insert(tokens, currentToken)
+								table.insert(tokens, character)
+								currentToken = ""
+							elseif character:match("[%w_]") then
+								currentToken = currentToken .. character
+							else
+								table.insert(tokens, currentToken)
+								table.insert(tokens, character)
+								currentToken = ""
+							end
+						end
+					end
+
+					table.insert(tokens, currentToken)
+
+					local highlighted = {}
+
+					for i, token in ipairs(tokens) do
+						if multiStrings[token] then
+							local syntax = string.format(
+								'<font color = "#%s">%s</font>',
+								colors.str:ToHex(),
+								multiStrings[token]:gsub("<", "&lt;"):gsub(">", "&gt;")
+							)
+							table.insert(highlighted, syntax)
+						else
+							local highlight = getHighlight(tokens, i)
+
+							if highlight then
+								local syntax = string.format(
+									'<font color = "#%s">%s</font>',
+									highlight:ToHex(),
+									token:gsub("<", "&lt;"):gsub(">", "&gt;")
+								)
+								table.insert(highlighted, syntax)
+							else
+								table.insert(highlighted, token)
+							end
+						end
+					end
+
+					return table.concat(highlighted)
+				end
+			end
+
+			local iscop = false
+
+			TextButton_1.MouseButton1Click:Connect(function()
+				if not iscop then
+					setclipboard(CodeText)
+					TextButton_1.Text = "Copied"
+					ImageLabel_1.Image = "rbxassetid://14939475472"
+					Frame_5.Size = UDim2.new(0, 65,0, 30)
+					iscop = true
+					delay(1, function()
+						TextButton_1.Text = "Copy"
+						ImageLabel_1.Image = "rbxassetid://13847222481"
+						Frame_5.Size = UDim2.new(0, 58,0, 30)
+						iscop = false
+					end)
+				end
+			end)
+
+			TextBox_2.Text = highlighter.run(TextBox_2.Text)
+
+			TextBox_2:GetPropertyChangedSignal("AbsoluteSize"):Connect(function()
+				ScrollingFrame.CanvasSize = UDim2.new(0, TextBox_2.AbsoluteSize.X + 20, 0, 0)
+			end)
+
+			local function updateLineNumbers()
+				tw({v = RealBackground, t = 0.15, s = Enum.EasingStyle.Exponential, d = "Out", g = {Size = UDim2.new(1, 0,0, TextBox_2.TextBounds.Y + 65)}}):Play()
+				tw({v = Frame_3, t = 0.15, s = Enum.EasingStyle.Exponential, d = "Out", g = {Size = UDim2.new(0, TextLabel_1.TextBounds.X + 30,0, 30)}}):Play()
+
+				local count = #TextBox_2.Text:split("\n")
+
+				local str = ""
+				for i = 1, count do
+					str = str .. i .. "\n"
+				end
+				LineText_1.Text = str
+			end
+
+			updateLineNumbers()
+			TextBox_2:GetPropertyChangedSignal("Text"):Connect(updateLineNumbers)
+
+			local New = {}
+
+			function New:SetTitle(t)
+				TextLabel_1.Text = tostring(t)
+			end
+
+			function New:SetCode(t)
+				TextBox_2.Text = highlighter.run(t)
+				CodeText = t
+			end
+
+			return New
+		end
+
+		function Func:Dropdown(p)
+			local Title = p.Title or 'null'
+			local Desc = p.Desc or ''
+			local Image = p.Image or ''
+			local List = p.List or {}
+			local Value = p.Value or List[1]
+			local Multi = p.Multi or false
+			local Callback = p.Callback or function() end
+
+			local Dropdown, Config = background(ScrollingFrame_1, Title, Desc, Image, 'Dropdown')
+
+			Config:SetTextTransparencyTitle(0)
+			Config:SetSizeT(125)
+
+			local DropdownSelect = addDropdownSelect(Dropdown, Dropdown, Multi, Callback, Value, List)
+
+			local New = {}
+
+			function New:SetTitle(t)
+				Config:SetTitle(t)
+			end
+
+			function New:SetDesc(t)
+				Config:SetDesc(t)
+			end
+
+			function New:SetVisible(t)
+				Dropdown.Visible = t
+			end
+
+			function New:SetValue(t)
+				DropdownSelect:SetValue(t)
+			end
+
+			function New:Add(t)
+				DropdownSelect:Add(t)
+			end
+
+			function New:Clear(t)
+				local n = t or nil
+				DropdownSelect:Clear(n)
+			end
+
+			return New
+		end
+
+		function Func:Keybind(p)
+			local Title = p.Title or 'null'
+			local Desc = p.Desc or ''
+			local Image = p.Image or ''
+			local Value = p.Value or false
+			local Key = p.Key or Enum.KeyCode.E
+			local Callback = p.Callback or function() end
+
+			local Keybind, Config = background(ScrollingFrame_1, Title, Desc, Image, 'Keybind')
+
+			Config:SetSizeT(100)
+
+			local F = Instance.new("TextButton")
+			local UIListLayout_1 = Instance.new("UIListLayout")
+			local UIPadding_1 = Instance.new("UIPadding")
+			local ToggleValue_1 = Instance.new("Frame")
+			local UICorner_1 = Instance.new("UICorner")
+			local Frame_1 = Instance.new("Frame")
+			local UICorner_2 = Instance.new("UICorner")
+			local UIPadding_2 = Instance.new("UIPadding")
+			local KeybindValue_1 = Instance.new("Frame")
+			local UICorner_3 = Instance.new("UICorner")
+			local UIStroke_1 = Instance.new("UIStroke")
+			local TextLabel_1 = Instance.new("TextLabel")
+			local UIPadding_3 = Instance.new("UIPadding")
+
+			F.Name = "F"
+			F.Parent = Keybind
+			F.AnchorPoint = Vector2.new(1, 0.5)
+			F.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			F.BackgroundTransparency = 1
+			F.BorderColor3 = Color3.fromRGB(0,0,0)
+			F.BorderSizePixel = 0
+			F.Position = UDim2.new(1, 0,0.5, 0)
+			F.Size = UDim2.new(0, 100,0.800000012, 0)
+			F.Text = ''
+
+			UIListLayout_1.Parent = F
+			UIListLayout_1.Padding = UDim.new(0,8)
+			UIListLayout_1.FillDirection = Enum.FillDirection.Horizontal
+			UIListLayout_1.HorizontalAlignment = Enum.HorizontalAlignment.Right
+			UIListLayout_1.SortOrder = Enum.SortOrder.LayoutOrder
+			UIListLayout_1.VerticalAlignment = Enum.VerticalAlignment.Center
+
+			UIPadding_1.Parent = F
+			UIPadding_1.PaddingRight = UDim.new(0,13)
+
+			ToggleValue_1.Name = "ToggleValue"
+			ToggleValue_1.Parent = F
+			ToggleValue_1.BackgroundColor3 = Color3.fromRGB(44,34,103)
+			ToggleValue_1.BorderColor3 = Color3.fromRGB(0,0,0)
+			ToggleValue_1.BorderSizePixel = 0
+			ToggleValue_1.LayoutOrder = 1
+			ToggleValue_1.Size = UDim2.new(0, 34,0, 17)
+
+			UICorner_1.Parent = ToggleValue_1
+			UICorner_1.CornerRadius = UDim.new(1,0)
+
+			Frame_1.Parent = ToggleValue_1
+			Frame_1.AnchorPoint = Vector2.new(1, 0.5)
+			Frame_1.BackgroundColor3 = Color3.fromRGB(91,68,209)
+			Frame_1.BorderColor3 = Color3.fromRGB(0,0,0)
+			Frame_1.BorderSizePixel = 0
+			Frame_1.Position = UDim2.new(1, 0,0.5, 0)
+			Frame_1.Size = UDim2.new(0, 13,0, 13)
+
+			addToTheme('Main', Frame_1)
+
+			UICorner_2.Parent = Frame_1
+			UICorner_2.CornerRadius = UDim.new(1,0)
+
+			UIPadding_2.Parent = ToggleValue_1
+			UIPadding_2.PaddingLeft = UDim.new(0,2)
+			UIPadding_2.PaddingRight = UDim.new(0,2)
+
+			KeybindValue_1.Name = "KeybindValue"
+			KeybindValue_1.Parent = F
+			KeybindValue_1.BackgroundColor3 = Color3.fromRGB(24,24,31)
+			KeybindValue_1.BorderColor3 = Color3.fromRGB(0,0,0)
+			KeybindValue_1.BorderSizePixel = 0
+			KeybindValue_1.Size = UDim2.new(0, 30,0, 20)
+
+			addToTheme('Function.Keybind.Value Background', KeybindValue_1)
+
+			UICorner_3.Parent = KeybindValue_1
+			UICorner_3.CornerRadius = UDim.new(0,4)
+
+			UIStroke_1.Parent = KeybindValue_1
+			UIStroke_1.Color = Color3.fromRGB(255,255,255)
+			UIStroke_1.Thickness = 1
+			UIStroke_1.Transparency = 0.95
+
+			addToTheme('Function.Keybind.Value Stroke', UIStroke_1)
+
+			TextLabel_1.Parent = KeybindValue_1
+			TextLabel_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			TextLabel_1.BackgroundTransparency = 1
+			TextLabel_1.BorderColor3 = Color3.fromRGB(0,0,0)
+			TextLabel_1.BorderSizePixel = 0
+			TextLabel_1.Size = UDim2.new(1, 0,1, 0)
+			TextLabel_1.Font = Enum.Font.GothamBold
+			TextLabel_1.RichText = true
+			TextLabel_1.Text = tostring(Key):gsub("Enum.KeyCode.", "")
+			TextLabel_1.TextColor3 = Color3.fromRGB(255,255,255)
+			TextLabel_1.TextSize = 10
+			TextLabel_1.TextTransparency = 0.30000001192092896
+			TextLabel_1.TextWrapped = true
+
+			addToTheme('Text & Icon', TextLabel_1)
+
+			UIPadding_3.Parent = KeybindValue_1
+			UIPadding_3.PaddingLeft = UDim.new(0,5)
+			UIPadding_3.PaddingRight = UDim.new(0,5)
+
+			local Click = click(Keybind)
+			KeybindValue_1.ZIndex = 2
+			F.ZIndex = 2
+
+			Value = not Value
+
+			local function change()
+				Value = not Value
+				if Value then
+					Config:SetTextTransparencyTitle(0)
+					tw({v = ToggleValue_1, t = 0.15, s = Enum.EasingStyle.Linear, d = "Out", g = {BackgroundColor3 = themes[IsTheme].Function.Keybind.True['Toggle Background']}}):Play()
+					tw({v = Frame_1, t = 0.15, s = Enum.EasingStyle.Linear, d = "Out",
+						g = {
+							BackgroundColor3 = themes[IsTheme].Function.Keybind.True['Toggle Value'],
+							AnchorPoint = Vector2.new(1, 0.5),
+							Position = UDim2.new(1, 0,0.5, 0)
+						}}):Play()
+				else
+					Config:SetTextTransparencyTitle(0.7)
+					tw({v = ToggleValue_1, t = 0.15, s = Enum.EasingStyle.Linear, d = "Out", g = {BackgroundColor3 = themes[IsTheme].Function.Keybind.False['Toggle Background']}}):Play()
+					tw({v = Frame_1, t = 0.15, s = Enum.EasingStyle.Linear, d = "Out",
+						g = {
+							BackgroundColor3 = themes[IsTheme].Function.Keybind.False['Toggle Value'],
+							AnchorPoint = Vector2.new(0, 0.5),
+							Position = UDim2.new(0, 0,0.5, 0)
+						}}):Play()
+				end
+			end
+
+			Click.MouseButton1Click:Connect(change)
+
+			delay(0.1, change)
+
+			local changeing = false
+
+			local function adjustBoxBindSize()
+				local textSize = game:GetService("TextService"):GetTextSize(TextLabel_1.Text, TextLabel_1.TextSize, TextLabel_1.Font, Vector2.new(1000, 1000))
+				tw({v = KeybindValue_1, t = 0.15, s = Enum.EasingStyle.Linear, d = "Out", g = {Size = UDim2.new(0, textSize.X + 20, 0, 20)}}):Play()
+			end
+
+			adjustBoxBindSize()
+
+			local function changeKey()
+				changeing = true
+				TextLabel_1.Text = "..."
+				local inputConnection
+				inputConnection = U.InputBegan:Connect(function(input)
+					if input.UserInputType == Enum.UserInputType.Keyboard then
+						Key = input.KeyCode
+						TextLabel_1.Text = tostring(Key):gsub("Enum.KeyCode.", "")
+						adjustBoxBindSize()
+						inputConnection:Disconnect()
+						pcall(Callback, Key, Value)
+						task.wait(.1)
+						changeing = false
+					end
+				end)
+			end
+
+			U.InputBegan:Connect(function(input, gameProcessed)
+				if input.KeyCode == Key and not changeing then
+					change()
+					pcall(Callback, Key, Value)
+				end
+			end)
+
+			delay(0, function()
+				pcall(Callback, Key, Value)
+			end)
+
+			Keybind:GetPropertyChangedSignal("BackgroundColor3"):Connect(function()
+				if Value then
+					ToggleValue_1.BackgroundColor3 = themes[IsTheme].Function.Keybind.True['Toggle Background']
+					Frame_1.BackgroundColor3 = themes[IsTheme].Function.Keybind.True['Toggle Value']
+				else
+					ToggleValue_1.BackgroundColor3 = themes[IsTheme].Function.Keybind.False['Toggle Background']
+					Frame_1.BackgroundColor3 = themes[IsTheme].Function.Keybind.False['Toggle Value']
+				end
+			end)
+
+			F.MouseButton1Click:Connect(changeKey)
+
+			local New = {}
+
+			function New:SetTitle(t)
+				Config:SetTitle(t)
+			end
+
+			function New:SetDesc(t)
+				Config:SetDesc(t)
+			end
+
+			function New:SetVisible(t)
+				Keybind.Visible = t
+			end
+
+			function New:SetValue(t)
+				Value = not t
+				change()
+			end
+
+			function New:SetKey(t)
+				Key = t
+				TextLabel_1.Text = tostring(Key):gsub("Enum.KeyCode.", "")
+				adjustBoxBindSize()
+				pcall(Callback, Key, Value)
+			end
+
+			return New
+		end
+
+		function Func:ColorPicker(p)
+			local Title = p.Title
+			local Desc = p.Desc or ''
+			local Image = p.Image or ''
+			local Value = p.Value or Color3.fromRGB(255, 255, 255)
+			local Callback = p.Callback or function() end
+
+			local ColorPicker, Config = background(ScrollingFrame_1, Title, Desc, Image, 'Color Picker')
+
+			Config:SetTextTransparencyTitle(0)
+			Config:SetSizeT(50)
+
+			local ListFunctionColorPicker = Instance.new("Frame")
+			local Picker_1 = Instance.new("Frame")
+			local UICorner_1 = Instance.new("UICorner")
+			local GlowDot_1 = Instance.new("ImageLabel")
+			local Picker_2 = Instance.new("Frame")
+			local UICorner_2 = Instance.new("UICorner")
+			local UIPadding_1 = Instance.new("UIPadding")
+
+			ListFunctionColorPicker.Name = "ListFunctionColorPicker"
+			ListFunctionColorPicker.Parent = ColorPicker
+			ListFunctionColorPicker.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			ListFunctionColorPicker.BackgroundTransparency = 1
+			ListFunctionColorPicker.BorderColor3 = Color3.fromRGB(0,0,0)
+			ListFunctionColorPicker.BorderSizePixel = 0
+			ListFunctionColorPicker.Size = UDim2.new(1, 0,1, 0)
+
+			Picker_1.Name = "Picker"
+			Picker_1.Parent = ListFunctionColorPicker
+			Picker_1.AnchorPoint = Vector2.new(1, 0.5)
+			Picker_1.BackgroundColor3 = Value
+			Picker_1.BorderColor3 = Color3.fromRGB(0,0,0)
+			Picker_1.BorderSizePixel = 0
+			Picker_1.Position = UDim2.new(1, 0,0.5, 0)
+			Picker_1.Size = UDim2.new(0, 20,0, 20)
+
+			UICorner_1.Parent = Picker_1
+			UICorner_1.CornerRadius = UDim.new(1,0)
+
+			GlowDot_1.Name = "GlowDot"
+			GlowDot_1.Parent = Picker_1
+			GlowDot_1.AnchorPoint = Vector2.new(0.5, 0.5)
+			GlowDot_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			GlowDot_1.BackgroundTransparency = 1
+			GlowDot_1.BorderColor3 = Color3.fromRGB(0,0,0)
+			GlowDot_1.BorderSizePixel = 0
+			GlowDot_1.Position = UDim2.new(0.5, 0,0.5, 0)
+			GlowDot_1.Size = UDim2.new(1.5, 0,1.5, 0)
+			GlowDot_1.Image = "rbxassetid://105506802034513"
+			GlowDot_1.ImageColor3 = Value
+			GlowDot_1.ImageTransparency = 0.2
+
+			Picker_2.Name = "Picker"
+			Picker_2.Parent = GlowDot_1
+			Picker_2.AnchorPoint = Vector2.new(0.5, 0.5)
+			Picker_2.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			Picker_2.BorderColor3 = Color3.fromRGB(0,0,0)
+			Picker_2.BorderSizePixel = 0
+			Picker_2.Position = UDim2.new(0.5, 0,0.5, 0)
+			Picker_2.Size = UDim2.new(0, 12,0, 12)
+
+			UICorner_2.Parent = Picker_2
+			UICorner_2.CornerRadius = UDim.new(1,0)
+
+			UIPadding_1.Parent = ListFunctionColorPicker
+			UIPadding_1.PaddingRight = UDim.new(0,10)
+
+			local ColorpickBar = Instance.new("Frame")
+			local UICorner_1 = Instance.new("UICorner")
+			local UIStroke_1 = Instance.new("UIStroke")
+			local UIPadding_1 = Instance.new("UIPadding")
+			local Color_1 = Instance.new("ImageLabel")
+			local ColorCorner_1 = Instance.new("UICorner")
+			local ColorSelection_1 = Instance.new("ImageLabel")
+			local Hue_1 = Instance.new("ImageLabel")
+			local HueCorner_1 = Instance.new("UICorner")
+			local HueGradient_1 = Instance.new("UIGradient")
+			local HueSelection_1 = Instance.new("ImageLabel")
+
+			lak(ColorpickBar)
+
+			ColorpickBar.Name = "ColorpickBar"
+			ColorpickBar.Parent = ScreenGui
+			ColorpickBar.BackgroundColor3 = Color3.fromRGB(24, 24, 31)
+			ColorpickBar.BorderColor3 = Color3.fromRGB(0,0,0)
+			ColorpickBar.BorderSizePixel = 0
+			ColorpickBar.Size = UDim2.new(0, 120,0, 0)
+			ColorpickBar.ClipsDescendants = true
+			local targetX = Picker_1.AbsolutePosition.X - ColorpickBar.Parent.AbsolutePosition.X + Picker_1.Size.X.Offset - 100
+			local targetY = Picker_1.AbsolutePosition.Y - ColorpickBar.Parent.AbsolutePosition.Y + Picker_1.Size.Y.Offset - 20
+			ColorpickBar.Position = UDim2.new(0, targetX, 0, targetY)
+
+			addToTheme('Function.Color Picker.Color Select.Background', ColorpickBar)
+
+			UICorner_1.Parent = ColorpickBar
+			UICorner_1.CornerRadius = UDim.new(0, 6)
+
+			UIStroke_1.Parent = ColorpickBar
+			UIStroke_1.Thickness = 1
+			UIStroke_1.Transparency = 1
+			UIStroke_1.Color = Color3.fromRGB(255, 255, 255)
+			UIStroke_1.Transparency = 0.95
+
+			addToTheme('Function.Color Picker.Color Select.UIStroke', UIStroke_1)
+
+			UIPadding_1.Parent = ColorpickBar
+			UIPadding_1.PaddingBottom = UDim.new(0,5)
+			UIPadding_1.PaddingLeft = UDim.new(0,10)
+			UIPadding_1.PaddingRight = UDim.new(0,10)
+			UIPadding_1.PaddingTop = UDim.new(0,5)
+
+			Color_1.Name = "Color"
+			Color_1.Parent = ColorpickBar
+			Color_1.AnchorPoint = Vector2.new(0, 0)
+			Color_1.BackgroundColor3 = Color3.fromRGB(39,39,39)
+			Color_1.Position = UDim2.new(0, 0,0, 25)
+			Color_1.Size = UDim2.new(0, 80,0, 80)
+			Color_1.ZIndex = 10
+			Color_1.Image = "rbxassetid://4155801252"
+
+			ColorCorner_1.Name = "ColorCorner"
+			ColorCorner_1.Parent = Color_1
+			ColorCorner_1.CornerRadius = UDim.new(0,3)
+
+			ColorSelection_1.Name = "ColorSelection"
+			ColorSelection_1.Parent = Color_1
+			ColorSelection_1.AnchorPoint = Vector2.new(0.5, 0.5)
+			ColorSelection_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			ColorSelection_1.BackgroundTransparency = 1
+			ColorSelection_1.Size = UDim2.new(0, 12,0, 12)
+			ColorSelection_1.Image = "http://www.roblox.com/asset/?id=4805639000"
+			ColorSelection_1.ScaleType = Enum.ScaleType.Fit
+
+			Hue_1.Name = "Hue"
+			Hue_1.Parent = ColorpickBar
+			Hue_1.AnchorPoint = Vector2.new(0, 0)
+			Hue_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			Hue_1.Position = UDim2.new(0.47, 0,0, 25)
+			Hue_1.Size = UDim2.new(0, 10,0, 80)
+
+			HueCorner_1.Name = "HueCorner"
+			HueCorner_1.Parent = Hue_1
+			HueCorner_1.CornerRadius = UDim.new(1,0)
+
+			HueGradient_1.Name = "HueGradient"
+			HueGradient_1.Parent = Hue_1
+			HueGradient_1.Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 0, 4)), ColorSequenceKeypoint.new(0.2, Color3.fromRGB(234, 255, 0)), ColorSequenceKeypoint.new(0.4, Color3.fromRGB(21, 255, 0)), ColorSequenceKeypoint.new(0.6, Color3.fromRGB(0, 255, 255)), ColorSequenceKeypoint.new(0.8, Color3.fromRGB(0, 17, 255)), ColorSequenceKeypoint.new(0.9, Color3.fromRGB(255, 0, 251)), ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 0, 4))}
+			HueGradient_1.Rotation = 270
+
+			HueSelection_1.Name = "HueSelection"
+			HueSelection_1.Parent = Hue_1
+			HueSelection_1.AnchorPoint = Vector2.new(0.5, 0.5)
+			HueSelection_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			HueSelection_1.BackgroundTransparency = 1
+			HueSelection_1.Position = UDim2.new(0.5, 0,1, 0)
+			HueSelection_1.Size = UDim2.new(0, 12,0, 12)
+			HueSelection_1.Image = "http://www.roblox.com/asset/?id=4805639000"
+
+			local TitleColorPicker = Instance.new("TextLabel")
+
+			TitleColorPicker.Name = "TitleColorPicker"
+			TitleColorPicker.Parent = ColorpickBar
+			TitleColorPicker.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			TitleColorPicker.BackgroundTransparency = 1.000
+			TitleColorPicker.BorderColor3 = Color3.fromRGB(0, 0, 0)
+			TitleColorPicker.BorderSizePixel = 0
+			TitleColorPicker.Size = UDim2.new(1, 0, 0, 27)
+			TitleColorPicker.Font = Enum.Font.GothamBold
+			TitleColorPicker.Text = Title
+			TitleColorPicker.TextColor3 = Color3.fromRGB(0, 0, 0)
+			TitleColorPicker.TextSize = 12.000
+			TitleColorPicker.TextXAlignment = Enum.TextXAlignment.Left
+			TitleColorPicker.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+			addToTheme('Text & Icon', TitleColorPicker)
+
+			local BoxColor = Instance.new("Frame")
+			local Hax_1 = Instance.new("Frame")
+			local BarValueHax_1 = Instance.new("Frame")
+			local UICorner_1 = Instance.new("UICorner")
+			local UIStroke_11 = Instance.new("UIStroke")
+			local TextLabel_1 = Instance.new("TextBox")
+			local TextLabel_2 = Instance.new("TextLabel")
+			local UIListLayoutBoxColor_1 = Instance.new("UIListLayout")
+			local Red_1 = Instance.new("Frame")
+			local BarValueRed_1 = Instance.new("Frame")
+			local UICorner_2 = Instance.new("UICorner")
+			local UIStroke_2 = Instance.new("UIStroke")
+			local TextLabel_3 = Instance.new("TextBox")
+			local TextLabel_4 = Instance.new("TextLabel")
+			local Green_1 = Instance.new("Frame")
+			local BarValueGreen_1 = Instance.new("Frame")
+			local UICorner_3 = Instance.new("UICorner")
+			local UIStroke_3 = Instance.new("UIStroke")
+			local TextLabel_5 = Instance.new("TextBox")
+			local TextLabel_6 = Instance.new("TextLabel")
+			local Blue_1 = Instance.new("Frame")
+			local BarValueBlue_1 = Instance.new("Frame")
+			local UICorner_4 = Instance.new("UICorner")
+			local UIStroke_4 = Instance.new("UIStroke")
+			local TextLabel_7 = Instance.new("TextBox")
+			local TextLabel_8 = Instance.new("TextLabel")
+
+			BoxColor.Name = "BoxColor"
+			BoxColor.Parent = ColorpickBar
+			BoxColor.AnchorPoint = Vector2.new(1, 0)
+			BoxColor.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			BoxColor.BackgroundTransparency = 1
+			BoxColor.BorderColor3 = Color3.fromRGB(0,0,0)
+			BoxColor.BorderSizePixel = 0
+			BoxColor.Position = UDim2.new(1, 0,0, 25)
+			BoxColor.Size = UDim2.new(0, 80,0, 80)
+
+			Hax_1.Name = "Hax"
+			Hax_1.Parent = BoxColor
+			Hax_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			Hax_1.BackgroundTransparency = 1
+			Hax_1.BorderColor3 = Color3.fromRGB(0,0,0)
+			Hax_1.BorderSizePixel = 0
+			Hax_1.Size = UDim2.new(1, 0,0, 21)
+
+			BarValueHax_1.Name = "BarValueHax"
+			BarValueHax_1.Parent = Hax_1
+			BarValueHax_1.AnchorPoint = Vector2.new(0, 0.5)
+			BarValueHax_1.BackgroundColor3 = Color3.fromRGB(217,217,217)
+			BarValueHax_1.BackgroundTransparency = 1
+			BarValueHax_1.BorderColor3 = Color3.fromRGB(0,0,0)
+			BarValueHax_1.BorderSizePixel = 0
+			BarValueHax_1.Position = UDim2.new(0, 0,0.5, 0)
+			BarValueHax_1.Size = UDim2.new(0.6, 0,0, 15)
+
+			UICorner_1.Parent = BarValueHax_1
+			UICorner_1.CornerRadius = UDim.new(1,0)
+
+			UIStroke_11.Parent = BarValueHax_1
+			UIStroke_11.Thickness = 1
+			UIStroke_11.Color = Color3.fromRGB(255, 255, 255)
+			UIStroke_11.Transparency = 0.95
+
+			addToTheme('Function.Color Picker.Color Select.UIStroke', UIStroke_11)
+
+			TextLabel_1.Name = "TextLabel"
+			TextLabel_1.Parent = BarValueHax_1
+			TextLabel_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			TextLabel_1.BackgroundTransparency = 1
+			TextLabel_1.BorderColor3 = Color3.fromRGB(0,0,0)
+			TextLabel_1.BorderSizePixel = 0
+			TextLabel_1.Size = UDim2.new(1, 0,1, 0)
+			TextLabel_1.Font = Enum.Font.Gotham
+			TextLabel_1.PlaceholderColor3 = Color3.fromRGB(178,178,178)
+			TextLabel_1.PlaceholderText = "#FFFFFF"
+			TextLabel_1.Text = "#FFFFFF"
+			TextLabel_1.TextSize = 9
+			TextLabel_1.TextTruncate = Enum.TextTruncate.AtEnd
+			TextLabel_1.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+			addToTheme('Text & Icon', TextLabel_1)
+
+			TextLabel_2.Parent = Hax_1
+			TextLabel_2.AnchorPoint = Vector2.new(1, 0.5)
+			TextLabel_2.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			TextLabel_2.BackgroundTransparency = 1
+			TextLabel_2.BorderColor3 = Color3.fromRGB(0,0,0)
+			TextLabel_2.BorderSizePixel = 0
+			TextLabel_2.Position = UDim2.new(0.980000019, 0,0.5, 0)
+			TextLabel_2.Size = UDim2.new(0, 20,0, 20)
+			TextLabel_2.Font = Enum.Font.Gotham
+			TextLabel_2.Text = "Hax"
+			TextLabel_2.TextSize = 9
+			TextLabel_2.TextXAlignment = Enum.TextXAlignment.Left
+			TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+			addToTheme('Text & Icon', TextLabel_2)
+
+			UIListLayoutBoxColor_1.Name = "UIListLayoutBoxColor"
+			UIListLayoutBoxColor_1.Parent = BoxColor
+			UIListLayoutBoxColor_1.SortOrder = Enum.SortOrder.LayoutOrder
+			UIListLayoutBoxColor_1.VerticalAlignment = Enum.VerticalAlignment.Center
+
+			Red_1.Name = "Red"
+			Red_1.Parent = BoxColor
+			Red_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			Red_1.BackgroundTransparency = 1
+			Red_1.BorderColor3 = Color3.fromRGB(0,0,0)
+			Red_1.BorderSizePixel = 0
+			Red_1.LayoutOrder = 1
+			Red_1.Size = UDim2.new(1, 0,0, 21)
+
+			BarValueRed_1.Name = "BarValueRed"
+			BarValueRed_1.Parent = Red_1
+			BarValueRed_1.AnchorPoint = Vector2.new(0, 0.5)
+			BarValueRed_1.BackgroundColor3 = Color3.fromRGB(217,217,217)
+			BarValueRed_1.BackgroundTransparency = 1
+			BarValueRed_1.BorderColor3 = Color3.fromRGB(0,0,0)
+			BarValueRed_1.BorderSizePixel = 0
+			BarValueRed_1.Position = UDim2.new(0, 0,0.5, 0)
+			BarValueRed_1.Size = UDim2.new(0.600000024, 0,0, 15)
+
+			UICorner_2.Parent = BarValueRed_1
+			UICorner_2.CornerRadius = UDim.new(1,0)
+
+			UIStroke_2.Parent = BarValueRed_1
+			UIStroke_2.Thickness = 1
+			UIStroke_2.Color = Color3.fromRGB(255, 255, 255)
+			UIStroke_2.Transparency = 0.95
+
+			addToTheme('Function.Color Picker.Color Select.UIStroke', UIStroke_2)
+
+			TextLabel_3.Name = "TextLabel"
+			TextLabel_3.Parent = BarValueRed_1
+			TextLabel_3.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			TextLabel_3.BackgroundTransparency = 1
+			TextLabel_3.BorderColor3 = Color3.fromRGB(0,0,0)
+			TextLabel_3.BorderSizePixel = 0
+			TextLabel_3.Size = UDim2.new(1, 0,1, 0)
+			TextLabel_3.Font = Enum.Font.Gotham
+			TextLabel_3.PlaceholderColor3 = Color3.fromRGB(178,178,178)
+			TextLabel_3.PlaceholderText = "255"
+			TextLabel_3.Text = "255"
+			TextLabel_3.TextSize = 9
+			TextLabel_3.TextTruncate = Enum.TextTruncate.AtEnd
+			TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+			addToTheme('Text & Icon', TextLabel_3)
+
+			TextLabel_4.Parent = Red_1
+			TextLabel_4.AnchorPoint = Vector2.new(1, 0.5)
+			TextLabel_4.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			TextLabel_4.BackgroundTransparency = 1
+			TextLabel_4.BorderColor3 = Color3.fromRGB(0,0,0)
+			TextLabel_4.BorderSizePixel = 0
+			TextLabel_4.Position = UDim2.new(0.980000019, 0,0.5, 0)
+			TextLabel_4.Size = UDim2.new(0, 20,0, 20)
+			TextLabel_4.Font = Enum.Font.Gotham
+			TextLabel_4.Text = "Red"
+			TextLabel_4.TextSize = 9
+			TextLabel_4.TextXAlignment = Enum.TextXAlignment.Left
+			TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+			addToTheme('Text & Icon', TextLabel_4)
+
+			Green_1.Name = "Green"
+			Green_1.Parent = BoxColor
+			Green_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			Green_1.BackgroundTransparency = 1
+			Green_1.BorderColor3 = Color3.fromRGB(0,0,0)
+			Green_1.BorderSizePixel = 0
+			Green_1.LayoutOrder = 2
+			Green_1.Size = UDim2.new(1, 0,0, 21)
+
+			BarValueGreen_1.Name = "BarValueGreen"
+			BarValueGreen_1.Parent = Green_1
+			BarValueGreen_1.AnchorPoint = Vector2.new(0, 0.5)
+			BarValueGreen_1.BackgroundColor3 = Color3.fromRGB(217,217,217)
+			BarValueGreen_1.BackgroundTransparency = 1
+			BarValueGreen_1.BorderColor3 = Color3.fromRGB(0,0,0)
+			BarValueGreen_1.BorderSizePixel = 0
+			BarValueGreen_1.Position = UDim2.new(0, 0,0.5, 0)
+			BarValueGreen_1.Size = UDim2.new(0.600000024, 0,0, 15)
+
+			UICorner_3.Parent = BarValueGreen_1
+			UICorner_3.CornerRadius = UDim.new(1,0)
+
+			UIStroke_3.Parent = BarValueGreen_1
+			UIStroke_3.Thickness = 1
+			UIStroke_3.Color = Color3.fromRGB(255, 255, 255)
+			UIStroke_3.Transparency = 0.95
+
+			addToTheme('Function.Color Picker.Color Select.UIStroke', UIStroke_3)
+
+			TextLabel_5.Name = "TextLabel"
+			TextLabel_5.Parent = BarValueGreen_1
+			TextLabel_5.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			TextLabel_5.BackgroundTransparency = 1
+			TextLabel_5.BorderColor3 = Color3.fromRGB(0,0,0)
+			TextLabel_5.BorderSizePixel = 0
+			TextLabel_5.Size = UDim2.new(1, 0,1, 0)
+			TextLabel_5.Font = Enum.Font.Gotham
+			TextLabel_5.PlaceholderColor3 = Color3.fromRGB(178,178,178)
+			TextLabel_5.PlaceholderText = "255"
+			TextLabel_5.Text = "255"
+			TextLabel_5.TextSize = 9
+			TextLabel_5.TextTruncate = Enum.TextTruncate.AtEnd
+			TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+			addToTheme('Text & Icon', TextLabel_5)
+
+			TextLabel_6.Parent = Green_1
+			TextLabel_6.AnchorPoint = Vector2.new(1, 0.5)
+			TextLabel_6.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			TextLabel_6.BackgroundTransparency = 1
+			TextLabel_6.BorderColor3 = Color3.fromRGB(0,0,0)
+			TextLabel_6.BorderSizePixel = 0
+			TextLabel_6.Position = UDim2.new(0.980000019, 0,0.5, 0)
+			TextLabel_6.Size = UDim2.new(0, 20,0, 20)
+			TextLabel_6.Font = Enum.Font.Gotham
+			TextLabel_6.Text = "Green"
+			TextLabel_6.TextSize = 9
+			TextLabel_6.TextXAlignment = Enum.TextXAlignment.Left
+			TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+			addToTheme('Text & Icon', TextLabel_6)
+
+			Blue_1.Name = "Blue"
+			Blue_1.Parent = BoxColor
+			Blue_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			Blue_1.BackgroundTransparency = 1
+			Blue_1.BorderColor3 = Color3.fromRGB(0,0,0)
+			Blue_1.BorderSizePixel = 0
+			Blue_1.LayoutOrder = 3
+			Blue_1.Size = UDim2.new(1, 0,0, 21)
+
+			BarValueBlue_1.Name = "BarValueBlue"
+			BarValueBlue_1.Parent = Blue_1
+			BarValueBlue_1.AnchorPoint = Vector2.new(0, 0.5)
+			BarValueBlue_1.BackgroundColor3 = Color3.fromRGB(217,217,217)
+			BarValueBlue_1.BackgroundTransparency = 1
+			BarValueBlue_1.BorderColor3 = Color3.fromRGB(0,0,0)
+			BarValueBlue_1.BorderSizePixel = 0
+			BarValueBlue_1.Position = UDim2.new(0, 0,0.5, 0)
+			BarValueBlue_1.Size = UDim2.new(0.600000024, 0,0, 15)
+
+			UICorner_4.Parent = BarValueBlue_1
+			UICorner_4.CornerRadius = UDim.new(1,0)
+
+			UIStroke_4.Parent = BarValueBlue_1
+			UIStroke_4.Thickness = 1
+			UIStroke_4.Color = Color3.fromRGB(255, 255, 255)
+			UIStroke_4.Transparency = 0.95
+
+			addToTheme('Function.Color Picker.Color Select.UIStroke', UIStroke_4)
+
+			TextLabel_7.Name = "TextLabel"
+			TextLabel_7.Parent = BarValueBlue_1
+			TextLabel_7.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			TextLabel_7.BackgroundTransparency = 1
+			TextLabel_7.BorderColor3 = Color3.fromRGB(0,0,0)
+			TextLabel_7.BorderSizePixel = 0
+			TextLabel_7.Size = UDim2.new(1, 0,1, 0)
+			TextLabel_7.Font = Enum.Font.Gotham
+			TextLabel_7.PlaceholderColor3 = Color3.fromRGB(178,178,178)
+			TextLabel_7.PlaceholderText = "255"
+			TextLabel_7.Text = "255"
+			TextLabel_7.TextSize = 9
+			TextLabel_7.TextTruncate = Enum.TextTruncate.AtEnd
+			TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+			addToTheme('Text & Icon', TextLabel_7)
+
+			TextLabel_8.Parent = Blue_1
+			TextLabel_8.AnchorPoint = Vector2.new(1, 0.5)
+			TextLabel_8.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			TextLabel_8.BackgroundTransparency = 1
+			TextLabel_8.BorderColor3 = Color3.fromRGB(0,0,0)
+			TextLabel_8.BorderSizePixel = 0
+			TextLabel_8.Position = UDim2.new(0.980000019, 0,0.5, 0)
+			TextLabel_8.Size = UDim2.new(0, 20,0, 20)
+			TextLabel_8.Font = Enum.Font.Gotham
+			TextLabel_8.Text = "Blue"
+			TextLabel_8.TextSize = 9
+			TextLabel_8.TextXAlignment = Enum.TextXAlignment.Left
+			TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+			addToTheme('Text & Icon', TextLabel_8)
+
+			local Shower = Instance.new("Frame")
+			local UICornerShow = Instance.new("UICorner")
+			local GlowDotShow = Instance.new("ImageLabel")
+
+			Shower.Name = "Shower"
+			Shower.Parent = ColorpickBar
+			Shower.AnchorPoint = Vector2.new(1, 0)
+			Shower.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+			Shower.BorderColor3 = Color3.fromRGB(0, 0, 0)
+			Shower.BorderSizePixel = 0
+			Shower.Position = UDim2.new(1, 0, 0.0500000007, 0)
+			Shower.Size = UDim2.new(0, 40, 0, 15)
+
+			UICornerShow.CornerRadius = UDim.new(1, 0)
+			UICornerShow.Name = "UICornerShow"
+			UICornerShow.Parent = Shower
+
+			GlowDotShow.Name = "GlowDotShow"
+			GlowDotShow.Parent = Shower
+			GlowDotShow.AnchorPoint = Vector2.new(0.5, 0.5)
+			GlowDotShow.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			GlowDotShow.BackgroundTransparency = 1.000
+			GlowDotShow.BorderColor3 = Color3.fromRGB(0, 0, 0)
+			GlowDotShow.BorderSizePixel = 0
+			GlowDotShow.Position = UDim2.new(0.5, 0, 0.5, 0)
+			GlowDotShow.Size = UDim2.new(1.25, 0, 1.5, 0)
+			GlowDotShow.Image = "rbxassetid://105506802034513"
+			GlowDotShow.ImageColor3 = Color3.fromRGB(255, 0, 0)
+			GlowDotShow.ImageTransparency = 0.200
+
+			local Click = click(ColorPicker)
+			local ClickColor = click(Color_1)
+			local ClickHue = click(Hue_1)
+			local isopen = false
+
+			local ColorH, ColorS, ColorV = 1, 1, 1
+			local lastColorH = -1
+			local ColorInput = nil
+			local HueInput = nil
+			local Mouse = game:GetService("Players").LocalPlayer:GetMouse()
+			local lastColor = nil
+			local ColorInput = nil
+			local HueInput = nil
+			local isTouchDevice = U.TouchEnabled
+
+			local function open()
+				local targetX = Picker_1.AbsolutePosition.X - ColorpickBar.Parent.AbsolutePosition.X + Picker_1.Size.X.Offset - 145
+				local targetY = Picker_1.AbsolutePosition.Y - ColorpickBar.Parent.AbsolutePosition.Y + Picker_1.Size.Y.Offset - 50
+				tw({v = ColorpickBar, t = 0.15, s = Enum.EasingStyle.Exponential, d = "Out", g = {Size = UDim2.new(0, 200,0, 125), Position = UDim2.new(0, targetX, 0, targetY)}}):Play()
+				tw({v = UIStroke_1, t = 0.15, s = Enum.EasingStyle.Linear, d = "Out", g = {Transparency = 0.95}}):Play()
+			end
+			local function close()
+				isopen = false
+				tw({v = ColorpickBar, t = 0.15, s = Enum.EasingStyle.Exponential, d = "Out", g = {Size = UDim2.new(0, 200,0, 0)}}):Play()
+				tw({v = UIStroke_1, t = 0.15, s = Enum.EasingStyle.Linear, d = "Out", g = {Transparency = 1}}):Play()
+			end
+
+			U.InputBegan:Connect(function(A)
+				if A.UserInputType == Enum.UserInputType.MouseButton1 or A.UserInputType == Enum.UserInputType.Touch then
+					local B, C = ColorpickBar.AbsolutePosition, ColorpickBar.AbsoluteSize
+					if game:GetService "Players".LocalPlayer:GetMouse().X < B.X or game:GetService "Players".LocalPlayer:GetMouse().X > B.X + C.X or game:GetService "Players".LocalPlayer:GetMouse().Y < (B.Y - 20 - 1) or game:GetService "Players".LocalPlayer:GetMouse().Y > B.Y + C.Y then
+						close()
+					end
+				end
+			end)
+
+			Click.MouseButton1Click:Connect(function()
+				isopen = not isopen
+				if isopen then
+					open()
+				else
+					close()
+				end
+			end)
+
+			local function UpdateColorPicker(nope)
+				Picker_1.BackgroundColor3 = Color3.fromHSV(ColorH, ColorS, ColorV)
+				GlowDot_1.ImageColor3 = Color3.fromHSV(ColorH, ColorS, ColorV)
+				Color_1.BackgroundColor3 = Color3.fromHSV(ColorH, 1, 1)
+
+				Shower.BackgroundColor3 = Color3.fromHSV(ColorH, ColorS, ColorV)
+				GlowDotShow.ImageColor3 = Color3.fromHSV(ColorH, ColorS, ColorV)
+
+				local r, g, b = Picker_1.BackgroundColor3.R * 255, Picker_1.BackgroundColor3.G * 255, Picker_1.BackgroundColor3.B * 255
+
+				TextLabel_3.Text = tostring(math.floor(r))
+				TextLabel_5.Text = tostring(math.floor(g))
+				TextLabel_7.Text = tostring(math.floor(b))
+
+				local hex = string.format("#%02X%02X%02X", math.floor(r), math.floor(g), math.floor(b))
+				TextLabel_1.Text = hex
+
+				ColorH, ColorS, ColorV = Color3.toHSV(Picker_1.BackgroundColor3)
+
+				if ColorS ~= 0 and ColorV ~= 0 then
+					tw({v = ColorSelection_1, t = 0.15, s = Enum.EasingStyle.Exponential, d = "Out", g = {Position = UDim2.new(ColorS, 0, 1 - ColorV, 0)}}):Play()
+				end
+				if lastColorH ~= ColorH and ColorS ~= 0 and ColorV ~= 0 and ColorS ~= 255 and ColorV ~= 255 then
+					lastColorH = ColorH
+					tw({v = HueSelection_1, t = 0.15, s = Enum.EasingStyle.Exponential, d = "Out", g = {Position = UDim2.new(0.5, 0, 1 - ColorH, 0)}}):Play()
+				end
+
+				if lastColor ~= Picker_1.BackgroundColor3 then
+					lastColor = Picker_1.BackgroundColor3
+					pcall(Callback, math.floor(r), math.floor(g), math.floor(b))
+				end
+			end
+
+			local function HexToRGB(hex)
+				if hex:sub(1, 1) == "#" then
+					hex = hex:sub(2)
+				end
+
+				if #hex == 6 then
+					local r = tonumber(hex:sub(1, 2), 16) / 255
+					local g = tonumber(hex:sub(3, 4), 16) / 255
+					local b = tonumber(hex:sub(5, 6), 16) / 255
+					return r, g, b
+				else
+					return 0, 0, 0
+				end
+			end
+
+			local function UpdateColorFromText()
+				local hex = TextLabel_1.Text:match("^#[%x]+$")
+				if hex then
+					local r, g, b = HexToRGB(hex)
+					r = math.clamp(r, 0, 1)
+					g = math.clamp(g, 0, 1)
+					b = math.clamp(b, 0, 1)
+
+					local h, s, v = Color3.toHSV(Color3.new(r, g, b))
+					ColorH, ColorS, ColorV = h, s, v
+					UpdateColorPicker(true)
+				else
+					local r = tonumber(TextLabel_3.Text) or 0
+					local g = tonumber(TextLabel_5.Text) or 0
+					local b = tonumber(TextLabel_7.Text) or 0
+
+					r = math.clamp(r, 0, 255) / 255
+					g = math.clamp(g, 0, 255) / 255
+					b = math.clamp(b, 0, 255) / 255
+
+					local h, s, v = Color3.toHSV(Color3.new(r, g, b))
+					ColorH, ColorS, ColorV = h, s, v
+					UpdateColorPicker(true)
+				end
+			end
+
+			TextLabel_3.FocusLost:Connect(UpdateColorFromText)
+			TextLabel_5.FocusLost:Connect(UpdateColorFromText)
+			TextLabel_7.FocusLost:Connect(UpdateColorFromText)
+			TextLabel_1.FocusLost:Connect(UpdateColorFromText)
+
+
+			ColorH = 1 - (math.clamp(HueSelection_1.AbsolutePosition.Y - Hue_1.AbsolutePosition.Y, 0, Hue_1.AbsoluteSize.Y) / Hue_1.AbsoluteSize.Y)
+			ColorS = (math.clamp(ColorSelection_1.AbsolutePosition.X - Color_1.AbsolutePosition.X, 0, Color_1.AbsoluteSize.X) / Color_1.AbsoluteSize.X)
+			ColorV = 1 - (math.clamp(ColorSelection_1.AbsolutePosition.Y - Color_1.AbsolutePosition.Y, 0, Color_1.AbsoluteSize.Y) / Color_1.AbsoluteSize.Y)
+
+			Picker_1.BackgroundColor3 = Value
+			Color_1.BackgroundColor3 = Value
+
+			ClickColor.InputBegan:Connect(function(input)
+				if input.UserInputType == Enum.UserInputType.MouseButton1 then
+					if ColorInput then
+						ColorInput:Disconnect()
+					end
+
+					ColorInput = game:GetService("RunService").RenderStepped:Connect(function()
+						local ColorX = (math.clamp(Mouse.X - Color_1.AbsolutePosition.X, 0, Color_1.AbsoluteSize.X) /Color_1.AbsoluteSize.X)
+						local ColorY = (math.clamp(Mouse.Y - Color_1.AbsolutePosition.Y, 0, Color_1.AbsoluteSize.Y) /Color_1.AbsoluteSize.Y)
+
+						tw({v = ColorSelection_1, t = 0.15, s = Enum.EasingStyle.Exponential, d = "Out", g = {Position = UDim2.new(ColorX, 0, ColorY, 0)}}):Play()
+						ColorS = ColorX
+						ColorV = 1 - ColorY
+
+						UpdateColorPicker(true)
+					end)
+				end
+			end)
+
+			ClickColor.InputEnded:Connect(function(input)
+				if input.UserInputType == Enum.UserInputType.MouseButton1 then
+					if ColorInput then
+						ColorInput:Disconnect()
+					end
+				end
+			end)
+
+			ClickHue.InputBegan:Connect(function(input)
+				if input.UserInputType == Enum.UserInputType.MouseButton1 then
+					if HueInput then
+						HueInput:Disconnect()
+					end
+
+					HueInput = game:GetService("RunService").RenderStepped:Connect(function()
+						local HueY = (math.clamp(Mouse.Y - Hue_1.AbsolutePosition.Y, 0, Hue_1.AbsoluteSize.Y) /Hue_1.AbsoluteSize.Y)
+						tw({v = HueSelection_1, t = 0.15, s = Enum.EasingStyle.Exponential, d = "Out", g = {Position = UDim2.new(0.5, 0, HueY, 0)}}):Play()
+						ColorH = 1 - HueY
+
+						UpdateColorPicker(true)
+					end)
+				end
+			end)
+
+			ClickHue.InputEnded:Connect(function(input)
+				if input.UserInputType == Enum.UserInputType.MouseButton1 then
+					if HueInput then
+						HueInput:Disconnect()
+					end
+				end
+			end)
+
+			if isTouchDevice then
+				Color_1.InputBegan:Connect(function(input)
+					if input.UserInputType == Enum.UserInputType.Touch then
+						if ColorInput then
+							ColorInput:Disconnect()
+						end
+
+						ColorInput = game:GetService("RunService").RenderStepped:Connect(function()
+							local ColorX = (math.clamp(Mouse.X - Color_1.AbsolutePosition.X, 0, Color_1.AbsoluteSize.X) / Color_1.AbsoluteSize.X)
+							local ColorY = (math.clamp(Mouse.Y - Color_1.AbsolutePosition.Y, 0, Color_1.AbsoluteSize.Y) / Color_1.AbsoluteSize.Y)
+
+							ColorSelection_1.Position = UDim2.new(ColorX, 0, ColorY, 0)
+							ColorS = ColorX
+							ColorV = 1 - ColorY
+
+							UpdateColorPicker(true)
+						end)
+					end
+				end)
+
+				Color_1.InputEnded:Connect(function(input)
+					if input.UserInputType == Enum.UserInputType.Touch then
+						if ColorInput then
+							ColorInput:Disconnect()
+						end
+					end
+				end)
+
+				Hue_1.InputBegan:Connect(function(input)
+					if input.UserInputType == Enum.UserInputType.Touch then
+						if HueInput then
+							HueInput:Disconnect()
+						end
+
+						HueInput = game:GetService("RunService").RenderStepped:Connect(function()
+							local HueY = (math.clamp(Mouse.Y - Hue_1.AbsolutePosition.Y, 0, Hue_1.AbsoluteSize.Y) / Hue_1.AbsoluteSize.Y)
+
+							HueSelection_1.Position = UDim2.new(0.48, 0, HueY, 0)
+							ColorH = 1 - HueY
+
+							UpdateColorPicker(true)
+						end)
+					end
+				end)
+
+				Hue_1.InputEnded:Connect(function(input)
+					if input.UserInputType == Enum.UserInputType.Touch then
+						if HueInput then
+							HueInput:Disconnect()
+						end
+					end
+				end)
+			end
+
+			delay(0,function()
+				ColorH, ColorS, ColorV = Color3.toHSV(Picker_1.BackgroundColor3)
+				UpdateColorPicker(true)
+				local r, g, b = Picker_1.BackgroundColor3.R * 255, Picker_1.BackgroundColor3.G * 255, Picker_1.BackgroundColor3.B * 255
+				pcall(Callback, math.floor(r), math.floor(g), math.floor(b))
+			end)
+
+			local New = {}
+
+			function New:SetTitle(t)
+				Config:SetTitle(t)
+			end
+
+			function New:SetDesc(t)
+				Config:SetDesc(t)
+			end
+
+			function New:SetVisible(t)
+				ColorPicker.Visible = t
+			end
+
+			function New:SetValue(colorTable)
+				local r = colorTable.R or Picker_1.BackgroundColor3.R * 255
+				local g = colorTable.G or Picker_1.BackgroundColor3.G * 255
+				local b = colorTable.B or Picker_1.BackgroundColor3.B * 255
+
+				if r >= 0 and r <= 255 and g >= 0 and g <= 255 and b >= 0 and b <= 255 then
+					local newColor = Color3.fromRGB(r, g, b)
+
+					Picker_1.BackgroundColor3 = newColor
+					Color_1.BackgroundColor3 = newColor
+
+					local h, s, v = Color3.toHSV(newColor)
+					ColorH, ColorS, ColorV = h, s, v
+
+					ColorSelection_1.Position = UDim2.new(s, 0, 1 - v, 0)
+					HueSelection_1.Position = UDim2.new(0.48, 0, 1 - h, 0)
+					pcall(Callback, r, g, b)
+				end
+			end
+
+			return New
+		end
+
+		function Func:Textbox(p)
+			local Title = p.Title
+			local Desc = p.Desc or ''
+			local Image = p.Image or ''
+			local Value = p.Value or ''
+			local Placeholder = p.Placeholder or 'Paste Your Text'
+			local ClearText = p.ClearText or p.ClearTextOnFocus or false
+			local Callback = p.Callback or function() end
+
+			local Textbox, Config = background(ScrollingFrame_1, Title, Desc, Image, 'Textbox')
+
+			Config:SetTextTransparencyTitle(0)
+			Config:SetSizeT(145)
+
+			local F = Instance.new("Frame")
+			local UIListLayout_1 = Instance.new("UIListLayout")
+			local UIPadding_1 = Instance.new("UIPadding")
+			local Frame_1 = Instance.new("Frame")
+			local UICorner_1 = Instance.new("UICorner")
+			local UIStroke_1 = Instance.new("UIStroke")
+			local UIPadding_2 = Instance.new("UIPadding")
+			local ImageLabel_1 = Instance.new("ImageLabel")
+			local TextLabel_1 = Instance.new("TextBox")
+			local Frame_2 = Instance.new("Frame")
+
+			F.Name = "F"
+			F.Parent = Textbox
+			F.AnchorPoint = Vector2.new(1, 0.5)
+			F.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			F.BackgroundTransparency = 1
+			F.BorderColor3 = Color3.fromRGB(0,0,0)
+			F.BorderSizePixel = 0
+			F.Position = UDim2.new(1, 0,0.5, 0)
+			F.Size = UDim2.new(0, 150,0.800000012, 0)
+
+			UIListLayout_1.Parent = F
+			UIListLayout_1.Padding = UDim.new(0,15)
+			UIListLayout_1.FillDirection = Enum.FillDirection.Horizontal
+			UIListLayout_1.HorizontalAlignment = Enum.HorizontalAlignment.Right
+			UIListLayout_1.SortOrder = Enum.SortOrder.LayoutOrder
+			UIListLayout_1.VerticalAlignment = Enum.VerticalAlignment.Center
+
+			UIPadding_1.Parent = F
+			UIPadding_1.PaddingRight = UDim.new(0,13)
+
+			Frame_1.Parent = F
+			Frame_1.BackgroundColor3 = Color3.fromRGB(24,24,31)
+			Frame_1.BorderColor3 = Color3.fromRGB(0,0,0)
+			Frame_1.BorderSizePixel = 0
+			Frame_1.Size = UDim2.new(0, 130,0, 25)
+
+			addToTheme('Function.Textbox.Value Background', Frame_1)
+
+			UICorner_1.Parent = Frame_1
+			UICorner_1.CornerRadius = UDim.new(0,4)
+
+			UIStroke_1.Parent = Frame_1
+			UIStroke_1.Color = Color3.fromRGB(255,255,255)
+			UIStroke_1.Thickness = 1
+			UIStroke_1.Transparency = 0.95
+
+			addToTheme('Function.Textbox.Value Stroke', UIStroke_1)
+
+			UIPadding_2.Parent = Frame_1
+			UIPadding_2.PaddingLeft = UDim.new(0,5)
+			UIPadding_2.PaddingRight = UDim.new(0,5)
+
+			ImageLabel_1.Parent = Frame_1
+			ImageLabel_1.AnchorPoint = Vector2.new(1, 0.5)
+			ImageLabel_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			ImageLabel_1.BackgroundTransparency = 1
+			ImageLabel_1.BorderColor3 = Color3.fromRGB(0,0,0)
+			ImageLabel_1.BorderSizePixel = 0
+			ImageLabel_1.Position = UDim2.new(1, 0,0.5, 0)
+			ImageLabel_1.Size = UDim2.new(0, 15,0, 15)
+			ImageLabel_1.Image = "rbxassetid://13868675087"
+			ImageLabel_1.ImageTransparency = 0.30000001192092896
+
+			addToTheme('Text & Value', ImageLabel_1)
+
+			TextLabel_1.Name = "TextLabel"
+			TextLabel_1.Parent = Frame_1
+			TextLabel_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			TextLabel_1.BackgroundTransparency = 1
+			TextLabel_1.BorderColor3 = Color3.fromRGB(0,0,0)
+			TextLabel_1.BorderSizePixel = 0
+			TextLabel_1.Size = UDim2.new(0.800000012, 0,1, 0)
+			TextLabel_1.Font = Enum.Font.GothamBold
+			TextLabel_1.PlaceholderColor3 = Color3.fromRGB(178,178,178)
+			TextLabel_1.PlaceholderText = Placeholder
+			TextLabel_1.RichText = true
+			TextLabel_1.Text = Value
+			TextLabel_1.TextColor3 = Color3.fromRGB(255,255,255)
+			TextLabel_1.TextSize = 10
+			TextLabel_1.TextTransparency = 0.30000001192092896
+			TextLabel_1.TextWrapped = true
+			TextLabel_1.TextXAlignment = Enum.TextXAlignment.Left
+			TextLabel_1.ClearTextOnFocus = not ClearText
+
+			addToTheme('Text & Value', TextLabel_1)
+
+			Frame_2.Parent = Frame_1
+			Frame_2.AnchorPoint = Vector2.new(0.5, 1)
+			Frame_2.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			Frame_2.BackgroundTransparency = 0.949999988079071
+			Frame_2.BorderColor3 = Color3.fromRGB(0,0,0)
+			Frame_2.BorderSizePixel = 0
+			Frame_2.Position = UDim2.new(0.5, 0,1, 0)
+			Frame_2.Size = UDim2.new(1.05, 0,0, 2)
+
+			local function o()
+				if #TextLabel_1.Text > 0 then
+					pcall(Callback, TextLabel_1.Text)
+				end
+			end
+
+			TextLabel_1.FocusLost:Connect(o)
+
+			delay(0, o)
+
+			local New = {}
+
+			function New:SetTitle(t)
+				Config:SetTitle(t)
+			end
+
+			function New:SetDesc(t)
+				Config:SetDesc(t)
+			end
+
+			function New:SetVisible(t)
+				Textbox.Visible = t
+			end
+
+			function New:SetValue(t)
+				TextLabel_1.Text = t
+			end
+
+			function New:SetClearTextOnFocus(t)
+				TextLabel_1.ClearTextOnFocus = not t
+			end
+
+			function New:SetPlaceholderText(t)
+				TextLabel_1.PlaceholderText = t
+			end
+
+			return New
+		end
+
+		function Func:Image()
+			local ImageLogo = Instance.new("ImageLabel")
+			local UICorner_1 = Instance.new("UICorner")
+			ImageLogo.Name = "Im"
+			ImageLogo.Parent = ScrollingFrame_1
+			ImageLogo.AnchorPoint = Vector2.new(0.5,0.5)
+			ImageLogo.Position = UDim2.new(0.5,0,0.5,0)
+			ImageLogo.BackgroundTransparency = 1
+			ImageLogo.Size = UDim2.new(1,0,180,0)
+			ImageLogo.Image = 'rbxassetid://111362591084511'
+			ImageLogo.ScaleType = Enum.ScaleType.Crop
+			UICorner_1.Parent = ImageLogo
+			UICorner_1.CornerRadius = UDim.new(0,3)
+		end
+
+		return Func
+	end
+
+	local Notification = Instance.new("Frame")
+	local UIPaddingUIListLayoutNotification_1 = Instance.new("UIPadding")
+	local UIListLayoutNotification_1 = Instance.new("UIListLayout")
+
+	Notification.Name = "Notification"
+	Notification.Parent = ScreenGui
+	Notification.AnchorPoint = Vector2.new(1, 1)
+	Notification.BackgroundColor3 = Color3.fromRGB(255,255,255)
+	Notification.BackgroundTransparency = 1
+	Notification.BorderColor3 = Color3.fromRGB(0,0,0)
+	Notification.BorderSizePixel = 0
+	Notification.Position = UDim2.new(1, 0,1, 0)
+	Notification.Size = UDim2.new(0, 100,0, 100)
+
+	UIPaddingUIListLayoutNotification_1.Parent = Notification
+	UIPaddingUIListLayoutNotification_1.PaddingBottom = UDim.new(0,20)
+	UIPaddingUIListLayoutNotification_1.PaddingRight = UDim.new(0,5)
+
+	UIListLayoutNotification_1.Parent = Notification
+	UIListLayoutNotification_1.HorizontalAlignment = Enum.HorizontalAlignment.Right
+	UIListLayoutNotification_1.SortOrder = Enum.SortOrder.LayoutOrder
+	UIListLayoutNotification_1.VerticalAlignment = Enum.VerticalAlignment.Bottom
+
+	function Tabs:Notify(p)
+		local Title = p.Title or 'null'
+		local Desc = p.Desc or ''
+		local Time = p.Time or 5
+
+		local Shadow = Instance.new("ImageLabel")
+		local UIPadding_1 = Instance.new("UIPadding")
+		local Background_1 = Instance.new("CanvasGroup")
+		local UICorner_1 = Instance.new("UICorner")
+		local Frame_1 = Instance.new("Frame")
+		local Text_1 = Instance.new("Frame")
+		local UIPadding_2 = Instance.new("UIPadding")
+		local Title_1 = Instance.new("TextLabel")
+		local UIListLayout_1 = Instance.new("UIListLayout")
+		local Description_1 = Instance.new("TextLabel")
+		local Frame_2 = Instance.new("Frame")
+
+		Shadow.Name = "Shadow"
+		Shadow.Parent = Notification
+		Shadow.BackgroundColor3 = Color3.fromRGB(163,162,165)
+		Shadow.BackgroundTransparency = 1
+		Shadow.Size = UDim2.new(0, 180,0, 0)
+		Shadow.Image = "rbxassetid://1316045217"
+		Shadow.ImageColor3 = themes[IsTheme].Shadow
+		Shadow.ImageTransparency = 0.5
+		Shadow.ScaleType = Enum.ScaleType.Slice
+		Shadow.SliceCenter = Rect.new(10, 10, 118, 118)
+
+		addToTheme('Shadow', Shadow)
+
+		UIPadding_1.Parent = Shadow
+		UIPadding_1.PaddingBottom = UDim.new(0,5)
+		UIPadding_1.PaddingLeft = UDim.new(0,5)
+		UIPadding_1.PaddingRight = UDim.new(0,5)
+		UIPadding_1.PaddingTop = UDim.new(0,5)
+
+		Background_1.Name = "Background"
+		Background_1.Parent = Shadow
+		Background_1.AnchorPoint = Vector2.new(0.5, 0.5)
+		Background_1.BackgroundColor3 = themes[IsTheme].Background
+		Background_1.BorderColor3 = Color3.fromRGB(0,0,0)
+		Background_1.BorderSizePixel = 0
+		Background_1.Position = UDim2.new(0.5, 0,0.5, 0)
+		Background_1.Size = UDim2.new(1, 0,1, 0)
+		Background_1.ClipsDescendants = true
+		Background_1.GroupTransparency = 1
+
+		addToTheme('Background', Background_1)
+
+		UICorner_1.Parent = Background_1
+		UICorner_1.CornerRadius = UDim.new(0,6)
+
+		Frame_1.Parent = Background_1
+		Frame_1.AnchorPoint = Vector2.new(0, 1)
+		Frame_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+		Frame_1.BackgroundTransparency = 0.8999999761581421
+		Frame_1.BorderColor3 = Color3.fromRGB(0,0,0)
+		Frame_1.BorderSizePixel = 0
+		Frame_1.Position = UDim2.new(0, 0,1, 0)
+		Frame_1.Size = UDim2.new(1, 0,0, 4)
+
+		Text_1.Name = "Text"
+		Text_1.Parent = Background_1
+		Text_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+		Text_1.BackgroundTransparency = 1
+		Text_1.BorderColor3 = Color3.fromRGB(0,0,0)
+		Text_1.BorderSizePixel = 0
+		Text_1.Size = UDim2.new(1, 0,1, 0)
+
+		UIPadding_2.Parent = Text_1
+		UIPadding_2.PaddingBottom = UDim.new(0,5)
+		UIPadding_2.PaddingLeft = UDim.new(0,5)
+		UIPadding_2.PaddingRight = UDim.new(0,5)
+		UIPadding_2.PaddingTop = UDim.new(0,5)
+
+		Title_1.Name = "Title"
+		Title_1.Parent = Text_1
+		Title_1.AutomaticSize = Enum.AutomaticSize.Y
+		Title_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+		Title_1.BackgroundTransparency = 1
+		Title_1.BorderColor3 = Color3.fromRGB(0,0,0)
+		Title_1.BorderSizePixel = 0
+		Title_1.Size = UDim2.new(1, 0,0, 0)
+		Title_1.Font = Enum.Font.GothamBold
+		Title_1.Text = tostring(Title)
+		Title_1.TextColor3 = themes[IsTheme]['Text & Icon']
+		Title_1.TextSize = 12
+		Title_1.TextWrapped = true
+		Title_1.RichText = true
+		Title_1.TextXAlignment = Enum.TextXAlignment.Left
+		Title_1.TextYAlignment = Enum.TextYAlignment.Top
+
+		addToTheme('Text & Icon', Title_1)
+
+		UIListLayout_1.Parent = Text_1
+		UIListLayout_1.Padding = UDim.new(0,3)
+		UIListLayout_1.SortOrder = Enum.SortOrder.LayoutOrder
+
+		Description_1.Name = "Description"
+		Description_1.Parent = Text_1
+		Description_1.AutomaticSize = Enum.AutomaticSize.Y
+		Description_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+		Description_1.BackgroundTransparency = 1
+		Description_1.BorderColor3 = Color3.fromRGB(0,0,0)
+		Description_1.BorderSizePixel = 0
+		Description_1.LayoutOrder = 2
+		Description_1.Size = UDim2.new(1, 0,0, 0)
+		Description_1.Font = Enum.Font.GothamBold
+		Description_1.Text = tostring(Desc)
+		Description_1.TextColor3 = themes[IsTheme]['Text & Icon']
+		Description_1.TextSize = 10
+		Description_1.TextTransparency = 0.5
+		Description_1.TextWrapped = true
+		Description_1.RichText = true
+		Description_1.TextXAlignment = Enum.TextXAlignment.Left
+		Description_1.TextYAlignment = Enum.TextYAlignment.Top
+		Description_1.Visible = false
+
+		addToTheme('Text & Icon', Description_1)
+
+		Frame_2.Parent = Text_1
+		Frame_2.BackgroundColor3 = themes[IsTheme]['Text & Icon']
+		Frame_2.BackgroundTransparency = 0.9
+		Frame_2.BorderColor3 = Color3.fromRGB(0,0,0)
+		Frame_2.BorderSizePixel = 0
+		Frame_2.LayoutOrder = 1
+		Frame_2.Size = UDim2.new(1, 0,0, 1)
+		Frame_2.Visible = false
+
+		addToTheme('Text & Icon', Frame_2)
+
+		Background_1.Size = UDim2.new(1, 0,1, 0) - UDim2.fromOffset(5, 5)
+
+		if Desc and Desc ~= '' then
+			Description_1.Visible = true
+			Frame_2.Visible = true
+		end
+
+		local function updateSize()
+			task.defer(function()
+				local newSize = UIListLayout_1.AbsoluteContentSize.Y + 28
+				if Shadow.Size.Y.Offset ~= newSize then
+					Shadow.Size = UDim2.new(0, 180, 0, newSize)
+				end
+			end)
+		end
+
+		delay(.1, updateSize)
+
+		UIListLayout_1:GetPropertyChangedSignal("AbsoluteContentSize"):Connect(updateSize)
+
+		local g = tw({
+			v = Shadow,
+			t = 0.15,
+			s = Enum.EasingStyle.Exponential,
+			d = "InOut",
+			g = {
+				Size = UDim2.new(0, 180,0, 55)
+			}
+		})
+		g:Play()
+		g.Completed:Wait()
+		tw({
+			v = Background_1,
+			t = 0.15,
+			s = Enum.EasingStyle.Linear,
+			d = "InOut",
+			g = {
+				Size = UDim2.new(1, 0,1, 0),
+				GroupTransparency = 0.3
+			}
+		}):Play()
+
+		task.spawn(function()
+			for i = Time, 1, -1 do
+				tw({v = Frame_1, t = 0.15, s = Enum.EasingStyle.Exponential, d = "Out", g = {Size = UDim2.new(i / Time, 0,0, 4)}}):Play()
+				task.wait(1)
+			end
+			local f = tw({
+				v = Background_1,
+				t = 0.15,
+				s = Enum.EasingStyle.Linear,
+				d = "InOut",
+				g = {
+					Size = UDim2.new(1, 0,1, 0) - UDim2.fromOffset(5, 5),
+					GroupTransparency = 1
+				}
+			})
+			f:Play()
+			f.Completed:Connect(function()
+				Shadow.ImageTransparency = 1
+				local g = tw({
+					v = Shadow,
+					t = 0.15,
+					s = Enum.EasingStyle.Exponential,
+					d = "InOut",
+					g = {
+						Size = UDim2.new(0, 180,0, 0)
+					}
+				})
+				g:Play()
+				g.Completed:Connect(function()
+					Shadow:Destroy()
+				end)
+			end)
+		end)
+	end
+
+	function Tabs:Dialog(p)
+		if Shadow_1:FindFirstChild('Dialog') then
+			return
+		end
+		local Button1 = p.Button1.Callback or function() end
+		local Button2 = p.Button2.Callback or function() end
+		local Title = p.Title or 'null'
+		local TitleButton1 = p.Button1.Title or 'null'
+		local TitleButton2 = p.Button2.Title or 'null'
+		local Color1 = p.Button1.Color or Color3.fromRGB(0, 188, 0)
+		local Color2 = p.Button2.Color or Color3.fromRGB(226, 39, 6)
+
+		local Dialog = Instance.new("CanvasGroup")
+		local UICorner_1 = Instance.new("UICorner")
+		local Frame_1 = Instance.new("Frame")
+		local TextLabel_1 = Instance.new("TextLabel")
+		local UIListLayout_1 = Instance.new("UIListLayout")
+		local Frame_2 = Instance.new("Frame")
+		local Button1_1 = Instance.new("Frame")
+		local UICorner_2 = Instance.new("UICorner")
+		local UIGradient_1 = Instance.new("UIGradient")
+		local UIStroke_1 = Instance.new("UIStroke")
+		local UIGradient_2 = Instance.new("UIGradient")
+		local TextLabel_2 = Instance.new("TextLabel")
+		local UIStroke_2 = Instance.new("UIStroke")
+		local UIListLayout_2 = Instance.new("UIListLayout")
+		local Button2_1 = Instance.new("Frame")
+		local UICorner_3 = Instance.new("UICorner")
+		local UIGradient_3 = Instance.new("UIGradient")
+		local UIStroke_3 = Instance.new("UIStroke")
+		local UIGradient_4 = Instance.new("UIGradient")
+		local TextLabel_3 = Instance.new("TextLabel")
+		local UIStroke_4 = Instance.new("UIStroke")
+
+		Dialog.Name = "Dialog"
+		Dialog.Parent = Shadow_1
+		Dialog.BackgroundColor3 = Color3.fromRGB(0,0,0)
+		Dialog.BackgroundTransparency = 0.3
+		Dialog.BorderColor3 = Color3.fromRGB(0,0,0)
+		Dialog.BorderSizePixel = 0
+		Dialog.Size = UDim2.new(1, 0,1, 0)
+		Dialog.GroupTransparency = 1
+
+		UICorner_1.Parent = Dialog
+		UICorner_1.CornerRadius = UDim.new(0,17)
+
+		Frame_1.Parent = Dialog
+		Frame_1.AnchorPoint = Vector2.new(0.5, 0.5)
+		Frame_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+		Frame_1.BackgroundTransparency = 1
+		Frame_1.BorderColor3 = Color3.fromRGB(0,0,0)
+		Frame_1.BorderSizePixel = 0
+		Frame_1.Position = UDim2.new(0.5, 0,0.5, 0)
+		Frame_1.Size = UDim2.new(0, 100,0, 100)
+
+		TextLabel_1.Parent = Frame_1
+		TextLabel_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+		TextLabel_1.BackgroundTransparency = 1
+		TextLabel_1.BorderColor3 = Color3.fromRGB(0,0,0)
+		TextLabel_1.BorderSizePixel = 0
+		TextLabel_1.Size = UDim2.new(0, 200,0, 30)
+		TextLabel_1.Font = Enum.Font.GothamBold
+		TextLabel_1.RichText = true
+		TextLabel_1.Text = tostring(Title)
+		TextLabel_1.TextColor3 = Color3.fromRGB(255,255,255)
+		TextLabel_1.TextSize = 20
+
+		UIListLayout_1.Parent = Frame_1
+		UIListLayout_1.HorizontalAlignment = Enum.HorizontalAlignment.Center
+		UIListLayout_1.SortOrder = Enum.SortOrder.LayoutOrder
+		UIListLayout_1.VerticalAlignment = Enum.VerticalAlignment.Center
+
+		Frame_2.Parent = Frame_1
+		Frame_2.BackgroundColor3 = Color3.fromRGB(255,255,255)
+		Frame_2.BackgroundTransparency = 1
+		Frame_2.BorderColor3 = Color3.fromRGB(0,0,0)
+		Frame_2.BorderSizePixel = 0
+		Frame_2.LayoutOrder = 1
+		Frame_2.Size = UDim2.new(0, 100,0, 50)
+
+		Button1_1.Name = "Button1"
+		Button1_1.Parent = Frame_2
+		Button1_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+		Button1_1.BorderColor3 = Color3.fromRGB(0,0,0)
+		Button1_1.BorderSizePixel = 0
+		Button1_1.Size = UDim2.new(0, 130,0, 40)
+
+		UICorner_2.Parent = Button1_1
+		UICorner_2.CornerRadius = UDim.new(1,0)
+
+		UIGradient_1.Parent = Button1_1
+		UIGradient_1.Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1, Color3.fromRGB(124, 124, 124))}
+
+		UIStroke_1.Parent = Button1_1
+		UIStroke_1.Color = Color3.fromRGB(255,255,255)
+		UIStroke_1.Thickness = 2
+
+		UIGradient_2.Parent = UIStroke_1
+		UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1, Color3.fromRGB(124, 124, 124))}
+		UIGradient_2.Rotation = 180
+
+		TextLabel_2.Parent = Button1_1
+		TextLabel_2.BackgroundColor3 = Color3.fromRGB(255,255,255)
+		TextLabel_2.BackgroundTransparency = 1
+		TextLabel_2.BorderColor3 = Color3.fromRGB(0,0,0)
+		TextLabel_2.BorderSizePixel = 0
+		TextLabel_2.Size = UDim2.new(1, 0,1, 0)
+		TextLabel_2.Font = Enum.Font.GothamBold
+		TextLabel_2.Text = TitleButton1
+		TextLabel_2.TextColor3 = Color1
+		TextLabel_2.TextSize = 16
+
+		UIStroke_2.Parent = TextLabel_2
+		UIStroke_2.Thickness = 1
+		UIStroke_2.Transparency = 0.95
+
+		UIListLayout_2.Parent = Frame_2
+		UIListLayout_2.Padding = UDim.new(0,10)
+		UIListLayout_2.FillDirection = Enum.FillDirection.Horizontal
+		UIListLayout_2.HorizontalAlignment = Enum.HorizontalAlignment.Center
+		UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+		UIListLayout_2.VerticalAlignment = Enum.VerticalAlignment.Center
+
+		Button2_1.Name = "Button2"
+		Button2_1.Parent = Frame_2
+		Button2_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+		Button2_1.BorderColor3 = Color3.fromRGB(0,0,0)
+		Button2_1.BorderSizePixel = 0
+		Button2_1.Size = UDim2.new(0, 130,0, 40)
+
+		UICorner_3.Parent = Button2_1
+		UICorner_3.CornerRadius = UDim.new(1,0)
+
+		UIGradient_3.Parent = Button2_1
+		UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1, Color3.fromRGB(124, 124, 124))}
+
+		UIStroke_3.Parent = Button2_1
+		UIStroke_3.Color = Color3.fromRGB(255,255,255)
+		UIStroke_3.Thickness = 2
+
+		UIGradient_4.Parent = UIStroke_3
+		UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1, Color3.fromRGB(124, 124, 124))}
+		UIGradient_4.Rotation = 180
+
+		TextLabel_3.Parent = Button2_1
+		TextLabel_3.BackgroundColor3 = Color3.fromRGB(255,255,255)
+		TextLabel_3.BackgroundTransparency = 1
+		TextLabel_3.BorderColor3 = Color3.fromRGB(0,0,0)
+		TextLabel_3.BorderSizePixel = 0
+		TextLabel_3.Size = UDim2.new(1, 0,1, 0)
+		TextLabel_3.Font = Enum.Font.GothamBold
+		TextLabel_3.Text = TitleButton2
+		TextLabel_3.TextColor3 = Color2
+		TextLabel_3.TextSize = 16
+
+		UIStroke_4.Parent = TextLabel_3
+		UIStroke_4.Thickness = 1
+		UIStroke_4.Transparency = 0.95
+
+		tw({v = Dialog, t = 0.25, s = Enum.EasingStyle.Linear, d = "Out", g = {GroupTransparency = 0}}):Play()
+		local Click1 = click(Button1_1)
+		local Click2 = click(Button2_1)
+		Click1.MouseButton1Click:Connect(function()
+			pcall(Button1)
+			tw({v = TextLabel_2, t = 0.15, s = Enum.EasingStyle.Back, d = "Out", g = {TextSize = TextLabel_2.TextSize - 2}}):Play()
+			delay(.06, function()
+				tw({v = TextLabel_2, t = 0.15, s = Enum.EasingStyle.Back, d = "Out", g = {TextSize = 16}}):Play()
+			end)
+			local f = tw({v = Dialog, t = 0.25, s = Enum.EasingStyle.Linear, d = "Out", g = {GroupTransparency = 1}})
+			f:Play()
+			f.Completed:Wait()
+			Dialog:Destroy()
+		end)
+
+		Click2.MouseButton1Click:Connect(function()
+			pcall(Button2)
+			tw({v = TextLabel_3, t = 0.15, s = Enum.EasingStyle.Back, d = "Out", g = {TextSize = TextLabel_3.TextSize - 2}}):Play()
+			delay(.06, function()
+				tw({v = TextLabel_3, t = 0.15, s = Enum.EasingStyle.Back, d = "Out", g = {TextSize = 16}}):Play()
+			end)
+			local f = tw({v = Dialog, t = 0.25, s = Enum.EasingStyle.Linear, d = "Out", g = {GroupTransparency = 1}})
+			f:Play()
+			f.Completed:Wait()
+			Dialog:Destroy()
+		end)
+	end
+
+	do
+		local Size_1 = Instance.new("TextButton")
+
+		Size_1.Name = "Size"
+		Size_1.Parent = Background_1
+		Size_1.Active = true
+		Size_1.AnchorPoint = Vector2.new(1, 1)
+		Size_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+		Size_1.BackgroundTransparency = 1
+		Size_1.BorderColor3 = Color3.fromRGB(0,0,0)
+		Size_1.BorderSizePixel = 0
+		Size_1.Position = UDim2.new(1, 0,1, 0)
+		Size_1.Size = UDim2.new(0, 20,0, 20)
+		Size_1.Font = Enum.Font.SourceSans
+		Size_1.Text = ""
+		Size_1.TextSize = 14
+
+		local SizeFrame = Instance.new("Frame")
+		local ImageLabel_1 = Instance.new("ImageLabel")
+		local UICorner_1 = Instance.new("UICorner")
+
+		SizeFrame.Name = "SizeFrame"
+		SizeFrame.Parent = Background_1
+		SizeFrame.BackgroundColor3 = Color3.fromRGB(0,0,0)
+		SizeFrame.BackgroundTransparency = 1
+		SizeFrame.BorderColor3 = Color3.fromRGB(0,0,0)
+		SizeFrame.BorderSizePixel = 0
+		SizeFrame.Size = UDim2.new(1, 0,1, 0)
+
+		ImageLabel_1.Parent = SizeFrame
+		ImageLabel_1.AnchorPoint = Vector2.new(0.5, 0.5)
+		ImageLabel_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+		ImageLabel_1.BackgroundTransparency = 1
+		ImageLabel_1.BorderColor3 = Color3.fromRGB(0,0,0)
+		ImageLabel_1.BorderSizePixel = 0
+		ImageLabel_1.Position = UDim2.new(0.5, 0,0.5, 0)
+		ImageLabel_1.Size = UDim2.new(0, 100,0, 100)
+		ImageLabel_1.Image = "rbxassetid://13857987062"
+		ImageLabel_1.ImageTransparency = 1
+
+		UICorner_1.Parent = SizeFrame
+		UICorner_1.CornerRadius = UDim.new(0,17)
+
+		Size_1.MouseButton1Down:Connect(function()
+			R = true
+		end)
+
+		local isZ = false
+		local originalSize, originalPosition
+
+		Minisize_1.MouseButton1Click:Connect(function()
+			if not isZ then
+				originalSize = Shadow_1.Size
+				originalPosition = Shadow_1.Position
+				tw({v = Shadow_1, t = 0.15, s = Enum.EasingStyle.Exponential, d = "Out", g = {
+					Size = UDim2.new(1, 0, 1, 0),
+					Position = UDim2.new(0, 0, 0, 0)
+				}}):Play()
+				Minisize_1.Image = "rbxassetid://13857981896"
+			else
+				Minisize_1.Image = "rbxassetid://13857987062"
+				tw({v = Shadow_1, t = 0.15, s = Enum.EasingStyle.Exponential, d = "Out", g = {
+					Size = originalSize,
+					Position = originalPosition
+				}}):Play()
+			end
+			isZ = not isZ
+		end)
+
+		if not HAA then
+			local AP, PAZ = Shadow_1.AbsolutePosition, Shadow_1.Parent.AbsoluteSize
+			local NP = UDim2.new((AP.X / PAZ.X),
+				Shadow_1.Position.X.Offset,
+				(AP.Y / PAZ.Y),
+				Shadow_1.Position.Y.Offset)
+
+			Shadow_1.AnchorPoint = Vector2.new(0, 0)
+			Shadow_1.Position = NP
+			HAA = true
+		end
+
+		U.InputEnded:Connect(function(i)
+			if i.UserInputType == Enum.UserInputType.MouseButton1 or i.UserInputType == Enum.UserInputType.Touch then
+				R = false
+				tw({v = SizeFrame, t = 0.15, s = Enum.EasingStyle.Linear, d = "Out", g = {BackgroundTransparency = 1}}):Play()
+				tw({v = ImageLabel_1, t = 0.15, s = Enum.EasingStyle.Linear, d = "Out", g = {ImageTransparency = 1}}):Play()
+			end
+		end)
+
+		U.InputChanged:Connect(function(i)
+			if not isZ and R and (i.UserInputType == Enum.UserInputType.MouseMovement or i.UserInputType == Enum.UserInputType.Touch) then
+				local nW = math.max(450, i.Position.X - Shadow_1.AbsolutePosition.X)
+				local nH = math.max(220, i.Position.Y - Shadow_1.AbsolutePosition.Y)
+				local nZ = UDim2.new(0, nW, 0, nH)
+				tw({v = Shadow_1, t = 0.05, s = Enum.EasingStyle.Exponential, d = "Out", g = {Size = nZ}}):Play()
+				tw({v = SizeFrame, t = 0.15, s = Enum.EasingStyle.Linear, d = "Out", g = {BackgroundTransparency = 0.6}}):Play()
+				tw({v = ImageLabel_1, t = 0.15, s = Enum.EasingStyle.Linear, d = "Out", g = {ImageTransparency = 0}}):Play()
+				ImageLabel_1.Image = 'rbxassetid://13857987062'	
+			elseif isZ and R and (i.UserInputType == Enum.UserInputType.MouseMovement or i.UserInputType == Enum.UserInputType.Touch) then
+				tw({v = SizeFrame, t = 0.15, s = Enum.EasingStyle.Linear, d = "Out", g = {BackgroundTransparency = 0.6}}):Play()
+				tw({v = ImageLabel_1, t = 0.15, s = Enum.EasingStyle.Linear, d = "Out", g = {ImageTransparency = 0}}):Play()
+				ImageLabel_1.Image = 'rbxassetid://14906268026'
+			end
+		end)
+
+		lak(Topbar_1, Shadow_1)
+
+		local isopen = false
+		local firsttime = false
+		local oSize
+		local function closeui()
+			isopen = not isopen
+			if isopen then
+				oSize = Background_1.Size
+				local close = tw({
+					v = Background_1,
+					t = 0.15,
+					s = Enum.EasingStyle.Linear,
+					d = "InOut",
+					g = {
+						GroupTransparency = 1,
+						Size = oSize - UDim2.fromOffset(5, 5)
+					}
+				})
+				close:Play()
+				close.Completed:Wait()
+				Shadow_1.Visible = false
+			else
+				Shadow_1.Visible = true  
+				local open = tw({
+					v = Background_1,
+					t = 0.15,
+					s = Enum.EasingStyle.Linear,
+					d = "InOut",
+					g = {
+						GroupTransparency = 0,
+						Size = oSize
+					}
+				})
+				open:Play()
+			end
+
+			if not firsttime then
+				firsttime = true
+				Tabs:Notify({
+					Title = 'Dummy Kawaii',
+					Desc = 'Press the <font color="#FF77A5" size="14">('..tostring(Keybind):gsub("Enum.KeyCode.", "")..')</font> button to hide and show the UI',
+					Time = 10
+				})
+			end
+		end
+
+		ChSize_1.MouseButton1Click:Connect(closeui)
+
+		U.InputBegan:Connect(function(i)
+			if i.KeyCode == Keybind then
+				local focusedTextBox = U:GetFocusedTextBox()
+				if not focusedTextBox then
+					closeui()
+				end
+			end
+		end)
+
+		local CallTheme = function(v)
+			IsTheme = v
+			local t = themes[v]
+			Library:setTheme({
+				['Shadow'] = t.Shadow,
+				['Background'] = t.Background,
+				['Page'] = t.Page,
+				['Main'] = t.Main,
+				['Text & Icon'] = t['Text & Icon'],
+				['Function'] = {
+					['Toggle'] = {
+						['Background'] = t.Function.Toggle.Background,
+						['True'] = {
+							['Toggle Background'] = t.Function.Toggle.True['Toggle Background'],
+							['Toggle Value'] = t.Function.Toggle.True['Toggle Value'],
+						},
+						['False'] = {
+							['Toggle Background'] = t.Function.Toggle.False['Toggle Background'],
+							['Toggle Value'] = t.Function.Toggle.False['Toggle Value'],
+						}
+					},
+					['Label'] = {
+						['Background'] = t.Function.Label.Background,
+					},
+					['Dropdown'] = {
+						['Background'] = t.Function.Dropdown.Background,
+						['Value Background'] = t.Function.Dropdown['Value Background'],
+						['Value Stroke'] = t.Function.Dropdown['Value Stroke'],
+						['Dropdown Select'] = {
+							['Background'] = t.Function.Dropdown['Dropdown Select'].Background,
+							['Search'] = t.Function.Dropdown['Dropdown Select'].Search,
+							['Item Background'] = t.Function.Dropdown['Dropdown Select']['Item Background'],
+						}
+					},
+					['Slider'] = {
+						['Background'] = t.Function.Slider.Background,
+						['Value Background'] = t.Function.Slider['Value Background'],
+						['Value Stroke'] = t.Function.Slider['Value Stroke'],
+						['Slider Bar'] = t.Function.Slider['Slider Bar'],
+						['Slider Bar Value'] = t.Function.Slider['Slider Bar Value'],
+						['Circle Value'] = t.Function.Slider['Circle Value'],
+					},
+					['Code'] = {
+						['Background'] = t.Function.Code.Background,
+						['Background Code'] = t.Function.Code['Background Code'],
+						['Background Code Value'] = t.Function.Code['Background Code Value'],
+						['ScrollingFrame Code'] = t.Function.Code['ScrollingFrame Code'],
+					},
+					['Button'] = {
+						['Background'] = t.Function.Button.Background,
+						['Click'] = t.Function.Button.Click,
+					},
+					['Textbox'] = {
+						['Background'] = t.Function.Textbox.Background,
+						['Value Background'] = t.Function.Textbox['Value Background'],
+						['Value Stroke'] = t.Function.Textbox['Value Stroke'],
+					},
+					['Keybind'] = {
+						['Background'] = t.Function.Keybind.Background,
+						['Value Background'] = t.Function.Keybind['Value Background'],
+						['Value Stroke'] = t.Function.Keybind['Value Stroke'],
+						['True'] = {
+							['Toggle Background'] = t.Function.Keybind.True['Toggle Background'],
+							['Toggle Value'] = t.Function.Keybind.True['Toggle Value'],
+						},
+						['False'] = {
+							['Toggle Background'] = t.Function.Keybind.False['Toggle Background'],
+							['Toggle Value'] = t.Function.Keybind.False['Toggle Value'],
+						}
+					},
+					['Color Picker'] = {
+						['Background'] = t.Function['Color Picker'].Background,
+						['Color Select'] = {
+							['Background'] = t.Function['Color Picker']['Color Select'].Background,
+							['UIStroke'] = t.Function['Color Picker']['Color Select'].UIStroke,
+						}
+					}
+				}
+			})
+		end
+		local ThemeDrop = addDropdownSelect(DropdownValue_1, DropdownValue_1, false, CallTheme, Theme, themes.index)
+
+		Close_1.MouseButton1Click:Connect(function()
+			Tabs:Dialog({
+				Title = "Do you want to <font color='#FF0000'>close</font> the ui?",
+				Button1 = {
+					Title = 'Confirm',
+					Color = Color3.fromRGB(0, 188, 0),
+					Callback = function()
+						ScreenGui:Destroy()
+					end,
+				},
+				Button2 = {
+					Title = 'Cancel',
+					Color = Color3.fromRGB(226, 39, 6),
+				}
+			})
+		end)
+
+		do
+			local CloseUI = p.CloseUIButton
+			local CloseUIShadow = Instance.new("ImageLabel")
+			local UIPaddingCloseUI_1 = Instance.new("UIPadding")
+			local BackgroundCloseUI_1 = Instance.new("Frame")
+			local UICornerCloseUI_1 = Instance.new("UICorner")
+			local FrameCloseUI_1 = Instance.new("Frame")
+			local Title_1 = Instance.new("TextLabel")
+
+			CloseUIShadow.Name = "CloseUIShadow"
+			CloseUIShadow.Parent = ScreenGui
+			CloseUIShadow.BackgroundColor3 = Color3.fromRGB(163,162,165)
+			CloseUIShadow.BackgroundTransparency = 1
+			CloseUIShadow.Position = UDim2.new(0, 0,0.200000003, 0)
+			CloseUIShadow.Size = UDim2.new(0, 70,0, 40)
+			CloseUIShadow.Image = "rbxassetid://1316045217"
+			CloseUIShadow.ImageColor3 = Color3.fromRGB(24,24,31)
+			CloseUIShadow.ImageTransparency = 0.5
+			CloseUIShadow.ScaleType = Enum.ScaleType.Slice
+			CloseUIShadow.SliceCenter = Rect.new(10, 10, 118, 118)
+			CloseUIShadow.Visible = CloseUI.Enabled
+
+			addToTheme('Shadow', CloseUIShadow)
+
+			UIPaddingCloseUI_1.Name = "UIPaddingCloseUI"
+			UIPaddingCloseUI_1.Parent = CloseUIShadow
+			UIPaddingCloseUI_1.PaddingBottom = UDim.new(0,5)
+			UIPaddingCloseUI_1.PaddingLeft = UDim.new(0,5)
+			UIPaddingCloseUI_1.PaddingRight = UDim.new(0,5)
+			UIPaddingCloseUI_1.PaddingTop = UDim.new(0,5)
+
+			BackgroundCloseUI_1.Name = "BackgroundCloseUI"
+			BackgroundCloseUI_1.Parent = CloseUIShadow
+			BackgroundCloseUI_1.AnchorPoint = Vector2.new(0.5, 0.5)
+			BackgroundCloseUI_1.BackgroundColor3 = Color3.fromRGB(29,28,38)
+			BackgroundCloseUI_1.BorderColor3 = Color3.fromRGB(0,0,0)
+			BackgroundCloseUI_1.BorderSizePixel = 0
+			BackgroundCloseUI_1.Position = UDim2.new(0.5, 0,0.5, 0)
+			BackgroundCloseUI_1.Size = UDim2.new(1, 0,1, 0)
+			BackgroundCloseUI_1.ClipsDescendants = true
+
+			addToTheme('Background', BackgroundCloseUI_1)
+
+			UICornerCloseUI_1.Name = "UICornerCloseUI"
+			UICornerCloseUI_1.Parent = BackgroundCloseUI_1
+			UICornerCloseUI_1.CornerRadius = UDim.new(0,6)
+
+			FrameCloseUI_1.Name = "FrameCloseUI"
+			FrameCloseUI_1.Parent = BackgroundCloseUI_1
+			FrameCloseUI_1.AnchorPoint = Vector2.new(0, 1)
+			FrameCloseUI_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			FrameCloseUI_1.BackgroundTransparency = 0.8999999761581421
+			FrameCloseUI_1.BorderColor3 = Color3.fromRGB(0,0,0)
+			FrameCloseUI_1.BorderSizePixel = 0
+			FrameCloseUI_1.Position = UDim2.new(0, 0,1, 0)
+			FrameCloseUI_1.Size = UDim2.new(1, 0,0, 4)
+
+			Title_1.Name = "Title"
+			Title_1.Parent = BackgroundCloseUI_1
+			Title_1.AutomaticSize = Enum.AutomaticSize.Y
+			Title_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			Title_1.BackgroundTransparency = 1
+			Title_1.BorderColor3 = Color3.fromRGB(0,0,0)
+			Title_1.BorderSizePixel = 0
+			Title_1.Size = UDim2.new(1, 0,1, 0)
+			Title_1.Font = Enum.Font.GothamBold
+			Title_1.Text = CloseUI.Text
+			Title_1.TextColor3 = Color3.fromRGB(255,255,255)
+			Title_1.TextSize = 12
+
+			addToTheme('Text & Icon', Title_1)
+
+			CloseUIShadow.Size = UDim2.new(0, Title_1.TextBounds.X + 40,0, 40)
+
+			local Click = click(CloseUIShadow)
+			lak(Click, CloseUIShadow)
+			Click.MouseButton1Click:Connect(function()
+				tw({v = Title_1, t = 0.15, s = Enum.EasingStyle.Back, d = "Out", g = {TextSize = Title_1.TextSize - 2}}):Play()
+				delay(.06, function()
+					tw({v = Title_1, t = 0.15, s = Enum.EasingStyle.Back, d = "Out", g = {TextSize = 12}}):Play()
+				end)
+				pcall(closeui)
+			end)
+		end
+	end
+
+	return Tabs
+end
+
+return Library

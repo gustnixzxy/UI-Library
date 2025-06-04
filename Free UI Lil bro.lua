@@ -2,8 +2,8 @@ Library = {}
 SaveTheme = {}
 
 local themes = {
-	index = {'Dark'},
-	Dark = {
+	index = {'Darker'},
+	Darker = {
 		['Shadow'] = Color3.fromRGB(15, 15, 15),
 		['Background'] = Color3.fromRGB(20, 20, 20),
 		['Page'] = Color3.fromRGB(18, 18, 18),
@@ -81,10 +81,20 @@ local themes = {
 	},
 }
 
+local parent = not game:GetService("RunService"):IsStudio() 
+    and game:GetService("CoreGui") 
+    or game:GetService("Players").LocalPlayer.PlayerGui
+
+local existingGui = parent:FindFirstChild("Lil Bro")
+if existingGui then
+    existingGui:Destroy()
+end
+
 local ScreenGui = Instance.new("ScreenGui")
-ScreenGui.Name = "Dummy Kawaii"
-ScreenGui.Parent = not game:GetService("RunService"):IsStudio() and game:GetService("CoreGui") or game:GetService("Players").LocalPlayer.PlayerGui
+ScreenGui.Name = "Lil Bro"
+ScreenGui.Parent = parent
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
 
 local U, Tw = game:GetService("UserInputService"), game:GetService("TweenService")
 
@@ -603,7 +613,7 @@ do
 		TextBox_1.Size = UDim2.new(1, 0,1, 0)
 		TextBox_1.Font = Enum.Font.Gotham
 		TextBox_1.PlaceholderColor3 = Color3.fromRGB(178,178,178)
-		TextBox_1.PlaceholderText = "Search"
+		TextBox_1.PlaceholderText = "Search . . ."
 		TextBox_1.Text = ""
 		TextBox_1.TextColor3 = Color3.fromRGB(255,255,255)
 		TextBox_1.TextSize = 11
@@ -1057,6 +1067,7 @@ function Library:Window(p)
 	local Frame_5 = Instance.new("Frame")
 	local Ct_1 = Instance.new("Frame")
 	local UIPadding_11 = Instance.new("UIPadding")
+	local Minisize_1 = Instance.new("ImageButton")
 	local UIListLayout_6 = Instance.new("UIListLayout")
 	local Close_1 = Instance.new("ImageButton")
 	local DropdownValue_1 = Instance.new("Frame")
@@ -1102,6 +1113,20 @@ function Library:Window(p)
 	UIPadding_11.PaddingRight = UDim.new(0,10)
 	UIPadding_11.PaddingTop = UDim.new(0,5)
 
+	Minisize_1.Name = "Minisize"
+	Minisize_1.Parent = Ct_1
+	Minisize_1.Active = true
+	Minisize_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+	Minisize_1.BackgroundTransparency = 1
+	Minisize_1.BorderColor3 = Color3.fromRGB(0,0,0)
+	Minisize_1.BorderSizePixel = 0
+	Minisize_1.LayoutOrder = 2
+	Minisize_1.Size = UDim2.new(0, 16,0, 16)
+	Minisize_1.Image = "rbxassetid://13857987062"
+	Minisize_1.ImageTransparency = 0.5
+
+	addToTheme('Text & Icon', Minisize_1)
+
 	UIListLayout_6.Parent = Ct_1
 	UIListLayout_6.Padding = UDim.new(0,10)
 	UIListLayout_6.FillDirection = Enum.FillDirection.Horizontal
@@ -1118,7 +1143,7 @@ function Library:Window(p)
 	Close_1.BorderSizePixel = 0
 	Close_1.LayoutOrder = 3
 	Close_1.Size = UDim2.new(0, 16,0, 16)
-	Close_1.Image = "rbxassetid://15082305656"
+	Close_1.Image = "rbxassetid://18328658828"
 
 	ChSize_1.Name = "Size"
 	ChSize_1.Parent = Ct_1
@@ -4530,20 +4555,7 @@ function Library:Window(p)
 		local ThemeDrop = addDropdownSelect(DropdownValue_1, DropdownValue_1, false, CallTheme, Theme, themes.index)
 
 		Close_1.MouseButton1Click:Connect(function()
-			Tabs:Dialog({
-				Title = "Do you want to <font color='#FF0000'>close</font> the ui?",
-				Button1 = {
-					Title = 'Confirm',
-					Color = Color3.fromRGB(0, 188, 0),
-					Callback = function()
-						ScreenGui:Destroy()
-					end,
-				},
-				Button2 = {
-					Title = 'Cancel',
-					Color = Color3.fromRGB(226, 39, 6),
-				}
-			})
+			ScreenGui:Destroy()
 		end)
 
 		do

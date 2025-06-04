@@ -615,7 +615,7 @@ do
 		TextBox_1.Size = UDim2.new(1, 0,1, 0)
 		TextBox_1.Font = Enum.Font.Gotham
 		TextBox_1.PlaceholderColor3 = Color3.fromRGB(178,178,178)
-		TextBox_1.PlaceholderText = "Search . . ."
+		TextBox_1.PlaceholderText = "Search"
 		TextBox_1.Text = ""
 		TextBox_1.TextColor3 = Color3.fromRGB(255,255,255)
 		TextBox_1.TextSize = 11
@@ -1069,7 +1069,6 @@ function Library:Window(p)
 	local Frame_5 = Instance.new("Frame")
 	local Ct_1 = Instance.new("Frame")
 	local UIPadding_11 = Instance.new("UIPadding")
-	local Minisize_1 = Instance.new("ImageButton")
 	local UIListLayout_6 = Instance.new("UIListLayout")
 	local Close_1 = Instance.new("ImageButton")
 	local DropdownValue_1 = Instance.new("Frame")
@@ -4342,28 +4341,6 @@ function Library:Window(p)
 
 		Size_1.MouseButton1Down:Connect(function()
 			R = true
-		end)
-
-		local isZ = false
-		local originalSize, originalPosition
-
-		Minisize_1.MouseButton1Click:Connect(function()
-			if not isZ then
-				originalSize = Shadow_1.Size
-				originalPosition = Shadow_1.Position
-				tw({v = Shadow_1, t = 0.15, s = Enum.EasingStyle.Exponential, d = "Out", g = {
-					Size = UDim2.new(1, 0, 1, 0),
-					Position = UDim2.new(0, 0, 0, 0)
-				}}):Play()
-				Minisize_1.Image = "rbxassetid://13857981896"
-			else
-				Minisize_1.Image = "rbxassetid://13857987062"
-				tw({v = Shadow_1, t = 0.15, s = Enum.EasingStyle.Exponential, d = "Out", g = {
-					Size = originalSize,
-					Position = originalPosition
-				}}):Play()
-			end
-			isZ = not isZ
 		end)
 
 		if not HAA then

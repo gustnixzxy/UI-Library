@@ -1,5 +1,3 @@
--- wc ccccc
-
 Library = {}
 SaveTheme = {}
 
@@ -84,7 +82,7 @@ local themes = {
 }
 
 local ScreenGui = Instance.new("ScreenGui")
-ScreenGui.Name = "lil bro?"
+ScreenGui.Name = "Dummy Kawaii"
 ScreenGui.Parent = not game:GetService("RunService"):IsStudio() and game:GetService("CoreGui") or game:GetService("Players").LocalPlayer.PlayerGui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
@@ -131,7 +129,7 @@ do
 		end
 	end
 
-	local IconList = loadstring(game:HttpGet('https://raw.githubusercontent.com/henqrz/UI-Library/refs/heads/main/Icons.lua'))()
+	local IconList = loadstring(game:HttpGet('https://raw.githubusercontent.com/Dummyrme/Library/refs/heads/main/Icon.lua'))()
 	function gl(i)
 		local iconData = IconList.Icons[i]
 		if iconData then
@@ -305,7 +303,7 @@ do
 		Background.Size = UDim2.new(1, 0,1, 0)
 		Background.ClipsDescendants = true
 
-       addToTheme('Function.' .. ty .. '.Background', Background)
+		addToTheme('Function.'..ty..'.Background', Background)
 
 		UICorner_1.Parent = Background
 
@@ -535,7 +533,7 @@ do
 		ImageLabel_1.BorderSizePixel = 0
 		ImageLabel_1.Position = UDim2.new(1, 0,0.5, 0)
 		ImageLabel_1.Size = UDim2.new(0, 20,0, 20)
-		ImageLabel_1.Image = "rbxassetid://83327911115481"
+		ImageLabel_1.Image = "rbxassetid://14937709869"
 		ImageLabel_1.ImageTransparency = 0.3
 
 		addToTheme('Text & Icon', ImageLabel_1)
@@ -974,7 +972,7 @@ function Library:Window(p)
 	local Title = p.Title or 'null'
 	local Desc = p.Desc or ''
 	local Icon = p.Icon or 'door-open'
-	local Theme = p.Theme or 'Darker'
+	local Theme = p.Theme or 'Dark'
 	local Keybind = p.Config.Keybind or Enum.KeyCode.LeftControl
 	local Size = p.Config.Size or UDim2.new(0, 530,0, 400)
 
@@ -1059,6 +1057,7 @@ function Library:Window(p)
 	local Frame_5 = Instance.new("Frame")
 	local Ct_1 = Instance.new("Frame")
 	local UIPadding_11 = Instance.new("UIPadding")
+	local Minisize_1 = Instance.new("ImageButton")
 	local UIListLayout_6 = Instance.new("UIListLayout")
 	local Close_1 = Instance.new("ImageButton")
 	local DropdownValue_1 = Instance.new("Frame")
@@ -1103,6 +1102,20 @@ function Library:Window(p)
 	UIPadding_11.PaddingLeft = UDim.new(0,10)
 	UIPadding_11.PaddingRight = UDim.new(0,10)
 	UIPadding_11.PaddingTop = UDim.new(0,5)
+
+	Minisize_1.Name = "Minisize"
+	Minisize_1.Parent = Ct_1
+	Minisize_1.Active = true
+	Minisize_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+	Minisize_1.BackgroundTransparency = 1
+	Minisize_1.BorderColor3 = Color3.fromRGB(0,0,0)
+	Minisize_1.BorderSizePixel = 0
+	Minisize_1.LayoutOrder = 2
+	Minisize_1.Size = UDim2.new(0, 16,0, 16)
+	Minisize_1.Image = "rbxassetid://13857987062"
+	Minisize_1.ImageTransparency = 0.5
+
+	addToTheme('Text & Icon', Minisize_1)
 
 	UIListLayout_6.Parent = Ct_1
 	UIListLayout_6.Padding = UDim.new(0,10)
@@ -4333,6 +4346,28 @@ function Library:Window(p)
 			R = true
 		end)
 
+		local isZ = false
+		local originalSize, originalPosition
+
+		Minisize_1.MouseButton1Click:Connect(function()
+			if not isZ then
+				originalSize = Shadow_1.Size
+				originalPosition = Shadow_1.Position
+				tw({v = Shadow_1, t = 0.15, s = Enum.EasingStyle.Exponential, d = "Out", g = {
+					Size = UDim2.new(1, 0, 1, 0),
+					Position = UDim2.new(0, 0, 0, 0)
+				}}):Play()
+				Minisize_1.Image = "rbxassetid://13857981896"
+			else
+				Minisize_1.Image = "rbxassetid://13857987062"
+				tw({v = Shadow_1, t = 0.15, s = Enum.EasingStyle.Exponential, d = "Out", g = {
+					Size = originalSize,
+					Position = originalPosition
+				}}):Play()
+			end
+			isZ = not isZ
+		end)
+
 		if not HAA then
 			local AP, PAZ = Shadow_1.AbsolutePosition, Shadow_1.Parent.AbsoluteSize
 			local NP = UDim2.new((AP.X / PAZ.X),
@@ -4409,8 +4444,8 @@ function Library:Window(p)
 			if not firsttime then
 				firsttime = true
 				Tabs:Notify({
-					Title = 'UI Minimized',
-					Desc = 'Press the <font color="#FF77A5" size="10">('..tostring(Keybind):gsub("Enum.KeyCode.", "")..')</font> button to hide and show the UI',
+					Title = 'Dummy Kawaii',
+					Desc = 'Press the <font color="#FF77A5" size="14">('..tostring(Keybind):gsub("Enum.KeyCode.", "")..')</font> button to hide and show the UI',
 					Time = 10
 				})
 			end
@@ -4510,20 +4545,7 @@ function Library:Window(p)
 		local ThemeDrop = addDropdownSelect(DropdownValue_1, DropdownValue_1, false, CallTheme, Theme, themes.index)
 
 		Close_1.MouseButton1Click:Connect(function()
-			Tabs:Dialog({
-				Title = "Do you want to <font color='#FF0000'>close</font> the ui?",
-				Button1 = {
-					Title = 'Confirm',
-					Color = Color3.fromRGB(0, 188, 0),
-					Callback = function()
-						ScreenGui:Destroy()
-					end,
-				},
-				Button2 = {
-					Title = 'Cancel',
-					Color = Color3.fromRGB(226, 39, 6),
-				}
-			})
+			ScreenGui:Destroy()
 		end)
 
 		do
@@ -4615,7 +4637,4 @@ function Library:Window(p)
 	return Tabs
 end
 
-Library:setTheme(themes.Darker)
-
 return Library
-

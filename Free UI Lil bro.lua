@@ -1,3 +1,5 @@
+-- lolww
+
 Library = {}
 SaveTheme = {}
 
@@ -1112,20 +1114,6 @@ function Library:Window(p)
 	UIPadding_11.PaddingLeft = UDim.new(0,10)
 	UIPadding_11.PaddingRight = UDim.new(0,10)
 	UIPadding_11.PaddingTop = UDim.new(0,5)
-
-	Minisize_1.Name = "Minisize"
-	Minisize_1.Parent = Ct_1
-	Minisize_1.Active = true
-	Minisize_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
-	Minisize_1.BackgroundTransparency = 1
-	Minisize_1.BorderColor3 = Color3.fromRGB(0,0,0)
-	Minisize_1.BorderSizePixel = 0
-	Minisize_1.LayoutOrder = 2
-	Minisize_1.Size = UDim2.new(0, 16,0, 16)
-	Minisize_1.Image = "rbxassetid://13857987062"
-	Minisize_1.ImageTransparency = 0.5
-
-	addToTheme('Text & Icon', Minisize_1)
 
 	UIListLayout_6.Parent = Ct_1
 	UIListLayout_6.Padding = UDim.new(0,10)

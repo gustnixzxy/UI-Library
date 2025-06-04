@@ -1,4 +1,4 @@
--- wc
+-- wc fixed
 
 Library = {}
 SaveTheme = {}
@@ -305,7 +305,7 @@ do
 		Background.Size = UDim2.new(1, 0,1, 0)
 		Background.ClipsDescendants = true
 
-       addToTheme('Darker.Function.' .. ty .. '.Background', Background)
+       addToTheme('Function.' .. ty .. '.Background', Background)
 
 		UICorner_1.Parent = Background
 
@@ -4615,4 +4615,7 @@ function Library:Window(p)
 	return Tabs
 end
 
+Library:setTheme(themes.Darker)
+
 return Library
+

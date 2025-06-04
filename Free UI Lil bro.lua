@@ -1133,7 +1133,7 @@ function Library:Window(p)
 	Close_1.BorderSizePixel = 0
 	Close_1.LayoutOrder = 3
 	Close_1.Size = UDim2.new(0, 16,0, 16)
-	Close_1.Image = "rbxassetid://15082305656"
+	Close_1.Image = "rbxassetid://118328658828"
 
 	ChSize_1.Name = "Size"
 	ChSize_1.Parent = Ct_1

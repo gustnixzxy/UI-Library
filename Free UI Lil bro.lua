@@ -1,11 +1,11 @@
--- lol
+-- s??
 
 Library = {}
 SaveTheme = {}
 
 local themes = {
-	index = {'Darker'},
-	Darker = {
+	index = {'Dark'},
+	Dark = {
 		['Shadow'] = Color3.fromRGB(15, 15, 15),
 		['Background'] = Color3.fromRGB(20, 20, 20),
 		['Page'] = Color3.fromRGB(18, 18, 18),
@@ -83,19 +83,9 @@ local themes = {
 	},
 }
 
-
-local parent = not game:GetService("RunService"):IsStudio() 
-    and game:GetService("CoreGui") 
-    or game:GetService("Players").LocalPlayer.PlayerGui
-
-local existingGui = parent:FindFirstChild("Lil Bro")
-if existingGui then
-    existingGui:Destroy()
-end
-
 local ScreenGui = Instance.new("ScreenGui")
-ScreenGui.Name = "Lil Bro"
-ScreenGui.Parent = parent
+ScreenGui.Name = "Dummy Kawaii"
+ScreenGui.Parent = not game:GetService("RunService"):IsStudio() and game:GetService("CoreGui") or game:GetService("Players").LocalPlayer.PlayerGui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 local U, Tw = game:GetService("UserInputService"), game:GetService("TweenService")
@@ -141,7 +131,7 @@ do
 		end
 	end
 
-	local IconList = loadstring(game:HttpGet('https://raw.githubusercontent.com/henqrz/UI-Library/refs/heads/main/Icons.lua'))()
+	local IconList = loadstring(game:HttpGet('https://raw.githubusercontent.com/Dummyrme/Library/refs/heads/main/Icon.lua'))()
 	function gl(i)
 		local iconData = IconList.Icons[i]
 		if iconData then
@@ -615,7 +605,7 @@ do
 		TextBox_1.Size = UDim2.new(1, 0,1, 0)
 		TextBox_1.Font = Enum.Font.Gotham
 		TextBox_1.PlaceholderColor3 = Color3.fromRGB(178,178,178)
-		TextBox_1.PlaceholderText = "Search"
+		TextBox_1.PlaceholderText = "Search . . ."
 		TextBox_1.Text = ""
 		TextBox_1.TextColor3 = Color3.fromRGB(255,255,255)
 		TextBox_1.TextSize = 11
@@ -984,7 +974,7 @@ function Library:Window(p)
 	local Title = p.Title or 'null'
 	local Desc = p.Desc or ''
 	local Icon = p.Icon or 'door-open'
-	local Theme = p.Theme or 'Darker'
+	local Theme = p.Theme or 'Dark'
 	local Keybind = p.Config.Keybind or Enum.KeyCode.LeftControl
 	local Size = p.Config.Size or UDim2.new(0, 530,0, 400)
 
@@ -4299,7 +4289,53 @@ function Library:Window(p)
 	end
 
 	do
+		local Size_1 = Instance.new("TextButton")
 
+		Size_1.Name = "Size"
+		Size_1.Parent = Background_1
+		Size_1.Active = true
+		Size_1.AnchorPoint = Vector2.new(1, 1)
+		Size_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+		Size_1.BackgroundTransparency = 1
+		Size_1.BorderColor3 = Color3.fromRGB(0,0,0)
+		Size_1.BorderSizePixel = 0
+		Size_1.Position = UDim2.new(1, 0,1, 0)
+		Size_1.Size = UDim2.new(0, 20,0, 20)
+		Size_1.Font = Enum.Font.SourceSans
+		Size_1.Text = ""
+		Size_1.TextSize = 14
+
+		local SizeFrame = Instance.new("Frame")
+		local ImageLabel_1 = Instance.new("ImageLabel")
+		local UICorner_1 = Instance.new("UICorner")
+
+		SizeFrame.Name = "SizeFrame"
+		SizeFrame.Parent = Background_1
+		SizeFrame.BackgroundColor3 = Color3.fromRGB(0,0,0)
+		SizeFrame.BackgroundTransparency = 1
+		SizeFrame.BorderColor3 = Color3.fromRGB(0,0,0)
+		SizeFrame.BorderSizePixel = 0
+		SizeFrame.Size = UDim2.new(1, 0,1, 0)
+
+		ImageLabel_1.Parent = SizeFrame
+		ImageLabel_1.AnchorPoint = Vector2.new(0.5, 0.5)
+		ImageLabel_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+		ImageLabel_1.BackgroundTransparency = 1
+		ImageLabel_1.BorderColor3 = Color3.fromRGB(0,0,0)
+		ImageLabel_1.BorderSizePixel = 0
+		ImageLabel_1.Position = UDim2.new(0.5, 0,0.5, 0)
+		ImageLabel_1.Size = UDim2.new(0, 100,0, 100)
+		ImageLabel_1.Image = "rbxassetid://13857987062"
+		ImageLabel_1.ImageTransparency = 1
+
+		UICorner_1.Parent = SizeFrame
+		UICorner_1.CornerRadius = UDim.new(0,17)
+
+		Size_1.MouseButton1Down:Connect(function()
+			R = true
+		end)
+
+	
 
 		if not HAA then
 			local AP, PAZ = Shadow_1.AbsolutePosition, Shadow_1.Parent.AbsoluteSize
@@ -4377,8 +4413,8 @@ function Library:Window(p)
 			if not firsttime then
 				firsttime = true
 				Tabs:Notify({
-					Title = 'rev Library',
-					Desc = 'Press the <font color="#FF77A5" size="10">('..tostring(Keybind):gsub("Enum.KeyCode.", "")..')</font> button to hide and show the UI',
+					Title = 'Dummy Kawaii',
+					Desc = 'Press the <font color="#FF77A5" size="14">('..tostring(Keybind):gsub("Enum.KeyCode.", "")..')</font> button to hide and show the UI',
 					Time = 10
 				})
 			end
